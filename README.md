@@ -1,7 +1,7 @@
 Extract light mode for steam.zip in a folder
 Move folder to steam/skins/
 
-On steam go to settings interface and choose the newly added skin
+On steam go to settings -> interface and choose the newly added skin
 Steam will have to restart to apply the theme
 
 Install SteamFriendsPatcher. NOTE (if running v0.1.36-beta, "Steam Beta" in Settings, needs to be ticked.) 
