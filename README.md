@@ -1,3 +1,5 @@
+I know its not perfect yet but ill keep woking on it
+
 Extract light mode for steam.zip in a folder
 Move folder to steam/skins/
 
