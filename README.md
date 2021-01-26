@@ -14,3 +14,6 @@ run steamfriendspatcher and it will apply the theme
 ![LIGHT UI - LIBRARY](https://i.imgur.com/AXTUyOd.png) 
 
 ![LIGHT UI - DOWNLOADS](https://i.imgur.com/WZkVRtT.png)
+
+
+Credits to jonius7 for the code that makes the sidebar compact
