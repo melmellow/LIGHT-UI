@@ -1,0 +1,1632 @@
+*{box-shadow:none!important}
+
+:root {/* Colors */
+	--searchbox: #333333;
+    --scrollbar: #585858;
+    --trans: transparent;
+    --black: #000000;
+    --black-ish: #2a3f5a00;
+    --realblack: #101010;
+    --blacker-ish: #1b1b1b;
+    --blacker: #1c1c1c;
+    --lightblack: #121212;
+    --darkergrey: #585858;
+    --bedarkgrey: #585858;
+    --thegrey: #C3C3C3;
+    --begrey: #262627;
+    --littlegrey: #585858;
+    --darkgrey: #E4E4E4;
+    --grey: #585858;
+    --lightgrey: #585858;
+    --lightergrey: #585858;
+    --grey-ish: #454545;
+    --dakerwhite: #cecece;
+    --darkwhite: #d9dadd;
+    --white: #585858;
+    --darkblue: #0e5984;
+    --blue: #fff;
+    --blu: #67c1f5;
+    --blue-ish: #7cbef8;
+    --blue-er: #a4d7f5;
+    --lightblue: #c4e4f2;
+    --darkgreen: #5c7e10;
+    --green: #d2e885;
+    --ingame: #90ba3c;
+    --online: #57cbde;
+    --offline: #585858;
+    --gold: #ffcc6a;
+    --bronze: #695833;
+    --purple: #585858;
+    --pink: #FF00FF;
+    --red: #FF0000;
+    --orange: #FF6600;
+    --yellow: #FFFF00;
+
+    /* Profile Blur */
+    --blur: blur(10px); /* default 10px */
+
+    /* Round/Hard Edges */
+    --border0: 4px; /* default 4px */
+    --border1: 10px; /* default 10px */
+    --border2: 20px; /* default 20px */
+    --border25: 25px; /* default 25px */
+    --border35: 35px; /* default 35px */
+    --border4: 40px; /* default 40px */
+    --border5: 50px; /* default 50px */
+    --border8: 80px; /* default 80px */
+    --border50: 50%; /* default 50% */
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar-thumb:window-inactive{background-clip: padding-box!important;-webkit-box-shadow:none!important;background:transparent!important;border-radius:var(--border1)!important}
+body::-webkit-scrollbar-thumb{background-clip:padding-box!important;-webkit-box-shadow:none!important;background-color:var(--scrollbar)!important;border:5px solid var(--darkgrey)!important;border-radius:var(--border1)!important;width:40px!important}
+body::-webkit-scrollbar-track{-webkit-box-shadow:none!important;background:var(--darkgrey)!important}
+body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid transparent!important;background-color:transparent!important}
+.DialogBody::-webkit-scrollbar{display:none!important;border:5px solid transparent!important}
+
+/* Resolution Fix */
+@media only screen and (min-width:3000px){
+.responsive_page_content{-webkit-transform:scale(2)!important;-webkit-transform-origin:50% 00% 0!important}
+.modal_frame{width:66%!important;height:80%!important}
+#footer{BORDER-TOP:1PX SOLID #DCDCDC!IMPORTANT;display:none!important}
+}
+@media only screen and (min-width:3400px){
+.responsive_page_content{-webkit-transform:scale(1)!important;-webkit-transform-origin:50% 00% 0!important}
+.modal_frame{width:66%!important;height:80%!important}
+#footer{display:none!important}
+}
+@media only screen and (min-width:4000px){
+.responsive_page_content{-webkit-transform:scale(2)!important;-webkit-transform-origin:50% 00% 0!important}
+.modal_frame{width:66%!important;height:80%!important}
+#footer{display:none!important}
+}
+
+/* Main Code */
+.workshopItemTitle {COLOR:#585858!IMPORTANT}
+.guideTopDescription {COLOR:#585858!IMPORTANT}
+.invite_row {background:#C3C3C3!important;border-radius:10px!Important;border:1px solid #b6b6b6!important}
+.mature_content_filtered {background-color:#e4e4e4!important}
+.checkout_main .dselect_container a.trigger {OUTLINE:0!IMPORTANT;COLOR:#FFF!IMPORTANT}
+.block {BORDER-RADIUS:10PX!IMPORTANT;BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+#payment_info_tab .checkout_content .payment_info_form_area {BACKGROUND:#E4E4E4!IMPORTANT}
+.checkout_content_box input[type="text"], .checkout_content_box input[type="password"], .checkout_content_box select, .checkout_content_box textarea, .checkout_main .dselect_container a.trigger {OUTLINE:0!IMPORTANT;BORDER:1PX SOLID #B6B6B6!IMPORTANT}
+.vac_title {COLOR:#585858!IMPORTANT}
+.no_vac_bans_header {COLOR:#54A448!IMPORTANT}
+.app_tag_form_ctn .gray_bevel.for_text_input, .text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input, .text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input {BORDER-RADIUS:30PX!iMPORTANT;BACKGROUND-COLOR:#C3C3C3!IMPORTANT;BORDER:1PX SOLID #B6B6B6!IMPORTANT}
+.dq_settings_content {color:#585858!important}
+.app_tag_form_ctn .gray_bevel.for_text_input {border-radius:30px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.account_preferences .gray_bevel input, .account_preferences .gray_bevel textarea {color:#585858!important}
+.dq_settings_content .dq_settings_section_title {color:#585858!important}
+.dq_settings_checkrow {MARGIN-BOTTOM:6PX!IMPORTANT;background-color:#C3C3C3!important}
+.queue_options_ctn {border-bottom:#dcdcdc!important}
+/* .phone_header_description img {padding:0px!important;width:0px!important;opacity:0!important} */
+.accountTable > thead > tr {background-color:#585858!important}
+.accountTable > tbody > tr:nth-child(odd) {background-color:#C3C3C3!important}
+.accountTable > tbody > tr:nth-child(even) {background-color:#e4e4e4!important}
+.accountTable th {color:#fff!important}
+.parental_settings_followsteps {color:#585858!important}
+.parental_settings_instructions {font-weight:440!important;color:#585858!important}
+.feature_row label {color:#585858!important}
+.parental_status_title1 {color:#585858!important}
+.parental_settings_current_status {color:#585858!important}
+.parental_status_title2 {font-weight:440!important;color:#585858!important}
+.inner_rule {border-color:#b6b6b6!important}
+.parental_settings_description {color:#585858!important}
+.parental_settings_box {border-radius:10px!Important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+#verify_code_error_msg, #changepw_error_msg, #search_error_msg, #form_submit_error {border-radius:10px!important;border:1px solid #EF4145!important;background-color:#EF4145!important}
+.twofactor_settings_choice_description, .twofactor_deauthorize_description {color:#585858!important}
+.twofactor_settings_instructions {color:#585858!important}
+.twofactor_settings_input {border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.twofactor_settings_choice_header, .twofactor_deauthorize_header {color:#585858!important}
+.deauthorize_box {border-radius:10px!Important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.btn_blue_white_innerfade > span {border:0!important;color:#fff!important;background-color:#41A6EF!important}
+.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {color:#fff!important}
+.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background-color:#1181D2!important}
+.twofactor_settings_choice_rule {border-color:#b6b6b6!important}
+.twofactor_settings_radiobtn_header {color:#585858!important}
+.twofactor_box {border-radius:10px!Important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+#forgot_login_search, #forgot_login_code, #verify_cdkey {background-color:#C3C3C3!important;border:1px solid #b6b6b6!important}
+input[type=submit] {color:#fff!important;border-radius:30px!important;background-color:#41A6EF!important}
+input[type=submit]:hover {background-color:#1181D2!important}
+.account_recovery_box {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.account_recovery_box {color:#585858!important}
+.opt_out_description {color:#585858!important}
+.checkout_content.cart_send_choice {background-color:#e4e4e4!important}
+label.send_choice_txt {color:#585858!important}
+.email_pref_ctn.individual_pref {background:#C3C3C3!important}
+.account_change_country_content {border-radius:0 0 30px 30px!important;color:#585858!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+td.wht_wallet_balance.wallet_entry_highlight {color:#000!important}
+.account_table th {background-color:#585858!important}
+.account_table tr:nth-child(even) {background-color:#C3C3C3!important}
+.account_table tr:nth-child(odd) {background-color:#e4e4e4!important}
+td.wht_wallet_balance {color:#585858!important}
+.wallet_history_click_hint {color:#585858!important}
+.wht_items {font-weight:440!important;color:#585858!important}
+.wht_type {color:#585858!important}
+.wth_payment {color:#585858!important}
+td.wht_total {color:#585858!important}
+td.wht_wallet_change {color:#585858!important;border-color:#b6b6b6!important}
+td.wht_date {color:#585858!important}
+.wallet_history_table tr:nth-child(odd) {background-color:#C3C3C3!important}
+.wallet_history_table {border-color:#b6b6b6!important}
+.wallet_history_table th {color:#fff!important;background-color:#585858!important}
+.accountInfoBlock .block_content {color:#585858!important;border-radius:10px!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.accountBalance .price {color:#585858!important}
+.addfunds_about {color:#585858!important}
+.account_manage_link {font-weight:440!important}
+.review_anomalous_events_icon {color:#585858!important}
+.account_preferences input[type=checkbox], .account_preferences label {color:#585858!important}
+.review_events_preferences_radio_btns {border-radius:10px!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.review_anomalous_events_title, .review_anomalous_events_desc {color:#585858!important}
+div .important {border-color:#b6b6b6!important}
+.account_settings_container hr {border-bottom:1px solid #b6b6b6!important}
+.account_settings_container p.info {color:#585858!important}
+.not_interested_container .description {color:#585858!important}
+.queue_customize, .preferences_link {color:#41A6EF!important}
+.queue_customize:hover, .preferences_link:hover {color:#1181D2!important}
+.text_filter_action_link, .text_filter_action_link a {color:#41A6EF!important}
+.text_filter_action_link:hover, .text_filter_action_link:hover a {color:#1181D2!important}
+.not_interested_container {border:1px solid #b6b6b6!important}
+.account_setting_parenthetical {color:#585858!important}
+.account_preferences input.gray_bevel, .account_preferences textarea.gray_bevel, .account_preferences .gray_bevel {border-radius:30px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important;}
+.two_column .nav_item.active {WIDTH:205PX!IMPORTANT;background-color:#585858!important;color:#fff!important}
+.two_column .nav_item.active:hover {background-color:#000!important}
+.account_setting_sub_block_long {color:#585858!important}
+.two_column .nav_item:hover {background-color:#C3C3C3!important}
+.account_settings_container {border-radius:0 0 10px 10px !important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+#primary_language {border:1px solid #b6b6b6!important}
+.account_settings_container label {color:#585858!important}
+.account_setting_block_short {border-radius:10px!Important;border:1px solid #b6b6b6!Important;background:#C3C3C3!important}
+.accountData.price a:hover {text-decoration:normal!important;color:#000!important}
+.account_header_line img {margin-left:10px!important}
+.account_header_line {border-radius: 10px 10px 0 0 !important;background-color:#585858!important}
+.rule, .inner_rule {border-top:1px solid #b6b6b6!important}
+.account_data_field {color:#1181D2!important}
+.account_setting_sub_block {color:#585858!important}
+.youraccount_steamid {color:#585858!important}
+.account_setting_block {border-radius: 0 0 10px 10px!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.about_install_steam_link {BORDER-RADIUS:30PX!IMPORTANT;BACKGROUND:#41A6EF!IMPORTANT}
+body .responsive_page_template_content, body.v6 .responsive_page_template_content {COLOR:#585858!IMPORTANT}
+.market_listing_listed_date {color:#585858!important}
+.help_game_header {color:#585858!important}
+#tabcontent_inventory {border:0!important;background-color:#e4e4e4!important}
+.ui-state-default, .ui-widget-content .ui-state-default {background:#585858!important}
+.home_content.single .capsule {width:291px!Important}
+.discount_block > .discount_prices {background-color:#C3C3C3!important}
+.home_discounts_ctn .see_more_link, .home_category_games_ctn .see_more_link, .home_category_ctn .see_more_link {background-color:none!important}
+.carousel_container .arrow.left > div {background-position-y:20px!important;background-position-x:8px!important;background-size:30px!important;background-repeat:no-repeat!important}
+.franchise_discount_tag {color:#fff!important;background:#54A448!important}
+.home_section_title {color:#585858!important}
+.friends_nav .icon_add_friends .title {color:#fff!important}
+.friends_nav a:hover {background-color:#C3C3C3!important}
+button.DialogButton {border-radius:30px!important;background:#585858!important}
+button.DialogButton::before {box-shadow:none!important}
+button.DialogButton.Primary {border-radius:30px!important;background:#41A6EF!important}
+button.DialogButton.Primary:hover {background:#1181D2!important}
+.managefriends_CopyContainer_1HjkZ .managefriends_Link_18Sc0 {color:#585858!important}
+.managefriends_DimBackground_2N55H {background-color:#C3C3C3!important}
+.managefriends_Body_2s393 {color:#585858!important}
+.managefriends_Background_1xwi0 {background-color:#C3C3C3!important}
+#game_area_metascore .logo {height:30px!important;width:34px!important}
+#game_area_metascore .score.high {border-radius:30px!important;background-color:#78BE6D!important}
+.bundle_label{color:#41A6EF!important}
+.managefriends_HeaderBlock_X9bYN {color:#fff!important;background-color:#41A6EF!important}
+.game_hover_box p, .game_hover_box {color:#585858!important;}
+.recommendation_row .quote .quote_content {color:#585858!important}
+h3  {color:#585858!important}
+.contenthub_subtitle {color:#585858!important}
+.sidesection #searchwords {font-style:normal!important}
+/* #quicksearch img {opacity:0!important} */
+.right_col #contact_support_container {border-radius:10px!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.recommendation_row {background-color:#C3C3C3!important}
+#search_box input {color:#585858!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.persona.online, a.persona.online, .persona.online a, .friend_status_online, .friend_status_online div, .friend_status_online a {color:#585858!important}
+.friend_game_block .friend_activity:hover {background:#C3C3C3!important}
+.friendactivity_tab_header {background-color:#e4e4e4!important;color:#585858!important}
+.left_col {border:1px solid #b6b6b6!important;border-radius:10px!important}
+h4 {background:none!important;color:#585858!important;border-bottom:1px solid #b6b6b6!important}
+.recommendation_highlight .highlight_description h4 {color:#585858!important}
+.recommendation_highlight {background-color:#C3C3C3!important}
+#detailStats td b {font-size:12px!important;color:#585858!important}
+.body_text {color:#585858!important}
+.queue_page_desc {color:#585858!important;font-family:segoe UI!important}
+.btn_small > span, input.btn_small {color:#fff!important}
+.tag_browse_header_desc {text-shadow:none!important;color:#585858!important}
+.browse_tag_game_name {color:#585858!important}
+a {color:#585858!important}
+.browse_tag_games, .browse_tag_game_total {background-color:#C3C3C3!important}
+.dailydeal_ctn {background:#C3C3C3!important}
+.curator_giant_capsule .curator_block .blurb > span, .curator_giant_capsule .curator_block .blurb > span:hover {color:#fff!important}
+.hover_details_block, .hover_details_block_full {color:#585858!important}
+.store_nav .popup_menu .popup_menu_item:hover, .store_nav .popup_menu .popup_menu_item.focus, .creator .popup_menu .popup_menu_item:hover, .creator .popup_menu .popup_menu_item.focus, .curator .popup_menu .popup_menu_item:hover, .curator .popup_menu .popup_menu_item.focus, .footer_content .popup_menu .popup_menu_item:hover, .footer_content .popup_menu .popup_menu_item.focus, .search_area .popup_body .match:hover, .search_area .popup_body .match:hover .match_name, .search_area .popup_body .match.focus, .search_area .popup_body .match.focus .match_name {background-color:#C3C3C3!important} 
+.carousel_container .carousel_thumbs > div {border:1px solid #b6b6b6!important;BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.carousel_container .carousel_thumbs > div:hover {border-color:#585858!important}
+.carousel_container .carousel_thumbs > div.focus {background-color:#585858!important}
+.dselect_container a.trigger {background:#585858!important}
+.dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {background:#000!important}
+.dropcontainer ul a {color:#585858!important}
+.dropcontainer ul {border:1px solid #b6b6b6!important;background:#e4e4e4!important}
+.explore_rightcol_box {background-color:#C3C3C3!important}
+.explore_rightcol_count {color:#585858!important}
+.faq_question {font-weight:bold!important;color:#585858!important}
+.faq_answer {color:#585858!important}
+.game_description_column .block .block_content a:hover {border:1px solid #b6b6b6!important}
+div.early_access_header .devnotes .morebutton {background:#585858!important}
+div.early_access_header .devnotes > div {color:#585858!important}
+div.early_access_header .heading p span {font-weight:bold!important}
+div.early_access_header .inset {text-shadow:none!Important}
+div.early_access_header .heading {color:#1181D2!important;background:#C3C3C3!important}
+.blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {border-radius:30px!important;background-color:#C3C3C3!important}
+#searchSubmitImg {opacity:0!important}
+.popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus {color:#000!Important}
+.econ_tag_filter_category_label {color:#585858!Important;font-weight:bold!Important}
+.econ_tag_filter_label > span {text-shadow:none!Important;color:#585858!important}
+#market_advancedsearch_appselect_options .market_advancedsearch_appname {border-bottom:1px solid #b6b6b6!important}
+#market_advancedsearch_appselect {background-image:none!important;background-color:#585858!Important}
+.market_advancedsearch_filters {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.market_listing_num_listings_qty {color:#000!important}
+.market_listing_price {color:#585858!important}
+.market_listing_item_name_link {color:#585858!Important}
+.market_listing_item_name {color:#585858!important}
+.market_tab_well_tab_contents {color:#585858!important}
+.market_tab_well_tabs {border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!important}
+.forum_op .content {color:#585858!important}
+.forum_op .topic {color:#585858!important}
+.btn_grey_white_innerfade > span:hover {BACKGROUND-COLOR:#000!IMPORTANT}
+.btn_grey_white_innerfade > span {COLOR:#FFF!IMPORTANT}
+.discussions_game_browseoption {BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.discussions_game_footer {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.discussions_game_header {BACKGROUND:#E4E4E4!IMPORTANT}
+.discussions_link_icon {BACKGROUND-IMAGE:NONE!IMPORTANT}
+.weblink a {BACKGROUND: #585858!IMPORTANT;
+    color: #FFF!IMPORTANT;
+    FONT-WEIGHT: 100!IMPORTANT;
+    BORDER-RADIUS: 10PX!IMPORTANT;
+    PADDING: 4PX!IMPORTANT;}
+.steam_discussions_moderationdisclaimer {COLOR:#585858!IMPORTANT}
+.discussions_forumlist_header {COLOR:#585858!IMPORTANT}
+.forum_list_ctn .forum_list_right {BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.steam_discussions_intro b {GONY-WEIGHT:BOLD!IMPORTANT;COLOR:#585858!IMPORTANT}
+.grouppage_content_area h2, a.large_title, h2.large_title {COLOR:#585858!IMPORTANT}
+#TagSuggest.blur {outline:0!important}
+.profile_friends.title_bar, .profile_groups.title_bar {background-color:#e4e4e4!Important}
+#market_advancedsearch_dialog .market_search_sidebar_search_box {border:1px solid #b6b6b6!important;color:#585858!Important;background-color:#C3C3C3!important}
+.market_search_submit_button {opacity:0!important}
+.market_search_sidebar_contents {background:#e4e4e4!important}
+.market_listing_table_header, .market_listing_table_message {background-color:#e4e4e4!important}
+.sectionTab:hover {background:#e4e4e4!important;color:#000!important}
+.searchAppImage {opacity:0!Important}
+.community_home_search_divider{border-top:1px solid #dcdcdc!important}
+.block_header .header_inline {COLOR:#585858!IMPORTANT}
+#detailStats td a {FONT-WEIGHT:500!IMPORTANT;COLOR:#585858!iMPORTANT}
+.wishlist_row .tag:hover {background:#000!important}
+body.v6 .game_page_background {background:TRANSPARENT!important}
+.carousel_container .arrow.left {border-radius:100px!Important}
+.carousel_container .arrow.left:hover {background-color:#000!important}
+.carousel_container .arrow.right {border-radius:100px!Important}
+.carousel_container .arrow.right:hover {background-color:#000!important}
+.col.search_price:not(.discounted) {color:#585858!Important}
+#TagSuggest {outline:0!Important;background-color:#C3C3C3!important;border:1px solid #b6b6b6!important}
+#TagSuggest.blur {border:1px solid #b6b6b6!important;color:#585858!important;text-shadow:none!important}
+.see_all_expander {color:#585858!important}
+.col.search_price.discounted {color:#585858!important}
+.pagesubheader {color:#585858!important}
+.col.search_discount span {background-color:#54A448!important;color:#fff!important}
+.searchbar_left > button {border-radius:30px!important}
+.search_results_count{background-color:#e4e4e4!Important}
+#term {color:#585858!important;border:1px solid #b6b6b6!important;border-radius:30px!important;background-color:#C3C3C3!important}
+.search_result_row {border-radius:10px!important;border:1px solid #b6b6b6!important}
+.search_result_row, .search_result_row:hover {background:#C3C3C3!important}
+.slider{height:15px!important}
+#question {border-top:0!important}
+.dark_bg, #content .pagetext {border-radius:10px!important;background:#C3C3C3!important}
+.slider_ctn .slider_left:hover, .slider_ctn .slider_right:hover, .slider .handle:hover {background:none!important;background-color:#000!important}
+.tab_see_more .btnv6_blue_hoverfade {border-radius:30px!important}
+body.v6 h2.pageheader {text-shadow:none!important}
+.community_recommendation_app > .right_col {border:1px solid #b6b6b6!important}
+h2 {color:#585858!important;font-weight:500!important}
+.LoadingWrapper .LoadingThrobber .Bar {background-color:#41A6EF!important}
+#live_streams_carousel .carousel_items .store_capsule {border-radius:10px!important;border:1px solid #b6b6b6!important}
+.highlight_ctn .slider_ctn .slider_left, .highlight_ctn .slider_ctn .slider_right, .highlight_ctn .slider .handle{border-radius:30px!important}
+.slider {border-radius:30px!important;background-color:#C3C3C3!important}
+.slider_left span {background-image:none!important}
+.game_purchase_discount_countdown {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
+.emoticon_button:hover, .emoticon_button.focus {background-image:none!important}
+.group_tab.active > span {background:#585858!important}
+.forum_topic  {background-color:#C3C3C3!important}
+.forum_topic_op{color:#74AFC2!important}
+.discussions_forum_row {BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.discussions_forum_row.unread .discussions_forumlist_topiccount, .discussions_forum_row.unread .discussions_forumlist_lastpost {COLOR:#585858!IMPORTANT}
+.forum_topic_lastpost {color:#74AFC2!important}
+.forum_topic_label.sticky_label {color:#78BE6D!important}
+.group_overview_discussions .forum_topic.unread .forum_topic_name {color:#74AFC2!important}
+.store_nav .tab.focus, .store_nav .tab.focus > span, .store_nav .tab:hover, .store_nav .tab:hover > span {COLOR:#000!IMPORTANT}
+body{background:#e4e4e4!important;color:#585858!important}
+body.v6 .store_nav .popup_menu .hr, body.v6 #footer_nav .popup_menu .hr {background-color:#C3C3C3!important}
+.store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {color:#000!important}
+.popup_menu_twocol > .popup_menu:not(:first-child):not(:nth-child(4)) {border-left:1px solid #C3C3C3!important}
+.store_nav .tab > span.pulldown > span {background-image:none!important}
+.store_nav .tab > span {font-weight:500!important;text-transform:uppercase!important;font-family:Segoe UI!important;text-shadow:none!important;color:#585858!Important}
+a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important;color:#585858!Important;text-shadow:none!important}
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {BORDER-COLOR:#DCDCDC!IMPORTANT;background:#e4e4e4!important}
+.searchPersonaName, .searchPersonaName:active, .searchPersonaName:visited, .searchPersonaName:hover {color:#585858!important}
+.community_searchresults_title{color:#585858!Important}
+
+.creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name, .store_nav .popup_menu .popup_menu_item {COLOR:#585858!IMPORTANT}
+
+.cart_item_price .price {color:#585858!important}
+.cart_row {background-color:#C3C3C3!Important}
+.checkout_content_box .checkout_content.cart, .checkout_content_box .checkout_content.confirm {background:#C3C3C3!important}
+.agegate_birthday_selector {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BORDER-RADIUS:10PX!iMPORTANT;background:#C3C3C3!important}
+#app_agegate select {OUTLINE:0!IMPORTANT;PADDING-BOTTOM:0PX!IMPORTANT;BORDER-RADIUS:30PX!iMPORTANT;color:#fff!important;background-color:#585858!important}
+.game_review_summary.positive {COLOR:#1181D2!IMPORTANT}
+.community_recommendation_app > .right_col > .paging_thumbs > .num_reviews_desc {COLOR:#1181D2!IMPORTANT}
+.community_recommendations_block > .review_box .view_more a {BACKGROUND:#585858!IMPORTANT; PADDING:4PX!IMPORTANT}
+.community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow {BACKGROUND-COLOR:#74AFC2!IMPORTANT;COLOR:#FFF!IMPORTANT}
+.discount_block .discount_pct, .discount_pct {BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
+.store_main_capsule .reason .main strong {COLOR:#54A448!IMPORTANT}
+.game_area_purchase_game p.package_contents, .game_area_offsite_purchase p.package_contents {color:#585858!important}
+input#store_nav_search_term {font-size:3em!important}
+.agegate_text_container .note {COLOR:#585858!IMPORTANT}
+#app_agegate select option {COLOR:#585858!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.carousel_container.spotlight .carousel_items > * .store_capsule {BACKGROUND:#CECECE!iMPORTANT}
+.carousel_container.maincap .carousel_items {border-radius:10px!important;border:1px solid #b6b6b6!important;background:#cecece!important}
+.store_main_capsule .reason .main .tags > span, .tab_preview .tags > a {background-color:#797979!important;color:#fff!important}
+.store_main_capsule .reason .additional > div {background-color:#797979!important}
+.store_main_capsule .reason .main {color:#585858!important}
+.store_main_capsule, .store_main_capsule {color:#585858!important}
+.store_main_capsule .app_name > div {color:#585858!important}
+.checkout_content_box h3.tab_header {COLOR:#585858!IMPORTANT}
+.queue_ignore_menu_option {backgoround:#e4e4e4!important}
+.queue_ignore_menu_option:hover {backgoround:#C3C3C3!important}
+.shared_game_rating p.descriptorText {COLOR:#585858!IMPORTANT}
+.queue_ignore_menu_option_label > .option_title {color:#585858!important}
+.btn_medium > span, input.btn_medium {border-radius:30px!important;BACKGROUND:#585858!IMPORTANT;COLOR:#fff!IMPORTANT}
+.btn_medium > span, input.btn_medium:hover {BACKGROUND:#1181D2!IMPORTANT;/*background:#1181D2!important*//*#41A6EF*/}
+.game_area_description ul {COLOR:#585858!IMPORTANT}
+.market_searchedForTerm {border:0!important;border-radius:30px!important;color:#fff!important;background-color:#78BE6D!important}
+.market_searchedForTerm:hover {font-style:normal!important;border:0!Important;background-color:#54A448!important}
+.game_area_purchase_game_dropdown_description {COLOR:#585858!IMPORTANT}
+.market_sortable_column:hover {color:#000!important;background-color:#e4e4e4!important}
+span.vr_supported, span.vr_required {COLOR:#585858!IMPORTANT}
+.market_search_results_title {color:#585858!important}
+.cart_digital_notice_content {COLOR:#585858!IMPORTANT}
+.cart_status_message {BACKGROUND-COLOR:#585858!IMPORTANT}
+.cart_status_message_arrow {BACKGROUND-IMAGE:NONE!IMPORTANT}
+.cart_total_row#cart_estimated_total_text {COLOR:#585858!IMPORTANT}
+.cart_digital_notice h4 {COLOR:#585858!IMPORTANT}
+.cart_digital_notice {background:#C3C3C3!important}
+.store_header_btn_green a {BACKGROUND:#54A448!IMPORTANT}
+.game_area_sys_req ul li strong {FONT-WEIGHT:BOLD!IMPORTANT}
+.review_box .noReviewsYetSub {color:#585858!IMPORTANT}
+.review_box .noReviewsYetTitle {color:#A0C9D6!important}
+.game_area_comingsoon .content {background:#A0C9D6!important}
+.game_area_comingsoon {color:#585858!important}
+.review_box .vote_info, .recommendation_row .vote_info {COLOR:#585858!IMPORTANT}
+#app_agegate .preferences {color:#585858!important}
+body.v6 #footer_nav .pulldown {background:#585858!important;color:#fff!important}
+body.v6 #footer_nav .pulldown:hover {background:#000!important}
+.review_box.short .shortcol {background:#C3C3C3!important}
+.user_reviews_filter_score {color:#585858!important}
+.commentthread_count_label {color:#fff!important}
+.commentthread_comment_text {color:#585858!important}
+.commentthread_comment_author a {color:#585858!important}
+.group_tab.active {background:#585858!important}
+div.bb_h1, .bb_wysiwyg h1 {color:#585858!important;font-weight:bold!important}
+.bodytext {color:#585858!important}
+.mainSectionHeader {text-shadow:none!important}
+.item_market_action_button_green > span, .item_market_action_button_green .item_market_action_button_preload {border-radius:30px!important;background-image:none!important;background-color:#585858!important}
+.pick_and_sell_button .item_market_action_button_contents {color:#fff!important}
+.market_search_advanced_button:hover {background:#000!important}
+.market_search_advanced_button {background:#585858!important}
+.btn_small_thin > span, input.btn_small_thin {padding:0 11px!important;color:#fff!important}
+.btnv6_grey_black {background:#585858!important; color:#fff!important}
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background:#000!important}
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {border-radius:30px!important}
+.market_tab_well_tab_inactive:hover > span {color:#000!important;background:transparent!important}
+.market_search_sidebar_section_tip_small {color:#585858!important}
+#footer {background:#e4e4e4!important}
+.game_button_game_icon > img {margin-left:10px!important}
+.game_button_game_name {margin-left:10px!important}
+.market_listing_table_header, .market_listing_table_header .market_listing_left_cell, .market_listing_table_header .market_listing_right_cell {border-left:none!important;color:#585858!important}
+.game_button > span {border:1px solid #b6b6b6!important;border-image:none!important;border-radius:30px!important;background:#C3C3C3!important}
+.game_button:hover > span, .game_button .game_button_preload {border-color:#000!important}
+.market_listing_their_price > .market_table_value .normal_price, .market_listing_their_price > .market_table_value .sale_price {color:#585858!important}
+.market_listing_row {border:1px solid #b6b6b6!important;border-radius:10px!important;background-color:#C3C3C3!important}
+a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row_link:active, a.market_listing_row_link:visited {color:#585858!important}
+.my_market_header_count {color:#585858!important}
+.my_market_header_active {color:#585858!important}
+.market_title_text {color:#585858!important}
+.market_header_logo {background-image:none!important;background-color:#e4e4e4!important}
+#BG_top > .user_info {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.market_tab_well_tab_active > span {height:41px!important;background:#585858!important;color:#fff!important}
+.market_subtitle_text {color:#585858!important}
+.imgWall_BackToTopButton.middle {color:#fff!important;background:#585858!important}
+.market_header_bg {background-color:#e4e4e4!important}
+.profile_badges_header_title {color:#585858!important}
+#ScreenshotManagementToggle {background-color:#C3C3C3!important}
+.imgWall_BackToTop:hover .imgWall_BackToTopButton {background:#000!important}
+.imgWall_BackToTop .imgWall_BackToTopButton {border-radius:30px!Important;background:#585858!important}
+.favoritesRadioText {color:#585858!important}
+.ScreenshotManagementLabel {color:#585858!important}
+div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {color:#585858!important}
+.friends_nav h4 {color:#585858!important;font-weight:bold!important}
+.count {color:#585858!important}
+.friends_search_text_box, .groups_search_text_box {background-color:#C3C3C3!important;border:1px solid #b6b6b6!important}
+.persona.in-game, a.persona.in-game, .persona.in-game a, .friend_status_in-game, .friend_status_in-game div, .friend_status_in-game a {color:#54A448!important}
+.error_ctn {background-color:#C3C3C3!important}
+friend_block_v2  {background-color:#C3C3C3!important}
+.friend_block_v2 .friend_small_text {color:#54A448!important}
+.profile_friends .state_block {color:#585858!important}
+.review_box .num_reviews a, .review_box .num_owned_games a {color:#585858!important}
+.review_box .persona_name a, 
+ .persona_name a {color:#585858!important}
+.sysreq_tab:hover, .discselect_tab:hover {color:#fff!important}
+.all_languages:hover {color:#585858!important}
+.partnereventwebrowembed_SectionButton_3n8sw {border:none!important;background:#585858!important}
+.breadcrumbs a {color:#585858!important}
+.game_language_options td {color:#585858!important}
+.block a.linkbar {color:#585858!important}
+.btn_green_steamui {text-shadow:none!important}
+h2 span.note a, h2 span.note a:hover, h2 span.note a:visited {color:#fff!important}
+h2 span.note a, h2 span.note a, h2 span.note a:visited {color:#fff!important}
+.game_area_dlc_row.even, .game_area_dlc_row.odd {background-color:#585858!important;color:#fff!important}
+.btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background:#54A448!important;color:#fff!important}
+.btn_green_steamui > span {BORDER-RADIUS:30PX!IMPORTANT;background:#78BE6D!important;color:#fff!important}
+#game_highlights a {background:#585858!important;PADDING-TOP:3PX!IMPORTANT;PADDING-LEFT:3PX!IMPORTANT;PADDING-RIGHT:3PX!IMPORTANT;PADDING-BOTTOM:3PX!IMPORTANT}
+.slider_ctn.store_autoslider .handle {height:15px!important;border-radius:30px!important}
+.slider_ctn.store_autoslider .handle:hover {background-color:#585858!important}
+.sysreq_tab.active, .discselect_tab.active {border-radius:30px!important;color:#fff!important}
+.sysreq_tab, .discselect_tab {color:#585858!important}
+.slider_ctn .slider_left, .slider_ctn .slider_right {cursor:normal!important;opacity:0!important;background-color:#585858!important}
+.tab_preview.focus {color:#585858!important}
+.home_marketing_message, .home_marketing_message {background:#cecece!important}
+.tab_preview {color:#585858!important}
+.store_main_capsule, .store_main_capsule:focus {background-color:#e4e4e4!important}
+.tab_controls, .tab_see_more {background:none!important}
+a.gutter_item {color:#585858!important}
+.tab_filter_control.checked, .tab_filter_control_row.checked {background:#585858!important}
+.discount_block .discount_original_price:HOVER {COLOR:#FFF!IMPORTANT}
+.discount_block .discount_original_price {color:#fff!important}
+.tab_item_name {COLOR:#585858!IMPORTANT}
+.tab_item_name:hover {COLOR:#585858!IMPORTANT}
+.tab_item {border:1px solid #b6b6b6!important;BACKGROUND:#CECECE!IMPORTANT}
+.spotlight_block .spotlight_content>h2, .spotlight_body {COLOR:#585858!IMPORTANT}
+/*.carousel_container .carousel_items:not(.no_paging) > * {BACKGROUND:#CECECE!important}*/
+.btn_profile_action {background-color:#585858!important;color:#fff!important}
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background:#585858!important;color:#585858!important}
+.blotter_group_announcement_header {background:#e4e4e4!important}
+.community_home_header .appHubShortcut, .community_home_header .appHubShortcut a, .community_home_header .appHubShortcut a:visited {color:#585858!important}
+.recently_updated .store_capsule .recently_updated_announcement_link {COLOR:#585858!IMPORTANT}
+.store_header_btn_gray a {COLOR:#585858!IMPORTANT}
+h1{color:#585858!important}
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {color:#fff!important}
+.blotter_appselect_activeoption {color:#fff!important}
+.friend_activity_header h1 {color:#585858!important}
+.user_reviews_steam_labs_desc > a > span {COLOR:#585858!IMPORTANT}
+.home_content.single .review_text {color:#585858!important}
+.tab_preview .tags > a {background-color:#797979!important}
+.details_block {color:#585858!important}
+#game_area_metascore .metacritic {color:#585858!important}
+.details_block a {color:#585858!important;font-weight:450!important}
+.home_tab .tab_content {color:#585858!important}
+.tab_filter_control, .tab_filter_control_row {color:#585858!important;font-weight:bold}
+.gutter_header {color:#585858!important;font-weight:bold!important}
+.deep_dive_tag {background-color:#797979!important;color:#fff!important}
+.store_main_capsule, .store_main_capsule {color:#fff!important;background:#E4E4E4!important}
+.app_tag {background:#585858!important; color:#fff!important}
+html{background:var(--darkgrey)!important}
+div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{border-radius:var(--border1)!important;background:var(--darkgrey)!important;border:0px!important}
+#modalContent.modal.frame{position:absolute!important;border-radius:var(--border0)!important;width:100%!important;height:100%!important;margin:0!important;display:flex!important}
+#review_histograms_container {background-color:#585858!important}
+.user_reviews_filter_menu .title {BACKGROUND-IMAGE:NONE!iMPORTANT;color:#fff!important}
+.user_reviews_summary_bar .title {color:#fff!important}
+.game_details {color:#fff!important}
+.game_details b {color:#585858!important;font-weight:440!important}
+.community_recommendations_by_steam_labs_ctn h1 {color:#585858!important}
+#footer_nav .pulldown {color:#fff!important}
+body.v6 h2 {color:#585858!important}
+.agegate_birthday_desc {COLOR:#585858!IMPORTANT}
+.store_capsule .title {color:#585858!important}
+.store_capsule .discount_block .discount_final_price {color:#585858!important}
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active){color:#fff!important}
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {color:#585858!important}
+.game_description_snippet {color:#585858!important}
+.agegate_content_descriptors_notes {FONT-WEIGHT:BOLD!IMPORTANT;COLOR:#585858!IMPORTANT}
+.agegate_content_descriptors_notes p {color:#585858!important}
+.block.recommendation_reasons a {color:#67c1f5!important}
+.game_area_purchase_game, .game_area_offsite_purchase {border-radius:10px!important;COLOR:#585858!IMPORTANT;FONT-WEIGHT:#585858!IMPORTANT;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.user_reviews_sub_header {color:#585858!important}
+.review_box .content {color:#585858!important}
+.game_area_sys_req strong, .album_metadata_chunk_name {font-family:segoe UI semibold!important;font-size:12px!important;font-weight:bold!important;color:#585858!important}
+.game_description_column {color:#585858!important}
+.apphub_AppName {color:#585858!important}
+.detailBox .headline, .detailBox .headline a {color:#585858!important}
+.view_inventory_page {background:none!important}
+.title {color:#585858!important}
+body.v6 .sale_capsule .discount_block_inline {PADDING-TOP:3PX!iMPORTANT}
+a {color:#fff!important}
+.hover_body {COLOR:#585858!IMPORTANT}
+.hover_body_block {COLOR:#585858!IMPORTANT}
+.topicstats_label {COLOR:#585858!IMPORTANT}
+.topicstats_value {COLOR:#585858!IMPORTANT}
+.dynamiclink_content {COLOR:#FFF!IMPORTANT}
+.sale_capsule .discount_block_inline .discount_prices {BACKGROUND:#C3C3C3!IMPORTANT}
+.dynamiclink_name {COLOR:#FFF!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
+/* input[type=text], input[type=password], input[type=number], select {background-color:#C3C3C3!important;BORDER:1PX SOLID #B6B6B6!IMPORTANT} */
+.DialogTextInputBase:not(disabled):hover {background-color:#C3C3C3!important}
+#live_stream_featured .title {color:#585858!important}
+.apphub_CardContentMain .apphub_CardTextContent .date_posted {COLOR:#585858!IMPORTANT}
+.home_title_ctn .home_line {background:#DCDCDC!important}
+.apphub_UserReviewCardContent {BORDER:1PX SOLID #B6B6B6!IMPORTANT}
+.apphub_UserReviewCardContent .found_helpful {color:#585858!important}
+.apphub_UserReviewCardContent .apphub_CardTextContent {color:#fff!important}
+.apphub_BackToTop .apphub_BackToTopButton {color:#fff!important}
+.apphub_ProgressBar {background-color:#585858!important}
+.apphub_ProgressBarBG {border-radius:30px!important;background-color:#C3C3C3!important}
+.community_home_subtitle {color:#585858!important}
+.whiteLink {color:#585858!important}
+.community_home_title {color:#585858!important}
+body.v6 #footer #footer_text {color:#585858!important}
+body.v6 .discount_prices > div {color:#585858!important}
+.home_newupcoming_ctn .home_tab_button:hover:not( .active ) {color:#3596B5!important}
+.home_newupcoming_ctn .home_tab_button {color:#585858!important}
+.home_title_ctn {color:#585858!important}
+.store_nav .tab img.foryou_avatar{border-radius:var(--border35)!important}
+.store_nav .tab{border-right:0!important}
+.dailydeal_countdown{font-size:20px!important;background-color:var(--blue)!important;padding-top:5px!important;padding-bottom:3px!important}
+.light_container.bezel{background:var(--darkgrey)!important}
+.browse_ctn_background{background:var(--darkgrey)!important}
+.miniprofile_ingame{background:var(--grey)!important;border-radius:var(--border0)!important;margin-top:5px!important}
+.home_page_body_ctn.has_takeover .page_background_holder{background-color:transparent!important}
+.curator_featured .screenshots>div{border-radius:var(--border0)!important}
+.lists_more_container .item>div div{background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
+.lists_more_container .item{border-radius:var(--border0)!important}
+.curator_featured .contents{border-radius:var(--border0)!important}
+.ds_options > div{border-radius:var(--border1)!important}
+.tag_square{margin:2px!important}
+.game_rating_area{border-radius:var(--border0)!important;margin-bottom: 15px!important}
+#package_header_container{border-radius:var(--border0)!important;margin-bottom:4px!important}
+.blotter_day_header_divider{display:none!important}
+.blotter_day_header_date{left:245px!important}
+.blotter_workshopitem.guide{background-image:none!important;background-color:var(--darkergrey)!important}
+.blotter_workshopitem{background-image:none!important}
+.broadcast_footer{background:transparent!important}
+.btnv6_white_transparent > span{border-radius:30px!important;color:var(--blue)!important;background:var(--grey)!important;border:1px solid var(--grey)!important}
+.btnv6_white_transparent > span:hover{border-radius:30px!important;color:#fff!important;background:#000!important;border:1px solid var(--blue)!important}
+.home_broadcast_more_ctn_stretch_bg{background:transparent!important}
+.home_broadcast_ctn .home_broadcast_sections .home_broadcast_more_ctn{background:none!important;border-radius:var(--border1)!important}
+.home_broadcast_ctn .home_broadcast_sections .home_broadcast_more_ctn .home_section_title{background:transparent!important}
+.blotter_playerAvatarSmall img{border-radius:var(--border50)!important}
+.blotter_playerAvatarSmall{border-radius:var(--border50)!important}
+.discount_block.discount_block_spotlight .bundle_base_discount{color:var(--darkergrey)!important;border-radius:var(--border4)!important;margin-right:5px!important}
+.discount_block.no_discount.daily_deal_discount .bundle_base_discount{color:var(--darkergrey)!important;border-radius:var(--border4)!important;margin-right:5px!important}
+.browse_content .recommendation{border-bottom:0!important;border-radius:var(--border0)!important}
+.browse_filters a.selected,.browse_filters a:hover{border-radius:var(--border0)!important}
+.browse_tabs a.selected,.browse_tabs a:hover{background-color:var(--grey)!important;border-radius:var(--border0)!important}
+.navigation_bar>a.selected{border-radius:var(--border0)!important}
+.navigation_bar>*{border-radius:var(--border0)!important}
+.game_area_dlc_row {color:#585858!important}
+.game_area_dlc_row.even{border-radius:var(--border0)!important}
+#dlc_footer #dlc_show_all_link{border-radius:var(--border0)!important}
+#dlc_footer #dlc_show_all_link:hover{border-radius:var(--border0)!important}
+.navigation_bar>div.nav_right_side>div.curator_report a{border-radius:var(--border0)!important}
+.page_content_ctn.dlc_associated_franchise{background:var(--darkgrey)!important}
+.background_header_ctn.page_background{display:none!important}
+.curator_featured>div{border:0!important;border-radius:var(--border0)!important;background:var(--grey)!important}
+.mature_content_notice{border-radius:var(--border0)!important}
+.market_multi_warning_tooltip{background-color:var(--lightgrey)!important;border:1px solid var(--lightgrey)!important}
+body.v6 .page_content {color:#585858!important}
+body.v6 .page_content.browse_reviews{background:var(--darkgrey)!important}
+.appHubIconHolder.greyOverlay{display:none!important}
+.forum_topic_tooltip{background-color:var(--grey-ish)!important;border:1px solid var(--lightgrey)!important}
+.apphub_Card.interactable:hover .apphub_CardContentDiscussionType{background-color:transparent!important}
+.capsule.header img{border-radius:var(--border0)!important}
+.capsule.headerv5,.capsule.headerv5 img{border-radius:var(--border0)!important}
+.detailBox .commentthread_comment:not(.hidden_post):hover,.group_comments .commentthread_comment:not(.hidden_post):hover,.profile_comment_area .commentthread_comment:not(.hidden_post):hover{border-radius:var(--border0)!important}
+.daily_deal .dailydeal_desc{font-size:11px!important;color:#585858!important}
+.dailydeal_countdown.ttip{color:var(--lightblue)!important;background-color:var(--blue)!important;display:inline-block!important;font-size:10px!important;background:#ff7b00!important;line-height:13px!important;padding:0 4px!important;margin-top:4px!important;border-radius:var(--border0)!important}
+.tab_item_discount .discount_pct,img{border-radius:var(--border0)!important}
+_discount.no_discount .bundle_base_discount{border-radius:var(--border0)!important}
+.discount_block .discount_pct,.discount_pct{border-radius:var(--border0)!important}
+.discount_block .discount_original_price{border-radius:var(--border0)!important}
+.searchbox_news{border:1px solid var(--black)!important;background-color:#5398c300!important;border-radius:var(--border0)!important}
+body.recommendgame #review_create{background:var(--darkgrey)!important;padding:16px!important}
+#review_create .input_box{border:1px solid var(--black)!important;border-radius:var(--border0)!important;background-color:#222b3500!important}
+#footerText{padding-bottom:26px!important; color:#585858!important}
+.recommended_creators_ctn .recommended_creators_container{background:var(--lightgrey)!important;border-top:1px solid var(--lightgrey)!important;border-radius:var(--border0)!important}
+.recommended_creators_ctn .store_capsule{background-image:none!important;border-radius:var(--border0)!important}
+.mainLoginPanel{background:var(--bedarkgrey)!important}
+body.v6.summer2018_home .gutter_header a:hover .home_page_gutter_giftcard{background:#585858!important}
+body.v6.summer2018_home .home_page_gutter_giftcard{background:#1c202a00!important}
+.FeaturedBlock.First{background:var(--darkgrey)!important}
+.home_page_body_ctn{background:var(--darkgrey)!important}
+body.v6.summer2018_home .home_page_body_ctn{background:var(--darkgrey)!important}
+.responsive_page_content{background:var(--darkgrey)!important}
+.compact .wishlist_row .capsule img{width:162px!important;height:78px!important}
+.discovery_queue img{border-radius:var(--border0)!important}
+.home_ctn{background:var(--darkgrey)!important}
+.home_ctn.apps_recommended_by_curators_ctn{background:var(--darkgrey)!important}
+.home_ctn.discovery_queue_ctn{background:#e4e4e4!important;border-radius:var(--border0)!important}
+.home_ctn.tab_container{background:NONE!important}
+body.v6 .page_content_ctn.dark{background:var(--darkgrey)!important}
+body.v6.infinite_scrolling #footer.small_footer{background:#e4e4e4!important}
+body.v6 #footer{background:var(--bedarkgrey)!important}
+.curator_buttons_ctn{background:var(--bedarkgrey)!important}
+body.flat_page #footer{background:#e4e4e4!important}
+div#global_header{max-height:74px!important}
+div#global_header .content{height:74px!important;left:-1%!important}
+div#global_header div.logo{padding-top:15px!important}
+div#global_header .menuitem{padding-top:29px!important}
+div#global_actions #global_action_menu{padding-top:18px!important}
+div#global_actions .user_avatar{display:inline-block!important;margin-left:3px!important;margin-top:15px!important;border-radius:var(--border4)!important}
+body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content{background:var(--bedarkgrey)!important}
+#related_article_header {BACKGROUND:#585858!IMPORTANT}
+select, textarea, .text, .input {COLOR:#585858!IMPORTANT;BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.button, .blue_button {BORDER-RADIUS:30PX!IMPORTANT;COLOR:#FFF!IMPORTANT;BACKGROUND:#41A6EF!IMPORTANT}
+.button:hover, .blue_button:hover {BACKGROUND-COLOR:#1181D2!IMPORTANT}
+.related_article_links:nth-child(odd) {BORDER-COLOR:#B6B6B6!IMPORTANT;BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.related_article_header_padding {COLOR:#FFF!IMPORTANT}
+.related_article_links:nth-child(even) {BORDER-COLOR:#B6B6B6!IMPORTANT;BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.category  {BACKGROUND:#C3C3C3!IMPORTANT}
+.global_header_toggle_button.green,.global_header_toggle_button.has_notifications{background-color:var(--lightgrey)!important;transition:background .6s!important}
+.global_header_toggle_button.green,.global_header_toggle_button.has_notifications:hover{background-color:var(--darkgreen)!important;transition:background .6s!important}
+.header_installsteam_btn_gray .header_installsteam_btn_content,.header_installsteam_btn_gray .header_installsteam_btn_leftcap,.header_installsteam_btn_gray .header_installsteam_btn_rightcap{background-color:var(--lightgrey)!important;color:var(--white)!important}
+.review_box .avatar{border-radius:var(--border5)!important}
+.friends_container{background:var(--darkgrey)!important;background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
+.friend_block_v2{top:10px!important;height:55px!important;margin-bottom:5px!important;line-height:1px!important;background-color:#585858!important}
+.avatars img{border-radius:var(--border8)!important}
+.header_notification_btn{background-color:var(--lightgrey)!important}
+.header_notification_btn:hover{background-color:var(--lightgrey)!important}
+.popup_block_new .popup_body{border:1px solid #C3C3C3!important;position:relative!important;background-color:#e4e4e4!important}
+#global_header {background:#e4e4e4!important}
+div#global_header .submenuitem{background:var(--realblack)!important}
+.supernav_content{BORDER-RADIUS:10PX!iMPORTANT;BORDER:1PX SOLID #DCDCDC!IMPORTANT;background:#E4E4E4!important}
+.home_discounts_ctn .see_more_link, .home_category_games_ctn .see_more_link, .home_category_ctn .see_more_link{bottom:-5px!important;background:var(--grey)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--blue)!important}
+.home_category_games_ctn .see_more_link:hover, .home_discounts_ctn .see_more_link:hover, .home_category_ctn .see_more_link:hover{bottom:-5px!important;background:var(--blue)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--black)!important}
+.hero_capsule{border-radius:var(--border0)!important}
+.hero_data{border-radius:var(--border0)!important;background:var(--darkergrey)!important}
+.hero_capsule .ds_flag{left:2px!important}
+#store_nav_area .store_nav_bg,.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg{background:#e4e4e4!important;border-radius:var(--border0)!important;border:1px solid #b6b6b6!important}
+.searchbox{background-image:none!important;background-color:#C3C3C3!important;border-radius:var(--border2)!important;border:1px solid #b6b6b6!important;margin-top:0px!important}
+a#store_search_link img{background-image:none!important;border-radius:var(--border0)!important;display:none!important}
+a#store_search_link img:hover{background-image:none!important;border-radius:var(--border0)!important;display:none!important}
+input#store_nav_search_term{color:var(--grey-ish)!important;font-size:1em!important}
+input::-webkit-input-placeholder{opacity:0!important}
+.store_header_btn_gray{border:1px solid #C3C3C3!important;background:#e4e4e4!important}
+.store_header_btn_gray a:hover{background:TRANSPARENT!important}
+.store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span{background:#e4e4e4!important;color:var(--darkwhite)!important;border-radius:var(--border0)!important}
+body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block_new .popup_body{background:#e4e4e4!important;border-radius:var(--border0)!important}
+.popup_menu .popup_menu_item {color:#585858!IMportant}
+.creator .responsive_page_template_content .popup_menu .popup_menu_item,.curator .responsive_page_template_content .popup_menu .popup_menu_item,.footer_content .popup_menu .popup_menu_item,.search_area .popup_body .match,.search_area .popup_body .match .match_name,.store_nav .popup_menu .popup_menu_item{color:#585858!important;border-radius:var(--border0)!important}
+.creator .popup_menu .popup_menu_item.focus,.creator .popup_menu .popup_menu_item:hover,.curator .popup_menu .popup_menu_item.focus,.curator .popup_menu .popup_menu_item:hover,.footer_content .popup_menu .popup_menu_item.focus,.footer_content .popup_menu .popup_menu_item:hover,.search_area .popup_body .match:hover,.search_area .popup_body .match:hover .match_name,.store_nav .popup_menu .popup_menu_item.focus,.store_nav .popup_menu .popup_menu_item:hover{color:#585858!important;background-color:#C3C3C3!important;border-radius:var(--border0)!important}
+.store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span{text-shadow:none!important;border-radius:var(--border0)!important}
+.searchbox input{color:var(--dakerwhite)!important;margin-top:0!important}
+.search_suggest .match{border-top:0!important}
+.game_hover_box .hover_release {color:#585858!important}
+.game_hover_box .content {background:#e4e4e4!important}
+.game_hover_box{color:#585858!important;background:#e4e4e4!important;border-radius:10px!important;border:1px solid #b6b6b6!important}
+.game_hover_box h4{color:var(--white)!important;border-radius:var(--border0)!important}
+.hover_screenshots .screenshot{border-radius:var(--border0)!important}
+.hover_body .hover_review_summary{color:#585858!important;background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
+.hover_tag_row .app_tag{background-color:var(--darkgrey)!important;color:#585858!important;border-radius:var(--border0)!important}
+.game_hover .hover_arrow_left,.game_hover .hover_arrow_right{background:0 0!important;border-radius:var(--border0)!important}
+.ds_options_tooltip{background:var(--lightergrey)!important}
+.ds_options_tooltip>.option{color:var(--blue)!important}
+.store_main_capsule{background-image:none!important;background:#cecece!important;border-radius:var(--border0)!important}
+div.store_header_btn{border-radius:var(--border0)!important}
+.store_main_capsule .screenshots>div>div{width:162px!important;height:69px!important;background-size:cover!important;background-position:center center!important;display:inline-block!important;opacity:.6!important;padding:0!important;margin:0!important;border-radius:var(--border0)!important}
+.capsule.main_capsule{flex-shrink:0!important;position:relative!important;z-index:2!important;margin-right:10px!important;width:616px!important;height:353px!important;background-position:center center!important;background-size:cover!important;border-radius:var(--border0)!important}
+.carousel_container.maincap .capsule .screenshot{border-radius:var(--border0)!important}
+.carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal{background:#cecece!important;border-radius:var(--border0)!important}
+.carousel_container.spotlight .carousel_items>* .store_capsule{background-image:none!important;background:var(--grey)!important;border-radius:var(--border0)!important}
+.spotlight_content{border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.home_area_spotlight.underlined_links{background-color:var(--bedarkgrey)!important;height:390px!important;border-radius:var(--border0)!important}
+.spotlight_weeklong_ctn{width:304px!important;height:350px!important;text-align:center!important;border:1px solid rgba(0,0,0,0)!important;position:relative!important;z-index:1!important;border-radius:var(--border0)!important}
+.spotlight_text_overlay{position:absolute!important;top:0!important;left:0!important;width:304px!important;height:350px!important;z-index:2!important;border-radius:var(--border0)!important}
+.spotlight_img{border-radius:var(--border0)!important}
+.spotlight_content{border-radius:var(--border0)!important}
+.arrow.left{background:var(--bedarkgrey)!important;border-top-left-radius:var(--border0)!important;border-bottom-left-radius:var(--border0)!important}
+.arrow.right{background:var(--bedarkgrey)!important;border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.store_capsule .discount_block.discount_block_large .discount_prices{background:#CECECE!important;border-radius:var(--border0)!important}
+.store_capsule .discount_block {border:1px solid #b6b6b6!important;background-color:#cecece!important}
+.discount_block_large .discount_prices{background:var(--black)!important}
+.hover_details_block,.hover_details_block_full{background-color:var(--darkgrey)!important}
+.friends_recently_purchased .friends_container{border-left:1px solid #b6b6b6!important;border-right:1px solid #b6b6b6!important;border-bottom:1px solid #b6b6b6!important;border-top:0!important;background:#cecece!important}
+.friends_recently_purchased .store_capsule{background-image:none!important;background:#cecece!important}
+.discovery_queue_ctn .begin_exploring{background:0 0!important;color:transparent!important}
+.discovery_queue_ctn .begin_exploring::after{background:0 0!important}
+.big_button{color:#fff!important;border-radius:30px!important;border;background-image:none!important;background:#585858!important}
+.big_button:hover{color:#fff!important;border-radius:30px!important;background: #000 !important}
+.carousel_items.curator_featured_tags{border-radius:var(--border0)!important}
+.curator_page.focus{border-radius:var(--border0)!important}
+.curator_page .actions{border-radius:var(--border0)!important}
+a.follow_button.btn_green_white_innerfade.btn_medium{color:var(--green)!important;border-radius:var(--border0)!important}
+a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:var(--green)!important;border-radius:var(--border0)!important}
+.home_rightcol{border-radius:var(--border0)!important}
+.tab_item{margin:5px!important;border-radius:var(--border0)!important}
+.tab_item.focus{margin-right:0!important; margin:5px!important;border-radius:var(--border0)!important}
+img.tab_item_cap_img{border-radius:var(--border0)!important}
+.tab_review_summary{border:1px solid #b6b6b6!important;BACKGROUND-COLOR:#cecece!IMPORTANT;border-radius:var(--border0)!important}
+.tab_preview .screenshot{border-radius:var(--border0)!important}
+.tab_preview{border-radius:var(--border0)!important}
+.carousel_items.store_capsule_container{border-radius:var(--border0)!important}
+.screenshot_container{display:none!important}
+.share{border-radius:var(--border0)!important}
+.newshr{background-image:none!important}
+img.member_tile{border-radius:var(--border5)!important;padding:10px!important;}
+.apphub_Card.interactable{border-radius:10px!important}
+.apphub_Card.interactable:hover{border:1px solid transparent!important}
+.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock{background-color:transparent!important}
+.apphub_CardContentAuthorBlock{border-top:0!important}
+.appHubNewsIconHolder{border-radius:var(--border0)!important}
+.community_home_app_shortcuts_list_header {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!iMPORTANT}
+.community_home_search_box{BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#C3C3C3!IMPORTANT;border:0!important;border-radius:10PX!important}
+.community_home_shortcut_content{border-radius:var(--border0)!important}
+.community_home_app_shortcuts{border:0!important;border-radius:10PX!important}
+.community_home_app_shortcuts .community_home_shortcut_content{BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#C3C3C3!IMPORTANT;border-radius:10PX!important}
+.apphub_CardContentType{border-radius:var(--border0)!important;background:var(--grey)!important}
+.steam_curator_for_app_highlighted .steam_curator_for_app{background:0 0!important}
+.steam_curator_recommendation {color:#1181D2!important}
+.most_recommended .steam_curator_recommendation .steam_curator_for_app_img{filter:none!important}
+.most_recommended .steam_curator_recommendation{border-radius:var(--border0)!important;background:var(--grey)!important}
+.tag_browse_tag.active{text-transform:uppercase!important;font-family:seogoe UI!important;color:#fff!important;border-radius:30px!important;background:var(--grey)!important}
+.browse_tag_game_total,.browse_tag_games{border-radius:var(--border0)!important}
+.browse_tag_game_total {background-color:#e4e4e4!important}
+.community_home_header .appHubShortcut a:hover {COLOR:#000!IMPORTANT;TEXT-DECORATION:NONE!iMPORTANT}
+.tag_browse_tag:hover {color:#000!important}
+.tag_browse_tag{color:#585858!important;background-color:transparent!important;border-radius:var(--border0)!important}
+.tab_see_more{border-radius:var(--border0)!important}
+.curator_page{background:var(--grey)!important}
+.giant_curator_capsule img{border-radius:var(--border0)!important}
+.curator.giant.capsule img{border-radius:var(--border0)!important}
+.curator_block{border-radius:var(--border0)!important}
+.apps_recommended_by_curators_ctn.home_ctn{background:var(--darkgrey)!important}
+.marketingmessage_container{border-radius:var(--border0)!important}
+a.home_marketing_message{border-radius:var(--border0)!important}
+.carousel_container .carousel_thumbs>div{border-radius:var(--border50)!important;width:15px!important;height:15px!important}
+.home_marketing_message>span{border-radius:var(--border0)!important}
+.home_content .item img,.home_content a.home_content_item img{border-radius:var(--border0)!important}
+.home_content.single{background:#C3C3C3!important;color:#585858!important;border-radius:10px!important;border:1px solid #b6b6b6!important}
+.home_content.single_buttonbar{background:#e4e4e4!important;border-radius:var(--border0)!important}
+.home_content.single .gamelink img{border-radius:var(--border0)!important}
+.btn_green_white_innerfade{border-radius:var(--border0)!important;background:var(--lightgrey)!important}
+.btn_green_white_innerfade>span{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--darkwhite)!important}
+.btn_green_white_innerfade>span:hover{border-radius:var(--border0)!important;background:var(--lightgrey)!important}
+.btn_green_white_innerfade:hover{border-radius:var(--border0)!important;background:var(--lightgrey)!important}
+.btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:var(--lightgrey)!important}
+.btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--darkwhite)!important}
+.curator_page .followers span{display:unset!important;padding-right:5px!important;font-size:16px!important}
+.curator_page .actions>div:not(:first-child){margin-top:.5vh!important}
+a img {opacity:0!important}
+#language_dropdown {background-image:none!important;border-radius:10px!important;background-color:#e4e4e4!important;border:1px solid #dcdcdc!important}
+#contact_support_button {border-radius:30px!important;background:#41A6EF!important}
+#language_dropdown a:hover {background-color:#C3C3C3!important}
+#language_dropdown_button:hover, #language_dropdown_button:focus {color:#000!important}
+#contact_support_button:hover {background:#1181D2!important}
+#backtotop span {border-radius:30px!important;color:#fff!important;background:#41A6EF!important}
+#backtotop span:hover {background:#1181D2!important}
+#sidebar_community_help {padding:20px 20px 20px 20px!important}
+.curator_page .socialmedia img{width:21px!important;height:21px!important}
+.btw_wrapper{border-radius:var(--border0)!important}
+.btn_grey_white_innerfade{border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
+.btn_grey_white_innerfade>span{border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
+.btn_grey_white_innerfade:hover{border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
+.btn_grey_white_innerfade>span:hover{border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
+.followers{padding-left:11px!important}
+.recently_updated .store_capsule{border:1px solid #787878!important;background-image:none!important;background:#CECECE!important;border-radius:var(--border0)!important}
+.recently_updated .store_capsule .recently_updated_desc{COLOR:#585858!IMPORTANT;border-top:0!important;border-radius:var(--border0)!important}
+.hardware_ctn.double .hardware_content .left,.hardware_ctn.double .hardware_content .right{display:none!important}
+.home_tab.active .tab_content{border:0!important;border-top-left-radius:var(--border0)!important;background-color:var(--bedarkgrey)!important;color:#fff!important;border-radius:30px!important}
+.tab_item.focus{background:#B2B2B2!important}
+.tab_item.focus .tab_item_name{color:#585858!important}
+.discount_block .discount_final_price {color:#fff!important}
+/*.tab_item.focus .discount_block .discount_final_price{color:var(--blue-er)!important}*/
+#tab_preview_container{border-radius:var(--border0)!important;top:15px!important;background:NONE!important}
+body.v6 .home_rightcol .tab_preview h2{color:#585858!important}
+.tab_preview .tags>a{background-color:var(--bedarkgrey)!important}
+.store_capsule{background-color:#cecece!important;border-radius:var(--border0)!important}
+.home_marketing_message,.home_marketing_message:hover{background:#e4e4e4!important}
+.home_page_content .more_content_title span{background:var(--trans)!important}
+.home_content.single a.screenshot{background:var(--trans)!important}
+.curator_giant_capsule .curator_block{background-color:var(--grey)!important}
+.home_page_content .more_content_title{background-image:none!important;color:#585858!important}
+.btn_border_2px{border-radius:var(--border0)!important;border:0!important}
+.home_page_sign_in_ctn{background:rgba(0,0,0,0)!important}
+.header_installsteam_btn_green .header_installsteam_btn_content,.header_installsteam_btn_green .header_installsteam_btn_leftcap,.header_installsteam_btn_green .header_installsteam_btn_rightcap{background-color:var(--lightgrey)!important;color:var(--white)!important}
+.page_header_ctn{background:0 0!important}
+.page_header_ctn{background:0 0!important}
+.responsive_page_content{overflow-x:hidden!important}
+.home_ctn.discovery_queue_ctn{background:#e4e4e4!important;border-radius:var(--border0)!important}
+body.v6.newonsteam .newonsteam_headercaps>a{background:var(--grey)!important}
+.tabarea .tab.active .tab_content{background:var(--bedarkgrey)!important}
+.tabarea .tab .tab_content{color:#585858!important;border-radius:var(--border0)!important}
+.contenthub_specials_ctn{background:rgba(64,120,152,0)!important;border-radius:var(--border0)!important}
+.contenthub_featured_item_spotlight{background:rgba(64,120,152,0)!important}
+.contenthub_page_background{background-image:none!important}
+.quadscreenshot_carousel .main{background-color:var(--grey)!important}
+.contenthub_page .tabarea .tab.active .tab_content:hover{background:var(--bedarkgrey)!important}
+.tabarea .tab.active{background:var(--bedarkgrey)!important}
+.tabarea .tab{border-radius:var(--border0)!important}
+.tabarea .tab .tab_content{background:rgba(0,0,0,0)!important}
+.tabarea .tab .tab_content:hover{color:#000!important;background:rgba(0,0,0,0)!important}
+.page_header_ctn.search{background:0 0!important}
+#term{background-color:var(--lightgrey)!important;border-radius:var(--border0)!important;border:1px solid rgba(30,30,31,.52)!important}
+.searchbar {background:#e4e4e4!important}
+.searchbar_left>button{height:26px!important;padding-top:3px!important}
+.store_capsule_frame{background:0 0!important;border:4px!important}
+.curator_list_ctn{background:var(--bedarkgrey)!important}
+.tabarea_v7 .tab.active{background:var(--bedarkgrey)!important;color:var(--white)!important}
+.curators_searchbox{border-radius:var(--border0)!important;border:1px solid rgba(30,30,31,.52)!important}
+body.v6{color:#1181D2!important;background:var(--bedarkgrey)!important}
+.steam_curator_recommended_game_names{max-width:367px!important}
+.game_page_background.game{background-image:none!important}
+.block_content.block_content_inner.dark{background-color:var(--bedarkgrey)!important}
+.chartdiv{background-color:var(--bedarkgrey)!important}
+.sale_page_three_section_top_block{background-color:var(--darkgrey)!important}
+.game_background_glow{background:0 0!important}
+.store_capsule{background:#cecece!important;border-radius:var(--border0)!important}
+.page_background{background-image:none!important}
+body.v6 div#footer_spacer{background:#e4e4e4!important}
+body.v6 div#footer, body.v6  div#global_header, body.v6  div#main, body.v6  div.page_area{background:var(--darkgrey)!important}
+body.v6 div#global_header{background:var(--bedarkgrey)!important}
+body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
+.community_home_search_apps{border-radius:var(--border2)!important;background-color:var(--grey)!important;border:0!important}
+.community_home_search_players{border-radius:var(--border2)!important;border:0!important;background-color:var(--grey)!important}
+.community_home_shortcut_content{background:var(--bedarkgrey)!important}
+.apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,.apphub_sectionTab.active>span{border-radius:var(--border0)!important;background:var(--grey)!important;color:var(--white)!important}
+.apphub_responsive_tab .responsive_tab_control,.apphub_sectionTab.active,.apphub_sectionTab.active:hover{background:0 0!important}
+.apphub_sectionTabsHR{background-color:transparent!important}
+.apphub_sectionTab:hover{color:#585858!important;background:0 0!important}
+.apphub_sectionTab{color:#585858!important}
+#contextselect, #contextselect_options_contexts {width:154px!Important}
+.apphub_sectionTab.active > span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {border-radius:30px!Important;color:#fff!important}
+.btn_darkblue_white_innerfade>span{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--white)!important}
+.btn_darkblue_white_innerfade{background:0 0!important;padding:0!important;border-radius:var(--border0)!important}
+.btn_darkblue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#fff!important;color:#585858!important}
+.btn_darkblue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {color:#fff!important}
+.btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--white)!important}
+.btn_grey_grey_outer_bevel{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--white)!important;padding:0!important}
+.btn_grey_grey_outer_bevel>span{background:0 0!important;border-radius:var(--border0)!important}
+.btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--white)!important}
+.apphub_background{background:var(--darkgrey)!important}
+.context_name {font-size:14px!important}
+#contextselect_options .context_name {border-left:1px solid #dcdcdc!important;border-right:1px solid #dcdcdc!important;color:#585858!important;background-color:#e4e4e4!important;border-color:#dcdcdc!important}
+#contextselect_options .context_name:hover {color:#585858!important;background-color:#C3C3C3!important}
+.apphub_NoMoreContent {COLOR:#585858!IMPORTANT}
+.popup_block .popup_body{margin-left:12px!important;margin-top:12px!Important;background:var(--darkergrey)!important}
+.btn_profile_action .btn_medium .img{transform: rotate(180deg) scaleX(1)!important}
+#profile_action_dropdown{top:-5px!important;left:720px!important;background:var(--darkergrey)!important;border-radius:var(--border0)!important}
+div#game_select_suggestions_ctn{background:var(--realblack)!important}
+.apphub_Card{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background-color:#C3C3C3!important}
+.apphub_CardContentNewsFade{background-image:none!important;background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
+.apphub_CardContentMain .UserReviewCardContent_Footer .gradient{background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
+.apphub_CardContentGuideTitle{background-color:#8c8c8c!important}
+input.community_home_search_app_input{font-size:15px!important;font-style:normal!important;background-color:#D6DD6D6!important}
+.community_home_search_apps_image{display:none!important}
+.community_home_search_players{background:var(--grey)!important}
+input.community_home_search_players_input{font-style:normal!important;font-size:15px!important;background-color:#C3C3C3!important}
+.community_home_search_players_image{display:none!important}
+.element{position:relative!important;top:50%!important;transform:translate(-50%)!important}
+.modal{max-height:calc(100% - 100px)!important;position:fixed!important;top:50%!important;left:50%!important;transform:translate(-50%,-50%)!important}
+.mediaTop .mediaSidebar{background-color:var(--begrey)!important;height:-webkit-fill-available!important}
+.mediaTop{background-color:var(--begrey)!important}
+.mediaBodyNoBackground{background-color:var(--begrey)!important}
+body.headerOverride{background:var(--darkgrey)!important}
+.pagecontent{background:var(--darkgrey)!important}
+body.flat_page:not(.iframe){background:var(--darkgrey)!important}
+.BroadcastInfoWrapper{background:var(--darkgrey)!important}
+.detailBox.altFooter{background:0 0!important}
+.detailBox{background:0 0!important}
+.commentthread_area .commentthread_header{background:var(--bedarkgrey)!important}
+.workshop_item_header{background:var(--bedarkgrey)!important}
+.sectionTab.active>span{background:var(--bedarkgrey)!important}
+.sectionTab.active{background:0 0!important}
+.sectionTab,a.sectionTab{background-color:rgba(0,0,0,0)!important}
+.sectionTab{color:#585858!important}
+.sectionTab:hover{background-color:rgba(0,0,0,0)!important}
+.friendBlock{background:var(--darkgrey)!important}
+.miniprofile_top{border:0!important;background:var(--grey)!important;border-radius:var(--border0)!important}
+.miniprofile_player .playername{padding-top:10px!important}
+.forum_topic_reply_count img, .forum_topic_award_count img {opacity:0!important}
+#contextselect{background-image:none!important;background-color:#585858!Important}
+.friend_blocks_twoxtwo .friend_name{margin-top:10px!important}
+.friend_blocks_twoxtwo .friend_block_holder{border-radius:var(--border0)!important}
+.miniprofile_favorite_badge{background:var(--darkgrey)!important;border:0!important}
+.miniprofile_arrow.right{display:none!important}
+.rightSectionTopTitle {margin-bottom:6px!important;FONT-WEIGHT:BOLD!iMPORTANT;COLOR:#585858!IMPORTANT}
+.miniprofile_arrow.left{display:none!important}
+.miniprofile_arrow{display:none!important}
+.apphub_BackToTopButton{background-image:none!important;background-color:var(--lightgrey)!important;color:var(--white)!important}
+.apphub_BackToTop:hover .apphub_BackToTopButton{background-image:none!important}
+.discussionSearchTextContainer{WIDTH:253PX!IMPORTANT;background-image:none!important}
+.discussionSearchTextContainer{border-radius:var(--border4)!important;background-color:#C3C3C3!important;border:0!important;color:var(--white)!important;height:28px!important}
+input.discussionSearchText{BORDER:1PX SOLID #B6B6B6!IMPORTANT;position:static!important;padding:4px!important}
+.discussionSearchTextSubmitImg{OPACITY:0!IMPORTANT;top:5px!important;left:266px!important}
+a.recent_game_discussion {BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.discussions_forumlist_linkoverlay img {BORDER:1PX SOLID #B6B6B6!IMPORTANT}
+.discussions_header{border-bottom:5px solid transparent!important}
+a.recent_game_discussion{border-radius:var(--border0)!important;background-color:var(--grey)!important}
+a.recent_game_discussion:hover{border-radius:var(--border0)!important;background-color:var(--darkergrey)!important}
+.discussions_forum_row{border-radius:var(--border0)!important;background-color:var(--grey)!important}
+.discussions_forum_row:hover{BORDER:1PX SOLID #787878!IMPORTANT;border-radius:var(--border0)!important;background-color:#C3C3C3!important}
+.discussion_tab_content_rule{border-top:0!important}
+a.recent_game_discussion.quasi_official_group:hover{background:var(--darkergrey)!important}
+.community_tooltip{border:1px solid #dcdcdc!important;background:#e4e4e4!important;color:var(--white)!important}
+.discussion_tab_content_area h2.discussion_primary_header{font-size:40px!important}
+.discussion_tab_content_area h2{font-size:25px!important}
+.forum_op .date {COLOR:#585858!IMPORTANT}
+.forum_paging{COLOR:#585858!IMPORTANT;background:#e4e4e4!important;border-radius:var(--border0)!important}
+.forum_topic{border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.blotter_appselect_activeoption{background-image:none!important;border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
+.blotter_appselect_options{background:var(--realblack)!important;border-radius:var(--border0)!important;border:0!important;padding-top:3px!important}
+#blotter_appselect_app_filter{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
+.blotter_status_entry .commentthread_entry .commentthread_entry_quotebox{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
+div#headerSearch.friend_activity_header_search{border-radius:30px!important;background-color:#C3C3C3!important;border:1px solid #b6b6b6!important}
+.profileFriendSearchBox{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
+#profileFriendSearchSubmitImg{border-left:0!important}
+.blotter_appselect{border-radius:var(--border0)!important;min-width:0!important}
+.blotter_appselect div.option,.blotter_appselect_options div.option{padding-right:7px!important;border-radius:var(--border0)!important;cursor:pointer!important}
+#findItemsSearchBox{outline:0!important;border-radius:30px!important;color:#585858!important;background-color:#C3C3C3!important;border:1px solid #b6b6b6!important}
+.blotter_daily_rollup{background-color:var(--bedarkgrey)!important}
+input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {border-radius:30px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.forum_newtopic_box, .forum_formarea_box {background-color:transparent!important}
+.forum_comment_action_menu {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#e4e4e4!important}
+.forumtopic_comments .commentthread_comment {color:#585858!important}
+textarea.forumtopic_reply_textarea {border:1px solid #b6b6b6!important;height:50px!important;color:#585858!important}
+a.forum_comment_action {background-color:#C3C3C3!important}
+a.forum_comment_action:hover {color:#fff!important;background-color:#000!important}
+.blotter_comment_thread .commentthread_entry_quotebox{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
+.forumtopic_comments .commentthread_comment{border:1px solid #b6b6b6!important;background-color:#C3C3C3!important;color:var(--dakerwhite)!important;margin-bottom:2px!important;padding:12px 8px 20px 60px!important;border:#b6b6b6!important;overflow:hidden!important;border-radius:10px!important}
+.forum_op{position:relative!important;padding:7px 12px 21px 63px!important;margin-bottom:8px!important;max-width:565px!important;background-color:#C3C3C3!important;background-image:none!important;background-repeat:no-repeat!important;background-position:top left!important;border:1px solid #b6b6b6!important;border-radius:10px!important}
+.blotter_block{position:relative!important;background:var(--bedarkgrey)!important;border-radius:var(--border0)!important}
+.dynamiclink_box{border:1px solid var(--grey)!important;background-color:var(--grey)!important}
+.profile_header_bg_texture{background-color:rgba(23,23,23,.85)!important;background-image:none!important;width:950px!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important;min-height:200px!important;padding-bottom:15px!important}
+.profile_header_bg{background-image:none!important;padding-bottom:0!important;padding-top:10px!important;min-height:226px!important}
+.profile_background_holder_content{border-radius:var(--border0)!important}
+.playerAvatar.profile_header_size.in-game{max-width:40%!important;float:left!important;margin-right:18px!important;position:relative!important;width:166px!important;height:166px!important;border-radius:var(--border8)!important;background:-webkit-linear-gradient(top,rgba(143,185,59,1) 5%,rgba(110,140,49,1) 95%)!important;background:linear-gradient(to bottom,rgba(143,185,59,1) 5%,rgba(110,140,49,1) 95%)!important;filter:none!important}
+.playerAvatar.profile_header_size.online{max-width:40%!important;float:left!important;margin-right:18px!important;position:relative!important;width:166px!important;height:166px!important;border-radius:var(--border8)!important;background-color:var(--online)!important;background:-webkit-linear-gradient(top,rgba(83,164,196,1) 5%,rgba(69,128,151,1) 95%)!important;background:linear-gradient(to bottom,rgba(83,164,196,1) 5%,rgba(69,128,151,1) 95%)!important;filter:none!important}
+.playerAvatar.profile_header_size.offline{max-width:40%!important;float:left!important;margin-right:18px!important;position:relative!important;width:166px!important;height:166px!important;border-radius:var(--border8)!important;background:-webkit-linear-gradient(top,rgba(106,106,106,1) 5%,rgba(85,85,85,1) 95%)!important;background:linear-gradient(to bottom,rgba(106,106,106,1) 5%,rgba(85,85,85,1) 95%)!important;filter:none!important}
+.responsive .profile_header .playerAvatar.profile_header_size{max-width:40%!important;float:left!important;margin-right:18px!important;position:relative!important;width:166px!important;height:166px!important;border-radius:var(--border8)!important}
+.playerAvatar.profile_header_size .playerAvatarAutoSizeInner img{background:0 0!important;filter:none!important;display:block!important;padding:0!important;width:100%!important;height:100%!important;border-radius:var(--border8)!important}
+.profile_header_badgeinfo{float:right!important}
+.profile_header_badgeinfo_badge_area{width:268px!important}
+.profile_header_badge{border:0!important;border-radius:var(--border1)!important;background-color:transparent!important;height:70px!important;margin-bottom:13px!important}
+.profile_header_actions{white-space:nowrap!important}
+.persona, a.persona, .persona a, .friend_status_offline, .friend_status_offline div, .friend_status_offline a {COLOR:#585858!IMPORTANT}
+.btn_profile_action.btn_medium{margin-right:10px!important;border-radius:25px!important;text-align:center!important;background:var(--darkgrey)!important;border:0!important}
+.btn_profile_action.btn_medium:hover{margin-right:10px!important;border-radius:25px!important;text-align:center!important;background:var(--blue)!important;border:0!important}
+.groupadmin_content .rightbox_content_header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
+.profile_background_current{border-radius:var(--border0)!important;border-top:0!important;border-right:0!important;border-left:0!important;border-bottom:0!important}
+.btn_profile_action>span{background:transparent!important}
+.achievement_progress_bar_ctn .progress_bar {BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.profile_rightcol{BACKGROUND:#C3C3C3!IMPORTANT;width:268px!important;float:right!important}
+.profile_friend_links.profile_count_link_preview_ctn.responsive_groupfriends_element{margin-bottom:40px!important}
+.profile_count_link.ellipsis{font-size:14px!important;margin-bottom:4px!important;min-height:29px!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
+.profile_in_common.responsive_hidden{margin-bottom:6px!important}
+.profile_topfriends.profile_count_link_preview{display:block!important}
+.friendBlock.persona.in-game{color:var(--ingame)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
+.friendBlock.persona.online{color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
+.friendBlock.persona.offline{color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
+.profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:rgba(23, 23, 23, 0.85)!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important}
+.workshop_showcase_details_row{background-image:none!important}
+.profile_header_content{padding-top:0px!important}
+.workshop_showcase_details_content{background-color:transparent!important}
+.gray_bevel.for_text_input{border-radius:var(--border0)!important;background-color:var(--black-ish)!important;border:1px solid var(--black)!important}
+#about_header_area{background-image:none!important;background:var(--darkgrey)!important}
+.blotter_screenshot_image{background-color:var(--lightblack)!important}
+.about_boxes_box_top{background:0 0!important;border-radius:var(--border0)!important}
+.about_boxes_box_bottom{background:0 0!important;border-radius:var(--border0)!important}
+.about_boxes_box_mid{background:var(--darkgrey)!important;border-radius:var(--border0)!important}
+.about_install_ctn{border-radius:var(--border0)!important;background:var(--grey)!important}
+.about_box_wide{border:0!important;border-radius:var(--border0)!important;background:var(--darkgrey)!important;padding:5px 5px 15px 5px!important;margin:0!important}
+.about_box_wide.linux{border-radius:var(--border0)!important}
+.about_boxes_box_header_bg{border-radius:var(--border0)!important;background:var(--black-ish)!important;border:0!important;height:100%!important}
+.about_boxes_box_content_ctn{padding-bottom:4px!important;border-radius:var(--border0)!important}
+.help_wizard_button{color:#585858!important;background:#C3C3C3!important;border-radius:10px!important;border-color:#b6b6b6!important}
+.help_wizard_button_large>span{margin:10px 14px 10px 14px!important}
+.help_your_issue_start {color:#585858!important}
+.help_section_text {font-weight:bold!important;color:#585858!important}
+.help_intro_text {color:#585858!important}
+.help_wizard_button:not(.disabled):not(.nohover):hover, .help_wizard_button.opened {border-color:#000!important}
+.help_lowlight_text {color:#585858!important}
+.searchTextSubmitImg {opacity:0!important}
+.searchText.defaultText {color:#C3C3C3!important}
+input.searchText {padding-left:9px!important;background-color:#C3C3C3!important;border-radius:30px!Important;border:1px solid #b6b6b6!important;outline:0!important}
+.help_page_title {color:#585858!important}
+#ScreenshotUploadLink, #VideoUploadLink {color:#fff!important;border-radius:30px!important;background-color:#585858!important}
+#ScreenshotUploadLink:hover, #VideoUploadLink:hover {background-color:#000!important}
+#NoItemsContainer  {background-color:#C3C3C3!important;border-radius:10px!important;border:1px solid #b6b6b6!important}
+.formHR {background-color:#dcdcdc!important}
+.agreement_accepted {color:#78BE6D!important}
+div.sortselect_options {margin-top:12px!Important;margin-left:12px!important;border-radius:10px!important;border:1px solid #dcdcdc!important;color:#585858!important;background-color:#e4e4e4!important}
+div.sortselect_options div.option:hover {background-color:#C3C3C3!important}
+div.sortselect #sortselect_activesort {color:#585858!important}
+.searchTextContainer {background-image:none!Important}
+.help_text_block {color:#585858!important}
+.help_faq_text {color:#585858!important}
+.browseOptionImage {opacity:0!important}
+.current_player_workshop_title {padding-left:61px!Important;color:#585858!important}
+#ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel {border-radius:10px!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.game_area_sys_req, .album_metadata_chunk_contents {color:#585858!important}
+.apphub_SectionFilter {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.apphub_Guides .subtitle {border-radius:10px!important;border:1px solid #b6b6b6!important;color:#585858!important;background-color:#C3C3C3!important}
+.help_game_guides_box .guide a:hover {border-radius:10px!Important;background:#585858!Important;color:#fff!important}
+.help_game_request_refund_button {border-radius:30px!important;background-color:#41A6EF!important;color:#fff!important;}
+.help_game_guides_box {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.help_game_refund_box {border-radius:10px!important;border:1px solid #b6b6b6!important;color:#585858!important;background-color:#C3C3C3!important}
+.help_search_result:hover {background-color:#C3C3C3!important}
+.help_issue_details, .help_notinlibrary_details, .help_missingrefund_details, .help_cannot_launch_game_details, .help_cannot_install_game_details, .help_before_contacting_steam_support_details {color:#585858!important;border-radius:10px!Important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+.help_login_nag {border-radius:10px!Important;background:#dcdcdc!important;border:1px solid #b6b6b6!important}
+.help_app_header_divider {background-color:#dcdcdc!important}
+.help_highlight_text {font-weight:bold!important;color:#585858!important}
+.help_official_box {border-radius:10px!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important}
+.help_app_header {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#C3C3C3!important}
+#help_search_support_input{font-style:normal!important;color:#585858!important;outline:0!important;border-radius:30px!important;background:#C3C3C3!important;border:1px solid #b6b6b6!important}
+.help_purchase_detail_box{color:#585858!important;background-color:#C3C3C3!important}
+.help_divider {background-color:#dcdcdc!important}
+.profile_small_header_bg{background-image:none!important}
+.friendPlayerLevel .friendPlayerLevelNum {COLOR:#585858!IMPORTANT}
+.btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
+.games_list_tabs{background-color:#C3C3C3!important;border-radius:10px!important}
+.games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important}
+.filter_ctn.inventory_filters #filter_control{border-radius:30px!important;background:#C3C3C3!important;border:1px solid #b6b6b6!important}
+.friends_header_bg{background:0 0!important}
+.friends_search_text_box,.groups_search_text_box{border-radius:var(--border0)!important;background:0 0!important;background-color:var(--lightgrey)!important;border:1px solid rgba(30,30,31,.52)!important}
+.friends_header_avatar{border-radius:var(--border35)!important}
+.friends_header_avatar img{border-radius:var(--border35)!important}
+.friends_header_name{color:#585858!important;padding-top:12px!important}
+.friends_nav a.active{background-color:var(--darkergrey)!important;border-radius:var(--border0)!important}
+.friends_nav a:hover{background-color:var(--realblack)!important;border-radius:var(--border0)!important}
+.friends_nav a{margin-bottom:2px!important;border-radius:var(--border0)!important}
+.group_block{background-color:#585858!important}
+.profile_friends.title_bar,.profile_groups.title_bar{margin-top:4px!important;border-radius:var(--border0)!important}
+.friends_nav .hr{height:0px!important;background-color:transparent!important;border-bottom:0!important}
+.friends_search_text_box,.groups_search_text_box{background-color:var(--grey)!important;border-radius:var(--border2)!important;border:0!important}
+.profile_friends.title_bar,.profile_groups.title_bar{background-color:rgba(255,255,255,.1)!important}
+.player_avatar{border-radius:var(--border35)!important}
+.player_avatar img{border-radius:var(--border35)!important}
+.friend_block_link_overlay{border-top-style:solid!important;border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-width:1px!important}
+.profile_content{background-image:none!important;background:var(--darkgrey)!important}
+.guideTop .workshopItemControls{background-color:#C3C3C3!important}
+.guideTop{background-color:var(--darkgrey)!important}
+.friend_reviews .review_box{border:1PX SOLID #B6B6B6!IMPORTANT;background:var(--thegrey)!important}
+.review_box.short{background:var(--thegrey)!important}
+.home_area_spotlight{background-image:none!important}
+.spotlight_weeklong_subtitle{color:var(--white)!important}
+.tab_item.focus::after{background:var(--grey)!important}
+.discovery_queue_overlay_bg{background:0 0!important}
+.discovery_queue_customize_ctn{color:#585858!Important;background:var(--darkgrey)!important;border:0!important}
+.discovery_queue_customize_ctn>.btn_medium{border-radius:var(--border0)!important;text-decoration:none!important;color:var(--blu)!important}
+.discovery_queue_overlay_message{color:transparent!important}
+.btn_small_thin>span,input.btn_small_thin{border-radius:var(--border0)!important}
+.btnv6_blue_hoverfade{text-decoration:none!important;color:var(--blu)!important;background:var(--grey)!important;border-radius:30px!important}
+.explore_rightcol_box{background-color:rgba(255,255,255,.1)!important;border-radius:var(--border0)!important}
+.group_block_medium img{border-radius:var(--border0)!important}
+.profile_group_avatar img{border-radius:var(--border0)!important}
+.search_results_none{border-radius:var(--border0)!important}
+#search_results.profile_friends.search_results{margin-top:0!important}
+.noCoplayHistory{border-radius:var(--border0)!important;border:0!important}
+body.v6 .discount_block{background:transparent!important}
+.profile_friends.responsive_friendblocks{border-radius:var(--border0)!important}
+.invite_section_ctn.invite_link{background-image:none!important}
+.home_category_title b {TEXT-SHADOW:NONE!IMPORTANT}
+.home_category_subtitle {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!IMPORTANT}
+.invite_section_ctn .header_row{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;padding-top: 10px!important;padding-bottom: 10px!important;background-color:rgba(255,255,255,.1)!important}
+.invite_section_ctn .content{border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.profile_small_header_texture{background-image:none!important;background-color:var(--darkgrey)!important}
+.sale_capsule_image_hover{border:1px solid var(--darkergrey)!important;border-radius:var(--border0)!important}
+.gameListRow.followed{border-radius:var(--border0)!important}
+.home_category_title {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!IMPORTANT}
+.home_category_ctn .home_category_title_ctn{border-radius:var(--border0)!important}
+.home_category_games_ctn{border-radius:var(--border0)!important}
+.home_discounts_ctn{background:var(--darkgrey)!important}
+body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
+.home_tag_category_title, .home_tag_category_title b {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!important}
+.home_discounts_ctn .home_discount_line{height:0px!important}
+.gameListRowLogo.ds_flagged img{border-radius:var(--border0)!important}
+.gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important;background:rgba(0,0,0,.2) no-repeat 4px 4px!important}
+.sectionTab{background-color:var(--begrey)!important;border-radius:var(--border0)!important}
+.sectionTab.active{background:rgba(0,0,0,.2)!important;border-radius:var(--border0)!important}
+.sectionTab:hover{background:rgba(0,0,0,.2)!important;border-radius:var(--border0)!important}
+.responsive_tab_baseline{background-color:rgba(0,0,0,0)!important;max-width:0!important;height:0!important}
+.gameListRow{border-radius:var(--border0)!important}
+.home_discovery_queue_ctn .home_title_ctn, .home_discovery_queue_ctn .home_subtitle_ctn {COLOR:#585858!IMPORTANT}
+.gameListRowLogo img{border-radius:var(--border0)!important}
+.gray_bevel.for_text_input{border-radius:var(--border0)!important;background-color:rgba(0,0,0,.2)!important;border:0!important}
+.popup_block2 .popup_body2{border-radius:var(--border0)!important}
+.pullup_item{border-radius:var(--border0)!important}
+.game_language_options tr {border-bottom:1px solid #C3C3C3!important}
+.game_language_options th {color:#585858!important}
+.shadow_content{border-radius:var(--border0)!important;margin:0px!important}
+.popup_menu2 a.popup_menu_item2{border-radius:var(--border0)!important}
+.filter_section{border-radius:var(--border0)!important}
+.wishlist .controls div{border-radius:var(--border0)!important}
+.dropdown_container{border-radius:var(--border0)!important}
+.dropdown_container .item{border-radius:var(--border0)!important}
+.wishlist_header img{border-radius:var(--border35)!important}
+body.v6 .wishlist_header h2{margin-top:2px!important}
+#wishlist_search{border:1px solid #b6b6b6!important;color:#585858!important;border-radius:30px!important;background-color:#C3C3C3!important;border:0!important}
+#wishlist_search:hover{border:0!important}
+.hero_stat .label {COLOR:#FFF!IMPORTANT}
+a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:#1181D2!important}
+.block .block_title {color:#585858!important}
+.wishlist_row{color:#585858!important;border-radius:var(--border0)!important;background-color:#C3C3C3!important}
+.wishlist_row .tag{color:#fff!important;border-radius:var(--border0)!important;background:#797979!important}
+.wishlist_row .capsule img{border-radius:var(--border0)!important}
+.wishlist_row .purchase_area{border-radius:var(--border0)!important;background-color:rgba(0,0,0,0)!important}
+.discount_block{border-radius:var(--border0)!important}
+.game_area_purchase_game_dropdown_selection{border:1px solid #b6b6b6!important;COLOR:#585858!IMPORTANT;background:#C3C3C3!important!important;line-height:36px!important}
+.steamawards_app_banner_ctn{border:1px solid var(--darkgrey)!important;border-radius:var(--border0)!important}
+.discount_block.no_discount .discount_prices{border-radius:var(--border0)!important;background:0 0!important}
+.discount_block_large .discount_prices{border-radius:var(--border0)!important}
+.discount_block .discount_prices{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#C3C3C3!IMPORTANT!important;border-radius:10PX!important;vertical-align:0px!important}
+.btnv6_green_white_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:var(--green)!important;background:rgba(121,153,5,1)!important}
+.btnv6_blue_blue_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:var(--blue-er)!important;background:rgba(47,137,188,1)!important}
+.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:rgba(83,105,4,1)!important;color:var(--white)!important}
+.btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#23678e!important;color:var(--white)!important}
+.btn_medium>span,input.btn_medium{padding:0 15px!important;line-height:30px!important}
+#rightContents .box{border-radius:var(--border0)!important;background:rgba(0,0,0,.2)!important}
+.review_list h1{border-bottom:none!important}
+.review_box {BORDER-RADIUS:10PX!IMPORTANT;BORDER:1PX SOLID #B6B6B6!IMPORTANT}
+.review_box .header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;border-bottom:0!important;background:rgba(0,0,0,.2)!important}
+.review_box .leftcol img{border-radius:var(--border0)!important}
+a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!important;background-color:var(--black)!important}
+.dselect_container a,.dselect_container a:active,.dselect_container a:hover,.dselect_container a:visited{border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.block_content.block_content_inner.dark{border-radius:var(--border0)!important}
+.popup_body.popup_menu.shadow_content{border-radius:var(--border0)!important;z-index:200!important}
+#profile_action_dropdown .popup_menu_item{padding: 0px 12px!important;line-height:26px!important}
+.profile_customization{border-radius:var(--border0)!important;background-image:none!important;background-color:transparent!important}
+.workshop_showcase_item img.workshop_showcase_item_image{border-radius:var(--border0)!important}
+.guide_showcase_appinfo .workshop_showcase_app img{border-radius:var(--border0)!important}
+.favoritegroup_showcase_group .favoritegroup_avatar img{border-radius:var(--border0)!important}
+.recent_game{background-color:rgba( 0, 0, 0, 0.3 )!important;backdrop-filter:blur(10px)!important}
+.game_info .game_info_cap img{border-radius:var(--border0)!important}
+.favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{background-color:transparent!important;border-radius:var(--border0)!important;border-top:0!important}
+.game_info_achievements_badge .game_info_badge_border{border-radius:var(--border0)!important}
+.game_info_badge_border{border:0!important;border-radius:var(--border0)!important;background-color:rgba(0,0,0,0)!important}
+.achievement_progress_bar_ctn{padding:0!important;border:0!important;border-radius:var(--border0)!important}
+.game_info_achievement,.game_info_achievement img{border-radius:var(--border0)!important}
+.game_info_achievement{border-radius:var(--border0)!important}
+.game_info_stats_rule{border-top:0!important;background-color:rgba(0,0,0,0)!important;height:0!important}
+.screenshot_showcase_screenshot{border-radius:var(--border0)!important;border:1px transparent solid!important}
+.showcase_content_bg{border-radius:4px!important;backdrop-filter:blur(10px)!important;background-color:rgba( 0, 0, 0, 0.3 )!important}
+.showcase_content_bg:last-child{border-radius:4px!important}
+.showcase_gamecollector_game img.game_capsule{border-radius:var(--border0)!important}
+.commentthread_header,.profile_leftcol_header{border-bottom:0!important;border-radius:var(--border0)!important;background-color:transparent!important}
+.commentthread_subscribe_checkbox{border:0!important;border-radius:var(--border0)!important;background:var(--littlegrey)!important;margin-bottom:2px!important}
+.profile_comment_area .commentthread_footer{border-top:0!important}
+.profile_comment_area .commentthread_comment_container{border-bottom:0!important}
+.commentthread_textarea {color:#585858!important}
+.profile_comment_area .commentthread_textarea{background-color:var(--littlegrey)!important}
+.profile_comment_area .commentthread_header,.profile_leftcol_header{background-color:transparent!important}
+.profile_comment_area .commentthread_entry_quotebox{border-bottom:0!important;border:0!important;background-color:var(--littlegrey)!important;border-radius:var(--border0)!important}
+.commentthread_entry_quotebox{background-color:#C3C3C3!important;border-radius:var(--border0)!important;border-left:0!important;border-top:0!important;border-right:0!important;border-bottom:0!important;margin-bottom:-2px!important}
+.commentthread_footer,.commentthread_header{margin-bottom:0!important;padding-bottom:0!important}
+.invite_row{border-radius:var(--border0)!important;background:rgba(0,0,0,.2)!important}
+.invite_block_name{margin-top:10px!important}
+span.invite_action_txt{border-radius:var(--border0)!important}
+.event_title{font-weight:400!important}
+.community_search_text_box{background:#C3C3C3!important;background-color:#C3C3C3!important;border:1px solid #787878!important;border-radius:var(--border2)!important;color:var(--white)!important}
+input[type=number],input[type=password],input[type=text],select{border:2px solid transparent!important;border-radius:var(--border2)!important}
+#search_players_form input[type=submit]{margin-top:5px!important;margin-left:5px!important}
+.search_row{background-color:#C3C3C3!important;border-radius:var(--border0)!important}
+body.flat_page{background:var(--darkgrey)!important}
+body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:var(--border0)!important;background:var(--darkgrey)!important}
+.search_match_info{border-radius:var(--border0)!important}
+.search_group_avatar_holder img{border-radius:var(--border0)!important}
+.grouppage_content_area .community_search_container>h2{color:var(--white)!important}
+.recentAchievementsImg{border-radius:var(--border0)!important}
+.game_purchase_action_bg{height:35px!important;background-color:TRANSPARENT!important;padding:1px 1px 0 0!important;border:0PX!important;border-radius:2px!important;-moz-border-radius:var(--border0)!important}
+.game_purchase_action_bg>*{margin-left:1px!important}
+.game_purchase_discount .discount_prices{background:var(--begrey)!important;vertical-align:6px!important}
+.game_purchase_discount{height:36px!important}
+.game_purchase_discount .bundle_base_discount,.game_purchase_discount .discount_pct{border-radius:var(--border0)!important;height:36px!important;line-height:32px!important}
+.game_purchase_action .game_purchase_price{BORDER-RADIUS:10PX!IMPORTANT;BORDER:1PX SOLID #B6B6B6!IMPORTANT;background-color:#C3C3C3!important;color:#585858!important}
+.highlight_movie{border-radius:var(--border0)!important;background-color:transparent!important}
+.highlight_player_item img{bordebody.v6r-radius:var(--border0)!important}
+.highlight_strip_item img{border-radius:var(--border0)!important;background-color:transparent!important}
+.highlight_strip_item{background-color:transparent!important}
+img.game_header_image_full{border-radius:var(--border0)!important;width:324px!important;margin-left:-5px!important}
+body.v6 .game_area_already_owned.page_content{border-radius:var(--border0)!important}
+.game_area_play_stats{border-radius:var(--border0)!important}
+.user_reviews_filter_display_as select {OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#FFF!IMPORTANT}
+.user_reviews_filter_display_as {BORDER-LEFT:NONE!IMPORTANT}
+#recommendation_success .review_box .thumb{border-radius:var(--border0)!important}
+#review_create h1,.reviewDate{border-top:0!important}
+.user_reviews_summary_bar .summary_section {COLOR:#FFF!IMPORTANT}
+.game_area_purchase_game_wrapper .game_area_purchase_game{border-radius:var(--border0)!important}
+.game_area_purchase_game>a{border-radius:var(--border0)!important}
+.btn_medium>span.subscribeText{padding-left:35px!important}
+.game_area_purchase_not_refundable{color:var(--white)!important;background:var(--grey)!important;border-radius:var(--border0)!important}
+.game_purchase_area_friends_want{background:var(--grey)!important;color:var(--white)!important;border-radius:var(--border0)!important}
+.highlight_selector{background-image:none!important}
+#game_highlights{background:0 0!important;border-radius:var(--border0)!important}
+.queue_ctn{width:940px;border-radius:var(--border0)!important;background:0 0!important}
+.glance_details img:hover{border:0!important;border-radius:var(--border0)!important}
+.review_box .vote_info .commentCount a {color:#585858!important}
+.game_area_dlc_bubble{border-radius:var(--border0)!important}
+.ds_flag.ds_completetheset{border-radius:var(--border0)!important}
+.review_box .postedDate {COLOR:#585858!IMPORTANT}
+.game_description_column h2,.recommendation_bodytext h2{background-image:none!important}
+.game_description_column .block .block_header h4{background-image:none!important}
+.game_description_column .block .block_content a{border-radius:var(--border0)!important;background-color:#e4e4e4!important}
+.game_description_column .block .block_content a img{border-radius:var(--border0)!important}
+.game_area_already_owned .ds_flag{border-radius:var(--border0)!important;background:0 0!important}
+#review_create .avatar>img{border-radius:var(--border5)!important}
+.rightcol .review_box .short_header .hours {opacity:1!important}
+.review_box .control_block .text {color:#585858!important;font-weight:450!important}
+#review_create .avatar{border-radius:var(--border5)!important}
+#review_create .input_box{border:0!important;border-radius:var(--border0)!important;background-color:#2b2b2b!important}
+.review_controls{background-color:transparent!important;border-radius:var(--border0)!important}
+.review_box .vote_header .thumb{border-radius:var(--border0)!important}
+.review_box .short_header .hours,.review_box .short_header .persona_name,.review_box .short_header .thumb{border-radius:var(--border0)!important}
+.review_box .short_header .persona_name {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
+.review_box a.vote_header{background:#C3C3C3!important;border-radius:var(--border0)!important}
+.review_box {background-color:#C3C3C3!important}
+.review_box .hr{height:0!important}
+.review_box{background-image:none!important;border-radius:var(--border0)!important}
+.sysreq_tabs{padding-left:0!important;background:0 0!important;border-radius:var(--border0)!important}
+.game_description_column h2,.recommendation_bodytext h2{background-image:none!important}
+.sysreq_tab.active{background-color:var(--grey)!important;border-radius:var(--border0)!important}
+.review_box .persona_name, .recommendation_row .persona_name {FONT-WEIGHT:BOLD!IMPORTANT}
+.sysreq_tab:hover{background-color:var(--grey)!important;border-radius:var(--border0)!important}
+body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
+.review_box.short{background:var(--grey)!important;border-radius:var(--border0)!important}
+.rightcol.game_meta_data .block{border:1px solid #b6b6b6!important;background:#C3C3C3!important;border-radius:10px!important}
+.rightcol.game_meta_data .block.heading{background:none!important;border:none!important;COLOR:#585858!IMPORTANT}
+.short_header{background-color:#C3C3C3!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
+.short_header:hover{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
+.discount_block.no_discount .bundle_base_discount{border-right:0!important}
+.queue_controls_description{color:var(--gold)!important;background:0 0!important;margin-top:-28px!important}
+.btn_next_in_queue .next_in_queue_content{padding:25px 15% 0 28%!important}
+.btn_next_in_queue{background:0 0!important;background-color:#584d31!important;width:100px!important;height:35px!IMPORTANT;border-radius:var(--border5)!important}
+.btn_next_in_queue{background:0 0!important;background-color:var(--bronze)!important;width:230px!important;height:80px!important;margin-bottom:-10px!important;margin-right:-15px!important;margin-top:20px!important;border-radius:var(--border5)!important}
+.btn_next_in_queue span{color:var(--gold)!important}
+.btn_next_in_queue:hover span{color:var(--gold)!important}
+.game_area_comingsoon{border-radius:var(--border0)!important}
+.game_page_autocollapse_fade{background:0 0!important}
+.game_purchase_action_bg > *{border-radius:0PX!important}
+.sale_page_release_date {COLOR:#585858!IMPORTANT}
+.game_page_autocollapse_readmore{background:#585858!important;color:#fff!important;padding-left:5px!important;padding-right:5px!important;border-radius:var(--border0)!important}
+.game_page_autocollapse_readmore:hover{background:#585858!important;color:#fff!important;padding-left:5px!important;padding-right:5px!important;border-radius:var(--border0)!important}
+.game_page_autocollapse_ctn.collapsed{padding-bottom:25px!important}
+.game_description_column .block .block_header .right a{background-color:#585858!important;color:#fff!important;padding:4px 6px!important;border-radius:var(--border0)!important}
+.game_description_column .block .block_header .right a:hover{background:none!important;background-color:#000!important;color:#fff!important;border-radius:var(--border0)!important}
+.no_curators_followed{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#C3C3C3!important;border-radius:10PX!important}
+.review_ctn{border-top:0!important}
+.promo_item_list .item .info .percent {BACKGROUND-COLOR:#78BE6D!IMPORTANT}
+.slider_ctn.store_autoslider{background:0 0!important;border-radius:var(--border0)!important}
+.user_reviews_date_range_explanation, .user_reviews_offtopic_activity_explanation, .user_reviews_playtime_filter_explanation {BORDER-BOTTOM:1PX SOLID #DCDCDC!IMPORTANT}
+.user_reviews_filter_menu:hover {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
+.user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover {BORDER-RADIUS:10PX!IMPORTANT;BORDER:1PX SOLID #DCDCDC!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.highlight_ctn .slider .handle,.highlight_ctn .slider_ctn .slider_left,.highlight_ctn .slider_ctn .slider_right{background-color:rgba(0,0,0,.4)!important;border-radius:var(--border0)!important}
+.game_area_details_specs{BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:30PX!important}
+.reviews_info_ctn {BORDER-BOTTOM:1PX SOLID #DCDCDC!IMPORTANT}
+#review_histogram_recent_section {BACKGROUND:TRANSPARENT!IMPORTANT}
+.game_area_details_specs a.name{color:#FFF!important;background:#585858!important;border-radius:30PX!important}
+.game_area_details_specs a.name:hover{background:var(--darkergrey)!important}
+.DRM_notice{border-radius:var(--border0)!important}
+.block a.linkbar{border-radius:var(--border0)!important}
+.glance_ctn{background:0 0!important;padding-bottom:13px!important;padding-left:5px!important;border-radius:var(--border0)!important}
+.sale_page_n_section .broadcast_wrapper .broadcastwrapper{border-radius:var(--border0)!important}
+.sale_page_n_section_block{border-radius:var(--border0)!important}
+.sale_page_n_section_button{border-radius:var(--border25)!important}
+.review_award_count {color:#41A6EF!important}
+.review_award {background-color:#e4e4e4!important}
+.review_award:hover {background-color:#000!important}
+.promotion_curator_container{border-radius:var(--border0)!important}
+.promotion_follow_controls{padding:1px 1px 1px 1px!important;border-radius:var(--border0)!important}
+.promotion_curator_socialmedia_accounts{border-radius:var(--border0)!important}
+.sale_page_purchase_item{BACKGROUND:#C3C3C3!IMPORTANT;border-radius:10PX!important}
+.sale_page_purchase_content .bundle_contents_preview{border-radius:var(--border0)!important}
+.ds_flag.ds_owned_flag{background:#e4e4e4!important;border-radius:var(--border0)!important}
+.ds_flag.ds_wishlist_flag{border-radius:var(--border0)!important;border:1px solid #787878!important;BACKGROUND:#E4E4E4!iMPORTANT}
+.ds_flag.ds_incart_flag{border-radius:var(--border0)!important}
+.ds_flag.ds_ignored_flag{border-radius:var(--border0)!important}
+div.early_access_header{border:1px solid #b6b6b6!important;border-radius:var(--border0)!important}
+.game_area_dlc_row.odd{background:none!important;border-radius:var(--border0)!important}
+div.early_access_banner{border-radius:var(--border0)!important}
+#app_reviews_playtime_slider .ui-widget-header {background:#1181D2!important}
+h2 span.note{background:#585858!important;color:#fff!important;padding:0!important;padding-top:4px!important;padding-bottom:1px!important;padding-left:5px!important;padding-right:5px!important;border-radius:var(--border0)!important}
+h2 span.note:hover{background:rgba(23,67,92,1)!important;color:var(--white)!important;padding:0!important;padding-top:4px!important;padding-bottom:1px!important;padding-left:5px!important;padding-right:5px!important;border-radius:var(--border0)!important}
+.review_box.partial .content .gradient{background:0 0!important}
+.early_access_review{COLOR:#FFF!IMPORTANT;BORDER:1PX SOLID #41A6EF!IMPORTANT;background-color:#41A6EF!important;border-radius:var(--border0)!important}
+#review_histograms_container{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
+.review_histogram_section .user_reviews_summary_bar{border-bottom:10px!important}
+.review_histogram_section.recent{border-top-right-radius:var(--border0)!important}
+.user_reviews_header{background-image:none!important}
+.user_reviews_filter_menu_flyout{COLOR:#585858!IMPORTANT;border-top-right-radius:var(--border0)!important;border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.user_reviews_filter_options{background-color:#585858!important;border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.user_reviews_filter_menu{border-left:0!important}
+#review_recent_events_container.high_volume_all{border-radius:var(--border0)!important}
+.item_store_items_game_page_container{border-radius:var(--border0)!important}
+.block.recommendation_reasons, .block.recommendation_reasons p {COLOR:#585858!IMPORTANT}
+.item_def_icon_container{border-radius:var(--border0)!important}
+.rightcol .panel{border-radius:var(--border0)!important}
+.ico16 {WIDTH:0PX!IMPORTANT;BACKGROUND:NONE!IMPORTANT}
+.glance_ctn .user_reviews {COLOR:#585858!IMPORTANT}
+.rightcol .review_box.partial .content .gradient{background:0 0!important;border-radius:var(--border0)!important}
+a.communitylink_achievement.communitylink_achivement_plusmore{padding:0px!important;BACKGROUND-COLOR:#41A6EF!IMPORTANT;border-radius:var(--border0)!important}
+.communitylink_achievement{border-radius:var(--border0)!important}
+#game_area_metascore .score{border-radius:var(--border0)!important}
+.friend_activity .friend_block_avatar img,.friend_block_holder .friend_block_avatar img,.playerAvatar img{border-radius:var(--border5)!important}
+.review_box.partial .view_more a{BORDER-RADIUS:30PX!IMPORTANT;background:#585858!important;color:#fff!important;padding-top:3px!important;padding-left:3px!important;padding-right:3px!important;padding-bottom:3px!important}
+.review_box.partial .view_more a:hover{background:#000!important;color:#FFF!important}
+.user_reviews_active_filters .active_filter{color:#fff!important;background-color:#1181D2!important;border-radius:var(--border0)!important;background-repeat:no-repeat;background-image:none!important}
+.block.recommendation_reasons hr{height:0!important;background-color:rgba(0,0,0,0)!important}
+div.early_access_announcements .post .hr{background-color:rgba(0,0,0,0)!important;height:0!important}
+.steam_curator_icon.medium{border-left:0!important}
+div.early_access_announcements .post .more{color:var(--blue-er)!important;padding-top:6px!important;padding-bottom:0!important;padding-left:5px!important;padding-right:5px!important;background:rgba(47,137,188,1)!important;border-radius:var(--border0)!important}
+.referring_curator{border-radius:var(--border0)!important}
+div.early_access_announcements .post .more:hover{color:var(--white)!important;padding-top:6px!important;padding-bottom:3px!important;padding-left:5px!important;padding-right:5px!important;background:rgba(23,67,92,1)!important;border-radius:var(--border0)!important}
+.btnv6_lightblue_blue{border-radius:var(--border0)!important;padding:4px!important;border:1px var(--littlegrey)!important;color:var(--black)!important;background:var(--blue-ish)!important}
+.btnv6_lightblue_blue>span{border-radius:var(--border0)!important;border:1px var(--littlegrey)!important;color:var(--black)!important;background:var(--blue-ish)!important}
+.btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:var(--black)!important;border:1px var(--littlegrey)!important;background:var(--blue)!important}
+.btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{background:var(--blue)!important;color:var(--black)!important;border:1px var(--littlegrey)!important;border-radius:var(--border0)!important}
+.enable_review_comments input,.review_received_comp input{vertical-align:text-top;border-radius:var(--border0)!important;background:var(--littlegrey)!important}
+.game_area_offsite_purchase,.game_area_purchase_game{border-radius:var(--border0)!important}
+.friend_activity .friend_block_avatar,.friend_block_holder .friend_block_avatar,.playerAvatar{border-radius:var(--border4)!important;padding:0!important}
+.appHubIconHolder.ignored,.appHubIconHolder.offline,.avatar_block_status_offline,.friend_activity.friend_status_offline .friend_block_avatar,.friend_block_holder.friend_status_offline .friend_block_avatar,.playerAvatar.offline{border-radius:var(--border4)!important}
+.appHubIconHolder.offline img,.avatar_block_status_offline img,.friend_status_offline .friend_block_avatar img,.playerAvatar.offline img{border-radius:var(--border4)!important}
+.appHubIconHolder.online,.avatar_block_status_online,.friend_activity.friend_status_online .friend_block_avatar,.friend_block_holder.friend_status_online .friend_block_avatar,.playerAvatar.online{border-radius:var(--border4)!important}
+.appHubIconHolder.online img,.avatar_block_status_online img,.friend_status_online .friend_block_avatar img,.playerAvatar.online img{border-radius:var(--border4)!important}
+.appHubIconHolder.in-game,.avatar_block_status_in-game,.friend_activity.friend_status_in-game .friend_block_avatar,.friend_block_holder.friend_status_in-game .friend_block_avatar,.playerAvatar.in-game{border-radius:var(--border4)!important}
+.appHubIconHolder.in-game img,.avatar_block_status_in-game img,.friend_status_in-game .friend_block_avatar img,.playerAvatar.in-game img{border-radius:var(--border4)!important}
+.appHubIconHolder.golden,.avatar_block_status_golden,.friend_activity.friend_status_golden .friend_block_avatar,.friend_block_holder.friend_status_golden .friend_block_avatar,.playerAvatar.golden{border-radius:var(--border4)!important}
+.group_content_rule{background-image:none!important}
+.group_content{background:0 0!important}
+.group_content.bottomless{background:#E4E4E4!important;margin-bottom:50px!important;border-radius:var(--border0)!important;padding-left:7px!important}
+.commentthread_entry{background-color:rgba(0,0,0,0)!important}
+.group_comments .commentthread_entry{background:0 0!important}
+.commentthread_header .commentthread_count{background-image:none!important;margin-left:15px!important;margin-top:4px!important}
+.commentthread_paging{margin-top:3px!important;margin-right:4px!important}
+.commentthread_footer,.commentthread_header{padding-bottom:15px!important;padding-top:10px!important;border-radius:var(--border0)!important}
+.forum_topic_overlay{border-radius:var(--border0)!important}
+.forum_topic_overlay:hover{background:var(--darkergrey)63!important}
+.forum_topic{border-radius:var(--border0)!important}
+.btn_blue_white_innerfade{border-radius:var(--border0)!important;border:1px var(--littlegrey)!important;text-decoration:none!important;color:var(--blacker-ish)!important;background:rgba(102,192,244,.8)!important}
+.btn_blue_white_innerfade>span{border-radius:var(--border0)!important;background:rgba(102,192,244,.8)!important;color:var(--blacker-ish)!important;border:1px var(--littlegrey)!important}
+.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:var(--white)!important;border-radius:var(--border0)!important;background:var(--darkblue)!important;border:1px var(--littlegrey)!important}
+.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{text-decoration:none!important;color:var(--white)!important;border-radius:var(--border0)!important;background:var(--darkblue)!important;border:1px var(--littlegrey)!important}
+.grouppage_join_area{padding:1px!important;background-color:transparent!important;border-radius:var(--border0)!important}
+.notice_box_content {COLOR:#585858!IMPORTANT}
+.notice_box_content_blue_box{border-radius:var(--border0)!important}
+.group_tabs{width:950px!important;border-radius:var(--border0)!important;padding-left:2px!important}
+.group_tab{background:0 0!important;border-radius:var(--border0)!important;-moz-border-radius:var(--border0)!important}
+a.group_tab{color:#585858!important}
+a.group_tab:hover{COLOR:#000!IMPORTANT;background:TRANSPARENT!important;border-radius:var(--border0)!important}
+.group_tab.active{height:35px!important;background:0 0!important;border-radius:var(--border0)!important}
+.group_tab.active>span{height:35px!important;background:rgba(102,192,244,.8)!important;border-radius:var(--border0)!important}
+.rightbox{border-radius:10px!important;border:1px solid #b6b6b6!important;background:#C3C3C3!important;}
+.joinchat_bg{position:relative;width:257px!important;height:36px!important;background:var(--blacker)!important;border-radius:var(--border0)!important}
+.joinchat_bg .joinchat_button{top:2px!important;color:var(--white)!important;background:rgba(102,192,244,.8)!important;border-radius:var(--border0)!important}
+.joinchat_bg .joinchat_membercount{top:1px!important;color:var(--blu)!important}
+.rightbox .rule{height:0!important;background-color:rgba(0,0,0,0)!important;border-top:0!important}
+.group_associated_game{background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
+.group_associated_game_icon{background-color:transparent!important}
+.group_overview_announcement_readmore{border-top:0px!important}
+.calendarBox{border-radius:var(--border0)!important}
+.member_block{background-color:var(--grey)!important;border-radius:var(--border0)!important}
+.member_block:hover{background-color:var(--darkergrey)!important;border-radius:var(--border0)!important}
+.member_block .rank_icon{background-color:transparent!important}
+.group_paging{border-radius:var(--border0)!important}
+.announcement{border-radius:var(--border0)!important}
+a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue)!important}
+.pagebtn, a.pagebtn{background-color:var(--grey)!important}
+.announcement_control_container{border-radius:var(--border0)!important}
+.forum_topic_pinned_notice{COLOR:#FFF!IMPORTANT;BACKGROUND-COLOR:#54A448!IMPORTANT;border-radius:var(--border0)!important}
+.forum_paging_summary{color:#585858!important;border-radius:var(--border0)!important}
+.forumtopic_comments .commentthread_comment_text {COLOR:#585858!iMPORTANT}
+.forumtopic_comments .commentthread_comment_text a{border-radius:var(--border0)!important}
+.forum_newtopic_header{background:transparent!Important;border-bottom:1px solid #dcdcdc!important;border-radius:var(--border0)!important}
+.forum_newtopic_box{border-radius:var(--border0)!important}
+.commentthread_comment_edit_textarea_ctn,.gray_bevel,input.gray_bevel,textarea.gray_bevel{border:0!important;border-radius:var(--border0)!important}
+.btn_grey_black{border-radius:var(--border0)!important;text-decoration:none!important;color:var(--blu)!important}
+.btn_grey_black>span{border-radius:var(--border0)!important}
+#widget .btn_addtocart .btn_addtocart_content {BORDER-RADIUS:30PX!IMPORTANT;COLOR:#FFF!IMPORTANT;BACKGROUND:#78BE6D!IMPORTANT}
+#widget .btn_addtocart .btn_addtocart_content:hover {BACKGROUND:#54A448!IMPORTANT}
+.btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:#fff!important;background:#000!important;border-radius:var(--border0)!important}
+.btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{border-radius:var(--border0)!important}
+.btn_grey_black.btn_active,btn_grey_black.active{text-decoration:none!important;color:var(--white)!important;border-radius:var(--border0)!important}
+.btn_grey_black.btn_active>span,btn_grey_black.active>span{border-radius:var(--border0)!important}
+.btn_small>span,input.btn_small{border-radius:var(--border0)!important}
+.btn_small>span,input.btn_small:hover{border-radius:var(--border0)!important}
+.btn_green_white_innerfade{border-radius:var(--border0)!important;text-decoration:none!important;color:var(--green)!important}
+.btn_green_white_innerfade>span{border-radius:var(--border0)!important}
+.btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:var(--white)!important;border-radius:var(--border0)!important}
+.btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{border-radius:var(--border0)!important}
+.eventLogo{border-radius:var(--border0)!important}
+.grouppage_logo{background-image:none!important}
+.curator_summary_box{border-radius:var(--border0)!important}
+.curator_store_link_ctn{border-radius:var(--border0)!important}
+#widget{BORDER-COLOR:#B6B6B6!IMPORTANT;border:0!important;background:#C3C3C3!important;border-radius:10PX!important}
+.btn_addtocart .btn_addtocart_left,.btn_addtocart .btn_addtocart_right{background:0 0!important}
+.btn_addtocart .btn_addtocart_content{color:var(--green)!important;background:rgba(121,153,5,1)!important;border-radius:var(--border0)!important}
+.rightbox_list_selection_background{left:-10px!important;background:var(--grey)!important;border-radius:var(--border0)!important}
+.bundle_contents_preview{border-radius:var(--border0)!important}
+.group_content_header .group_content_header_viewmore{border-radius:var(--border0)!important;background-color:rgba(47,137,188,1)!important;color:var(--white)!important}
+.forumtopic_answer.answer_ctn{border-radius:var(--border0)!important}
+.forumtopic_comments .commentthread_answer_bar{border-radius:var(--border0)!important}
+img#blotter_nofriends_block{border-radius:var(--border0)!important}
+#instructions_main_container{border:0!important;border-radius:var(--border0)!important}
+#BG_top_workshop{background-image:none!important;width:0!important;height:0!important}
+.responsive_tab_baseline{background-color:transparent!important;height:0!important}
+.sectionTabsHR{background-color:transparent!important;margin-bottom:0!important}
+#footer{border-radius:var(--border0)!important}
+#friendactivity_right_column .box{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#C3C3C3!important;border-radius:var(--border0)!important}
+.blotter_eventsblock{border-radius:var(--border0)!important}
+.friends_add_block{border-radius:var(--border0)!important}
+.profile_options_divider{height:0!important;border-top:0!important}
+.blotter_status_entry .commentthread_entry{border-radius:var(--border0)!important;border-bottom:0!important}
+#blotter_statuspost_submit>span{border-radius:var(--border0)!important}
+#blotter_statuspost_submit{border-radius:var(--border0)!important}
+.blotter_day{border-radius:var(--border0)!important}
+.gameLogo{border-radius:var(--border0)!important}
+.blotter_group_announcement_header_ogg{border-bottom:0!important;border-radius:var(--border0)!important}
+.blotter_comment_thread .commentthread_area{border-radius:var(--border0)!important}
+.blotter_comment_thread{border-top:0 solid var(--lightblack)!important;border-radius:var(--border0)!important}
+.blotter_group_announcement_header{border-bottom:0!important;border-radius:var(--border0)!important}
+.blotter_screenshot_gallery_image,.blotter_screenshot_gallery_image_selected{border-radius:var(--border0)!important}
+#blotter_appselect_app_options .blotter_appselect_options{border-radius:var(--border0)!important}
+.blotter_author_block{border-bottom:0!important;border-radius:var(--border0)!important}
+.blotter_screenshot>.blotter_author_block{border-radius:var(--border0)!important}
+.blotter_comment_thread .commentthread_comment_container{margin-top:0!important}
+.blotter_group_announcement_content{background:#e4e4e4!important}
+span.bb_spoiler{border-radius:var(--border0)!important}
+#HeaderUserBreadcrumbs{border-bottom:0!important}
+.HeaderUserAvatar img{border-radius:var(--border4)!important}
+.avatarIcon_48 img{border-radius:var(--border4)!important}
+.avatarIcon_48_online{border-radius:var(--border4)!important}
+.avatarIcon_48_offline{border-radius:var(--border4)!important}
+.avatarIcon_48_ingame{border-radius:var(--border4)!important}
+#NoItemsContainer{background-color:rgba(0,0,0,.4)!important;border-radius:var(--border0)!important;border:0!important}
+.view_inventory_page.inventory_msg_ctn{border-radius:var(--border0)!important}
+.primary_panel_border{background:0 0!important}
+.rightSectionHolder{background:0 0!important;border-radius:var(--border0)!important}
+.games_list_tabs{border:0!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;-moz-border-radius-topleft:4px!important;-moz-border-radius-topright:4px!important}
+.games_list_tab.active{margin-left:1px!important;background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
+.games_list_tab,a.games_list_tab{padding:0 12px!important;border-radius:var(--border0)!important;border-top:0!important}
+.games_list_tab_separator{width:0!important;background-color:rgba(0,0,0,0)!important;background-repeat:no-repeat}
+.games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important;margin-left:1px!important}
+.inventory_iteminfo{border:2px solid transparent!important}
+.view_inventory_page .inventory_page_right{border-radius:var(--border0)!important}
+.inventory_iteminfo .item_desc_content{background-image:none!important}
+.view_inventory_page .item.activeInfo, .view_inventory_page .item:hover {border-color:#000!important}
+.item_desc_content {border-radius:10px!Important;border:1px solid #b6b6b6!important}
+.trade_item_box .item, .market_dialog_contents .item {background-color:#C3C3C3!important;border-color:#b6b6b6!important}
+#iteminfo0 .item_desc_content,#iteminfo1 .item_desc_content{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;background-color:var(--thegrey)!important}
+.item_market_actions{border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.trade_item_box{background-color:transparent!important;border:1px solid transparent!important}
+.itemHolder{background-color:transparent!important;border-radius:var(--border0)!important;background-image:none!important}
+.market_dialog_contents .item,.trade_item_box .item{background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
+.badge_row{border-radius:var(--border0)!important;BORDER:1PX SOLID #B6B6B6!IMPORTANT;background-color:#C3C3C3!important;background:#C3C3C3!important}
+.badge_row_inner{background-color:#585858!important;border-radius:var(--border0)!important;background:#585858!important}
+.badge_title_rule{height:0!important;border-top:0!important;background-color:rgba(0,0,0,0)!important}
+.badge_empty{border:1px solid transparent!important;border-radius:var(--border0)!important}
+.badge_progress_card.unowned{border:0!important;border-radius:var(--border0)!important}
+.profile_xp_block{border:1PX SOLID #B6B6B6!important;border-color:var(--thegrey)!important;background-color:var(--thegrey)!important}
+.profile_xp_block_remaining_bar_progress{BACKGROUND-COLOR:#53A247!IMPORTANT;border-radius:30PX!important;background-image:none!important}
+.profile_xp_block_remaining_bar {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#C3C3C3!IMPORTANT}
+.main_content_ctn{border:0!important}
+.browseAppsTitle .highlight {color:#585858!Important}
+.profile_xp_block_level, .profile_xp_block_xp {COLOR:#585858!IMPORTANT}
+.dynamiclink_author {COLOR:#FFF!IMPORTANT}
+.games_list_tab_row_separator{border-top:0!important}
+.browseApps{border:1px soild #b6b6b6!important;background-color:#C3C3C3!important;border-radius:var(--border0)!important}
+.browseAppsTitleContainer{border-radius:var(--border0)!important;background:#C3C3C3!important;background-color:#C3C3C3!important}
+.searchApps{border-radius:var(--border2)!important;background:#C3C3C3!important}
+.workshopAppsRow{border-bottom:0!important;background:0 0!important}
+.primary_panel{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#C3C3C3!important;border-radius:10PX!important}
+.avatar_workshop_overlay{background:0 0!important}
+.current_player_workshop_link{padding-left:60px!important}
+.joinGroup{border-radius:var(--border0)!important;width:240px!important;height:80px!important;background:var(--darkgrey)!important}
+.joinGroupTitle{margin-left:50px!important}
+#ig_bottom .sidebar .detailPanel,#ig_bottom .sidebar .panel{background:var(--grey)!important;border-radius:var(--border0)!important}
+.subscribeRSS{padding-top:15px!important;padding-bottom:5px!important}
+.right_column .panel{background:var(--grey)!important;border-radius:var(--border0)!important}
+.workshop_header{border-radius:var(--border0)!important}
+.workshop_browse_menu_area{border-radius:var(--border0)!important;background:var(--darkgrey)!important;text-align:left}
+.workshop_browse_search{height:34px!important;background-color:var(--grey)!important;border-left:0!important;border-top:0!important;border-right:0!important;border-bottom:0!important}
+.apphub_HeaderTop.workshop{background-image:none!important}
+#ButtonContainer{margin-top:5px!important;border-radius:var(--border0)!important}
+#MessageContent{margin-top:5px!important}
+.profile_subpage_general .maincontent{border-left:0 solid!important;border-right:0 solid!important}
+.tradeoffer_items_ctn.active{border-top-color:rgba(0,0,0,0)!important;border-left-color:rgba(0,0,0,0)!important;border-right-color:rgba(0,0,0,0)!important;background:var(--grey)!important}
+.tradeoffer_items_ctn{border:0 solid!important;background-color:var(--darkergrey)!important}
+.tradeoffer_items_rule{background:0 0!important}
+.tradeoffer_rule{border-top:0!important;height:0!important}
+.tradeoffer_items_banner.accepted{border-radius:var(--border0)!important}
+.quote_arrow{background-image:none!important}
+.rightcol_controls_rule{height:0!important;border-top:0!important}
+.maincontent{background-image:none!important;background-color:var(--darkgrey)!important}
+.maincontent #topSummaryBoxContent{background-color:var(--bedarkgrey)!important;padding:10px 10px 20px 20px!important;margin:0 0 20px 0!important;border-radius:var(--border0)!important}
+#subtabs{background:0 0!important;height:10px!important}
+#personalAchieve{padding:20px 0 0 0!important}
+.achieveTxtHolder{background-color:var(--thegrey)!important;padding:0 10px!important}
+.achievementProgressBar{border-radius:var(--border4)!important}
+.achieveBarProgress{border-radius:var(--border1)!important}
+.achieveBar{border-radius:var(--border1)!important}
+.profile_small_header_texture>h1,h2{padding-left:-40px!important}
+.profile_small_header_texture>.profile_small_header_additional{right:36px!important}
+#headerContent{margin:20px 0!important;padding:15px 20px!important;background-color:var(--bedarkgrey)!important;border-radius:var(--border0)!important}
+#compareAvatar{margin:20px 0!important;padding:0 32px 0 16px!important}
+.achieveTxtHolder{min-height:64px!important;border:0!important;border-radius:var(--border4)!important}
+.achieveTxt{padding:17px 6px 6px 10px!important}
+.achieveFill{top:0!important;left:0!important;bottom:0!important;background:var(--grey)!important}
+h2.pageheader{padding-left:0!important}
+.newsrightcol .block .block_header{padding:5px 10px!important}
+.block .block_header {border-radius:30px!important;background:NONE!important;color:#585858!important}
+.block a.linkbar{padding:5px 10px!important;background:var(--darkgrey)!important}
+.block_sub_header_channels{padding:0 0 0 10px!important}
+.posttitle{font-size:18px!important}
+.tabOff,.tabOn{background:var(--grey)!important;border-radius:var(--border0)!important}
+.flat_page .modal_frame{width:97%!important;left:0!important;margin:0 40px 0 10px!important}
+#modalContentFrameContainer{height:100%!important;overflow:scroll!important}
+#modalContentFrameContainer .modalContent_iFrame{height:900%!important}
+.favorite_game_cap a img{border-radius:var(--border0)!important}
+.showcase_gamecollector_game a img{border-radius:var(--border0)!important}
+.showcase_achievement a img{border-radius:var(--border0)!important}
+.profile_leftcol_header>h2{padding-left:0!important}
+.recent_game>.recent_game_content{padding:15px 15px!important}
+.recent_game>.recent_game_content>.game_name{padding-left:10px!important}
+.recent_game .game_info .game_info_cap img{border-radius:var(--border0)!important}
+.favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{padding:10px 0 10px!important}
+.recent_game .achievement_icons{float:right!important}
+.sale_page_background{background-color:var(--darkgrey)!important}
+body.v6.winter_sale_home h2.winter{margin-left:-40px!important}
+.steamawards_card{border-radius:var(--border0)!important}
+.steamaward_card_background{border-radius:var(--border0)!important}
+.shadow_bottom,.shadow_left,.shadow_right,.shadow_top{display:none!important}
+.shadow_bl,.shadow_br,.shadow_ul,.shadow_ur{display:none!important}
+.friend_block_v2:hover{background:var(--grey)!important;border-radius:var(--border0)!important}
+.most_recommended .steam_curator_recommendation .steam_curators_for_app{border-top:0px!important}
+.navigation_bar{border-bottom:0px!important}
+.newmodal{background:#e4e4e4!important;border-radius:var(--border0)!important;border-width:0px!important;border-style:solid!important;border-color:transparent!important;border-image:initial!important}
+.newmodal_background{opacity:0.9!important;backdrop-filter:var(--blur)!important}
+.modal_top_bar{height:0px!important;background:transparent!important}
+.newmodal_header{color:#585858!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;background:#e4e4e4!important}
+.newmodal_content{color:#585858!important;border-radius:var(--border0)!important}
+.hover_box{background:var(--lightergrey)!important;color:var(--dakerwhite)!important} 
+.hover_arrow_inner{background:0 0!important}
+.carousel_items.store_capsule_container > * > *{border-radius:var(--border0)!important}
+.community_recommendation_app > .right_col{background:#CECECE!important;border-radius:var(--border0)!important}
+.community_recommendation_app:hover > .right_col{background:#cecece!important;border-radius:var(--border0)!important}
+div.profile_page.has_profile_background{z-index:0!important}
+.profile_friends .friend_block_v2{width:280px!important;background:var(--darkergrey)!important;border-radius:var(--border5)!important}
+.profile_friends .friend_block_v2:hover{background:var(--realblack)!important;border-radius:var(--border5)!important}
+.friend_block_v2 .player_avatar{margin-top:2px!important}
+.friendBlock .friendPlayerLevel{margin: 1px 6px 5px 5px!important}
+.referring_curator_ctn{margin-top:-20px!important;margin-bottom:0px!important}
+.queue_overflow_ctn{margin-top:-20px!important}
+.ellipsis {color:#585858!important}
+
+
+/* This is the part for the Group page Banner */
+.grouppage_membertiles_overlay{top:0!important;padding-bottom:12px!important;background:var(--darkgrey)!important;opacity:.9!important}
+.grouppage_member_tiles{right:-1px!important;height:230px!important;padding-bottom:12px!important;padding-top:0!important;background:0 0!important;border-radius:var(--border0)!important}
+.grouppage_header{border-bottom:4px!important;background:0 0!important}
+.grouppage_header_name{color:#585858!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:30%!important;background-color:transparent!important}
+.grouppage_header_label{border-top-left-radius:var(--border1)!important;border-top-right-radius:var(--border1)!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:15%!important;background-color:transparent!important}
+
+/* User Avatars Row */
+.grouppage_friendsingroup{position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:50%!important;background-color:transparent!important}
+
+/* x Friends in group Button (this is fine) */
+.grouppage_friendsingroup_title{border-radius:var(--border1)!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:1%!important;top:-130%!important;background-color:transparent!important}
+
+/* User Avatars */
+.grouppage_friendsingroup .friendavatar{float:left!important;padding:4px!important;border-radius:var(--border5)!important}
+
+
+/* Future Updates and Changes */
+.top_new_releases_background{background-image:none!important;}
+body.v6 h2 a {color:#585858!important}
+body.v6 #footer .valve_links a {color:#585858!important}
+body.v6 #footer #footer_text a {color:#585858!important}
+a, .whiteLink {color:#585858!important}
+body.v6 {background:#e4e4e4!important}
