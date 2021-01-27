@@ -1,0 +1,62 @@
+"resource/layout/settingsdialog.layout"
+{
+	controls
+	{
+		SettingsDialog { controlname="CDialogSettings" }
+		okbutton { controlname="OKButton" }	 
+		cancelbutton { controlname="CancelButton" }	 
+		settingslist { controlname="SettingsList" style="SettingsList" wide=180 }
+		sheet { controlname="Sheet" style="PropertySheet" }
+
+	}
+	styles
+	{
+	
+			CDialogSettings {
+			minimum-width=744
+			minimum-height=734
+			bgcolor="222 222 222 255"
+			render {
+				0="image_scale( x0 + 182, y0, x0 + 188, y1, graphics/material/shadow_vert )"
+			}
+			render_bg {
+				0="fill( x0, y0, x0 + 182, y1, dialogbg2 )"
+				1="fill( x0 + 182, y1 - 50, x1, y1, dialogbg)"
+			}
+		}
+	
+		
+		PropertySheet
+		{
+			//minimum-width="525"
+			//minimum-height="505"
+			//minimum-width="525"
+			//minimum-height="505"
+			bgcolor="none"
+			render_bg{}
+		}
+		"SettingsList"
+		{
+			font-family=basefont
+			inset-top=80
+			padding-left=16
+			bgcolor="228 228 228 255"
+		}
+		ListPanel
+		{
+			selectedbgcolor="88 88 88 255"
+			//selectedtextcolor="88 88 88 255"
+			//Disabled:hover="214 214 214 255"
+		}
+	}
+	layout
+	{
+		region { name="body" margin-right=16 margin-bottom=44 }
+
+		place { control="settingslist" width=182 height=max }
+		place { control="sheet" start=settingslist x=16 y=40 region=body width=max height=max }
+
+		region { name=bottom align=bottom height=44 margin=8 }
+		place { control="okbutton,cancelbutton" region=bottom align=right spacing=8 width=84 height=28 }
+	}
+}

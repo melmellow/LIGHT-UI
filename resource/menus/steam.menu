@@ -1,0 +1,21 @@
+"menubar"
+{
+	Steam
+	{
+		text=""
+		Settings		{	text="#steam_menu_settings"			command="Settings" }
+		Restart 		{	text="#Steam_MustRestart_Button"		command="RestartSteam" }
+		Divider {}
+		Support			{	text="#steam_menu_support"			command="Support" }
+		Divider {}
+		BackupGames		{	text="#steam_menu_backupgames"			command="backupgames" }
+		ActivateRetail		{	text="#Steam_RegisterProductCode"		command="ActivateRetail" }
+		AddShortcut		{	text="#Steam_menu_AddShortcut"			shellcmd="steam://AddNonSteamGame" }
+		Divider {}
+		ChangeUser		{	text="#steam_menu_changeuser"			command="ChangeUser" }
+		GoOffline		{	text="#SteamUI_OfflineMode_GoOffline"		command="gooffline" }
+		Divider {}	
+		GoOnline		{	text="#SteamUI_OfflineMode_GoOnline"		command="goonline" }
+	}
+  
+}

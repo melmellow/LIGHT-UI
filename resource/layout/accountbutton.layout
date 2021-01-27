@@ -1,0 +1,117 @@
+"resource/layout/accountbutton.layout"
+{
+	styles
+	{
+		AccountPersonaStyleOffline
+		{
+			bgcolor=bgOfflineNick
+			textcolor=offlineNick
+			font-style=uppercase
+			padding-right=8
+			padding-left=12
+			render_bg
+			{
+				0="fill(x0-33, y0+3, x0+1, y1-2, bgOfflineNearAvatar)"
+			}
+		}
+
+		AccountPersonaStyleOnline
+		{
+			bgcolor=bgOnlineNick
+			textcolor=onlineNick
+			font-style=uppercase
+			padding-right=8
+			padding-left=12
+			render_bg
+			{
+				0="fill(x0-33, y0+3, x0+1, y1-2, bgOnlineNearAvatar)"
+			}
+		}
+
+		AccountPersonaStyleInGame
+		{
+			bgcolor=bgIngameNick
+			textcolor=ingameNick
+			font-style=uppercase
+			padding-right=8
+			padding-left=12
+			render_bg
+			{
+				0="fill(x0-33, y0+3, x0+1, y1-2, bgIngameNearAvatar)"
+			}
+		}
+
+		AccountDropDownStyleOffline
+		{
+			bgcolor=none
+		}
+
+		AccountDropDownStyleOnline
+		{
+			bgcolor=none
+		}
+
+		AccountDropDownStyleInGame
+		{
+			bgcolor=none
+		}
+
+		AccountBalanceStyle
+		{
+			textcolor="88 88 88 255"
+			bgcolor="228 228 228 255"
+			font-weight=500
+			padding-right=2
+			padding-left=0
+		}
+
+		AccountMenuButtonStyle
+		{
+			bgcolor=none
+			render_bg {}
+			inset-left=2
+			image="graphics/gear"
+			render{
+			1="fill(x0,y0,x1,y0+1, navbar)"  // top
+				2="fill(x0,y1-1,x1,y1, navbar)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, navbar)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, navbar)"  // right
+				}
+			
+		}
+		AccountMenuButtonStyle:hover
+		{
+			bgcolor="228 228 228 255"
+			render_bg {}
+			image="graphics/user (2)"
+
+		}
+		
+				AccountMenuButtonStyle:selected
+		{
+			bgcolor=none
+			render_bg {}
+			inset-left=2
+			image="graphics/user (2)"
+			
+		}
+		
+		AccountMenuButtonStyle:active
+		{
+			bgcolor="228 228 228 255"
+			render {}
+			image="graphics/user (2)"
+		}
+	}
+
+	layout
+	{
+		place { control="account_menu_button" align=right height=0 width=0 margin-left=-9999} // span over everything
+		place { control="account_persona" align=right height=-999 width=0}
+		place { control="account_avatar" align=right end-right="account_persona" margin-top=4 height=-999 width=0 }
+		place { control="account_balance" align=right height=39}
+
+		//hidden
+		place { control="account_drop_down" margin-left=-999 }
+	}
+}
