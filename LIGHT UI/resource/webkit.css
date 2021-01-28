@@ -129,7 +129,7 @@ img{filter:grayscale(30%)!important}
 .profile_count_link a:HOVER .count_link_label {COLOR:#000!IMPORTANT;TEXT-DECORATION:NONE!IMPORTANT}
 .profile_customization_header {BACKGROUND:#585858!IMPORTANT}
 body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subheader {COLOR:#000!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
-.profile_rightcol  {background:#dedede!important}
+.profile_rightcol  {background:#E4E4E4!important}
 .btn_profile_action > span {background-color:#585858!important}
 .help_section_text {font-weight:bold!important;color:#585858!important}
 .help_section_text {font-weight:bold!important;color:#585858!important}
@@ -873,7 +873,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .forum_op{position:relative!important;padding:7px 12px 21px 63px!important;margin-bottom:8px!important;max-width:565px!important;background-color:#d6d6d6!important;background-image:none!important;background-repeat:no-repeat!important;background-position:top left!important;border:0!important;border-radius:var(--border0)!important}
 .blotter_block{position:relative!important;background:var(--bedarkgrey)!important;border-radius:var(--border0)!important}
 .dynamiclink_box{border:1px solid var(--grey)!important;background-color:var(--grey)!important}
-.profile_header_bg_texture{background-color:#dedede!important;background-image:none!important;width:950px!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important;min-height:200px!important;padding-bottom:15px!important;border:1px solid #b8b8b8!important}
+.profile_header_bg_texture{background-color:#E4E4E4!important;background-image:none!important;width:950px!important;backdrop-filter:var(--blur)!important;border-radius:0!important;min-height:200px!important;padding-bottom:15px!important;border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .profile_header_bg{background-image:none!important;padding-bottom:0!important;padding-top:10px!important;min-height:226px!important}
 .profile_background_holder_content{border-radius:var(--border0)!important}
 .playerAvatar.profile_header_size.in-game{max-width:40%!important;float:left!important;margin-right:18px!important;position:relative!important;width:166px!important;height:166px!important;border-radius:var(--border8)!important;background:-webkit-linear-gradient(top,rgba(143,185,59,1) 5%,rgba(110,140,49,1) 95%)!important;background:linear-gradient(to bottom,rgba(143,185,59,1) 5%,rgba(110,140,49,1) 95%)!important;filter:none!important}
@@ -1042,7 +1042,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .workshop_showcase_item img.workshop_showcase_item_image{border-radius:var(--border0)!important}
 .guide_showcase_appinfo .workshop_showcase_app img{border-radius:var(--border0)!important}
 .favoritegroup_showcase_group .favoritegroup_avatar img{border-radius:var(--border0)!important}
-.recent_game{background-color:rgba( 0, 0, 0, 0.3 )!important;backdrop-filter:blur(10px)!important}
+.recent_game{background-color:#E4E4E4!important;backdrop-filter:blur(10px)!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .game_info .game_info_cap img{border-radius:var(--border0)!important}
 .favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{background-color:transparent!important;border-radius:var(--border0)!important;border-top:0!important}
 .game_info_achievements_badge .game_info_badge_border{border-radius:var(--border0)!important}
@@ -1331,7 +1331,7 @@ img#blotter_nofriends_block{border-radius:var(--border0)!important}
 .responsive_tab_baseline{background-color:transparent!important;height:0!important}
 .sectionTabsHR{background-color:transparent!important;margin-bottom:0!important}
 #footer{border-radius:var(--border0)!important}
-#friendactivity_right_column .box{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#d6d6d6!important;border-radius:var(--border0)!important}
+#friendactivity_right_column .box{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .blotter_eventsblock{border-radius:var(--border0)!important}
 .friends_add_block{border-radius:var(--border0)!important}
 .profile_options_divider{height:0!important;border-top:0!important}
@@ -1349,7 +1349,7 @@ img#blotter_nofriends_block{border-radius:var(--border0)!important}
 .blotter_author_block{border-bottom:0!important;border-radius:var(--border0)!important}
 .blotter_screenshot>.blotter_author_block{border-radius:var(--border0)!important}
 .blotter_comment_thread .commentthread_comment_container{margin-top:0!important}
-.blotter_group_announcement_content{background:#dedede!important}
+.blotter_group_announcement_content{COLOR:#585858!IMPORTANT;background:#E4E4E4!important}
 span.bb_spoiler{border-radius:var(--border0)!important}
 #HeaderUserBreadcrumbs{border-bottom:0!important}
 .HeaderUserAvatar img{border-radius:var(--border4)!important}
