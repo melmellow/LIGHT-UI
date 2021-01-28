@@ -792,11 +792,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appdetailsreviewsection_ReviewIconThumbsUpColor_3QZfw {
-	fill: var(--WHITE)!important;
+	fill: var(--ACCENT)!important;
 }
 
 .appdetailsreviewsection_ReviewIconThumbsUp_2BlTq {
-	background: var(--ACCENT)!Important;
+	background:NONE!Important;
 }
 
 .appdetailsachievementssection_Icon_zcasg {
