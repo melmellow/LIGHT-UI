@@ -90,6 +90,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 }
 
 /* Main Code */
+.home_tabs_content .discount_block .discount_prices, .tab_content_ctn .discount_block .discount_prices {BORDER-RADIUS:0!iMPORTANT}
 .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon path {STROKE:#DEDEDE!IMPORTANT;FILL:#585858!iMPORTANT}
 .chatentry_chatSubmitButton_RVIs8.chatentry_EmoticonPickerButton_Aupsw, .chatentry_chatSubmitButton_RVIs8.chatentry_EmbedButton_3zOBe {BORDER:0!iMPORTANT;BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
 .DialogCheckbox {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
@@ -104,7 +105,7 @@ input.DialogTextInputBase, input.DialogTextInputBase:not(disabled):hover, input.
 .DialogHeader {COLOR:#585858!IMPORTANT}
 .live_steam_viewers {filter:brightness(0)!important}
 span.platform_img.mac {filter:brightness(50%)!important}
-.tab_item:hover, .large .tab_item:hover {background:#d6d6d6!Important;border-color:#8d8d8d!Important}
+.tab_item:hover, .large .tab_item:hover {background:#E4E4E4!Important;border-color:#8D8D8D!Important}
 .tab_item_details span.platform_img {opacity:1!important}
 span.platform_img.win {filter:brightness(50%)!important}
 body.v6 #footer #footer_logo img {filter:brightness(0)!important}
@@ -153,6 +154,7 @@ a {color:#585858!important}
 .carousel_container .carousel_thumbs > div:hover {border-color:#000!important}
 .carousel_container .carousel_thumbs > div.focus {background-color:#585858!important}
 .dselect_container a.trigger {background:#585858!important}
+.game_area_dlc_excluded_by_preferences {COLOR:#585858!iMPORTANT}
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {background:#000!important}
 .dropcontainer ul a {color:#585858!important}
 .dropcontainer ul {border:1px solid #b6b6b6!important;background:#dedede!important}
@@ -165,7 +167,7 @@ div.early_access_header .devnotes .morebutton {background:#585858!important}
 div.early_access_header .devnotes > div {color:#585858!important}
 div.early_access_header .heading p span {font-weight:bold!important}
 div.early_access_header .inset {text-shadow:none!Important}
-div.early_access_header .heading {color:#1181D2!important;background:#d6d6d6!important}
+div.early_access_header .heading {color:#1181D2!important;background:#E4E4E4!important}
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {border-radius:30px!important;background-color:#d6d6d6!important}
 #searchSubmitImg {opacity:0!important}
 .popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus {color:#000!Important}
@@ -373,7 +375,7 @@ h2 span.note a, h2 span.note a, h2 span.note a:visited {color:#fff!important}
 .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background:#54A448!important;color:#fff!important}
 .btn_green_steamui > span {BORDER-RADIUS:0!IMPORTANT;background:#78BE6D!important;color:#fff!important}
 #game_highlights a {background:#585858!important;PADDING-TOP:3PX!IMPORTANT;PADDING-LEFT:3PX!IMPORTANT;PADDING-RIGHT:3PX!IMPORTANT;PADDING-BOTTOM:3PX!IMPORTANT}
-.slider_ctn.store_autoslider .handle {border-radius:30px!important}
+.slider_ctn.store_autoslider .handle {border-radius:0!important}
 .slider_ctn.store_autoslider .handle:hover {background-color:#585858!important}
 .sysreq_tab.active, .discselect_tab.active {border-radius:30px!important;color:#fff!important}
 .sysreq_tab, .discselect_tab {color:#585858!important}
@@ -1067,9 +1069,10 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:
 .highlight_player_item img{bordebody.v6r-radius:var(--border0)!important}
 .highlight_strip_item img{border-radius:var(--border0)!important;background-color:transparent!important}
 .highlight_strip_item{background-color:transparent!important}
+#review_create p {COLOR:#585858!IMPORTANT}
 img.game_header_image_full{border-radius:var(--border0)!important;width:324px!important;margin-left:-5px!important}
-body.v6 .game_area_already_owned.page_content{border-radius:var(--border0)!important}
-.game_area_play_stats{border-radius:var(--border0)!important}
+body.v6 .game_area_already_owned.page_content{BACKGROUND:border-radius:var(--border0)!important}
+.game_area_play_stats{BACKGROUND:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
 .user_reviews_filter_display_as select {OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#FFF!IMPORTANT}
 .user_reviews_filter_display_as {BORDER-LEFT:NONE!IMPORTANT}
 #recommendation_success .review_box .thumb{border-radius:var(--border0)!important}
@@ -1089,7 +1092,7 @@ body.v6 .game_area_already_owned.page_content{border-radius:var(--border0)!impor
 .review_box .postedDate {COLOR:#585858!IMPORTANT}
 .game_description_column h2,.recommendation_bodytext h2{background-image:none!important}
 .game_description_column .block .block_header h4{background-image:none!important}
-.game_description_column .block .block_content a{border-radius:var(--border0)!important;background-color:#dedede!important}
+.game_description_column .block .block_content a{border-radius:0!important;background-color:#E4E4E4!important}
 .game_description_column .block .block_content a img{border-radius:var(--border0)!important}
 .game_area_already_owned .ds_flag{border-radius:var(--border0)!important;background:0 0!important}
 #review_create .avatar>img{border-radius:var(--border5)!important}
@@ -1112,7 +1115,7 @@ body.v6 .game_area_already_owned.page_content{border-radius:var(--border0)!impor
 body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .review_box.short{background:var(--grey)!important;border-radius:var(--border0)!important}
 .rightcol.game_meta_data .block{border:1px solid #d6d1d1!important;background:#e4e4e4!important;border-radius:0!important}
-.rightcol.game_meta_data .block.heading{COLOR:#585858!IMPORTANT;border-radius:10PX 10PX 0 0!important}
+.rightcol.game_meta_data .block.heading{BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT;border-radius:10PX 10PX 0 0!important}
 .short_header{background-color:#dedede!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .short_header:hover{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .discount_block.no_discount .bundle_base_discount{border-right:0!important}
