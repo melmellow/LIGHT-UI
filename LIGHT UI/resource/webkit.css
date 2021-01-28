@@ -202,7 +202,8 @@ a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!im
     PADDING: 4PX!IMPORTANT;}
 .steam_discussions_moderationdisclaimer {COLOR:#585858!IMPORTANT}
 .discussions_forumlist_header {COLOR:#585858!IMPORTANT}
-.forum_list_ctn .forum_list_right {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.forum_list_ctn .forum_list_right {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.steam_discussions_intro {COLOR:#585858!IMPORTANT}
 .steam_discussions_intro b {GONY-WEIGHT:BOLD!IMPORTANT;COLOR:#585858!IMPORTANT}
 .grouppage_content_area h2, a.large_title, h2.large_title {COLOR:#585858!IMPORTANT}
 #TagSuggest.blur {outline:0!important}
@@ -212,7 +213,7 @@ a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!im
 .market_search_submit_button {opacity:0!important}
 .market_search_sidebar_contents {background:#dedede!important}
 .market_listing_table_header, .market_listing_table_message {background-color:#dedede!important}
-.sectionTab:hover {background:#dedede!important;color:#000!important}
+.sectionTab:hover {BORDER-RADIUS:0!iMPORTANT;background:#D6D6D6!important;color:#585858!important}
 .searchAppImage {opacity:0!Important}
 .community_home_search_divider{border-top:1px solid #dcdcdc!important}
 .block_header .header_inline {COLOR:#585858!IMPORTANT}
@@ -841,12 +842,12 @@ body.flat_page:not(.iframe){background:var(--darkgrey)!important}
 input.discussionSearchText{BORDER:1PX SOLID #B6B6B6!IMPORTANT;position:static!important;padding:4px!important}
 .discussionSearchTextSubmitImg{OPACITY:0!IMPORTANT;top:5px!important;left:266px!important}
 a.recent_game_discussion {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
-.discussions_forumlist_linkoverlay img {BORDER:1PX SOLID #B6B6B6!IMPORTANT}
+.discussions_forumlist_linkoverlay img {BORDER:0!IMPORTANT}
 .discussions_header{border-bottom:5px solid transparent!important}
 a.recent_game_discussion{border-radius:var(--border0)!important;background-color:var(--grey)!important}
 a.recent_game_discussion:hover{border-radius:var(--border0)!important;background-color:var(--darkergrey)!important}
-.discussions_forum_row{border-radius:var(--border0)!important;background-color:var(--grey)!important}
-.discussions_forum_row:hover{BORDER:1PX SOLID #787878!IMPORTANT;border-radius:var(--border0)!important;background-color:#D6D6D6!important}
+.discussions_forum_row{border-radius:0!important;background-color:#E4E4E4!important;BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.discussions_forum_row:hover{BORDER:0!IMPORTANT;border-radius:0!important;background-color:#E4E4E4!important}
 .discussion_tab_content_rule{border-top:0!important}
 a.recent_game_discussion.quasi_official_group:hover{background:var(--darkergrey)!important}
 .community_tooltip{background:var(--darkergrey)!important;color:var(--white)!important}
@@ -1265,7 +1266,7 @@ a.group_tab{color:#585858!important}
 a.group_tab:hover{COLOR:#000!IMPORTANT;background:TRANSPARENT!important;border-radius:var(--border0)!important}
 .group_tab.active{height:35px!important;background:0 0!important;border-radius:var(--border0)!important}
 .group_tab.active>span{height:35px!important;background:rgba(102,192,244,.8)!important;border-radius:var(--border0)!important}
-.rightbox{border-radius:var(--border0)!important;background:#D6D6D6!important;}
+.rightbox{border-radius:0!important;background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .joinchat_bg{position:relative;width:257px!important;height:36px!important;background:var(--blacker)!important;border-radius:var(--border0)!important}
 .joinchat_bg .joinchat_button{top:2px!important;color:var(--white)!important;background:rgba(102,192,244,.8)!important;border-radius:var(--border0)!important}
 .joinchat_bg .joinchat_membercount{top:1px!important;color:var(--blu)!important}
@@ -1379,13 +1380,14 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .profile_xp_block_remaining_bar {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .main_content_ctn{border:0!important}
 .browseAppsTitle .highlight {COLOR:#585858!IMPORTANT}
+.browseOption.notSelected a {COLOR:#585858!iMPORTANT}
 .profile_xp_block_level, .profile_xp_block_xp {COLOR:#585858!IMPORTANT}
 .dynamiclink_author {COLOR:#FFF!IMPORTANT}
 #sharedfiles_view{background:#d6d6d6!important;border-bottom:#b8b8b8!important}
 div.sharedfiles_filterselect:hover {border-color:#8d8d8d!important}
 .games_list_tab_row_separator{border-top:0!important}
 .browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
-.browseAppsTitleContainer{border-radius:var(--border0)!important;background:var(--grey)!important;background-color:var(--grey)!important}
+.browseAppsTitleContainer{border-radius:0!important;background:#E4E4E4!important;background-color:#E4E4E4!important}
 .searchApps{border-radius:var(--border2)!important;background:#d6d6d6!important}
 .workshopAppsRow{border-bottom:0!important;background:0 0!important}
 .primary_panel{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
