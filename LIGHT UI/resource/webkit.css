@@ -184,8 +184,8 @@ div.early_access_header .heading {color:#1181D2!important;background:#E4E4E4!imp
 .market_listing_item_name_link {color:#585858!Important}
 .market_listing_item_name {color:#585858!important}
 .market_tab_well_tab_contents {color:#585858!important}
-.market_tab_well_tabs {background:#d6d6d6!important}
-a, .whiteLink {color:#585858!important}
+.market_tab_well_tabs {background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+
 a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!important}
 .forum_op .content {color:#585858!important}
 .forum_op .topic {color:#585858!important}
@@ -343,13 +343,13 @@ div.bb_h1, .bb_wysiwyg h1 {color:#585858!important;font-weight:bold!important}
 .game_button > span {border-radius:30px!important;background:#585858!important}
 .game_button:hover > span, .game_button .game_button_preload {background:#000!important}
 .market_listing_their_price > .market_table_value .normal_price, .market_listing_their_price > .market_table_value .sale_price {color:#585858!important}
-.market_listing_row {border:1px solid #b6b6b6!important;border-radius:10px!important;background-color:#d6d6d6!important}
+.market_listing_row {border:0!important;border-radius:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row_link:active, a.market_listing_row_link:visited {color:#585858!important}
 .my_market_header_count {color:#585858!important}
 .my_market_header_active {color:#585858!important}
 .market_title_text {color:#585858!important}
 .market_header_logo {background-image:none!important;background-color:#dedede!important}
-#BG_top > .user_info {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#d6d6d6!important}
+#BG_top > .user_info {border-radius:0!important;border:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .market_tab_well_tab_active > span {background:#585858!important;color:#fff!important}
 .market_subtitle_text {color:#585858!important}
 .market_header_bg {background-color:#dedede!important}
@@ -911,14 +911,20 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .about_boxes_box_bottom{background:0 0!important;border-radius:var(--border0)!important}
 .about_boxes_box_mid{background:var(--darkgrey)!important;border-radius:var(--border0)!important}
 .about_install_ctn{border-radius:var(--border0)!important;background:var(--grey)!important}
+.help_wizard_button > span {BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .about_box_wide{border:0!important;border-radius:var(--border0)!important;background:var(--darkgrey)!important;padding:5px 5px 15px 5px!important;margin:0!important}
 .about_box_wide.linux{border-radius:var(--border0)!important}
+.help_game_guides_box {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.help_text_block{COLOR:#585858!iMPORTANT}
+.help_game_header{COLOR:#585858!iMPORTANT}
 .about_boxes_box_header_bg{border-radius:var(--border0)!important;background:var(--black-ish)!important;border:0!important;height:100%!important}
 .about_boxes_box_content_ctn{padding-bottom:4px!important;border-radius:var(--border0)!important}
-.help_wizard_button{background:var(--grey)!important;border-color:var(--grey)!important}
+.help_wizard_button{background:#D6D6D6!important;border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .help_wizard_button_large>span{margin:10px 14px 10px 14px!important}
+.help_wizard_arrow_right{BORDER:1PX SOLID #B8B8B8!IMPORTANT}
+.help_search_result:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .help_app_header_divider {BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
-#help_search_support_input{font-style:normal!important;color:#585858!important;border-radius:30px!important;background:#d6d6d6!important;border:1px solid #b8b8b8!important}
+#help_search_support_input{OUTLINE:NONE!IMPORTANT;font-style:normal!important;color:#585858!important;border-radius:30px!important;background:#d6d6d6!important;border:1px solid #b8b8b8!important}
 .help_purchase_detail_box{COLOR:#585858!IMPORTANT;background-COLOR:#E4E4E4!important}
 .profile_small_header_bg{background-image:none!important}
 .friendPlayerLevel .friendPlayerLevelNum {COLOR:#585858!IMPORTANT}
@@ -1505,3 +1511,4 @@ body.v6 #footer #footer_text a {color:#585858!important}
 .btnv6_grey_black {background:#585858!important; color:#fff!important}
 .help_page_title {COLOR:#585858!iMPORTANT}
 .community_home_app_shortcuts .community_home_shortcut_content {BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+a, .whiteLink {color:#585858!important}
