@@ -368,7 +368,9 @@ div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {color:#5
 .all_languages:hover {color:#585858!important}
 .partnereventwebrowembed_SectionButton_3n8sw {border:none!important;background:#585858!important}
 .breadcrumbs a {color:#585858!important}
+.breadcrumbs {COLOR:#585858!iMPORTANT}
 .game_language_options td {color:#585858!important}
+.help_issue_details, .help_notinlibrary_details, .help_missingrefund_details, .help_cannot_launch_game_details, .help_cannot_install_game_details, .help_before_contacting_steam_support_details{BACKGROUND-COLOR:#E4E4E4!IMPORTANT;COLOR:#585858!IMPORTANT}
 .block a.linkbar {color:#585858!important}
 .btn_green_steamui {text-shadow:none!important}
 h2 span.note a, h2 span.note a:hover, h2 span.note a:visited {color:#fff!important}
@@ -909,11 +911,12 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .help_wizard_button_large>span{margin:10px 14px 10px 14px!important}
 .help_app_header_divider {BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
 #help_search_support_input{font-style:normal!important;color:#585858!important;border-radius:30px!important;background:#d6d6d6!important;border:1px solid #b8b8b8!important}
-.help_purchase_detail_box{COLOR:#585858!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background-COLOR:#E4E4E4!important}
+.help_purchase_detail_box{COLOR:#585858!IMPORTANT;background-COLOR:#E4E4E4!important}
 .profile_small_header_bg{background-image:none!important}
 .friendPlayerLevel .friendPlayerLevelNum {COLOR:#585858!IMPORTANT}
 .btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
 .games_list_tabs{border-radius:var(--border0)!important}
+.help_header {COLOR:#585858!iMPORTANT}
 .games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important}
 .filter_ctn.inventory_filters #filter_control{border-radius:var(--border0)!important;background:var(--black-ish)!important;border:1px solid var(--black)!important}
 .friends_header_bg{background:0 0!important}
@@ -1481,5 +1484,7 @@ body.v6 {COLOR:#585858!IMPORTANT;BACKGROUND:#dedede!IMPORTANT}
 body.v6 h2 a {color:#585858!important}
 body.v6 #footer .valve_links a {color:#585858!important}
 body.v6 #footer #footer_text a {color:#585858!important}
-
+.help_lowlight_text {COLOR:#585858!IMPORTANT}
+.help_highlight_text {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .btnv6_grey_black {background:#585858!important; color:#fff!important}
+.help_page_title {COLOR:#585858!iMPORTANT}
