@@ -1300,8 +1300,9 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
 
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
 	
-	BACKGROUND-COLOR: var(--BASE2)!IMPORTANT;
-	BORDER:1PX SOLID  var(--BASE2)!IMPORTANT;
+	BACKGROUND-COLOR: var(--BASE1)!IMPORTANT;
+	BORDER:0!IMPORTANT;
+	BOX-SHADOW: 1PX 1PX 2PX VAR(--DIVIDER1)!IMPORTANT;
 }
 
 .appdetailscommunityfeed_AuthorSection_1ul9Z {
