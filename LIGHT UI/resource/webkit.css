@@ -94,6 +94,14 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 }
 
 /* Main Code */
+.account_setting_block_short {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.account_manage_link {FONT-WEIGHT:500!iMPORTANT}
+.phone_header_description img{FILTER:BRIGHTNESS(0)!IMPORTANT}
+.account_setting_sub_block{COLOR:#585858!IMPORTANT}
+.account_data_field {color: #585858;FONT-WEIGHT:500!IMPORTANT;}
+.rule, .inner_rule{BORDER-TOP:#D6D1D1!IMPORTANT}
+.account_header_line{BACKGROUND-COLOR:#585858!IMPORTANT;BOX-SHADOW: 1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.account_setting_block {BACKGROUND:#E4E4E4!IMPORTANT}
 .save_preferences_desc{COLOR:#585858!IMPORTANT}
 .preferencesSavedCtn {BACKGROUND:NONE!iMPORTANT}
 .trending_reviews_controls label{COLOR:#585858!IMPORTANT}
