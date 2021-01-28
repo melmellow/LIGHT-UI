@@ -94,6 +94,18 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 }
 
 /* Main Code */
+.account_table th {BACKGROUND-COLOR:#585858!IMPORTANT}
+.account_change_country_content {COLOR:#585858!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT}
+.checkout_main .dselect_container a, .checkout_main .dselect_container a:hover, .checkout_main .dselect_container a:active, .checkout_main .dselect_container a:visited {OUTLINE:NONE!IMPORTANT}
+.checkout_main input[type="text"], .checkout_main input[type="password"], .checkout_main select {OUTLINE:NONE!IMPORTANT}
+.cart_tab_left_on {FILTER:BRIGHTNESS(0)!IMPORTANT}
+.cart_tab_on {TEXT-SHADOW:NONE!IMPORTANT;BACKGROUND:#585858!IMPORTANT}
+body.checkout .block .block_content {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+#payment_info_tab .checkout_content .payment_info_form_area {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+#checkout_steam_logo img{FILTER:BRIGHTNESS(50%)!IMPORTANT}
+.addfunds_footer{COLOR:#585858!IMPORTANT}
+.accountBalance .price {COLOR:#585858!IMPORTANT}
+.addfunds_about {COLOR:#585858!IMPORTANT}
 .btn_blue_white_innerfade > span {color:#fff!important;background:#585858!important;}
 .phone_box_subtext {color:#585858!important}
 .phone_sms_warning {color:#585858!important}
@@ -162,7 +174,7 @@ body.v6 #footer #footer_logo img {filter:brightness(0)!important}
 .gutter_item .icon {filter:brightness(0)!important}
 .tab_item.focus {BACKGROUND:#E4E4E4!IMPORTANT}
 .block {BACKGROUND:#e4e4e4!IMPORTANT}
-.accountInfoBlock .block_content {COLOR:#585858!iMPORTANT}
+.accountInfoBlock .block_content {BACKGROUND:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .checkout_content_box input[type="text"], .checkout_content_box input[type="password"], .checkout_content_box select, .checkout_content_box textarea, .checkout_main .dselect_container a.trigger {BORDER-COLOR:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .redeem_wallet_code_upsell div {COLOR:#585858!iMPORTANT}
 .redeem_wallet_code_upsell_header, .registerkey_instructions_header {COLOR:#585858!iMPORTANT}
