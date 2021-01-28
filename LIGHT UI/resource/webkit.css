@@ -57,6 +57,14 @@
     --border50: 50%; /* default 50% */
 }
 
+
+/*ZERO 318 REMOVE WHAT'S NEW*/
+[class*="libraryhome_WhatsNew"] {
+	display: none !important;
+}
+
+
+
 /* Scrollbar */
 body::-webkit-scrollbar-thumb:window-inactive{background-clip: padding-box!important;-webkit-box-shadow:none!important;background:transparent!important;border-radius:var(--border1)!important}
 body::-webkit-scrollbar-thumb{background-clip:padding-box!important;-webkit-box-shadow:none!important;background-color:var(--scrollbar)!important;border:5px solid var(--darkgrey)!important;border-radius:var(--border1)!important;width:25px!important}
@@ -268,7 +276,7 @@ a.linkbar > img {filter:brightness(0)!important}
 .community_recommendation_app > .right_col > .paging_thumbs > .num_reviews_desc {COLOR:#1181D2!IMPORTANT}
 .community_recommendations_block > .review_box .view_more a {BACKGROUND:#585858!IMPORTANT; PADDING:4PX!IMPORTANT}
 .community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow {BACKGROUND-COLOR:#74AFC2!IMPORTANT;COLOR:#FFF!IMPORTANT}
-.discount_block .discount_pct, .discount_pct {BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
+.discount_block .discount_pct, .discount_pct {border-radius:0!important;BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
 .store_main_capsule .reason .main strong {COLOR:#54A448!IMPORTANT}
 .game_area_purchase_game p.package_contents, .game_area_offsite_purchase p.package_contents {color:#585858!important}
 input#store_nav_search_term {font-size:6em!important;font-weight:400!Important}
@@ -419,6 +427,7 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{b
 #footer_nav .pulldown {color:#fff!important}
 body.v6 h2 {color:#585858!important}
 .agegate_birthday_desc {COLOR:#585858!IMPORTANT}
+.store_capsule  {background:#e4e4e4!important}
 .store_capsule .title {color:#585858!important}
 .store_capsule .discount_block .discount_final_price {color:#585858!important}
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active){color:#fff!important}

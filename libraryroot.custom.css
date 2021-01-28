@@ -1243,7 +1243,7 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
 }
 
 .appdetailscommunityfeed_ArtItem_1aP1b .appdetailscommunityfeed_BottomSection_3uabi {
-	BACKGROUND: var(--BASE2)!IMPORTANT;
+	BACKGROUND: var(--BASE1)!IMPORTANT;
 }
 
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_GuideTitle_23Pup {
@@ -1306,8 +1306,9 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
 
 .appdetailscommunityfeed_AuthorSection_1ul9Z {
 	COLOR: var(--ACCENT)!IMPORTANT;
-	BACKGROUND: var(--BASE2)!IMPORTANT;
-	BORDER:1PX SOLID  var(--BASE2)!IMPORTANT;
+	BACKGROUND: var(--BASE1)!IMPORTANT;
+	BORDER:0!IMPORTANT;
+	BOX-SHADOW:1PX 1PX 2PX VAR(--DIVIDER1)!IMPORTANT;
 }
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
@@ -1687,6 +1688,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 	
 	.appgrid_SortingDropDown_1tBzy ._DialogInputContainer.DialogDropDown {
 		BORDER:0!iMPORTANT;
+		background:none!Important;
 	}
 
 .eventbbcodeparser_Header1_SPYFj{
