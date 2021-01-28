@@ -922,7 +922,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 } */
 
 .appportrait_RecentGameFooter_2d1hS {
-	background-color:#c3c3c3!important;
+	background-color:VAR(--BASE1)!important;
+	BOX-SHADOW:2PX 2PX 2PX VAR(--DIVIDER1)!IMPORTANT;
 }
 
 .gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
