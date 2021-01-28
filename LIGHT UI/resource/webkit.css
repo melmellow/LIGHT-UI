@@ -239,8 +239,8 @@ body.v6 h2.pageheader {text-shadow:none!important}
 h2 {color:font-weight:500!important}
 .LoadingWrapper .LoadingThrobber .Bar {background-color:#585858!important}
 #live_streams_carousel .carousel_items .store_capsule {border-radius:0!important;border:1px solid #d6d1d1!important}
-.highlight_ctn .slider_ctn .slider_left, .highlight_ctn .slider_ctn .slider_right, .highlight_ctn .slider .handle{border-radius:30px!important}
-.slider {border-radius:30px!important;background-color:#d6d6d6!important}
+.highlight_ctn .slider_ctn .slider_left, .highlight_ctn .slider_ctn .slider_right, .highlight_ctn .slider .handle{border-radius:0!important}
+.slider {border-radius:0!important;background-color:#d6d6d6!important}
 .slider_left span {background-image:none!important}
 .game_purchase_discount_countdown {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .emoticon_button:hover, .emoticon_button.focus {background-image:none!important}
@@ -308,7 +308,7 @@ span.vr_supported, span.vr_required {COLOR:#585858!IMPORTANT}
 .store_header_btn_green a {BACKGROUND:#54A448!IMPORTANT}
 .game_area_sys_req ul li strong {FONT-WEIGHT:BOLD!IMPORTANT}
 .review_box .noReviewsYetSub {color:#585858!IMPORTANT}
-.review_box .noReviewsYetTitle {color:#A0C9D6!important}
+.review_box .noReviewsYetTitle {color:#585858!important}
 .game_area_comingsoon .content {background:#A0C9D6!important}
 .game_area_comingsoon {color:#585858!important}
 .review_box .vote_info, .recommendation_row .vote_info {COLOR:#585858!IMPORTANT}
@@ -389,7 +389,7 @@ a.gutter_item {color:#585858!important}
 .discount_block .discount_original_price {color:#fff!important}
 .tab_item_name {COLOR:#585858!IMPORTANT}
 .tab_item_name:hover {COLOR:#585858!IMPORTANT}
-.tab_item {border:1px solid #d6d1d1!important;BACKGROUND:#d6d6d6!IMPORTANT}
+.tab_item {border:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .spotlight_block .spotlight_content>h2, .spotlight_body {COLOR:#585858!IMPORTANT}
 /*.carousel_container .carousel_items:not(.no_paging) > * {BACKGROUND:#CECECE!important}*/
 .btn_profile_action {background-color:#585858!important;color:#fff!important}
@@ -436,7 +436,7 @@ body.v6 h2 {color:#585858!important}
 .agegate_content_descriptors_notes {FONT-WEIGHT:BOLD!IMPORTANT;COLOR:#585858!IMPORTANT}
 .agegate_content_descriptors_notes p {color:#585858!important}
 .block.recommendation_reasons a {color:#67c1f5!important}
-.game_area_purchase_game, .game_area_offsite_purchase {COLOR:#585858!IMPORTANT;FONT-WEIGHT:#585858!IMPORTANT;border:1px solid #d6d1d1!important;background:#e4e4e4!important}
+.game_area_purchase_game, .game_area_offsite_purchase {COLOR:#585858!IMPORTANT;FONT-WEIGHT:#585858!IMPORTANT;border:0!important;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_sub_header {color:#585858!important}
 .review_box .content {color:#585858!important}
 .game_area_sys_req strong, .album_metadata_chunk_name {color:#585858!important}
@@ -639,7 +639,7 @@ a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!imp
 .tab_item{margin:5px!important;border-radius:0!important}
 .tab_item.focus{margin-right:0!important; margin:5px!important;border-radius:var(--border0)!important}
 img.tab_item_cap_img{border-radius:var(--border0)!important}
-.tab_review_summary{border:1px solid #d6d1d1!important;BACKGROUND-COLOR:#e4e4e4!IMPORTANT;border-radius:0!important}
+.tab_review_summary{border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#e4e4e4!IMPORTANT;border-radius:0!important}
 .tab_preview .screenshot{border-radius:var(--border0)!important}
 .tab_preview{border-radius:var(--border0)!important}
 .carousel_items.store_capsule_container{border-radius:var(--border0)!important}
@@ -1045,6 +1045,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .invite_block_name{margin-top:10px!important}
 span.invite_action_txt{border-radius:var(--border0)!important}
 .event_title{font-weight:400!important}
+.partnereventwebrowembed_LatestUpdateButton_1TRFt {BACKGROUND:#585858!iMPORTANT;BORDER:0!iMPORTANT}
 .community_search_text_box{background:#d6d6d6!important;background-color:#d6d6d6!important;border:1px solid #787878!important;border-radius:var(--border2)!important;color:var(--white)!important}
 input[type=number],input[type=password],input[type=text],select{border:2px solid transparent!important;border-radius:var(--border2)!important}
 #search_players_form input[type=submit]{margin-top:5px!important;margin-left:5px!important}
@@ -1052,6 +1053,7 @@ input[type=number],input[type=password],input[type=text],select{border:2px solid
 body.flat_page{background:var(--darkgrey)!important}
 body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:var(--border0)!important;background:var(--darkgrey)!important}
 .search_match_info{border-radius:var(--border0)!important}
+.partnereventwebrowembed_LatestUpdateIcon_mq3RO svg {FILL:#585858!IMPORTANT}
 .search_group_avatar_holder img{border-radius:var(--border0)!important}
 .grouppage_content_area .community_search_container>h2{color:var(--white)!important}
 .recentAchievementsImg{border-radius:var(--border0)!important}
@@ -1060,7 +1062,7 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:
 .game_purchase_discount .discount_prices{background:var(--begrey)!important;vertical-align:6px!important}
 .game_purchase_discount{height:36px!important}
 .game_purchase_discount .bundle_base_discount,.game_purchase_discount .discount_pct{border-radius:var(--border0)!important;height:36px!important;line-height:32px!important}
-.game_purchase_action .game_purchase_price{BORDER-RADIUS:0!IMPORTANT;BORDER:1PX SOLID #d6d1d1!IMPORTANT;background-color:#e4e4e4!important;color:#585858!important}
+.game_purchase_action .game_purchase_price{BORDER-RADIUS:0!IMPORTANT;BORDER:0!IMPORTANT;background-color:#e4e4e4!important;color:#585858!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .highlight_movie{border-radius:var(--border0)!important;background-color:transparent!important}
 .highlight_player_item img{bordebody.v6r-radius:var(--border0)!important}
 .highlight_strip_item img{border-radius:var(--border0)!important;background-color:transparent!important}
@@ -1129,7 +1131,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .game_page_autocollapse_ctn.collapsed{padding-bottom:25px!important}
 .game_description_column .block .block_header .right a{background-color:#585858!important;color:#fff!important;padding:4px 6px!important;border-radius:var(--border0)!important}
 .game_description_column .block .block_header .right a:hover{background:none!important;background-color:#000!important;color:#fff!important;border-radius:var(--border0)!important}
-.no_curators_followed{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#D6D6D6!important;border-radius:10PX!important}
+.no_curators_followed{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .review_ctn{border-top:0!important}
 .promo_item_list .item .info .percent {BACKGROUND-COLOR:#78BE6D!IMPORTANT}
 .slider_ctn.store_autoslider{background:0 0!important;border-radius:var(--border0)!important}
