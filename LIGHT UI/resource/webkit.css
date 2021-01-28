@@ -90,6 +90,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 }
 
 /* Main Code */
+.explore_rightcol_header {COLOR:#585858!IMPORTANT}
 body.v6 .recommended_by_steam_labs_ctn .header_inline_reason {COLOR:#585858!IMPORTANT}
 .home_tabs_content .discount_block .discount_prices, .tab_content_ctn .discount_block .discount_prices {BORDER:0!IMPORTANT;BORDER-RADIUS:0!iMPORTANT}
 .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon path {STROKE:#DEDEDE!IMPORTANT;FILL:#585858!iMPORTANT}
@@ -160,7 +161,7 @@ a {color:#585858!important}
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {background:#000!important}
 .dropcontainer ul a {color:#585858!important}
 .dropcontainer ul {border:1px solid #b6b6b6!important;background:#dedede!important}
-.explore_rightcol_box {background-color:#d6d6d6!important}
+.explore_rightcol_box {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .explore_rightcol_count {color:#585858!important}
 .faq_question {font-weight:bold!important;color:#585858!important}
 .faq_answer {color:#585858!important}
@@ -264,7 +265,7 @@ body.v6 .store_nav .popup_menu .hr, body.v6 #footer_nav .popup_menu .hr {backgro
 .store_nav .tab > span.pulldown > span {background-image:none!important}
 .store_nav .tab > span {font-weight:500!important;text-transform:uppercase!important;font-family:Segoe UI!important;text-shadow:none!important;color:#585858!Important}
 a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important;color:#585858!Important;text-shadow:none!important}
-#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {BORDER-COLOR:TRANSPARENT!IMPORTANT;background:#e4e4e4!important}
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {BORDER:0!IMPORTANT;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .searchPersonaName, .searchPersonaName:active, .searchPersonaName:visited, .searchPersonaName:hover {color:#585858!important}
 .community_searchresults_title{color:#585858!Important}
 .profile_count_link_total {color:#585858!Important}
@@ -590,7 +591,7 @@ a#store_search_link img:hover{background-image:none!important;border-radius:var(
 input#store_nav_search_term{color:var(--grey-ish)!important;font-size:1em!important}
 input::-webkit-input-placeholder{opacity:0!important}
 .store_header_btn_gray{border:0!important;background:#dedede!important}
-.store_header_btn_gray a:hover{background:TRANSPARENT!important}
+.store_header_btn_gray a:hover{background:#000!important;COLOR:#585858!IMPORTANT}
 .store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span{background:#dedede!important;color:var(--darkwhite)!important;border-radius:var(--border0)!important}
 body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block_new .popup_body{background:#dedede!important;border-radius:var(--border0)!important}
 .popup_menu .popup_menu_item {color:#585858!IMportant}
@@ -645,7 +646,7 @@ a.follow_button.btn_green_white_innerfade.btn_medium{color:var(--green)!importan
 a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:var(--green)!important;border-radius:var(--border0)!important}
 .home_rightcol{border-radius:var(--border0)!important}
 .tab_item{margin:5px!important;border-radius:0!important}
-.tab_item.focus{margin-right:0!important; margin:5px!important;border-radius:0!important}
+.tab_item.focus{border-radius:0!important}
 img.tab_item_cap_img{border-radius:var(--border0)!important}
 .tab_review_summary{border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#e4e4e4!IMPORTANT;border-radius:0!important}
 .tab_preview .screenshot{border-radius:var(--border0)!important}
@@ -713,7 +714,10 @@ a.home_marketing_message{border-radius:var(--border0)!important}
 .recently_updated .store_capsule .recently_updated_desc{COLOR:#585858!IMPORTANT;border-top:0!important;border-radius:var(--border0)!important}
 .hardware_ctn.double .hardware_content .left,.hardware_ctn.double .hardware_content .right{display:none!important}
 .home_tab.active .tab_content{border:0!important;border-top-left-radius:var(--border0)!important;background-color:var(--bedarkgrey)!important;color:#fff!important;border-radius:0!important}
-.tab_item.focus{background:#B2B2B2!important}
+.tab_item.focus{background:#E4E4E4!important}
+/* .tab_item.focus .tab_item_details span.platform_img.win {BACKGROUND-IMAGE:UNSET!IMPORTANT}
+.tab_item.focus .tab_item_details span.platform_img.mac{BACKGROUND-IMAGE:UNSET!iMPORTANT}
+.tab_item.focus .tab_item_details span.platform_img.linux{BACKGROUND-IMAGE:UNSET!IMPORTANT} */
 .tab_item.focus .tab_item_name{color:#585858!important}
 .discount_block .discount_final_price {color:#fff!important}
 /*.tab_item.focus .discount_block .discount_final_price{color:var(--blue-er)!important}*/
