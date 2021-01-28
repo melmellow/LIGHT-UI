@@ -259,10 +259,12 @@ h2 {color:font-weight:500!important}
 .group_overview_discussions .forum_topic.unread .forum_topic_name {color:#74AFC2!important}
 .store_nav .tab.focus, .store_nav .tab.focus > span, .store_nav .tab:hover, .store_nav .tab:hover > span {COLOR:#000!IMPORTANT}
 body{background:#dedede!important;color:#585858!important}
+.btnv6_blue_hoverfade > span {BORDER-RADIUS:0!IMPORTANT;BORDER:0!IMPORTANT}
 body.v6 .store_nav .popup_menu .hr, body.v6 #footer_nav .popup_menu .hr {background-color:#d6d6d6!important}
-.store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {color:#000!important}
+.store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;color:#000!important}
 .popup_menu_twocol > .popup_menu:not(:first-child):not(:nth-child(4)) {border-left:1px solid #d6d6d6!important}
 .store_nav .tab > span.pulldown > span {background-image:none!important}
+.explore_rightcol_text {COLOR:#585858!iMPORTANT}
 .store_nav .tab > span {font-weight:500!important;text-transform:uppercase!important;font-family:Segoe UI!important;text-shadow:none!important;color:#585858!Important}
 a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important;color:#585858!Important;text-shadow:none!important}
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {BORDER:0!IMPORTANT;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -772,7 +774,7 @@ body.v6 div#global_header{background:var(--bedarkgrey)!important}
 body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .community_home_search_apps{border-radius:var(--border2)!important;background-color:var(--grey)!important;border:0!important}
 .community_home_search_players{border-radius:var(--border2)!important;border:0!important;background-color:var(--grey)!important}
-.community_home_shortcut_content{background:var(--bedarkgrey)!important}
+.community_home_shortcut_content{background:#E4E4E4!important;BORDER:0!IMPORTANT;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,.apphub_sectionTab.active>span{border-radius:var(--border0)!important;background:var(--grey)!important;color:var(--white)!important}
 .apphub_responsive_tab .responsive_tab_control,.apphub_sectionTab.active,.apphub_sectionTab.active:hover{background:0 0!important}
 .apphub_sectionTabsHR{background-color:transparent!important}
@@ -1492,3 +1494,4 @@ body.v6 #footer #footer_text a {color:#585858!important}
 .help_highlight_text {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .btnv6_grey_black {background:#585858!important; color:#fff!important}
 .help_page_title {COLOR:#585858!iMPORTANT}
+.community_home_app_shortcuts .community_home_shortcut_content {BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
