@@ -94,6 +94,19 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 }
 
 /* Main Code */
+.btn_blue_white_innerfade > span {color:#fff!important;background:#585858!important;}
+.phone_box_subtext {color:#585858!important}
+.phone_sms_warning {color:#585858!important}
+.phone_box {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
+td.wht_wallet_balance.wallet_entry_highlight {color:#000!Important}
+td.wht_wallet_balance {color:#585858!important}
+.wth_payment {color:#585858!important}
+td.wht_wallet_change {color:#585858!important;border-left:1px solid #d6d1d1!important}
+.wallet_history_table {border:1px solid #d6d1d1!important}
+.wallet_history_table tr:nth-child(odd) {background-color:#e4e4e4!important}
+td.wht_date {color:#585858!important}
+.account_setting_sub_block_long {color:#585858!important}
+#ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .friends_nav a:hover {background-color:#d6d6d6!important}
 .friends_nav a.icon_item .title {filter:brightness(0)!important}
 .text_filter_action_link, .text_filter_action_link a {COLOR:#585858!iMPORTANT}
@@ -1298,7 +1311,7 @@ div.early_access_announcements .post .more:hover{color:var(--white)!important;pa
 .forum_topic{border-radius:var(--border0)!important}
 .btn_blue_white_innerfade{border-radius:var(--border0)!important;border:1px var(--littlegrey)!important;text-decoration:none!important;color:var(--blacker-ish)!important;background:rgba(102,192,244,.8)!important}
 .btn_blue_white_innerfade>span{border-radius:var(--border0)!important;background:rgba(102,192,244,.8)!important;color:var(--blacker-ish)!important;border:1px var(--littlegrey)!important}
-.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:var(--white)!important;border-radius:var(--border0)!important;background:var(--darkblue)!important;border:1px var(--littlegrey)!important}
+.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:#fff!important;border-radius:0!important;background:#000!important;border:0!important}
 .btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{text-decoration:none!important;color:var(--white)!important;border-radius:var(--border0)!important;background:var(--darkblue)!important;border:1px var(--littlegrey)!important}
 .grouppage_join_area{padding:1px!important;background-color:transparent!important;border-radius:var(--border0)!important}
 .notice_box_content {COLOR:#585858!IMPORTANT}
@@ -1390,6 +1403,7 @@ img#blotter_nofriends_block{border-radius:var(--border0)!important}
 span.bb_spoiler{border-radius:var(--border0)!important}
 #HeaderUserBreadcrumbs{border-bottom:0!important}
 .HeaderUserAvatar img{border-radius:var(--border4)!important}
+.primary_panel_border.panel_margin_none {box-shadow:1px 1px 2px #d6d1d1!important}
 .avatarIcon_48 img{border-radius:var(--border4)!important}
 .avatarIcon_48_online{border-radius:var(--border4)!important}
 .avatarIcon_48_offline{border-radius:var(--border4)!important}
@@ -1429,7 +1443,7 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 #sharedfiles_view{background:#d6d6d6!important;border-bottom:#b8b8b8!important}
 div.sharedfiles_filterselect:hover {border-color:#8d8d8d!important}
 .games_list_tab_row_separator{border-top:0!important}
-.browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
+.browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1px 1px 2px #D6D1D1!IMPORTANT}
 .browseAppsTitleContainer{border-radius:0!important;background:#E4E4E4!important;background-color:#E4E4E4!important}
 .searchApps{border-radius:var(--border2)!important;background:#d6d6d6!important}
 .workshopAppsRow{border-bottom:0!important;background:0 0!important}
