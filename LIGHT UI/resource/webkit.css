@@ -774,7 +774,7 @@ body.v6 div#global_header{background:var(--bedarkgrey)!important}
 body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .community_home_search_apps{border-radius:var(--border2)!important;background-color:var(--grey)!important;border:0!important}
 .community_home_search_players{border-radius:var(--border2)!important;border:0!important;background-color:var(--grey)!important}
-.community_home_shortcut_content{background:#E4E4E4!important;BORDER:0!IMPORTANT;BOX-SHADOW:#D6D1D1!IMPORTANT}
+.community_home_shortcut_content{background-COLOR:#E4E4E4!important;BORDER:0!IMPORTANT;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,.apphub_sectionTab.active>span{border-radius:var(--border0)!important;background:var(--grey)!important;color:var(--white)!important}
 .apphub_responsive_tab .responsive_tab_control,.apphub_sectionTab.active,.apphub_sectionTab.active:hover{background:0 0!important}
 .apphub_sectionTabsHR{background-color:transparent!important}
@@ -795,13 +795,14 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .btn_profile_action .btn_medium .img{transform: rotate(180deg) scaleX(1)!important}
 #profile_action_dropdown{top:-5px!important;left:720px!important;background:var(--darkergrey)!important;border-radius:var(--border0)!important}
 div#game_select_suggestions_ctn{background:var(--realblack)!important}
-.apphub_Card{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background-color:#D6D6D6!important}
+.apphub_Card{BORDER:0!IMPORTANT;background-color:#E4E4E4!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .apphub_CardContentNewsFade{background-image:none!important;background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
 .apphub_CardContentMain .UserReviewCardContent_Footer .gradient{background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
 .apphub_CardContentGuideTitle{background-color:#8c8c8c!important}
 input.community_home_search_app_input{font-size:15px!important;font-style:normal!important;background-color:#D6DD6D6!important}
 .community_home_search_apps_image{display:none!important}
-.community_home_search_players{background:var(--grey)!important}
+.community_home_search_title {COLOR:#585858!IMPORTANT}
+.community_home_search_players{background:#D6D6D6!important}
 input.community_home_search_players_input{font-style:normal!important;font-size:15px!important;background-color:#d6d6d6!important}
 .community_home_search_players_image{display:none!important}
 .element{position:relative!important;top:50%!important;transform:translate(-50%)!important}
@@ -1304,6 +1305,7 @@ a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue
 .btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{border-radius:var(--border0)!important}
 .eventLogo{border-radius:var(--border0)!important}
 .grouppage_logo{background-image:none!important}
+.browseOptionImage {FILTER:BRIGHTNESS(0)!iMPORTANT}
 .commentnotification_browseoption.active .browseOptionImage {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .curator_summary_box{border-radius:var(--border0)!important}
 .curator_store_link_ctn{border-radius:var(--border0)!important}
@@ -1371,18 +1373,22 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .badge_title_rule{height:0!important;border-top:0!important;background-color:rgba(0,0,0,0)!important}
 .badge_empty{border:1px solid transparent!important;border-radius:var(--border0)!important}
 .badge_progress_card.unowned{border:0!important;border-radius:var(--border0)!important}
+.workshopAppsSort .browseOptionImage {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .profile_xp_block{border:1PX SOLID #B6B6B6!important;border-color:var(--thegrey)!important;background-color:var(--thegrey)!important}
 .profile_xp_block_remaining_bar_progress{BACKGROUND-COLOR:#53A247!IMPORTANT;border-radius:30PX!important;background-image:none!important}
 .profile_xp_block_remaining_bar {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .main_content_ctn{border:0!important}
+.browseAppsTitle .highlight {COLOR:#585858!IMPORTANT}
 .profile_xp_block_level, .profile_xp_block_xp {COLOR:#585858!IMPORTANT}
 .dynamiclink_author {COLOR:#FFF!IMPORTANT}
+#sharedfiles_view{background:#d6d6d6!important;border-bottom:#b8b8b8!important}
+div.sharedfiles_filterselect:hover {border-color:#8d8d8d!important}
 .games_list_tab_row_separator{border-top:0!important}
-.browseApps{background-color:var(--grey)!important;border-radius:var(--border0)!important}
+.browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .browseAppsTitleContainer{border-radius:var(--border0)!important;background:var(--grey)!important;background-color:var(--grey)!important}
 .searchApps{border-radius:var(--border2)!important;background:#d6d6d6!important}
 .workshopAppsRow{border-bottom:0!important;background:0 0!important}
-.primary_panel{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#d6d6d6!important;border-radius:10PX!important}
+.primary_panel{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .avatar_workshop_overlay{background:0 0!important}
 .current_player_workshop_link{padding-left:60px!important}
 .joinGroup{border-radius:var(--border0)!important;width:240px!important;height:80px!important;background:var(--darkgrey)!important}
@@ -1482,6 +1488,8 @@ div.profile_page.has_profile_background{z-index:0!important}
 
 /* User Avatars */
 .grouppage_friendsingroup .friendavatar{float:left!important;padding:4px!important;border-radius:var(--border5)!important}
+
+.current_player_workshop_title a {COLOR:#585858!iMPORTANT}
 
 
 /* Future Updates and Changes */
