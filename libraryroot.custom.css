@@ -670,6 +670,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+.appdetailsplaysection_InvalidPlatform_3Ads1 span {
+	COLOR:#585858!IMPORTANT;
+	}
+	
+.appdetailsplaysection_InvalidPlatform_3Ads1 .appdetailsplaysection_Icon_69Wad {
+		FILTER:BRIGHTNESS(50%)!IMPORTANT;
+	}
+
 .comment_thread_ActivityCommentThread_39nna .comment_thread_MakeCommentsVisible_FPxfN {
 	COLOR:VAR(--WHITE)!IMPORTANT;
 	BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT;
