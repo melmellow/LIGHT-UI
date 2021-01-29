@@ -95,7 +95,7 @@ a.linkbar > img {filter:brightness(0)!important}
 .grouppage_header_name{color:#585858!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:30%!important;background-color:transparent!important}
 .recent_game{background-color:#E4E4E4!important;backdrop-filter:blur(10px)!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:#dedede!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important}
-
+.text_filter_toggle_icon {filter:brightness(0)!Important}
 
 
 
@@ -135,6 +135,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 }
 
 /* Main Code */
+.account_preferences input.gray_bevel, .account_preferences textarea.gray_bevel, .account_preferences .gray_bevel {border-radius:30px!important;background-color:#e8e8e8!important}
+.review_events_preferences_radio_btns {box-shadow:1px 1px 2px #d6d1d1!important}
+.gray_bevel.for_text_input {border-radius:30px!important;background-color:#e8e8e8!important}
+.account_preferences .gray_bevel input, .account_preferences .gray_bevel textarea {color:#585858!important}
 .twofactor_settings_input {OUTLINE:NONE!IMPORTANT;COLOR:#585858!iMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
 .twofactor_settings_choice_rule {border-top:1px solid #d6d1d1!important}
 .twofactor_settings_choice_header, .twofactor_deauthorize_header {color:#585858!Important}
@@ -428,7 +432,7 @@ h3 {COLOR:#585858!IMPORTANT}
 .queue_ignore_menu_option:hover {backgoround:#d6d6d6!important}
 .shared_game_rating p.descriptorText {COLOR:#585858!IMPORTANT}
 .queue_ignore_menu_option_label > .option_title {color:#585858!important}
-.btn_medium > span, input.btn_medium {border-radius:0!important;BACKGROUND:#585858!IMPORTANT;COLOR:#fff!IMPORTANT}
+.btn_medium > span, input.btn_medium {background:none!Important}
 .btn_medium > span, input.btn_medium:hover {BACKGROUND:#1181D2!IMPORTANT;/*background:#1181D2!important*//*#41A6EF*/}
 .game_area_description ul {COLOR:#585858!IMPORTANT}
 .game_area_purchase_game_dropdown_description {COLOR:#585858!IMPORTANT}
@@ -466,7 +470,7 @@ div.bb_h1, .bb_wysiwyg h1 {color:#585858!important;font-weight:bold!important}
 .market_search_sidebar_section_tip_small {color:#585858!important}
 #footer {background:#dedede!important}
 .market_listing_table_header, .market_listing_table_header .market_listing_left_cell, .market_listing_table_header .market_listing_right_cell {border-left:none!important;color:#585858!important}
-.game_button > span {border-radius:30px!important;background:#585858!important}
+.game_button > span {border-radius:30px!important;background:#e4e4e4!important;border:0!important}
 .game_button:hover > span, .game_button .game_button_preload {background:#000!important}
 .market_listing_their_price > .market_table_value .normal_price, .market_listing_their_price > .market_table_value .sale_price {color:#585858!important}
 .market_listing_row {border:0!important;border-radius:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
