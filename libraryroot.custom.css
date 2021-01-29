@@ -1481,6 +1481,7 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
 }
 
 .libraryhome_InnerContainer_2AUVZ {
+	COLOR: VAR(--ACCENT)!IMPORTANT;
 	BACKGROUND: var(--BASE2)!IMPORTANT;
 }
 

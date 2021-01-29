@@ -100,6 +100,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .checkout_main input[type="text"], .checkout_main input[type="password"], .checkout_main select {OUTLINE:NONE!IMPORTANT}
 .cart_tab_left_on {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .cart_tab_on {TEXT-SHADOW:NONE!IMPORTANT;BACKGROUND:#585858!IMPORTANT}
+.block_content {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 body.checkout .block .block_content {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #payment_info_tab .checkout_content .payment_info_form_area {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #checkout_steam_logo img{FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -175,7 +176,7 @@ body.v6 #footer #footer_logo img {filter:brightness(0)!important}
 .tab_item.focus {BACKGROUND:#E4E4E4!IMPORTANT}
 .block {BACKGROUND:#e4e4e4!IMPORTANT}
 .accountInfoBlock .block_content {BACKGROUND:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.checkout_content_box input[type="text"], .checkout_content_box input[type="password"], .checkout_content_box select, .checkout_content_box textarea, .checkout_main .dselect_container a.trigger {BORDER-COLOR:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.checkout_content_box input[type="text"], .checkout_content_box input[type="password"], .checkout_content_box select, .checkout_content_box textarea, .checkout_main .dselect_container a.trigger {COLOR:#585858!IMPORTANT;OUTLINE:NONE!IMPORTANT;BORDER-COLOR:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
 .redeem_wallet_code_upsell div {COLOR:#585858!iMPORTANT}
 .redeem_wallet_code_upsell_header, .registerkey_instructions_header {COLOR:#585858!iMPORTANT}
 .card_header {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
@@ -542,9 +543,13 @@ div.filterselect {BACKGROUND:#D6D6D6!IMPORTANT;COLOR:#585858!IMPORTANT;BORDER-BO
 .sale_capsule .discount_block_inline .discount_prices {BACKGROUND:#D6D6D6!IMPORTANT}
 .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .dynamiclink_name {COLOR:#FFF!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
+.account_table tr:nth-child(odd) {BACKGROUND:#DEDEDE!IMPORTANT}
+.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {BACKGROUND:#585858!IMPORTANT;COLOR:#FFF!IMPORTANT}
 .apphub_CardMetaData .review_award_aggregated, .apphub_UserReviewCardContent .review_award_aggregated {COLOR:#585858!IMPORTANT}
 input[type=text], input[type=password], input[type=number], select {BORDER:1PX SOLID #B6B6B6!IMPORTANT}
 #live_stream_featured .title {color:#585858!important}
+.account_table tr {BORDER-BOTTOM:#D6D1D1!IMPORTANT}
+.account_table tr:nth-child(even) {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .apphub_CardContentMain .apphub_CardTextContent .date_posted {COLOR:#585858!IMPORTANT}
 .home_title_ctn .home_line {background:#DCDCDC!important}
 .apphub_UserReviewCardContent {BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -1107,12 +1112,13 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .discount_block.no_discount .discount_prices{border-radius:var(--border0)!important;background:0 0!important}
 .discount_block_large .discount_prices{border-radius:var(--border0)!important}
 .discount_block .discount_prices{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#D6D6D6!IMPORTANT!important;border-radius:10PX!important;vertical-align:0px!important}
-.btnv6_green_white_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:var(--green)!important;background:rgba(121,153,5,1)!important}
+.btnv6_green_white_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:#FFF!important;background:#1181D2!important}
 .btnv6_blue_blue_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:var(--blue-er)!important;background:rgba(47,137,188,1)!important}
-.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:rgba(83,105,4,1)!important;color:var(--white)!important}
+.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#1181D2!important;color:#FFF!important}
 .btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#23678e!important;color:var(--white)!important}
 .btn_medium>span,input.btn_medium{padding:0 15px!important;line-height:30px!important}
 #rightContents .box{border-radius:var(--border0)!important;background:rgba(0,0,0,.2)!important}
+.cart_tab_off {COLOR:#585858!IMPORTANT}
 .review_list h1{border-bottom:none!important}
 .review_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER-RADIUS:0!IMPORTANT;BORDER:0!IMPORTANT;BOX-SHADOW: 1PX 1PX 2PX #d6d1d1!IMPORTANT}
 .review_box .header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;border-bottom:0!important;background:rgba(0,0,0,.2)!important}
