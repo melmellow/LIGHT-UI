@@ -17,7 +17,7 @@ Steam will have to restart to apply the theme
 
 
 # CREDITS
-* jonius7 for the compact sidebar code
+* jonius7 for the compact sidebar tweak
 * phantomgamers for making steamfriendspatcher
 
 Its not perfect yet but I will keep working on it
