@@ -111,8 +111,8 @@ a.linkbar > img {filter:brightness(0)!important}
 
 
 /* Scrollbar */
-body::-webkit-scrollbar-thumb:window-inactive{background-clip: padding-box!important;-webkit-box-shadow:none!important;background:transparent!important;border-radius:var(--border1)!important}
-body::-webkit-scrollbar-thumb{background-clip:padding-box!important;-webkit-box-shadow:none!important;background-color:var(--scrollbar)!important;border:5px solid var(--darkgrey)!important;border-radius:var(--border1)!important;width:25px!important}
+body::-webkit-scrollbar-thumb:window-inactive{background-clip: padding-box!important;-webkit-box-shadow:none!important;background:#585858!important;border-radius:0!important}
+body::-webkit-scrollbar-thumb{background-clip:padding-box!important;-webkit-box-shadow:none!important;background-color:#585858!important;border:5px SOLID #585858!important;border-radius:0!important;width:100%!important}
 body::-webkit-scrollbar-track{-webkit-box-shadow:none!important;background:var(--darkgrey)!important}
 body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid transparent!important;background-color:transparent!important}
 .DialogBody::-webkit-scrollbar{display:none!important;border:5px solid transparent!important}
@@ -150,7 +150,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .checkout_main .dselect_container a, .checkout_main .dselect_container a:hover, .checkout_main .dselect_container a:active, .checkout_main .dselect_container a:visited {OUTLINE:NONE!IMPORTANT}
 .checkout_main input[type="text"], .checkout_main input[type="password"], .checkout_main select {OUTLINE:NONE!IMPORTANT}
 .cart_tab_on {TEXT-SHADOW:NONE!IMPORTANT;BACKGROUND:#585858!IMPORTANT}
-.block_content {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
+/* .block_content {BORDER:1PX SOLID #D6D1D1!IMPORTANT} */
 body.checkout .block .block_content {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #payment_info_tab .checkout_content .payment_info_form_area {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .addfunds_footer{COLOR:#585858!IMPORTANT}
@@ -583,7 +583,7 @@ body.v6 h2 {color:#585858!important}
 .game_description_snippet {color:#585858!important}
 .agegate_content_descriptors_notes {FONT-WEIGHT:BOLD!IMPORTANT;COLOR:#585858!IMPORTANT}
 .agegate_content_descriptors_notes p {color:#585858!important}
-.block.recommendation_reasons a {color:#67c1f5!important}
+.block.recommendation_reasons a {color:#1181D2!important}
 .game_area_purchase_game, .game_area_offsite_purchase {COLOR:#585858!IMPORTANT;FONT-WEIGHT:#585858!IMPORTANT;border:0!important;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_sub_header {color:#585858!important}
 .review_box .content {color:#585858!important}
@@ -1099,6 +1099,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .friends_nav a.active{background-color:var(--darkergrey)!important;border-radius:var(--border0)!important}
 .friends_nav a:hover{background-color:var(--realblack)!important;border-radius:var(--border0)!important}
 .friends_nav a{margin-bottom:2px!important;border-radius:var(--border0)!important}
+.review_recent_events {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .group_block{background-color:#585858!important}
 .profile_friends.title_bar,.profile_groups.title_bar{margin-top:4px!important;border-radius:var(--border0)!important}
 .friends_nav .hr{height:0px!important;background-color:transparent!important;border-bottom:0!important}
@@ -1110,7 +1111,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .profile_content{background-image:none!important;background:var(--darkgrey)!important}
 .guideTop .workshopItemControls{background-color:#e4e4e4!important}
 .guideTop{background-color:var(--darkgrey)!important}
-.friend_reviews .review_box{border:1PX SOLID #B6B6B6!IMPORTANT;background:var(--thegrey)!important}
+.friend_reviews .review_box{border:0!IMPORTANT;background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .review_box.short{background:var(--thegrey)!important}
 .home_area_spotlight{background-image:none!important}
 .spotlight_weeklong_subtitle{color:var(--white)!important}
@@ -1296,7 +1297,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .review_box.short{background:var(--grey)!important;border-radius:var(--border0)!important}
 .rightcol.game_meta_data .block{border:1px solid #d6d1d1!important;background:#e4e4e4!important;border-radius:0!important}
 .rightcol.game_meta_data .block.heading{BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT;border-radius:10PX 10PX 0 0!important}
-.short_header{background-color:#dedede!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
+.short_header{background-color:#E4E4E4!important;border-RADIUS:0!important}
 .short_header:hover{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .discount_block.no_discount .bundle_base_discount{border-right:0!important}
 .queue_controls_description{color:var(--gold)!important;background:0 0!important;margin-top:-28px!important}
@@ -1370,8 +1371,9 @@ h2 span.note:hover{background:rgba(23,67,92,1)!important;color:var(--white)!impo
 .item_def_icon_container{border-radius:var(--border0)!important}
 .rightcol .panel{border-radius:var(--border0)!important}
 .glance_ctn .user_reviews {COLOR:#585858!IMPORTANT}
+.bundle_label {COLOR:#1181D2!IMPORTANT}
 .rightcol .review_box.partial .content .gradient{background:0 0!important;border-radius:var(--border0)!important}
-a.communitylink_achievement.communitylink_achivement_plusmore{BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:0!important}
+a.communitylink_achievement.communitylink_achivement_plusmore{WIDTH:20PX!IMPORTANT;BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:0!important}
 .communitylink_achievement{width:0!important;border-radius:0!important}
 #game_area_metascore .score{border-radius:var(--border0)!important}
 .friend_activity .friend_block_avatar img,.friend_block_holder .friend_block_avatar img,.playerAvatar img{border-radius:var(--border5)!important}
