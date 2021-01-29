@@ -94,11 +94,12 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 }
 
 /* Main Code */
+.twofactor_settings_input {OUTLINE:NONE!IMPORTANT;COLOR:#585858!iMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
 .twofactor_settings_choice_rule {border-top:1px solid #d6d1d1!important}
 .twofactor_settings_choice_header, .twofactor_deauthorize_header {color:#585858!Important}
 .deauthorize_box{background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .twofactor_settings_radiobtn_header {color:#585858!Important}
-.twofactor_box {background:#e4e4e4!important;box-shadow:#d6d1d1!important}
+.twofactor_box {background:#e4e4e4!important;box-shadow:1PX 1PX 2PX #d6d1d1!important}
 .account_table th {BACKGROUND-COLOR:#585858!IMPORTANT}
 .account_change_country_content {COLOR:#585858!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;box-shadow: 1px 1px 2px #d6d1d1!important}
 .checkout_main .dselect_container a, .checkout_main .dselect_container a:hover, .checkout_main .dselect_container a:active, .checkout_main .dselect_container a:visited {OUTLINE:NONE!IMPORTANT}
