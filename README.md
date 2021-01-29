@@ -13,6 +13,8 @@ Steam will have to restart to apply the theme
 
 ![LIGHT UI - LIBRARY](https://i.imgur.com/AXTUyOd.png) 
 
+![LIGHT UI - LIBRARY](https://i.imgur.com/D9LvfKD.png)
+
 ![LIGHT UI - DOWNLOADS](https://i.imgur.com/WZkVRtT.png)
 
 
