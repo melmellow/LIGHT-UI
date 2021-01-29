@@ -18,5 +18,5 @@ run steamfriendspatcher and it will apply the theme
 
 
 # CREDITS
-* jonius7 for the code the compact sidebar code
+* jonius7 for the compact sidebar code
 * phantomgamers for making steamfriendspatcher
