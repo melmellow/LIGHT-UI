@@ -190,6 +190,7 @@ img{filter:grayscale(30%)!important}
 .profile_customization_header {BACKGROUND:#585858!IMPORTANT}
 body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subheader {COLOR:#000!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .profile_rightcol  {background:#E4E4E4!important}
+.tab_item_discount .discount_pct, .tab_item_discount.no_discount .bundle_base_discount {BORDER-RADIUS:0!IMPORTANT}
 .btn_profile_action > span {background-color:#585858!important}
 .help_section_text {font-weight:bold!important;color:#585858!important}
 .help_section_text {font-weight:bold!important;color:#585858!important}
@@ -226,7 +227,7 @@ a {color:#585858!important}
 .faq_question {font-weight:bold!important;color:#585858!important}
 .faq_answer {color:#585858!important}
 .game_description_column .block .block_content a:hover {border:1px solid #b6b6b6!important}
-div.early_access_header .devnotes .morebutton {background:#585858!important}
+div.early_access_header .devnotes .morebutton {background:NONE!important}
 div.early_access_header .devnotes > div {color:#585858!important}
 div.early_access_header .heading p span {font-weight:bold!important}
 div.early_access_header .inset {text-shadow:none!Important}
@@ -452,7 +453,7 @@ h2 span.note a, h2 span.note a, h2 span.note a:visited {color:#fff!important}
 .game_area_dlc_row.even, .game_area_dlc_row.odd {background-color:#585858!important;color:#fff!important}
 .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background:#54A448!important;color:#fff!important}
 .btn_green_steamui > span {BORDER-RADIUS:0!IMPORTANT;background:#78BE6D!important;color:#fff!important}
-#game_highlights a {background:#585858!important;PADDING-TOP:3PX!IMPORTANT;PADDING-LEFT:3PX!IMPORTANT;PADDING-RIGHT:3PX!IMPORTANT;PADDING-BOTTOM:3PX!IMPORTANT}
+#game_highlights a {background:NONE!important;PADDING-TOP:3PX!IMPORTANT;PADDING-LEFT:3PX!IMPORTANT;PADDING-RIGHT:3PX!IMPORTANT;PADDING-BOTTOM:3PX!IMPORTANT}
 .slider_ctn.store_autoslider .handle {border-radius:0!important}
 .slider_ctn.store_autoslider .handle:hover {background-color:#585858!important}
 .sysreq_tab.active, .discselect_tab.active {border-radius:30px!important;color:#fff!important}
@@ -749,12 +750,15 @@ img.member_tile{border-radius:var(--border5)!important;padding:10px!important;}
 .tag_browse_tag.active{text-transform:uppercase!important;font-family:seogoe UI!important;color:#fff!important;border-radius:30px!important;background:var(--grey)!important}
 .browse_tag_game_total,.browse_tag_games{border-radius:var(--border0)!important}
 .browse_tag_game_total {background-color:#dedede!important}
+.color_recommended {COLOR:#1181D2!IMPORTANT}
+.navigation_bar > .curators_searchbox {BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
 .community_home_header .appHubShortcut a:hover {COLOR:#000!IMPORTANT;TEXT-DECORATION:NONE!iMPORTANT}
 .tag_browse_tag:hover {color:#000!important}
+.curator_recommendation_capsule .carousel_container.paging_capsules .curator_page .profile {BACKGROUND:NONE!IMPORTANT;BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
 .home_content.single .capsule {width:291px!Important}
 .tag_browse_tag{color:#585858!important;background-color:transparent!important;border-radius:var(--border0)!important}
 .tab_see_more{border-radius:var(--border0)!important}
-.curator_page{background:var(--grey)!important}
+.curator_page{background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .giant_curator_capsule img{border-radius:var(--border0)!important}
 .curator.giant.capsule img{border-radius:var(--border0)!important}
 .curator_block{border-radius:var(--border0)!important}
@@ -1259,7 +1263,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .ds_flag.ds_wishlist_flag{border-radius:0!important;border:1px solid #d6d1d1!important;BACKGROUND:#e4e4e4!iMPORTANT}
 .ds_flag.ds_incart_flag{border-radius:var(--border0)!important}
 .ds_flag.ds_ignored_flag{border-radius:var(--border0)!important}
-div.early_access_header{border:1px solid #b6b6b6!important;border-radius:var(--border0)!important}
+div.early_access_header{BOX-SHADOW:#D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border:0!important;border-radius:var(--border0)!important}
 .game_area_dlc_row.odd{border-radius:var(--border0)!important}
 div.early_access_banner{border-radius:var(--border0)!important}
 #app_reviews_playtime_slider .ui-widget-header {BACK}
@@ -1550,7 +1554,7 @@ div.profile_page.has_profile_background{z-index:0!important}
 .friend_block_v2 .player_avatar{margin-top:2px!important}
 .friendBlock .friendPlayerLevel{margin: 1px 6px 5px 5px!important}
 .referring_curator_ctn{margin-top:-20px!important;margin-bottom:0px!important}
-.queue_overflow_ctn{margin-top:-20px!important}
+.queue_overflow_ctn{BACKGROUND:#DEDEDE!IMPORTANT;margin-top:-20px!important}
 .ellipsis {color:#585858!important}
 .review_box .short_header .review_source {filter: brightness(0)!important;}
 
