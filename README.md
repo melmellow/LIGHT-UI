@@ -1,4 +1,4 @@
-# INSTRUCTION
+# INSTRUCTIONS
 * Move LIGHT UI folder to steam/skins/
 
 * On steam go to settings -> interface and choose the newly added skin
