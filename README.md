@@ -1,5 +1,3 @@
-I know its not perfect yet but ill keep woking on it
-
 # INSTRUCTION
 * Move LIGHT UI folder to steam/skins/
 
@@ -21,3 +19,5 @@ Steam will have to restart to apply the theme
 # CREDITS
 * jonius7 for the compact sidebar code
 * phantomgamers for making steamfriendspatcher
+
+Its not perfect yet but I will keep working on it
