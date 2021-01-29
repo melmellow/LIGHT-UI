@@ -275,7 +275,7 @@ a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!im
 .discussions_game_header {BACKGROUND:#dedede!IMPORTANT}
 .discussions_link_icon {BACKGROUND-IMAGE:NONE!IMPORTANT}
 #search_box input {BACKGROUND:#E8E8E8!IMPORTANT}
-#global_header {BACKGROUND:#E4E4E4!IMPORTANT}
+#global_header {BACKGROUND:#E4E4E4!IMPORTANT;BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
 .right_col #contact_support_container {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 a img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .weblink a {BACKGROUND: #585858!IMPORTANT;
@@ -680,6 +680,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .global_header_toggle_button.green,.global_header_toggle_button.has_notifications:hover{background-color:var(--darkgreen)!important;transition:background .6s!important}
 .header_installsteam_btn_gray .header_installsteam_btn_content,.header_installsteam_btn_gray .header_installsteam_btn_leftcap,.header_installsteam_btn_gray .header_installsteam_btn_rightcap{background-color:var(--lightgrey)!important;color:var(--white)!important}
 .review_box .avatar{border-radius:var(--border5)!important}
+#supernav .submenuitem {COLOR:#585858!IMPORTANT}
 .friends_container{background:var(--darkgrey)!important;background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
 .friend_block_v2{top:10px!important;height:55px!important;margin-bottom:5px!important;line-height:1px!important;background-color:#585858!important}
 .avatars img{border-radius:var(--border8)!important}
@@ -687,7 +688,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .header_notification_btn:hover{background-color:var(--lightgrey)!important}
 .popup_block_new .popup_body{border:1px solid #d6d6d6!important;position:relative!important;background-color:#dedede!important}
 div#global_header .submenuitem{background:var(--realblack)!important}
-.supernav_content{background:var(--realblack)!important}
+.supernav_content{BORDER:1PX SOLID #B8B8B8!IMPORTANT;background:#E4E4E4!important}
 .home_discounts_ctn .see_more_link, .home_category_games_ctn .see_more_link, .home_category_ctn .see_more_link{bottom:-5px!important;background:var(--grey)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--blue)!important}
 .home_category_games_ctn .see_more_link:hover, .home_discounts_ctn .see_more_link:hover, .home_category_ctn .see_more_link:hover{bottom:-5px!important;background:var(--blue)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--black)!important}
 .hero_capsule{border-radius:var(--border0)!important}
@@ -1448,7 +1449,7 @@ img#blotter_nofriends_block{border-radius:var(--border0)!important}
 #BG_top_workshop{background-image:none!important;width:0!important;height:0!important}
 .responsive_tab_baseline{background-color:transparent!important;height:0!important}
 .sectionTabsHR{background-color:transparent!important;margin-bottom:0!important}
-#footer{border-radius:var(--border0)!important}
+#footer{border-radius:0!important;BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 #friendactivity_right_column .box{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .blotter_eventsblock{border-radius:var(--border0)!important}
 .friends_add_block{border-radius:var(--border0)!important}
