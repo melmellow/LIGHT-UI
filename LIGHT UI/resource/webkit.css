@@ -175,12 +175,21 @@ body.v6 #footer #footer_logo img {filter:brightness(0)!important}
 .gutter_item .icon {filter:brightness(0)!important}
 .tab_item.focus {BACKGROUND:#E4E4E4!IMPORTANT}
 .block {BACKGROUND:#e4e4e4!IMPORTANT}
+label.send_choice_txt {color:#585858!important}
+.checkout_footer_notes {color:#585858!important}
+.opt_out_description {color:#585858!important}
+#sidebar_documentation {filter:brightness(50%)!important}
+#question {border-top:0!important}
+#sidebar_community_help {filter:brightness(50%)!important;background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
+.dark_bg, #content .pagetext {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .accountInfoBlock .block_content {BACKGROUND:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .checkout_content_box input[type="text"], .checkout_content_box input[type="password"], .checkout_content_box select, .checkout_content_box textarea, .checkout_main .dselect_container a.trigger {COLOR:#585858!IMPORTANT;OUTLINE:NONE!IMPORTANT;BORDER-COLOR:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
 .redeem_wallet_code_upsell div {COLOR:#585858!iMPORTANT}
+.email_pref_ctn.individual_pref {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .redeem_wallet_code_upsell_header, .registerkey_instructions_header {COLOR:#585858!iMPORTANT}
 .card_header {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 img{filter:grayscale(30%)!important}
+.checkout_content.cart_send_choice {BACKGROUND-COLOR:#NONE!important}
 #tsblTitle {color:#585858!Important}
 #topSummaryBoxContent {color:#585858!important;}
 .maincontent #topSummaryBoxContent {background-color:#c3c3c3!important}
@@ -201,6 +210,7 @@ body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subhea
 .persona.online, a.persona.online, .persona.online a, .friend_status_online, .friend_status_online div, .friend_status_online a {color:#585858!important}
 .friend_game_block .friend_activity:hover {background:#d6d6d6!important}
 .friendactivity_tab_header {background-color:#dedede!important;color:#585858!important}
+h4 {background:#d6d1d1!important;color:#585858!important}
 .recommendation_highlight .highlight_description h4 {color:#585858!important}
 .recommendation_highlight {background-color:#d6d6d6!important}
 #detailStats td b {font-size:12px!important;color:#585858!important}
