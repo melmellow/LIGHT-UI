@@ -134,7 +134,7 @@ td.wht_date {color:#585858!important}
 .not_interested_container {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .account_setting_parenthetical {COLOR:#585858!iMPORTANT}
 .youraccount_steamid {COLOR:#585858!iMPORTANT}
-#primary_language {OUTLINE:NONE!iMPORTANT}
+#primary_language {BORDER-RADIUS:0!IMPORTANT;OUTLINE:NONE!iMPORTANT}
 .account_settings_container label{COLOR:#585858!IMPORTANT}
 .account_settings_container {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .wallet_history_click_hint{COLOR:#585858!IMPORTANT}
@@ -195,7 +195,9 @@ label.send_choice_txt {color:#585858!important}
 .redeem_wallet_code_upsell_header, .registerkey_instructions_header {COLOR:#585858!iMPORTANT}
 .card_header {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 img{filter:grayscale(30%)!important}
-.checkout_content.cart_send_choice {BACKGROUND-COLOR:#NONE!important}
+.checkout_content.cart_send_choice {BACKGROUND-COLOR:#DEDEDE!important}
+.account_settings_container hr {BORDER-COLOR:#D6D1D1!IMPORTANT}
+.not_interested_container .description {COLOR:#585858!IMPORTANT}
 #tsblTitle {color:#585858!Important}
 #topSummaryBoxContent {color:#585858!important;}
 .maincontent #topSummaryBoxContent {background-color:#c3c3c3!important}
@@ -686,6 +688,13 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .avatars img{border-radius:var(--border8)!important}
 .header_notification_btn{background-color:var(--lightgrey)!important}
 .header_notification_btn:hover{background-color:var(--lightgrey)!important}
+.accountTable > thead > tr {BACKGROUND-COLOR:#585858!IMPORTANT}
+.parental_settings_followsteps {COLOR:#585588!IMPORTANT}
+.parental_settings_instructions {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
+.parental_settings_box {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.accountTable > tbody > tr:nth-child(even) {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
+.accountTable th {COLOR:#FFF!IMPORTANT}
+.accountTable > tbody > tr:nth-child(odd) {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .popup_block_new .popup_body{border:1px solid #d6d6d6!important;position:relative!important;background-color:#dedede!important}
 div#global_header .submenuitem{background:var(--realblack)!important}
 .supernav_content{BORDER:1PX SOLID #B8B8B8!IMPORTANT;background:#E4E4E4!important}
