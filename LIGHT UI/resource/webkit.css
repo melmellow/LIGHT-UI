@@ -134,6 +134,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 #footer{display:none!important}
 }
 
+
+/*SEARCHBOX*/
+.searchbox{background-image:none!important;background-color:#E8E8E8!important;border-radius:var(--border2)!important;border:1px solid #B8B8B8!important;margin-top:0px!important}
+
 /* Main Code */
 .account_preferences input.gray_bevel, .account_preferences textarea.gray_bevel, .account_preferences .gray_bevel {border-radius:30px!important;background-color:#e8e8e8!important}
 .review_events_preferences_radio_btns {box-shadow:1px 1px 2px #d6d1d1!important}
@@ -744,7 +748,7 @@ div#global_header .submenuitem{background:var(--realblack)!important}
 .hero_data{border-radius:var(--border0)!important;background:var(--darkergrey)!important}
 .hero_capsule .ds_flag{left:2px!important}
 #store_nav_area .store_nav_bg,.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg{background:#e4e4e4!important;border-radius:var(--border0)!important;border:1px solid #d6d1d1!important}
-.searchbox{background-image:none!important;background-color:#d6d6d6!important;border-radius:var(--border2)!important;border:1px solid #b6b6b6!important;margin-top:0px!important}
+
 a#store_search_link img{background-image:none!important;border-radius:var(--border0)!important;display:none!important}
 a#store_search_link img:hover{background-image:none!important;border-radius:var(--border0)!important;display:none!important}
 input#store_nav_search_term{color:var(--grey-ish)!important;font-size:1em!important}
