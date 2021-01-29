@@ -1229,6 +1229,7 @@ body.v6 .game_area_already_owned.page_content{BACKGROUND:border-radius:var(--bor
 #review_create .input_box{border:0!important;border-radius:var(--border0)!important;background-color:#2b2b2b!important}
 .review_controls{background-color:transparent!important;border-radius:var(--border0)!important}
 .review_box .vote_header .thumb{border-radius:var(--border0)!important}
+.short_header {margin-bottom:0!important}
 .review_box .short_header .hours,.review_box .short_header .persona_name,.review_box .short_header .thumb{border-radius:var(--border0)!important}
 .review_box .short_header .persona_name {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .review_box a.vote_header{border:1px solid #d6d1d1!important;background:#d6d6d6!important;border-radius:0!important}
@@ -1375,6 +1376,9 @@ div.early_access_announcements .post .more:hover{color:var(--white)!important;pa
 .group_tabs{width:950px!important;border-radius:var(--border0)!important;padding-left:2px!important}
 .group_tab{background:0 0!important;border-radius:var(--border0)!important;-moz-border-radius:var(--border0)!important}
 a.group_tab{color:#585858!important}
+span.platform_img.htcvive {filter:brightness(50%)!important}
+span.platform_img.oculusrift {filter:brightness(50%)!important}
+span.platform_img.windowsmr {filter:brightness(50%)!important}
 a.group_tab:hover{COLOR:#000!IMPORTANT;background:TRANSPARENT!important;border-radius:var(--border0)!important}
 .group_tab.active{height:35px!important;background:0 0!important;border-radius:var(--border0)!important}
 .group_tab.active>span{height:35px!important;background:rgba(102,192,244,.8)!important;border-radius:var(--border0)!important}
@@ -1615,8 +1619,8 @@ body.v6 #footer .valve_links a {color:#585858!important}
 body.v6 #footer #footer_text a {color:#585858!important}
 .help_lowlight_text {COLOR:#585858!IMPORTANT}
 .help_highlight_text {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
-.btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .help_page_title {COLOR:#585858!iMPORTANT}
 .community_home_app_shortcuts .community_home_shortcut_content {BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 a, .whiteLink {color:#585858!important}
 .store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;color:#000!important}
+.btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
