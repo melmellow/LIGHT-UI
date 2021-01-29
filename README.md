@@ -17,6 +17,6 @@ run steamfriendspatcher and it will apply the theme
 ![LIGHT UI - DOWNLOADS](https://i.imgur.com/WZkVRtT.png)
 
 
-#CREDITS
-*jonius7 for the code the compact sidebar code
-*phantomgamers for making steamfriendspatcher
+# CREDITS
+* jonius7 for the code the compact sidebar code
+* phantomgamers for making steamfriendspatcher
