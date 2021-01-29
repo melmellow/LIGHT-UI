@@ -1783,7 +1783,8 @@ A {
 	BOX-SHADOW:NONE!iMPORTANT;
 }
 .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ {
-	BACKGROUND-COLOR: var(--BUTTONHOVER)!IMPORTANT;
+	BACKGROUND-COLOR: var(--ACCENT)!IMPORTANT;
+	BORDER-RADIUS:0!IMPORTANT;
 }
 
 .DialogCheckbox {

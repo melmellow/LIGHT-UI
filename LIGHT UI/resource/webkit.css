@@ -144,6 +144,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .searchbox{background-image:none!important;background-color:#E8E8E8!important;border-radius:var(--border2)!important;border:1px solid #B8B8B8!important;margin-top:0px!important}
 
 /* Main Code */
+.searchtag {COLOR:#FFF!IMPORTANT;BACKGROUND:#585858!IMPORTANT}
 .search_result_row .col.search_released {COLOR:#585858!iMPORTANT}
 .account_preferences input.gray_bevel, .account_preferences textarea.gray_bevel, .account_preferences .gray_bevel {border-radius:30px!important;background-color:#e8e8e8!important}
 .review_events_preferences_radio_btns {box-shadow:1px 1px 2px #d6d1d1!important}
@@ -290,7 +291,7 @@ a {color:#585858!important}
 .carousel_container .carousel_thumbs > div {border:1px solid #b6b6b6!important;BACKGROUND-COLOR:#d6d6d6!IMPORTANT}
 .carousel_container .carousel_thumbs > div:hover {border-color:#000!important}
 .carousel_container .carousel_thumbs > div.focus {background-color:#585858!important}
-.dselect_container a.trigger {background:#585858!important}
+.dselect_container a.trigger {BORDER-BOTTOM:#B8B8B8!IMPORTANT;background:#D6D6D6!important}
 .game_area_dlc_excluded_by_preferences {COLOR:#585858!iMPORTANT}
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {background:#000!important}
 .dropcontainer ul a {color:#585858!important}
