@@ -363,7 +363,7 @@ H2{COLOR:#585858!IMPORTANT}
 .market_listing_table_header, .market_listing_table_message {background-color:#dedede!important}
 .sectionTab:hover {BORDER-RADIUS:0!iMPORTANT;background:#D6D6D6!important;color:#585858!important}
 .searchAppImage {opacity:0!Important}
-.community_home_search_divider{BACKGROUND-COLOR:1PX SOLID #D6D1D1!important}
+.community_home_search_divider{BORDER:0!IMPORTANT;BACKGROUND-COLOR:1PX SOLID #D6D1D1!important}
 .block_header .header_inline {COLOR:#585858!IMPORTANT}
 #detailStats td a {FONT-WEIGHT:500!IMPORTANT;COLOR:#585858!iMPORTANT}
 BODY.V6 {BACKGROUND:#dedede!IMPORTANT}
@@ -841,7 +841,7 @@ img.member_tile{border-radius:var(--border5)!important;padding:10px!important;}
 .apphub_CardContentAuthorBlock{border-top:0!important}
 .appHubNewsIconHolder{border-radius:var(--border0)!important}
 .community_home_app_shortcuts_list_header {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!iMPORTANT}
-.community_home_search_box{BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;border:0!important;border-radius:10PX!important}
+.community_home_search_box{BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;border:0!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .community_home_shortcut_content{border-radius:var(--border0)!important}
 .community_home_app_shortcuts{border:0!important;border-radius:10PX!important}
 .community_home_app_shortcuts .community_home_shortcut_content{BORDER:1PX SOLID #b8b8b8!IMPORTANT;BACKGROUND-COLOR:#e4e4e4!IMPORTANT;border-radius:0!important}
@@ -951,7 +951,7 @@ body.v6 div#footer_spacer{background:#dedede!important}
 body.v6 div#footer, body.v6  div#global_header, body.v6  div#main, body.v6  div.page_area{background:var(--darkgrey)!important}
 body.v6 div#global_header{background:var(--bedarkgrey)!important}
 body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
-.community_home_search_apps{border-radius:var(--border2)!important;background-color:#E8E8E8!important;border:0!important}
+.community_home_search_apps{border-radius:var(--border2)!important;background-color:#E8E8E8!important;border:1PX SOLID #B8B8B8!important}
 .community_home_search_players{border-radius:var(--border2)!important;border:0!important;background-color:#E8E8E8!important}
 .community_home_shortcut_content{background-COLOR:#E4E4E4!important;BORDER:0!IMPORTANT;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,.apphub_sectionTab.active>span{border-radius:var(--border0)!important;background:var(--grey)!important;color:var(--white)!important}
@@ -981,8 +981,8 @@ div#game_select_suggestions_ctn{background:var(--realblack)!important}
 input.community_home_search_app_input{font-size:15px!important;font-style:normal!important;background-color:#E8E8E8!important}
 .community_home_search_apps_image{display:none!important}
 .community_home_search_title {COLOR:#585858!IMPORTANT}
-.community_home_search_players{background:#E8E8E8!important}
-input.community_home_search_players_input{font-style:normal!important;font-size:15px!important;background-color:#d6d6d6!important}
+.community_home_search_players{BORDER:1PX SOLID #B8B8B8!IMPORTANT;background:#E8E8E8!important}
+input.community_home_search_players_input{font-style:normal!important;font-size:15px!important;background-color:#E8E8E8!important}
 .community_home_search_players_image{display:none!important}
 .element{position:relative!important;top:50%!important;transform:translate(-50%)!important}
 .modal{max-height:calc(100% - 100px)!important;position:fixed!important;top:50%!important;left:50%!important;transform:translate(-50%,-50%)!important}
