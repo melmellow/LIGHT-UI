@@ -333,6 +333,7 @@ a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {BORDER:0!IMPORTANT;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .searchPersonaName, .searchPersonaName:active, .searchPersonaName:visited, .searchPersonaName:hover {color:#585858!important}
 .community_searchresults_title{color:#585858!Important}
+.rightcol.game_meta_data .block.recommendation_noinfo {COLOR:#585858!IMPORTANT}
 .profile_count_link_total {color:#585858!Important}
 .creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name, .store_nav .popup_menu .popup_menu_item {COLOR:#585858!IMPORTANT}
 a.linkbar > img {filter:brightness(0)!important}
@@ -340,7 +341,7 @@ a.linkbar > img {filter:brightness(0)!important}
 .cart_row {background-color:#d6d6d6!Important}
 .store_main_capsule, .store_main_capsule:hover {background-image:none!IMportant}
 .checkout_content_box .checkout_content.cart, .checkout_content_box .checkout_content.confirm {border:1px solid #d6d1d1!important;background:#e4e4e4!important}
-.agegate_birthday_selector {BORDER:1PX SOLID #d6d1d1!IMPORTANT;BORDER-RADIUS:0!iMPORTANT;background:#e4e4e4!important}
+.agegate_birthday_selector {BORDER:0!IMPORTANT;BORDER-RADIUS:0!iMPORTANT;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #app_agegate select {OUTLINE:0!IMPORTANT;PADDING-BOTTOM:0PX!IMPORTANT;BORDER-RADIUS:0!iMPORTANT;color:#fff!important;background-color:#585858!important}
 .game_review_summary.positive {COLOR:#1181D2!IMPORTANT}
 .community_recommendation_app > .right_col > .paging_thumbs > .num_reviews_desc {COLOR:#1181D2!IMPORTANT}
@@ -385,7 +386,7 @@ span.vr_supported, span.vr_required {COLOR:#585858!IMPORTANT}
 .review_box .vote_info, .recommendation_row .vote_info {COLOR:#585858!IMPORTANT}
 #app_agegate .preferences {color:#585858!important}
 body.v6 #footer_nav .pulldown {background:#585858!important;color:#fff!important}
-.review_box.short .shortcol {background:#D6D6D6!important}
+.review_box.short .shortcol {background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_filter_score {color:#585858!important}
 .commentthread_count_label {color:#fff!important}
 .commentthread_comment_text {color:#585858!important}
@@ -533,15 +534,22 @@ a {color:#fff!important}
 .topicstats_label {COLOR:#585858!IMPORTANT}
 .topicstats_value {COLOR:#585858!IMPORTANT}
 .dynamiclink_content {COLOR:#FFF!IMPORTANT}
+.apphub_MostPopularLink {COLOR:#585858!IMPORTANT}
+.apphub_SectionFilterLabel{COLOR:#585858!IMPORTANT}
+.apphub_SectionFilter {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+div.filterselect {BACKGROUND:#D6D6D6!IMPORTANT;COLOR:#585858!IMPORTANT;BORDER-BOTTOM:#B8B8B8!IMPORTANT}
+.apphub_UserReviewCardContent .vote_header .hours {COLOR:#585858!IMPORTANT}
 .sale_capsule .discount_block_inline .discount_prices {BACKGROUND:#D6D6D6!IMPORTANT}
+.apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .dynamiclink_name {COLOR:#FFF!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
+.apphub_CardMetaData .review_award_aggregated, .apphub_UserReviewCardContent .review_award_aggregated {COLOR:#585858!IMPORTANT}
 input[type=text], input[type=password], input[type=number], select {BORDER:1PX SOLID #B6B6B6!IMPORTANT}
 #live_stream_featured .title {color:#585858!important}
 .apphub_CardContentMain .apphub_CardTextContent .date_posted {COLOR:#585858!IMPORTANT}
 .home_title_ctn .home_line {background:#DCDCDC!important}
-.apphub_UserReviewCardContent {BORDER:1PX SOLID #B6B6B6!IMPORTANT}
+.apphub_UserReviewCardContent {BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .apphub_UserReviewCardContent .found_helpful {color:#585858!important}
-.apphub_UserReviewCardContent .apphub_CardTextContent {color:#fff!important}
+.apphub_UserReviewCardContent .apphub_CardTextContent {color:#585858!important}
 .apphub_BackToTop .apphub_BackToTopButton {color:#fff!important}
 .apphub_ProgressBar {background-color:#585858!important}
 .apphub_ProgressBarBG {background-color:#ababab!important}
