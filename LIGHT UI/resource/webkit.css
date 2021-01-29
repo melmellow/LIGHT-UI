@@ -132,8 +132,16 @@ td.wht_date {color:#585858!important}
 .queue_customize, .preferences_link {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 .queue_customize:hover, .preferences_link:hover{COLOR:#000!iMPORTANT}
 .not_interested_container {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
+.dq_settings_content {COLOR:#585858!iMPORTANT}
+.queue_options_ctn {BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
+.dq_settings_content .dq_settings_section_title {COLOR:#585858!IMPORTANT}
 .account_setting_parenthetical {COLOR:#585858!iMPORTANT}
+.account_preferences input[type=checkbox], .account_preferences label {COLOR:#585858!IMPORTANT}
+.wth_item_refunded {COLOR:#585858!IMPORTANT}
 .youraccount_steamid {COLOR:#585858!iMPORTANT}
+.dq_settings_checkrow {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.review_anomalous_events_icon {COLOR:#585858!IMPORTANT}
+.review_anomalous_events_title, .review_anomalous_events_desc {COLOR:#585858!iMPORTANT}
 #primary_language {BORDER-RADIUS:0!IMPORTANT;OUTLINE:NONE!iMPORTANT}
 .account_settings_container label{COLOR:#585858!IMPORTANT}
 .account_settings_container {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
