@@ -283,6 +283,7 @@ h4 {background:#d6d1d1!important;color:#585858!important}
 .tag_browse_header_desc {text-shadow:none!important;color:#585858!important}
 .browse_tag_game_name {color:#585858!important}
 a {color:#585858!important}
+.autocollapse_enabled .search_collapse_block .block_header {background:#e4e4e4!important}
 .browse_tag_games, .browse_tag_game_total {background-color:#d6d6d6!important}
 .dailydeal_ctn {border:1px solid #d6d1d1!important;background:#e4e4e4!important}
 .curator_giant_capsule .curator_block .blurb > span, .curator_giant_capsule .curator_block .blurb > span:hover {color:#fff!important}
