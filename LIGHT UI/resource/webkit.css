@@ -302,15 +302,15 @@ div.early_access_header .heading {color:#1181D2!important;background:#E4E4E4!imp
 .econ_tag_filter_label > span {text-shadow:none!Important;color:#585858!important}
 select  {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 #market_advancedsearch_appselect_options .market_advancedsearch_appname {border-bottom:1px solid #b6b6b6!important}
-#market_advancedsearch_appselect {background-color:#585858!Important}
-.market_advancedsearch_filters {border-radius:10px!important;border:1px solid #b6b6b6!important;background-color:#d6d6d6!important}
+#market_advancedsearch_appselect {background-color:#D6D6D6!Important}
+.market_advancedsearch_filters {border-radius:0!important;border:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .market_listing_num_listings_qty {color:#000!important}
 .market_listing_price {color:#585858!important}
 .market_listing_item_name_link {color:#585858!Important}
 .market_listing_item_name {color:#585858!important}
 .market_tab_well_tab_contents {color:#585858!important}
 .market_tab_well_tabs {background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-
+.market_advancedsearch_appname {COLOR:#585858!IMPORTANT}
 a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!important}
 .forum_op .content {color:#585858!important}
 .forum_op .topic {color:#585858!important}
@@ -339,7 +339,7 @@ H2{COLOR:#585858!IMPORTANT}
 #TagSuggest.blur {outline:0!important}
 .filter_ctn.inventory_filters #filter_control {background-color:#d6d6d6!important}
 .profile_friends.title_bar, .profile_groups.title_bar {background-color:#dedede!Important}
-#market_advancedsearch_dialog .market_search_sidebar_search_box {border:1px solid #b6b6b6!important;color:#585858!Important;background-color:#d6d6d6!important}
+#market_advancedsearch_dialog .market_search_sidebar_search_box {border:1px solid #B8B8B8!important;color:#585858!Important;background-color:#E8E8E8!important}
 .market_search_submit_button {opacity:0!important}
 .market_search_sidebar_contents {background:#dedede!important}
 .market_listing_table_header, .market_listing_table_message {background-color:#dedede!important}
@@ -420,7 +420,7 @@ input#store_nav_search_term {font-size:6em!important;font-weight:400!Important}
 .agegate_text_container .note {COLOR:#585858!IMPORTANT}
 #app_agegate select option {COLOR:#585858!IMPORTANT;BACKGROUND-COLOR:#dedede!IMPORTANT}
 .carousel_container.spotlight .carousel_items > * .store_capsule {BORDER:0!IMPORTANT;BACKGROUND:#e4e4e4!iMPORTANT}
-
+.btn_green_white_innerfade > span {COLOR:#FFF!IMPORTANT}
 h3 {COLOR:#585858!IMPORTANT}
 .store_main_capsule .reason .main .tags > span, .tab_preview .tags > a {background-color:#797979!important;color:#fff!important}
 .store_main_capsule .reason .additional > div {background-color:#797979!important}
@@ -432,7 +432,7 @@ h3 {COLOR:#585858!IMPORTANT}
 .queue_ignore_menu_option:hover {backgoround:#d6d6d6!important}
 .shared_game_rating p.descriptorText {COLOR:#585858!IMPORTANT}
 .queue_ignore_menu_option_label > .option_title {color:#585858!important}
-.btn_medium > span, input.btn_medium {background:none!Important}
+.btn_medium > span, input.btn_medium {background:TRANSPARENT!Important}
 .btn_medium > span, input.btn_medium:hover {BACKGROUND:#1181D2!IMPORTANT;/*background:#1181D2!important*//*#41A6EF*/}
 .game_area_description ul {COLOR:#585858!IMPORTANT}
 .game_area_purchase_game_dropdown_description {COLOR:#585858!IMPORTANT}
@@ -470,8 +470,8 @@ div.bb_h1, .bb_wysiwyg h1 {color:#585858!important;font-weight:bold!important}
 .market_search_sidebar_section_tip_small {color:#585858!important}
 #footer {background:#dedede!important}
 .market_listing_table_header, .market_listing_table_header .market_listing_left_cell, .market_listing_table_header .market_listing_right_cell {border-left:none!important;color:#585858!important}
-.game_button > span {border-radius:30px!important;background:#e4e4e4!important;border:0!important}
-.game_button:hover > span, .game_button .game_button_preload {background:#000!important}
+.game_button > span {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;border-radius:0!important;background:#e4e4e4!important;border:0!important}
+.game_button:hover > span, .game_button .game_button_preload {background:#E4E4E4!important}
 .market_listing_their_price > .market_table_value .normal_price, .market_listing_their_price > .market_table_value .sale_price {color:#585858!important}
 .market_listing_row {border:0!important;border-radius:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row_link:active, a.market_listing_row_link:visited {color:#585858!important}
