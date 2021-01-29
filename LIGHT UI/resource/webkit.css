@@ -135,10 +135,16 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 }
 
 
+
+.col.search_name .platform_img {OPACITY:1!iMPORTANT}
+.search_result_row.ds_flagged:not(.ds_wishlist) .col.search_capsule, .search_result_row.ds_flagged:not(.ds_wishlist) .platform_img {OPACITY:1!iMPORTANT}
+
+
 /*SEARCHBOX*/
 .searchbox{background-image:none!important;background-color:#E8E8E8!important;border-radius:var(--border2)!important;border:1px solid #B8B8B8!important;margin-top:0px!important}
 
 /* Main Code */
+.search_result_row .col.search_released {COLOR:#585858!iMPORTANT}
 .account_preferences input.gray_bevel, .account_preferences textarea.gray_bevel, .account_preferences .gray_bevel {border-radius:30px!important;background-color:#e8e8e8!important}
 .review_events_preferences_radio_btns {box-shadow:1px 1px 2px #d6d1d1!important}
 .gray_bevel.for_text_input {border-radius:30px!important;background-color:#e8e8e8!important}
@@ -369,8 +375,8 @@ body.v6 .game_page_background {background:TRANSPARENT!important}
 .searchbar_left > button {border-radius:30px!important}
 .search_results_count{background-color:#dedede!Important}
 #term {color:#585858!important;border:1px solid #b6b6b6!important;border-radius:30px!important;background-color:#d6d6d6!important}
-.search_result_row {border-radius:10px!important;border:1px solid #b6b6b6!important}
-.search_result_row, .search_result_row:hover {background:#d6d6d6!important}
+.search_result_row {border-radius:0!important;border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.search_result_row, .search_result_row:hover {background:#E4E4E4!important}
 .slider_ctn .slider_left:hover, .slider_ctn .slider_right:hover, .slider .handle:hover {background:none!important;background-color:#000!important}
 .tab_see_more .btnv6_blue_hoverfade {border-radius:30px!important}
 body.v6 h2.pageheader {text-shadow:none!important}
@@ -917,7 +923,7 @@ body.v6.newonsteam .newonsteam_headercaps>a{background:var(--grey)!important}
 .tabarea .tab .tab_content{background:rgba(0,0,0,0)!important}
 .tabarea .tab .tab_content:hover{color:#000!important;background:rgba(0,0,0,0)!important}
 .page_header_ctn.search{background:0 0!important}
-#term{background-color:var(--lightgrey)!important;border-radius:var(--border0)!important;border:1px solid rgba(30,30,31,.52)!important}
+#term{OUTLINE:NONE!IMPORTANT;background-color:#E8E8E8!important;border-radius:30PX!important;border:1px solid #B8B8B8!important}
 .searchbar {background:#dedede!important}
 .searchbar_left>button{height:26px!important;padding-top:3px!important}
 .store_capsule_frame{background:0 0!important;border:4px!important}
