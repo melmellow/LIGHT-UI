@@ -666,7 +666,7 @@ input[type=text], input[type=password], input[type=number], select {BACKGROUND-C
 .apphub_CardContentMain .apphub_CardTextContent .date_posted {COLOR:#585858!IMPORTANT}
 .home_title_ctn .home_line {background:#DCDCDC!important}
 .apphub_UserReviewCardContent {BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.apphub_UserReviewCardContent .found_helpful {color:#585858!important}
+.apphub_UserReviewCardContent .found_helpful {BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT;color:#585858!important}
 .apphub_UserReviewCardContent .apphub_CardTextContent {color:#585858!important}
 .apphub_BackToTop .apphub_BackToTopButton {color:#fff!important}
 .apphub_ProgressBar {background-color:#585858!important}
@@ -1064,7 +1064,6 @@ a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important
 .discussion_tab_content_area h2{font-size:25px!important}
 .forum_op .date {COLOR:#585858!IMPORTANT}
 .profile_header .persona_name {color:#585858!Important}
-.blotter_screenshot_title {COLOR:#585858;FONT-WEIGHT:500!IMPORTANT}
 .forum_paging{COLOR:#585858!IMPORTANT;background:#dedede!important;border-radius:var(--border0)!important}
 .forum_topic{background-color:var(--grey)!important}
 .blotter_appselect_activeoption{background-image:none!important;border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
@@ -1560,7 +1559,7 @@ img#blotter_nofriends_block{border-radius:var(--border0)!important}
 .gameLogo{border-radius:var(--border0)!important}
 .blotter_group_announcement_header_ogg{border-bottom:0!important;border-radius:var(--border0)!important}
 .blotter_comment_thread .commentthread_area{border-radius:var(--border0)!important}
-.blotter_comment_thread{border-top:0 solid var(--lightblack)!important;border-radius:var(--border0)!important}
+.blotter_comment_thread{BACKGROUND-COLOR:#E4E4E4!iMPORTANT;border-top:0 solid var(--lightblack)!important;border-radius:var(--border0)!important}
 .blotter_group_announcement_header{border-bottom:0!important;border-radius:var(--border0)!important}
 .blotter_screenshot_gallery_image,.blotter_screenshot_gallery_image_selected{border-radius:var(--border0)!important}
 #blotter_appselect_app_options .blotter_appselect_options{border-radius:var(--border0)!important}
@@ -1740,3 +1739,4 @@ a, .whiteLink {color:#585858!important}
 .store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;color:#000!important}
 .btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .sectionTab:hover {BORDER-RADIUS:0!iMPORTANT;background:#D6D6D6!important;color:#585858!important}
+.blotter_screenshot_title {COLOR:#585858;FONT-WEIGHT:500!IMPORTANT}
