@@ -69,6 +69,7 @@
 }
 
 /*FILTERED ELEMENTS*/
+.apphub_CardMetaData .review_award_aggregated > img, .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .gutter_item .icon {filter:brightness(0)!important}
 .cart_tab_left_on {FILTER:BRIGHTNESS(0)!IMPORTANT}
 #checkout_steam_logo img{FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -157,8 +158,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+#iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+#tabcontent_inventory {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
 .friends_link_block {COLOR:#585858!IMPORTANT}
- 
+ .group_comments .commentthread_entry_quotebox {BACKGROUND-COLOR:#E8E8E8!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .app_tag_form_ctn .gray_bevel.for_text_input, .text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input, .text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border:1px solid #b8b8b8!important;border-radius:30px!important}
 .app_tag_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important}
 .tab_filter_control_count {COLOR:#585858!IMPORTANT}
@@ -278,10 +281,11 @@ label.send_choice_txt {color:#585858!important}
 #topSummaryBoxContent {color:#585858!important;}
 .maincontent #topSummaryBoxContent {background-color:#c3c3c3!important}
 .help_divider {background-color:#d6d1d1!important}
+.btn_profile_action.btn_medium {BACKGROUND-COLOR:#585858!iMPORTANT}
 .help_intro_text {color:#585858!important}
 .profile_count_link a .count_link_label {COLOR:#585858!iMPORTANT;TEXT-TRANSFORM:UPPERCASE!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .profile_count_link a:HOVER .count_link_label {COLOR:#000!IMPORTANT;TEXT-DECORATION:NONE!IMPORTANT}
-.profile_customization_header {BACKGROUND:#585858!IMPORTANT}
+.profile_customization_header {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subheader {COLOR:#000!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .profile_rightcol  {background:#E4E4E4!important}
 .tab_item_discount .discount_pct, .tab_item_discount.no_discount .bundle_base_discount {BORDER-RADIUS:0!IMPORTANT}
@@ -656,7 +660,7 @@ input[type=text], input[type=password], input[type=number], select {BORDER:1PX S
 .apphub_UserReviewCardContent .apphub_CardTextContent {color:#585858!important}
 .apphub_BackToTop .apphub_BackToTopButton {color:#fff!important}
 .apphub_ProgressBar {background-color:#585858!important}
-.apphub_ProgressBarBG {background-color:#ababab!important}
+.apphub_ProgressBarBG {background-color:#D6D6D6!important;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .community_home_subtitle {color:#585858!important}
 .whiteLink {color:#585858!important}
 .community_home_title {color:#585858!important}
@@ -1087,8 +1091,11 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .groupadmin_content .rightbox_content_header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .profile_background_current{border-radius:var(--border0)!important;border-top:0!important;border-right:0!important;border-left:0!important;border-bottom:0!important}
 .btn_profile_action>span{background:transparent!important}
+.showcase_stat .value {COLOR:#585858!iMPORTANT}
+.showcase_stat .label {COLOR:#585858!IMPORTANT}
+.showcase_content_bg {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .friendBlock.persona.offline {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.achievement_progress_bar_ctn .progress_bar {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.achievement_progress_bar_ctn .progress_bar {BACKGROUND:#585858!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .profile_rightcol{BORDER:0!IMPORTANT;BACKGROUND:NONE!IMPORTANT;width:268px!important;float:right!important}
 .profile_friend_links.profile_count_link_preview_ctn.responsive_groupfriends_element{margin-bottom:40px!important}
 .profile_count_link.ellipsis{font-size:14px!important;margin-bottom:4px!important;min-height:29px!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
@@ -1260,7 +1267,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .commentthread_textarea {color:#585858!important}
 .profile_comment_area .commentthread_textarea{background-color:var(--littlegrey)!important}
 .profile_comment_area .commentthread_header,.profile_leftcol_header{background-color:transparent!important}
-.profile_comment_area .commentthread_entry_quotebox{border-bottom:0!important;border:0!important;background-color:var(--littlegrey)!important;border-radius:var(--border0)!important}
+.profile_comment_area .commentthread_entry_quotebox{border-bottom:0!important;border:1PX SOLID #B8B8B8!important;background-color:#E8E8E8!important;border-radius:30PX!important}
 .commentthread_entry_quotebox{background-color:#d6d6d6!important;border-radius:var(--border0)!important;border-left:0!important;border-top:0!important;border-right:0!important;border-bottom:0!important;margin-bottom:-2px!important}
 .commentthread_footer,.commentthread_header{margin-bottom:0!important;padding-bottom:0!important}
 .invite_row{border-radius:0!important;background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
@@ -1589,7 +1596,7 @@ div.sharedfiles_filterselect:hover {border-color:#8d8d8d!important}
 .games_list_tab_row_separator{border-top:0!important}
 .browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1px 1px 2px #D6D1D1!IMPORTANT}
 .browseAppsTitleContainer{border-radius:0!important;background:#E4E4E4!important;background-color:#E4E4E4!important}
-.searchApps{border-radius:var(--border2)!important;background:#E8E8E8!important}
+.searchApps{border-radius:var(--border2)!important;background:#E8E8E8!important;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .workshopAppsRow{border-bottom:0!important;background:0 0!important}
 .primary_panel{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .avatar_workshop_overlay{background:0 0!important}
