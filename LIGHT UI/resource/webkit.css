@@ -69,6 +69,7 @@
 }
 
 /*FILTERED ELEMENTS*/
+.view_inventory_logo img {FILTER:BRIGHTNESS(50%)!iMPORTANT}
 .apphub_CardMetaData .review_award_aggregated > img, .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .gutter_item .icon {filter:brightness(0)!important}
 .cart_tab_left_on {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -159,7 +160,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 /* Main Code */
 #iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-#tabcontent_inventory {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
+#tabcontent_inventory {BORDER:0!IMPORTANT;BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
 .friends_link_block {COLOR:#585858!IMPORTANT}
  .group_comments .commentthread_entry_quotebox {BACKGROUND-COLOR:#E8E8E8!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .app_tag_form_ctn .gray_bevel.for_text_input, .text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input, .text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border:1px solid #b8b8b8!important;border-radius:30px!important}
@@ -1567,17 +1568,18 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .avatarIcon_48_online{border-radius:var(--border4)!important}
 .avatarIcon_48_offline{border-radius:var(--border4)!important}
 .avatarIcon_48_ingame{border-radius:var(--border4)!important}
+.item_desc_content .item_desc_description {COLOR:#585858!iMPORTANT}
 #NoItemsContainer{background-color:rgba(0,0,0,.4)!important;border-radius:var(--border0)!important;border:0!important}
-.view_inventory_page.inventory_msg_ctn{border-radius:var(--border0)!important}
+.view_inventory_page.inventory_msg_ctn{BORDER:0!iMPORTANT;border-radius:var(--border0)!important}
 .primary_panel_border{background:0 0!important}
 .rightSectionHolder{background:0 0!important;border-radius:var(--border0)!important}
-.games_list_tabs{border:0!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;-moz-border-radius-topleft:4px!important;-moz-border-radius-topright:4px!important}
+.games_list_tabs{border:0!important;BORDER-RADIUS:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .games_list_tab.active{margin-left:1px!important;background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
 .games_list_tab,a.games_list_tab{padding:0 12px!important;border-radius:var(--border0)!important;border-top:0!important}
 .games_list_tab_separator{width:0!important;background-color:rgba(0,0,0,0)!important;background-repeat:no-repeat}
 .games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important;margin-left:1px!important}
-.filter_ctn.inventory_filters #filter_control{border-radius:var(--border0)!important;border:0!important;background-color:rgba(0,0,0,.4)!important}
-.inventory_iteminfo{border:2px solid transparent!important}
+.filter_ctn.inventory_filters #filter_control{border-radius:30PX!important;border:1PX SOLID #B8B8B8!important;background-color:#E8E8E8!important}
+.inventory_iteminfo{BORDER:0!important;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .view_inventory_page .inventory_page_right{border-radius:var(--border0)!important}
 .inventory_iteminfo .item_desc_content{background-image:none!important}
 #iteminfo0 .item_desc_content,#iteminfo1 .item_desc_content{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;background-color:var(--thegrey)!important}
@@ -1586,13 +1588,14 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .itemHolder{background-color:transparent!important;border-radius:var(--border0)!important;background-image:none!important}
 .market_dialog_contents .item,.trade_item_box .item{background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
 /* .badge_row{border-radius:0!important;BORDER:0!IMPORTANT;!important;background:#D6D6D6!important} */
+.badge_row {BORDER:0!iMPORTANT;BACKGROUND:NONE!iMPORTANT;BACKGROUND-COLOR:NONE!iMPORTANT}
 .badge_row_inner{background-color:#E4E4E4!important;border-radius:0!important;background:#E4E4E4!important;BORDER:0!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .badge_title_rule{height:0!important;border-top:0!important;background-color:rgba(0,0,0,0)!important}
 .badge_empty{border:1px solid transparent!important;border-radius:var(--border0)!important}
 .badge_progress_card.unowned{border:0!important;border-radius:var(--border0)!important}
 .profile_xp_block{border:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BORDER-RADIUS:0!iMPORTANT}
 .profile_xp_block_remaining_bar_progress{BACKGROUND:#D6D6D6!IMPORTANT;BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:30PX!important;background-image:none!important}
-.profile_xp_block_remaining_bar {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.profile_xp_block_remaining_bar {BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .main_content_ctn{border:0!important}
 .browseAppsTitle .highlight {COLOR:#585858!IMPORTANT}
 .browseOption.notSelected a {COLOR:#585858!iMPORTANT}
