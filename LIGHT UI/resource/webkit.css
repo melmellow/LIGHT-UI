@@ -328,6 +328,7 @@ div.early_access_header .devnotes > div {color:#585858!important}
 div.early_access_header .heading p span {font-weight:bold!important}
 div.early_access_header .inset {text-shadow:none!Important}
 div.early_access_header .heading {color:#1181D2!important;background:#E4E4E4!important}
+.commentthread_entry {BACKGROUND:#E4E4E4!iMPORTANT}
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {border-radius:30px!important;background-color:#d6d6d6!important}
 #searchSubmitImg {opacity:0!important}
 .popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus {color:#000!Important}
@@ -1049,6 +1050,7 @@ a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important
 .discussion_tab_content_area h2{font-size:25px!important}
 .forum_op .date {COLOR:#585858!IMPORTANT}
 .profile_header .persona_name {color:#585858!Important}
+.blotter_screenshot_title {COLOR:#585858;FONT-WEIGHT:500!IMPORTANT}
 .forum_paging{COLOR:#585858!IMPORTANT;background:#dedede!important;border-radius:var(--border0)!important}
 .forum_topic{background-color:var(--grey)!important}
 .blotter_appselect_activeoption{background-image:none!important;border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
@@ -1063,7 +1065,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .blotter_appselect div.option,.blotter_appselect_options div.option{padding-right:7px!important;border-radius:var(--border0)!important;cursor:pointer!important}
 #findItemsSearchBox{outline:0!important;border-radius:30px!important;color:#585858!important;background-color:#E8E8E8!important;border:1px solid #B8B8B8!important}
 .blotter_daily_rollup{background-color:var(--bedarkgrey)!important}
-.blotter_comment_thread .commentthread_entry_quotebox{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
+.blotter_comment_thread .commentthread_entry_quotebox{border-radius:30PX!important;background-color:#E8E8E8!important;border:1PX SOLID #B8B8B8!important}
 .forumtopic_comments .commentthread_comment{background-color:#d6d6d6!important;color:var(--dakerwhite)!important;margin-bottom:2px!important;padding:12px 8px 20px 60px!important;border:#b6b6b6!important;overflow:hidden!important;border-radius:var(--border0)!important}
 .forum_op{position:relative!important;padding:7px 12px 21px 63px!important;margin-bottom:8px!important;max-width:565px!important;background-color:#E4E4E4!important;background-image:none!important;background-repeat:no-repeat!important;background-position:top left!important;border:0!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .blotter_block{position:relative!important;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -1505,6 +1507,9 @@ a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue
 .forum_list .rightbox_list_option.selected {COLOR:#585858!IMPORTANT}
 .curator_summary_box{border-radius:var(--border0)!important}
 .curator_store_link_ctn{border-radius:var(--border0)!important}
+.friends_launch_area {COLOR:#585858!IMPORTANT}
+.profile_add_friends_title {COLOR:#585858!IMPORTANT}
+#profileFriendSearchInputBox {FONT-STYLE:NORMAL!iMPORTANT}
 .commentnotifications_header_rule {BACKGROUND-COLOR:#d6d1d1!IMPORTANT;BORDER:0!iMPORTANT}
 #widget{BORDER-COLOR:#B6B6B6!IMPORTANT;border:0!important;background:#D6D6D6!important;border-radius:10PX!important}
 .btn_addtocart .btn_addtocart_left,.btn_addtocart .btn_addtocart_right{background:0 0!important}
