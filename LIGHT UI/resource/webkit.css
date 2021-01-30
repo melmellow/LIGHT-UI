@@ -104,7 +104,7 @@ a.linkbar > img {filter:brightness(0)!important}
 .playerAvatar.profile_header_size .playerAvatarAutoSizeInner img{background:0 0!important;filter:none!important;display:block!important;padding:0!important;width:100%!important;height:100%!important;border-radius:var(--border8)!important}
 .grouppage_header_name{color:#585858!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:30%!important;background-color:transparent!important}
 .recent_game{background-color:#E4E4E4!important;backdrop-filter:blur(10px)!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:#dedede!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important}
+.profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:#dedede!important;backdrop-filter:var(--blur)!important;border-radius:0!important}
 .text_filter_toggle_icon {filter:brightness(0)!Important}
 .apphub_CardRating.rateUp {COLOR:#585858!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 
@@ -1087,8 +1087,9 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .groupadmin_content .rightbox_content_header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .profile_background_current{border-radius:var(--border0)!important;border-top:0!important;border-right:0!important;border-left:0!important;border-bottom:0!important}
 .btn_profile_action>span{background:transparent!important}
+.friendBlock.persona.offline {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .achievement_progress_bar_ctn .progress_bar {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
-.profile_rightcol{BORDER:1PX SOLID #d6d1d1!IMPORTANT;BACKGROUND:#dedede!IMPORTANT;width:268px!important;float:right!important}
+.profile_rightcol{BORDER:0!IMPORTANT;BACKGROUND:NONE!IMPORTANT;width:268px!important;float:right!important}
 .profile_friend_links.profile_count_link_preview_ctn.responsive_groupfriends_element{margin-bottom:40px!important}
 .profile_count_link.ellipsis{font-size:14px!important;margin-bottom:4px!important;min-height:29px!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
 .profile_in_common.responsive_hidden{margin-bottom:6px!important}
