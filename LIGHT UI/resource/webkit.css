@@ -71,6 +71,7 @@
 .help_app_header img {BORDER-RADIUS:0!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+body.v6 #footer #footer_logo_steam {FILTER:BRIGHTNESS(0)!iMPORTANT}
 .profile_customization_edit_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .view_inventory_logo img {FILTER:BRIGHTNESS(50%)!iMPORTANT}
 .apphub_CardMetaData .review_award_aggregated > img, .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
