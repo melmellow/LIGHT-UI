@@ -68,6 +68,8 @@
 	BACKGROUND:#E4E4E4!IMPORTANT;
 }
 
+.help_app_header img {BORDER-RADIUS:0!iMPORTANT}
+
 /*FILTERED ELEMENTS*/
 .view_inventory_logo img {FILTER:BRIGHTNESS(50%)!iMPORTANT}
 .apphub_CardMetaData .review_award_aggregated > img, .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -244,6 +246,7 @@ td.wht_date {color:#585858!important}
 .reviewed_app .right_col{BACKGROUND-IMAGE:NONE!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .trending_reviews_controls_ctn {BACKGROUND:NONE!iMPORTANT}
 body.v6 h3 {COLOR:#585858!IMPORTANT}
+body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_block_new .popup_body {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_block_new .popup_body {BACKGROUND:#E4E4E4!IMPORTANT}
 .explore_rightcol_header {COLOR:#585858!IMPORTANT}
 body.v6 .recommended_by_steam_labs_ctn .header_inline_reason {COLOR:#585858!IMPORTANT}
@@ -462,10 +465,9 @@ a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important
 .community_recommendation_app > .right_col > .paging_thumbs > .num_reviews_desc {COLOR:#1181D2!IMPORTANT}
 .community_recommendations_block > .review_box .view_more a {BACKGROUND:NONE!IMPORTANT; PADDING:4PX!IMPORTANT}
 .community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow {BORDER-RADIUS:0!iMPORTANT;BACKGROUND-COLOR:#585858!IMPORTANT;COLOR:#FFF!IMPORTANT}
-.discount_block .discount_pct, .discount_pct {border-radius:0!important;BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
 .store_main_capsule .reason .main strong {COLOR:#54A448!IMPORTANT}
 .game_area_purchase_game p.package_contents, .game_area_offsite_purchase p.package_contents {color:#585858!important}
-input#store_nav_search_term {font-size:6em!important;font-weight:400!Important}
+input#store_nav_search_term {BACKGROUND:TRANSPARENT!iMPORTANT;font-size:6em!important;font-weight:400!Important}
 .agegate_text_container .note {COLOR:#585858!IMPORTANT}
 #app_agegate select option {COLOR:#585858!IMPORTANT;BACKGROUND-COLOR:#dedede!IMPORTANT}
 .carousel_container.spotlight .carousel_items > * .store_capsule {BORDER:0!IMPORTANT;BACKGROUND:#e4e4e4!iMPORTANT}
@@ -1136,7 +1138,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .help_wizard_arrow_right{BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .help_search_result:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .help_app_header_divider {BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
-#help_search_support_input{OUTLINE:NONE!IMPORTANT;font-style:normal!important;color:#585858!important;border-radius:30px!important;background:#d6d6d6!important;border:1px solid #b8b8b8!important}
+#help_search_support_input{OUTLINE:NONE!IMPORTANT;font-style:normal!important;color:#585858!important;border-radius:30px!important;background:#E8E8E8!important;border:1px solid #b8b8b8!important}
 .help_purchase_detail_box{COLOR:#585858!IMPORTANT;background-COLOR:#E4E4E4!important}
 .profile_small_header_bg{background-image:none!important}
 .friendPlayerLevel .friendPlayerLevelNum {COLOR:#585858!IMPORTANT}
@@ -1695,6 +1697,7 @@ body.v6.winter_sale_home h2.winter{margin-left:-40px!important}
 .newmodal_content{color:#585858!important;border-radius:var(--border0)!important}
 .hover_box{background:var(--lightergrey)!important;color:var(--dakerwhite)!important} 
 .hover_arrow_inner{background:0 0!important}
+.slider_ctn .handle {BORDER-RADIUS:0!iMPORTANT}
 .carousel_items.store_capsule_container > * > *{border-radius:var(--border0)!important}
 .community_recommendation_app > .right_col{background:#E4E4E4!important;border-radius:var(--border0)!important}
 .community_recommendation_app:hover > .right_col{background:#E4E4E4!important;border-radius:var(--border0)!important}
@@ -1740,3 +1743,4 @@ a, .whiteLink {color:#585858!important}
 .btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .sectionTab:hover {BORDER-RADIUS:0!iMPORTANT;background:#D6D6D6!important;color:#585858!important}
 .blotter_screenshot_title {COLOR:#585858;FONT-WEIGHT:500!IMPORTANT}
+.discount_block .discount_pct, .discount_pct {border-radius:0!important;BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
