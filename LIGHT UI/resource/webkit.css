@@ -576,7 +576,7 @@ a.gutter_item {color:#585858!important}
 /*.carousel_container .carousel_items:not(.no_paging) > * {BACKGROUND:#E4E4E4!important}*/
 .btn_profile_action {background-color:#585858!important;color:#fff!important}
 .btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background:#fff!important;color:#585858!important}
-.blotter_group_announcement_header {background:#dedede!important}
+.blotter_group_announcement_header {background:#E4E4E4!important}
 .community_home_header .appHubShortcut, .community_home_header .appHubShortcut a, .community_home_header .appHubShortcut a:visited {color:#585858!important}
 .recently_updated .store_capsule .recently_updated_announcement_link {COLOR:#585858!IMPORTANT}
 .store_header_btn_gray a {BACKGROUND:#585858!iMPORTANT;COLOR:#FFF!IMPORTANT}
@@ -1056,7 +1056,7 @@ a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important
 #blotter_appselect_app_filter{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox{border-radius:30PX!important;background-color:#E8E8E8!important;border:1PX SOLID #B8B8B8!important}
 div#headerSearch.friend_activity_header_search{border-radius:30px!important;background-color:#E8E8E8!important;border:1px solid #B8B8B8!important}
-.profileFriendSearchBox{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
+.profileFriendSearchBox{border-radius:30PX!important;background-color:#E8E8E8!important;border:1PX SOLID #B8B8B8!important}
 #profileFriendSearchSubmitImg{border-left:0!important}
 .econ_tag_filter_category > select {OUTLINE:NONE!IMPORTANT}
 .blotter_appselect{border-radius:var(--border0)!important;min-width:0!important}
@@ -1521,8 +1521,8 @@ img#blotter_nofriends_block{border-radius:var(--border0)!important}
 .sectionTabsHR{background-color:transparent!important;margin-bottom:0!important}
 #footer{border-radius:0!important;BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 #friendactivity_right_column .box{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.blotter_eventsblock{border-radius:var(--border0)!important}
-.friends_add_block{border-radius:var(--border0)!important}
+.blotter_eventsblock{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.friends_add_block{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .profile_options_divider{height:0!important;border-top:0!important}
 .blotter_status_entry .commentthread_entry{border-radius:var(--border0)!important;border-bottom:0!important}
 #blotter_statuspost_submit>span{border-radius:var(--border0)!important}
@@ -1535,7 +1535,7 @@ img#blotter_nofriends_block{border-radius:var(--border0)!important}
 .blotter_group_announcement_header{border-bottom:0!important;border-radius:var(--border0)!important}
 .blotter_screenshot_gallery_image,.blotter_screenshot_gallery_image_selected{border-radius:var(--border0)!important}
 #blotter_appselect_app_options .blotter_appselect_options{border-radius:var(--border0)!important}
-.blotter_author_block{border-bottom:0!important;border-radius:var(--border0)!important}
+.blotter_author_block{border-bottom:0!important;border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT}
 .blotter_screenshot>.blotter_author_block{border-radius:var(--border0)!important}
 .blotter_comment_thread .commentthread_comment_container{margin-top:0!important}
 .blotter_group_announcement_content{COLOR:#585858!IMPORTANT;background:#E4E4E4!important}
