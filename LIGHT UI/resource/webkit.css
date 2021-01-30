@@ -194,9 +194,11 @@ body.checkout .block .block_content {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .btn_blue_white_innerfade > span {color:#fff!important;background:#585858!important;}
 .phone_box_subtext {color:#585858!important}
 .phone_sms_warning {color:#585858!important}
+.managefriends_Background_1xwi0 {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .phone_box {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 td.wht_wallet_balance.wallet_entry_highlight {color:#000!Important}
 td.wht_wallet_balance {color:#585858!important}
+.managefriends_HeaderBlock_X9bYN {BACKGROUND-COLOR:#585858!iMPORTANT}
 .wth_payment {color:#585858!important}
 td.wht_wallet_change {color:#585858!important;border-left:1px solid #d6d1d1!important}
 .wallet_history_table {border:1px solid #d6d1d1!important}
@@ -204,7 +206,7 @@ td.wht_wallet_change {color:#585858!important;border-left:1px solid #d6d1d1!impo
 td.wht_date {color:#585858!important}
 .account_setting_sub_block_long {color:#585858!important}
 #ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
-.friends_nav a:hover {background-color:#d6d6d6!important}
+.friends_nav a:hover {background-color:#d6d6d6!important;BORDER-RADIUS:0!iMPORTANT}
 .text_filter_action_link, .text_filter_action_link a {COLOR:#585858!iMPORTANT}
 .queue_customize, .preferences_link {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 .queue_customize:hover, .preferences_link:hover{COLOR:#000!iMPORTANT}
@@ -529,7 +531,7 @@ a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row
 .favoritesRadioText {color:#585858!important}
 .ScreenshotManagementLabel {color:#585858!important}
 div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {color:#585858!important}
-.friends_nav h4 {color:#585858!important;font-weight:bold!important}
+.friends_nav h4 {BACKGROUND:NONE!IMPORTANT;color:#585858!important;font-weight:bold!important}
 .count {color:#585858!important}
 .friends_search_text_box, .groups_search_text_box {background-color:#d6d6d6!important;border:1px solid #b6b6b6!important}
 .persona.in-game, a.persona.in-game, .persona.in-game a, .friend_status_in-game, .friend_status_in-game div, .friend_status_in-game a {color:#A7D5A1!important}
@@ -1142,7 +1144,6 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .friends_header_avatar img{border-radius:var(--border35)!important}
 .friends_header_name{color:#585858!important;padding-top:12px!important}
 .friends_nav a.active{background-color:var(--darkergrey)!important;border-radius:var(--border0)!important}
-.friends_nav a:hover{background-color:var(--realblack)!important;border-radius:var(--border0)!important}
 .friends_nav a{margin-bottom:2px!important;border-radius:var(--border0)!important}
 .review_recent_events {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .group_block{background-color:#585858!important}
