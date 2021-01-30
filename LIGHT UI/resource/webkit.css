@@ -1190,6 +1190,7 @@ body.v6 .discount_block{background:transparent!important}
 .invite_section_ctn.invite_link{background-image:none!important}
 .home_category_title b {TEXT-SHADOW:NONE!IMPORTANT}
 .formRowTitle {COLOR:#585858!IMPORTANT}
+.formRowFields {COLOR:#585858!IMPORTANT}
 input[type=text], input[type=password], select {BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .home_category_subtitle {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!IMPORTANT}
 .invite_section_ctn .header_row{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;padding-top: 10px!important;padding-bottom: 10px!important;background-color:rgba(255,255,255,.1)!important}
@@ -1206,12 +1207,12 @@ body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .home_tag_category_title, .home_tag_category_title b {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!important}
 .home_discounts_ctn .home_discount_line{height:0px!important}
 .gameListRowLogo.ds_flagged img{border-radius:var(--border0)!important}
-.gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important;background:rgba(0,0,0,.2) no-repeat 4px 4px!important}
+.gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important;background:#E4E4E4!important}
 .sectionTab{background-color:var(--begrey)!important;border-radius:var(--border0)!important}
 .sectionTab.active{background:rgba(0,0,0,.2)!important;border-radius:var(--border0)!important}
 .sectionTab:hover{background:rgba(0,0,0,.2)!important;border-radius:var(--border0)!important}
 .responsive_tab_baseline{background-color:rgba(0,0,0,0)!important;max-width:0!important;height:0!important}
-.gameListRow{border-radius:var(--border0)!important}
+.gameListRow{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT}
 .home_discovery_queue_ctn .home_title_ctn, .home_discovery_queue_ctn .home_subtitle_ctn {COLOR:#585858!IMPORTANT}
 .gameListRowLogo img{border-radius:var(--border0)!important}
 .gray_bevel.for_text_input{border-radius:var(--border0)!important;background-color:rgba(0,0,0,.2)!important;border:0!important}
@@ -1249,11 +1250,11 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#1181D2!important;color:#FFF!important}
 .btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#23678e!important;color:var(--white)!important}
 .btn_medium>span,input.btn_medium{padding:0 15px!important;line-height:30px!important}
-#rightContents .box{border-radius:var(--border0)!important;background:rgba(0,0,0,.2)!important}
+#rightContents .box{border-radius:0!important;background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .cart_tab_off {COLOR:#585858!IMPORTANT}
 .review_list h1{border-bottom:none!important}
 .review_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER-RADIUS:0!IMPORTANT;BORDER:0!IMPORTANT;BOX-SHADOW: 1PX 1PX 2PX #d6d1d1!IMPORTANT}
-.review_box .header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;border-bottom:0!important;background:rgba(0,0,0,.2)!important}
+.review_box .header{COLOR:#585858!IMPORTANT;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;border-bottom:0!important;background:#E4E4E4!important/* ;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT */}
 .review_box .leftcol img{border-radius:var(--border0)!important}
 a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!important;background-color:var(--black)!important}
 .dselect_container a,.dselect_container a:active,.dselect_container a:hover,.dselect_container a:visited{border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
