@@ -1286,7 +1286,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .profile_comment_area .commentthread_textarea{background-color:var(--littlegrey)!important}
 .profile_comment_area .commentthread_header,.profile_leftcol_header{background-color:transparent!important}
 .profile_comment_area .commentthread_entry_quotebox{border-bottom:0!important;border:1PX SOLID #B8B8B8!important;background-color:#E8E8E8!important;border-radius:30PX!important}
-.commentthread_entry_quotebox{background-color:#d6d6d6!important;border-radius:var(--border0)!important;border-left:0!important;border-top:0!important;border-right:0!important;border-bottom:0!important;margin-bottom:-2px!important}
+.commentthread_entry_quotebox{background-color:#E8E8E8!important;border-radius:30PX!important;border-left:0!important;border-top:0!important;border-right:0!important;border-bottom:0!important;margin-bottom:-2px!important}
 .commentthread_footer,.commentthread_header{margin-bottom:0!important;padding-bottom:0!important}
 .invite_row{border-radius:0!important;background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .invite_block_name{margin-top:10px!important}
@@ -1316,7 +1316,9 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:
 .highlight_strip_item{background-color:transparent!important}
 #review_create p {COLOR:#585858!IMPORTANT}
 .bluefade {BACKGROUND-IMAGE:NONE!iMPORTANT}
-.ratingBar {COLOR:#585858!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.playTime {COLOR:#585858!iMPORTANT}
+.gameLogoHolder_default img {BORDER-RADIUS:0!iMPORTANT}
+.ratingBar {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT;COLOR:#585858!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .review_rate_bar {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 .review_app_actions {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .ratingSummary {COLOR:#585858!iMPORTANT}
