@@ -725,8 +725,11 @@ body.v6 .discount_prices > div {color:#585858!important}
 #dlc_footer #dlc_show_all_link{border-radius:var(--border0)!important}
 #dlc_footer #dlc_show_all_link:hover{border-radius:var(--border0)!important}
 .navigation_bar>div.nav_right_side>div.curator_report a{border-radius:var(--border0)!important}
+select.gray_bevel {COLOR:#585858!iMPORTANT}
+.customization_controls select {BACKGROUND:#D6D6D6!IMPORTANT}
 .page_content_ctn.dlc_associated_franchise{background:var(--darkgrey)!important}
 .background_header_ctn.page_background{display:none!important}
+.customization_edit_area {BACKGROUND:NONE!iMPORTANT}
 .curator_featured>div{border:0!important;border-radius:var(--border0)!important;background:var(--grey)!important}
 .mature_content_notice{border-radius:var(--border0)!important}
 .market_multi_warning_tooltip{background-color:var(--lightgrey)!important;border:1px solid var(--lightgrey)!important}
