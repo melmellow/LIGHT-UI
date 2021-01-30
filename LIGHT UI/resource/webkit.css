@@ -343,7 +343,7 @@ div.early_access_header .heading {color:#1181D2!important;background:#E4E4E4!imp
 .econ_tag_filter_label > span {text-shadow:none!Important;color:#585858!important}
 select  {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 #market_advancedsearch_appselect_options .market_advancedsearch_appname {border-bottom:1px solid #b6b6b6!important}
-#market_advancedsearch_appselect {background-color:#D6D6D6!Important}
+#market_advancedsearch_appselect {background-color:#D6D6D6!Important;BORDER:0!IMPORTANT;BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT}
 .market_advancedsearch_filters {border-radius:0!important;border:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .market_listing_num_listings_qty {color:#000!important}
 .market_listing_price {color:#585858!important}
@@ -657,7 +657,7 @@ div.filterselect {BACKGROUND:#D6D6D6!IMPORTANT;COLOR:#585858!IMPORTANT;BORDER-BO
 .account_table tr:nth-child(odd) {BACKGROUND:#DEDEDE!IMPORTANT}
 .btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {BACKGROUND:#585858!IMPORTANT;COLOR:#FFF!IMPORTANT}
 .apphub_CardMetaData .review_award_aggregated, .apphub_UserReviewCardContent .review_award_aggregated {COLOR:#585858!IMPORTANT}
-input[type=text], input[type=password], input[type=number], select {BORDER:1PX SOLID #B6B6B6!IMPORTANT}
+input[type=text], input[type=password], input[type=number], select {BACKGROUND-COLOR:#E8E8E8!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 #live_stream_featured .title {color:#585858!important}
 .account_table tr {BORDER-BOTTOM:#D6D1D1!IMPORTANT}
 .account_table tr:nth-child(even) {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
@@ -1056,6 +1056,7 @@ a.recent_game_discussion:hover{border-radius:0!important;background-color:#E4E4E
 .discussions_forum_row{border-radius:0!important;background-color:#E4E4E4!important;BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .discussions_forum_row:hover{BORDER:0!IMPORTANT;border-radius:0!important;background-color:#E4E4E4!important}
 .discussion_tab_content_rule{border-top:0!important}
+a.recent_game_discussion.quasi_official_group {BACKGROUND:#E4E4E4!IMPORTANT}
 a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important}
 .community_tooltip{background:var(--darkergrey)!important;color:var(--white)!important}
 .discussion_tab_content_area h2.discussion_primary_header{font-size:40px!important}
