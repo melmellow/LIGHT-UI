@@ -71,6 +71,7 @@
 .help_app_header img {BORDER-RADIUS:0!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.profile_customization_edit_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .view_inventory_logo img {FILTER:BRIGHTNESS(50%)!iMPORTANT}
 .apphub_CardMetaData .review_award_aggregated > img, .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .gutter_item .icon {filter:brightness(0)!important}
@@ -175,7 +176,6 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .search_result_row .col.search_released {COLOR:#585858!iMPORTANT}
 .account_preferences input.gray_bevel, .account_preferences textarea.gray_bevel, .account_preferences .gray_bevel {border-radius:30px!important;background-color:#e8e8e8!important}
 .review_events_preferences_radio_btns {box-shadow:1px 1px 2px #d6d1d1!important}
-.gray_bevel.for_text_input {border-radius:30px!important;background-color:#e8e8e8!important}
 .account_preferences .gray_bevel input, .account_preferences .gray_bevel textarea {color:#585858!important}
 .twofactor_settings_input {OUTLINE:NONE!IMPORTANT;COLOR:#585858!iMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
 .twofactor_settings_choice_rule {border-top:1px solid #d6d1d1!important}
@@ -291,7 +291,7 @@ label.send_choice_txt {color:#585858!important}
 .help_intro_text {color:#585858!important}
 .profile_count_link a .count_link_label {COLOR:#585858!iMPORTANT;TEXT-TRANSFORM:UPPERCASE!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .profile_count_link a:HOVER .count_link_label {COLOR:#000!IMPORTANT;TEXT-DECORATION:NONE!IMPORTANT}
-.profile_customization_header {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.profile_customization_header {COLOR:#585858!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subheader {COLOR:#000!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .profile_rightcol  {background:#E4E4E4!important}
 .tab_item_discount .discount_pct, .tab_item_discount.no_discount .bundle_base_discount {BORDER-RADIUS:0!IMPORTANT}
@@ -1119,7 +1119,6 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .workshop_showcase_details_row{background-image:none!important}
 .profile_header_content{padding-top:0px!important}
 .workshop_showcase_details_content{background-color:transparent!important}
-.gray_bevel.for_text_input{border-radius:var(--border0)!important;background-color:var(--black-ish)!important;border:1px solid var(--black)!important}
 #about_header_area{background-image:none!important;background:var(--darkgrey)!important}
 .currentServers {COLOR:#585858!iMPORTANT}
 .blotter_screenshot_image{background-color:var(--lightblack)!important}
@@ -1215,14 +1214,15 @@ body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .sectionTab.active{background:rgba(0,0,0,.2)!important;border-radius:var(--border0)!important}
 .sectionTab:hover{background:rgba(0,0,0,.2)!important;border-radius:var(--border0)!important}
 .responsive_tab_baseline{background-color:rgba(0,0,0,0)!important;max-width:0!important;height:0!important}
-.gameListRow{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT}
+.gameListRow{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .home_discovery_queue_ctn .home_title_ctn, .home_discovery_queue_ctn .home_subtitle_ctn {COLOR:#585858!IMPORTANT}
 .gameListRowLogo img{border-radius:var(--border0)!important}
-.gray_bevel.for_text_input{border-radius:var(--border0)!important;background-color:rgba(0,0,0,.2)!important;border:0!important}
+.gray_bevel.for_text_input{border-radius:30PX!important;background-color:#E8E8E8!important;border:0!important}
 .popup_block2 .popup_body2{border-radius:var(--border0)!important}
-.pullup_item{border-radius:var(--border0)!important}
+.pullup_item{BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;border-radius:0!important;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!IMPORTANT}
 .game_language_options tr {border-bottom:1px solid #d6d6d6!important}
 .game_language_options th {color:#585858!important}
+.sort_options {COLOR:#585858!iMPORTANT}
 .range_input {BACKGROUND-COLOR:TRANSPARENT!iMPORTANT}
 input.searchAppsInput {FONT-STYLE:NORMAL!iMPORTANT}
 .shadow_content{border-radius:var(--border0)!important;margin:0px!important}
