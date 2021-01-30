@@ -301,7 +301,7 @@ body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subhea
 .persona.online, a.persona.online, .persona.online a, .friend_status_online, .friend_status_online div, .friend_status_online a {color:#585858!important}
 .friend_game_block .friend_activity:hover {background:#d6d6d6!important}
 .friendactivity_tab_header {background-color:#dedede!important;color:#585858!important}
-h4 {background:#d6d1d1!important;color:#585858!important}
+h4 {/* background:#d6d1d1!important; */color:#585858!important}
 .recommendation_highlight .highlight_description h4 {color:#585858!important}
 .recommendation_highlight {background-color:#d6d6d6!important}
 #detailStats td b {font-size:12px!important;color:#585858!important}
@@ -1171,6 +1171,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .spotlight_weeklong_subtitle{color:var(--white)!important}
 .tab_item.focus::after{background:var(--grey)!important}
 .discovery_queue_overlay_bg{background:0 0!important}
+.coplayGroup  {BORDER-BOTTOM:1PX SOILD #D6D1D1!IMPORTANT}
 .discovery_queue_customize_ctn{color:#585858!Important;background:var(--darkgrey)!important;border:0!important}
 .discovery_queue_customize_ctn>.btn_medium{border-radius:var(--border0)!important;text-decoration:none!important;color:var(--blu)!important}
 .discovery_queue_overlay_message{color:transparent!important}
@@ -1183,7 +1184,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 #search_results.profile_friends.search_results{margin-top:0!important}
 .noCoplayHistory{border-radius:var(--border0)!important;border:0!important}
 body.v6 .discount_block{background:transparent!important}
-.profile_friends.responsive_friendblocks{border-radius:var(--border0)!important}
+.profile_friends.responsive_friendblocks{border-radius:0!important;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .invite_section_ctn.invite_link{background-image:none!important}
 .home_category_title b {TEXT-SHADOW:NONE!IMPORTANT}
 .home_category_subtitle {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!IMPORTANT}
