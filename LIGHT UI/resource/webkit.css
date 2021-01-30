@@ -1282,7 +1282,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 span.invite_action_txt{border-radius:var(--border0)!important}
 .event_title{font-weight:400!important}
 .partnereventwebrowembed_LatestUpdateButton_1TRFt {BACKGROUND:#585858!iMPORTANT;BORDER:0!iMPORTANT}
-.community_search_text_box{background:#d6d6d6!important;background-color:#d6d6d6!important;border:1px solid #787878!important;border-radius:var(--border2)!important;color:var(--white)!important}
+.community_search_text_box{background:#E8E8E8!important;border:1px solid #B8B8B8!important;border-radius:30PX!important;color:#585858!important;FONT-STYLE:NORMAL!iMPORTANT}
 input[type=number],input[type=password],input[type=text],select{border:2px solid transparent!important;border-radius:var(--border2)!important}
 #search_players_form input[type=submit]{margin-top:5px!important;margin-left:5px!important}
 .search_row{background-color:#d6d6d6!important;border-radius:var(--border0)!important}
@@ -1585,13 +1585,13 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .trade_item_box{background-color:transparent!important;border:1px solid transparent!important}
 .itemHolder{background-color:transparent!important;border-radius:var(--border0)!important;background-image:none!important}
 .market_dialog_contents .item,.trade_item_box .item{background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
-.badge_row{border-radius:var(--border0)!important;BORDER:1PX SOLID #B6B6B6!IMPORTANT;background-color:#D6D6D6!important;background:#D6D6D6!important}
-.badge_row_inner{background-color:#585858!important;border-radius:var(--border0)!important;background:#585858!important}
+/* .badge_row{border-radius:0!important;BORDER:0!IMPORTANT;!important;background:#D6D6D6!important} */
+.badge_row_inner{background-color:#E4E4E4!important;border-radius:0!important;background:#E4E4E4!important;BORDER:0!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .badge_title_rule{height:0!important;border-top:0!important;background-color:rgba(0,0,0,0)!important}
 .badge_empty{border:1px solid transparent!important;border-radius:var(--border0)!important}
 .badge_progress_card.unowned{border:0!important;border-radius:var(--border0)!important}
-.profile_xp_block{border:1PX SOLID #B6B6B6!important;border-color:var(--thegrey)!important;background-color:var(--thegrey)!important}
-.profile_xp_block_remaining_bar_progress{BACKGROUND-COLOR:#53A247!IMPORTANT;border-radius:30PX!important;background-image:none!important}
+.profile_xp_block{border:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BORDER-RADIUS:0!iMPORTANT}
+.profile_xp_block_remaining_bar_progress{BACKGROUND:#D6D6D6!IMPORTANT;BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:30PX!important;background-image:none!important}
 .profile_xp_block_remaining_bar {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .main_content_ctn{border:0!important}
 .browseAppsTitle .highlight {COLOR:#585858!IMPORTANT}
