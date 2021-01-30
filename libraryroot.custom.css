@@ -671,6 +671,16 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+div.ShortRightPanel .libraryhomeshowcases_Showcase_V7RuD .libraryhomeshowcases_ShowcaseHeader_23Snl {
+	BORDER:0!iMPORTANT;
+	OUTLINE:NONE!IMPORTANT;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DragHandle_1OGfH {
+	FILL:#585858!iMPORTANT;
+	STROKE:#585858!iMPORTANT;
+}
+
 .appgrid_AppGridSectionLabel_2hvQb {
 	color:VAR(--ACCENT)!IMPORTANT;
 }
@@ -1674,7 +1684,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 
 .appgrid_ReadyToPlayBigButton_3wbWH {
-	BORDER-RADIUS:10PX!iMPORTANT;
+	BORDER-RADIUS:0!iMPORTANT;
 	border:1px solid  var(--DIVIDER1)!important;
 }
 
