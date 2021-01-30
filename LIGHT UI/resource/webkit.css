@@ -147,8 +147,13 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+<<<<<<< Updated upstream
 .tab_filter_control_count {COLOR:#585858!IMPORTANT}
 .tab_filter_control_checkbox {BACKGROUND-IMAGE:NONE!iMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
+=======
+.tab_filter_control_checkbox {background:#d6d6d6!important}
+.tab_filter_control, .range_display {color:#585858!Important}
+>>>>>>> Stashed changes
 .searchtag {COLOR:#FFF!IMPORTANT;BACKGROUND:#585858!IMPORTANT}
 .search_result_row .col.search_released {COLOR:#585858!iMPORTANT}
 .account_preferences input.gray_bevel, .account_preferences textarea.gray_bevel, .account_preferences .gray_bevel {border-radius:30px!important;background-color:#e8e8e8!important}
