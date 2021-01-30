@@ -670,8 +670,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+.appgrid_AppGridSectionLabel_2hvQb {
+	color:VAR(--ACCENT)!IMPORTANT;
+}
+
 .appdetailsplaysection_InvalidPlatform_3Ads1 span {
-	COLOR:#585858!IMPORTANT;
+	COLOR:VAR(--ACCENT)!IMPORTANT;
 	}
 	
 .appdetailsplaysection_InvalidPlatform_3Ads1 .appdetailsplaysection_Icon_69Wad {

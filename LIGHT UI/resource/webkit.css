@@ -147,13 +147,12 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
-<<<<<<< Updated upstream
+.app_tag_form_ctn .gray_bevel.for_text_input, .text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input, .text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border:1px solid #b8b8b8!important;border-radius:30px!important}
+.app_tag_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important}
 .tab_filter_control_count {COLOR:#585858!IMPORTANT}
 .tab_filter_control_checkbox {BACKGROUND-IMAGE:NONE!iMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
-=======
 .tab_filter_control_checkbox {background:#d6d6d6!important}
 .tab_filter_control, .range_display {color:#585858!Important}
->>>>>>> Stashed changes
 .searchtag {COLOR:#FFF!IMPORTANT;BACKGROUND:#585858!IMPORTANT}
 .search_result_row .col.search_released {COLOR:#585858!iMPORTANT}
 .account_preferences input.gray_bevel, .account_preferences textarea.gray_bevel, .account_preferences .gray_bevel {border-radius:30px!important;background-color:#e8e8e8!important}
@@ -1613,7 +1612,10 @@ div.sharedfiles_filterselect:hover {border-color:#8d8d8d!important}
 .achieveFill{top:0!important;left:0!important;bottom:0!important;background:var(--grey)!important}
 h2.pageheader{padding-left:0!important}
 .newsrightcol .block .block_header{padding:5px 10px!important}
-.block .block_header {border-radius:0!important;background:NONE!important;color:#FFF!important}
+
+/*qqq*/
+.block .block_header {border-radius:0!important;background:NONE!important;color:#585858!important}
+
 .block a.linkbar{border:1px solid #d6d1d1!important;padding:5px 10px!important;background:var(--darkgrey)!important}
 .block_sub_header_channels{padding:0 0 0 10px!important}
 .posttitle{font-size:18px!important}
