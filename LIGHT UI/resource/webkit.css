@@ -58,6 +58,16 @@
 }
 
 
+.login_client_waitforauth_title {
+	COLOR:#585858!IMPORTANT;
+}
+.login_client_waitforauth_desc {
+	COLOR:#585858!IMPORTANT;
+}
+.login_client_waitforauth {
+	BACKGROUND:#E4E4E4!IMPORTANT;
+}
+
 /*FILTERED ELEMENTS*/
 .gutter_item .icon {filter:brightness(0)!important}
 .cart_tab_left_on {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -147,6 +157,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.friends_link_block {COLOR:#585858!IMPORTANT}
+ 
 .app_tag_form_ctn .gray_bevel.for_text_input, .text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input, .text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border:1px solid #b8b8b8!important;border-radius:30px!important}
 .app_tag_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important}
 .tab_filter_control_count {COLOR:#585858!IMPORTANT}
@@ -1042,8 +1054,8 @@ a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important
 .blotter_appselect_activeoption{background-image:none!important;border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
 .blotter_appselect_options{background:var(--realblack)!important;border-radius:var(--border0)!important;border:0!important;padding-top:3px!important}
 #blotter_appselect_app_filter{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
-.blotter_status_entry .commentthread_entry .commentthread_entry_quotebox{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
-div#headerSearch.friend_activity_header_search{border-radius:30px!important;background-color:#d6d6d6!important;border:1px solid #b6b6b6!important}
+.blotter_status_entry .commentthread_entry .commentthread_entry_quotebox{border-radius:30PX!important;background-color:#E8E8E8!important;border:1PX SOLID #B8B8B8!important}
+div#headerSearch.friend_activity_header_search{border-radius:30px!important;background-color:#E8E8E8!important;border:1px solid #B8B8B8!important}
 .profileFriendSearchBox{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
 #profileFriendSearchSubmitImg{border-left:0!important}
 .econ_tag_filter_category > select {OUTLINE:NONE!IMPORTANT}
@@ -1054,7 +1066,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .blotter_comment_thread .commentthread_entry_quotebox{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
 .forumtopic_comments .commentthread_comment{background-color:#d6d6d6!important;color:var(--dakerwhite)!important;margin-bottom:2px!important;padding:12px 8px 20px 60px!important;border:#b6b6b6!important;overflow:hidden!important;border-radius:var(--border0)!important}
 .forum_op{position:relative!important;padding:7px 12px 21px 63px!important;margin-bottom:8px!important;max-width:565px!important;background-color:#E4E4E4!important;background-image:none!important;background-repeat:no-repeat!important;background-position:top left!important;border:0!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.blotter_block{position:relative!important;background:var(--bedarkgrey)!important;border-radius:var(--border0)!important}
+.blotter_block{position:relative!important;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .dynamiclink_box{border:1px solid var(--grey)!important;background-color:var(--grey)!important}
 .profile_header_bg_texture{background-color:#E4E4E4!important;background-image:none!important;width:950px!important;backdrop-filter:var(--blur)!important;border-radius:0!important;min-height:200px!important;padding-bottom:15px!important;border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .profile_header_bg{background-image:none!important;padding-bottom:0!important;padding-top:10px!important;min-height:226px!important}
