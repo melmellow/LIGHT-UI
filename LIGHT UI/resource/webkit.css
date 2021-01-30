@@ -338,6 +338,7 @@ div.early_access_header .heading {color:#1181D2!important;background:#E4E4E4!imp
 .commentthread_entry {BACKGROUND:#E4E4E4!iMPORTANT}
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {border-radius:30px!important;background-color:#d6d6d6!important}
 #searchSubmitImg {opacity:0!important}
+.rightbox_list_header, .rightbox_content_header {COLOR:#585858!IMPORTANT}
 .popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus {color:#000!Important}
 .econ_tag_filter_category_label {color:#585858!Important;font-weight:bold!Important}
 .econ_tag_filter_label > span {text-shadow:none!Important;color:#585858!important}
@@ -349,6 +350,7 @@ select  {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .market_listing_price {color:#585858!important}
 .market_listing_item_name_link {color:#585858!Important}
 .market_listing_item_name {color:#585858!important}
+.forum_list_unread {COLOR:#585858!iMPORTANT}
 .market_tab_well_tab_contents {color:#585858!important}
 .market_tab_well_tabs {background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .market_advancedsearch_appname {COLOR:#585858!IMPORTANT}
@@ -368,7 +370,7 @@ a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!im
 
     color: #FFF!IMPORTANT;
     FONT-WEIGHT: 100!IMPORTANT;
-    BORDER-RADIUS: 30PX!IMPORTANT;
+    BORDER-RADIUS:0!IMPORTANT;
     PADDING: 4PX!IMPORTANT;}
 H2{COLOR:#585858!IMPORTANT}
 .steam_discussions_moderationdisclaimer {COLOR:#585858!IMPORTANT}
@@ -1046,12 +1048,11 @@ body.flat_page:not(.iframe){background:var(--darkgrey)!important}
 .apphub_BackToTop:hover .apphub_BackToTopButton{background-image:none!important}
 .discussionSearchTextContainer{WIDTH:253PX!IMPORTANT;background-image:none!important}
 .discussionSearchTextContainer{border-radius:var(--border4)!important;background-color:#D6D6D6!important;border:0!important;color:var(--white)!important;height:28px!important}
-input.discussionSearchText{BORDER:1PX SOLID #B6B6B6!IMPORTANT;position:static!important;padding:4px!important}
+input.discussionSearchText{BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!important;padding:4px!important}
 .discussionSearchTextSubmitImg{OPACITY:0!IMPORTANT;top:5px!important;left:266px!important}
-a.recent_game_discussion {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .discussions_forumlist_linkoverlay img {BORDER:0!IMPORTANT}
 .discussions_header{border-bottom:5px solid transparent!important}
-a.recent_game_discussion{border-radius:var(--border0)!important;background-color:var(--grey)!important}
+a.recent_game_discussion{border-radius:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 a.recent_game_discussion:hover{border-radius:0!important;background-color:#E4E4E4!important}
 .discussions_forum_row{border-radius:0!important;background-color:#E4E4E4!important;BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .discussions_forum_row:hover{BORDER:0!IMPORTANT;border-radius:0!important;background-color:#E4E4E4!important}
@@ -1150,7 +1151,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .friends_header_avatar{border-radius:var(--border35)!important}
 .friends_header_avatar img{border-radius:var(--border35)!important}
 .friends_header_name{color:#585858!important;padding-top:12px!important}
-.friends_nav a.active{background-color:var(--darkergrey)!important;border-radius:var(--border0)!important}
+.friends_nav a.active{background-color:#D6D6D6!important;border-radius:0!important}
 .friends_nav a{margin-bottom:2px!important;border-radius:var(--border0)!important}
 .review_recent_events {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .group_block{background-color:#585858!important}
