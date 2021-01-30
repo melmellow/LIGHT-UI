@@ -734,6 +734,7 @@ body.v6 .page_content.browse_reviews{background:var(--darkgrey)!important}
 .appHubIconHolder.greyOverlay{display:none!important}
 .forum_topic_tooltip{background-color:var(--grey-ish)!important;border:1px solid var(--lightgrey)!important}
 .apphub_Card.interactable:hover .apphub_CardContentDiscussionType{background-color:transparent!important}
+.apphub_CardContentDiscussionType {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 .capsule.header img{border-radius:var(--border0)!important}
 .capsule.headerv5,.capsule.headerv5 img{border-radius:var(--border0)!important}
 .detailBox .commentthread_comment:not(.hidden_post):hover,.group_comments .commentthread_comment:not(.hidden_post):hover,.profile_comment_area .commentthread_comment:not(.hidden_post):hover{border-radius:var(--border0)!important}
@@ -1203,6 +1204,8 @@ input[type=text], input[type=password], select {BORDER:1PX SOLID #B8B8B8!IMPORTA
 .invite_section_ctn .header_row{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;padding-top: 10px!important;padding-bottom: 10px!important;background-color:rgba(255,255,255,.1)!important}
 .invite_section_ctn .content{border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
 .profile_small_header_text {COLOR:#585858!iMPORTANT}
+.apphub_CardContentNewsDesc {COLOR:#585858!IMPORTANT}
+.apphub_CardContentNewsTitle {COLOR:#585858!iMPORTANT}
 .profile_small_header_texture{background-image:none!important;background-color:var(--darkgrey)!important}
 .sale_capsule_image_hover{border:1px solid var(--darkergrey)!important;border-radius:var(--border0)!important}
 .gameListRow.followed{border-radius:var(--border0)!important}
@@ -1213,7 +1216,7 @@ input[type=text], input[type=password], select {BORDER:1PX SOLID #B8B8B8!IMPORTA
 body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .home_tag_category_title, .home_tag_category_title b {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!important}
 .home_discounts_ctn .home_discount_line{height:0px!important}
-.apphub_HeaderBottom {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.apphub_HeaderBottom {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 0PX #D6D1D1 !IMPORTANT}
 .apphub_StoreInfoHeader {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .gameListRowLogo.ds_flagged img{border-radius:var(--border0)!important}
 .gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important;background:#E4E4E4!important}
