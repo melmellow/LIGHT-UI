@@ -162,6 +162,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.review_box .vote_header .hours {COLOR:#585858!iMPORTANT}
 .panel .hr {BACKGROUND-COLOR:#D6D1D1!IMPORTANT;BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
 #rightContents .panel {BORDER:0!iMPORTANT;BACKGROUND:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .menu_ico {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -1348,6 +1349,7 @@ body.v6 .game_area_already_owned.page_content{BACKGROUND:border-radius:var(--bor
 .glance_details img:hover{border:0!important;border-radius:var(--border0)!important}
 .game_area_dlc_bubble{border-radius:var(--border0)!important}
 .ds_flag.ds_completetheset{border-radius:var(--border0)!important}
+.review_box .posted {COLOR:#585858!iMPORTANT}
 .review_box .postedDate {COLOR:#585858!IMPORTANT}
 .game_description_column h2,.recommendation_bodytext h2{background-image:none!important}
 .game_description_column .block .block_header h4{background-image:none!important}
@@ -1356,6 +1358,7 @@ body.v6 .game_area_already_owned.page_content{BACKGROUND:border-radius:var(--bor
 .game_area_already_owned .ds_flag{border-radius:var(--border0)!important;background:0 0!important}
 #review_create .avatar>img{border-radius:var(--border5)!important}
 .review_box .control_block .text {color:#585858!important;font-weight:450!important}
+.review_box .control_block {COLOR:#585858!iMPORTANT}
 #review_create .avatar{border-radius:var(--border5)!important}
 #review_create .input_box{border:0!important;border-radius:var(--border0)!important;background-color:#2b2b2b!important}
 .review_controls{background-color:transparent!important;border-radius:var(--border0)!important}
