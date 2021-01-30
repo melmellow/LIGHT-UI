@@ -1213,6 +1213,8 @@ input[type=text], input[type=password], select {BORDER:1PX SOLID #B8B8B8!IMPORTA
 body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .home_tag_category_title, .home_tag_category_title b {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!important}
 .home_discounts_ctn .home_discount_line{height:0px!important}
+.apphub_HeaderBottom {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.apphub_StoreInfoHeader {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .gameListRowLogo.ds_flagged img{border-radius:var(--border0)!important}
 .gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important;background:#E4E4E4!important}
 .sectionTab{background-color:var(--begrey)!important;border-radius:var(--border0)!important}
@@ -1222,6 +1224,7 @@ body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .gameListRow{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .home_discovery_queue_ctn .home_title_ctn, .home_discovery_queue_ctn .home_subtitle_ctn {COLOR:#585858!IMPORTANT}
 .gameListRowLogo img{border-radius:var(--border0)!important}
+.apphub_AllContentText {COLOR:#585858!iMPORTANT}
 .gray_bevel.for_text_input{border-radius:30PX!important;background-color:#E8E8E8!important;border:0!important}
 .popup_block2 .popup_body2{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .pullup_item{BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;border-radius:0!important;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!IMPORTANT}
