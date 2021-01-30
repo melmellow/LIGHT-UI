@@ -532,7 +532,7 @@ a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row
 .market_subtitle_text {color:#585858!important}
 .market_header_bg {background-color:#dedede!important}
 .profile_badges_header_title {color:#585858!important}
-#ScreenshotManagementToggle {background:#585858!important}
+#ScreenshotManagementToggle {background:NONE!important}
 .imgWall_BackToTop:hover .imgWall_BackToTopButton {background:#dedede!important}
 .imgWall_BackToTop .imgWall_BackToTopButton {background:#dedede!important}
 .favoritesRadioText {color:#585858!important}
@@ -1569,9 +1569,14 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .avatarIcon_48_offline{border-radius:var(--border4)!important}
 .avatarIcon_48_ingame{border-radius:var(--border4)!important}
 .item_desc_content .item_desc_description {COLOR:#585858!iMPORTANT}
-#NoItemsContainer{background-color:rgba(0,0,0,.4)!important;border-radius:var(--border0)!important;border:0!important}
+#NoItemsContainer{background-color:#E4E4E4!important;border-radius:0!important;border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .view_inventory_page.inventory_msg_ctn{BORDER:0!iMPORTANT;border-radius:var(--border0)!important}
 .primary_panel_border{background:0 0!important}
+.booster_goo_cost {COLOR:#585858!iMPORTANT}
+.booster_creator_page select {OUTLINE:NONE!iMPORTANT}
+.booster_creator_area {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.booster_creator_goostatus {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
+.trade_item_box .item, .market_dialog_contents .item {BORDER-RADIUS:0!iMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .rightSectionHolder{background:0 0!important;border-radius:var(--border0)!important}
 .games_list_tabs{border:0!important;BORDER-RADIUS:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .games_list_tab.active{margin-left:1px!important;background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
@@ -1580,6 +1585,7 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important;margin-left:1px!important}
 .filter_ctn.inventory_filters #filter_control{border-radius:30PX!important;border:1PX SOLID #B8B8B8!important;background-color:#E8E8E8!important}
 .inventory_iteminfo{BORDER:0!important;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.filter_tag_options {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .view_inventory_page .inventory_page_right{border-radius:var(--border0)!important}
 .inventory_iteminfo .item_desc_content{background-image:none!important}
 #iteminfo0 .item_desc_content,#iteminfo1 .item_desc_content{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;background-color:var(--thegrey)!important}
