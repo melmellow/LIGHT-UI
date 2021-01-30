@@ -281,7 +281,8 @@
 }
 
 .DialogTextInputBase:not(disabled) {
-	border:1px solid  var(--BASE2)!important;
+	border:1px solid  var(--BUTTONBORDER)!important;
+	BACKGROUND: var(--TEXTENTRY)!IMPORTANT;
 }
 
 button.DialogButton:hover {
@@ -1964,11 +1965,6 @@ A {
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg circle {
 	stroke: var(--ACCENT)!Important;
-}
-
-.DialogTextInputBase:not(disabled) {
-	BORDER:1PX SOLID  var(--BUTTONBORDER)!IMPORTANT;
-	BACKGROUND: var(--BUTTON)!IMPORTANT;
 }
 
 .DialogTextInputBase:not(disabled)::selection {
