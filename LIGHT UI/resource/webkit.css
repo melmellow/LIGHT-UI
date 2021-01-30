@@ -517,6 +517,8 @@ body.v6 #footer_nav .pulldown {background:#585858!important;color:#fff!important
 div.bb_h1, .bb_wysiwyg h1 {color:#585858!important;font-weight:bold!important}
 .bodytext {color:#585858!important}
 .mainSectionHeader {text-shadow:none!important}
+.error_ctn {BACKGROUND:#E4E4E4!IMPORTANT}
+p.sectionText {COLOR:#585858!IMPORTANT}
 .item_market_action_button_green > span, .item_market_action_button_green .item_market_action_button_preload {background-image:none!important;background-color:#585858!important}
 .pick_and_sell_button .item_market_action_button_contents {color:#fff!important}
 .market_search_advanced_button:hover {background:#000!important}
@@ -535,6 +537,7 @@ a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row
 .my_market_header_active {color:#585858!important}
 .market_title_text {color:#585858!important}
 .market_header_logo {background-image:none!important;background-color:#dedede!important}
+#BG_top {BACKGROUND:#E4E4E4!IMPORTANT}
 #BG_top > .user_info {border-radius:0!important;border:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .market_tab_well_tab_active > span {background:#585858!important;color:#fff!important}
 .market_subtitle_text {color:#585858!important}
@@ -724,6 +727,7 @@ body.v6 .discount_prices > div {color:#585858!important}
 .game_area_dlc_row.even{border-radius:var(--border0)!important}
 #dlc_footer #dlc_show_all_link{border-radius:var(--border0)!important}
 #dlc_footer #dlc_show_all_link:hover{border-radius:var(--border0)!important}
+.commentthread_comment_timestamp {COLOR:#585858!iMPORTANT}
 .navigation_bar>div.nav_right_side>div.curator_report a{border-radius:var(--border0)!important}
 select.gray_bevel {COLOR:#585858!iMPORTANT}
 .customization_controls select {BACKGROUND:#D6D6D6!IMPORTANT}
