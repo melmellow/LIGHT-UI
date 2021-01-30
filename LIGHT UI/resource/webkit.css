@@ -1223,11 +1223,13 @@ body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .home_discovery_queue_ctn .home_title_ctn, .home_discovery_queue_ctn .home_subtitle_ctn {COLOR:#585858!IMPORTANT}
 .gameListRowLogo img{border-radius:var(--border0)!important}
 .gray_bevel.for_text_input{border-radius:30PX!important;background-color:#E8E8E8!important;border:0!important}
-.popup_block2 .popup_body2{border-radius:var(--border0)!important}
+.popup_block2 .popup_body2{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .pullup_item{BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;border-radius:0!important;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!IMPORTANT}
 .game_language_options tr {border-bottom:1px solid #d6d6d6!important}
+#footerLogo {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .game_language_options th {color:#585858!important}
 .sort_options {COLOR:#585858!iMPORTANT}
+.popup_body2 h5 {COLOR:#585858!iMPORTANT}
 .range_input {BACKGROUND-COLOR:TRANSPARENT!iMPORTANT}
 input.searchAppsInput {FONT-STYLE:NORMAL!iMPORTANT}
 .shadow_content{border-radius:var(--border0)!important;margin:0px!important}
