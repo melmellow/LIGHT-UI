@@ -162,6 +162,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.panel .hr {BACKGROUND-COLOR:#D6D1D1!IMPORTANT;BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
+#rightContents .panel {BORDER:0!iMPORTANT;BACKGROUND:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.menu_ico {FILTER:BRIGHTNESS(0)!IMPORTANT}
+.gray_bevel input, .gray_bevel textarea {COLOR:#585858!iMPORTANT}
 #iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #tabcontent_inventory {BORDER:0!IMPORTANT;BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
 .friends_link_block {COLOR:#585858!IMPORTANT}
