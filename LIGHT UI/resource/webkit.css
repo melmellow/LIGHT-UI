@@ -168,10 +168,16 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.tradeoffer_welcome_ctn {background-color:#e4e4e4!Important;box-shadow:1px 1px 2px #d6d1d1!important}
+.market_headertip {color:#585858!Important;border:0!Important}
+.market_headertip_container {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!important}
+.inventory_iteminfo {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.btn_black {BACKGROUND:#585858!iMPORTANT}
+.btn_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {BACKGROUND:#000!IMPORTANT}
 .sharedfiles_usercontrols_label {COLOR:#585858!iMPORTANT}
 .formHR {BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
 div.sortselect {BORDER:0!iMPORTANT;BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;COLOR:#585858!iMPORTANT}
-
+.view_inventory_page .item.activeInfo, .view_inventory_page .item:hover {BACKGROUND:#D6D6D6!IMPORTANT}
 div.sortselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .review_box .vote_header .hours {COLOR:#585858!iMPORTANT}
 .panel .hr {BACKGROUND-COLOR:#D6D1D1!IMPORTANT;BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
@@ -1696,6 +1702,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#
 .tradeoffer_rule{border-top:0!important;height:0!important}
 .tradeoffer_items_banner.accepted{border-radius:var(--border0)!important}
 .quote_arrow{background-image:none!important}
+.rightcol_controls {background-color:#e4e4e4!important}
 .rightcol_controls_rule{height:0!important;border-top:0!important}
 .maincontent{background-image:none!important;background-color:var(--darkgrey)!important}
 .maincontent #topSummaryBoxContent{background-color:var(--bedarkgrey)!important;padding:10px 10px 20px 20px!important;margin:0 0 20px 0!important;border-radius:var(--border0)!important}
