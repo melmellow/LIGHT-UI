@@ -71,6 +71,7 @@
 .help_app_header img {BORDER-RADIUS:0!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.published_file_icon {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.sharedfiles_filterselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 #sharedfiles_filterselect_search_img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {FILTER:BRIGHTNESS(50%)!IMPORTANT;color:#585858!important}
@@ -106,7 +107,7 @@ a.linkbar > img {filter:brightness(0)!important}
 .newmodal_background{opacity:0.9!important;backdrop-filter:var(--blur)!important}
 .workshopAppsSort .browseOptionImage {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .commentnotification_browseoption.active .browseOptionImage {FILTER:BRIGHTNESS(0)!IMPORTANT}
-.browseOptionImage {FILTER:BRIGHTNESS(0)!iMPORTANT}
+.browseOptionImage {OPACITY:0.1!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
 .broadcast_embeddable_bordered_corner_expanded_ahz31 {filter:brightness(0)!important}
 .broadcast_embeddable_broadcast_settings_icon_37ugZ {filter:brightness(0)!Important}
 .broadcast_embeddable_bordered_corner_shrinked_L8sFY {filter:brightness(0)!Important}
@@ -167,6 +168,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.sharedfiles_usercontrols_label {COLOR:#585858!iMPORTANT}
+.formHR {BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
+div.sortselect {BORDER:0!iMPORTANT;BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;COLOR:#585858!iMPORTANT}
+
 div.sortselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .review_box .vote_header .hours {COLOR:#585858!iMPORTANT}
 .panel .hr {BACKGROUND-COLOR:#D6D1D1!IMPORTANT;BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
@@ -1137,7 +1142,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .friendBlock.persona.online{color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .friendBlock.persona.offline{color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .workshop_showcase_details_row{background-image:none!important}
-.profile_header_content{padding-top:0px!important}
+.profile_header_content{COLOR:#585858!IMPORTANT;padding-top:0px!important}
 .workshop_showcase_details_content{background-color:transparent!important}
 #about_header_area{background-image:none!important;background:var(--darkgrey)!important}
 .currentServers {COLOR:#585858!iMPORTANT}
