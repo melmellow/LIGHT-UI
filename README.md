@@ -1,3 +1,4 @@
+#PREVIEW
 ![LIGHT UI](https://media2.giphy.com/media/HrAXyN2QpUdZ1srtUz/giphy.gif)
 
 # INSTRUCTIONS
