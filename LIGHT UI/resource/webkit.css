@@ -71,6 +71,7 @@
 .help_app_header img {BORDER-RADIUS:0!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {FILTER:BRIGHTNESS(50%)!IMPORTANT;color:#585858!important}
 div.sortselect #sortselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 body.v6 #footer #footer_logo_steam {FILTER:BRIGHTNESS(0)!iMPORTANT}
 .profile_customization_edit_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -553,7 +554,6 @@ a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row
 .imgWall_BackToTop .imgWall_BackToTopButton {background:#dedede!important}
 .favoritesRadioText {color:#585858!important}
 .ScreenshotManagementLabel {color:#585858!important}
-div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {color:#585858!important}
 .friends_nav h4 {BACKGROUND:NONE!IMPORTANT;color:#585858!important;font-weight:bold!important}
 .count {color:#585858!important}
 .friends_search_text_box, .groups_search_text_box {background-color:#d6d6d6!important;border:1px solid #b6b6b6!important}
@@ -1654,8 +1654,13 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .browseOption.notSelected a {COLOR:#585858!iMPORTANT}
 .profile_xp_block_level, .profile_xp_block_xp {COLOR:#585858!IMPORTANT}
 .dynamiclink_author {COLOR:#FFF!IMPORTANT}
+div.sharedfiles_filterselect_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 #sharedfiles_view{background:#d6d6d6!important;border-bottom:#b8b8b8!important}
+div.sharedfiles_filterselect {BACKGROUND:#D6D6D6!IMPORTANT}
 div.sharedfiles_filterselect:hover {border-color:#8d8d8d!important}
+#sharedfiles_filterselect_app_filter {OUTLINE:NONE!iMPORTANT;COLOR:#585858!iMPORTANT}
+div#sharedfiles_filterselect_app_filterable {BORDER:0!iMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!iMPORTANT}
+div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .games_list_tab_row_separator{border-top:0!important}
 .browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1px 1px 2px #D6D1D1!IMPORTANT}
 .browseAppsTitleContainer{border-radius:0!important;background:#E4E4E4!important;background-color:#E4E4E4!important}
