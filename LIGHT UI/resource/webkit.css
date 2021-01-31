@@ -169,6 +169,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.tradehistory_date {COLOR:#585858!iMPORTANT}
+.tradehistoryrow:nth-child(even) {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.tradehistoryrow {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
 .inventory_history_pagingrow {COLOR:#585858!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .inventory_history_message {COLOR:#585858!iMPORTANT}
 .inventory_history_message.inventory_history_message_blue {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
