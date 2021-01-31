@@ -71,6 +71,8 @@
 .help_app_header img {BORDER-RADIUS:0!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+div.sharedfiles_filterselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+#sharedfiles_filterselect_search_img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {FILTER:BRIGHTNESS(50%)!IMPORTANT;color:#585858!important}
 div.sortselect #sortselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 body.v6 #footer #footer_logo_steam {FILTER:BRIGHTNESS(0)!iMPORTANT}
@@ -1657,9 +1659,11 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 div.sharedfiles_filterselect_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 #sharedfiles_view{background:#d6d6d6!important;border-bottom:#b8b8b8!important}
 div.sharedfiles_filterselect {BACKGROUND:#D6D6D6!IMPORTANT}
+#sharedfiles_privacy {OUTLINE:NONE!imPORTANT}
+#ScreenshotManagementControls {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 div.sharedfiles_filterselect:hover {border-color:#8d8d8d!important}
 #sharedfiles_filterselect_app_filter {OUTLINE:NONE!iMPORTANT;COLOR:#585858!iMPORTANT}
-div#sharedfiles_filterselect_app_filterable {BORDER:0!iMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!iMPORTANT}
+div#sharedfiles_filterselect_app_filterable {BORDER:0!iMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!iMPORTANT}
 div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .games_list_tab_row_separator{border-top:0!important}
 .browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1px 1px 2px #D6D1D1!IMPORTANT}
