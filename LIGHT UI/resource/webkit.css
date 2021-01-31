@@ -71,6 +71,7 @@
 .help_app_header img {BORDER-RADIUS:0!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+div.sortselect #sortselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 body.v6 #footer #footer_logo_steam {FILTER:BRIGHTNESS(0)!iMPORTANT}
 .profile_customization_edit_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .view_inventory_logo img {FILTER:BRIGHTNESS(50%)!iMPORTANT}
@@ -163,6 +164,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+div.sortselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .review_box .vote_header .hours {COLOR:#585858!iMPORTANT}
 .panel .hr {BACKGROUND-COLOR:#D6D1D1!IMPORTANT;BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
 #rightContents .panel {BORDER:0!iMPORTANT;BACKGROUND:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -484,12 +486,14 @@ h3 {COLOR:#585858!IMPORTANT}
 .store_main_capsule .reason .main {color:#585858!important}
 .store_main_capsule, .store_main_capsule {color:#585858!important}
 .store_main_capsule .app_name > div {color:#585858!important}
+div.sortselect_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;COLOR:#585858!IMPORTANT;BORDER:0!iMPORTANT;BORDER-BOTTOM:1PX SOLID #B8B8B8!iMPORTANT}
 .checkout_content_box h3.tab_header {COLOR:#585858!IMPORTANT}
+div.sortselect #sortselect_activesort {COLOR:#585858!iMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT}
 .queue_ignore_menu_option {backgoround:#dedede!important}
 .queue_ignore_menu_option:hover {backgoround:#d6d6d6!important}
 .shared_game_rating p.descriptorText {COLOR:#585858!IMPORTANT}
 .queue_ignore_menu_option_label > .option_title {color:#585858!important}
-.btn_medium > span, input.btn_medium {background:TRANSPARENT!Important}
+.btn_medium > span, input.btn_medium {background:#585858!Important}
 .btn_medium > span, input.btn_medium:hover {BACKGROUND:#1181D2!IMPORTANT;/*background:#1181D2!important*//*#41A6EF*/}
 .game_area_description ul {COLOR:#585858!IMPORTANT}
 .game_area_purchase_game_dropdown_description {COLOR:#585858!IMPORTANT}
