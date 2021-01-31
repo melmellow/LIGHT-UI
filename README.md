@@ -1,8 +1,4 @@
-![LIGHT UI - LIBRARY](https://i.imgur.com/AXTUyOd.png) 
-
-![LIGHT UI - LIBRARY](https://i.imgur.com/D9LvfKD.png)
-
-![LIGHT UI - DOWNLOADS](https://i.imgur.com/WZkVRtT.png)
+![LIGHT UI](https://media2.giphy.com/media/HrAXyN2QpUdZ1srtUz/giphy.gif)
 
 # INSTRUCTIONS
 * Move LIGHT UI folder to steam/skins/
