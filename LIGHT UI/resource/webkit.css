@@ -71,6 +71,7 @@
 .help_app_header img {BORDER-RADIUS:0!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.right_controls_large_block_active_bg {FILER:BRIGHTNESS(0)!iMPORTANT;OPACITY:0.1!IMPORTANT}
 .published_file_icon {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.sharedfiles_filterselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 #sharedfiles_filterselect_search_img {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -168,6 +169,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.inventory_history_pagingrow {COLOR:#585858!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.inventory_history_message {COLOR:#585858!iMPORTANT}
+.inventory_history_message.inventory_history_message_blue {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.right_controls_large_block div.secondary {COLOR:#000!IMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 .tradeoffer_welcome_ctn {background-color:#e4e4e4!Important;box-shadow:1px 1px 2px #d6d1d1!important}
 .market_headertip {color:#585858!Important;border:0!Important}
 .market_headertip_container {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!important}
@@ -1702,7 +1707,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#
 .tradeoffer_rule{border-top:0!important;height:0!important}
 .tradeoffer_items_banner.accepted{border-radius:var(--border0)!important}
 .quote_arrow{background-image:none!important}
-.rightcol_controls {background-color:#e4e4e4!important}
+.rightcol_controls {background-color:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BORDER-RADIUS:0!iMPORTANT}
 .rightcol_controls_rule{height:0!important;border-top:0!important}
 .maincontent{background-image:none!important;background-color:var(--darkgrey)!important}
 .maincontent #topSummaryBoxContent{background-color:var(--bedarkgrey)!important;padding:10px 10px 20px 20px!important;margin:0 0 20px 0!important;border-radius:var(--border0)!important}
