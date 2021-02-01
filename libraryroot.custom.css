@@ -676,6 +676,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+.eventbbcodeparser_BlockQuote_2cY7b {
+	BORDER:1PX SOLID #D6D1D1!IMPORTANT;
+}
+
+.partnereventdisplay_EventDetailsSubTitle_20f2s {
+	COLOR:VAR(--ACCENT)!IMPORTANT;
+}
+
 .appactivityday_PartnerEventTextOnly_Summary_3ZUP3 {
 	COLOR:VAR(--ACCENT)!IMPORTANT;
 }
