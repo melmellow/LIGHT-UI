@@ -169,6 +169,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.similar_grid_item .similar_grid_capsule {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
+body.v6 h2.morelike_section_divider {BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
 .similar_grid_item {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .recommendation_highlight.morelikethis_border {BACKGROUND-IMAGE:NONE!iMPORTANT}
 .review_edit_text_area {color:#585858!important;background-color:#e8e8e8!important;border:1px solid #b8b8b8!important}
