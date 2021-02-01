@@ -1366,7 +1366,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .profile_comment_area .commentthread_footer{border-top:0!important}
 .profile_comment_area .commentthread_comment_container{border-bottom:0!important}
 .commentthread_textarea {color:#585858!important}
-.profile_comment_area .commentthread_textarea{background-color:var(--littlegrey)!important}
+.profile_comment_area .commentthread_textarea{background-color:#E8E8E8!important}
 .profile_comment_area .commentthread_header,.profile_leftcol_header{background-color:transparent!important}
 .profile_comment_area .commentthread_entry_quotebox{border-bottom:0!important;border:1PX SOLID #B8B8B8!important;background-color:#E8E8E8!important;border-radius:30PX!important}
 .commentthread_entry_quotebox{background-color:#E8E8E8!important;border-radius:30PX!important;BORDER:1PX SOLID #B8B8B8!IMPORTANT;margin-bottom:-2px!important}
