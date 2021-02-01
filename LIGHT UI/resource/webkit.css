@@ -164,7 +164,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /*SEARCHBOX*/
-.searchbox{background-image:none!important;background-color:#E8E8E8!important;border-radius:var(--border2)!important;border:1px solid #B8B8B8!important;margin-top:0px!important}
+.searchbox{background-image:none!important;background-color:#E8E8E8!important;border-radius:30PX!important;border:1px solid #B8B8B8!important;margin-top:0px!important}
 
 
 
