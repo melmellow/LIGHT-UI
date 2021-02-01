@@ -539,7 +539,7 @@ input#store_nav_search_term {BACKGROUND:TRANSPARENT!iMPORTANT;font-size:6em!impo
 .btn_green_white_innerfade > span {COLOR:#FFF!IMPORTANT}
 h3 {COLOR:#585858!IMPORTANT}
 .store_main_capsule .reason .main .tags > span, .tab_preview .tags > a {background-color:#797979!important;color:#fff!important}
-.store_main_capsule .reason .additional > div {background-color:#797979!important}
+.store_main_capsule .reason .additional > div {BORDER-RADIUS:0!imPORTANT;background-color:#585858!important}
 .store_main_capsule .reason .main {color:#585858!important}
 .store_main_capsule, .store_main_capsule {color:#585858!important}
 .store_main_capsule .app_name > div {color:#585858!important}
