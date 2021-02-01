@@ -307,6 +307,7 @@ body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_bloc
 body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_block_new .popup_body {BACKGROUND:#E4E4E4!IMPORTANT}
 .explore_rightcol_header {COLOR:#585858!IMPORTANT}
 body.v6 .recommended_by_steam_labs_ctn .header_inline_reason {COLOR:#585858!IMPORTANT}
+.discount_block .discount_prices {border:0!Important}
 .home_tabs_content .discount_block .discount_prices, .tab_content_ctn .discount_block .discount_prices {BORDER:0!IMPORTANT;BORDER-RADIUS:0!iMPORTANT}
 .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon path {STROKE:#DEDEDE!IMPORTANT;FILL:#585858!iMPORTANT}
 .chatentry_chatSubmitButton_RVIs8.chatentry_EmoticonPickerButton_Aupsw, .chatentry_chatSubmitButton_RVIs8.chatentry_EmbedButton_3zOBe {BORDER:0!iMPORTANT;BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
@@ -433,6 +434,8 @@ a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!im
     BORDER-RADIUS:0!IMPORTANT;
     PADDING: 4PX!IMPORTANT;}
 H2{COLOR:#585858!IMPORTANT}
+.btn_black {background:#585858!Important}
+.btn_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background:#000!important}
 .steam_discussions_moderationdisclaimer {COLOR:#585858!IMPORTANT}
 .discussions_forumlist_header {COLOR:#585858!IMPORTANT}
 .forum_list_ctn .forum_list_right {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
@@ -441,7 +444,7 @@ H2{COLOR:#585858!IMPORTANT}
 .grouppage_content_area h2, a.large_title, h2.large_title {COLOR:#585858!IMPORTANT}
 #TagSuggest.blur {outline:0!important}
 .Broadcast_Card.apphub_Card {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.filter_ctn.inventory_filters #filter_control {background-color:#d6d6d6!important}
+.filter_ctn.inventory_filters #filter_control {color:#585858!Important}
 .profile_friends.title_bar, .profile_groups.title_bar {background-color:#E4E4E4!Important}
 .managefriends_Body_2s393{COLOR:#585858!iMPORTANT}
 .DialogInput_Wrapper > input.DialogInput {COLOR:#585858!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
@@ -1019,7 +1022,7 @@ body.v6 .home_rightcol .tab_preview h2{color:#585858!important}
 .responsive_page_content{overflow-x:hidden!important}
 .home_ctn.discovery_queue_ctn{background:#dedede!important;border-radius:var(--border0)!important}
 body.v6.newonsteam .newonsteam_headercaps>a{background:var(--grey)!important}
-.tabarea .tab.active .tab_content{background:var(--bedarkgrey)!important}
+.tabarea .tab.active .tab_content{COLOR:#FFF!iMPORTANT;background:var(--bedarkgrey)!important}
 .tabarea .tab .tab_content{color:#585858!important;border-radius:var(--border0)!important}
 .contenthub_specials_ctn{background:rgba(64,120,152,0)!important;border-radius:var(--border0)!important}
 .contenthub_featured_item_spotlight{background:rgba(64,120,152,0)!important}
@@ -1106,7 +1109,7 @@ body.flat_page:not(.iframe){background:var(--darkgrey)!important}
 .friendBlock{background:var(--darkgrey)!important}
 .miniprofile_top{border:0!important;background:var(--grey)!important;border-radius:var(--border0)!important}
 .miniprofile_player .playername{padding-top:10px!important}
-#contextselect{background-image:none!important}
+#contextselect{background-color:#585858!important;background-image:none!important}
 .friend_blocks_twoxtwo .friend_name{margin-top:10px!important}
 .friend_blocks_twoxtwo .friend_block_holder{border-radius:var(--border0)!important}
 .miniprofile_favorite_badge{background:var(--darkgrey)!important;border:0!important}
@@ -1636,6 +1639,7 @@ img#blotter_nofriends_block{border-radius:var(--border0)!important}
 #BG_top_workshop{background-image:none!important;width:0!important;height:0!important}
 .responsive_tab_baseline{background-color:transparent!important;height:0!important}
 .sectionTabsHR{background-color:transparent!important;margin-bottom:0!important}
+.view_inventory_page .item.activeInfo, .view_inventory_page .item:hover {background:#d6d6d6!important}
 #footer{border-radius:0!important;BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 #friendactivity_right_column .box{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .blotter_eventsblock{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
