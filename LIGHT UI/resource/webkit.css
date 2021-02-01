@@ -1378,10 +1378,10 @@ span.invite_action_txt{border-radius:var(--border0)!important}
 .community_search_text_box{background:#E8E8E8!important;border:1px solid #B8B8B8!important;border-radius:30PX!important;color:#585858!important;FONT-STYLE:NORMAL!iMPORTANT}
 input[type=number],input[type=password],input[type=text],select{border:2px solid transparent!important;border-radius:var(--border2)!important}
 #search_players_form input[type=submit]{margin-top:5px!important;margin-left:5px!important}
-.search_row{background-color:#d6d6d6!important;border-radius:var(--border0)!important}
+.search_row{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background-color:#E4E4E4!important;border-radius:var(--border0)!important}
 body.flat_page{background:var(--darkgrey)!important}
 body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:var(--border0)!important;background:var(--darkgrey)!important}
-.search_match_info{border-radius:var(--border0)!important}
+.search_match_info{BACKGROUND-COLOR:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
 .partnereventwebrowembed_LatestUpdateIcon_mq3RO svg {FILL:#585858!IMPORTANT}
 .search_group_avatar_holder img{border-radius:var(--border0)!important}
 .grouppage_content_area .community_search_container>h2{color:var(--white)!important}
