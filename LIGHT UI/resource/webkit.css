@@ -170,6 +170,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.friendactivity_tab_row {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .page_desc {COLOR:#585858!IMPORTANT}
 .curator_page .name span {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .curator_page .name {COLOR:#585858!IMPORTANT}
@@ -347,7 +348,7 @@ body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subhea
 .help_section_text {font-weight:bold!important;color:#585858!important}
 .game_hover_box p, .game_hover_box {color:#585858!important;}
 .recommendation_row .quote .quote_content {color:#585858!important}
-.recommendation_row {background-color:#d6d6d6!important}
+.recommendation_row {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .persona.online, a.persona.online, .persona.online a, .friend_status_online, .friend_status_online div, .friend_status_online a {color:#585858!important}
 .friend_game_block .friend_activity:hover {background:#d6d6d6!important}
 .friendactivity_tab_header {background-color:#dedede!important;color:#585858!important}
