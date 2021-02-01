@@ -524,7 +524,7 @@ a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important
 .profile_count_link_total {color:#585858!Important}
 .creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name, .store_nav .popup_menu .popup_menu_item {COLOR:#585858!IMPORTANT}
 .cart_item_price .price {color:#585858!important}
-.cart_row {background-color:#d6d6d6!Important}
+.cart_row {background-color:#E4E4E4!Important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .store_main_capsule, .store_main_capsule:hover {background-image:none!IMportant}
 .checkout_content_box .checkout_content.cart, .checkout_content_box .checkout_content.confirm {border:1px solid #d6d1d1!important;background:#e4e4e4!important}
 .agegate_birthday_selector {BORDER:0!IMPORTANT;BORDER-RADIUS:0!iMPORTANT;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -556,7 +556,6 @@ div.sortselect #sortselect_activesort {COLOR:#585858!iMPORTANT;BACKGROUND:#D6D6D
 .checkout_content .cart_bodycopy.highlight {COLOR:#585858!iMPORTANT}
 .cart_notice_section {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .dailydeal_ctn .dailydeal_desc {COLOR:#585858!IMPORTANT}
-.shared_game_rating p.descriptorText {COLOR:#585858!IMPORTANT}
 .queue_ignore_menu_option_label > .option_title {color:#585858!important}
 .btn_medium > span, input.btn_medium:hover {BACKGROUND:#1181D2!IMPORTANT;/*background:#1181D2!important*//*#41A6EF*/}
 .game_area_description ul {COLOR:#585858!IMPORTANT}
@@ -709,7 +708,6 @@ body.v6 h2 {color:#585858!important}
 .game_description_snippet {color:#585858!important}
 .agegate_content_descriptors_notes {FONT-WEIGHT:BOLD!IMPORTANT;COLOR:#585858!IMPORTANT}
 .agegate_content_descriptors_notes p {color:#585858!important}
-.block.recommendation_reasons a {color:#1181D2!important}
 .game_area_purchase_game, .game_area_offsite_purchase {COLOR:#585858!IMPORTANT;FONT-WEIGHT:#585858!IMPORTANT;border:0!important;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_sub_header {color:#585858!important}
 .review_box .content {color:#585858!important}
@@ -1329,6 +1327,7 @@ body.v6 .wishlist_header h2{margin-top:2px!important}
 .hero_stat .label {COLOR:#FFF!IMPORTANT}
 a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:#000!important}
 .block .block_title {color:#585858!important}
+body.v6 .newonsteam_capsules > a {BACKGROUND:#E4E4E4!IMPORTANT}
 .wishlist_row{color:#585858!important;border-radius:var(--border0)!important;background-color:#d6d6d6!important}
 .wishlist_row .tag{color:#fff!important;border-radius:var(--border0)!important;background:#797979!important}
 .wishlist_row .capsule img{border-radius:var(--border0)!important}
@@ -1339,13 +1338,14 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .discount_block.no_discount .discount_prices{border-radius:var(--border0)!important;background:0 0!important}
 .discount_block_large .discount_prices{border-radius:var(--border0)!important}
 .discount_block .discount_prices{BORDER:1PX SOLID #B6B6B6!IMPORTANT;background:#D6D6D6!IMPORTANT!important;border-radius:10PX!important;vertical-align:0px!important}
-.btnv6_green_white_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:#FFF!important;background:#1181D2!important}
+.btnv6_green_white_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:#FFF!important;background:#585858!important}
 .btnv6_blue_blue_innerfade{border-radius:var(--border0)!important;padding:3px!important;text-decoration:none!important;color:var(--blue-er)!important;background:rgba(47,137,188,1)!important}
 .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#1181D2!important;color:#FFF!important}
 .btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:#23678e!important;color:var(--white)!important}
 .btn_medium>span,input.btn_medium{padding:0 15px!important;line-height:30px!important}
 #rightContents .box{border-radius:0!important;background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .cart_tab_off {COLOR:#585858!IMPORTANT}
+.newonsteam_capsules > a > div.info {COLOR:#585858!IMPORTANT}
 .review_list h1{border-bottom:none!important}
 .review_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER-RADIUS:0!IMPORTANT;BORDER:0!IMPORTANT;BOX-SHADOW: 1PX 1PX 2PX #d6d1d1!IMPORTANT}
 .review_box .header{COLOR:#585858!IMPORTANT;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;border-bottom:0!important;background:#E4E4E4!important/* ;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT */}
@@ -1865,7 +1865,12 @@ a, .whiteLink {color:#585858!important}
 .discount_block .discount_pct, .discount_pct {border-radius:0!important;BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
 .btn_medium > span, input.btn_medium {BORDER-RADIUS:30PX!IMPORTANT;background:#D6D6D6!Important}
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {BACKGROUND:#B8B8B8!IMPORTANT;color:#585858!important}
-.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {BACKGROUND:#B8B8B8!IMPORTANT;color:#585858!important}
+
 .discount_block > .discount_prices {BORDER-RADIUS:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .carousel_container.spotlight .carousel_items > * .store_capsule {BORDER:0!IMPORTANT;BACKGROUND:#e4e4e4!iMPORTANT}
 body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_block_new .popup_body {BACKGROUND:#E4E4E4!IMPORTANT}
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {BORDER-COLOR:#8D8D8D!IMPORTANT;BACKGROUND:#B8B8B8!IMPORTANT;color:#585858!important}
+.block.recommendation_reasons .similar_recent_apps_container > a {COLOR:#585858!iMPORTANT}
+.block.recommendation_reasons a {color:#585858!important}
+.shared_game_rating p.descriptorText {COLOR:#585858!IMPORTANT}
+.glance_ctn .release_date .date, .glance_ctn .responsive_reviewdesc {COLOR:#585858!iMPORTANT}
