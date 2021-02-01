@@ -170,6 +170,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.mature_content_filtered {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.contenthub_subtitle {COLOR:#585858!IMPORTANT}
 .friendactivity_tab_row {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .page_desc {COLOR:#585858!IMPORTANT}
 .curator_page .name span {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
@@ -1015,7 +1017,7 @@ body.v6.newonsteam .newonsteam_headercaps>a{background:var(--grey)!important}
 .contenthub_specials_ctn{background:rgba(64,120,152,0)!important;border-radius:var(--border0)!important}
 .contenthub_featured_item_spotlight{background:rgba(64,120,152,0)!important}
 .contenthub_page_background{background-image:none!important}
-.quadscreenshot_carousel .main{background-color:var(--grey)!important}
+.quadscreenshot_carousel .main{background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .contenthub_page .tabarea .tab.active .tab_content:hover{background:var(--bedarkgrey)!important}
 .tabarea .tab.active{background:var(--bedarkgrey)!important}
 .tabarea .tab{border-radius:var(--border0)!important}
