@@ -1019,6 +1019,8 @@ body.v6 .home_rightcol .tab_preview h2{color:#585858!important}
 .header_installsteam_btn_green .header_installsteam_btn_content,.header_installsteam_btn_green .header_installsteam_btn_leftcap,.header_installsteam_btn_green .header_installsteam_btn_rightcap{background-color:var(--lightgrey)!important;color:var(--white)!important}
 .page_header_ctn{background:0 0!important}
 .page_header_ctn{background:0 0!important}
+.queue_btn_ignore_menu > .queue_ignore_menu_arrow {BACKGROUND:NONE!IMPORTANT}
+.queue_btn_ignore_menu:hover .queue_ignore_menu_flyout, .queue_ignore_menu_flyout:hover {BACKGROUND:#E4E4E4!IMPORTANT}
 .responsive_page_content{overflow-x:hidden!important}
 .home_ctn.discovery_queue_ctn{background:#dedede!important;border-radius:var(--border0)!important}
 body.v6.newonsteam .newonsteam_headercaps>a{background:var(--grey)!important}
