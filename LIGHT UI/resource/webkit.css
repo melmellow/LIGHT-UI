@@ -169,6 +169,13 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.page_desc {COLOR:#585858!IMPORTANT}
+.curator_page .name span {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
+.curator_page .name {COLOR:#585858!IMPORTANT}
+body.v6 .store_capsule_frame.curator_spotlight h2 b {COLOR:#585858!iMPORTANT}
+.curator_list_title b {COLOR:#585858!IMPORTANT}
+.curator_list_title {COLOR:#585858!iMPORTANT}
+body.v6 .header_area .page_desc {TEXT-SHADOW:NONE!iMPORTANT;COLOR:#585858!iMPORTANT}
 .similar_grid_item .similar_grid_capsule {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 body.v6 h2.morelike_section_divider {BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
 .similar_grid_item {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
