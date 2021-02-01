@@ -170,6 +170,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.recommendation_date {COLOR:#585858!iMPORTANT}
+.review_comments_disabled {BACKGROUND:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.user_reviews_count  {COLOR:#585858!iMPORTANT}
+.user_reviews_active_filters .active_filter {BACKGROUND-COLOR:#585858!IMPORTANT}
 .quadscreenshot_carousel .taglist > span {BACKGROUND-COLOR:#585858!iMPORTANT}
 .quadscreenshot_carousel .recommended_curator {COLOR:#585858!iMPORTANT}
 .quadscreenshot_carousel .default {COLOR:#585858!IMPORTANT}
@@ -1397,7 +1401,7 @@ img.game_header_image_full{border-radius:0!important;width:324px!important;margi
 body.v6 .game_area_already_owned.page_content{BACKGROUND:border-radius:var(--border0)!important}
 .game_area_play_stats{BACKGROUND:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
 .review_area_content {COLOR:#585858!iMPORTANT}
-.user_reviews_filter_display_as select {OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#FFF!IMPORTANT}
+.user_reviews_filter_display_as select {OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT}
 .user_reviews_filter_display_as {BORDER-LEFT:NONE!IMPORTANT}
 #recommendation_success .review_box .thumb{border-radius:var(--border0)!important}
 #review_create h1,.reviewDate{border-top:0!important}
@@ -1468,7 +1472,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .slider_ctn.store_autoslider{background:0 0!important;border-radius:var(--border0)!important}
 .user_reviews_date_range_explanation, .user_reviews_offtopic_activity_explanation, .user_reviews_playtime_filter_explanation {BORDER-BOTTOM:1PX SOLID #DCDCDC!IMPORTANT}
 .user_reviews_filter_menu:hover {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
-.user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover {BORDER-RADIUS:10PX!IMPORTANT;BORDER:1PX SOLID #DCDCDC!IMPORTANT;BACKGROUND-COLOR:#dedede!IMPORTANT}
+.user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover {BORDER-RADIUS:0!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .highlight_ctn .slider .handle,.highlight_ctn .slider_ctn .slider_left,.highlight_ctn .slider_ctn .slider_right{background-color:rgba(0,0,0,.4)!important;border-radius:var(--border0)!important}
 .game_area_details_specs{BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:30PX!important}
 .reviews_info_ctn {BORDER-BOTTOM:1PX SOLID #DCDCDC!IMPORTANT}
