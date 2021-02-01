@@ -694,7 +694,6 @@ body.v6 h2 {color:#585858!important}
 .store_capsule  {background:#e4e4e4!important}
 .store_capsule .title {color:#585858!important}
 .store_capsule .discount_block .discount_final_price {color:#585858!important}
-.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active){color:#fff!important}
 .game_description_snippet {color:#585858!important}
 .agegate_content_descriptors_notes {FONT-WEIGHT:BOLD!IMPORTANT;COLOR:#585858!IMPORTANT}
 .agegate_content_descriptors_notes p {color:#585858!important}
@@ -1811,8 +1810,6 @@ div.profile_page.has_profile_background{z-index:0!important}
 .queue_overflow_ctn{BACKGROUND:#DEDEDE!IMPORTANT;margin-top:-20px!important}
 .ellipsis {color:#585858!important}
 
-.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {COLOR:#585858!iMPORTANT}
-
 /* This is the part for the Group page Banner */
 .grouppage_membertiles_overlay{top:0!important;padding-bottom:12px!important;background:var(--darkgrey)!important;opacity:.9!important}
 .grouppage_member_tiles{right:-1px!important;height:230px!important;padding-bottom:12px!important;padding-top:0!important;background:0 0!important;border-radius:var(--border0)!important}
@@ -1848,4 +1845,5 @@ a, .whiteLink {color:#585858!important}
 .blotter_screenshot_title {COLOR:#585858;FONT-WEIGHT:500!IMPORTANT}
 .discount_block .discount_pct, .discount_pct {border-radius:0!important;BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
 .btn_medium > span, input.btn_medium {BORDER-RADIUS:30PX!IMPORTANT;background:#D6D6D6!Important}
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {BACKGROUND:#B8B8B8!IMPORTANT;color:#585858!important}
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {BACKGROUND:#B8B8B8!IMPORTANT;color:#585858!important}
