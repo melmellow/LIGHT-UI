@@ -1282,7 +1282,7 @@ body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .home_tag_category_title, .home_tag_category_title b {TEXT-SHADOW:NONE!IMPORTANT;COLOR:#585858!important}
 .home_discounts_ctn .home_discount_line{height:0px!important}
 .apphub_HeaderBottom {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 0PX #D6D1D1 !IMPORTANT}
-.apphub_StoreInfoHeader {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.apphub_StoreInfoHeader {BORDER-TOP:0!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .gameListRowLogo.ds_flagged img{border-radius:var(--border0)!important}
 .gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important;background:#E4E4E4!important}
 .sectionTab{background-color:var(--begrey)!important;border-radius:var(--border0)!important}
@@ -1809,7 +1809,7 @@ div.profile_page.has_profile_background{z-index:0!important}
 .referring_curator_ctn{margin-top:-20px!important;margin-bottom:0px!important}
 .queue_overflow_ctn{BACKGROUND:#DEDEDE!IMPORTANT;margin-top:-20px!important}
 .ellipsis {color:#585858!important}
-
+div.bb_h3, .bb_wysiwyg h3 {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .two_column .nav_item {BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;BORDER-RADIUS:30PX!IMPORTANT}
 
 /* This is the part for the Group page Banner */
