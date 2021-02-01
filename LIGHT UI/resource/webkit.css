@@ -1489,12 +1489,13 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .slider_ctn.store_autoslider{background:0 0!important;border-radius:var(--border0)!important}
 .user_reviews_date_range_explanation, .user_reviews_offtopic_activity_explanation, .user_reviews_playtime_filter_explanation {BORDER-BOTTOM:1PX SOLID #DCDCDC!IMPORTANT}
 .user_reviews_filter_menu:hover {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
+.app_report_dialog_reason, .app_embed_dialog_description {BACKGROUND-COLOR:#E8E8E8!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;COLOR:#585858!IMPORTANT}
 .user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover {BORDER-RADIUS:0!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .highlight_ctn .slider .handle,.highlight_ctn .slider_ctn .slider_left,.highlight_ctn .slider_ctn .slider_right{background-color:rgba(0,0,0,.4)!important;border-radius:var(--border0)!important}
-.game_area_details_specs{BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:30PX!important}
+.game_area_details_specs{BACKGROUND-COLOR:#D6D6D6!IMPORTANT;border-radius:30PX!important}
 .reviews_info_ctn {BORDER-BOTTOM:1PX SOLID #DCDCDC!IMPORTANT}
 #review_histogram_recent_section {BACKGROUND:TRANSPARENT!IMPORTANT}
-.game_area_details_specs a.name{color:#585858!important;background:#E4E4E4!important;border-radius:0!important}
+.game_area_details_specs a.name{color:#585858!important;background:#D6D6D6!important;border-radius:0!important}
 .game_area_details_specs a.name:hover{background:var(--darkergrey)!important}
 .DRM_notice{border-radius:var(--border0)!important}
 .block a.linkbar{border-radius:var(--border0)!important}
