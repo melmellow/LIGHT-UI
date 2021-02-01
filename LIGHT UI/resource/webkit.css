@@ -169,6 +169,11 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.review_edit_text_area {color:#585858!important;background-color:#e8e8e8!important;border:1px solid #b8b8b8!important}
+.panel .hr {border-bottom:1px solid #d6d1d1!important}
+.general_btn.panel_btn {color:#585858!important;font-weight:500!Important}
+.general_btn.panel_btn:hover {color:#000!important}
+.popup_menu2 a.popup_menu_item2:hover {background-color:#d6d6d6!important}
 .tradehistory_date {COLOR:#585858!iMPORTANT}
 .tradehistoryrow:nth-child(even) {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .tradehistoryrow {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
