@@ -671,6 +671,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+.appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_BrowseDiskRow_vgVsC .appproperties_BrowseDiskButton_OF562 {
+	WIDTH:50%!iMPORTANT;
+}
+
 div.ShortRightPanel .libraryhomeshowcases_Showcase_V7RuD .libraryhomeshowcases_ShowcaseHeader_23Snl {
 	BORDER:0!iMPORTANT;
 	OUTLINE:NONE!IMPORTANT;
@@ -1989,7 +1993,7 @@ A {
 .DialogTextInputBase, ._DialogInputContainer {
 	BORDER-RADIUS:0!IMPORTANT;
 	/*BACKGROUND: var(--BASE2)!IMPORTANT;*/
-	BACKGROUND: var(--BUTTON);
+	BACKGROUND: var(--BUTTON)!IMPORTANT;
 	FONT-WEIGHT:200!IMPORTANT;
 	color: var(--ACCENT)!important;
 	BORDER-BOTTOM:1PX SOLID #B6B6B6;
