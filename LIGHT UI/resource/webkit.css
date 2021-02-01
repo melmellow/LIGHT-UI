@@ -310,6 +310,7 @@ td.wht_date {color:#585858!important}
 .reviewed_app .right_col{BACKGROUND-IMAGE:NONE!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .trending_reviews_controls_ctn {BACKGROUND:NONE!iMPORTANT}
 body.v6 h3 {COLOR:#585858!IMPORTANT}
+.DialogLabel, .DialogLabelStrong {COLOR:#585858!iMPORTANT}
 body.v6 #footer_nav .popup_block_new .popup_body, body.v6 .store_nav .popup_block_new .popup_body {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .explore_rightcol_header {COLOR:#585858!IMPORTANT}
 body.v6 .recommended_by_steam_labs_ctn .header_inline_reason {COLOR:#585858!IMPORTANT}
@@ -318,7 +319,7 @@ body.v6 .recommended_by_steam_labs_ctn .header_inline_reason {COLOR:#585858!IMPO
 .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon path {STROKE:#DEDEDE!IMPORTANT;FILL:#585858!iMPORTANT}
 .chatentry_chatSubmitButton_RVIs8.chatentry_EmoticonPickerButton_Aupsw, .chatentry_chatSubmitButton_RVIs8.chatentry_EmbedButton_3zOBe {BORDER:0!iMPORTANT;BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
 .DialogCheckbox {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
-.summary_summaryTextArea_2ipSt {BACKGROUND-COLOR:#E8E8E8!IMPORTANT;COLOR:#585858!iMPORTANT}
+.summary_summaryTextArea_2ipSt {BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT;COLOR:#585858!iMPORTANT}
 .profileedit_ProfileBox_uwqwo .profileedit_ProfileBoxTitle_2CGYg {COLOR:#585858!imPORTANT}
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {FILL:#FFF!IMPORTANT}
 .DialogTextInputBase, ._DialogInputContainer {COLOR:#FFF!IMPORTANT;BACKGROUND:#585858!iMPORTANT}
