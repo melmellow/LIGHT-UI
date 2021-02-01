@@ -893,9 +893,8 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 .hover_body .hover_review_summary{color:#585858!important;background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
 .hover_tag_row .app_tag{background-color:var(--darkgrey)!important;color:#585858!important;border-radius:var(--border0)!important}
 .game_hover .hover_arrow_left,.game_hover .hover_arrow_right{background:0 0!important;border-radius:var(--border0)!important}
-.ds_options_tooltip{background:#e4e4e4!important}
-.ds_options_tooltip > .option {background:#e4e4e4!important;color:#585858!Important}
-.ds_options_tooltip>.option{color:var(--blue)!important}
+.ds_options_tooltip{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background:#e4e4e4!important}
+.ds_options_tooltip > .option {color:#585858!Important;background:#e4e4e4!important
 .store_main_capsule{background-image:none!important;background:#E4E4E4!important;border-radius:var(--border0)!important}
 div.store_header_btn{border-radius:var(--border0)!important}
 .store_main_capsule .screenshots>div>div{width:162px!important;height:69px!important;background-size:cover!important;background-position:center center!important;display:inline-block!important;opacity:.6!important;padding:0!important;margin:0!important;border-radius:var(--border0)!important}
