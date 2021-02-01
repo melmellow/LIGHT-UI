@@ -2209,6 +2209,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 } */
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
+	BORDER-RADIUS:30PX!IMPORTANT;
 	font-weight:400!Important;
 	padding-left:12px!important;
 	border:.5px solid  var(--BUTTONBORDER)!important;
