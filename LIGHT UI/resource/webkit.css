@@ -170,6 +170,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.quadscreenshot_carousel .taglist > span {BACKGROUND-COLOR:#585858!iMPORTANT}
+.quadscreenshot_carousel .recommended_curator {COLOR:#585858!iMPORTANT}
+.quadscreenshot_carousel .default {COLOR:#585858!IMPORTANT}
 .mature_content_filtered {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .contenthub_subtitle {COLOR:#585858!IMPORTANT}
 .friendactivity_tab_row {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
