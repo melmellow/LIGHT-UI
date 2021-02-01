@@ -1605,7 +1605,6 @@ a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue
 .forum_newtopic_header{border-radius:var(--border0)!important}
 .forum_newtopic_box{border-radius:var(--border0)!important}
 .commentthread_comment_edit_textarea_ctn,.gray_bevel,input.gray_bevel,textarea.gray_bevel{border:0!important;border-radius:var(--border0)!important}
-.btn_grey_black{border-radius:var(--border0)!important;text-decoration:none!important;color:var(--blu)!important}
 .btn_grey_black>span{border-radius:var(--border0)!important}
 #widget .btn_addtocart .btn_addtocart_content {BORDER-RADIUS:30PX!IMPORTANT;COLOR:#FFF!IMPORTANT;BACKGROUND:#78BE6D!IMPORTANT}
 #widget .btn_addtocart .btn_addtocart_content:hover {BACKGROUND:#54A448!IMPORTANT}
