@@ -169,6 +169,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.similar_grid_item {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.recommendation_highlight.morelikethis_border {BACKGROUND-IMAGE:NONE!iMPORTANT}
 .review_edit_text_area {color:#585858!important;background-color:#e8e8e8!important;border:1px solid #b8b8b8!important}
 .panel .hr {border-bottom:1px solid #d6d1d1!important}
 .general_btn.panel_btn {color:#585858!important;font-weight:500!Important}
@@ -341,7 +343,7 @@ body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subhea
 .friendactivity_tab_header {background-color:#dedede!important;color:#585858!important}
 h4 {/* background:#d6d1d1!important; */color:#585858!important}
 .recommendation_highlight .highlight_description h4 {color:#585858!important}
-.recommendation_highlight {background-color:#d6d6d6!important}
+.recommendation_highlight {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #detailStats td b {font-size:12px!important;color:#585858!important}
 .body_text {color:#585858!important}
 .queue_page_desc {color:#585858!important;font-family:segoe UI!important}
