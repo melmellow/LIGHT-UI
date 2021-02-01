@@ -1699,7 +1699,7 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .badge_row {BORDER:0!iMPORTANT;BACKGROUND:NONE!iMPORTANT;BACKGROUND-COLOR:NONE!iMPORTANT}
 .badge_row_inner{background-color:#E4E4E4!important;border-radius:0!important;background:#E4E4E4!important;BORDER:0!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .badge_title {COLOR:#585858!iMPORTANT}
-.badge_task_tooltip {BACKGROUND:#E4E4E4!IMPORTANT}
+.badge_task_tooltip {BORDER:1PX SOLID #D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT}
 .badge_info_title {COLOR:#585858!iMPORTANT}
 .gamecard_details .badge_info {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .badge_detail_tasks {BACKGROUND-IMAGE:NONE!iMPORTANT}
