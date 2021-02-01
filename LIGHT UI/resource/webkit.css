@@ -74,6 +74,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.apphub_HubDivider {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:.1!iMPORTANT}
 .curator_cluster_expanded.carousel_container .curator_page .socialmedia img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .right_controls_large_block_active_bg {FILER:BRIGHTNESS(0)!iMPORTANT;OPACITY:0.1!IMPORTANT}
 .published_file_icon {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -173,6 +174,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.apphub_Chat {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 .recommendation_date {COLOR:#585858!iMPORTANT}
 .review_comments_disabled {BACKGROUND:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_count  {COLOR:#585858!iMPORTANT}
@@ -189,6 +191,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 body.v6 .store_capsule_frame.curator_spotlight h2 b {COLOR:#585858!iMPORTANT}
 .curator_list_title b {COLOR:#585858!IMPORTANT}
 .curator_list_title {COLOR:#585858!iMPORTANT}
+div.bb_h2, .bb_wysiwyg h2 {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 body.v6 .header_area .page_desc {TEXT-SHADOW:NONE!iMPORTANT;COLOR:#585858!iMPORTANT}
 .similar_grid_item .similar_grid_capsule {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 body.v6 h2.morelike_section_divider {BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
