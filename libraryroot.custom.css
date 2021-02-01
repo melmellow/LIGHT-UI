@@ -245,6 +245,11 @@
 	COLOR: var(--ACCENT)!IMPORTANT;
 }
 
+.appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_SteamInputLink_fy_T9 {
+	FONT-WEIGHT:500!iMPORTANT;
+	TEXT-DECORATION:UNSET!IMPORTANT;
+}
+
 .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_SteamInputLink_fy_T9:hover {
 	COLOR: var(--BUTTONHOVER)!IMPORTANT;
 }
