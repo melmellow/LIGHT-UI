@@ -549,6 +549,13 @@ div.sortselect_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;COLOR:#585858!IMPORTA
 .checkout_content_box h3.tab_header {COLOR:#585858!IMPORTANT}
 div.sortselect #sortselect_activesort {COLOR:#585858!iMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT}
 .queue_ignore_menu_option {backgoround:#dedede!important}
+.recommended_grid .special {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.cart_recommendations_ctn p {COLOR:#585858!iMPORTANT}
+.slider.slider_text {COLOR:#585858!iMPORTANT}
+.cart_totals_area .price {COLOR:#585858!iMPORTANT}
+.checkout_content .cart_bodycopy.highlight {COLOR:#585858!iMPORTANT}
+.cart_notice_section {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.dailydeal_ctn .dailydeal_desc {COLOR:#585858!IMPORTANT}
 .shared_game_rating p.descriptorText {COLOR:#585858!IMPORTANT}
 .queue_ignore_menu_option_label > .option_title {color:#585858!important}
 .btn_medium > span, input.btn_medium:hover {BACKGROUND:#1181D2!IMPORTANT;/*background:#1181D2!important*//*#41A6EF*/}
@@ -560,7 +567,7 @@ span.vr_supported, span.vr_required {COLOR:#585858!IMPORTANT}
 .cart_status_message_arrow {BACKGROUND-IMAGE:NONE!IMPORTANT}
 .cart_total_row#cart_estimated_total_text {COLOR:#585858!IMPORTANT}
 .cart_digital_notice h4 {COLOR:#585858!IMPORTANT}
-.cart_digital_notice {background:#d6d6d6!important}
+.cart_digital_notice {background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}	
 .store_header_btn_green a {BACKGROUND:#54A448!IMPORTANT}
 .game_area_sys_req ul li strong {FONT-WEIGHT:BOLD!IMPORTANT}
 .review_box .noReviewsYetSub {color:#585858!IMPORTANT}
@@ -893,8 +900,9 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 .hover_body .hover_review_summary{color:#585858!important;background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
 .hover_tag_row .app_tag{background-color:var(--darkgrey)!important;color:#585858!important;border-radius:var(--border0)!important}
 .game_hover .hover_arrow_left,.game_hover .hover_arrow_right{background:0 0!important;border-radius:var(--border0)!important}
-.ds_options_tooltip{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background:#e4e4e4!important}
-.ds_options_tooltip > .option {color:#585858!Important;background:#e4e4e4!important
+.ds_options_tooltip{background:#e4e4e4!important}
+.ds_options_tooltip > .option {background:#e4e4e4!important}
+.ds_options_tooltip>.option{color:var(--blue)!important}
 .store_main_capsule{background-image:none!important;background:#E4E4E4!important;border-radius:var(--border0)!important}
 div.store_header_btn{border-radius:var(--border0)!important}
 .store_main_capsule .screenshots>div>div{width:162px!important;height:69px!important;background-size:cover!important;background-position:center center!important;display:inline-block!important;opacity:.6!important;padding:0!important;margin:0!important;border-radius:var(--border0)!important}
