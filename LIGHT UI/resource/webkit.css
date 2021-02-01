@@ -1813,7 +1813,7 @@ div.profile_page.has_profile_background{z-index:0!important}
 .queue_overflow_ctn{BACKGROUND:#DEDEDE!IMPORTANT;margin-top:-20px!important}
 .ellipsis {color:#585858!important}
 div.bb_h3, .bb_wysiwyg h3 {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!IMPORTANT}
-.two_column .nav_item {BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;BORDER-RADIUS:30PX!IMPORTANT}
+.two_column .nav_item {MARGIN-BOTTOM:4PX!iMPORTANT;BORDER-RADIUS:0!iMPORTANT;BORDER:0!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 
 /* This is the part for the Group page Banner */
 .grouppage_membertiles_overlay{top:0!important;padding-bottom:12px!important;background:var(--darkgrey)!important;opacity:.9!important}
