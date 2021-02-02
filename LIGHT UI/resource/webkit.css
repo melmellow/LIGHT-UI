@@ -817,6 +817,7 @@ select.gray_bevel {COLOR:#585858!iMPORTANT}
 .page_content_ctn.dlc_associated_franchise{background:var(--darkgrey)!important}
 .background_header_ctn.page_background{display:none!important}
 .customization_edit_area {BACKGROUND:NONE!iMPORTANT}
+.btn_blue_steamui {COLOR:#585858!iMPORTANT}
 .curator_featured>div{border:0!important;border-radius:var(--border0)!important;background:var(--grey)!important}
 .mature_content_notice{border-radius:var(--border0)!important}
 .market_multi_warning_tooltip{background-color:var(--lightgrey)!important;border:1px solid var(--lightgrey)!important}
@@ -1099,7 +1100,7 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--white)!important}
 .apphub_background{background:var(--darkgrey)!important}
 .apphub_NoMoreContent {COLOR:#585858!IMPORTANT}
-.fraud_warning_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
+.fraud_warning_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT}
 #contextselect_options .context_name:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!iMPORTANT}
 #contextselect_options .context_name {BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT}
 body.apphub_blue {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
@@ -1466,7 +1467,6 @@ body.v6 .game_area_already_owned.page_content{COLOR:#78BE6D!IMPORTANT;border-rad
 .review_box .control_block .text {color:#585858!important;font-weight:450!important}
 .review_box .control_block {COLOR:#585858!iMPORTANT}
 #review_create .avatar{border-radius:var(--border5)!important}
-#review_create .input_box{border:0!important;border-radius:var(--border0)!important;background-color:#2b2b2b!important}
 .review_controls{background-color:transparent!important;border-radius:var(--border0)!important}
 .review_box .vote_header .thumb{border-radius:var(--border0)!important}
 .short_header {margin-bottom:0!important}
