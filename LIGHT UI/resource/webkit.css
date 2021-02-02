@@ -1527,7 +1527,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .sale_page_purchase_item{BACKGROUND:#D6D6D6!IMPORTANT;border-radius:10PX!important}
 .sale_page_purchase_content .bundle_contents_preview{border-radius:var(--border0)!important}
 .ds_flag.ds_owned_flag{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background:#E4E4E4!important;border-radius:0!important}
-.ds_flag.ds_wishlist_flag{border-radius:0!important;border:1px solid #d6d1d1!important;BACKGROUND:#e4e4e4!iMPORTANT}
+.ds_flag.ds_wishlist_flag{border-radius:0!important;border:1px solid #d6d1d1!important;BACKGROUND-COLOR:#e4e4e4!iMPORTANT}
 .ds_flag.ds_incart_flag{background-color:#54A348!important;border-radius:var(--border0)!important}
 .ds_flag.ds_ignored_flag{border-radius:var(--border0)!important}
 div.early_access_header{BOX-SHADOW:#D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border:0!important;border-radius:var(--border0)!important}
