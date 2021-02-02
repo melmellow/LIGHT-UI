@@ -520,10 +520,11 @@ h2 {color:font-weight:500!important}
 .highlight_ctn .slider_ctn .slider_left, .highlight_ctn .slider_ctn .slider_right, .highlight_ctn .slider .handle{border-radius:0!important}
 .slider {border-radius:0!important;background-color:#d6d6d6!important}
 .slider_left span {background-image:none!important}
+.forum_topic_reply_count, .forum_topic_award_count {COLOR:#585858!iMPORTANT}
 .game_purchase_discount_countdown {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .emoticon_button:hover, .emoticon_button.focus {background-image:none!important}
 .group_tab.active > span {background:#585858!important}
-.forum_topic  {background-color:#E4E4E4!important;BORDER-RADIUS:0!IMPORTANT}
+.forum_topic  {background-color:#E4E4E4!important;BORDER-RADIUS:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .forum_topic_op{color:#74AFC2!important}
 .discussions_forum_row {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .discussions_forum_row.unread .discussions_forumlist_topiccount, .discussions_forum_row.unread .discussions_forumlist_lastpost {COLOR:#585858!IMPORTANT}
