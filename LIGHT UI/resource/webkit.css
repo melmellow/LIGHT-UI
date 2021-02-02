@@ -1386,7 +1386,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .showcase_content_bg:last-child{border-radius:4px!important}
 .showcase_gamecollector_game img.game_capsule{border-radius:var(--border0)!important}
 .commentthread_header,.profile_leftcol_header{border-bottom:0!important;border-radius:var(--border0)!important;background-color:transparent!important}
-.commentthread_subscribe_checkbox{border:0!important;border-radius:var(--border0)!important;background:var(--littlegrey)!important;margin-bottom:2px!important}
+.commentthread_subscribe_checkbox{border:1PX SOLID #B8B8B8!important;border-radius:var(--border0)!important;background:#D6D6D6!important;margin-bottom:2px!important}
 .profile_comment_area .commentthread_footer{border-top:0!important}
 .profile_comment_area .commentthread_comment_container{border-bottom:0!important}
 .commentthread_textarea {color:#585858!important}
@@ -1875,7 +1875,6 @@ body.v6 #footer #footer_text a {color:#585858!important}
 .community_home_app_shortcuts .community_home_shortcut_content {BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 a, .whiteLink {color:#585858!important}
 .store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;color:#000!important}
-.btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .sectionTab:hover {BORDER-RADIUS:0!iMPORTANT;background:#D6D6D6!important;color:#585858!important}
 .blotter_screenshot_title {COLOR:#585858;FONT-WEIGHT:500!IMPORTANT}
 .discount_block .discount_pct, .discount_pct {border-radius:0!important;BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
@@ -1901,3 +1900,4 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 #language_dropdown_button:hover, #language_dropdown_button:focus {COLOR:#000!IMPORTANT}
 #language_dropdown {BACKGROUND-IMAGE:NONE!iMPORTANT}
 .sidesection #searchwords {BORDER:1PX SOLID #B8B8B8!IMPORTANT}
+.btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
