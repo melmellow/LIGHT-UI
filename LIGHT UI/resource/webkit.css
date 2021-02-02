@@ -1839,7 +1839,9 @@ body.v6.winter_sale_home h2.winter{margin-left:-40px!important}
 .newmodal_content{color:#585858!important;border-radius:var(--border0)!important}
 .hover_box{background:var(--lightergrey)!important;color:var(--dakerwhite)!important} 
 .hover_arrow_inner{background:0 0!important}
+input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
 .slider_ctn .handle {BORDER-RADIUS:0!iMPORTANT}
+.forum_newtopic_box, .forum_formarea_box {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .carousel_items.store_capsule_container > * > *{border-radius:var(--border0)!important}
 .community_recommendation_app > .right_col{background:#E4E4E4!important;border-radius:var(--border0)!important}
 .community_recommendation_app:hover > .right_col{background:#E4E4E4!important;border-radius:var(--border0)!important}
