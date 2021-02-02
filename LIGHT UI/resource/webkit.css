@@ -1203,7 +1203,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .showcase_stat .label {COLOR:#585858!IMPORTANT}
 .showcase_content_bg {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .friendBlock.persona.offline {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.achievement_progress_bar_ctn .progress_bar {BACKGROUND:#585858!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.achievement_progress_bar_ctn .progress_bar {BACKGROUND-COLOR:#585858!IMPORTANT}
 .profile_rightcol{BORDER:0!IMPORTANT;BACKGROUND:NONE!IMPORTANT;width:268px!important;float:right!important}
 .profile_friend_links.profile_count_link_preview_ctn.responsive_groupfriends_element{margin-bottom:40px!important}
 .profile_count_link.ellipsis{font-size:14px!important;margin-bottom:4px!important;min-height:29px!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
@@ -1378,7 +1378,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{background-color:transparent!important;border-radius:var(--border0)!important;border-top:0!important}
 .game_info_achievements_badge .game_info_badge_border{border-radius:var(--border0)!important}
 .game_info_badge_border{border:0!important;border-radius:var(--border0)!important;background-color:rgba(0,0,0,0)!important}
-.achievement_progress_bar_ctn{padding:0!important;border:0!important;border-radius:var(--border0)!important}
+.achievement_progress_bar_ctn{background:#d6d6d6!important;padding:0!important;border:0!important;border-radius:30px!important}
 .game_info_achievement,.game_info_achievement img{border-radius:var(--border0)!important}
 .game_info_achievement{border-radius:var(--border0)!important}
 .game_info_stats_rule{border-top:0!important;background-color:rgba(0,0,0,0)!important;height:0!important}
@@ -1500,6 +1500,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .game_description_column .block .block_header .right a:hover{background:none!important;background-color:#000!important;color:#fff!important;border-radius:var(--border0)!important}
 .no_curators_followed{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .review_ctn{border-top:0!important}
+.detailBox .commentthread_comment:not(.hidden_post):hover, .group_comments .commentthread_comment:not(.hidden_post):hover, .profile_comment_area .commentthread_comment:not(.hidden_post):hover {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .promo_item_list .item .info .percent {BACKGROUND-COLOR:#78BE6D!IMPORTANT}
 .slider_ctn.store_autoslider{background:0 0!important;border-radius:var(--border0)!important}
 .user_reviews_date_range_explanation, .user_reviews_offtopic_activity_explanation, .user_reviews_playtime_filter_explanation {BORDER-BOTTOM:1PX SOLID #DCDCDC!IMPORTANT}
