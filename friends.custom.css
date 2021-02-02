@@ -1,3 +1,7 @@
+.ContextMenuButton .SVGIcon_DownArrowContextMenu {
+	FILL:#585858!iMPORTANT;
+}
+
 .currentUserContainer .ContextMenuButton .SVGIcon_DownArrowContextMenu {
 	filter:brightness(0)!important;
 }
