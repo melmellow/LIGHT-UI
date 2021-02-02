@@ -445,7 +445,9 @@ a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!im
 .discussions_game_footer {BACKGROUND-COLOR:#dedede!IMPORTANT}
 .discussions_game_header {BACKGROUND:#dedede!IMPORTANT}
 .discussions_link_icon {BACKGROUND-IMAGE:NONE!IMPORTANT}
-#search_box input {BACKGROUND:#E8E8E8!IMPORTANT}
+.triangle-toggle {border-color:transparent transparent transparent #585858!important}
+.content-hover-section {background:#e4e4e4!important}
+#search_box input {color:#585858!Important;BACKGROUND:#E8E8E8!IMPORTANT}
 #global_header {BACKGROUND:#E4E4E4!IMPORTANT;BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
 .right_col #contact_support_container {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .weblink a {BACKGROUND: #585858!IMPORTANT;
