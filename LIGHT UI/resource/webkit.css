@@ -86,6 +86,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+div.filterselect .filterselect_arrow, div.filterselect #filterselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .apphub_HubDivider {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:.1!iMPORTANT}
 .curator_cluster_expanded.carousel_container .curator_page .socialmedia img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .right_controls_large_block_active_bg {FILER:BRIGHTNESS(0)!iMPORTANT;OPACITY:0.1!IMPORTANT}
@@ -1094,13 +1095,15 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--white)!important}
 .apphub_background{background:var(--darkgrey)!important}
 .apphub_NoMoreContent {COLOR:#585858!IMPORTANT}
+body.apphub_blue {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
+div.filterselect_options {COLOR:#585858!IMPORTANT}
 .popup_block .popup_body{background:var(--darkergrey)!important}
 .btn_profile_action .btn_medium .img{transform: rotate(180deg) scaleX(1)!important}
 #profile_action_dropdown{top:-5px!important;left:720px!important;background:var(--darkergrey)!important;border-radius:var(--border0)!important}
 div#game_select_suggestions_ctn{background:var(--realblack)!important}
 .apphub_Card{BORDER:0!IMPORTANT;background-color:#E4E4E4!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .apphub_CardContentNewsFade{background-image:none!important;background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
-.apphub_CardContentMain .UserReviewCardContent_Footer .gradient{background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
+.apphub_CardContentMain .UserReviewCardContent_Footer .gradient{background:NONE!important}
 .apphub_CardContentGuideTitle{background-color:#8c8c8c!important}
 input.community_home_search_app_input{font-size:15px!important;font-style:normal!important;background-color:#E8E8E8!important}
 .community_home_search_apps_image{display:none!important}
