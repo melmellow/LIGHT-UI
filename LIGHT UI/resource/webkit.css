@@ -1315,6 +1315,7 @@ body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .home_discounts_ctn .home_discount_line{height:0px!important}
 .apphub_HeaderBottom {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 0PX #D6D1D1 !IMPORTANT}
 .apphub_StoreInfoHeader {BORDER-TOP:0!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.ds_flag {COLOR:#FFF!iMPORTANT}
 .gameListRowLogo.ds_flagged img{border-radius:var(--border0)!important}
 .gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important;background:#E4E4E4!important}
 .sectionTab{background-color:var(--begrey)!important;border-radius:var(--border0)!important}
@@ -1450,20 +1451,21 @@ body.v6 .game_area_already_owned.page_content{COLOR:#78BE6D!IMPORTANT;border-rad
 .game_area_purchase_game>a{border-radius:var(--border0)!important}
 .btn_medium>span.subscribeText{padding-left:35px!important}
 .game_area_purchase_not_refundable{color:var(--white)!important;background:var(--grey)!important;border-radius:var(--border0)!important}
-.game_purchase_area_friends_want{background:var(--grey)!important;color:var(--white)!important;border-radius:var(--border0)!important}
+.game_purchase_area_friends_want{background:TRANSPARENT!important;color:var(--white)!important;border-radius:var(--border0)!important}
 .highlight_selector{background-image:none!important}
+.btn_blue_steamui > span {TEXT-SHADOW:NONE!iMPORTANT}
 #game_highlights{background:0 0!important;border-radius:var(--border0)!important}
 .queue_ctn{width:940px;border-radius:var(--border0)!important;background:0 0!important}
 .glance_details img:hover{border:0!important;border-radius:var(--border0)!important}
 .game_area_dlc_bubble{border-radius:var(--border0)!important}
-.ds_flag.ds_completetheset{border-radius:var(--border0)!important}
+.ds_flag.ds_completetheset{BACKGROUND:#585858!IMPORTANT;border-radius:var(--border0)!important}
 .review_box .posted {COLOR:#585858!iMPORTANT}
 .review_box .postedDate {COLOR:#585858!IMPORTANT}
 .game_description_column h2,.recommendation_bodytext h2{background-image:none!important}
 .game_description_column .block .block_header h4{background-image:none!important}
 .game_description_column .block .block_content a{border-radius:0!important;background-color:#E4E4E4!important}
 .game_description_column .block .block_content a img{border-radius:var(--border0)!important}
-.game_area_already_owned .ds_flag{border-radius:var(--border0)!important;background:0 0!important}
+.game_area_already_owned .ds_flag{border-radius:var(--border0)!important;background-COLOR:#E4E4E4!important}
 #review_create .avatar>img{border-radius:var(--border5)!important}
 .review_box .control_block .text {color:#585858!important;font-weight:450!important}
 .review_box .control_block {COLOR:#585858!iMPORTANT}
