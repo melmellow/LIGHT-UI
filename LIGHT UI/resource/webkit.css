@@ -58,6 +58,17 @@
 }
 
 
+
+.tab_item.focus .tab_item_details span.platform_img.win {opacity:.5!important}
+.tab_item.focus .tab_item_details span.platform_img.mac {OPACITY:.5!IMPORTANT}
+
+
+
+
+
+
+
+
 .login_client_waitforauth_title {
 	COLOR:#585858!IMPORTANT;
 }
@@ -898,8 +909,8 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 .hover_body .hover_review_summary{color:#585858!important;background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
 .hover_tag_row .app_tag{background-color:var(--darkgrey)!important;color:#585858!important;border-radius:var(--border0)!important}
 .game_hover .hover_arrow_left,.game_hover .hover_arrow_right{background:0 0!important;border-radius:var(--border0)!important}
-.ds_options_tooltip{background:#e4e4e4!important}
-.ds_options_tooltip > .option {background:#e4e4e4!important}
+.ds_options_tooltip{BORDER-RADIUS:0!iMPORTANT;background:#e4e4e4!important}
+.ds_options_tooltip > .option {COLOR:#585858!iMPORTANT;background:#e4e4e4!important}
 .ds_options_tooltip>.option{color:var(--blue)!important}
 .store_main_capsule{background-image:none!important;background:#E4E4E4!important;border-radius:var(--border0)!important}
 div.store_header_btn{border-radius:var(--border0)!important}
@@ -1008,7 +1019,6 @@ a.home_marketing_message{border-radius:var(--border0)!important}
 .hardware_ctn.double .hardware_content .left,.hardware_ctn.double .hardware_content .right{display:none!important}
 .home_tab.active .tab_content{border:0!important;border-top-left-radius:var(--border0)!important;background-color:var(--bedarkgrey)!important;color:#fff!important;border-radius:0!important}
 .tab_item.focus{background:#E4E4E4!important}
-.tab_item.focus .tab_item_details span.platform_img.win {opacity:.5!important}
 /* .tab_item.focus .tab_item_details span.platform_img.win {BACKGROUND-IMAGE:UNSET!IMPORTANT}
 .tab_item.focus .tab_item_details span.platform_img.mac{BACKGROUND-IMAGE:UNSET!iMPORTANT}
 .tab_item.focus .tab_item_details span.platform_img.linux{BACKGROUND-IMAGE:UNSET!IMPORTANT} */
