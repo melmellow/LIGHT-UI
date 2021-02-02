@@ -187,6 +187,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.content-section, .content-hover-section {BACKGROUND:NONE!iMPORTANT}
 .apphub_Chat {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 .recommendation_date {COLOR:#585858!iMPORTANT}
 .review_comments_disabled {BACKGROUND:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -446,7 +447,7 @@ a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!im
 .discussions_game_header {BACKGROUND:#dedede!IMPORTANT}
 .discussions_link_icon {BACKGROUND-IMAGE:NONE!IMPORTANT}
 .triangle-toggle {border-color:transparent transparent transparent #585858!important}
-.content-hover-section {background:#e4e4e4!important}
+.content-hover-section {background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #search_box input {color:#585858!Important;BACKGROUND:#E8E8E8!IMPORTANT}
 #global_header {BACKGROUND:#E4E4E4!IMPORTANT;BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
 .right_col #contact_support_container {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -881,7 +882,6 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .accountTable > tbody > tr:nth-child(odd) {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .popup_block_new .popup_body{border:1px solid #d6d6d6!important;position:relative!important;background-color:#dedede!important}
 div#global_header .submenuitem{background:var(--realblack)!important}
-.supernav_content{BORDER:1PX SOLID #B8B8B8!IMPORTANT;background:#E4E4E4!important}
 .home_discounts_ctn .see_more_link, .home_category_games_ctn .see_more_link, .home_category_ctn .see_more_link{bottom:-5px!important;background:var(--grey)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--blue)!important}
 .home_category_games_ctn .see_more_link:hover, .home_discounts_ctn .see_more_link:hover, .home_category_ctn .see_more_link:hover{bottom:-5px!important;background:var(--blue)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--black)!important}
 .hero_capsule{border-radius:var(--border0)!important}
@@ -1896,3 +1896,5 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_HorizontalDescription_2hPZw {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 .eventrow_OtherEvents_TextCtn_3-EtN {BACKGROUND:#E4E4E4!IMPORTANT;COLOR:#585858!iMPORTANT}
 .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_HorizontalTitle_B9-wl{COLOR:#585858!IMPORTANT}
+.supernav_content{BORDER:1PX SOLID #B8B8B8!IMPORTANT;background:#E4E4E4!important}
+#language_dropdown {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
