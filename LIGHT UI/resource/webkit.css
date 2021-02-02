@@ -1872,6 +1872,8 @@ div.bb_h3, .bb_wysiwyg h3 {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .current_player_workshop_title a {COLOR:#585858!iMPORTANT}
 .current_player_workshop_title {PADDING-LEFT:6PX !IMPORTANT;COLOR:#585858!iMPORTANT}
 
+.game_area_description_bodylabel {COLOR:#585858!iMPORTANT}
+
 /* Future Updates and Changes */
 .top_new_releases_background{background-image:none!important;}
 body.v6 {COLOR:#585858!IMPORTANT;BACKGROUND:#dedede!IMPORTANT}
@@ -1887,7 +1889,7 @@ a, .whiteLink {color:#585858!important}
 .sectionTab:hover {BORDER-RADIUS:0!iMPORTANT;background:#D6D6D6!important;color:#585858!important}
 .blotter_screenshot_title {COLOR:#585858;FONT-WEIGHT:500!IMPORTANT}
 .discount_block .discount_pct, .discount_pct {border-radius:0!important;BACKGROUND:#54A448!IMPORTANT;COLOR:#FFF!IMPORTANT}
-.btn_medium > span, input.btn_medium {BORDER-RADIUS:30PX!IMPORTANT;background:#D6D6D6!Important}
+.btn_medium > span, input.btn_medium {BORDER:1PX SOLID #B8B8B8!IMPORTANT;BORDER-RADIUS:30PX!IMPORTANT;background:#D6D6D6!Important}
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {BACKGROUND:#B8B8B8!IMPORTANT;color:#585858!important}
 .eventrow_OtherEvents_TextTitle_2jc1D {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .discount_block > .discount_prices {BORDER-RADIUS:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
