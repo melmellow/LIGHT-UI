@@ -88,6 +88,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.forum_topic_reply_count img, .forum_topic_award_count img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .dselect_container a.trigger::after, .dselect_container a.activetrigger::after {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .commentthread_subscribe_check {FILTER:BRIGHTNESS(0)!iMPORTANT}
 div.filterselect .filterselect_arrow, div.filterselect #filterselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -1161,7 +1162,6 @@ body.flat_page:not(.iframe){background:var(--darkgrey)!important}
 .apphub_BackToTop:hover .apphub_BackToTopButton{background-image:none!important}
 .discussionSearchTextContainer{WIDTH:253PX!IMPORTANT;background-image:none!important}
 .discussionSearchTextContainer{border-radius:var(--border4)!important;background-color:#D6D6D6!important;border:0!important;color:var(--white)!important;height:28px!important}
-input.discussionSearchText{BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!important;padding:4px!important}
 .discussionSearchTextSubmitImg{OPACITY:0!IMPORTANT;top:5px!important;left:266px!important}
 .discussions_forumlist_linkoverlay img {BORDER:0!IMPORTANT}
 .discussions_header{border-bottom:5px solid transparent!important}
@@ -1921,3 +1921,4 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 .btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 #iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
+input.discussionSearchText{BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!important;padding:4px!important}
