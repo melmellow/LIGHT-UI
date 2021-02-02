@@ -1839,6 +1839,7 @@ body.v6.winter_sale_home h2.winter{margin-left:-40px!important}
 .most_recommended .steam_curator_recommendation .steam_curators_for_app{border-top:0px!important}
 .navigation_bar{border-bottom:0px!important}
 .forum_area{COLOR:#585858!iMPORTANT}
+.rightcol_minor_text {COLOR:#585858!IMPORTANT}
 .subforum_select_area, .forum_newtopic_infomessage {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .newmodal{background:#dedede!important;border-radius:var(--border0)!important;border-width:0px!important;border-style:solid!important;border-color:transparent!important;border-image:initial!important}
 .modal_top_bar{height:0px!important;background:transparent!important}
@@ -1925,3 +1926,4 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 #iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
 input.discussionSearchText{BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!important;padding:4px!important}
+input.discussionSearchText::SELECTION{COLOR:#585858!IMPORTANT}
