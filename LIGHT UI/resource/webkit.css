@@ -1439,7 +1439,7 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:
 .ratingSummary {COLOR:#585858!iMPORTANT}
 img.game_header_image_full{border-radius:0!important;width:324px!important;margin-left:-5px!important}
 body.v6 .game_area_already_owned.page_content{COLOR:#78BE6D!IMPORTANT;border-radius:var(--border0)!important}
-.game_area_play_stats{BACKGROUND:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
+.game_area_play_stats{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
 .review_area_content {COLOR:#585858!iMPORTANT}
 .user_reviews_filter_display_as select {OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT}
 .user_reviews_filter_display_as {BORDER-LEFT:NONE!IMPORTANT}
@@ -1535,7 +1535,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .promotion_curator_socialmedia_accounts{border-radius:var(--border0)!important}
 .sale_page_purchase_item{BACKGROUND:#D6D6D6!IMPORTANT;border-radius:10PX!important}
 .sale_page_purchase_content .bundle_contents_preview{border-radius:var(--border0)!important}
-.ds_flag.ds_owned_flag{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background-COLOR:#E4E4E4!important;border-radius:0!important}
+.ds_flag.ds_owned_flag{COLOR:#585858!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background-COLOR:#E4E4E4!important;border-radius:0!important}
 .ds_flag.ds_wishlist_flag{border-radius:0!important;border:1px solid #d6d1d1!important;BACKGROUND-COLOR:#e4e4e4!iMPORTANT}
 .ds_flag.ds_incart_flag{background-color:#54A348!important;border-radius:var(--border0)!important}
 .ds_flag.ds_ignored_flag{border-radius:var(--border0)!important}
