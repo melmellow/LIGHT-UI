@@ -86,6 +86,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.dselect_container a.trigger::after, .dselect_container a.activetrigger::after {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .commentthread_subscribe_check {FILTER:BRIGHTNESS(0)!iMPORTANT}
 div.filterselect .filterselect_arrow, div.filterselect #filterselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .apphub_HubDivider {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:.1!iMPORTANT}
@@ -837,7 +838,7 @@ _discount.no_discount .bundle_base_discount{border-radius:var(--border0)!importa
 .discount_block .discount_original_price{border-radius:var(--border0)!important}
 .searchbox_news{border:1px solid var(--black)!important;background-color:#5398c300!important;border-radius:var(--border0)!important}
 body.recommendgame #review_create{background:var(--darkgrey)!important;padding:16px!important}
-#review_create .input_box{border:1px solid #B8B8B8!important;border-radius:var(--border0)!important;background-color:#E8E8E8!important}
+#review_create .input_box{OUTLINE:NONE!iMPORTANT;COLOR:#585858!iMPORTANT;border:1px solid #B8B8B8!important;border-radius:var(--border0)!important;background-color:#E8E8E8!important}
 #footerText{padding-bottom:26px!important; color:#585858!important}
 .recommended_creators_ctn .recommended_creators_container{background:#E4E4E4!important;border:0!important;border-radius:0!important}
 .recommended_creators_ctn .store_capsule{background-image:none!important;border-radius:var(--border0)!important}
