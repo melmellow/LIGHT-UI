@@ -937,7 +937,6 @@ a.follow_button.btn_green_white_innerfade.btn_medium{color:var(--green)!importan
 a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:var(--green)!important;border-radius:var(--border0)!important}
 .home_rightcol{border-radius:var(--border0)!important}
 .tab_item{margin:5px!important;border-radius:0!important}
-.tab_item.focus{border-radius:0!important}
 img.tab_item_cap_img{border-radius:var(--border0)!important}
 .tab_review_summary{border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#e4e4e4!IMPORTANT;border-radius:0!important}
 .tab_preview .screenshot{border-radius:var(--border0)!important}
@@ -1009,6 +1008,7 @@ a.home_marketing_message{border-radius:var(--border0)!important}
 .hardware_ctn.double .hardware_content .left,.hardware_ctn.double .hardware_content .right{display:none!important}
 .home_tab.active .tab_content{border:0!important;border-top-left-radius:var(--border0)!important;background-color:var(--bedarkgrey)!important;color:#fff!important;border-radius:0!important}
 .tab_item.focus{background:#E4E4E4!important}
+.tab_item.focus .tab_item_details span.platform_img.win {opacity:.5!important}
 /* .tab_item.focus .tab_item_details span.platform_img.win {BACKGROUND-IMAGE:UNSET!IMPORTANT}
 .tab_item.focus .tab_item_details span.platform_img.mac{BACKGROUND-IMAGE:UNSET!iMPORTANT}
 .tab_item.focus .tab_item_details span.platform_img.linux{BACKGROUND-IMAGE:UNSET!IMPORTANT} */
@@ -1360,6 +1360,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .guide_showcase_appinfo .workshop_showcase_app img{border-radius:var(--border0)!important}
 .favoritegroup_showcase_group .favoritegroup_avatar img{border-radius:var(--border0)!important}
 .game_info .game_info_cap img{border-radius:var(--border0)!important}
+.home_area_spotlight.underlined_links {background-color:#e4e4e4!important}
 .favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{background-color:transparent!important;border-radius:var(--border0)!important;border-top:0!important}
 .game_info_achievements_badge .game_info_badge_border{border-radius:var(--border0)!important}
 .game_info_badge_border{border:0!important;border-radius:var(--border0)!important;background-color:rgba(0,0,0,0)!important}
