@@ -2256,7 +2256,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
 	background: var(--TEXTENTRY)!important;
-	border-color: var(--BUTTONBORDERHOVER)!important;
+	border-color: var(--BUTTONBORDER)!important;
 }
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg {
