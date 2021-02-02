@@ -192,6 +192,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.forum_topic_op {COLOR:#585858!iMPORTANT}
 .workshop_apps_paging_pagelink, .workshop_apps_paging_controls .commentthread_pagelink {COLOR:#585858!iMPORTANT}
 .workshopAppsSort .browseOption.notSelected:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .friendBlock.persona.online {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -1837,6 +1838,8 @@ body.v6.winter_sale_home h2.winter{margin-left:-40px!important}
 .friend_block_v2:hover{background:var(--grey)!important;border-radius:var(--border0)!important}
 .most_recommended .steam_curator_recommendation .steam_curators_for_app{border-top:0px!important}
 .navigation_bar{border-bottom:0px!important}
+.forum_area{COLOR:#585858!iMPORTANT}
+.subforum_select_area, .forum_newtopic_infomessage {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .newmodal{background:#dedede!important;border-radius:var(--border0)!important;border-width:0px!important;border-style:solid!important;border-color:transparent!important;border-image:initial!important}
 .modal_top_bar{height:0px!important;background:transparent!important}
 .newmodal_header{color:#585858!important;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;background:#dedede!important}
