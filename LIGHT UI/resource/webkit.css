@@ -1898,3 +1898,6 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_HorizontalTitle_B9-wl{COLOR:#585858!IMPORTANT}
 .supernav_content{BORDER:1PX SOLID #B8B8B8!IMPORTANT;background:#E4E4E4!important}
 #language_dropdown {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
+#language_dropdown_button:hover, #language_dropdown_button:focus {COLOR:#000!IMPORTANT}
+#language_dropdown {BACKGROUND-IMAGE:NONE!iMPORTANT}
+.sidesection #searchwords {BORDER:1PX SOLID #B8B8B8!IMPORTANT}
