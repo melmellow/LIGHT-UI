@@ -555,6 +555,7 @@ a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important
 .store_main_capsule .reason .main strong {COLOR:#54A448!IMPORTANT}
 .game_area_purchase_game p.package_contents, .game_area_offsite_purchase p.package_contents {color:#585858!important}
 input#store_nav_search_term {BACKGROUND:TRANSPARENT!iMPORTANT;font-size:6em!important;font-weight:400!Important}
+input#store_nav_search_term::SELECTION {BACKGROUND:#D5D5D5!iMPORTANT}
 .agegate_text_container .note {COLOR:#585858!IMPORTANT}
 #app_agegate select option {COLOR:#585858!IMPORTANT;BACKGROUND-COLOR:#dedede!IMPORTANT}
 .btn_green_white_innerfade > span {COLOR:#FFF!IMPORTANT}
@@ -1246,7 +1247,6 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .help_purchase_detail_box{COLOR:#585858!IMPORTANT;background-COLOR:#E4E4E4!important}
 .profile_small_header_bg{background-image:none!important}
 .friendPlayerLevel .friendPlayerLevelNum {COLOR:#585858!IMPORTANT}
-.btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
 .games_list_tabs{border-radius:var(--border0)!important}
 .help_header {COLOR:#585858!iMPORTANT}
 .games_list_tab.first_tab,a.games_list_tab.first_tab{border-radius:var(--border0)!important}
@@ -1840,6 +1840,7 @@ body.v6.winter_sale_home h2.winter{margin-left:-40px!important}
 .hover_box{background:var(--lightergrey)!important;color:var(--dakerwhite)!important} 
 .hover_arrow_inner{background:0 0!important}
 input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
+input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn::SELECTION {BACKGROUND:#D5D5D5!IMPORTANT}
 .slider_ctn .handle {BORDER-RADIUS:0!iMPORTANT}
 .forum_newtopic_box, .forum_formarea_box {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .carousel_items.store_capsule_container > * > *{border-radius:var(--border0)!important}
@@ -1915,3 +1916,4 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 .sidesection #searchwords {BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 #iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
