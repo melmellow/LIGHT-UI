@@ -86,6 +86,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.commentthread_subscribe_check {FILTER:BRIGHTNESS(0)!iMPORTANT}
 div.filterselect .filterselect_arrow, div.filterselect #filterselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .apphub_HubDivider {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:.1!iMPORTANT}
 .curator_cluster_expanded.carousel_container .curator_page .socialmedia img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -187,6 +188,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.friendBlock.persona.online {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.commentthread_subscribe_hint .commentthread_subscribe_hint_q {COLOR:#585858!iMPORTANT}
 .content-section, .content-hover-section {BACKGROUND:NONE!iMPORTANT}
 .apphub_Chat {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 .recommendation_date {COLOR:#585858!iMPORTANT}
@@ -1203,7 +1206,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 .showcase_stat .label {COLOR:#585858!IMPORTANT}
 .showcase_content_bg {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .friendBlock.persona.offline {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.achievement_progress_bar_ctn .progress_bar {BACKGROUND-COLOR:#585858!IMPORTANT}
+.achievement_progress_bar_ctn .progress_bar {BACKGROUND:#585858!IMPORTANT;BACKGROUND-COLOR:#585858!IMPORTANT}
 .profile_rightcol{BORDER:0!IMPORTANT;BACKGROUND:NONE!IMPORTANT;width:268px!important;float:right!important}
 .profile_friend_links.profile_count_link_preview_ctn.responsive_groupfriends_element{margin-bottom:40px!important}
 .profile_count_link.ellipsis{font-size:14px!important;margin-bottom:4px!important;min-height:29px!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
