@@ -523,12 +523,13 @@ h2 {color:font-weight:500!important}
 .game_purchase_discount_countdown {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .emoticon_button:hover, .emoticon_button.focus {background-image:none!important}
 .group_tab.active > span {background:#585858!important}
-.forum_topic  {background-color:#d6d6d6!important}
+.forum_topic  {background-color:#E4E4E4!important;BORDER-RADIUS:0!IMPORTANT}
 .forum_topic_op{color:#74AFC2!important}
 .discussions_forum_row {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .discussions_forum_row.unread .discussions_forumlist_topiccount, .discussions_forum_row.unread .discussions_forumlist_lastpost {COLOR:#585858!IMPORTANT}
-.forum_topic_lastpost {color:#74AFC2!important}
+.forum_topic_lastpost {color:#585858!important}
 .forum_topic_label.sticky_label {color:#78BE6D!important}
+.forum_topic_name {COLOR:#585858!iMPORTANT}
 .group_overview_discussions .forum_topic.unread .forum_topic_name {color:#74AFC2!important}
 .store_nav .tab.focus, .store_nav .tab.focus > span, .store_nav .tab:hover, .store_nav .tab:hover > span {COLOR:#000!IMPORTANT}
 body{background:#dedede!important;color:#585858!important}
@@ -1176,7 +1177,6 @@ a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important
 .forum_op .date {COLOR:#585858!IMPORTANT}
 .profile_header .persona_name {color:#585858!Important}
 .forum_paging{COLOR:#585858!IMPORTANT;background:#dedede!important;border-radius:var(--border0)!important}
-.forum_topic{background-color:var(--grey)!important}
 .blotter_appselect_activeoption{background-image:none!important;border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
 .blotter_appselect_options{background:var(--realblack)!important;border-radius:var(--border0)!important;border:0!important;padding-top:3px!important}
 #blotter_appselect_app_filter{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important;border:0!important}
@@ -1607,7 +1607,6 @@ div.early_access_announcements .post .more:hover{color:var(--white)!important;pa
 .commentthread_footer,.commentthread_header{padding-bottom:15px!important;padding-top:10px!important;border-radius:var(--border0)!important}
 .forum_topic_overlay{border-radius:var(--border0)!important}
 .forum_topic_overlay:hover{background:var(--darkergrey)63!important}
-.forum_topic{border-radius:var(--border0)!important}
 .btn_blue_white_innerfade{border-radius:var(--border0)!important;border:1px var(--littlegrey)!important;text-decoration:none!important;color:var(--blacker-ish)!important;background:rgba(102,192,244,.8)!important}
 .btn_blue_white_innerfade>span{border-radius:var(--border0)!important;background:rgba(102,192,244,.8)!important;color:var(--blacker-ish)!important;border:1px var(--littlegrey)!important}
 .btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:#fff!important;border-radius:0!important;background:#000!important;border:0!important}
