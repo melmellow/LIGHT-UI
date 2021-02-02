@@ -1,5 +1,7 @@
 *{box-shadow:none!important}
 
+*::SELECTION {BACKGROUND:#D5D5D5!IMPORTANT}
+
 :root {/* Colors */
 	--searchbox: #333333;
     --scrollbar: #585858;
@@ -189,6 +191,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.workshopAppsSort .browseOption.notSelected:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .friendBlock.persona.online {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .commentthread_subscribe_hint .commentthread_subscribe_hint_q {COLOR:#585858!iMPORTANT}
 .content-section, .content-hover-section {BACKGROUND:NONE!iMPORTANT}
