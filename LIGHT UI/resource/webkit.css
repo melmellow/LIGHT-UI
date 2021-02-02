@@ -1638,7 +1638,7 @@ a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue
 .forum_paging_summary{color:#585858!important;border-radius:var(--border0)!important}
 .forumtopic_comments .commentthread_comment_text {COLOR:#585858!iMPORTANT}
 .forumtopic_comments .commentthread_comment_text a{border-radius:var(--border0)!important}
-.forum_newtopic_header{border-radius:var(--border0)!important}
+.forum_newtopic_header{background-color:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important;color:#585858!Important;border-radius:var(--border0)!important}
 .forum_newtopic_box{border-radius:var(--border0)!important}
 .commentthread_comment_edit_textarea_ctn,.gray_bevel,input.gray_bevel,textarea.gray_bevel{border:0!important;border-radius:var(--border0)!important}
 .btn_grey_black>span{border-radius:var(--border0)!important}
