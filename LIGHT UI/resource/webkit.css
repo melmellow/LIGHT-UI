@@ -1660,7 +1660,11 @@ a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue
 .btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:var(--white)!important;border-radius:var(--border0)!important}
 .btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{border-radius:var(--border0)!important}
 .eventLogo{border-radius:var(--border0)!important}
+.rightSectionDivider {border:0!Important;background-color:#d6d1d1!important}
+.commentnotification {background-image:none!important;background-color:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
+.commentnotifications_header_content b{color:#585858!important}
 .grouppage_logo{background-image:none!important}
+.commentnotifications_header_commentcount{color:#585858!important}
 .btn_darkblue_white_innerfade > span {BACKGROUND:NONE!iMPORTANT}
 .forum_list .rightbox_list_option.selected {COLOR:#585858!IMPORTANT}
 .curator_summary_box{border-radius:var(--border0)!important}
@@ -1668,6 +1672,7 @@ a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue
 .friends_launch_area {COLOR:#585858!IMPORTANT}
 .profile_add_friends_title {COLOR:#585858!IMPORTANT}
 #profileFriendSearchInputBox {FONT-STYLE:NORMAL!iMPORTANT}
+.commentnotifications_header {background-image:none!Important;background-color:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .commentnotifications_header_rule {BACKGROUND-COLOR:#d6d1d1!IMPORTANT;BORDER:0!iMPORTANT}
 #widget{BORDER-COLOR:#B6B6B6!IMPORTANT;border:0!important;background:#D6D6D6!important;border-radius:10PX!important}
 .btn_addtocart .btn_addtocart_left,.btn_addtocart .btn_addtocart_right{background:0 0!important}
@@ -1809,6 +1814,9 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#
 .achieveFill{top:0!important;left:0!important;bottom:0!important;background:var(--grey)!important}
 h2.pageheader{padding-left:0!important}
 .newsrightcol .block .block_header{padding:5px 10px!important}
+.notification_paging {background-color:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important;color:#585858!important}
+
+
 
 /*qqq*/
 .block .block_header {border-radius:0!important;background:NONE!important;color:#585858!important}
