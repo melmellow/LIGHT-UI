@@ -1690,13 +1690,15 @@ a.group_tab:hover{COLOR:#000!IMPORTANT;background:TRANSPARENT!important;border-r
 .rightbox .rule{height:0!important;background-color:rgba(0,0,0,0)!important;border-top:0!important}
 .group_associated_game{background-color:var(--darkgrey)!important;border-radius:var(--border0)!important}
 .group_associated_game_icon{background-color:transparent!important}
+.announcement_byline {COLOR:#585858!iMPORTANT}
+span.bb_link_host{COLOR:#585858!IMPORTANT}
 .group_overview_announcement_readmore{border-top:0px!important}
 .calendarBox{border-radius:var(--border0)!important}
 .member_block{background-color:var(--grey)!important;border-radius:var(--border0)!important}
 .member_block:hover{background-color:var(--darkergrey)!important;border-radius:var(--border0)!important}
 .member_block .rank_icon{background-color:transparent!important}
-.group_paging{border-radius:var(--border0)!important}
-.announcement{border-radius:var(--border0)!important}
+.group_paging{BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;border-radius:var(--border0)!important}
+.announcement{BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;border-radius:var(--border0)!important}
 a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue)!important}
 .pagebtn, a.pagebtn{background-color:var(--grey)!important}
 .announcement_control_container{border-radius:var(--border0)!important}
