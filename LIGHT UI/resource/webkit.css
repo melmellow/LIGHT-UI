@@ -126,7 +126,7 @@ div.filterselect .filterselect_arrow, div.filterselect #filterselect_arrow {FILT
 .apphub_HubDivider {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:.1!iMPORTANT}
 .curator_cluster_expanded.carousel_container .curator_page .socialmedia img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .right_controls_large_block_active_bg {FILER:BRIGHTNESS(0)!iMPORTANT;OPACITY:0.1!IMPORTANT}
-.published_file_icon {FILTER:BRIGHTNESS(0)!IMPORTANT}
+.published_file_icon {opacity:60%!important;FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.sharedfiles_filterselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 #sharedfiles_filterselect_search_img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {FILTER:BRIGHTNESS(50%)!IMPORTANT;color:#585858!important}
