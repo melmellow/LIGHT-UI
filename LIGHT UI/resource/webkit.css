@@ -66,7 +66,7 @@
 .market_commodity_orders_table tr:nth-child(even) {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
 .market_listing_iteminfo {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #largeiteminfo_clienthover {BACKGROUND:#E4E4E4!IMPORTANT}
-.market_commodity_orders_block {BORDER:0!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.market_commodity_orders_block {BORDER:0!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;box-shadow: 0 0 2px #D6D1D1!IMPORTANT}
 .market_commodity_orders_header {BORDER-BOTTOM:0!iMPORTANT}
 .market_commodity_orders_header_promote {FONT-WEIGHT:500!iMPORTANT;COLOR:#585858!iMPORTANT}
 .market_commodity_orders_table_container {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
@@ -368,6 +368,7 @@ body.v6 .recommended_by_steam_labs_ctn .header_inline_reason {COLOR:#585858!IMPO
 .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon path {STROKE:#DEDEDE!IMPORTANT;FILL:#585858!iMPORTANT}
 .chatentry_chatSubmitButton_RVIs8.chatentry_EmoticonPickerButton_Aupsw, .chatentry_chatSubmitButton_RVIs8.chatentry_EmbedButton_3zOBe {BORDER:0!iMPORTANT;BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
 .DialogCheckbox {BORDER:1PX SOLID #B6B6B6!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.commentnotification.unread:hover {BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .summary_summaryTextArea_2ipSt {BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT;COLOR:#585858!iMPORTANT}
 .profileedit_ProfileBox_uwqwo .profileedit_ProfileBoxTitle_2CGYg {COLOR:#585858!imPORTANT}
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {FILL:#FFF!IMPORTANT}
@@ -379,7 +380,7 @@ input.DialogTextInputBase, input.DialogTextInputBase:not(disabled):hover, input.
 .DialogHeader {COLOR:#585858!IMPORTANT}
 .tab_item:hover, .large .tab_item:hover {background:#E4E4E4!Important;border-color:#8D8D8D!Important}
 .tab_item_details span.platform_img {opacity:1!important}
-.tab_item.focus {padding-right:0!Important;BACKGROUND:#E4E4E4!IMPORTANT}
+.tab_item.focus {BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT;padding-right:0!Important;BACKGROUND:#E4E4E4!IMPORTANT}
 /* .block {BACKGROUND:#e4e4e4!IMPORTANT} */
 label.send_choice_txt {color:#585858!important}
 .checkout_footer_notes {color:#585858!important}
@@ -981,6 +982,7 @@ div.store_header_btn{border-radius:var(--border0)!important}
 .discovery_queue_ctn .begin_exploring::after{background:0 0!important}
 .help_app_header {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT}
 .help_app_header .game_name a{COLOR:#585858!IMPORTANT}
+.tab_item .release_date{COLOR:#585858!IMPORTANT}
 .big_button{width:224px!Important;color:#585858!important;border-radius:0!important;background-image:none!important;background:#d6d6d6!important;border:1px solid #b8b8b8}
 .big_button:hover{color:#585858!important;border-radius:0!important;background: #d6d6d6 !important;border-color:#8d8d8d!important}
 .carousel_items.curator_featured_tags{border-radius:var(--border0)!important}
@@ -988,7 +990,7 @@ div.store_header_btn{border-radius:var(--border0)!important}
 .curator_page .actions{BACKGROUND:NONE!IMPORTANT;border-radius:var(--border0)!important}
 a.follow_button.btn_green_white_innerfade.btn_medium{color:var(--green)!important;border-radius:var(--border0)!important}
 a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:var(--green)!important;border-radius:var(--border0)!important}
-.home_rightcol{border-radius:var(--border0)!important}
+.home_rightcol{BACKGROUND:TRANSPARENT!IMPORTANT;border-radius:var(--border0)!important}
 .tab_item{margin:5px!important;border-radius:0!important}
 img.tab_item_cap_img{border-radius:var(--border0)!important}
 .tab_review_summary{border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#e4e4e4!IMPORTANT;border-radius:0!important}
