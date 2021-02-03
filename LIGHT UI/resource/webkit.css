@@ -121,7 +121,7 @@ a.forum_comment_action img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .commentnotification_col img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .forum_topic_reply_count img, .forum_topic_award_count img {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .dselect_container a.trigger::after, .dselect_container a.activetrigger::after {FILTER:BRIGHTNESS(50%)!IMPORTANT}
-.commentthread_subscribe_check {FILTER:BRIGHTNESS(0)!iMPORTANT}
+.commentthread_subscribe_check {opacity:60%!important;FILTER:BRIGHTNESS(0)!iMPORTANT}
 div.filterselect .filterselect_arrow, div.filterselect #filterselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .apphub_HubDivider {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:.1!iMPORTANT}
 .curator_cluster_expanded.carousel_container .curator_page .socialmedia img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
