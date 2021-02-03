@@ -62,6 +62,11 @@
     --border50: 50%; /* default 50% */
 }
 
+.hover_release span.platform_img.valveindex {OPACITY:60%!IMPORTANT}
+.hover_release span.platform_img.htcvive {OPACITY:60%!IMPORTANT}
+.hover_release span.platform_img.oculusrift {OPACITY:60%!IMPORTANT}
+.hover_release span.platform_img.windowsmr {OPACITY:60%!IMPORTANT}
+
 /*MARKET*/
 .market_commodity_orders_table tr:nth-child(even) {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
 .market_listing_iteminfo {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
