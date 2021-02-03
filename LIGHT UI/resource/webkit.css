@@ -88,6 +88,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.commentnotification_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .commentnotification_col img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .forum_topic_reply_count img, .forum_topic_award_count img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .dselect_container a.trigger::after, .dselect_container a.activetrigger::after {FILTER:BRIGHTNESS(50%)!IMPORTANT}
