@@ -851,6 +851,8 @@ body.v6 .discount_prices > div {color:#585858!important}
 .discount_block.no_discount.daily_deal_discount .bundle_base_discount{color:var(--darkergrey)!important;border-radius:var(--border4)!important;margin-right:5px!important}
 .browse_content .recommendation{border-bottom:0!important;border-radius:var(--border0)!important}
 .browse_filters a.selected,.browse_filters a:hover{border-radius:var(--border0)!important}
+.browse_filters a {TEXT-SHADOW:NONE!iMPORTANT}
+.browse_tabs a {TEXT-SHADOW:NONE!iMPORTANT}
 .browse_tabs a.selected,.browse_tabs a:hover{background-color:var(--grey)!important;border-radius:var(--border0)!important}
 .navigation_bar>a.selected{border-radius:var(--border0)!important}
 .navigation_bar>*{border-radius:var(--border0)!important}
