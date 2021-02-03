@@ -676,6 +676,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+.appdetailsactivitysection_Loading_3UShz {
+	background-color:var(--BASE1)!Important;
+	BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;
+}
+
 a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
 	BACKGROUND-COLOR:VAR(--BUTTON)!IMPORTANT;
 }
@@ -2752,7 +2757,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Icon16_3AoQ6 {
 	FILTER:BRIGHTNESS(0)!IMPORTANT;
-	opacity:50%!important;
+	opacity:60%!important;
 }
 
 
