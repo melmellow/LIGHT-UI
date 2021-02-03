@@ -392,6 +392,7 @@ input.DialogTextInputBase, input.DialogTextInputBase:not(disabled):hover, input.
 .profileeditshell_Shell_2kqKZ .profileeditshell_Navigation_33Kl1 .profileeditshell_NavLink_3rtIp {COLOR:#585858!iMPORTANT}
 .profileeditshell_Shell_2kqKZ .profileeditshell_Navigation_33Kl1 .profileeditshell_NavLink_3rtIp.profileeditshell_Active_3H7Aw {BACKGROUND:#585858!iMPORTANT}
 .DialogHeader {COLOR:#585858!IMPORTANT}
+.game_area_purchase_game b, .game_area_offsite_purchase b {COLOR:#54A448!IMPORTANT}
 .tab_item:hover, .large .tab_item:hover {background:#E4E4E4!Important;border-color:#8D8D8D!Important}
 .tab_item_details {COLOR:#585858!IMPORTANT}
 .tab_item_details span.platform_img {opacity:1!important}
@@ -562,7 +563,7 @@ body.v6 .game_page_background {background:TRANSPARENT!important}
 body.v6 h2.pageheader {text-shadow:none!important}
 .community_recommendation_app > .right_col {BACKGROUND:#E4E4E4!IMPORTANT;border:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!important}
 h2 {color:font-weight:500!important}
-.LoadingWrapper .LoadingThrobber .Bar {background-color:#585858!important}
+.LoadingWrapper .LoadingThrobber .Bar {background-color:#1181D2!important}
 #live_streams_carousel .carousel_items .store_capsule {border-radius:0!important;border:1px solid #d6d1d1!important}
 .highlight_ctn .slider_ctn .slider_left, .highlight_ctn .slider_ctn .slider_right, .highlight_ctn .slider .handle{border-radius:0!important}
 .slider {border-radius:0!important;background-color:#d6d6d6!important}
