@@ -1180,6 +1180,9 @@ a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important
 .discussion_tab_content_area h2{font-size:25px!important}
 .forum_op .date {COLOR:#585858!IMPORTANT}
 .profile_header .persona_name {color:#585858!Important}
+a.hoverunderline:hover {TEXT-DECORATION:NONE!IMPORTANT}
+a.forum_comment_action {BACKGROUND-COLOR:NONE!iMPORTANT}
+a.forum_comment_action:HOVER {BACKGROUND-COLOR:#D6D6D6!iMPORTANT}
 .forum_paging{COLOR:#585858!IMPORTANT;background:#dedede!important;border-radius:var(--border0)!important}
 .blotter_appselect_activeoption{background-image:none!important;border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
 .blotter_appselect_options{background:var(--realblack)!important;border-radius:var(--border0)!important;border:0!important;padding-top:3px!important}
@@ -1194,7 +1197,7 @@ div#headerSearch.friend_activity_header_search{border-radius:30px!important;back
 #findItemsSearchBox{outline:0!important;border-radius:30px!important;color:#585858!important;background-color:#E8E8E8!important;border:1px solid #B8B8B8!important}
 .blotter_daily_rollup{background-color:var(--bedarkgrey)!important}
 .blotter_comment_thread .commentthread_entry_quotebox{border-radius:30PX!important;background-color:#E8E8E8!important;border:1PX SOLID #B8B8B8!important}
-.forumtopic_comments .commentthread_comment{background-color:#d6d6d6!important;color:var(--dakerwhite)!important;margin-bottom:2px!important;padding:12px 8px 20px 60px!important;border:#b6b6b6!important;overflow:hidden!important;border-radius:var(--border0)!important}
+.forumtopic_comments .commentthread_comment{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background-color:#E4E4E4!important;color:var(--dakerwhite)!important;margin-bottom:2px!important;padding:12px 8px 20px 60px!important;border:#b6b6b6!important;overflow:hidden!important;border-radius:var(--border0)!important}
 .forum_op{position:relative!important;padding:7px 12px 21px 63px!important;margin-bottom:8px!important;max-width:565px!important;background-color:#E4E4E4!important;background-image:none!important;background-repeat:no-repeat!important;background-position:top left!important;border:0!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .blotter_block{position:relative!important;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .dynamiclink_box{border:1px solid var(--grey)!important;background-color:var(--grey)!important}
