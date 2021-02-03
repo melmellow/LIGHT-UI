@@ -172,7 +172,7 @@ a.linkbar > img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 .grouppage_header_name{box-shadow:0 0 2px #d6d1d1!important;color:#585858!important;background:#e4e4e4!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:30%!important}
 .recent_game{background-color:#E4E4E4!important;backdrop-filter:blur(10px)!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:#dedede!important;backdrop-filter:var(--blur)!important;border-radius:0!important}
-.text_filter_toggle_icon {filter:brightness(0)!Important}
+.text_filter_toggle_icon {OPACITY:60%!IMPORTANT;filter:brightness(0)!Important}
 .apphub_CardRating.rateUp {COLOR:#585858!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 
 
