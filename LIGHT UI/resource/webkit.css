@@ -109,6 +109,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.broadcast_embeddable_viewer_bar_2Ygph .broadcast_embeddable_viewer_links_2EQpO {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 a.forum_comment_action img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .commentnotification_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .commentnotification_col img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -835,6 +836,7 @@ body.v6 .discount_prices > div {color:#585858!important}
 .tag_square{margin:2px!important}
 body.v6 .comingsoon_capsules > a {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .comingsoon_capsules > a > div.info {COLOR:#585858!IMPORTANT}
+.creator_announcement_container {BORDER-LEFT:1PX SOLID #D6D1D1!IMPORTANT}
 body.v6.comingsoon .comingsoon_headercaps > a {BACKGROUND:#E4E4E4!IMPORTANT}
 .paged_items_paging {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .page_content.steam_curator_header_text .header_area span {COLOR:#585858!iMPORTANT}
