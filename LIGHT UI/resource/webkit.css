@@ -148,7 +148,7 @@ body.v6 #footer #footer_logo img {OPACITY:60%!iMPORTANT;filter:brightness(0)!imp
 img{filter:grayscale(30%)!important}
 a img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .carousel_container .arrow > div {filter:brightness(50%)!important} 
-a.linkbar > img {filter:brightness(0)!important}
+a.linkbar > img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .most_recommended .steam_curator_recommendation .steam_curator_for_app_img{filter:none!important}
 .review_box .short_header .review_source {filter: brightness(0)!important}
@@ -219,6 +219,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.creator_announcement_body {COLOR:#585858!IMPORTANT}
+.creator_announcement_img_title, .creator_announcement_title {COLOR:#585858!iMPORTANT}
+.recommendation_desc {COLOR:#585858!iMPORTANT}
 .home_page_content .more_content_desc {COLOR:#585858!IMPORTANT}
 .forumtopic_comments .commentthread_comment .commentthread_comment_author {OPACITY:1!IMPORTANT}
 .forum_topic_op {COLOR:#585858!iMPORTANT}
@@ -1074,6 +1077,7 @@ a.home_marketing_message{border-radius:var(--border0)!important}
 #tab_preview_container{border-radius:var(--border0)!important;top:15px!important;background:NONE!important}
 body.v6 .home_rightcol .tab_preview h2{color:#585858!important}
 .tab_preview .tags>a{background-color:var(--bedarkgrey)!important}
+.home_content .ds_flag {COLOR:#585858!IMPORTANT}
 .store_capsule{background-color:#E4E4E4!important;border-radius:var(--border0)!important}
 .home_marketing_message,.home_marketing_message:hover{background:#dedede!important}
 .home_page_content .more_content_title span{background:var(--trans)!important}
