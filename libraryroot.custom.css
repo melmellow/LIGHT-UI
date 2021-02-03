@@ -634,12 +634,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 	background-color: var(--BUTTON)!important;
 	BORDER:1PX SOLID  var(--BUTTONBORDER)!IMPORTANT;
 	color: var(--ACCENT)!important;
+	WIDTH:101%!IMPORTANT;
 }
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY {
 	BACKGROUND-COLOR: var(--BUTTON)!IMPORTANT;
 	BORDER-COLOR: var(--BUTTONBORDERHOVER)!IMPORTANT;
-	WIDTH:40%!IMPORTANT;
+	WIDTH:87%!IMPORTANT;
 /* 	background-color: var(--BUTTONHOVER)!important; */
 }
 
