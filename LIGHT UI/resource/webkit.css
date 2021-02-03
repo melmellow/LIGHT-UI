@@ -220,6 +220,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.follow_controls, .ignore_controls.ignored {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.socialmedia_accounts > * {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.curator_details {TEXT-SHADOW:NONE!IMPORTANT}
 .creator_announcement_body {COLOR:#585858!IMPORTANT}
 .creator_announcement_img_title, .creator_announcement_title {COLOR:#585858!iMPORTANT}
 .recommendation_desc {COLOR:#585858!iMPORTANT}
