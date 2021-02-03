@@ -47,6 +47,9 @@
     /* Profile Blur */
     --blur: blur(10px); /* default 10px */
 
+
+
+
     /* Round/Hard Edges */
     --border0: 0px; /* default 4px */
     --border1: 0px; /* default 10px */
@@ -58,6 +61,9 @@
     --border8: 0px; /* default 80px */
     --border50: 50%; /* default 50% */
 }
+
+#modalContentTitleBar {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+
 
 
 
@@ -1120,13 +1126,14 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 body.apphub_blue {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 div.filterselect_options {COLOR:#585858!IMPORTANT}
 .popup_block .popup_body{background:#E4E4E4!important}
+.apphub_CardContentGuideDesc {COLOR:#585858!IMPORTANT}
 .btn_profile_action .btn_medium .img{transform: rotate(180deg) scaleX(1)!important}
 #profile_action_dropdown{top:-5px!important;left:720px!important;background:var(--darkergrey)!important;border-radius:var(--border0)!important}
 div#game_select_suggestions_ctn{background:var(--realblack)!important}
 .apphub_Card{BORDER:0!IMPORTANT;background-color:#E4E4E4!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .apphub_CardContentNewsFade{background-image:none!important;background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
 .apphub_CardContentMain .UserReviewCardContent_Footer .gradient{background:NONE!important}
-.apphub_CardContentGuideTitle{background-color:#8c8c8c!important}
+.apphub_CardContentGuideTitle{background-color:#E4E4E4!important;COLOR:#585858!IMPORTANT}
 input.community_home_search_app_input{font-size:15px!important;font-style:normal!important;background-color:#E8E8E8!important}
 .community_home_search_apps_image{display:none!important}
 .community_home_search_title {COLOR:#585858!IMPORTANT}
