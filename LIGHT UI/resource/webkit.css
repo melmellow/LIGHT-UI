@@ -976,7 +976,6 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 .game_hover_box .hover_release {color:#585858!important}
 .ds_options_tooltip > .option:hover {background-color:#d6d6d6!important}
 .game_hover_box .content {background:#dedede!important}
-.game_hover_box{color:#585858!important;background:#E4E4E4!important;border-radius:0!important;border:1px solid #D6D1D1!important}
 .game_hover_box h4{color:var(--white)!important;border-radius:var(--border0)!important}
 .hover_screenshots .screenshot{border-radius:var(--border0)!important}
 .discount_block_large .discount_pct, .discount_block_large .bundle_base_discount {BORDER-RADIUS:0!iMPORTANT}
@@ -2012,3 +2011,4 @@ input.discussionSearchText::SELECTION{COLOR:#585858!IMPORTANT}
 .group_tab.active > span {background:#585858!important}
 .profile_friends.title_bar, .profile_groups.title_bar {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;  background-color:#E4E4E4!Important}
 .member_block:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
+.game_hover_box{color:#585858!important;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;border:1px solid #D6D1D1!important}
