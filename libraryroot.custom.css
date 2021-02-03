@@ -677,6 +677,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+.artworkmodal_ArtworkModal_36VpV {
+	BORDER:2PX SOLID #D6D1D1!IMPORTANT;
+}
+
 .appdetailsactivitysection_Loading_3UShz {
 	background-color:var(--BASE1)!Important;
 	BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;
