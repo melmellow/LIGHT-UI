@@ -214,8 +214,12 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 
+.ico16.thumb_upv6 {OPACITY:60%!iMPORTANT}
+.ico16.thumb_downv6 {OPACITY:60%!IMPORTANT}
+
 
 /* Main Code */
+.home_page_content .more_content_desc {COLOR:#585858!IMPORTANT}
 .forumtopic_comments .commentthread_comment .commentthread_comment_author {OPACITY:1!IMPORTANT}
 .forum_topic_op {COLOR:#585858!iMPORTANT}
 .workshop_apps_paging_pagelink, .workshop_apps_paging_controls .commentthread_pagelink {COLOR:#585858!iMPORTANT}
