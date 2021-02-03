@@ -65,9 +65,15 @@
 /*MARKET*/
 .market_listing_iteminfo {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #largeiteminfo_clienthover {BACKGROUND:#E4E4E4!IMPORTANT}
-.market_commodity_orders_block {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.market_commodity_orders_block {BORDER:0!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .market_commodity_orders_header_promote {COLOR:#585858!iMPORTANT}
 .market_commodity_orders_table_container {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
+.market_listing_iteminfo hr {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
+
+
+
+
+
 
 #modalContentTitleBar {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 
