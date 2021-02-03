@@ -227,6 +227,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.quadscreenshot_carousel .recommended_curator p {TEXT-SHADOW:NONE!iMPORTANT}
 .friend_block_v2 {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .review_box .control_block .dselect_container {TEXT-SHADOW:NONE!IMPORTANT}
 .follow_controls, .ignore_controls.ignored {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
