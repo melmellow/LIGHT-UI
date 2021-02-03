@@ -112,7 +112,7 @@
 a.forum_comment_action img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .commentnotification_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .commentnotification_col img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
-.forum_topic_reply_count img, .forum_topic_award_count img {FILTER:BRIGHTNESS(0)!IMPORTANT}
+.forum_topic_reply_count img, .forum_topic_award_count img {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .dselect_container a.trigger::after, .dselect_container a.activetrigger::after {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .commentthread_subscribe_check {FILTER:BRIGHTNESS(0)!iMPORTANT}
 div.filterselect .filterselect_arrow, div.filterselect #filterselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -124,11 +124,11 @@ div.sharedfiles_filterselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!
 #sharedfiles_filterselect_search_img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {FILTER:BRIGHTNESS(50%)!IMPORTANT;color:#585858!important}
 div.sortselect #sortselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
-body.v6 #footer #footer_logo_steam {FILTER:BRIGHTNESS(0)!iMPORTANT}
+body.v6 #footer #footer_logo_steam {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
 .profile_customization_edit_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .view_inventory_logo img {FILTER:BRIGHTNESS(50%)!iMPORTANT}
 .apphub_CardMetaData .review_award_aggregated > img, .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
-.gutter_item .icon {filter:brightness(0)!important}
+.gutter_item .icon {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 .cart_tab_left_on {FILTER:BRIGHTNESS(0)!IMPORTANT}
 #checkout_steam_logo img{FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .friends_nav a.icon_item .title {filter:brightness(0)!important}
@@ -144,7 +144,7 @@ span.platform_img.oculusrift {filter:brightness(50%)!important}
 span.platform_img.windowsmr {filter:brightness(50%)!important}
 span.platform_img.mac {filter:brightness(50%)!important}
 span.platform_img.win {filter:brightness(50%)!important} 
-body.v6 #footer #footer_logo img {filter:brightness(0)!important}
+body.v6 #footer #footer_logo img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 img{filter:grayscale(30%)!important}
 a img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .carousel_container .arrow > div {filter:brightness(50%)!important} 
@@ -1369,7 +1369,7 @@ body.v6 h2 .header_inline {COLOR:#585858!IMPORTANT}
 .popup_block2 .popup_body2{border-radius:0!important;BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .pullup_item{BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;border-radius:0!important;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!IMPORTANT}
 .game_language_options tr {border-bottom:1px solid #d6d6d6!important}
-#footerLogo {FILTER:BRIGHTNESS(0)!IMPORTANT}
+#footerLogo {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .game_language_options th {color:#585858!important}
 .sort_options {COLOR:#585858!iMPORTANT}
 .popup_body2 h5 {COLOR:#585858!iMPORTANT}
