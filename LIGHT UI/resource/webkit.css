@@ -833,6 +833,9 @@ body.v6 .discount_prices > div {color:#585858!important}
 .curator_featured .contents{border-radius:var(--border0)!important}
 .ds_options > div{border-radius:var(--border1)!important}
 .tag_square{margin:2px!important}
+body.v6 .comingsoon_capsules > a {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.comingsoon_capsules > a > div.info {COLOR:#585858!IMPORTANT}
+body.v6.comingsoon .comingsoon_headercaps > a {BACKGROUND:#E4E4E4!IMPORTANT}
 .paged_items_paging {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .page_content.steam_curator_header_text .header_area span {COLOR:#585858!iMPORTANT}
 .curatorlist_Title_1MhFd, .curatorlist_Blurb_rrcHS {COLOR:#585858!iMPORTANT;TEXT-SHADOW:NONE!IMPORTANT}
