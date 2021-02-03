@@ -162,7 +162,7 @@ a.linkbar > img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 .broadcast_embeddable_bordered_corner_shrinked_L8sFY {filter:brightness(0)!Important}
 .showcase_content_bg{border-radius:4px!important;backdrop-filter:blur(10px)!important;background-color:rgba( 0, 0, 0, 0.3 )!important}
 .playerAvatar.profile_header_size .playerAvatarAutoSizeInner img{background:0 0!important;filter:none!important;display:block!important;padding:0!important;width:100%!important;height:100%!important;border-radius:var(--border8)!important}
-.grouppage_header_name{color:#585858!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:30%!important;background-color:transparent!important}
+.grouppage_header_name{box-shadow:0 0 2px #d6d1d1!important;color:#585858!important;background:#e4e4e4!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:30%!important}
 .recent_game{background-color:#E4E4E4!important;backdrop-filter:blur(10px)!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:#dedede!important;backdrop-filter:var(--blur)!important;border-radius:0!important}
 .text_filter_toggle_icon {filter:brightness(0)!Important}
@@ -568,7 +568,6 @@ h2 {color:font-weight:500!important}
 .forum_topic_reply_count, .forum_topic_award_count {COLOR:#585858!iMPORTANT}
 .game_purchase_discount_countdown {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .emoticon_button:hover, .emoticon_button.focus {background-image:none!important}
-.group_tab.active > span {background:#585858!important}
 .forum_topic  {background-color:#E4E4E4!important;BORDER-RADIUS:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .forum_topic_op{color:#74AFC2!important}
 .discussions_forum_row {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
@@ -1237,8 +1236,8 @@ a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important
 .forum_comment_action_menu {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .profile_header .persona_name {color:#585858!Important}
 a.hoverunderline:hover {TEXT-DECORATION:NONE!IMPORTANT}
-a.forum_comment_action {BACKGROUND-COLOR:#E4E4E4!iMPORTANT}
-a.forum_comment_action:HOVER {BACKGROUND-COLOR:#D6D6D6!iMPORTANT}
+a.forum_comment_action {opacity:60%!important;BACKGROUND-COLOR:#E4E4E4!iMPORTANT}
+a.forum_comment_action:HOVER {border-radius:100px!important;BACKGROUND-COLOR:#D6D6D6!iMPORTANT}
 .group_breadcrumbs {COLOR:#585858!IMPORTANT}
 .forum_paging{COLOR:#585858!IMPORTANT;background:#dedede!important;border-radius:var(--border0)!important}
 .blotter_appselect_activeoption{background-image:none!important;border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
@@ -1943,7 +1942,7 @@ div.bb_h3, .bb_wysiwyg h3 {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .grouppage_membertiles_overlay{top:0!important;padding-bottom:12px!important;background:var(--darkgrey)!important;opacity:.9!important}
 .grouppage_member_tiles{right:-1px!important;height:230px!important;padding-bottom:12px!important;padding-top:0!important;background:0 0!important;border-radius:var(--border0)!important}
 .grouppage_header{border-bottom:4px!important;background:0 0!important}
-.grouppage_header_label{border-top-left-radius:var(--border1)!important;border-top-right-radius:var(--border1)!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:15%!important;background-color:transparent!important}
+.grouppage_header_label{border-top-left-radius:var(--border1)!important;border-top-right-radius:var(--border1)!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:15%!important;background-color:#e4e4e4!important;box-shadow:0 0 2px #d6d1d1!important}
 
 /* User Avatars Row */
 .grouppage_friendsingroup{position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:50%!important;background-color:transparent!important}
@@ -2004,3 +2003,4 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 .btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
 input.discussionSearchText{BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!important;padding:4px!important}
 input.discussionSearchText::SELECTION{COLOR:#585858!IMPORTANT}
+.group_tab.active > span {background:#585858!important}
