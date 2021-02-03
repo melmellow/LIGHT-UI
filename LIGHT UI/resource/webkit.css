@@ -1,6 +1,6 @@
 *{box-shadow:none!important}
 
-*::SELECTION {COLOR:#585858!IMPORTANT;BACKGROUND:#D5D5D5!IMPORTANT}
+*::SELECTION {TEXT-SHADOW:NONE!iMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D5D5D5!IMPORTANT}
 
 :root {/* Colors */
 	--searchbox: #333333;
@@ -138,13 +138,14 @@ body.v6 #footer #footer_logo_steam {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!i
 .review_box .vote_header .review_source {filter:brightness(0)!Important}
 .ico16 {filter:brightness(0)!IMPORTANT}
 .broadcast_embeddable_viewer_count_1MrTW svg {filter:brightness(50%)!important}
+span.platform_img.valveindex {FILTER:BRIGHTNESS(60%)!IMPORTANT}
 span.platform_img.music {filter:brightness(50%)!important}
 span.platform_img.linux {filter:brightness(50%)!important}
 span.platform_img.htcvive {filter:brightness(50%)!important}
 span.platform_img.oculusrift {filter:brightness(50%)!important}
 span.platform_img.windowsmr {filter:brightness(50%)!important}
 span.platform_img.mac {filter:brightness(50%)!important}
-span.platform_img.win {filter:brightness(50%)!important} 
+span.platform_img.win {filter:brightness(60%)!important} 
 body.v6 #footer #footer_logo img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 img{filter:grayscale(30%)!important}
 a img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -221,7 +222,6 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 /* Main Code */
 .friend_block_v2 {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
-.member_block:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .review_box .control_block .dselect_container {TEXT-SHADOW:NONE!IMPORTANT}
 .follow_controls, .ignore_controls.ignored {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .socialmedia_accounts > * {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -393,6 +393,7 @@ input.DialogTextInputBase, input.DialogTextInputBase:not(disabled):hover, input.
 .profileeditshell_Shell_2kqKZ .profileeditshell_Navigation_33Kl1 .profileeditshell_NavLink_3rtIp.profileeditshell_Active_3H7Aw {BACKGROUND:#585858!iMPORTANT}
 .DialogHeader {COLOR:#585858!IMPORTANT}
 .tab_item:hover, .large .tab_item:hover {background:#E4E4E4!Important;border-color:#8D8D8D!Important}
+.tab_item_details {COLOR:#585858!IMPORTANT}
 .tab_item_details span.platform_img {opacity:1!important}
 .tab_item.focus {BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT;padding-right:0!Important;BACKGROUND:#E4E4E4!IMPORTANT}
 /* .block {BACKGROUND:#e4e4e4!IMPORTANT} */
@@ -2008,3 +2009,4 @@ input.discussionSearchText{BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!im
 input.discussionSearchText::SELECTION{COLOR:#585858!IMPORTANT}
 .group_tab.active > span {background:#585858!important}
 .profile_friends.title_bar, .profile_groups.title_bar {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;  background-color:#E4E4E4!Important}
+.member_block:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
