@@ -454,6 +454,10 @@ a {color:#585858!important}
 .explore_rightcol_count {color:#585858!important}
 .faq_question {font-weight:bold!important;color:#585858!important}
 .faq_answer {color:#585858!important}
+.color_created {COLOR:#585858!IMPORTANT}
+.creatorhome .browse_content .recommendation {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.creatorhome .curator_review_date {COLOR:#585858!iMPORTANT}
+.browse_content .recommendation:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .game_description_column .block .block_content a:hover {border:1px solid #b6b6b6!important}
 div.early_access_header .devnotes .morebutton {background:NONE!important}
 div.early_access_header .devnotes > div {color:#585858!important}
