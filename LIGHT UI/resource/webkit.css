@@ -447,7 +447,7 @@ h4 {/* background:#d6d1d1!important; */color:#585858!important}
 a {color:#585858!important}
 .creatorhome .curator_featured > div {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .autocollapse_enabled .search_collapse_block .block_header {background:#585858!important}
-.browse_tag_games, .browse_tag_game_total {background-color:#d6d6d6!important}
+.browse_tag_games, .browse_tag_game_total {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .dailydeal_ctn {border:1px solid #d6d1d1!important;background:#e4e4e4!important}
 .curator_giant_capsule .curator_block .blurb > span, .curator_giant_capsule .curator_block .blurb > span:hover {color:#fff!important}
 .hover_details_block, .hover_details_block_full {color:#585858!important}
@@ -1989,6 +1989,7 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {BORDER-COLOR:#8D8D8D!IMPORTANT;BACKGROUND:#B8B8B8!IMPORTANT;color:#585858!important}
 .block.recommendation_reasons .similar_recent_apps_container > a {COLOR:#585858!iMPORTANT}
 .block.recommendation_reasons a {color:#585858!important}
+.tag_browse_description {COLOR:#585858!IMPORTANT}
 .shared_game_rating p.descriptorText {COLOR:#585858!IMPORTANT}
 .glance_ctn .release_date .date, .glance_ctn .responsive_reviewdesc {COLOR:#585858!iMPORTANT}
 .spotlight_scroll_ctn {BACKGROUND:NONE!iMPORTANT}
