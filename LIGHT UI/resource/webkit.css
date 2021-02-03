@@ -133,7 +133,7 @@ body.v6 #footer #footer_logo_steam {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!i
 #checkout_steam_logo img{FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .friends_nav a.icon_item .title {filter:brightness(0)!important}
 .phone_header_description img{FILTER:BRIGHTNESS(0)!IMPORTANT}
-.live_steam_viewers {filter:brightness(0)!important}
+.live_steam_viewers {OPACITY:60%!IMPORTANT;filter:brightness(0)!important}
 .review_box .vote_header .review_source {filter:brightness(0)!Important}
 .ico16 {filter:brightness(0)!IMPORTANT}
 .broadcast_embeddable_viewer_count_1MrTW svg {filter:brightness(50%)!important}
@@ -1069,7 +1069,7 @@ a.home_marketing_message{border-radius:var(--border0)!important}
 /* .tab_item.focus .tab_item_details span.platform_img.win {BACKGROUND-IMAGE:UNSET!IMPORTANT}
 .tab_item.focus .tab_item_details span.platform_img.mac{BACKGROUND-IMAGE:UNSET!iMPORTANT} */
 .tab_item.focus .tab_item_name{color:#585858!important}
-.discount_block .discount_final_price {color:#fff!important}
+.discount_block .discount_final_price {color:#585858!important}
 /*.tab_item.focus .discount_block .discount_final_price{color:var(--blue-er)!important}*/
 #tab_preview_container{border-radius:var(--border0)!important;top:15px!important;background:NONE!important}
 body.v6 .home_rightcol .tab_preview h2{color:#585858!important}
