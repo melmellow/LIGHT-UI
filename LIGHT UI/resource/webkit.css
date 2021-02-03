@@ -109,6 +109,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.apphub_CardCommentCount {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .broadcast_embeddable_viewer_bar_2Ygph .broadcast_embeddable_viewer_links_2EQpO {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 a.forum_comment_action img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .commentnotification_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
@@ -151,7 +152,7 @@ img{filter:grayscale(30%)!important}
 a img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .carousel_container .arrow > div {filter:brightness(50%)!important} 
 a.linkbar > img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
-.apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
+.apphub_UserReviewCardContent .review_award_aggregated > img {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .most_recommended .steam_curator_recommendation .steam_curator_for_app_img{filter:none!important}
 .review_box .short_header .review_source {filter: brightness(0)!important}
 .newmodal_background{opacity:0.9!important;backdrop-filter:var(--blur)!important}
@@ -1172,7 +1173,7 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 #contextselect_options .context_name:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!iMPORTANT}
 #contextselect_options .context_name {BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT}
 body.apphub_blue {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
-div.filterselect_options {COLOR:#585858!IMPORTANT}
+div.filterselect_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT;COLOR:#585858!IMPORTANT}
 .popup_block .popup_body{background:#E4E4E4!important}
 .apphub_CardContentGuideDesc {COLOR:#585858!IMPORTANT}
 .btn_profile_action .btn_medium .img{transform: rotate(180deg) scaleX(1)!important}
@@ -2003,7 +2004,7 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 #language_dropdown_button:hover, #language_dropdown_button:focus {COLOR:#000!IMPORTANT}
 #language_dropdown {BACKGROUND-IMAGE:NONE!iMPORTANT}
 .sidesection #searchwords {BORDER:1PX SOLID #B8B8B8!IMPORTANT}
-.btnv6_grey_black {background:#E4E4E4!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
+.btnv6_grey_black {background:#D6D6D6!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 #iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
 input.discussionSearchText{BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!important;padding:4px!important}
