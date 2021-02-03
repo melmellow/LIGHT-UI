@@ -88,6 +88,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+a.forum_comment_action img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .commentnotification_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .commentnotification_col img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .forum_topic_reply_count img, .forum_topic_award_count img {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -194,6 +195,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.forumtopic_comments .commentthread_comment .commentthread_comment_author {OPACITY:1!IMPORTANT}
 .forum_topic_op {COLOR:#585858!iMPORTANT}
 .workshop_apps_paging_pagelink, .workshop_apps_paging_controls .commentthread_pagelink {COLOR:#585858!iMPORTANT}
 .workshopAppsSort .browseOption.notSelected:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
@@ -1179,10 +1181,12 @@ a.recent_game_discussion.quasi_official_group:hover{background:#E4E4E4!important
 .discussion_tab_content_area h2.discussion_primary_header{font-size:40px!important}
 .discussion_tab_content_area h2{font-size:25px!important}
 .forum_op .date {COLOR:#585858!IMPORTANT}
+.forum_comment_action_menu {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .profile_header .persona_name {color:#585858!Important}
 a.hoverunderline:hover {TEXT-DECORATION:NONE!IMPORTANT}
-a.forum_comment_action {BACKGROUND-COLOR:NONE!iMPORTANT}
+a.forum_comment_action {BACKGROUND-COLOR:#E4E4E4!iMPORTANT}
 a.forum_comment_action:HOVER {BACKGROUND-COLOR:#D6D6D6!iMPORTANT}
+.group_breadcrumbs {COLOR:#585858!IMPORTANT}
 .forum_paging{COLOR:#585858!IMPORTANT;background:#dedede!important;border-radius:var(--border0)!important}
 .blotter_appselect_activeoption{background-image:none!important;border-radius:var(--border0)!important;color:var(--white)!important;background:var(--lightgrey)!important}
 .blotter_appselect_options{background:var(--realblack)!important;border-radius:var(--border0)!important;border:0!important;padding-top:3px!important}
