@@ -833,10 +833,15 @@ body.v6 .discount_prices > div {color:#585858!important}
 .curator_featured .contents{border-radius:var(--border0)!important}
 .ds_options > div{border-radius:var(--border1)!important}
 .tag_square{margin:2px!important}
+.paged_items_paging {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.page_content.steam_curator_header_text .header_area span {COLOR:#585858!iMPORTANT}
+.curatorlist_Title_1MhFd, .curatorlist_Blurb_rrcHS {COLOR:#585858!iMPORTANT;TEXT-SHADOW:NONE!IMPORTANT}
 .game_rating_area{border-radius:var(--border0)!important;margin-bottom: 15px!important}
 #package_header_container{border-radius:var(--border0)!important;margin-bottom:4px!important}
 .blotter_day_header_divider{display:none!important}
+body.v6 .creator_home p {COLOR:#585858!iMPORTANT}
 .blotter_day_header_date{left:245px!important}
+body.v6 .section_title_ctn p {COLOR:#585858!iMPORTANT}
 .blotter_workshopitem.guide{background-image:none!important;background-color:var(--darkergrey)!important}
 .blotter_workshopitem{background-image:none!important}
 .broadcast_footer{background:transparent!important}
