@@ -440,6 +440,7 @@ h4 {/* background:#d6d1d1!important; */color:#585858!important}
 .recommendation_highlight {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #detailStats td b {font-size:12px!important;color:#585858!important}
 .body_text {color:#585858!important}
+#tag_browse_description_recommended {COLOR:#585858!IMPORTANT}
 .queue_page_desc {color:#585858!important;font-family:segoe UI!important}
 .btn_small > span, input.btn_small {color:#fff!important}
 .tag_browse_header_desc {text-shadow:none!important;color:#585858!important}
