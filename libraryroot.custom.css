@@ -1582,7 +1582,7 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
 }
 
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
-	BORDER-RADIUS:10PX!IMPORTANT;
+	BORDER-RADIUS:0!IMPORTANT;
 	BORDER:1PX SOLID  var(--BASE2)!IMPORTANT;
 	BACKGROUND: var(--BASE1)!IMPORTANT;
 	BOX-SHADOW: 2PX 1PX 2PX VAR(--DIVIDER1)!IMPORTANT;
@@ -2752,6 +2752,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Icon16_3AoQ6 {
 	FILTER:BRIGHTNESS(0)!IMPORTANT;
+	opacity:50%!important;
 }
 
 
