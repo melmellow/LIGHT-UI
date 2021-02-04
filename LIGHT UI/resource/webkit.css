@@ -160,7 +160,7 @@ a img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 a.linkbar > img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 .apphub_UserReviewCardContent .review_award_aggregated > img {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .most_recommended .steam_curator_recommendation .steam_curator_for_app_img{filter:none!important}
-.review_box .short_header .review_source {filter: brightness(0)!important}
+.review_box .short_header .review_source {OPACITY:60%!IMPORTANT;filter:brightness(0)!important}
 .newmodal_background{opacity:0.9!important;backdrop-filter:var(--blur)!important}
 .workshopAppsSort .browseOptionImage {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .commentnotification_browseoption.active .browseOptionImage {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -228,6 +228,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.home_specials_grid .special:hover {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
+.home_specials_grid .special {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .block .block_content_inner p {COLOR:#585858!IMPORTANT}
 .package_totals_area .price {COLOR:#585858!IMPORTANT}
 #package_savings_bar {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;COLOR:#54A448!IMPORTANT}
@@ -1533,10 +1535,12 @@ img.game_header_image_full{border-radius:0!important;width:324px!important;margi
 body.v6 .game_area_already_owned.page_content{COLOR:#78BE6D!IMPORTANT;border-radius:var(--border0)!important}
 .game_area_play_stats{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
 .review_area_content {COLOR:#585858!iMPORTANT}
+.review_developer_response_text {COLOR:#585858!IMPORTANT}
 .user_reviews_filter_display_as select {OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT}
 .user_reviews_filter_display_as {BORDER-LEFT:NONE!IMPORTANT}
 #recommendation_success .review_box .thumb{border-radius:var(--border0)!important}
 #review_create h1,.reviewDate{border-top:0!important}
+.review_developer_response {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .review_developer_response_container.multiple_listing.store {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_summary_bar .summary_section {COLOR:#FFF!IMPORTANT}
 .game_area_purchase_game_wrapper .game_area_purchase_game{border-radius:var(--border0)!important}
