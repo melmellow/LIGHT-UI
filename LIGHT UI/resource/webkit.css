@@ -109,11 +109,12 @@
 }
 
 .help_app_header img {BORDER-RADIUS:0!iMPORTANT}
-
+.referringSteamCurator {COLOR:#585858!IMPORTANT}
 .queue_ignore_menu_option:hover {backgoround:#d6d6d6!important}
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.curator_received {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.graph_toggle_icon {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .apphub_CardCommentCount {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .broadcast_embeddable_viewer_bar_2Ygph .broadcast_embeddable_viewer_links_2EQpO {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
@@ -1585,8 +1586,8 @@ body.v6 .game_area_already_owned.page_content{COLOR:#78BE6D!IMPORTANT;border-rad
 .sysreq_tab:hover{background-color:var(--grey)!important;border-radius:var(--border0)!important}
 body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .review_box.short{background:var(--grey)!important;border-radius:var(--border0)!important}
-.rightcol.game_meta_data .block{border:1px solid #d6d1d1!important;background:#e4e4e4!important;border-radius:0!important}
-.rightcol.game_meta_data .block.heading{BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT;border-radius:10PX 10PX 0 0!important}
+.rightcol.game_meta_data .block{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;border:0!important;background:#e4e4e4!important;border-radius:0!important}
+.rightcol.game_meta_data .block.heading{BORDER:0!IMPORTANT;BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT;border-radius:0!important}
 .short_header{background-color:#E4E4E4!important;border-RADIUS:0!important}
 .short_header:hover{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .discount_block.no_discount .bundle_base_discount{border-right:0!important}
