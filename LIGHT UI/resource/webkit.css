@@ -227,6 +227,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+#package_savings_bar {COLOR:#54A448!IMPORTANT}
+.package_totals_area {COLOR:#585858!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .account_settings_container p.info {COLOR:#585858!IMPORTANT}
 .quadscreenshot_carousel .recommended_curator p {TEXT-SHADOW:NONE!iMPORTANT}
 .friend_block_v2 {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
