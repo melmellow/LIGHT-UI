@@ -677,6 +677,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L.libraryhomeshowcases_Visible_1XDaf {
+	BORDER:1PX SOLID VAR(--BUTTONBORDER)!IMPORTANT;
+}
+
 .artworkmodal_ArtworkModal_36VpV {
 	BORDER:2PX SOLID #D6D1D1!IMPORTANT;
 }
