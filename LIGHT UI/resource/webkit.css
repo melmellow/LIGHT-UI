@@ -357,6 +357,7 @@ td.wht_date {color:#585858!important}
 .account_setting_parenthetical {COLOR:#585858!iMPORTANT}
 .account_preferences input[type=checkbox], .account_preferences label {COLOR:#585858!IMPORTANT}
 .wth_item_refunded {COLOR:#585858!IMPORTANT}
+.generic_kv_table th, .generic_kv_table td {BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
 .youraccount_steamid {COLOR:#585858!iMPORTANT}
 .dq_settings_checkrow {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .review_anomalous_events_icon {COLOR:#585858!IMPORTANT}
