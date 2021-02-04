@@ -1462,7 +1462,7 @@ body.v6 .newonsteam_capsules > a {BACKGROUND:#E4E4E4!IMPORTANT}
 .btn_medium>span,input.btn_medium{padding:0 15px!important;line-height:30px!important}
 #rightContents .box{border-radius:0!important;background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .cart_tab_off {COLOR:#585858!IMPORTANT}
-.newonsteam_capsules > a > div.info {COLOR:#585858!IMPORTANT}
+.newonsteam_capsules > a > div.info {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;COLOR:#585858!IMPORTANT}
 .review_list h1{border-bottom:none!important}
 .review_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER-RADIUS:0!IMPORTANT;BORDER:0!IMPORTANT;BOX-SHADOW: 1PX 1PX 2PX #d6d1d1!IMPORTANT}
 .review_box .header{COLOR:#585858!IMPORTANT;border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;border-bottom:0!important;background:#E4E4E4!important/* ;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT */}
