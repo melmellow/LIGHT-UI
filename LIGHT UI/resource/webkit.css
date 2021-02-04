@@ -230,6 +230,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.joinchat_bg .joinchat_button {BACKGROUND:#1181D2!IMPORTANT}
+.game_area_comingsoon .not_yet {COLOR:#585858!IMPORTANT}
 .home_block_footer {COLOR:#585858!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .home_specials_grid .special:hover {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .home_specials_grid .special {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -249,7 +251,6 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .recommendation_desc {COLOR:#585858!iMPORTANT}
 .home_page_content .more_content_desc {COLOR:#585858!IMPORTANT}
 .forumtopic_comments .commentthread_comment .commentthread_comment_author {OPACITY:1!IMPORTANT}
-.forum_topic_op {COLOR:#585858!iMPORTANT}
 .workshop_apps_paging_pagelink, .workshop_apps_paging_controls .commentthread_pagelink {COLOR:#585858!iMPORTANT}
 .workshopAppsSort .browseOption.notSelected:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .friendBlock.persona.online {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -310,7 +311,6 @@ div.sortselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .friends_link_block {COLOR:#585858!IMPORTANT}
  .group_comments .commentthread_entry_quotebox {BACKGROUND-COLOR:#E8E8E8!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .app_tag_form_ctn .gray_bevel.for_text_input, .text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input, .text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border:1px solid #b8b8b8!important;border-radius:30px!important}
-.app_tag_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important}
 .tab_filter {BACKGROUND:#585858!iMPORTANT}
 .tab_filter_control_count {COLOR:#585858!IMPORTANT}
 .tab_filter_control_checkbox {BACKGROUND-IMAGE:NONE!iMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
@@ -2046,3 +2046,5 @@ input.discussionSearchText::SELECTION{COLOR:#585858!IMPORTANT}
 .member_block:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .game_hover_box{color:#585858!important;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;border:1px solid #D6D1D1!important}
 .game_hover_box p, .game_hover_box {BACKGROUND:#E4E4E4!IMPORTANT;color:#585858!important}
+.forum_topic_op {COLOR:#1181D2!iMPORTANT}
+.app_tag_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important}
