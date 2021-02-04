@@ -439,7 +439,7 @@ label.send_choice_txt {color:#585858!important}
 .not_interested_container .description {COLOR:#585858!IMPORTANT}
 #tsblTitle {color:#585858!Important}
 #topSummaryBoxContent {color:#585858!important;}
-.maincontent #topSummaryBoxContent {background-color:#c3c3c3!important}
+.maincontent #topSummaryBoxContent {background-color:#e4e4e4!important}
 .help_divider {background-color:#d6d1d1!important}
 .btn_profile_action.btn_medium {BACKGROUND-COLOR:#585858!iMPORTANT}
 .help_intro_text {color:#585858!important}
@@ -1904,8 +1904,8 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#
 .maincontent #topSummaryBoxContent{background-color:var(--bedarkgrey)!important;padding:10px 10px 20px 20px!important;margin:0 0 20px 0!important;border-radius:var(--border0)!important}
 #subtabs{background:0 0!important;height:10px!important}
 #personalAchieve{padding:20px 0 0 0!important}
-.achieveTxtHolder{background-color:var(--thegrey)!important;padding:0 10px!important}
-.achievementProgressBar{border-radius:var(--border4)!important}
+.achieveTxtHolder{box-shadow:1px 1px 2px #d6d1d1!important;background-color:#e4e4e4!important;padding:0 10px!important}
+.achievementProgressBar{background-color:#d6d6d6!important;border-radius:30px!important}
 .achieveBarProgress{background-color:#585858!Important;border-radius:var(--border1)!important}
 .achieveBar{background:#d6d6d6!important;border-radius:var(--border1)!important}
 .profile_small_header_texture>h1,h2{padding-left:-40px!important}
@@ -1918,7 +1918,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#
 h2.pageheader{padding-left:0!important}
 .newsrightcol .block .block_header{padding:5px 10px!important}
 .notification_paging {background-color:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important;color:#585858!important}
-
+.achievementProgressBar .progress {background-color:#54A448!important}
 
 
 /*qqq*/

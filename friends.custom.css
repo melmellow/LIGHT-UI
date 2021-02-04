@@ -2542,6 +2542,19 @@ letter-spacing: 0px;}
     height: 18px!important;
 	padding-right: 0.5px!important;
 	stroke: none!important;}
+	
+	.NotAFriendBody {
+		background-color:#000!important;
+	}
+	
+	.NotAFriendBody .Exclamation .SVGIcon_Caution line, .NotAFriendBody .Exclamation .SVGIcon_Caution path {
+		stroke:#fff!important;
+		fill:none!Important;
+	}
+	
+	.NotAFriendBody .ExplanationHeader {
+		color:#585858!Important;
+	}
   
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:hover, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:focus {
 BORDER:1PX SOLID #B8B8B8!IMPORTANT;
