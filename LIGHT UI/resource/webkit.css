@@ -87,9 +87,9 @@
 
 
 
-.tab_item.focus .tab_item_details span.platform_img.win {opacity:.5!important}
-.tab_item.focus .tab_item_details span.platform_img.mac {OPACITY:.5!IMPORTANT}
-.tab_item.focus .tab_item_details span.platform_img.linux{OPACITY:.5!IMPORTANT}
+.tab_item.focus .tab_item_details span.platform_img.win {opacity:60%!important}
+.tab_item.focus .tab_item_details span.platform_img.mac {OPACITY:60%!IMPORTANT}
+.tab_item.focus .tab_item_details span.platform_img.linux{OPACITY:60%!IMPORTANT}
 
 
 
