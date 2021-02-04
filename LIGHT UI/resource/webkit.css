@@ -350,6 +350,8 @@ td.wht_date {color:#585858!important}
 .not_interested_container {BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .game_purchase_discount .discount_pct, .game_purchase_discount .bundle_base_discount {BORDER-RADIUS:0!iMPORTANT}
 .dq_settings_content {COLOR:#585858!iMPORTANT}
+.sort_options .selected_sort {COLOR:#585858!iMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
+.sort_options a {TEXT-DECORATION:NONE!iMPORTANT}
 .queue_options_ctn {BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
 .dq_settings_content .dq_settings_section_title {COLOR:#585858!IMPORTANT}
 .account_setting_parenthetical {COLOR:#585858!iMPORTANT}
@@ -1991,6 +1993,7 @@ body.v6 #footer #footer_text a {color:#585858!important}
 .help_page_title {COLOR:#585858!iMPORTANT}
 .community_home_app_shortcuts .community_home_shortcut_content {BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 a, .whiteLink {color:#585858!important}
+.commentthread_footer {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 .store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;color:#000!important}
 .sectionTab:hover {BORDER-RADIUS:0!iMPORTANT;background:#D6D6D6!important;color:#585858!important}
 .blotter_screenshot_title {COLOR:#585858;FONT-WEIGHT:500!IMPORTANT}
