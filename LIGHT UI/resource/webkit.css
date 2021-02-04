@@ -144,14 +144,14 @@ body.v6 #footer #footer_logo_steam {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!i
 .review_box .vote_header .review_source {filter:brightness(0)!Important}
 .ico16 {opacity:60%!important;filter:brightness(0)!IMPORTANT}
 .broadcast_embeddable_viewer_count_1MrTW svg {filter:brightness(50%)!important}
-span.platform_img.valveindex {FILTER:BRIGHTNESS(60%)!IMPORTANT}
+span.platform_img.valveindex {opacity:60%!important;FILTER:BRIGHTNESS(0)!IMPORTANT}
 span.platform_img.music {filter:brightness(50%)!important}
-span.platform_img.linux {filter:brightness(50%)!important}
+span.platform_img.linux {opacity:60%!important;filter:brightness(0)!important}
 span.platform_img.htcvive {filter:brightness(50%)!important}
-span.platform_img.oculusrift {filter:brightness(50%)!important}
-span.platform_img.windowsmr {filter:brightness(50%)!important}
-span.platform_img.mac {filter:brightness(50%)!important}
-span.platform_img.win {filter:brightness(60%)!important} 
+span.platform_img.oculusrift {opacity:60%!important;filter:brightness(0)!important}
+span.platform_img.windowsmr {opacity:60%!important;filter:brightness(0)!important}
+span.platform_img.mac {opacity:60%!important;filter:brightness(0)!important}
+span.platform_img.win {opacity:60%!important;filter:brightness(0)!important} 
 body.v6 #footer #footer_logo img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 img{filter:grayscale(30%)!important}
 a img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
