@@ -1657,6 +1657,7 @@ h2 span.note:hover{background:rgba(23,67,92,1)!important;color:var(--white)!impo
 .rightcol .panel{border-radius:var(--border0)!important}
 .glance_ctn .user_reviews {COLOR:#585858!IMPORTANT}
 .bundle_label {COLOR:#1181D2!IMPORTANT}
+.referring_curator .blurb{COLOR:#585858!IMPORTANT}
 .rightcol .review_box.partial .content .gradient{background:0 0!important;border-radius:var(--border0)!important}
 a.communitylink_achievement.communitylink_achivement_plusmore{WIDTH:20PX!IMPORTANT;BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:0!important}
 .communitylink_achievement{width:0!important;border-radius:0!important}
@@ -1669,7 +1670,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore{WIDTH:20PX!IMPORTA
 div.early_access_announcements .post .hr{background-color:rgba(0,0,0,0)!important;height:0!important}
 .steam_curator_icon.medium{border-left:0!important}
 div.early_access_announcements .post .more{color:var(--blue-er)!important;padding-top:6px!important;padding-bottom:0!important;padding-left:5px!important;padding-right:5px!important;background:rgba(47,137,188,1)!important;border-radius:var(--border0)!important}
-.referring_curator{border-radius:var(--border0)!important}
+.referring_curator{BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;border-radius:var(--border0)!important}
 div.early_access_announcements .post .more:hover{color:var(--white)!important;padding-top:6px!important;padding-bottom:3px!important;padding-left:5px!important;padding-right:5px!important;background:rgba(23,67,92,1)!important;border-radius:var(--border0)!important}
 .btnv6_lightblue_blue{border-radius:var(--border0)!important;padding:4px!important;border:1px var(--littlegrey)!important;color:var(--black)!important;background:var(--blue-ish)!important}
 .btnv6_lightblue_blue>span{border-radius:var(--border0)!important;border:1px var(--littlegrey)!important;color:var(--black)!important;background:var(--blue-ish)!important}
