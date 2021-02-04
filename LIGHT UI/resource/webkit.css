@@ -114,6 +114,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+div.graph_toggle_icon {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .apphub_CardCommentCount {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .broadcast_embeddable_viewer_bar_2Ygph .broadcast_embeddable_viewer_links_2EQpO {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 a.forum_comment_action img {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -156,7 +157,7 @@ span.platform_img.win {opacity:60%!important;filter:brightness(0)!important}
 body.v6 #footer #footer_logo img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 img{filter:grayscale(30%)!important}
 a img {FILTER:BRIGHTNESS(50%)!IMPORTANT}
-.carousel_container .arrow > div {filter:brightness(50%)!important} 
+.carousel_container .arrow > div {OPACITY:60%!IMPORTANT;filter:brightness(0)!important} 
 a.linkbar > img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 .apphub_UserReviewCardContent .review_award_aggregated > img {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .most_recommended .steam_curator_recommendation .steam_curator_for_app_img{filter:none!important}
