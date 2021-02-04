@@ -228,6 +228,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.home_block_footer {COLOR:#585858!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .home_specials_grid .special:hover {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .home_specials_grid .special {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .block .block_content_inner p {COLOR:#585858!IMPORTANT}
@@ -411,7 +412,7 @@ input.DialogTextInputBase, input.DialogTextInputBase:not(disabled):hover, input.
 .profileeditshell_Shell_2kqKZ .profileeditshell_Navigation_33Kl1 .profileeditshell_NavLink_3rtIp.profileeditshell_Active_3H7Aw {BACKGROUND:#585858!iMPORTANT}
 .DialogHeader {COLOR:#585858!IMPORTANT}
 .game_area_purchase_game b, .game_area_offsite_purchase b {COLOR:#54A448!IMPORTANT}
-.tab_item:hover, .large .tab_item:hover {background:#E4E4E4!Important;border-color:#8D8D8D!Important}
+.tab_item:hover, .large .tab_item:hover {background:#E4E4E4!Important;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .tab_item_details {COLOR:#585858!IMPORTANT}
 /* .tab_item_details span.platform_img {opacity:1!important} */
 .tab_item.focus {BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT;padding-right:0!Important;BACKGROUND:#E4E4E4!IMPORTANT}
