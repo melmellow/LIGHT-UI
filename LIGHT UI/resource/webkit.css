@@ -230,6 +230,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.commentnotification:hover{BORDER:2PX SOLID #D6D1D1!IMPORTANT}
 .joinchat_bg .joinchat_button {BACKGROUND:#1181D2!IMPORTANT}
 .game_area_comingsoon .not_yet {COLOR:#585858!IMPORTANT}
 .home_block_footer {COLOR:#585858!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
