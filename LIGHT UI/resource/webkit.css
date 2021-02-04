@@ -213,7 +213,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 
-.col.search_name .platform_img {OPACITY:1!iMPORTANT}
+/* .col.search_name .platform_img {OPACITY:1!iMPORTANT} */
 .search_result_row.ds_flagged:not(.ds_wishlist) .col.search_capsule, .search_result_row.ds_flagged:not(.ds_wishlist) .platform_img {OPACITY:1!iMPORTANT}
 
 
