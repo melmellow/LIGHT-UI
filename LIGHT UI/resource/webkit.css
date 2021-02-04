@@ -142,7 +142,7 @@ body.v6 #footer #footer_logo_steam {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!i
 .phone_header_description img{FILTER:BRIGHTNESS(0)!IMPORTANT}
 .live_steam_viewers {OPACITY:60%!IMPORTANT;filter:brightness(0)!important}
 .review_box .vote_header .review_source {filter:brightness(0)!Important}
-.ico16 {filter:brightness(0)!IMPORTANT}
+.ico16 {opacity:60%!important;filter:brightness(0)!IMPORTANT}
 .broadcast_embeddable_viewer_count_1MrTW svg {filter:brightness(50%)!important}
 span.platform_img.valveindex {FILTER:BRIGHTNESS(60%)!IMPORTANT}
 span.platform_img.music {filter:brightness(50%)!important}
@@ -667,6 +667,10 @@ div.bb_h1, .bb_wysiwyg h1 {color:#585858!important;font-weight:bold!important}
 .bodytext {color:#585858!important}
 .mainSectionHeader {text-shadow:none!important}
 .error_ctn {BACKGROUND:#E4E4E4!IMPORTANT}
+.newsPostBlock .body li {color:#585858!important}
+.newsPostBlock .feed {color:#585858!important}
+.market_paging_pagelink, .market_paging_controls .commentthread_pagelink {color:#585858!important}
+.market_listing_listed_date {color:#585858!important}
 p.sectionText {COLOR:#585858!IMPORTANT}
 .item_market_action_button_green > span, .item_market_action_button_green .item_market_action_button_preload {background-image:none!important;background-color:#585858!important}
 .pick_and_sell_button .item_market_action_button_contents {color:#fff!important}
@@ -678,9 +682,11 @@ p.sectionText {COLOR:#585858!IMPORTANT}
 #footer {background:#dedede!important}
 .market_listing_table_header, .market_listing_table_header .market_listing_left_cell, .market_listing_table_header .market_listing_right_cell {border-left:none!important;color:#585858!important}
 .game_button > span {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;border-radius:0!important;background:#e4e4e4!important;border:0!important}
+.game_button > span:hover {border-right:2px solid #d6d1d1!important}
 .game_button:hover > span, .game_button .game_button_preload {background:#E4E4E4!important}
 .market_listing_their_price > .market_table_value .normal_price, .market_listing_their_price > .market_table_value .sale_price {color:#585858!important}
 .market_listing_row {border:0!important;border-radius:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.market_listing_row:hover {border-right:2px solid #D6d1d1!important}
 a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row_link:active, a.market_listing_row_link:visited {color:#585858!important}
 .my_market_header_count {color:#585858!important}
 .my_market_header_active {color:#585858!important}
@@ -1035,7 +1041,8 @@ img.tab_item_cap_img{border-radius:var(--border0)!important}
 .tab_preview{border-radius:var(--border0)!important}
 .carousel_items.store_capsule_container{border-radius:var(--border0)!important}
 .screenshot_container{display:none!important}
-.share{border-radius:var(--border0)!important}
+.newsPostBlock .headline .date {color:#585858!important}
+.share{color:#585858!important;background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important;border-radius:var(--border0)!important}
 .newshr{background-image:none!important}
 img.member_tile{border-radius:var(--border5)!important;padding:10px!important;}
 .apphub_Card.interactable{border-radius:var(--border0)!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
