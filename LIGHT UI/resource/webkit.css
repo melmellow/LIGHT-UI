@@ -131,6 +131,7 @@
 
 
 /*FILTERED ELEMENTS*/
+div.advanced_controls_toggle_icon{FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .newmodal_close {OPACITY:60%!iMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 #filter_clear_btn {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 img.category_icon {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
@@ -671,6 +672,7 @@ a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important
 #app_agegate select {BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;OUTLINE:0!IMPORTANT;PADDING-BOTTOM:0PX!IMPORTANT;BORDER-RADIUS:0!iMPORTANT;color:#585858!important;background-color:#D6D6D6!important}
 .game_review_summary.positive {COLOR:#1181D2!IMPORTANT}
 .community_recommendation_app > .right_col > .paging_thumbs > .num_reviews_desc {COLOR:#1181D2!IMPORTANT}
+.review_box .view_more a{BACKGROUND:#D6D6D6!IMPORTANT}
 .community_recommendations_block > .review_box .view_more a {BACKGROUND:NONE!IMPORTANT; PADDING:4PX!IMPORTANT}
 .community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow {BORDER-RADIUS:0!iMPORTANT;BACKGROUND-COLOR:#585858!IMPORTANT;COLOR:#FFF!IMPORTANT}
 .store_main_capsule .reason .main strong {COLOR:#54A448!IMPORTANT}
