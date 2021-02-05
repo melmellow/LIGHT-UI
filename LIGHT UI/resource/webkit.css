@@ -114,6 +114,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+#filter_clear_btn {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 img.category_icon {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .see_all_expander {BORDER:1PX SOLID #B8B8B8!IMPORTANT;WIDTH:20%!IMPORTANT;color:#FFF!important;FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;} 
 .game_language_options td span {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT;}
@@ -235,6 +236,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.item_desc_content.app753.context1 .item_desc_descriptors {COLOR:#585858!IMPORTANT}
 .user_reviews_filter_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .tab_item_overlay img:hover, .large .tab_item_overlay img:hover {BORDER:0!iMPORTANT}
 .sortbox .dselect_container {BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT}
