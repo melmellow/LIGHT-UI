@@ -230,6 +230,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.forumtopic_answer .answer_quote {border:1px solid #d6d1d1!important;color:#585858!important}
+.forumtopic_answer.answer_header {background:#e4e4e4!important}
 .popup_menu a.popup_menu_item:hover{background-color:#d6d6d6!important}
 .commentnotification:hover{BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .joinchat_bg .joinchat_button {BACKGROUND:#1181D2!IMPORTANT}
