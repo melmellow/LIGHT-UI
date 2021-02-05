@@ -253,6 +253,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .ico16.thumb_downv6 {OPACITY:60%!IMPORTANT}
 
 
+
+.inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+
 /* Main Code */
 .item_scrap_actions {BOX-SHADOW:1PX 0 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .checkout_review_item_desc {COLOR:#585858!IMPORTANT}
