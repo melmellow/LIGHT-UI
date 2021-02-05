@@ -235,6 +235,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.user_reviews_filter_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.tab_item_overlay img:hover, .large .tab_item_overlay img:hover {BORDER:0!iMPORTANT}
 .sortbox .dselect_container {BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT}
 .dlc_page_release_date {COLOR:#585858!IMPORTANT}
 .dlc_page_purchase_dlc {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
@@ -598,6 +600,7 @@ body.v6 .game_page_background {background:TRANSPARENT!important}
 .search_result_row, .search_result_row:hover {background:#E4E4E4!important}
 .search_result_row:hover {BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .slider_ctn .slider_left:hover, .slider_ctn .slider_right:hover, .slider .handle:hover {background:none!important;background-color:#000!important}
+.btnv6_blue_hoverfade {BORDER-RADIUS:0!iMPORTANT}
 .tab_see_more .btnv6_blue_hoverfade {border-radius:30px!important}
 body.v6 h2.pageheader {text-shadow:none!important}
 .community_recommendation_app > .right_col {BACKGROUND:#E4E4E4!IMPORTANT;border:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!important}
@@ -811,7 +814,7 @@ body.v6 .deep_dive_key_tags {border-top:1px solid #d6d1d1!important}
 html{background:var(--darkgrey)!important}
 div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{border-radius:var(--border1)!important;background:var(--darkgrey)!important;border:0px!important}
 #modalContent.modal.frame{position:absolute!important;border-radius:var(--border0)!important;width:100%!important;height:100%!important;margin:0!important;display:flex!important}
-#review_histograms_container {background-color:#585858!important}
+#review_histograms_container {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_filter_menu .title {BACKGROUND-IMAGE:NONE!iMPORTANT;color:#fff!important}
 .user_reviews_summary_bar .title {color:#fff!important}
 .game_details {color:#fff!important}
