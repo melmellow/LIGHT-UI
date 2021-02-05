@@ -151,7 +151,7 @@ body.v6 #footer #footer_logo_steam {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!i
 .broadcast_embeddable_viewer_count_1MrTW svg {filter:brightness(50%)!important}
 span.platform_img.valveindex {opacity:60%!important;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .review_box .vote_info .commentCount a {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
-span.platform_img.music {filter:brightness(50%)!important}
+span.platform_img.music {OPACITY:60%!IMPORTANT;filter:brightness(0)!important}
 span.platform_img.linux {opacity:60%!important;filter:brightness(0)!important}
 span.platform_img.htcvive {filter:brightness(50%)!important}
 span.platform_img.oculusrift {opacity:60%!important;filter:brightness(0)!important}
@@ -233,6 +233,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.sortbox .dselect_container {BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT}
 .dlc_page_release_date {COLOR:#585858!IMPORTANT}
 .dlc_page_purchase_dlc {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .game_name {COLOR:#585858!iMPORTANT}
@@ -325,7 +326,7 @@ div.sortselect_options div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .app_tag_form_ctn .gray_bevel.for_text_input, .text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input, .text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border:1px solid #b8b8b8!important;border-radius:30px!important}
 .tab_filter {BACKGROUND:#585858!iMPORTANT}
 .tab_filter_control_count {COLOR:#585858!IMPORTANT}
-.tab_filter_control_checkbox {BACKGROUND-IMAGE:NONE!iMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
+/* .tab_filter_control_checkbox {BACKGROUND-IMAGE:NONE!iMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT} */
 .tab_filter_control_checkbox {background:#d6d6d6!important}
 .tab_filter_control, .range_display {color:#585858!Important}
 .searchtag {COLOR:#FFF!IMPORTANT;BACKGROUND:#585858!IMPORTANT}
@@ -1551,7 +1552,7 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:
 .review_app_actions {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .ratingSummary {COLOR:#585858!iMPORTANT}
 img.game_header_image_full{border-radius:0!important;width:324px!important;margin-left:-5px!important}
-body.v6 .game_area_already_owned.page_content{background:#54A448!important;COLOR:#585858!IMPORTANT;border-radius:var(--border0)!important}
+body.v6 .game_area_already_owned.page_content{background:#54A448!important;COLOR:#FFF!IMPORTANT;border-radius:var(--border0)!important}
 .game_area_play_stats{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
 .review_area_content {COLOR:#585858!iMPORTANT}
 .review_developer_response_text {COLOR:#585858!IMPORTANT}
