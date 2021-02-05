@@ -144,7 +144,7 @@ body.v6 #footer #footer_logo_steam {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!i
 .view_inventory_logo img {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
 .apphub_CardMetaData .review_award_aggregated > img, .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .gutter_item .icon {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
-.cart_tab_left_on {FILTER:BRIGHTNESS(0)!IMPORTANT}
+.cart_tab_left_on {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 #checkout_steam_logo img{FILTER:BRIGHTNESS(50%)!IMPORTANT}
 .friends_nav a.icon_item .title {OPACITY:60%!IMPORTANT;filter:brightness(0)!important}
 .phone_header_description img{FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -236,6 +236,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.item_scrap_actions {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.checkout_review_item_desc {COLOR:#585858!IMPORTANT}
+.block {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .item_desc_content.app753.context1 .item_desc_descriptors {COLOR:#585858!IMPORTANT}
 .user_reviews_filter_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .tab_item_overlay img:hover, .large .tab_item_overlay img:hover {BORDER:0!iMPORTANT}
@@ -1864,7 +1867,7 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .view_inventory_page .inventory_page_right{border-radius:var(--border0)!important}
 .inventory_iteminfo .item_desc_content{background-image:none!important}
 #iteminfo0 .item_desc_content,#iteminfo1 .item_desc_content{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;background-color:var(--thegrey)!important}
-.item_market_actions{border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.item_market_actions{BACKGROUND-COLOR:#E4E4E4!IMPORTANT;border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
 .trade_item_box{background-color:transparent!important;border:1px solid transparent!important}
 .itemHolder{background-color:transparent!important;border-radius:var(--border0)!important;background-image:none!important}
 .market_dialog_contents .item,.trade_item_box .item{background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
