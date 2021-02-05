@@ -114,6 +114,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.ico18 {FILTER:BRIGHTNESS(0)!IMPORTANT;opacity:60%!important}
 .forumtopic_answer.answer_header img {filter:brightness(0)!important;opacity:60%!important}
 .curator_received {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.graph_toggle_icon {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -188,7 +189,7 @@ a.linkbar > img {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 
 /*FEATURED & RECOMMENDED*/
 .carousel_container.maincap .carousel_items {border-radius:0!important;border:0!important;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-
+.carousel_container.maincap .carousel_items:active {background:#e4e4e4!important}
 
 
 /* Scrollbar */
@@ -231,6 +232,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+#review_create .content .controls .dselect_container {BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT}
 .forumtopic_answer {background:#e4e4e4!important}
 .forumtopic_answer .answer_quote {border:1px solid #d6d1d1!important;color:#585858!important}
 .forumtopic_answer.answer_header {background:#e4e4e4!important}
@@ -598,7 +600,7 @@ h2 {color:font-weight:500!important}
 .slider_left span {background-image:none!important}
 .forum_topic_reply_count, .forum_topic_award_count {COLOR:#585858!iMPORTANT}
 .game_purchase_discount_countdown {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
-.emoticon_button:hover, .emoticon_button.focus {background-image:none!important}
+/* .emoticon_button:hover, .emoticon_button.focus {background-image:none!important} */
 .forum_topic  {background-color:#E4E4E4!important;BORDER-RADIUS:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .forum_topic_op{color:#74AFC2!important}
 .discussions_forum_row {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
@@ -983,7 +985,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .accountTable > tbody > tr:nth-child(even) {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
 .accountTable th {COLOR:#FFF!IMPORTANT}
 .accountTable > tbody > tr:nth-child(odd) {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
-.popup_block_new .popup_body{border:1px solid #d6d6d6!important;position:relative!important;background-color:#dedede!important}
+.popup_block_new .popup_body{border:1px solid #d6d1d1!important;position:relative!important;background-color:#e4e4e4!important}
 div#global_header .submenuitem{background:var(--realblack)!important}
 .home_discounts_ctn .see_more_link, .home_category_games_ctn .see_more_link, .home_category_ctn .see_more_link{bottom:-5px!important;background:var(--grey)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--blue)!important}
 .home_category_games_ctn .see_more_link:hover, .home_discounts_ctn .see_more_link:hover, .home_category_ctn .see_more_link:hover{bottom:-5px!important;background:var(--blue)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--black)!important}
@@ -1542,7 +1544,7 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:
 .review_app_actions {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .ratingSummary {COLOR:#585858!iMPORTANT}
 img.game_header_image_full{border-radius:0!important;width:324px!important;margin-left:-5px!important}
-body.v6 .game_area_already_owned.page_content{COLOR:#78BE6D!IMPORTANT;border-radius:var(--border0)!important}
+body.v6 .game_area_already_owned.page_content{background:#B7D7B2!important;COLOR:#fff!IMPORTANT;border-radius:var(--border0)!important}
 .game_area_play_stats{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
 .review_area_content {COLOR:#585858!iMPORTANT}
 .review_developer_response_text {COLOR:#585858!IMPORTANT}
@@ -1564,7 +1566,7 @@ body.v6 .game_area_already_owned.page_content{COLOR:#78BE6D!IMPORTANT;border-rad
 .queue_ctn{width:940px;border-radius:var(--border0)!important;background:0 0!important}
 .glance_details img:hover{border:0!important;border-radius:var(--border0)!important}
 .game_area_dlc_bubble{border-radius:var(--border0)!important}
-.ds_flag.ds_completetheset{BACKGROUND:#585858!IMPORTANT;border-radius:var(--border0)!important}
+.ds_flag.ds_completetheset{BACKGROUND:#1181D2!IMPORTANT;border-radius:var(--border0)!important}
 .review_box .posted {COLOR:#585858!iMPORTANT}
 .review_box .postedDate {COLOR:#585858!IMPORTANT}
 .game_description_column h2,.recommendation_bodytext h2{background-image:none!important}
