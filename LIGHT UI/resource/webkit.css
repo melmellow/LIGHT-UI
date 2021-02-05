@@ -1218,7 +1218,7 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .apphub_background{background:var(--darkgrey)!important}
 .apphub_NoMoreContent {COLOR:#585858!IMPORTANT}
 .fraud_warning_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT}
-.context_name {COLOR:#585858!IMPORTANT}
+.context_name {FONT-SIZE:17PX!IMPORTANT;COLOR:#585858!IMPORTANT}
 #contextselect_options .context_name:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!iMPORTANT}
 #contextselect_options .context_name {BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT}
 body.apphub_blue {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
@@ -2027,7 +2027,7 @@ body.v6 {COLOR:#585858!IMPORTANT;BACKGROUND:#dedede!IMPORTANT}
 body.v6 h2 a {color:#585858!important}
 body.v6 #footer .valve_links a {color:#585858!important}
 body.v6 #footer #footer_text a {color:#585858!important}
-#contextselect, #contextselect_options_contexts {WIDTH:243PX!iMPORTANT}
+#contextselect, #contextselect_options_contexts {WIDTH:180PX!iMPORTANT}
 .help_lowlight_text {COLOR:#585858!IMPORTANT}
 .help_highlight_text {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .help_page_title {COLOR:#585858!iMPORTANT}
