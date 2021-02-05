@@ -1260,7 +1260,7 @@ body.flat_page:not(.iframe){background:var(--darkgrey)!important}
 .friendBlock{background:var(--darkgrey)!important}
 .miniprofile_top{border:0!important;background:var(--grey)!important;border-radius:var(--border0)!important}
 .miniprofile_player .playername{padding-top:10px!important}
-#contextselect{BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;background-color:#D6D6D6!important;background-image:none!important}
+#contextselect{BORDER:0!IMPORTANT;BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;background-color:#D6D6D6!important;background-image:none!important}
 .friend_blocks_twoxtwo .friend_name{margin-top:10px!important}
 .friend_blocks_twoxtwo .friend_block_holder{border-radius:var(--border0)!important}
 .miniprofile_favorite_badge{background:var(--darkgrey)!important;border:0!important}
@@ -2027,6 +2027,7 @@ body.v6 {COLOR:#585858!IMPORTANT;BACKGROUND:#dedede!IMPORTANT}
 body.v6 h2 a {color:#585858!important}
 body.v6 #footer .valve_links a {color:#585858!important}
 body.v6 #footer #footer_text a {color:#585858!important}
+#contextselect, #contextselect_options_contexts {WIDTH:243PX!iMPORTANT}
 .help_lowlight_text {COLOR:#585858!IMPORTANT}
 .help_highlight_text {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .help_page_title {COLOR:#585858!iMPORTANT}
