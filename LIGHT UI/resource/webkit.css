@@ -114,6 +114,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.game_language_options td span {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT;}
 .ico18 {FILTER:BRIGHTNESS(0)!IMPORTANT;opacity:60%!important}
 .forumtopic_answer.answer_header img {filter:brightness(0)!important;opacity:60%!important}
 .curator_received {FILTER:BRIGHTNESS(0)!IMPORTANT}
@@ -495,12 +496,13 @@ a {color:#585858!important}
 .explore_rightcol_box {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .explore_rightcol_count {color:#585858!important}
 .faq_question {font-weight:bold!important;color:#585858!important}
+.early_access_review  {BACKGROUND-COLOR:#1181D2!IMPORTANT}
 .faq_answer {color:#585858!important}
 .color_created {COLOR:#585858!IMPORTANT}
 .creatorhome .browse_content .recommendation {MARGIN-BOTTOM:4PX!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .creatorhome .curator_review_date {COLOR:#585858!iMPORTANT}
 .browse_content .recommendation:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
-.game_description_column .block .block_content a:hover {border:1px solid #b6b6b6!important}
+.game_description_column .block .block_content a:hover {border:0!important;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 div.early_access_header .devnotes .morebutton {background:NONE!important}
 div.early_access_header .devnotes > div {color:#585858!important}
 div.early_access_header .heading p span {font-weight:bold!important}
@@ -633,7 +635,7 @@ a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important
 .store_main_capsule, .store_main_capsule:hover {background-image:none!IMportant}
 .checkout_content_box .checkout_content.cart, .checkout_content_box .checkout_content.confirm {border:1px solid #d6d1d1!important;background:#e4e4e4!important}
 .agegate_birthday_selector {BORDER:0!IMPORTANT;BORDER-RADIUS:0!iMPORTANT;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-#app_agegate select {OUTLINE:0!IMPORTANT;PADDING-BOTTOM:0PX!IMPORTANT;BORDER-RADIUS:0!iMPORTANT;color:#585858!important;background-color:#D6D6D6!important}
+#app_agegate select {BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;OUTLINE:0!IMPORTANT;PADDING-BOTTOM:0PX!IMPORTANT;BORDER-RADIUS:0!iMPORTANT;color:#585858!important;background-color:#D6D6D6!important}
 .game_review_summary.positive {COLOR:#1181D2!IMPORTANT}
 .community_recommendation_app > .right_col > .paging_thumbs > .num_reviews_desc {COLOR:#1181D2!IMPORTANT}
 .community_recommendations_block > .review_box .view_more a {BACKGROUND:NONE!IMPORTANT; PADDING:4PX!IMPORTANT}
@@ -1574,7 +1576,7 @@ body.v6 .game_area_already_owned.page_content{background:#54A448!important;COLOR
 .review_box .postedDate {COLOR:#585858!IMPORTANT}
 .game_description_column h2,.recommendation_bodytext h2{background-image:none!important}
 .game_description_column .block .block_header h4{background-image:none!important}
-.game_description_column .block .block_content a{border-radius:0!important;background-color:#E4E4E4!important}
+.game_description_column .block .block_content a{border-radius:0!important;background-color:TRANSPARENT!important}
 .game_description_column .block .block_content a img{border-radius:var(--border0)!important}
 .game_area_already_owned .ds_flag{border-radius:var(--border0)!important;background-COLOR:#E4E4E4!important}
 #review_create .avatar>img{border-radius:var(--border5)!important}
@@ -1984,7 +1986,7 @@ div.profile_page.has_profile_background{z-index:0!important}
 .queue_overflow_ctn{BACKGROUND:#DEDEDE!IMPORTANT;margin-top:-20px!important}
 .ellipsis {color:#585858!important}
 div.bb_h3, .bb_wysiwyg h3 {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!IMPORTANT}
-.two_column .nav_item {MARGIN-BOTTOM:4PX!iMPORTANT;BORDER-RADIUS:0!iMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.two_column .nav_item {MARGIN-BOTTOM:4PX!iMPORTANT;BORDER-RADIUS:0!iMPORTANT;BORDER:0!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* This is the part for the Group page Banner */
 .grouppage_membertiles_overlay{top:0!important;padding-bottom:12px!important;background:var(--darkgrey)!important;opacity:.9!important}
