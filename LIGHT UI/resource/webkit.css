@@ -812,11 +812,12 @@ body.v6 .deep_dive_key_tags {border-top:1px solid #d6d1d1!important}
 .store_main_capsule, .store_main_capsule {color:#fff!important;background:#e4e4e4!important}
 .app_tag {background:#585858!important; color:#fff!important}
 html{background:var(--darkgrey)!important}
+.user_reviews_summary_bar .game_review_summary {TEXT-SHADOW:NONE!IMPORTANT}
 div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{border-radius:var(--border1)!important;background:var(--darkgrey)!important;border:0px!important}
 #modalContent.modal.frame{position:absolute!important;border-radius:var(--border0)!important;width:100%!important;height:100%!important;margin:0!important;display:flex!important}
 #review_histograms_container {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_filter_menu .title {BACKGROUND-IMAGE:NONE!iMPORTANT;color:#fff!important}
-.user_reviews_summary_bar .title {color:#fff!important}
+.user_reviews_summary_bar .title {color:#585858!important}
 .game_details {color:#fff!important}
 .game_details b {color:#585858!important;font-weight:440!important}
 .community_recommendations_by_steam_labs_ctn h1 {color:#585858!important}
@@ -1560,13 +1561,14 @@ body.v6 .game_area_already_owned.page_content{background:#54A448!important;COLOR
 .game_area_play_stats{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border-radius:var(--border0)!important}
 .review_area_content {COLOR:#585858!iMPORTANT}
 .review_developer_response_text {COLOR:#585858!IMPORTANT}
+.games_list_tab, a.games_list_tab {BACKGROUND-COLOR:TRANSPARENT!iMPORTANT}
 .user_reviews_filter_display_as select {OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT}
 .user_reviews_filter_display_as {BORDER-LEFT:NONE!IMPORTANT}
 #recommendation_success .review_box .thumb{border-radius:var(--border0)!important}
 #review_create h1,.reviewDate{border-top:0!important}
 .review_developer_response {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
 .review_developer_response_container.multiple_listing.store {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.user_reviews_summary_bar .summary_section {COLOR:#FFF!IMPORTANT}
+.user_reviews_summary_bar .summary_section {COLOR:#585858!IMPORTANT}
 .game_area_purchase_game_wrapper .game_area_purchase_game{border-radius:var(--border0)!important}
 .game_area_purchase_game>a{border-radius:var(--border0)!important}
 .btn_medium>span.subscribeText{padding-left:35px!important}
@@ -1891,7 +1893,7 @@ div.sharedfiles_filterselect:hover {border-color:#8d8d8d!important}
 #sharedfiles_filterselect_app_filter {OUTLINE:NONE!iMPORTANT;COLOR:#585858!iMPORTANT}
 div#sharedfiles_filterselect_app_filterable {BORDER:0!iMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!iMPORTANT}
 div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
-.games_list_tab_row_separator{border-top:0!important}
+.games_list_tab_row_separator{BACKGROUND-COLOR:#D6D1D1!IMPORTANT;border-top:0!important}
 .browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1px 1px 2px #D6D1D1!IMPORTANT}
 .browseAppsTitleContainer{border-radius:0!important;background:#E4E4E4!important;background-color:#E4E4E4!important}
 .searchApps{border-radius:var(--border2)!important;background:#E8E8E8!important;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
