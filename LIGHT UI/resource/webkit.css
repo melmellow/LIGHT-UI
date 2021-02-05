@@ -113,7 +113,25 @@
 .queue_ignore_menu_option:hover {backgoround:#d6d6d6!important}
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
+
+
+
+
+/*////////////////////////BUG/////////////////////////////////////*/
+.btn_grey_grey {BACKGROUND:NONE!IMPORTANT}
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background:#D6D6D6!important;color:#FFF!important}
+
+
+
+
+
+
+
+
+
+
 /*FILTERED ELEMENTS*/
+.newmodal_close {OPACITY:60%!iMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 #filter_clear_btn {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 img.category_icon {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .see_all_expander {BORDER:1PX SOLID #B8B8B8!IMPORTANT;WIDTH:20%!IMPORTANT;color:#FFF!important;FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;} 
@@ -236,7 +254,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
-.item_scrap_actions {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
+.item_scrap_actions {BOX-SHADOW:1PX 0 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .checkout_review_item_desc {COLOR:#585858!IMPORTANT}
 .block {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .item_desc_content.app753.context1 .item_desc_descriptors {COLOR:#585858!IMPORTANT}
@@ -793,8 +811,6 @@ a.gutter_item {color:#585858!important}
 .spotlight_block .spotlight_content>h2, .spotlight_body {COLOR:#585858!IMPORTANT}
 /*.carousel_container .carousel_items:not(.no_paging) > * {BACKGROUND:#E4E4E4!important}*/
 .btn_profile_action {background-color:#585858!important;color:#fff!important}
-.btn_grey_grey {BACKGROUND:#585858!IMPORTANT}
-.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background:#000!important;color:#FFF!important}
 .blotter_group_announcement_header {background:#E4E4E4!important}
 .community_home_header .appHubShortcut, .community_home_header .appHubShortcut a, .community_home_header .appHubShortcut a:visited {color:#585858!important}
 .recently_updated .store_capsule .recently_updated_announcement_link {COLOR:#585858!IMPORTANT}
@@ -1851,7 +1867,7 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .view_inventory_page.inventory_msg_ctn{BORDER:0!iMPORTANT;border-radius:var(--border0)!important}
 .primary_panel_border{background:0 0!important}
 .booster_goo_cost {COLOR:#585858!iMPORTANT}
-.booster_creator_page select {OUTLINE:NONE!iMPORTANT}
+.booster_creator_page select {BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT;OUTLINE:NONE!iMPORTANT}
 .booster_creator_area {BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .booster_creator_goostatus {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 .trade_item_box .item, .market_dialog_contents .item {BORDER-RADIUS:0!iMPORTANT;BORDER:1PX SOLID #D6D1D1!IMPORTANT}
@@ -1867,7 +1883,7 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .view_inventory_page .inventory_page_right{border-radius:var(--border0)!important}
 .inventory_iteminfo .item_desc_content{background-image:none!important}
 #iteminfo0 .item_desc_content,#iteminfo1 .item_desc_content{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important;background-color:var(--thegrey)!important}
-.item_market_actions{BACKGROUND-COLOR:#E4E4E4!IMPORTANT;border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.item_market_actions{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
 .trade_item_box{background-color:transparent!important;border:1px solid transparent!important}
 .itemHolder{background-color:transparent!important;border-radius:var(--border0)!important;background-image:none!important}
 .market_dialog_contents .item,.trade_item_box .item{background-color:rgba(0,0,0,0)!important;border-radius:var(--border0)!important}
@@ -1884,7 +1900,7 @@ span.bb_spoiler{border-radius:var(--border0)!important}
 .badge_progress_card.unowned{border:0!important;border-radius:var(--border0)!important}
 .profile_xp_block{border:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BORDER-RADIUS:0!iMPORTANT}
 .profile_xp_block_remaining_bar_progress{BACKGROUND:#D6D6D6!IMPORTANT;BACKGROUND-COLOR:#585858!IMPORTANT;border-radius:30PX!important;background-image:none!important}
-.profile_xp_block_remaining_bar {BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.profile_xp_block_remaining_bar {BORDER:0!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .main_content_ctn{border:0!important}
 .browseAppsTitle .highlight {COLOR:#585858!IMPORTANT}
 .browseOption.notSelected a {COLOR:#585858!iMPORTANT}
