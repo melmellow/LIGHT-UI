@@ -114,7 +114,8 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
-.see_all_expander {BORDER:1PX SOLID #B8B8B8!IMPORTANT;WIDTH:20%!IMPORTANT;color:#585858!important;FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;} 
+img.category_icon {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
+.see_all_expander {BORDER:1PX SOLID #B8B8B8!IMPORTANT;WIDTH:20%!IMPORTANT;color:#FFF!important;FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT;BACKGROUND-COLOR:#D6D6D6!IMPORTANT;} 
 .game_language_options td span {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT;}
 .ico18 {FILTER:BRIGHTNESS(0)!IMPORTANT;opacity:60%!important}
 .forumtopic_answer.answer_header img {filter:brightness(0)!important;opacity:60%!important}
