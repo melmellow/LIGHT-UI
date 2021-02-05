@@ -1218,6 +1218,7 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .apphub_background{background:var(--darkgrey)!important}
 .apphub_NoMoreContent {COLOR:#585858!IMPORTANT}
 .fraud_warning_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT}
+.context_name {COLOR:#585858!IMPORTANT}
 #contextselect_options .context_name:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!iMPORTANT}
 #contextselect_options .context_name {BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT}
 body.apphub_blue {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
@@ -1259,7 +1260,7 @@ body.flat_page:not(.iframe){background:var(--darkgrey)!important}
 .friendBlock{background:var(--darkgrey)!important}
 .miniprofile_top{border:0!important;background:var(--grey)!important;border-radius:var(--border0)!important}
 .miniprofile_player .playername{padding-top:10px!important}
-#contextselect{background-color:#585858!important;background-image:none!important}
+#contextselect{BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;background-color:#D6D6D6!important;background-image:none!important}
 .friend_blocks_twoxtwo .friend_name{margin-top:10px!important}
 .friend_blocks_twoxtwo .friend_block_holder{border-radius:var(--border0)!important}
 .miniprofile_favorite_badge{background:var(--darkgrey)!important;border:0!important}
