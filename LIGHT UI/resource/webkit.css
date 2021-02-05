@@ -114,6 +114,7 @@
 .queue_ignore_menu_option:hover .queue_ignore_menu_option_label > .option_subtitle {COLOR:#585858!iMPORTANT}
 
 /*FILTERED ELEMENTS*/
+.forumtopic_answer.answer_header img {filter:brightness(0)!important;opacity:60%!important}
 .curator_received {FILTER:BRIGHTNESS(0)!IMPORTANT}
 div.graph_toggle_icon {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!IMPORTANT}
 .apphub_CardCommentCount {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
@@ -230,6 +231,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 
 /* Main Code */
+.forumtopic_answer {background:#e4e4e4!important}
 .forumtopic_answer .answer_quote {border:1px solid #d6d1d1!important;color:#585858!important}
 .forumtopic_answer.answer_header {background:#e4e4e4!important}
 .popup_menu a.popup_menu_item:hover{background-color:#d6d6d6!important}
@@ -1785,7 +1787,7 @@ a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue
 .rightbox_list_selection_background{left:-10px!important;background:#D6D6D6!important;border-radius:0!important}
 .bundle_contents_preview{border-radius:0!important;background:#dedede!important}
 .group_content_header .group_content_header_viewmore{border-radius:var(--border0)!important;background-color:rgba(47,137,188,1)!important;color:var(--white)!important}
-.forumtopic_answer.answer_ctn{border-radius:var(--border0)!important}
+.forumtopic_answer.answer_ctn{box-shadow:1px 1px 2px #d6d1d1!important;border:0!Important;border-radius:var(--border0)!important}
 .forumtopic_comments .commentthread_answer_bar{border-radius:var(--border0)!important}
 img#blotter_nofriends_block{border-radius:var(--border0)!important}
 #instructions_main_container{border:0!important;border-radius:var(--border0)!important}
