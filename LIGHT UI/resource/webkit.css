@@ -2027,7 +2027,8 @@ body.v6 {COLOR:#585858!IMPORTANT;BACKGROUND:#dedede!IMPORTANT}
 body.v6 h2 a {color:#585858!important}
 body.v6 #footer .valve_links a {color:#585858!important}
 body.v6 #footer #footer_text a {color:#585858!important}
-#contextselect, #contextselect_options_contexts {WIDTH:180PX!iMPORTANT}
+#contextselect .context_name{PADDING-RIGHT:13PX!IMPORTANT}
+#contextselect, #contextselect_options_contexts {WIDTH:160PX!iMPORTANT}
 .help_lowlight_text {COLOR:#585858!IMPORTANT}
 .help_highlight_text {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .help_page_title {COLOR:#585858!iMPORTANT}
