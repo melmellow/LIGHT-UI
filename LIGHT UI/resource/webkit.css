@@ -1247,7 +1247,7 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .apphub_background{background:var(--darkgrey)!important}
 .apphub_NoMoreContent {COLOR:#585858!IMPORTANT}
 .fraud_warning_box {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT}
-.context_name {FONT-SIZE:17PX!IMPORTANT;COLOR:#585858!IMPORTANT}
+.context_name {height:25px!important;FONT-SIZE:17PX!IMPORTANT;COLOR:#585858!IMPORTANT}
 #contextselect_options .context_name:hover {BACKGROUND-COLOR:#D6D6D6!IMPORTANT;COLOR:#585858!iMPORTANT}
 #contextselect_options .context_name {BORDER-BOTTOM:0!IMPORTANT;COLOR:#585858!IMPORTANT}
 body.apphub_blue {BACKGROUND:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
