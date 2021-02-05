@@ -468,6 +468,7 @@ body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subhea
 .friend_game_block .friend_activity:hover {background:#d6d6d6!important}
 .friendactivity_tab_header {background-color:#dedede!important;color:#585858!important}
 h4 {/* background:#d6d1d1!important; */color:#585858!important}
+.recommendation_highlight .highlight_description {COLOR:#585858!IMPORTANT}
 .recommendation_highlight .highlight_description h4 {color:#585858!important}
 .recommendation_highlight {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #detailStats td b {font-size:12px!important;color:#585858!important}
@@ -498,6 +499,7 @@ a {color:#585858!important}
 .faq_question {font-weight:bold!important;color:#585858!important}
 .early_access_review  {BACKGROUND-COLOR:#1181D2!IMPORTANT}
 .faq_answer {color:#585858!important}
+.recommendation_highlight .highlight_description .regular_price {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .color_created {COLOR:#585858!IMPORTANT}
 .creatorhome .browse_content .recommendation {MARGIN-BOTTOM:4PX!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .creatorhome .curator_review_date {COLOR:#585858!iMPORTANT}
