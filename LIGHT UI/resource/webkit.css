@@ -140,7 +140,7 @@ div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {FILTER:B
 div.sortselect #sortselect_arrow {FILTER:BRIGHTNESS(50%)!IMPORTANT}
 body.v6 #footer #footer_logo_steam {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
 .profile_customization_edit_icon {FILTER:BRIGHTNESS(50%)!IMPORTANT}
-.view_inventory_logo img {FILTER:BRIGHTNESS(50%)!iMPORTANT}
+.view_inventory_logo img {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
 .apphub_CardMetaData .review_award_aggregated > img, .apphub_UserReviewCardContent .review_award_aggregated > img {FILTER:BRIGHTNESS(0)!IMPORTANT}
 .gutter_item .icon {OPACITY:60%!iMPORTANT;filter:brightness(0)!important}
 .cart_tab_left_on {FILTER:BRIGHTNESS(0)!IMPORTANT}
