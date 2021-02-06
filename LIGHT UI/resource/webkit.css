@@ -163,6 +163,7 @@ body.clientNews .post_pmbutton {color:#000!important}
 
 
 /*FILTERED ELEMENTS*/
+.general_btn.voteDown {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .rateUpCount img {filter:brightness(0)!important;opacity:60%!important}
 span.platform_img.streamingvideo {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
 div.advanced_controls_toggle_icon{FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
@@ -293,7 +294,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 
 /* Main Code */
 .backgroundImg {OPACITY:0!IMPORTANT}
-.general_btn.voteUp{BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
+.general_btn {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
 .workshopItemSubscription {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .workshopItemSubscription:hover {BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .greyHR, .greyHR2 {BACKGROUND-COLOR:TRANSPARENT!iMPORTANT}
@@ -560,7 +561,7 @@ a {color:#585858!important}
 .curator_giant_capsule .curator_block .blurb > span, .curator_giant_capsule .curator_block .blurb > span:hover {color:#585858!important}
 .hover_details_block, .hover_details_block_full {color:#585858!important}
 .store_nav .popup_menu .popup_menu_item:hover, .store_nav .popup_menu .popup_menu_item.focus, .creator .popup_menu .popup_menu_item:hover, .creator .popup_menu .popup_menu_item.focus, .curator .popup_menu .popup_menu_item:hover, .curator .popup_menu .popup_menu_item.focus, .footer_content .popup_menu .popup_menu_item:hover, .footer_content .popup_menu .popup_menu_item.focus, .search_area .popup_body .match:hover, .search_area .popup_body .match:hover .match_name, .search_area .popup_body .match.focus, .search_area .popup_body .match.focus .match_name {BORDER-RADIUS:0!iMPORTANT;background-color:#d6d6d6!important} 
-.carousel_container .carousel_thumbs > div {border:1px solid #b6b6b6!important;BACKGROUND-COLOR:#d6d6d6!IMPORTANT}
+.carousel_container .carousel_thumbs > div {border:0!important;BACKGROUND-COLOR:#d6d6d6!IMPORTANT}
 .carousel_container .carousel_thumbs > div:hover {border-color:#8D8D8D!important}
 .carousel_container .carousel_thumbs > div.focus {background-color:#585858!important}
 .dselect_container a.trigger {BORDER-BOTTOM:#B8B8B8!IMPORTANT;background:#D6D6D6!important}
