@@ -163,7 +163,6 @@ body.clientNews .post_pmbutton {color:#000!important}
 
 
 /*FILTERED ELEMENTS*/
-.general_btn.voteDown {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .rateUpCount img {filter:brightness(0)!important;opacity:60%!important}
 span.platform_img.streamingvideo {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
 div.advanced_controls_toggle_icon{FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
@@ -293,8 +292,12 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.game_area_purchase_game > h1 span {COLOR:#585858!IMPORTANT}
+.workshopTagsTitle {COLOR:#585858!IMPORTANT}
+.detailsStatNumChangeNotes {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
+.detailsStatLeft {COLOR:#585858!iMPORTANT}
 .backgroundImg {OPACITY:0!IMPORTANT}
-.general_btn {BACKGROUND-COLOR:TRANSPARENT!IMPORTANT}
+.general_btn {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .workshopItemSubscription {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .workshopItemSubscription:hover {BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .greyHR, .greyHR2 {BACKGROUND-COLOR:TRANSPARENT!iMPORTANT}
@@ -1320,7 +1323,7 @@ body.flat_page:not(.iframe){background:var(--darkgrey)!important}
 #comments {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 .detailBox{background:0 0!important}
 .commentthread_area .commentthread_header{background:TRANSPARENT!important}
-.workshop_item_header{background:var(--bedarkgrey)!important}
+.workshop_item_header{background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .sectionTab.active>span{background:var(--bedarkgrey)!important}
 .sectionTab.active{background:0 0!important}
 .sectionTab,a.sectionTab{background-color:rgba(0,0,0,0)!important}
