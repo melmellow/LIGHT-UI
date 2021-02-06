@@ -163,6 +163,8 @@ body.clientNews .post_pmbutton {color:#000!important}
 
 
 /*FILTERED ELEMENTS*/
+.apphub_WorkshopPiston {FILTER:BRIGHTNESS(0)!iMPORTANT;OPACITY:60%!iMPORTANT}
+.dotted_hr_uri, h2.stats:before, h2.stats:after {FILTER:BRIGHTNESS(0)!iMPORTANT;OPACITY:60%!IMPORTANT}
 .rateUpCount img {filter:brightness(0)!important;opacity:60%!important}
 span.platform_img.streamingvideo {OPACITY:60%!IMPORTANT;FILTER:BRIGHTNESS(0)!iMPORTANT}
 div.advanced_controls_toggle_icon{FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
@@ -292,6 +294,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.forum_pagesize_options {COLOR:#585858!iMPORTANT}
+.detailsStatRight {COLOR:#585858!IMPORTANT}
+.workshopBrowsePagingInfo {COLOR:#585858!IMPORTANT}
 .game_area_purchase_game > h1 span {COLOR:#585858!IMPORTANT}
 .workshopTagsTitle {COLOR:#585858!IMPORTANT}
 .detailsStatNumChangeNotes {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
@@ -442,7 +447,6 @@ td.wht_wallet_change {color:#585858!important;border-left:1px solid #d6d1d1!impo
 .wallet_history_table tr:nth-child(odd) {background-color:#e4e4e4!important}
 td.wht_date {color:#585858!important}
 .account_setting_sub_block_long {color:#585858!important}
-#ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .friends_nav a:hover {background-color:#d6d6d6!important;BORDER-RADIUS:0!iMPORTANT}
 .text_filter_action_link, .text_filter_action_link a {COLOR:#585858!iMPORTANT}
 .queue_customize, .preferences_link {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
@@ -2146,3 +2150,4 @@ input.discussionSearchText::SELECTION{COLOR:#585858!IMPORTANT}
 .game_hover_box p, .game_hover_box {BACKGROUND:#E4E4E4!IMPORTANT;color:#585858!important}
 .forum_topic_op {COLOR:#1181D2!iMPORTANT}
 .app_tag_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important}
+#ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
