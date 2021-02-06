@@ -296,6 +296,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.discussions_searchedForTerm {BACKGROUND-COLOR:#54A448!iMPORTANT;BORDER:0!iMPORTANT;COLOR:#FFF!IMPORTANT}
+.discussions_searchedForTerm:HOVER {BACKGROUND-COLOR:#54A448!iMPORTANT;BORDER:0!iMPORTANT;COLOR:#FFF!IMPORTANT}
 .post_searchresult .searchmatch_highlight, .discussion_searchresults .searchmatch_highlight {background-color:#54A448!important;color:#fff!important}
 .forum_searchresult_reply_inner {color:#585858!important}
 .grouped_searchresults_forumname{background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important;margin-bottom:4px!Important}
@@ -895,6 +897,7 @@ body.v6 .deep_dive_key_tags {border-top:1px solid #d6d1d1!important}
 .app_tag {background:#585858!important; color:#fff!important}
 html{background:var(--darkgrey)!important}
 .user_reviews_summary_bar .game_review_summary {TEXT-SHADOW:NONE!IMPORTANT}
+blockquote.bb_blockquote, .bb_wysiwyg blockquote {BACKGROUND:#ECECEC!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{border-radius:var(--border1)!important;background:var(--darkgrey)!important;border:0px!important}
 #modalContent.modal.frame{position:absolute!important;border-radius:var(--border0)!important;width:100%!important;height:100%!important;margin:0!important;display:flex!important}
 #review_histograms_container {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
