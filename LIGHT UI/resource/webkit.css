@@ -71,11 +71,11 @@
 .market_commodity_orders_table tr:nth-child(even) {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
 .market_listing_iteminfo {BACKGROUND-COLOR:#E4E4E4!iMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 #largeiteminfo_clienthover {BACKGROUND:#E4E4E4!IMPORTANT}
-.market_commodity_orders_block {BORDER:0!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;box-shadow: 0 0 2px #D6D1D1!IMPORTANT}
+.market_commodity_orders_block {BORDER:0!IMPORTANT;BACKGROUND-COLOR:#ECECEC!IMPORTANT;box-shadow: 0 0 2px #D6D1D1!IMPORTANT}
 .market_commodity_orders_header {BORDER-BOTTOM:0!iMPORTANT}
 .market_commodity_orders_header_promote {FONT-WEIGHT:500!iMPORTANT;COLOR:#585858!iMPORTANT}
 .market_commodity_orders_table_container {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
-.market_listing_iteminfo hr {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
+.market_listing_iteminfo hr {HEIGHT:1PX!IMPORTANT;BORDER:0!iMPORTANT;BACKGROUND-COLOR:#D6D1D1!IMPORTANT}
 
 
 
@@ -659,7 +659,7 @@ H2{COLOR:#585858!IMPORTANT}
 .market_search_sidebar_contents {background:#dedede!important}
 .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) > span {BORDER-RADIUS:0!iMPORTANT}
 .managefriends_CopyContainer_1HjkZ .managefriends_Link_18Sc0 {COLOR:#585858!iMPORTANT}
-.market_listing_table_header, .market_listing_table_message {background-color:#dedede!important}
+.market_listing_table_header, .market_listing_table_message {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;background-color:#ECECEC!important}
 .searchAppImage {opacity:0!Important}
 .friends_nav a.active {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .community_home_search_divider{BORDER:0!IMPORTANT;BACKGROUND-COLOR:#D6D1D1!important}
