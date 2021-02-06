@@ -129,9 +129,17 @@
 .eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_CalendarRow_398u2.eventcalendar_GroupHeader_3j2de .eventcalendar_GroupHeaderLine_bcTEU {border-top:1px solid #d6d1d1!important}
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ .eventcalendartile_EventSummaryDefault_2g3Jj {color:#585858!important}
 .eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl) .eventcalendartile_Tile_3xvUZ {background:#e4e4e4!important}
-.eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ .eventcalendartile_EventName_1M8-P {COLOR:#585858}
+.eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ .eventcalendartile_EventName_1M8-P {COLOR:#585858!IMPORTANT}
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_GameSource_vfv1Q .eventcalendartile_SourceList_3BIx7 {COLOR:#585858!IMPORTANT}
 .legalfooter_LegalFooter_2XzXR {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
+.eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_PastSection_3FpvG.eventcalendar_DarkerBackground_1U2BW {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
+.eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_PastSection_3FpvG {BACKGROUND-COLOR:#DEDEDE!IMPORTANT}
+.eventcalendartile_GameTitleContainer_WHJ_W .eventcalendartile_TileTextAppName_71phF {COLOR:#585858!IMPORTANT}
+
+
+
+
+.legalfooter_LegalFooter_2XzXR img {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 
 
 
