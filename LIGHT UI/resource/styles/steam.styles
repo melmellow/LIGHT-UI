@@ -1050,7 +1050,7 @@ steam.styles
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/navbar/dropdown"
+			image="graphics\metro\icons\section_open.tga"
 			render{
 				1="fill(x0,y0,x1,y0+1,navbar)"  // top
 				2="fill(x0,y1-1,x1,y1,navbar)"  // bottom
