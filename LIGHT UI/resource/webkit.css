@@ -901,7 +901,7 @@ blockquote.bb_blockquote, .bb_wysiwyg blockquote {BACKGROUND:#ECECEC!IMPORTANT;B
 div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{border-radius:var(--border1)!important;background:var(--darkgrey)!important;border:0px!important}
 #modalContent.modal.frame{position:absolute!important;border-radius:var(--border0)!important;width:100%!important;height:100%!important;margin:0!important;display:flex!important}
 #review_histograms_container {background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.user_reviews_filter_menu .title {BACKGROUND-IMAGE:NONE!iMPORTANT;color:#fff!important}
+.user_reviews_filter_menu .title {BACKGROUND-IMAGE:NONE!iMPORTANT;color:#585858!important}
 .user_reviews_summary_bar .title {color:#585858!important}
 .game_details {color:#fff!important}
 .game_details b {color:#585858!important;font-weight:440!important}
@@ -1685,7 +1685,7 @@ body.v6 .game_area_already_owned.page_content{background:#54A448!important;COLOR
 .short_header {margin-bottom:0!important}
 .review_box .short_header .hours,.review_box .short_header .persona_name,.review_box .short_header .thumb{border-radius:var(--border0)!important}
 .review_box .short_header .persona_name {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
-.review_box a.vote_header{border:1px solid #d6d1d1!important;background:#d6d6d6!important;border-radius:0!important}
+.review_box a.vote_header{border:1px solid #d6d1d1!important;background:#ececec!important;border-radius:0!important}
 .review_box {background-color:#e4e4e4!important}
 .review_box .hr{height:0!important}
 .review_box{background-image:none!important;border-radius:var(--border0)!important}
@@ -1762,7 +1762,7 @@ h2 span.note:hover{background:rgba(23,67,92,1)!important;color:var(--white)!impo
 .review_histogram_section.recent{border-top-right-radius:var(--border0)!important}
 .user_reviews_header{background-image:none!important}
 .user_reviews_filter_menu_flyout{COLOR:#585858!IMPORTANT;border-top-right-radius:var(--border0)!important;border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
-.user_reviews_filter_options{background-color:#585858!important;border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
+.user_reviews_filter_options{background-color:#e4e4e4!important;border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .user_reviews_filter_menu{border-left:0!important}
 .broadcast_embeddable_bordered_title_Wsfbq {color:#585858!Important}
 .salepreviewwidgets_bordered_live_stream_icon_2E28o {background:#c3c3c3!important}
