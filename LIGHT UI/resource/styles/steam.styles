@@ -1061,17 +1061,17 @@ steam.styles
 		SectionedListPanelCollapser:hover
 		{
 			render_bg{}
-			image="graphics/metro/icons/navbar/dropdown_h"
+			image="graphics\metro\icons\section_open.tga"
 		}
 		SectionedListPanelCollapser:selected
 		{
 			render_bg{}
-			image="graphics/metro/icons/navbar/dropdown_h"
+			image="graphics\metro\icons\section_open.tga"
 		}
 		SectionedListPanelCollapser:selected:hover
 		{
 			render_bg{}
-			image="graphics/metro/icons/navbar/dropdown"
+			image="graphics\metro\icons\section_open.tga"
 		}
 		SectionHeaderStyleLabel
 		{
