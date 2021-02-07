@@ -165,6 +165,8 @@ body.clientNews .post_pmbutton {color:#000!important}
 
 
 /*FILTERED ELEMENTS*/
+p.reason.for:before {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
+.curators_for_app_filter_menu .title {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .apphub_WorkshopPiston {FILTER:BRIGHTNESS(0)!iMPORTANT;OPACITY:60%!iMPORTANT}
 .dotted_hr_uri, h2.stats:before, h2.stats:after {FILTER:BRIGHTNESS(0)!iMPORTANT;OPACITY:60%!IMPORTANT}
 .rateUpCount img {filter:brightness(0)!important;opacity:60%!important}
@@ -296,6 +298,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.Curators_loading { BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.curators_for_app_filter_menu_flyout {COLOR:#585858!iMPORTANT}
+.curators_for_app_filter_menu:hover .curators_for_app_filter_menu_flyout, .curators_for_app_filter_menu_flyout:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
+.curators_for_app_filter {COLOR:#585858!IMPORTANT}
 .discussions_searchedForTerm {BACKGROUND-COLOR:#54A448!iMPORTANT;BORDER:0!iMPORTANT;COLOR:#FFF!IMPORTANT}
 .discussions_searchedForTerm:HOVER {BACKGROUND-COLOR:#54A448!iMPORTANT;BORDER:0!iMPORTANT;COLOR:#FFF!IMPORTANT}
 .post_searchresult .searchmatch_highlight, .discussion_searchresults .searchmatch_highlight {background-color:#54A448!important;color:#fff!important}
@@ -1185,7 +1191,7 @@ img.member_tile{border-radius:var(--border5)!important;padding:10px!important;}
 .browse_tag_game_total,.browse_tag_games{border-radius:var(--border0)!important}
 .browse_tag_game_total {background-color:#dedede!important}
 .color_recommended {COLOR:#1181D2!IMPORTANT}
-.navigation_bar > .curators_searchbox {COLOR:#585858!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
+.navigation_bar > .curators_searchbox {BORDER-RADIUS:30PX!IMPORTANT;COLOR:#585858!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;BACKGROUND-COLOR:#E8E8E8!IMPORTANT}
 .community_home_header .appHubShortcut a:hover {COLOR:#000!IMPORTANT;TEXT-DECORATION:NONE!iMPORTANT}
 .tag_browse_tag:hover {color:#000!important}
 .curator_recommendation_capsule .carousel_container.paging_capsules .curator_page .profile {BACKGROUND:NONE!IMPORTANT;BORDER-BOTTOM:1PX SOLID #D6D1D1!IMPORTANT}
@@ -1640,7 +1646,7 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:
 .bluefade {BACKGROUND-IMAGE:NONE!iMPORTANT}
 .playTime {COLOR:#585858!iMPORTANT}
 .gameLogoHolder_default img {BORDER-RADIUS:0!iMPORTANT}
-.ratingBar {BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT;COLOR:#585858!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.ratingBar {BORDER-TOP:0!IMPORTANT;COLOR:#585858!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .review_rate_bar {COLOR:#585858!IMPORTANT;BORDER-TOP:1PX SOLID #D6D1D1!IMPORTANT}
 .review_app_actions {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .ratingSummary {COLOR:#585858!iMPORTANT}
@@ -1650,7 +1656,7 @@ body.v6 .game_area_already_owned.page_content{background:#54A448!important;COLOR
 .review_area_content {COLOR:#585858!iMPORTANT}
 .review_developer_response_text {COLOR:#585858!IMPORTANT}
 .games_list_tab, a.games_list_tab {BACKGROUND-COLOR:TRANSPARENT!iMPORTANT}
-.user_reviews_filter_display_as select {OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT}
+.user_reviews_filter_display_as select {BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;OUTLINE:0!IMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT}
 .user_reviews_filter_display_as {BORDER-LEFT:NONE!IMPORTANT}
 #recommendation_success .review_box .thumb{border-radius:var(--border0)!important}
 #review_create h1,.reviewDate{border-top:0!important}
@@ -1685,7 +1691,7 @@ body.v6 .game_area_already_owned.page_content{background:#54A448!important;COLOR
 .short_header {margin-bottom:0!important}
 .review_box .short_header .hours,.review_box .short_header .persona_name,.review_box .short_header .thumb{border-radius:var(--border0)!important}
 .review_box .short_header .persona_name {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
-.review_box a.vote_header{border:0!important;background:#ececec!important;border-radius:0!important}
+.review_box a.vote_header{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;border:0!important;background:#ececec!important;border-radius:0!important}
 .review_box {background-color:#e4e4e4!important}
 .review_box .hr{height:0!important}
 .review_box{background-image:none!important;border-radius:var(--border0)!important}
