@@ -298,6 +298,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+#reviews_filter_options.graph_collapsed #review_show_graph_button {MARGIN-TOP:4PX!iMPORTANT;MARGIN-RIGHT:2PX!IMPORTANT}
 .Curators_loading { BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .curators_for_app_filter_menu_flyout {COLOR:#585858!iMPORTANT}
 .curators_for_app_filter_menu:hover .curators_for_app_filter_menu_flyout, .curators_for_app_filter_menu_flyout:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
@@ -2138,7 +2139,7 @@ a, .whiteLink {color:#585858!important}
 .discount_block > .discount_prices {BORDER-RADIUS:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .carousel_container.spotlight .carousel_items > * .store_capsule {BORDER:0!IMPORTANT;BACKGROUND:#e4e4e4!iMPORTANT}
 body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_block_new .popup_body {BACKGROUND:#E4E4E4!IMPORTANT}
-.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {BORDER-COLOR:#8D8D8D!IMPORTANT;BACKGROUND:#B8B8B8!IMPORTANT;color:#585858!important}
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {BORDER-COLOR:#8D8D8D!IMPORTANT;BACKGROUND:#D6D6D6!IMPORTANT;color:#585858!important}
 .block.recommendation_reasons .similar_recent_apps_container > a {COLOR:#585858!iMPORTANT}
 .block.recommendation_reasons a {color:#585858!important}
 .tag_browse_description {COLOR:#585858!IMPORTANT}
