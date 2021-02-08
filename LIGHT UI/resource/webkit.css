@@ -624,6 +624,7 @@ select  {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 #market_advancedsearch_appselect {background-color:#D6D6D6!Important;BORDER:0!IMPORTANT;BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT}
 .market_advancedsearch_filters {border-radius:0!important;border:0!important;background-color:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .market_listing_num_listings_qty {color:#000!important}
+.discussions_game_header .discussions_game_discussioncount {COLOR:#585858!iMPORTANT}
 .market_listing_price {color:#585858!important}
 .market_listing_item_name_link {color:#585858!Important}
 .market_listing_item_name {color:#585858!important}
@@ -636,7 +637,7 @@ a.commentthread_author_valve, a.commentthread_author_developer {color:#585858!im
 .forum_op .topic {color:#585858!important}
 .btn_grey_white_innerfade > span:hover {BACKGROUND-COLOR:#000!IMPORTANT}
 .btn_grey_white_innerfade > span {BACKGROUND-COLOR:NONE!IMPORTANT;COLOR:#FFF!IMPORTANT}
-.discussions_game_browseoption {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
+.discussions_game_browseoption {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .discussions_game_footer {BACKGROUND-COLOR:#dedede!IMPORTANT}
 .discussions_game_header {BACKGROUND:#dedede!IMPORTANT}
 .discussions_link_icon {BACKGROUND-IMAGE:NONE!IMPORTANT}
@@ -2176,7 +2177,7 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 .btnv6_grey_black {background:#D6D6D6!important; color:#585858!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 #iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .btn_grey_black{color:#fff!important;border-radius:var(--border0)!important}
-input.discussionSearchText{BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!important;padding:4px!important}
+input.discussionSearchText{BORDER-RADIUS:30PX!IMPORTANT;BORDER:1PX SOLID #B8B8B8!IMPORTANT;position:static!important;padding:4px!important}
 input.discussionSearchText::SELECTION{COLOR:#585858!IMPORTANT}
 .group_tab.active > span {background:#585858!important}
 .profile_friends.title_bar, .profile_groups.title_bar {BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;  background-color:#E4E4E4!Important}
