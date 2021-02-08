@@ -2000,13 +2000,16 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#
 .games_list_tab_row_separator{BACKGROUND-COLOR:#D6D1D1!IMPORTANT;border-top:0!important}
 .browseApps{background-color:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:1px 1px 2px #D6D1D1!IMPORTANT}
 .browseAppsTitleContainer{border-radius:0!important;background:#E4E4E4!important;background-color:#E4E4E4!important}
-.searchApps{border-radius:var(--border2)!important;background:#E8E8E8!important;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
+.searchApps{border-radius:30px!important;background:#E8E8E8!important;BORDER:1PX SOLID #B8B8B8!IMPORTANT}
 .workshopAppsRow{border-bottom:0!important;background:0 0!important}
 .primary_panel{BORDER:0!IMPORTANT;background:#E4E4E4!important;border-radius:0!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
 .avatar_workshop_overlay{background:0 0!important}
+.mainSectionHeader, #mainSectionHeaderTop, .rightSectionHeader{color:#585858!important}
 .current_player_workshop_link{padding-left:60px!important}
+.workshop_apps_paging_pagelink.active {font-weight:bold!Important}
 .joinGroup{border-radius:var(--border0)!important;width:240px!important;height:80px!important;background:var(--darkgrey)!important}
 .joinGroupTitle{margin-left:50px!important}
+.workshopAppsSortTitle {color:#585858!Important}
 #ig_bottom .sidebar .detailPanel,#ig_bottom .sidebar .panel{background:var(--grey)!important;border-radius:var(--border0)!important}
 .subscribeRSS{padding-top:15px!important;padding-bottom:5px!important}
 .right_column .panel{background:var(--grey)!important;border-radius:var(--border0)!important}
