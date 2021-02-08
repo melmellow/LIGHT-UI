@@ -165,6 +165,7 @@ body.clientNews .post_pmbutton {color:#000!important}
 
 
 /*FILTERED ELEMENTS*/
+.recommended_creators_ctn .recommended_creators_container .following_button img {filter:brightness(100)!important;opacity:1!important} 
 p.reason.for:before {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .curators_for_app_filter_menu .title {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .apphub_WorkshopPiston {FILTER:BRIGHTNESS(0)!iMPORTANT;OPACITY:60%!iMPORTANT}
@@ -298,6 +299,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+a.store_header_btn_content {margin:0!Important}
 #reviews_filter_options.graph_collapsed #review_show_graph_button {MARGIN-TOP:4PX!iMPORTANT;MARGIN-RIGHT:2PX!IMPORTANT}
 .Curators_loading { BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .curators_for_app_filter_menu_flyout {COLOR:#585858!iMPORTANT}
@@ -697,9 +699,9 @@ body.v6 .game_page_background {background:TRANSPARENT!important}
 body.v6 h2.pageheader {text-shadow:none!important}
 .community_recommendation_app > .right_col {BACKGROUND:#E4E4E4!IMPORTANT;border:0!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!important}
 h2 {color:font-weight:500!important}
-.recommended_creators_ctn .recommended_creators_container .following_button span{opacity:1!Important}
+.recommended_creators_ctn .recommended_creators_container .following_button span{background:#54A448!important;opacity:1!Important;border:0!Important}
 .LoadingWrapper .LoadingThrobber .Bar {background-color:#1181D2!important}
-#live_streams_carousel .carousel_items .store_capsule {border-radius:0!important;border:0!important}
+#live_streams_carousel .carousel_items .store_capsule {border-radius:0!important;border:0!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .highlight_ctn .slider_ctn .slider_left, .highlight_ctn .slider_ctn .slider_right, .highlight_ctn .slider .handle{border-radius:0!important}
 .slider {border-radius:0!important;background-color:#d6d6d6!important}
 .slider_left span {background-image:none!important}
@@ -1107,7 +1109,7 @@ a#store_search_link img:hover{background-image:none!important;border-radius:var(
 input#store_nav_search_term{color:var(--grey-ish)!important;font-size:1em!important}
 input::-webkit-input-placeholder{opacity:0!important}
 .store_header_btn_gray{border:0!important;background:#dedede!important}
-.store_header_btn_gray a:hover{background:#000!important;COLOR:#585858!IMPORTANT}
+.store_header_btn_gray a:hover{background:#000!important;COLOR:#fff!IMPORTANT}
 .store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span{background:#dedede!important;color:var(--darkwhite)!important;border-radius:var(--border0)!important}
 body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block_new .popup_body{background:#dedede!important;border-radius:var(--border0)!important}
 .popup_menu .popup_menu_item {color:#585858!IMportant}
@@ -1160,11 +1162,12 @@ div.store_header_btn{border-radius:var(--border0)!important}
 .big_button:hover{color:#585858!important;border-radius:0!important;background: #d6d6d6 !important;border-color:#8d8d8d!important}
 .carousel_items.curator_featured_tags{border-radius:var(--border0)!important}
 .curator_page.focus{border-radius:var(--border0)!important}
+.ds_options:hover > div {background-color:#585858!Important}
 .curator_page .actions{BACKGROUND:NONE!IMPORTANT;border-radius:var(--border0)!important}
 a.follow_button.btn_green_white_innerfade.btn_medium{color:var(--green)!important;border-radius:var(--border0)!important}
 a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:var(--green)!important;border-radius:var(--border0)!important}
 .home_rightcol{BACKGROUND:TRANSPARENT!IMPORTANT;border-radius:var(--border0)!important}
-.tab_item{margin:5px!important;border-radius:0!important}
+.tab_item{transition:border-width .3s ease-in-out!Important;margin:5px!important;border-radius:0!important}
 img.tab_item_cap_img{border-radius:var(--border0)!important}
 .tab_review_summary{border:0!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND-COLOR:#e4e4e4!IMPORTANT;border-radius:0!important}
 .tab_preview .screenshot{border-radius:var(--border0)!important}
@@ -1210,7 +1213,7 @@ a.home_marketing_message{border-radius:var(--border0)!important}
 .carousel_container .carousel_thumbs>div{border-radius:var(--border50)!important;width:15px!important;height:15px!important}
 .home_marketing_message>span{border-radius:var(--border0)!important}
 .home_content .item img,.home_content a.home_content_item img{border-radius:var(--border0)!important}
-.home_content.single{background:#e4e4e4!important;color:#585858!important;border-radius:0!important;border:1px solid #d6d1d1!important}
+.home_content.single{background:#e4e4e4!important;color:#585858!important;border-radius:0!important;border:0!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .home_content.single_buttonbar{background:#dedede!important;border-radius:var(--border0)!important}
 .home_content.single .gamelink img{border-radius:var(--border0)!important}
 .btn_green_white_innerfade{border-radius:var(--border0)!important;background:var(--lightgrey)!important}
