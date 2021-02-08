@@ -600,7 +600,10 @@ a {color:#585858!important}
 .faq_answer {color:#585858!important}
 .recommendation_highlight .highlight_description .regular_price {BACKGROUND-COLOR:#E4E4E4!IMPORTANT}
 .color_created {COLOR:#585858!IMPORTANT}
+.browse_filters a:hover, .browse_filters a.selected{background-color:#d6d6d6!important}
 .creatorhome .browse_content .recommendation {MARGIN-BOTTOM:4PX!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+.curator_review_date {color:#585858!important}
+.navigation_bar > div.nav_right_side > div.curator_report a:hover {background-color:#d6d6d6!Important}
 .creatorhome .curator_review_date {COLOR:#585858!iMPORTANT}
 .browse_content .recommendation:hover {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER-RIGHT:2PX SOLID #D6D1D1!IMPORTANT}
 .game_description_column .block .block_content a:hover {border:0!important;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
@@ -1103,7 +1106,7 @@ div#global_header .submenuitem{background:var(--realblack)!important}
 .hero_data{border-radius:var(--border0)!important;background:var(--darkergrey)!important}
 .hero_capsule .ds_flag{left:2px!important}
 #store_nav_area .store_nav_bg,.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg{background:#e4e4e4!important;border-radius:var(--border0)!important;border:1px solid #d6d1d1!important}
-
+.navigation_bar > a.selected {background:#585858!Important;color:#fff!important}
 a#store_search_link img{background-image:none!important;border-radius:var(--border0)!important;display:none!important}
 a#store_search_link img:hover{background-image:none!important;border-radius:var(--border0)!important;display:none!important}
 input#store_nav_search_term{color:var(--grey-ish)!important;font-size:1em!important}

@@ -865,6 +865,9 @@ div.ShortRightPanel .libraryhomeshowcases_Showcase_V7RuD .libraryhomeshowcases_S
 }
 
 
+.gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
+	transition:filter .3s ease-in-out!important;
+}
 
 /* .gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
 	background:transparent!important;
@@ -969,7 +972,8 @@ div.ShortRightPanel .libraryhomeshowcases_Showcase_V7RuD .libraryhomeshowcases_S
 }
 
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer:hover {
-	border-color: var(--ACCENT)!important;
+	TRANSITION:BORDER-COLOR .3S EASE-IN-OUT!iMPORTANT;
+	border-color: var(--BUTTONBORDERHOVER)!important;
 }
 
 .bbcodes_Header1_3Jkby {
@@ -1828,6 +1832,7 @@ A {
 }
 
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
+	transition:filter .3s ease-in-out!Important;
 	    COLOR: transparent!IMPORTANT;
     background-image: url(https://i.imgur.com/AAFscfG.png)!important;
     background-size: 20px!important;
