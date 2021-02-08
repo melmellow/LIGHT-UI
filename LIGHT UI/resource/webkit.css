@@ -165,6 +165,7 @@ body.clientNews .post_pmbutton {color:#000!important}
 
 
 /*FILTERED ELEMENTS*/
+.apphub_CardContentPlayVideoIcon {FILTER:BRIGHTNESS(2)!iMPORTANT}
 .recommended_creators_ctn .recommended_creators_container .following_button img {filter:brightness(100)!important;opacity:1!important} 
 p.reason.for:before {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .curators_for_app_filter_menu .title {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
@@ -717,7 +718,7 @@ h2 {color:font-weight:500!important}
 .discussions_forum_row {BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .discussions_forum_row.unread .discussions_forumlist_topiccount, .discussions_forum_row.unread .discussions_forumlist_lastpost {COLOR:#585858!IMPORTANT}
 .forum_topic_lastpost {color:#585858!important}
-.forum_topic_label.sticky_label {color:#78BE6D!important}
+.forum_topic_label.sticky_label {color:#54A448!important}
 .forum_topic_name {COLOR:#585858!iMPORTANT}
 .group_overview_discussions .forum_topic.unread .forum_topic_name {color:#585858!important}
 .store_nav .tab.focus, .store_nav .tab.focus > span, .store_nav .tab:hover, .store_nav .tab:hover > span {COLOR:#000!IMPORTANT}
