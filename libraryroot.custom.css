@@ -60,10 +60,11 @@
 
 .gamelistdropdown_Bar_1ZS_x {
 	position:absolute!Important;
-	width: 71%;
+	width: 71%!important;
   flex: 1 1 auto;
   padding: 6px 3px 0px;
   height: 36px;
+  left:74px!Important;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1723,6 +1724,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
 	BACKGROUND-COLOR:transparent!IMPORTANT;
+	left:5px!Important;
 }
 
 
