@@ -1057,7 +1057,7 @@ body.recommendgame #review_create{background:var(--darkgrey)!important;padding:1
 #review_create .input_box{OUTLINE:NONE!iMPORTANT;COLOR:#585858!iMPORTANT;border:1px solid #B8B8B8!important;border-radius:var(--border0)!important;background-color:#E8E8E8!important}
 #footerText{padding-bottom:26px!important; color:#585858!important}
 .recommended_creators_ctn .recommended_creators_container{background:#E4E4E4!important;border:0!important;border-radius:0!important}
-.recommended_creators_ctn .store_capsule{background-image:none!important;border-radius:var(--border0)!important}
+.recommended_creators_ctn .store_capsule {box-shadow: 1px 1px 2px #d6d1d1!important;background-image:none!important;border-radius:var(--border0)!important}
 .mainLoginPanel{background:var(--bedarkgrey)!important}
 body.v6.summer2018_home .gutter_header a:hover .home_page_gutter_giftcard{background:#585858!important}
 body.v6.summer2018_home .home_page_gutter_giftcard{background:#1c202a00!important}
@@ -1071,7 +1071,9 @@ body.v6.summer2018_home .home_page_body_ctn{background:var(--darkgrey)!important
 .home_ctn.apps_recommended_by_curators_ctn{background:var(--darkgrey)!important}
 .home_ctn.discovery_queue_ctn{background:#dedede!important;border-radius:var(--border0)!important}
 .home_ctn.tab_container{background:NONE!important}
+.navigation_bar > a:hover {background-color:#d6d6d6!Important}
 body.v6 .page_content_ctn.dark{background:var(--darkgrey)!important}
+.apphub_CardContentSpeechCorner {opacity:60%!important}
 body.v6.infinite_scrolling #footer.small_footer{background:#dedede!important}
 body.v6 #footer{background:var(--bedarkgrey)!important}
 .curator_buttons_ctn{background:var(--bedarkgrey)!important}
@@ -1332,11 +1334,12 @@ div.filterselect_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D
 #profile_action_dropdown{top:-5px!important;left:720px!important;background:var(--darkergrey)!important;border-radius:var(--border0)!important}
 div#game_select_suggestions_ctn{background:var(--realblack)!important}
 .apphub_Card{BORDER:0!IMPORTANT;background-color:#E4E4E4!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
-.apphub_CardContentNewsFade{background-image:none!important;background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
+.apphub_CardContentNewsFade{background-image:none!important;background:none!Important}
 .apphub_CardContentMain .UserReviewCardContent_Footer .gradient{background:NONE!important}
 .apphub_CardContentGuideTitle{background-color:#E4E4E4!important;COLOR:#585858!IMPORTANT}
 input.community_home_search_app_input{font-size:15px!important;font-style:normal!important;background-color:#E8E8E8!important}
 .community_home_search_apps_image{display:none!important}
+.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock {border-top:1px solid #d6d1d1!important}
 .community_home_search_title {COLOR:#585858!IMPORTANT}
 .community_home_search_players{BORDER:1PX SOLID #B8B8B8!IMPORTANT;background:#E8E8E8!important}
 input.community_home_search_players_input{font-style:normal!important;font-size:15px!important;background-color:#E8E8E8!important}
