@@ -775,17 +775,19 @@ div.sortselect #sortselect_activesort {COLOR:#585858!iMPORTANT;BACKGROUND:#D6D6D
 .game_area_description ul {COLOR:#585858!IMPORTANT}
 .game_area_purchase_game_dropdown_description {COLOR:#585858!IMPORTANT}
 span.vr_supported, span.vr_required {COLOR:#585858!IMPORTANT}
+.paged_items_paging_pagelink, .paged_items_paging_controls .commentthread_pagelink {color:#585858!Important}
 .cart_digital_notice_content {COLOR:#585858!IMPORTANT}
 .cart_status_message {BACKGROUND-COLOR:#585858!IMPORTANT}
 .cart_status_message_arrow {BACKGROUND-IMAGE:NONE!IMPORTANT}
 .cart_total_row#cart_estimated_total_text {COLOR:#585858!IMPORTANT}
 .cart_digital_notice h4 {COLOR:#585858!IMPORTANT}
+.dailydeal_countdown.ttip {background:#1181D2!important;color:#fff!Important}
 .cart_digital_notice {background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}	
 .store_header_btn_green a {BACKGROUND:#54A448!IMPORTANT}
 .game_area_sys_req ul li strong {FONT-WEIGHT:BOLD!IMPORTANT}
 .review_box .noReviewsYetSub {color:#585858!IMPORTANT}
 .review_box .noReviewsYetTitle {color:#585858!important}
-.game_area_comingsoon .content {background:#A0C9D6!important}
+.game_area_comingsoon .content {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .game_area_comingsoon {color:#585858!important}
 .review_box .vote_info, .recommendation_row .vote_info {COLOR:#585858!IMPORTANT}
 #app_agegate .preferences {color:#585858!important}
