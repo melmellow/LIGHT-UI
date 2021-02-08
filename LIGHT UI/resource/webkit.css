@@ -1334,6 +1334,8 @@ div.filterselect_options {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BORDER:1PX SOLID #D
 #profile_action_dropdown{top:-5px!important;left:720px!important;background:var(--darkergrey)!important;border-radius:var(--border0)!important}
 div#game_select_suggestions_ctn{background:var(--realblack)!important}
 .apphub_Card{BORDER:0!IMPORTANT;background-color:#E4E4E4!important;BOX-SHADOW:#D6D1D1!IMPORTANT}
+#preferences_last_saved {color:#585858!important}
+.store_tooltip {background:#e4e4e4!Important;color:#585858!Important;border-radius:100px!IMportant;border:1px solid #d6d1d1!important}
 .apphub_CardContentNewsFade{background-image:none!important;background:none!Important}
 .apphub_CardContentMain .UserReviewCardContent_Footer .gradient{background:NONE!important}
 .apphub_CardContentGuideTitle{background-color:#E4E4E4!important;COLOR:#585858!IMPORTANT}
