@@ -59,7 +59,8 @@
 }
 
 .gamelistdropdown_Bar_1ZS_x {
-	width: 70%;
+	position:absolute!Important;
+	width: 71%;
   flex: 1 1 auto;
   padding: 6px 3px 0px;
   height: 36px;
@@ -1716,6 +1717,8 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 
 .gamelisthome_CollectionBar_xeuK3{
 	WIDTH:28PX!iMPORTANT;
+	POSITION:ABSOLUTE!imPORTANT;
+	LEFT:41PX!iMPORTANT;
 }
 
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
@@ -2042,6 +2045,7 @@ A {
 	left:200px!Important;
 	BORDER-RADIUS:0!IMPORTANT;
 }
+
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg {
 	FILL: var(--ACCENT)!IMPORTANT;
