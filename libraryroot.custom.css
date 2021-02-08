@@ -59,7 +59,7 @@
 }
 
 .gamelistdropdown_Bar_1ZS_x {
-	width: 50%;
+	width: 70%;
   flex: 1 1 auto;
   padding: 6px 3px 0px;
   height: 36px;
@@ -849,6 +849,7 @@ div.ShortRightPanel .libraryhomeshowcases_Showcase_V7RuD .libraryhomeshowcases_S
 }
 
 .gamelistbar_GameListHomeAndSearch_2TKEa .gamelistbar_HomeBox_3AhYl {
+	MARGIN-LEFT:3PX!iMPORTANT;
 	height:41px!Important;
 }
 
@@ -1697,7 +1698,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 	}
 
 .gamelistentry_FriendIsPlaying_cNZ3w svg circle, .gamelistentry_FriendIsPlaying_cNZ3w svg path {
-	fill: var(--BUTTONHOVER)!important;
+	fill: var(--ACCENT)!important;
 }
 
 .gamelistsectionheader_SectionCount_29ute {
@@ -1709,7 +1710,12 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 
 .gamelisthome_Bar_3pSPl {
+	WIDTH:22PX!iMPORTANT;
 	BACKGROUND-COLOR:transparent!IMPORTANT;
+}
+
+.gamelisthome_CollectionBar_xeuK3{
+	WIDTH:28PX!iMPORTANT;
 }
 
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
