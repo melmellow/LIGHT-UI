@@ -2165,6 +2165,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase {
 	BORDER:1PX SOLID  var(--BUTTONBORDER)!IMPORTANT;
 	background: var(--TEXTENTRY)!important;
+	border-radius:30px!important;
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
