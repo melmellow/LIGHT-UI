@@ -165,6 +165,7 @@ body.clientNews .post_pmbutton {color:#000!important}
 
 
 /*FILTERED ELEMENTS*/
+.market_arrow_up{FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
 .apphub_CardContentPlayVideoIcon {FILTER:BRIGHTNESS(2)!iMPORTANT}
 .recommended_creators_ctn .recommended_creators_container .following_button img {filter:brightness(100)!important;opacity:1!important} 
 p.reason.for:before {FILTER:BRIGHTNESS(0)!IMPORTANT;OPACITY:60%!IMPORTANT}
