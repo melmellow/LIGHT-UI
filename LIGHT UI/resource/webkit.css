@@ -1703,7 +1703,7 @@ body.v6 .game_area_already_owned.page_content{background:#54A448!important;COLOR
 #review_create .avatar{border-radius:var(--border5)!important}
 .review_controls{background-color:transparent!important;border-radius:var(--border0)!important}
 .review_box .vote_header .thumb{border-radius:var(--border0)!important}
-.short_header {margin-bottom:0!important}
+.short_header {margin-bottom:0!important;BACKGROUND-COLOR:#ECECEC!iMPORTANT}
 .review_box .short_header .hours,.review_box .short_header .persona_name,.review_box .short_header .thumb{border-radius:var(--border0)!important}
 .review_box .short_header .persona_name {COLOR:#585858!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .review_box a.vote_header{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;border:0!important;background:#ececec!important;border-radius:0!important}
