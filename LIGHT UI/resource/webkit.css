@@ -980,7 +980,7 @@ div.filterselect_options div.option:hover{BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 .whiteLink {color:#585858!important}
 .community_home_title {color:#585858!important}
 body.v6 #footer #footer_text {color:#585858!important}
-body.v6 .discount_prices > div {color:#585858!important}
+body.v6 .discount_prices > div {BACKGROUND-COLOR:#ECECEC!IMPORTANT;color:#585858!important}
 .home_newupcoming_ctn .home_tab_button:hover:not( .active ) {color:#3596B5!important}
 .home_newupcoming_ctn .home_tab_button {color:#585858!important}
 .home_title_ctn {color:#585858!important}
