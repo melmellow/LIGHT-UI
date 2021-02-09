@@ -301,6 +301,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.store_capsule .discount_block > .discount_prices {BACKGROUND-COLOR:#ECECEC!IMPORTANT}
+body.v6 .broadcast_live_stream_icon {BACKGROUND:#ECECEC!IMPORTANT}
 .stats_table tr > td:first-child {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
 a.store_header_btn_content {margin:0!Important}
 #reviews_filter_options.graph_collapsed #review_show_graph_button {MARGIN-TOP:4PX!iMPORTANT;MARGIN-RIGHT:2PX!IMPORTANT}
