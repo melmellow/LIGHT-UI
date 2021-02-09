@@ -1416,7 +1416,8 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
 }
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
-	BACKGROUND-COLOR: var(--BUTTONHOVER)!IMPORTANT;
+	BACKGROUND-COLOR: var(--ACCENT)!IMPORTANT;
+	BORDER-RADIUS:30PX!IMPORTANT;
 }
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
