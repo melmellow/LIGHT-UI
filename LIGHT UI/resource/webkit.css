@@ -120,6 +120,7 @@
 /*////////////////////////BUG/////////////////////////////////////*/
 .btn_grey_grey {BACKGROUND:NONE!IMPORTANT}
 .btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background:#D6D6D6!important;color:#FFF!important}
+.game_area_purchase_game_dropdown_selection{BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;COLOR:#585858!IMPORTANT;background:#D6D6D6!important;line-height:36px!important}
 
 
 /*/////////////////////////////////////////steam news hub////////////////////////////////////////////*/
@@ -1594,7 +1595,6 @@ body.v6 .newonsteam_capsules > a {BACKGROUND:#E4E4E4!IMPORTANT}
 .wishlist_row .capsule img{border-radius:var(--border0)!important}
 .wishlist_row .purchase_area{border-radius:var(--border0)!important;background-color:rgba(0,0,0,0)!important}
 .discount_block{border-radius:var(--border0)!important}
-.game_area_purchase_game_dropdown_selection{COLOR:#585858!IMPORTANT;background:transparent!important;line-height:36px!important}
 .steamawards_app_banner_ctn{border:1px solid var(--darkgrey)!important;border-radius:var(--border0)!important}
 .discount_block.no_discount .discount_prices{border-radius:var(--border0)!important;background:0 0!important}
 .discount_block_large .discount_prices{border-radius:var(--border0)!important}
@@ -1763,7 +1763,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 #review_histogram_recent_section {BACKGROUND:TRANSPARENT!IMPORTANT}
 .game_area_details_specs a.name{color:#585858!important;background:#D6D6D6!important;border-radius:30PX!important}
 .game_area_details_specs a.name:hover{background:#D6D6D6!important}
-.DRM_notice{border-radius:var(--border0)!important}
+.DRM_notice{background:#ececec!important;color:#585858!important;border-radius:var(--border0)!important}
 .block a.linkbar{border-radius:var(--border0)!important}
 .glance_ctn{background:0 0!important;padding-bottom:13px!important;padding-left:5px!important;border-radius:var(--border0)!important}
 .sale_page_n_section .broadcast_wrapper .broadcastwrapper{border-radius:var(--border0)!important}
