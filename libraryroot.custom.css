@@ -1408,7 +1408,7 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
 
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
 	
-	BACKGROUND-COLOR: var(--BASE1)!IMPORTANT;
+	BACKGROUND-COLOR:#ECECEC!IMPORTANT;
 	BORDER:0!IMPORTANT;
 	BOX-SHADOW: 1PX 1PX 2PX VAR(--DIVIDER1)!IMPORTANT;
 }
@@ -2465,7 +2465,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 
 .appdetailscommunityfeed_MenuButton_CwZqp {
 	BORDER-RADIUS:100PX!IMPORTANT;
-	BACKGROUND-COLOR: var(--BUTTON)!IMPORTANT;
+	BACKGROUND-COLOR: #ECECEC!IMPORTANT;
 }
 
 .appdetailscommunityfeed_MenuButton_CwZqp:hover {
