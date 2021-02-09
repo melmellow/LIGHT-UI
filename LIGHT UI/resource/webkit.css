@@ -301,6 +301,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.group_curator_more_box {BACKGROUND-COLOR:#585858!IMPORTANT;COLOR:#FFF!IMPORTANT}
+.group_curator_more_box:hover{BACKGROUND-COLOR:#000!iMPORTANT}
+.group_curator_recommends {COLOR:#585858!IMPORTANT}
+.group_curator_blurb {COLOR:#585858!IMPORTANT}
 .store_capsule .discount_block > .discount_prices {BACKGROUND-COLOR:#ECECEC!IMPORTANT}
 body.v6 .broadcast_live_stream_icon {BACKGROUND:#ECECEC!IMPORTANT}
 .stats_table tr > td:first-child {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
@@ -1918,6 +1922,7 @@ a.readmore_link{border-radius:var(--border0)!important;background:var(--darkblue
 .btn_addtocart .btn_addtocart_content{color:var(--green)!important;background:rgba(121,153,5,1)!important;border-radius:var(--border0)!important}
 .rightbox_list_selection_background{left:-10px!important;background:#D6D6D6!important;border-radius:0!important}
 .bundle_contents_preview{border-radius:0!important;background:#dedede!important}
+.group_content_header{COLOR:#585858!IMPORTANT}
 .group_content_header .group_content_header_viewmore{border-radius:var(--border0)!important;background-color:rgba(47,137,188,1)!important;color:var(--white)!important}
 .forumtopic_answer.answer_ctn{box-shadow:1px 1px 2px #d6d1d1!important;border:0!Important;border-radius:var(--border0)!important}
 .forumtopic_comments .commentthread_answer_bar{border-radius:var(--border0)!important}
