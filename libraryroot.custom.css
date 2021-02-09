@@ -65,11 +65,11 @@
   padding: 6px 3px 0px;
   height: 36px;
   left:74px!Important;
+  top:0!important;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0;
-  /* default 10px */
 }
 
 .cssgrid_Container_DGRkX {
@@ -130,13 +130,11 @@
 
 .library_Container_3xRRJ *::-webkit-scrollbar, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
   width: 16px;
-  /* default 12px */
 }
 
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb {
 	 border: 1px solid transparent;
-  /* default: 3px solid transparent */
   border-right: 0px solid transparent;
 	BACKGROUND-COLOR: var(--ACCENT)!IMPORTANT;
 }
@@ -174,7 +172,6 @@
   flex: 1 1 auto;
   width: 20%;
   HEIGHT:23PX!IMPORTANT;
- /*  PADDING-BOTTOM:0PX!IMPORTANT; */
   BACKGROUND-COLOR:transparent!IMPORTANT;
 }
 
@@ -185,6 +182,10 @@
 
 
 /*CODE BY ANGELO https://steamcommunity.com/id/1475963159753/*/
+
+
+
+
 
 /*SETTINGS*/
 
@@ -1449,7 +1450,8 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
 }
 
 .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
-	BACKGROUND-COLOR: var(--BUTTONHOVER)!IMPORTANT;
+	BACKGROUND-COLOR: var(--ACCENT)!IMPORTANT;
+	BORDER-RADIUS:30PX!IMPORTANT;
 }
 
 .appdetailsplaysection_DetailsProgressContainer_25YVD {
