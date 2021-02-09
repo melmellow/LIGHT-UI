@@ -301,6 +301,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.groupstat {COLOR:#585858!IMPORTANT}
 .group_curator_more_box {BACKGROUND-COLOR:#585858!IMPORTANT;COLOR:#FFF!IMPORTANT}
 .group_curator_more_box:hover{BACKGROUND-COLOR:#000!iMPORTANT}
 .group_curator_recommends {COLOR:#585858!IMPORTANT}
