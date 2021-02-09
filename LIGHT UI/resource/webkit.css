@@ -1256,7 +1256,7 @@ a.home_marketing_message{border-radius:var(--border0)!important}
 .tab_item.focus .tab_item_details span.platform_img.mac{BACKGROUND-IMAGE:UNSET!iMPORTANT} */
 .tab_item.focus .tab_item_name{color:#585858!important}
 .discount_block .discount_final_price {color:#585858!important}
-/*.tab_item.focus .discount_block .discount_final_price{color:var(--blue-er)!important}*/
+.tab_item.focus .discount_block .discount_final_price{BACKGROUND-COLOR:#ECECEC!IMPORTANT}
 #tab_preview_container{border-radius:var(--border0)!important;top:15px!important;background:NONE!important}
 body.v6 .home_rightcol .tab_preview h2{color:#585858!important}
 .tab_preview .tags>a{background-color:var(--bedarkgrey)!important}
