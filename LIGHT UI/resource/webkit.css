@@ -612,9 +612,9 @@ a {color:#585858!important}
 .game_description_column .block .block_content a:hover {border:0!important;BACKGROUND-COLOR:#D6D6D6!IMPORTANT}
 div.early_access_header .devnotes .morebutton {background:NONE!important}
 div.early_access_header .devnotes > div {color:#585858!important}
-div.early_access_header .heading p span {font-weight:bold!important}
+div.early_access_header .heading p span {COLOR:#585858!IMPORTANT;font-weight:bold!important}
 div.early_access_header .inset {text-shadow:none!Important}
-div.early_access_header .heading {color:#1181D2!important;background:#E4E4E4!important}
+div.early_access_header .heading {color:#585858!important;background:#E4E4E4!important}
 .commentthread_entry {BACKGROUND:#E4E4E4!iMPORTANT}
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {border-radius:30px!important;background-color:#d6d6d6!important}
 #searchSubmitImg {opacity:0!important}
@@ -1774,7 +1774,7 @@ body.v6 #footer .rule{border-top:0 solid var(--littlegrey)!important}
 .ds_flag.ds_wishlist_flag{border-radius:0!important;border:1px solid #d6d1d1!important;BACKGROUND-COLOR:#e4e4e4!iMPORTANT}
 .ds_flag.ds_incart_flag{background-color:#54A348!important;border-radius:var(--border0)!important}
 .ds_flag.ds_ignored_flag{border-radius:var(--border0)!important}
-div.early_access_header{BOX-SHADOW:#D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border:0!important;border-radius:var(--border0)!important}
+div.early_access_header{BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;border:0!important;border-radius:var(--border0)!important}
 .game_area_dlc_row.odd{border-radius:var(--border0)!important}
 div.early_access_banner{border-radius:var(--border0)!important}
 #app_reviews_playtime_slider .ui-widget-header {BACK}
