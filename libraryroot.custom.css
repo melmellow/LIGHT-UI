@@ -682,6 +682,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 /*LIBRARY*/
 
+.videoSrc {
+	border:1px solid #d6d1d1!important;
+	background-color:#e4e4e4!important;
+}
 
 
 /*PLAY BUTTON*/
