@@ -87,6 +87,7 @@
 .appportrait_LibraryItemBoxSubscript_1LJqx {
   margin-top: -32px;
   padding: 2px 8px;
+  BORDER-RADIUS:50PX!IMPORTANT;
 }
 
 .gamelistdropdown_DropDown_EDl_m {
@@ -681,6 +682,16 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 
 /*LIBRARY*/
+
+.appdetailscommunityfeed_InappropriateOverlay_aX5_K .appdetailscommunityfeed_InappropriateLinks_2YHrw {
+	COLOR:#585858!IMPORTANT;
+	TEXT-DECORATION:NONE!iMPORTANT;
+	FONT-WEIGHT:BOLD!IMPORTANT;
+}
+
+.appdetailscommunityfeed_InappropriateOverlay_aX5_K{
+	COLOR:#585858!IMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT
+	}
 
 .appdetailsachievementssection_Featured_1j_gj.appdetailsachievementssection_RemainderContainer_lZ2c4 .appdetailsachievementssection_Desc_2gLHb {
 	TEXT-DECORATION:NONE!iMPORTANT;
@@ -2363,6 +2374,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 
 .appportrait_FooterBlurImage_2nq-z {
 	opacity:0!important;
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40, .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR, .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
+	TEXT-SHADOW:NONE!IMPORTANT;
 }
 
 .appdetailsplaysection_PlayBarLabel_34lrt {
