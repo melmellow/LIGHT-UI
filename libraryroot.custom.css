@@ -741,6 +741,10 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
 	FILL:VAR(--ACCENT)!IMPORTANT;
 }
 
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40 {
+	BACKGROUND:#54A448!IMPORTANT;
+}
+
 .appactivityday_ReviewIconThumbsUp_2oPMu {
 	BACKGROUND:TRANSPARENT!IMPORTANT;
 }
@@ -2351,12 +2355,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .libraryhomenewupdates_SettingsButton_1eFe5 svg {
 		fill: var(--ACCENT)!important;
 	
-}
-
-.appportrait_LibraryItemBoxSubscript_1LJqx {
-	/* color: var(--ACCENT)!Important; */
-	BORDER-RADIUS:30PX!IMPORTANT;
-	background-color: var(--ACCENT)!important;
 }
 
 .appportrait_FooterBlurImageContainer_RhmvO {
