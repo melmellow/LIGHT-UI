@@ -302,6 +302,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.blotter_gamepurchase_content .plus_block {BACKGROUND:#E4E4E4!IMPORTANT}
 .game_info_achievement.plus_more, .showcase_achievement.plus_more {BACKGROUND-COLOR:#585858!iMPORTANT;BORDER:1PX SOLID #585858!IMPORTANT}
 .groupstat {COLOR:#585858!IMPORTANT}
 .group_curator_more_box {BACKGROUND-COLOR:#585858!IMPORTANT;COLOR:#FFF!IMPORTANT}

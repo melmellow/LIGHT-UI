@@ -52,7 +52,7 @@
 		}
 		panelStyle
 		{
-			bgcolor=white05
+			bgcolor="236 236 236 255"
 		}
 		panelStyleHighlight
 		{
