@@ -742,11 +742,12 @@ steam.styles
 			padding-right=8
 			padding-top=5
 			padding-bottom=6
-				render{
+					render {
 				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
 				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
 				3="fill(x0,y0+1,x0+1,y1-1, "NONE")"  // left
 				4="fill(x1-1,y0+1,x1,y1-1, "NONE")"  // right
+				}
 		}
 		ListPanelSectionCollapser:hover
 		{
