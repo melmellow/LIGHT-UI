@@ -550,6 +550,12 @@ steam.styles
 		{
 			bgcolor=bgGameList
 			render_bg {}
+					render{
+				1="fill(x0,y0,x1,y0+1, "none")"  // top
+				2="fill(x0,y1-1,x1,y1, "none")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1,"none")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1,"none")"  // right
+			}
 		}
 
 		"GameItem_Uninstalled"
