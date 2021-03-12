@@ -548,7 +548,7 @@ steam.styles
 //======This is the GameList from left======//
 		"CGamesListPanel"
 		{
-			bgcolor=bgGameList
+			bgcolor="228 228 228 255"
 			render_bg {}
 					render{
 				1="fill(x0,y0,x1,y0+1, "none")"  // top
