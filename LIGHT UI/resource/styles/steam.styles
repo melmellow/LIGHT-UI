@@ -726,11 +726,11 @@ steam.styles
 			textcolor="88 88 88 255"
 			font-style=uppercase
 			font-weight=400
-			bgcolor="88 88 88 255"
-			render_bg
-			{
-				//0="fill(x0,y1-1,x1,y1,White12)"
-			}
+			bgcolor="none"
+			//render_bg
+			//{
+			//	//0="fill(x0,y1-1,x1,y1,White12)"
+			//}
 			minimum-height=30
 		}
 		"CDialogSettings ListPanelSectionHeader"
