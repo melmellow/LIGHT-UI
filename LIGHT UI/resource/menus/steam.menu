@@ -15,6 +15,7 @@
 		ChangeUser		{	text="#steam_menu_changeuser"			command="ChangeUser" }
 		GoOffline		{	text="#SteamUI_OfflineMode_GoOffline"		command="gooffline" }
 		Divider {}	
+		Mini_Mode {	text="#steam_menu_minimode"  shellcmd="steam://open/minigameslist" }
 		GoOnline		{	text="#SteamUI_OfflineMode_GoOnline"		command="goonline" }
 	}
   

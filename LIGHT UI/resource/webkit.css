@@ -302,6 +302,7 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.forum_topic_pinned_notice {color:#585858!important}
 .blotter_gamepurchase_content .plus_block {BACKGROUND:#E4E4E4!IMPORTANT}
 .game_info_achievement.plus_more, .showcase_achievement.plus_more {BACKGROUND-COLOR:#585858!iMPORTANT;BORDER:1PX SOLID #585858!IMPORTANT}
 .groupstat {COLOR:#585858!IMPORTANT}
@@ -1855,7 +1856,7 @@ div.early_access_announcements .post .more:hover{color:var(--white)!important;pa
 .grouppage_join_area{padding:1px!important;background-color:transparent!important;border-radius:var(--border0)!important}
 .notice_box_content {COLOR:#585858!IMPORTANT}
 .notice_box_content_blue_box{border-radius:var(--border0)!important}
-.group_tabs{width:950px!important;border-radius:var(--border0)!important;padding-left:2px!important}
+.group_tabs{bottom:-55px!important;width:950px!important;border-radius:var(--border0)!important;padding-left:2px!important}
 .group_tab{background:0 0!important;border-radius:var(--border0)!important;-moz-border-radius:var(--border0)!important}
 a.group_tab{color:#585858!important}
 a.group_tab:hover{COLOR:#000!IMPORTANT;background:TRANSPARENT!important;border-radius:var(--border0)!important}
