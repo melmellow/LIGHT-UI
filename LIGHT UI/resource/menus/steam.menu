@@ -16,6 +16,7 @@
 		GoOffline		{	text="#SteamUI_OfflineMode_GoOffline"		command="gooffline" }
 		Divider {}	
 		Mini_Mode {	text="#steam_menu_minimode"  shellcmd="steam://open/minigameslist" }
+		Large_Mode { text="#steam_menu_largemode"  shellcmd="steam://open/largegameslist" }
 		GoOnline		{	text="#SteamUI_OfflineMode_GoOnline"		command="goonline" }
 	}
   
