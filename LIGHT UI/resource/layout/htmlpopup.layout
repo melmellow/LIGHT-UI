@@ -19,7 +19,7 @@
 	{
 		TextEntryURL
 		{
-			bgcolor=none
+			bgcolor="232 232 232 255"
 		}
 	}
 	layout
