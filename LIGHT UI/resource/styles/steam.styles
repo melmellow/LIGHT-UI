@@ -127,7 +127,7 @@ steam.styles
 
 		Frame
 		{
-			bgcolor="222 222 222 255"
+			bgcolor="228 228 228 255"
 			render
 			{
 				1="fill( x0, y0, x1, y0+1, frameBorder )"		// Top
