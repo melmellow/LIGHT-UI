@@ -124,7 +124,7 @@
 
 
 /*/////////////////////////////////////////////////////points shop///////////////////////////////////////////////////////*/
-.globals_ShellHeader_3M7bf {background:#e4e4e4}
+.globals_ShellHeader_3M7bf {background-color:#e4e4e4}
 .globals_ShellHeaderBrandName_MS1bp {color:#585858!important}
 .page_StandardRoot_3uAuM {background:#dedede!important}
 .banner_Banner_ECzA2 {background:#e4e4e4!important}
@@ -137,12 +137,13 @@
 .loyaltyprimarynav_SecondaryNavItem_2mFH5:hover {background-image:none!important;background-color:#d6d6d6!important}
 .loyaltyprimarynav_PrimaryNav_1B_k- .loyaltyprimarynav_Line_3pwI9 {border-top:1px solid #d6d1d1!important}
 .loyaltyprimarynav_NavItem_BVtL0 {color:#000!important;font-weight:bold!important}
-.rewarditem_ItemContainer_skI5t .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s {background:#e4e4e4!important}
+.rewarditem_ItemContainer_skI5t .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s {border-right:1px solid #d6d1d1!important;border-bottom:1px solid #d6d1d1!important;border-left:1px solid #d6d1d1!important;background:#e4e4e4!important}
 .rewarditem_ItemContainer_skI5t .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s .rewarditem_Name_EccZY {background-image:none!important;background:#585858}
 .loyaltypoints_Amount_BqFe2 {color:#1181D2!important}
 .itembox_ItemBox_2EUBP .itembox_Body_1mnC4 {background:#e4e4e4!important}
 .banner_Banner_ECzA2 .banner_Link_185F6 {background-color:#585858!important;color:#fff!important}
 .banner_Banner_ECzA2 .banner_Link_185F6:hover {background-color:#000!important}
+.rewarditemsection_ActionButton_2c38- {background-color:#585858!important;color:#fff!important}
 /* .cluster_ItemHover_1hyVD {box-shadow:1px 1px 2px #d6d1d1!important} */
 
 /*/////////////////////////////////////////steam news hub////////////////////////////////////////////*/
