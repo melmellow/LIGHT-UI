@@ -27,17 +27,17 @@
 		{
 			inset="0 0 0 0"
 			textcolor="none"
-			bgcolor="white001"
+			bgcolor="228 228 228 255"
 		}
 		NavLabel2:hover
 		{
 			textcolor="none"
-			bgcolor="white08"
+			bgcolor="214 214 214 255"
 		}
 		NavLabel2:selected
 		{
 			textcolor="none"
-			bgcolor="white10"
+			bgcolor="228 228 228 255"
 		}
 		"CGamesPage_Mini CMiniGameFilterMenuButton"
 		{
@@ -45,7 +45,7 @@
 		}
 		LibrarySearchIcon
 		{
-			bgcolor=white001
+			bgcolor="228 228 228 255"
 			image="graphics/search_lg"
 			padding-left=12
 		}
