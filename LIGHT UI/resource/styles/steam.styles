@@ -901,7 +901,7 @@ steam.styles
 		}
 		"MenuBar MenuButton:selected"
 		{
-			bgcolor=white04
+			bgcolor="228 228 228 255"
 			render_bg{}
 		}
 
