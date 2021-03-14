@@ -70,7 +70,7 @@
 		{
 			font-family=basefont
 			bgcolor="TextEntry"
-			textcolor=White
+			textcolor="88 88 88 255"
 			shadowtextcolor=white
 			selectedtextcolor=White
 			selectedbgcolor="Focus"
