@@ -124,11 +124,16 @@
 
 
 /*/////////////////////////////////////////////////////points shop///////////////////////////////////////////////////////*/
+.discount_Discount_2dE0f {background-color:#54A448!important;color:#fff!important}
+.rewarditem_IconCheckMark_2RGTq {color:#54A448!important}
+.rewards_token_summary > .cell.view_details > span {font-weight:bold!important}
+.rewards_token_summary > .cell.total_points {color:#000!important}
+.rewards_token_summary > .cell, .rewards_token_summary > .cell {border-bottom:1px solid #d6d1d1!important}
 .index_SectionTitle_jlOQ0, .index_SectionTitleSmall_1OaBe {color:#585858!important}
 .index_AwardBadgeContainer_2SDnX {background-color:#e4e4e4!important;box-shadow:0 0 2px #d6d1d1!important}
 .index_ConvertionSectionTextContainer_xaO4v .index_PointsConvertion_5F9Az span {color:#000!important}
 .index_ConvertionSectionTextContainer_xaO4v .index_PointsConvertion_5F9Az {color:#585858!important}
-.index_ConvertionSectionTextContainer_xaO4v {background-color:#e4e4e4!important}
+.index_ConvertionSectionTextContainer_xaO4v {box-shadow: 1px 1px 2px #d6d1d1!important;background-color:#e4e4e4!important}
 .globals_ShellHeader_3M7bf {background-color:#e4e4e4}
 .globals_ShellHeaderBrandName_MS1bp {color:#585858!important}
 .page_StandardRoot_3uAuM {background:#dedede!important}
