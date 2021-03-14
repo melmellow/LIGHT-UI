@@ -124,6 +124,11 @@
 
 
 /*/////////////////////////////////////////////////////points shop///////////////////////////////////////////////////////*/
+.index_SectionTitle_jlOQ0, .index_SectionTitleSmall_1OaBe {color:#585858!important}
+.index_AwardBadgeContainer_2SDnX {background-color:#e4e4e4!important;box-shadow:0 0 2px #d6d1d1!important}
+.index_ConvertionSectionTextContainer_xaO4v .index_PointsConvertion_5F9Az span {color:#000!important}
+.index_ConvertionSectionTextContainer_xaO4v .index_PointsConvertion_5F9Az {color:#585858!important}
+.index_ConvertionSectionTextContainer_xaO4v {background-color:#e4e4e4!important}
 .globals_ShellHeader_3M7bf {background-color:#e4e4e4}
 .globals_ShellHeaderBrandName_MS1bp {color:#585858!important}
 .page_StandardRoot_3uAuM {background:#dedede!important}
@@ -150,6 +155,9 @@
 .rewarditem_ItemContainer_skI5t .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s .rewarditem_ItemTypeContainer_3Jcrb .rewarditem_Icon_3ahcH {filter:brightness(0)!important}
 .loyaltyprimarynav_SecondaryNavItem_2mFH5 .loyaltyprimarynav_Callout_YOdxt {filter:brightness(0)!important;opacity:60%!important}
 .banner_Banner_ECzA2 .banner_Image_28bFl {filter:brightness(0)!important;opacity:60%!important}
+.bundle_BundleFooter_zpf5C {background:#e4e4e4!important}
+.bundle_BundleContainer_2p-sr {background:#e4e4e4!important}
+.bundle_ItemCard_1zIyr {background:#ececec!important;box-shadow:0 0 2px #d6d1d1!important}
 /* .cluster_ItemHover_1hyVD {box-shadow:1px 1px 2px #d6d1d1!important} */
 
 /*/////////////////////////////////////////steam news hub////////////////////////////////////////////*/
