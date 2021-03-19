@@ -1,5 +1,5 @@
 # PREVIEW
-![LIGHT UI](https://media1.giphy.com/media/zhBdR9B4OaclbNbscN/giphy.gif)
+![LIGHT UI](https://gph.is/g/460n5zY)
 
 # INSTRUCTIONS
 * Move LIGHT UI folder to steam/skins/
