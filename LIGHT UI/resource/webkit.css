@@ -128,6 +128,9 @@ div.filterselect div.option, div.filterselect_options div.option {border-bottom:
 /*/////////////////////////////////////////////////////points shop///////////////////////////////////////////////////////*/
 .ModalPosition_TopBar {background:none!important}
 .buttons_GrayButton_3Ju8v {background:#585858!important;color:#fff!important}
+.buttons_GrayButton_3Ju8v:hover {background:#000!important}
+.buttons_BlueButton_2Sjv2 {background:#41A6EF!important}
+.buttons_BlueButton_2Sjv2:hover {background:#1181D2!important}
 .redeempointsmodal_RedeemButton_19X6A .redeempointsmodal_CostContainer_2pwsW {background:#d6d6d6!important;border:1px solid #b8b8b8!important}
 .redeempointsmodal_ItemDescription_sglF_ .redeempointsmodal_Small_9eRgY {color:#585858!important}
 .redeempointsmodal_ModalContainer_Y6hHM .redeempointsmodal_PointsContainer_2XpLS .redeempointsmodal_CurrentPoints_ML1Ck {text-shadow:none!important;color:#585858!important}
@@ -136,7 +139,7 @@ div.filterselect div.option, div.filterselect_options div.option {border-bottom:
 .redeempointsmodal_CurrentlyEquippedAvatarAndFrame_1n654 .redeempointsmodal_CurrentlyEquippedAvatarAndFrameDesc_34QPs {color:#585858!important}
 .redeempointsmodal_ItemDescription_sglF_ {color:#585858!important}
 .redeempointsmodal_ModalContainer_Y6hHM {background:none!important;background-color:#e4e4e4!important}
-.redeempointsmodal_BadgeItemContainer_3DCmO .redeempointsmodal_BadgePreviewContainer_3fRyE {border-top:1px solid #d6d1d1!important;border-top:1px solid #d6d1d1!important}
+.redeempointsmodal_BadgeItemContainer_3DCmO .redeempointsmodal_BadgePreviewContainer_3fRyE {border-top:1px solid #d6d1d1!important;border-bottom:1px solid #d6d1d1!important}
 .redeempointsmodal_BadgeItemContainer_3DCmO .redeempointsmodal_BadgePreviewContainer_3fRyE .redeempointsmodal_BadgeColumn_3QCcu .redeempointsmodal_BadgeTitle_UOYTX {color:#585858!important}
 .globals_ShellHeader_3M7bf .globals_AppFilterContainer_3G7_B .globals_AppFilterLabel_IXSgc {color:#585858!important}
 .globals_ShellHeader_3M7bf .globals_AppFilterContainer_3G7_B .globals_AppFilterIcon_CFiLd {color:#585858!important}
