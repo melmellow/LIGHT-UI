@@ -272,7 +272,7 @@ styles
 	NavLabel2:hover
 	{
 		textcolor=white75
-		bgcolor=white05
+		bgcolor="214 214 255"
 	}
 	NavLabel2:selected
 	{
