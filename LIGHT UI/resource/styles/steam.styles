@@ -13,7 +13,7 @@ steam.styles
 	colors
 	{
 		dialogbg2="228 228 228 255"
-	  DialogBG="195 195 195 255"
+	  DialogBG="222 222 222 255"
 		PropertySheetBG="50 55 61 255"
 		ButtonBorderDisabled="112 120 136 255"
 		ScrollBar.Wide "16"
@@ -544,7 +544,7 @@ steam.styles
 			font-weight=400
 			padding-left=16
 				render {
-				1="fill(x0,y0,x1,y0+1,outline)"  // top
+			
 				2="fill(x0,y1-1,x1,y1,outline)"  // bottom
 				3="fill(x0,y0+1,x0+1,y1-1,outline)"  // left
 				4="fill(x1-1,y0+1,x1,y1-1,outline)"  // right
