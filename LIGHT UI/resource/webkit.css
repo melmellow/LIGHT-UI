@@ -364,6 +364,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.btn_profile_action.btn_medium:hover {border-color:#8d8d8d!important}
+.playerAvatar.profile_header_size.online {background:#1181D2!important}
+.btn_profile_action:hover, .btn_profile_action.focus {filter:none!important}
+.dynamiclink_type {color:#585858!important}
 .forum_topic_pinned_notice {color:#585858!important}
 .blotter_gamepurchase_content .plus_block {BACKGROUND:#E4E4E4!IMPORTANT}
 .game_info_achievement.plus_more, .showcase_achievement.plus_more {BACKGROUND-COLOR:#585858!iMPORTANT;BORDER:1PX SOLID #585858!IMPORTANT}
@@ -634,7 +638,7 @@ label.send_choice_txt {color:#585858!important}
 body.v6 .store_nav .popup_menu_subheader, body.v6 #footer_nav .popup_menu_subheader {COLOR:#000!IMPORTANT;FONT-WEIGHT:BOLD!IMPORTANT}
 .profile_rightcol  {background:#E4E4E4!important}
 .tab_item_discount .discount_pct, .tab_item_discount.no_discount .bundle_base_discount {BORDER-RADIUS:0!IMPORTANT}
-.btn_profile_action > span {background-color:#585858!important}
+.btn_profile_action > span {color:#585858!important;background-color:#585858!important}
 .help_section_text {font-weight:bold!important;color:#585858!important}
 .help_section_text {font-weight:bold!important;color:#585858!important}
 .recommendation_row .quote .quote_content {color:#585858!important}

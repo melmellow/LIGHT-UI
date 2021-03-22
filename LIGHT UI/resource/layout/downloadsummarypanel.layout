@@ -134,24 +134,22 @@
 			font-family=semibold
 			font-style=uppercase
 			
-			//bgcolor="214 214 214 255"
+			bgcolor="236 236 236 255"
 			
-			padding-TOP=14
-			padding-BOTTOM=14
-			padding-LEFT=14
+			padding= 14
 			
-			//render_bg{
-			//	1="fill(x0,y0,x1,y0+1,white696969)"   top
-			//	2="fill(x0,y1-1,x1,y1,white696969)"  bottom
-			//	3="fill(x0,y0+1,x0+1,y1-1,white696969)"  left
-			//	4="fill(x1-1,y0+1,x1,y1-1,white696969)"  right
-			//}
+			render {
+			
+				2="fill(x0,y1-1,x1,y1,shadow1)"
+				4="fill(x1-1,y0+1,x1,y1-1,shadow1)"  
+			}
 		}
 		throttleValue
 		{
+			bgcolor="214 214 214 255"
 			textcolor=white
 			font-style=regular
-			padding-right=29
+			padding= 14
 			render_bg
 			{
 				0="image(x1-19,y0+10,x1,y1,graphics/metro/downloads/icons/cog_sm)"
@@ -170,10 +168,11 @@
 		}
 		bigtextNonUpper
 		{
-			textcolor=white
-			bgcolor="228 228 228 255"
+			textcolor="88 88 88 255"
+			bgcolor="236 236 236 255"
 			render_bg{}
 			font-family=basefont
+			padding= 14
 		}
 		bigtextlabel
 		{
@@ -181,18 +180,16 @@
 			font-family=semibold
 			font-style=uppercase
 			font-weight=bold
-			PADDING-TOP=14
-			PADDING-LEFT=14
-			PADDING-BOTTOM=14
+			PADDING = 14
 			
-			//BGCOLOR="214 214 214 255"
+			BGCOLOR="236 236 236 255"
 			
-			//render_bg{
+			render {
 			//	1="fill(x0,y0,x1,y0+1,white696969)"  top
-			//	2="fill(x0,y1-1,x1,y1,white696969)"   bottom
+				2="fill(x0,y1-1,x1,y1,shadow1)"
 			//	3="fill(x0,y0+1,x0+1,y1-1,white696969)"   left
-			//	4="fill(x1-1,y0+1,x1,y1-1,white696969)"  right
-			//}
+				4="fill(x1-1,y0+1,x1,y1-1,shadow1)"
+			}
 		}
 			bigtextlabel2
 		{
@@ -200,9 +197,9 @@
 			font-family=semibold
 			font-style=uppercase
 			font-weight=bold
-			PADDING-right=14
-			
-			//BGCOLOR="214 214 214 255"
+			padding = 14
+
+			BGCOLOR="236 236 236 255"
 			
 			//render_bg{
 			//	1="fill(x0,y0,x1,y0+1,white696969)"  top
@@ -215,11 +212,13 @@
 		{
 			textcolor=white
 			font-family=semilight
+		
 		}
 		bigTextNumbers
 		{
 			textcolor="88 88 88 255"
 			font-family=semilight
+			bgcolor="236 236 236 255"
 		}
 
 		PauseButton
@@ -326,17 +325,17 @@
 		place { control="pauseresumeallbutton" width=30 height=30 margin-right=10 align=bottom-right margin-bottom=30}
 
 		//Stats
-		place { control="download_rate,download_rate_value" x=10 y=10 height=28 spacing=8 }
-		place { control="peak_download_rate,peak_download_rate_value" x=10 y=48 height=28 spacing=8 }
-		place { control="total_downloaded,total_downloaded_value" x=10 y=86 height=28 spacing=8 }
+		place { control="download_rate,download_rate_value" x=10 y=10 height=28  }
+		place { control="peak_download_rate,peak_download_rate_value" x=10 y=48 height=28 }
+		place { control="total_downloaded,total_downloaded_value" x=10 y=86 height=28 }
 
 		//This acts like a null placer which auto aligns the second column depending on your language
 		place { start=download_rate control=header height=104 }
 		place { control="disk_legend_label,disk_status_value" x=10 y=124 height=28 align=left spacing=8 }
 
-		place { start=disk_legend_label control="throttling_label,blackout_label" y=10 height=28 spacing=10 dir=down }
-		place { start=throttling_label control="throttling_value" x=8 height=28 }
-		place { start=blackout_label control="blackout_value" x=8 height=28 }
+		place { start=disk_legend_label control="throttling_label,blackout_label" y=10 height=28 dir=down }
+		place { start=throttling_label control="throttling_value" x=-8 height=28 }
+		place { start=blackout_label control="blackout_value" x=-8 height=28 }
 
 
 		//"net_legend_label"

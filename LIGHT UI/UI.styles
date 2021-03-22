@@ -580,8 +580,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, "228 228 228 255")"
-				2="fill( x0, y1-43, x1, y1, "228 228 228 255" )"
+				1="fill( x0, y1-44, x1, y1-43, navbar)"
+				2="fill( x0, y1-43, x1, y1, navbar)"
 			}
 			minimum-width = 380
 			minimum-height = 420

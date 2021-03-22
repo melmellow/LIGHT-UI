@@ -348,13 +348,14 @@ SVGIcon_Button {
 
 /*emoticon search*/
 .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z- {
-	background-color: var(--BUTTON)!important;
+	background-color: var(--TEXTENTRY)!important;
 	border:1px solid  var(--BUTTONBORDER)!important;
+	BORDER-RADIUS:30PX!IMPORTANT;
 }
 
 /*emoticon search hover/focus*/
 .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z-:hover, .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z-:focus {
-	background-color: var(--BUTTON)!important;
+	background-color: var(--TEXTENTRY)!important;
 }
 
 .addonpicker_AddonPickerMessage_2wUk7 {
