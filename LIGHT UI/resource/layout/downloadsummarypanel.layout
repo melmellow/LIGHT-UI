@@ -331,11 +331,11 @@
 
 		//This acts like a null placer which auto aligns the second column depending on your language
 		place { start=download_rate control=header height=104 }
-		place { control="disk_legend_label,disk_status_value" x=10 y=124 height=28 align=left spacing=8 }
+		place { control="disk_legend_label,disk_status_value" x=10 y=124 height=28 align=left}
 
 		place { start=disk_legend_label control="throttling_label,blackout_label" y=10 height=28 dir=down }
-		place { start=throttling_label control="throttling_value" x=-8 height=28 }
-		place { start=blackout_label control="blackout_value" x=-8 height=28 }
+		place { start=throttling_label control="throttling_value" x=8 height=28 }
+		place { start=blackout_label control="blackout_value" x=8 height=28 }
 
 
 		//"net_legend_label"
