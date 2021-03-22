@@ -126,6 +126,12 @@ div.filterselect div.option, div.filterselect_options div.option {border-bottom:
 
 
 /*/////////////////////////////////////////////////////points shop///////////////////////////////////////////////////////*/
+.rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO {box-shadow:1px 1px 2px #d6d1d1!important}
+.rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO:hover {filter:none!important}
+.rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s .rewarditem_ItemTypeContainer_3Jcrb .rewarditem_Icon_3ahcH {filter:brightness(0)!important}
+.rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s .rewarditem_Name_EccZY {background-image:linear-gradient(90deg, #585858 70%, #585858)!important}
+.rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s {background:none!important}
+.rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO .rewarditem_ImageProfileShowcase_3iMI3 {filter:brightness(0)!important;opacity:60%!important}
 .ModalPosition_TopBar {background:none!important}
 .buttons_GrayButton_3Ju8v {background:#585858!important;color:#fff!important}
 .buttons_GrayButton_3Ju8v:hover {background:#000!important}
@@ -173,7 +179,7 @@ div.filterselect div.option, div.filterselect_options div.option {border-bottom:
 .loyaltyprimarynav_PrimaryNav_1B_k- .loyaltyprimarynav_Line_3pwI9 {border-top:1px solid #d6d1d1!important}
 .loyaltyprimarynav_NavItem_BVtL0 {color:#000!important;font-weight:bold!important}
 .rewarditem_ItemContainer_skI5t .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s {border-right:1px solid #d6d1d1!important;border-bottom:1px solid #d6d1d1!important;border-left:1px solid #d6d1d1!important;background:#e4e4e4!important}
-.itembox_ItemBox_2EUBP .itembox_Body_1mnC4 {border-right:1px solid #d6d1d1!important;border-top:1px solid #d6d1d1!important;border-left:1px solid #d6d1d1!important}
+/* .itembox_ItemBox_2EUBP .itembox_Body_1mnC4 {border-right:1px solid #d6d1d1!important;border-top:1px solid #d6d1d1!important;border-left:1px solid #d6d1d1!important} */
 .rewarditem_ItemContainer_skI5t .rewarditem_Item_CcuoO .rewarditem_Footer_1D-8s .rewarditem_Name_EccZY {background-image:none!important;background:#585858}
 .loyaltypoints_Amount_BqFe2 {color:#1181D2!important}
 .itembox_ItemBox_2EUBP .itembox_Body_1mnC4 {background:#e4e4e4!important}
