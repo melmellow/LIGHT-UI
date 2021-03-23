@@ -7,6 +7,7 @@
 		Restart 		{	text="#Steam_MustRestart_Button"		command="RestartSteam" }
 		Divider {}
 		Support			{	text="#steam_menu_support"			command="Support" }
+		CheckForUpdates	{	text="#steam_menu_checkforupdates"		command="CheckForUpdates" }
 		Divider {}
 		BackupGames		{	text="#steam_menu_backupgames"			command="backupgames" }
 		ActivateRetail		{	text="#Steam_RegisterProductCode"		command="ActivateRetail" }
@@ -18,8 +19,6 @@
 		Mini_Mode {	text="#steam_menu_minimode"  shellcmd="steam://open/minigameslist" }
 		Large_Mode { text="#steam_menu_largemode"  shellcmd="steam://open/largegameslist" }
 		GoOnline		{	text="#SteamUI_OfflineMode_GoOnline"		command="goonline" }
-		CheckForUpdates	{	text="#steam_menu_checkforupdates"		command="CheckForUpdates" }
-		Divider	{}
 	
 	}
   
