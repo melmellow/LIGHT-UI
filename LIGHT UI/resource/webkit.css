@@ -385,6 +385,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.workshop_item_row {background:#e4e4e4!important;border:0!important}
+.workshop_browse_tab.active {border-bottom:2px solid #585858!important}
 .adult_content_age_gate {COLOR:#585858!IMPORTANT}
 .adult_content_age_gate .edit_preferences {BORDER-TOP:NONE!iMPORTANT}
 .search_results_filtered_warning_persistent {background:#e4e4e4!important;color:#585858!important}
@@ -1351,6 +1353,8 @@ a.home_marketing_message{border-radius:var(--border0)!important}
 .recently_updated .store_capsule{border:1px solid #d6d1d1!important;background-image:none!important;background:#e4e4e4!important;border-radius:0!important}
 .recently_updated .store_capsule .recently_updated_desc{COLOR:#585858!IMPORTANT;border-top:0!important;border-radius:var(--border0)!important}
 .hardware_ctn.double .hardware_content .left,.hardware_ctn.double .hardware_content .right{display:none!important}
+.home_tab {background:#e4e4e4!important}		
+.home_tab.active {background:none!important}
 .home_tab.active .tab_content{border:0!important;border-top-left-radius:var(--border0)!important;background-color:var(--bedarkgrey)!important;color:#fff!important;border-radius:0!important}
 /* .tab_item.focus .tab_item_details span.platform_img.win {BACKGROUND-IMAGE:UNSET!IMPORTANT}
 .tab_item.focus .tab_item_details span.platform_img.mac{BACKGROUND-IMAGE:UNSET!iMPORTANT} */
