@@ -386,6 +386,11 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+input.inputTagsFilter + label {color:#585858!important}
+.tag_label .tag_count {color:#000!Important}
+.slideshow_item {background-color:#e4e4e4!important}
+.workshop_browse_tab a.dropdown.hover {background-color:#e4e4e4!important}
+.navContent {background:#e4e4e4!important;border:1px solid #b8b8b8!important}
 .popular_items_row .workshop_item.grid, .followed_authors_row .workshop_item.grid, .merch_row .workshop_item.grid, .friends_favorites_row .workshop_item.grid {background:#e4e4e4!important}
 .browse_option a:hover {background-color:#d6d6d6!important}
 .section_contents.with_background {background:#e4e4e4!important}
@@ -1052,7 +1057,7 @@ body.v6 h2 {color:#585858!important}
 .apphub_AppName {color:#585858!important}
 .detailBox .headline, .detailBox .headline a {color:#585858!important}
 .view_inventory_page {background:none!important}
-.title {color:#585858!important}
+.title {font-weight:bold!important;color:#585858!important}
 body.v6 .sale_capsule .discount_block_inline {PADDING-TOP:3PX!iMPORTANT}
 a {color:#fff!important}
 .hover_body {COLOR:#585858!IMPORTANT}
@@ -2132,7 +2137,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#
 .workshopAppsSortTitle {color:#585858!Important}
 #ig_bottom .sidebar .detailPanel,#ig_bottom .sidebar .panel{background:var(--grey)!important;border-radius:var(--border0)!important}
 .subscribeRSS{padding-top:15px!important;padding-bottom:5px!important}
-.right_column .panel{background:var(--grey)!important;border-radius:var(--border0)!important}
+.right_column .panel{background:#e4e4e4!important;border-radius:var(--border0)!important}
 .workshop_header{border-radius:var(--border0)!important}
 .workshop_browse_menu_area{border-radius:var(--border0)!important;background:var(--darkgrey)!important;text-align:left}
 .workshop_browse_search{height:34px!important;background-color:var(--grey)!important;border-left:0!important;border-top:0!important;border-right:0!important;border-bottom:0!important}
