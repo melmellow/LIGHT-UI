@@ -1,7 +1,6 @@
-*{box-shadow:none!important}
+*{text-shadow:none!important;box-shadow:none!important}
 
 *::SELECTION {TEXT-SHADOW:NONE!iMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D5D5D5!IMPORTANT}
-*::h2 {text-shadow:none!Important}
 :root {/* Colors */
 	--searchbox: #333333;
     --scrollbar: #585858;
