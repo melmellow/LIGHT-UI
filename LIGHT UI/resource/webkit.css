@@ -1,7 +1,7 @@
 *{box-shadow:none!important}
 
 *::SELECTION {TEXT-SHADOW:NONE!iMPORTANT;COLOR:#585858!IMPORTANT;BACKGROUND:#D5D5D5!IMPORTANT}
-
+*::h2 {text-shadow:none!Important}
 :root {/* Colors */
 	--searchbox: #333333;
     --scrollbar: #585858;
@@ -386,6 +386,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.guide_category_tags label {color:#585858!important}
+.tag_category_desc {color:#585858!important;font-weight:bold!important}
+.apphub_ContentGuides .workshopItemCollection .workshopItemTitle {border-bottom:1px dotted #d6d1d1}
 .workshopItemCollection .workshopItemAuthorLine {color:#585858!important}
 .workshopItemCollection .workshopItemAuthorName {color:#585858!important;font-weight:bold!important}
 .guides_home_section_title {color:#585858!important}
