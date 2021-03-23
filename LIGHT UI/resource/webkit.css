@@ -385,6 +385,11 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+h5 {color:#585858!important;font-weight:bold!important}
+p {color:#585858!important}
+h3 {border-bottom:1px solid #d6d1d1!important}
+.image_block, .bottom_block {background-color:#e4e4e4!important}
+.image_block .text, .bottom_block .text {color:#585858!important}
 .guide_category_tags label {color:#585858!important}
 .tag_category_desc {color:#585858!important;font-weight:bold!important}
 .apphub_ContentGuides .workshopItemCollection .workshopItemTitle {border-bottom:1px dotted #d6d1d1}
