@@ -385,7 +385,11 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
-.workshop_item_row {background:#e4e4e4!important;border:0!important}
+.browse_option a:hover {background-color:#d6d6d6!important}
+.section_contents.with_background {background:#e4e4e4!important}
+.section_bottom_bar {background:#e4e4e4!important}
+.section_subtitle {color:#585858!important}
+.workshop_item_row {background:#e4e4e4!important;border:0!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .workshop_browse_tab.active {border-bottom:2px solid #585858!important}
 .adult_content_age_gate {COLOR:#585858!IMPORTANT}
 .adult_content_age_gate .edit_preferences {BORDER-TOP:NONE!iMPORTANT}
