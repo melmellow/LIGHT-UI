@@ -386,6 +386,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.detailPanel > .smallText {color:#585858!important}
+.detailPanel > .bigNumber {color:#585858!important}
+.page_title {color:#585858!important}
+.filterOption:hover {background-color:#d6d6d6!important}
 input.inputTagsFilter + label {color:#585858!important}
 .tag_label .tag_count {color:#000!Important}
 .slideshow_item {background-color:#e4e4e4!important}
@@ -496,7 +500,7 @@ body.v6 .page_desc{BORDER:0!iMPORTANT;BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1P
 .mature_content_filtered {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .contenthub_subtitle {COLOR:#585858!IMPORTANT}
 .friendactivity_tab_row {BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
-.page_desc {COLOR:#585858!IMPORTANT}
+.page_desc {border-top:1px solid #d6d1d1!important;COLOR:#585858!IMPORTANT}
 .curator_page .name span {COLOR:#585858!IMPORTANT;FONT-WEIGHT:500!IMPORTANT}
 .curator_page .name {COLOR:#585858!IMPORTANT}
 body.v6 .store_capsule_frame.curator_spotlight h2 b {COLOR:#585858!iMPORTANT}
