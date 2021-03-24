@@ -385,6 +385,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.mediaSidebar .commentthread_area {border-top:1px solid #d6d1d1!important}
+.commentthread_entry_quotebox {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important;color:#585858!important}
+#modalContent.modal_frame{border:0!Important}
 .microtrailers_flavor_container {background-image:none!important;background-color:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 span.experiment-name {color:#585858!important}
 .experiment-button:hover {border:1px solid #8d8d8d!important}
@@ -944,7 +947,6 @@ body.v6 #footer_nav .pulldown {background:#585858!important;color:#fff!important
 .review_box.short .shortcol {background:#E4E4E4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .user_reviews_filter_score {color:#585858!important}
 .commentthread_count_label {color:#fff!important}
-.commentthread_comment_text {color:#585858!important}
 .commentthread_comment_author a {color:#585858!important}
 .group_tab.active {background:#585858!important}
 div.bb_h1, .bb_wysiwyg h1 {color:#585858!important;font-weight:bold!important}
@@ -1499,7 +1501,7 @@ input.community_home_search_players_input{font-style:normal!important;font-size:
 .community_home_search_players_image{display:none!important}
 .element{position:relative!important;top:50%!important;transform:translate(-50%)!important}
 .modal{max-height:calc(100% - 100px)!important;position:fixed!important;top:50%!important;left:50%!important;transform:translate(-50%,-50%)!important}
-.mediaTop .mediaSidebar{background-color:var(--begrey)!important;height:-webkit-fill-available!important}
+.mediaTop .mediaSidebar{background-color:#dedede!important;height:-webkit-fill-available!important}
 .mediaTop{background-color:var(--begrey)!important}
 .mediaBodyNoBackground{background-color:var(--begrey)!important}
 body.headerOverride{background:var(--darkgrey)!important}
@@ -2336,3 +2338,4 @@ input.discussionSearchText::SELECTION{COLOR:#585858!IMPORTANT}
 .forum_topic_op {COLOR:#1181D2!iMPORTANT}
 .app_tag_form_ctn .gray_bevel.for_text_input {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important}
 #ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel {background:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
+.commentthread_comment_text {color:#585858!important}
