@@ -385,6 +385,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.experiment-button:hover {border:1px solid #8d8d8d!important}
+.experiment-button {background-color:#d6d6d6!important;border:1px solid #b8b8b8!important}
+.capsule {background-image:none!important;background-color:#e4e4e4!important;box-shadow:1px 1px 2px #d6d1d1!important}
 body.clientNews .post_title {color:#585858!important}
 body.clientNews ul {color:#585858!important}
 .guideTopContent .dotHR {border-bottom:1px dotted #d6d1d1!important}
