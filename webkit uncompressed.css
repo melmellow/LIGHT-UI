@@ -119,7 +119,7 @@
 /*////////////////////////BUG/////////////////////////////////////*/
 div.filterselect div.option, div.filterselect_options div.option {border-bottom:1px solid #b8b8b8!important}
 .dynamiclink_author {COLOR:#585858!IMPORTANT}
-.btn_grey_grey {BACKGROUND:NONE!IMPORTANT}
+.btn_grey_grey {color:#585858!important;BACKGROUND:NONE!IMPORTANT}
 .btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background:#D6D6D6!important;color:#FFF!important}
 .game_area_purchase_game_dropdown_selection{BORDER-BOTTOM:1PX SOLID #B8B8B8!IMPORTANT;COLOR:#585858!IMPORTANT;background:#D6D6D6!important;line-height:36px!important}
 .selectTagsFilter {background:#d6d6d6!important;color:#585858!important}
@@ -385,6 +385,8 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+body.clientNews .post_title {color:#585858!important}
+body.clientNews ul {color:#585858!important}
 .guideTopContent .dotHR {border-bottom:1px dotted #d6d1d1!important}
 h5 {color:#585858!important;font-weight:bold!important}
 p {color:#585858!important}
