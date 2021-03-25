@@ -385,6 +385,11 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_Footer_164mm .awardmodal_Left_1v0jL .awardmodal_BalanceDetails_209Gy .awardmodal_BalanceLabel_2u9RZ{color:#585858!important}
+.ModalPosition_Dismiss .closeButton .SVGIcon_X_Line line {stroke:#585858!important}
+.ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {stroke:#000!Important}
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h .awardmodal_Label_2iEkq {color:#585858!important}
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h:hover, .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h.awardmodal_Selected_Efo_8 {background-color:#d6d6d6!important}
 .awardmodal_Divider_105py {background-color:#d6d1d1!important}
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_Header_2_vbZ .awardmodal_Description_16dRE {color:#585858!important}
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_Header_2_vbZ .awardmodal_Title_2yJ4j {color:#585858!important}
