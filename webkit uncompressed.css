@@ -385,6 +385,10 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.awardmodal_Divider_105py {background-color:#d6d1d1!important}
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_Header_2_vbZ .awardmodal_Description_16dRE {color:#585858!important}
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_Header_2_vbZ .awardmodal_Title_2yJ4j {color:#585858!important}
+.DialogContent, .DialogContentTransition {background:#e4e4e4!important}
 .mediaSidebar .commentthread_area {border-top:1px solid #d6d1d1!important}
 .commentthread_entry_quotebox {background-color:#e8e8e8!important;border-radius:30px!important;border:1px solid #b8b8b8!important;color:#585858!important}
 #modalContent.modal_frame{border:0!Important}
@@ -992,7 +996,7 @@ a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row
 .friends_nav h4 {BACKGROUND:NONE!IMPORTANT;color:#585858!important;font-weight:bold!important}
 .count {color:#585858!important}
 .friends_search_text_box, .groups_search_text_box {background-color:#d6d6d6!important;border:1px solid #b6b6b6!important}
-.persona.in-game, a.persona.in-game, .persona.in-game a, .friend_status_in-game, .friend_status_in-game div, .friend_status_in-game a {color:#A7D5A1!important}
+.persona.in-game, a.persona.in-game, .persona.in-game a, .friend_status_in-game, .friend_status_in-game div, .friend_status_in-game a {color:#54A448!important}
 .profile_friends .state_block {color:#585858!important}
 .help_game_refund_box {background-color:#e4e4e4!important;color:#585858!important;box-shadow:1px 1px 2px #d6d1d1!important}
 .review_box .num_reviews a, .review_box .num_owned_games a {color:#585858!important}
