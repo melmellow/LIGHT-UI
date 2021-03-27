@@ -1271,7 +1271,7 @@ steam.styles
 
 		BackButton
 		{
-			inset="-5 0 0 0"
+			inset="-10 0 0 0"
 			bgcolor="none"
 			render_bg{}
 			image="graphics/metro/icons/navbar/back"
@@ -1402,7 +1402,7 @@ steam.styles
 
 		ForwardButton
 		{
-			inset="-5 0 0 0"
+			inset="-10 0 0 0"
 			bgcolor="none"
 			render_bg{}
 			image="graphics/metro/icons/navbar/forward"
