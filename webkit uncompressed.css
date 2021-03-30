@@ -459,8 +459,9 @@ input.inputTagsFilter + label {color:#585858!important}
 .group_curator_blurb {COLOR:#585858!IMPORTANT}
 .store_capsule .discount_block > .discount_prices {BACKGROUND-COLOR:#ECECEC!IMPORTANT}
 body.v6 .broadcast_live_stream_icon {BACKGROUND:#ECECEC!IMPORTANT}
+.ratingSummaryHeader {background:#e4e4e4!important}
 .stats_table tr > td:first-child {COLOR:#585858!iMPORTANT;FONT-WEIGHT:500!iMPORTANT}
-a.store_header_btn_content {margin:0!Important}
+a.store_header_btn_content {padding:0 15px!important;border-radius:30px!important;margin:0!Important}
 #reviews_filter_options.graph_collapsed #review_show_graph_button {MARGIN-TOP:4PX!iMPORTANT;MARGIN-RIGHT:2PX!IMPORTANT}
 .Curators_loading { BACKGROUND:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .curators_for_app_filter_menu_flyout {COLOR:#585858!iMPORTANT}
@@ -893,7 +894,7 @@ body.v6 .store_nav .popup_menu .hr, body.v6 #footer_nav .popup_menu .hr {backgro
 .explore_rightcol_text {COLOR:#585858!iMPORTANT}
 .store_nav .tab > span {font-weight:500!important;text-transform:uppercase!important;font-family:Segoe UI!important;text-shadow:none!important;color:#585858!Important}
 a.pulldown_desktop {font-weight:500!important;text-transform:uppercase!important;color:#585858!Important;text-shadow:none!important}
-#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {BORDER:0!IMPORTANT;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {border-radius:30px!important;BORDER:0!IMPORTANT;background:#e4e4e4!important;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 .searchPersonaName, .searchPersonaName:active, .searchPersonaName:visited, .searchPersonaName:hover {color:#585858!important}
 .community_searchresults_title{color:#585858!Important}
 .rightcol.game_meta_data .block.recommendation_noinfo {COLOR:#585858!IMPORTANT}
