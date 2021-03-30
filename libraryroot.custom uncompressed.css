@@ -400,7 +400,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
      font-weight:bold!important;
 }
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover {
-     background-color: var(--BASE2)!important;
+         BORDER-RADIUS: 30PX!iMPORTANT;
+    background-color: #ECECEC!IMPORTANT;
+    BOX-SHADOW: 1PX 1PX 2PX #D6D1D1!IMPORTANT;
 }
 .online .personanameandstatus_playerName_nOdcT {
      color: var(--BUTTONHOVER)!important;
@@ -1277,7 +1279,7 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
      COLOR: var(--ACCENT)!IMPORTANT;
 }
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
-     BORDER-RADIUS:0!IMPORTANT;
+     BORDER-RADIUS:30PX!IMPORTANT;
      BORDER:1PX SOLID var(--BASE2)!IMPORTANT;
      BACKGROUND: var(--BASE1)!IMPORTANT;
      BOX-SHADOW: 2PX 1PX 2PX VAR(--DIVIDER1)!IMPORTANT;
@@ -1337,7 +1339,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
      fill: var(--ACCENT)!important;
 }
 .gamelistsectionheader_SectionCount_29ute {
-     color: var(--BUTTONHOVER)!important;
+     color: var(--ACCENT)!important;
 }
 .gamelisthome_Selected_eNLOx .gamelisthome_Label_3O48L {
      COLOR: var(--ACCENT)!IMPORTANT;
@@ -1693,7 +1695,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
      COLOR: var(--ACCENT)!IMPORTANT;
 }
 .gamelistsectionheader_SectionHeaderContent_3cV3O {
-     COLOR: var(--BUTTONHOVER)!IMPORTANT;
+     COLOR: var(--ACCENT)!IMPORTANT;
      font-weight:bold!important;
      margin-top: 3px;
      padding: 0px 9px 5px 9px;
