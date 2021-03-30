@@ -428,9 +428,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 .allcollections_Collection_3IWn-.allcollections_NewCollection_2_dwx {
      border:1px solid var(--DIVIDER1)!important;
+	 background:#e4e4e4!important;
 }
 .allcollections_Collection_3IWn-:hover {
-     BACKGROUND:TRANSPARENT!iMPORTANT;
+     BACKGROUND:#ececec!iMPORTANT;
 }
 .allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ .allcollections_CollectionLabelCount_36QQL {
      color: var(--ACCENT)!important;
@@ -1655,7 +1656,6 @@ button.DialogButton.Primary:hover {
      grid-template-rows: 9px 9px!important;
      grid-column-gap: 3px!important;
      grid-row-gap: 3px!important;
-     padding-left: 4px!important;
      padding-top: 4px!important;
 }
 .appdetailsworkshopsection_WorkshopContainer_176QJ {
