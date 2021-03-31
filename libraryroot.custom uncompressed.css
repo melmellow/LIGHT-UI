@@ -1,3 +1,9 @@
+.index_Container_2mu1w.index_PreloadThrobber_2dqG9 {background:#e4e4e4!important}
+.throbber_LoadingWrapper_2wAKy.throbber_Static_1Qfwp * {filter:brightness(0)!important;opacity:60%!important}
+.index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq {border-radius:50px!important;background-color:#585858!important}
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {background:#dedede!important}
+.library_AppDetailsTransitionGroup_2Dd4T {background:#dedede!important}
+
 :ROOT {
      --BASE1:#E4E4E4;
      --BASE2:#DEDEDE;
@@ -151,6 +157,7 @@
 /*///////////////////////////////////*/
 
 /*CODE BY ANGELO https://steamcommunity.com/id/1475963159753/*/
+
 
 /*SETTINGS*/
  .account_preferences input[type=checkbox], .account_preferences label {
@@ -524,6 +531,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
      BACKGROUND-COLOR: var(--BASE2)!IMPORTANT;
 }
 /*LIBRARY*/
+
  .artworkmodal_Body_1uUBT .artworkmodal_FileInfo_34Wkv .artworkmodal_AppSummary_3oAtg .artworkmodal_AppTitle_EqJ4i .artworkmodal_AppName_17XDb {
      color:#585858!important;
 }
