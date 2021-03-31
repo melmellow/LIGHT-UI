@@ -160,6 +160,9 @@
 
 
 /*SETTINGS*/
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_SectionTopLine_r3hOL {
+	BORDER-TOP:1PX SOLID var(--DIVIDER1)!IMPORTANT;
+}
  .account_preferences input[type=checkbox], .account_preferences label {
      color: var(--ACCENT)!important
 }
@@ -409,7 +412,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover {
          BORDER-RADIUS: 30PX!iMPORTANT;
     background-color: #ECECEC!IMPORTANT;
-    BOX-SHADOW: 1PX 1PX 2PX #D6D1D1!IMPORTANT;
+    BOX-SHADOW: 1PX 1PX 2PX var(--DIVIDER1)!IMPORTANT;
 }
 .online .personanameandstatus_playerName_nOdcT {
      color: var(--BUTTONHOVER)!important;
@@ -547,14 +550,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 .appdetailscommunityfeed_InappropriateOverlay_aX5_K {
      COLOR:var(--ACCENT)!IMPORTANT;
      BACKGROUND-COLOR:var(--BASE1)!IMPORTANT;
-     BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT
+     BOX-SHADOW:1PX 1PX 2PX var(--DIVIDER1)!IMPORTANT
 }
 .appdetailsachievementssection_Featured_1j_gj.appdetailsachievementssection_RemainderContainer_lZ2c4 .appdetailsachievementssection_Desc_2gLHb {
      TEXT-DECORATION:NONE!iMPORTANT;
      FONT-WEIGHT:500!IMPORTANT;
 }
 .videoSrc {
-     border:1px solid #d6d1d1!important;
+     border:1px solid var(--DIVIDER1)!important;
      background-color:var(--BASE1)!important;
 }
 /*PLAY BUTTON*/
@@ -573,17 +576,17 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
      BORDER:1PX SOLID VAR(--BUTTONBORDER)!IMPORTANT;
 }
 .artworkmodal_ArtworkModal_36VpV {
-     BORDER:2PX SOLID #D6D1D1!IMPORTANT;
+     BORDER:2PX SOLID var(--DIVIDER1)!IMPORTANT;
 }
 .appdetailsactivitysection_Loading_3UShz {
      background-color:var(--BASE1)!Important;
-     BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;
+     BOX-SHADOW:1PX 1PX 2PX var(--DIVIDER1)!IMPORTANT;
 }
 a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
      BACKGROUND-COLOR:VAR(--BUTTON)!IMPORTANT;
 }
 .eventbbcodeparser_BlockQuote_2cY7b {
-     BORDER:1PX SOLID #D6D1D1!IMPORTANT;
+     BORDER:1PX SOLID var(--DIVIDER1)!IMPORTANT;
 }
 .partnereventdisplay_EventDetailsSubTitle_20f2s {
      COLOR:VAR(--ACCENT)!IMPORTANT;
@@ -599,7 +602,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
 }
 .appactivityday_ReviewIconThumbsUp_2oPMu {
      BACKGROUND:var(--BASE1)!IMPORTANT;
-     BORDER:1PX SOLID #D6D1D1!IMPORTANT;
+     BORDER:1PX SOLID var(--DIVIDER1)!IMPORTANT;
 }
 .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_BrowseDiskRow_vgVsC .appproperties_BrowseDiskButton_OF562 {
      WIDTH:50%!iMPORTANT;
