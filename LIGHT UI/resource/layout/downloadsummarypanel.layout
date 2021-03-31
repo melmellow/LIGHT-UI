@@ -173,6 +173,12 @@
 			render_bg{}
 			font-family=basefont
 			padding= 14
+				render {
+			//	1="fill(x0,y0,x1,y0+1,white696969)"  top
+				2="fill(x0,y1-1,x1,y1,shadow1)"
+			//	3="fill(x0,y0+1,x0+1,y1-1,white696969)"   left
+				4="fill(x1-1,y0+1,x1,y1-1,shadow1)"
+			}
 		}
 		bigtextlabel
 		{
@@ -188,7 +194,7 @@
 			//	1="fill(x0,y0,x1,y0+1,white696969)"  top
 				2="fill(x0,y1-1,x1,y1,shadow1)"
 			//	3="fill(x0,y0+1,x0+1,y1-1,white696969)"   left
-				4="fill(x1-1,y0+1,x1,y1-1,shadow1)"
+			//	4="fill(x1-1,y0+1,x1,y1-1,shadow1)"
 			}
 		}
 			bigtextlabel2
