@@ -409,7 +409,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
      BACKGROUND-COLOR: var(--BASE2)!IMPORTANT;
 }
 /*LIBRARY*/
-
+.libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl {
+	border:1px solid var(--DIVIDER1)!IMPORTANT;
+}
  .artworkmodal_Body_1uUBT .artworkmodal_FileInfo_34Wkv .artworkmodal_AppSummary_3oAtg .artworkmodal_AppTitle_EqJ4i .artworkmodal_AppName_17XDb {
      color:var(--ACCENT)!important;
 }
@@ -1254,7 +1256,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .appgrid_ReadyToPlayBigButton_3wbWH:hover {
      filter:none!important;
-     border: 1px solid var(--BUTTONBORDERHOVER)!important;
+	background:#ececec!important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay path {
      fill: var(--ACCENT)!important;
@@ -2122,6 +2124,9 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
      opacity: var(0.5);
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx {
+	background-color:#ececec!important;
+	color:#585858!important;
+	box-shadow:1px 1px 2px #d6d1d1!important;
      margin-top: -32px;
      padding: 2px 8px;
      BORDER-RADIUS:50PX!IMPORTANT;
