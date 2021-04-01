@@ -129,15 +129,14 @@
 		}
 		throttleLabel
 		{
-			textcolor="88 88 88 255"
-			font-weight=bold
-			font-family=bold
+			textcolor="0 0 0"
+			font-family=semibold
 			font-style=uppercase
 			
 			bgcolor="236 236 236 255"
 			
 			padding= 14
-			PADDING-RIGHT = 12
+			PADDING-RIGHT = 1
 			
 			render {
 			
@@ -183,12 +182,11 @@
 		}
 		bigtextlabel
 		{
-			textcolor="88 88 88 255"
-			font-family=bold
+			textcolor="0 0 0"
+			font-family=semibold
 			font-style=uppercase
-			font-weight=bold
 			PADDING = 14
-			PADDING-RIGHT = 12
+			PADDING-RIGHT = 1
 			
 			BGCOLOR="236 236 236 255"
 			
