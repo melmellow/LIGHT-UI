@@ -22,6 +22,19 @@
 }
 
 /*SETTINGS*/
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_SteamInputStatusGrid_3lj3- {
+	background-color:NONE!IMPORTANT;
+	box-shadow:1px 1px 2px var(--DIVIDER1)!IMPORTANT;
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0:hover {
+	BACKGROUND:var(--BUTTON)!IMPORTANT;
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0:ACTIVE {
+	BACKGROUND:var(--BUTTON)!IMPORTANT;
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {
+	BACKGROUND:var(--BUTTON)!IMPORTANT;
+}
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_SectionTopLine_r3hOL {
 	BORDER-TOP:1PX SOLID var(--DIVIDER1)!IMPORTANT;
 }
