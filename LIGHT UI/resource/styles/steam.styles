@@ -62,8 +62,8 @@ steam.styles
 
 		Slider
 		{
-			inset="0 -1 0 0"
-			textcolor=Grey3
+			//inset="0 -1 0 0"
+			textcolor="214 214 214 255"
 		}
 		Slider:focus
 		{
