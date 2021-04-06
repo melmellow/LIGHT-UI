@@ -8,9 +8,9 @@
 				control=FriendsButton,PlayersButton,AchievementsButton,GameHubButton,ScreenshotsButton
 				region=overlay
 				y=174
-				height=30
+				height=50
 				x=6
-				spacing=30
+				spacing=20
 				align=left
 			}
 

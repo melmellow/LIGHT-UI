@@ -5,7 +5,7 @@ gameoverlay.styles {
 	colors {
 		Notifications.PanelPosition "BottomRight"
 
-		A2OverlayBackground			"214 214 214 75"				//overlay bg
+		A2OverlayBackground		none				//overlay bg
 		A2OverlayBar				"228 228 228 255"				//overlay topbar bg (A2Bar in dark theme)
 
 		A2Background				"32 55 82 255"				//client bg
