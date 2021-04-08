@@ -152,14 +152,14 @@
 			padding= 14
 			render_bg
 			{
-				0="image(x1-19,y0+10,x1,y1,graphics/metro/downloads/icons/cog_sm)"
+				0="image(x1-19,y0+10,x1,y1,icons/cog_sm)"
 			}
 		}
 		throttleValue:hover
 		{
 			render_bg
 			{
-				0="image(x1-19,y0+10,x1,y1,graphics/metro/downloads/icons/cog_sm_h)"
+				0="image(x1-19,y0+10,x1,y1,icons/cog_sm_h)"
 			}
 		}
 		container

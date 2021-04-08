@@ -49,7 +49,7 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+3,y0+10,x1,y1,graphics/metro/downloads/icons/cog_sm)"
+				0="image(x0+3,y0+10,x1,y1,icons/cog_sm)"
 			}
 			padding-left=20
 			padding-right=8
@@ -58,7 +58,7 @@
 		{
 			render_bg
 			{
-				0="image(x0+3,y0+10,x1,y1,graphics/metro/downloads/icons/cog_sm_h)"
+				0="image(x0+3,y0+10,x1,y1,icons/cog_sm_h)"
 			}
 		}
 	}

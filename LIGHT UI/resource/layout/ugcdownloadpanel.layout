@@ -102,7 +102,7 @@
 		{
 			inset-left=-6
 			bgcolor="none"
-			image="graphics/metro/downloads/icons/play_sm"
+			image="icons/play_sm"
 			render_bg{}
 			render{}
 		}
@@ -111,14 +111,14 @@
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="graphics/metro/downloads/icons/play_sm_h"
+			image="icons/play_sm_h"
 		}
 		DetailsLaunchButton:active
 		{
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="graphics/metro/downloads/icons/play_sm_p"
+			image="icons/play_sm_p"
 		}
 		DetailsLaunchButton:disabled
 		{
@@ -133,17 +133,17 @@
 			inset-left=-6
 			bgcolor="none"
 			render{}
-			image="graphics/metro/icons/downloads/pause"
+			image="icons/pause"
 		}
 		SmPauseButton:hover
 		{
 			render{}
-			image="graphics/metro/icons/downloads/pause_h"
+			image="icons/pause_h"
 		}
 		SmPauseButton:active
 		{
 			render{}
-			image="graphics/metro/icons/downloads/pause_p"
+			image="icons/pause_p"
 		}
 
 		SmResumeButton
@@ -151,17 +151,17 @@
 			inset-left=-6
 			bgcolor="none"
 			render{}
-			image="graphics/metro/downloads/icons/play_sm"
+			image="icons/play_sm"
 		}
 		SmResumeButton:hover
 		{
 			render{}
-			image="graphics/metro/downloads/icons/play_sm_h"
+			image="icons/play_sm_h"
 		}
 		SmResumeButton:active
 		{
 			render{}
-			image="graphics/metro/downloads/icons/play_sm_p"
+			image="icons/play_sm_p"
 		}
 
 		SmRemoveButton
@@ -169,17 +169,17 @@
 			inset-left=-6
 			bgcolor="none"
 			render{}
-			image="graphics/metro/downloads/icons/close"
+			image="icons/close"
 		}
 		SmRemoveButton:hover
 		{
 			render{}
-			image="graphics/metro/downloads/icons/close_h"
+			image="icons/close_h"
 		}
 		SmRemoveButton:active
 		{
 			render{}
-			image="graphics/metro/downloads/icons/close_p"
+			image="icons/close_p"
 		}
 
 		ViewModsButton
@@ -188,19 +188,19 @@
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="graphics/metro/downloads/icons/workshop_sm"
+			image="icons/workshop_sm"
 		}
 		ViewModsButton:hover
 		{
 			render_bg{}
 			render{}
-			image="graphics/metro/downloads/icons/workshop_sm_h"
+			image="icons/workshop_sm_h"
 		}
 		ViewModsButton:active
 		{
 			render_bg{}
 			render{}
-			image="graphics/metro/downloads/icons/workshop_sm_p"
+			image="icons/workshop_sm_p"
 		}
 
 		//Hidden

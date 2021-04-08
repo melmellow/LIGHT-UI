@@ -120,7 +120,7 @@
 		{
 			inset-left=-6
 			bgcolor="none"
-			image="graphics/metro/downloads/icons/play_sm"
+			image="icons/play_sm"
 			render_bg{}
 			render{}
 		}
@@ -129,14 +129,14 @@
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="graphics/metro/downloads/icons/play_sm_h"
+			image="icons/play_sm_h"
 		}
 		DetailsLaunchButton:active
 		{
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="graphics/metro/downloads/icons/play_sm_p"
+			image="icons/play_sm_p"
 		}
 		DetailsLaunchButton:disabled
 		{
@@ -150,21 +150,21 @@
 		{
 			bgcolor="none"
 			render{}
-			image="graphics/metro/downloads/icons/promote"
+			image="icons/promote"
 			padding-left=-1
 			padding-right=3
 		}
 		topOfQueueButton:hover
 		{
 			render{}
-			image="graphics/metro/downloads/icons/promote_h"
+			image="icons/promote_h"
 		}
 
 		SmRemoveButton
 		{
 			bgcolor="none"
 			render{}
-			image="graphics/metro/downloads/icons/close_sm"
+			image="icons/close_sm"
 			padding-left=-1
 			padding-right=3
 		}
@@ -172,7 +172,7 @@
 		{
 			bgcolor="none"
 			render{}
-			image="graphics/metro/downloads/icons/close_sm_h"
+			image="icons/close_sm_h"
 		}
 
 		SlimProgressBar
