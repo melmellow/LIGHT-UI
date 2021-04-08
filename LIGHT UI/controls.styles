@@ -305,12 +305,14 @@
 
 		ScrollBarButton.up
 		{
+			height=0
+			width=0
 			inset-left=0
 			bgcolor="none"
 			render_bg{}
-			image=graphics/up_arrow
-			padding-left=-1
-			padding-bottom=2
+			//image=graphics/up_arrow
+			//padding-left=-1
+			//padding-bottom=2
 					render {
 				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
 				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
@@ -320,8 +322,8 @@
 		}
 		ScrollBarButton.up:hover
 		{
-			render_bg{}
-			image=graphics/up_arrow_h
+			//render_bg{}
+			//image=graphics/up_arrow_h
 		}
 
 		ScrollBarButton.down
@@ -329,9 +331,9 @@
 			inset-left=0
 			bgcolor="none"
 			render_bg{}
-			image=graphics/down_arrow
-			padding-left=-1
-			padding-top=3
+			//image=graphics/down_arrow
+			//padding-left=-1
+			//padding-top=3
 					render {
 				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
 				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
@@ -341,32 +343,32 @@
 		}
 		ScrollBarButton.down:hover
 		{
-			render_bg{}
-			image=graphics/down_arrow_h
+			//render_bg{}
+			//image=graphics/down_arrow_h
 		}
 
 		ScrollBarButton.left
 		{
 			bgcolor="none"
-			render_bg{}
-			image=graphics/left_arrow
+			//render_bg{}
+			//image=graphics/left_arrow
 		}
 		ScrollBarButton.left:hover
 		{
-			render_bg{}
-			image=graphics/left_arrow_h
+			//render_bg{}
+			//image=graphics/left_arrow_h
 		}
 
 		ScrollBarButton.right
 		{
 			bgcolor="none"
-			render_bg{}
-			image=graphics/right_arrow
+			//render_bg{}
+			//image=graphics/right_arrow
 		}
 		ScrollBarButton.right:hover
 		{
-			render_bg{}
-			image=graphics/right_arrow_h
+			//render_bg{}
+			//image=graphics/right_arrow_h
 		}
 
 		ScrollBarHandle  //vertical scrollbar thumb
