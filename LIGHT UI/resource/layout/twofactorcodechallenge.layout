@@ -19,7 +19,7 @@
 	{
 		Key
 		{
-			image="graphics/ICONS/icon_security_key"
+			image="ICONS/icon_security_key"
 		}
 		AuthCode
 		{

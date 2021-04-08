@@ -129,12 +129,12 @@
 			font-weight=400
 			bgcolor="none"
 			render_bg {}
-			image="graphics/ICONS/radio_d"
+			image="ICONS/radio_d"
 		}
 		RadioButton:hover
 		{
 			render_bg {}
-			image="graphics/ICONS/radio_h"
+			image="ICONS/radio_h"
 		}
 		RadioButton:selected
 		{

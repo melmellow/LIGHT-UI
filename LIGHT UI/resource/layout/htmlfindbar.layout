@@ -64,7 +64,7 @@
 			inset="-5 0 0 0"
 			render_bg{}
 			bgcolor="none"
-			image="graphics/icons/back"
+			image="icons/back"
 			padding-left=12
 						render {
 				1="fill(x0,y0,x1,y0+1,"none")"  // top

@@ -116,7 +116,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"paintbackground"		"1"
-		"image"		"graphics/ICONS/icon_security_key"
+		"image"		"ICONS/icon_security_key"
 		"fillcolor"		""
 		"gradientStart"		""
 		"gradientEnd"		""
