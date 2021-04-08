@@ -338,7 +338,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
      COLOR: var(--ACCENT)!IMPORTANT;
 }
 .appdetailscommunityfeed_Guide_-85o5 {
-     box-shadow:2px 1px 2px var(--DIVIDER1)
+     box-shadow:1px 0 #D6D1D1!IMPORTANT;
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Description_xsBpz {
      COLOR: var(--ACCENT)!IMPORTANT;
@@ -409,6 +409,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
      BACKGROUND-COLOR: var(--BASE2)!IMPORTANT;
 }
 /*LIBRARY*/
+.discussionwidget_DiscussionCount_QQy4B > svg {
+	FILL:var(--ACCENT)!IMPORTANT;
+}
+
 .libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl {
 	border:1px solid var(--DIVIDER1)!IMPORTANT;
 }
@@ -959,6 +963,7 @@ div.NarrowRightPanel .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbu
      BORDER-TOP:1PX SOLID var(--BASE2)!IMPORTANT;
      BORDER-LEFT:1PX SOLID var(--BASE2)!IMPORTANT;
      BORDER-RIGHT:1PX SOLID var(--BASE2)!IMPORTANT;
+	 BORDER-RADIUS:0!iMPORTANT;
 }
 .appdetailsachievementssection_UnachievedSection_3ca11 .appdetailsachievementssection_Label_uoFNF {
      COLOR: var(--ACCENT)!IMPORTANT;
