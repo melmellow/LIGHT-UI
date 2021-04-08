@@ -13,10 +13,10 @@
 
 		OverlayURLLabel {
 			textcolor=none
-			image="graphics/onfocus/overlay_close"
+			image="ICONS/overlay_close"
 		}
 
-		OverlayURLLabel:hover { image="graphics/onfocus/overlay_close_hover" }
+		OverlayURLLabel:hover { image="ICONS/overlay_close_hover" }
 
 		topbar {
 			font-family=condensed
