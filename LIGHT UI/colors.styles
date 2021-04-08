@@ -138,12 +138,12 @@
 
 ////////////////////////////////
 //======Drop Menus===========//
-		bgMenu=ClientBG
+		bgMenu=NAVBAR
 
 		itemMenu=white
 		itemMenu_a=white
 
-		bgItemMenu=white02
+		bgItemMenu=NAVBAR
 		bgItemMenu_a=white08
 
 
