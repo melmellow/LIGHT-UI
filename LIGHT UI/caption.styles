@@ -7,7 +7,7 @@
 		{
 			inset="9 19 0 0"
 			render_bg{}
-			image="graphics/metro/icons/caption/minimize"
+			image="icons/caption/minimize"
 		}
 		FrameMinimizeButton [$OSX]
 		{
@@ -18,7 +18,7 @@
 		FrameMinimizeButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
 			bgcolor="214 214 214 255"
-			//IMAGE="graphics\metro\icons\caption\minimize_h"
+			//IMAGE="icons\caption\minimize_h"
 			render_bg{}
 		}
 		FrameMinimizeButton:hover [$OSX]
@@ -146,7 +146,7 @@
 		FrameCloseButton [$WIN32||$WINDOWS||$LINUX]
 		{
 			inset="9 14 0 0"
-			image="graphics/metro/icons/caption/close"
+			image="icons/CAPTION/close"
 		}
 		FrameCloseButton [$OSX]
 		{
@@ -156,7 +156,7 @@
 		}
 		FrameCloseButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
-			//image="graphics/metro/icons/caption/close_h"
+			//image="icons/CAPTION/close_h"
 			BGCOLOR="214 214 214 255"
 			render_bg{}
 		}
@@ -192,7 +192,7 @@
 		{
 			inset="9 14 0 0"
 			render_bg{}
-			image="graphics/metro/icons/caption/close_d"
+			image="icons/caption/close_d"
 		}
 		FrameCloseButton:disabled [$OSX]
 		{
