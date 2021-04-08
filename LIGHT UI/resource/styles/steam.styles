@@ -1419,12 +1419,12 @@ steam.styles
 		}
 		ForwardButton:hover
 		{
-			image="graphics/metro/icons/navbar/forward_h"
+			image="icons/forward_h"
 		}
 		ForwardButton:active
 		{
 			bgcolor=white04
-			image="graphics/metro/icons/navbar/forward_p"
+			image="icons/forward_p"
 		}
 		ForwardButton:disabled
 		{
