@@ -1428,21 +1428,21 @@ steam.styles
 		}
 		ForwardButton:disabled
 		{
-			image="graphics/metro/icons/navbar/forward_d"
+			image="icons/forward_d"
 		}
 
 		ForwardButtonSm
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/navbar/forward"
+			image="icons/forward"
 			padding-left=8
 			padding-right=8
 		}
 		ForwardButtonSm:hover
 		{
 			bgcolor=white05
-			image="graphics/metro/icons/navbar/forward_h"
+			image="icons/forward_h"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1454,7 +1454,7 @@ steam.styles
 		ForwardButtonSm:active
 		{
 			bgcolor=white10
-			image="graphics/metro/icons/navbar/forward_p"
+			image="icons/forward_p"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1465,7 +1465,7 @@ steam.styles
 		}
 		ForwardButtonSm:disabled
 		{
-			image="graphics/metro/icons/navbar/forward_d"
+			image="icons/forward_d"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
