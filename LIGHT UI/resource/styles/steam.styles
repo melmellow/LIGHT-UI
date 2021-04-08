@@ -889,7 +889,7 @@ steam.styles
 		{
 			bgcolor="228 228 228 255"
 			render_bg{}
-			image="graphics/metro/icons/navbar/menu"
+			image="icons/menu"
 			padding-left=5
 			minimum-width=38
 		}
@@ -1277,7 +1277,7 @@ steam.styles
 			inset="-10 0 0 0"
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/navbar/back"
+			image="icons/back"
 			padding-left=12
 			render{
 			1="fill(x0,y0,x1,y0+1, navbar)"  // top
@@ -1289,24 +1289,24 @@ steam.styles
 		BackButton:hover
 		{
 			bgcolor="228 228 228 255"
-			image="graphics/metro/icons/navbar/back_h"
+			image="icons/back_h"
 			
 		}
 		BackButton:active
 		{
 			bgcolor="228 228 228 255"
-			image="graphics/metro/icons/navbar/back_p"
+			image="icons/back_p"
 		}
 		BackButton:disabled
 		{
-			image="graphics/metro/icons/navbar/back_d"
+			image="icons/back_d"
 		}
 
 		BackButtonSm
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/navbar/back"
+			image="icons/back"
 			padding-left=8
 			padding-right=8
 					render
@@ -1320,7 +1320,7 @@ steam.styles
 		BackButtonSm:hover
 		{
 			bgcolor=white05
-			image="graphics/metro/icons/navbar/back_h"
+			image="icons/back_h"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1332,7 +1332,7 @@ steam.styles
 		BackButtonSm:active
 		{
 			bgcolor=white10
-			image="graphics/metro/icons/navbar/back_p"
+			image="icons/back_p"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1343,7 +1343,7 @@ steam.styles
 		}
 		BackButtonSm:disabled
 		{
-			image="graphics/metro/icons/navbar/back_d"
+			image="icons/back_d"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
