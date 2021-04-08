@@ -14,13 +14,13 @@
 		{
 			inset-left=7
 			bgcolor="228 228 228 255"
-			image="graphics/metro/icons/navbar/downloads"
+			image="icons/downloads"
 		}
 		StatusLabel:hover
 		{
 			bgcolor="228 228 228 255"
 			render {}
-			image="graphics/metro/icons/navbar/downloads_h"
+			image="icons/downloads_h"
 		}
 		StatusLabelDim
 		{

@@ -31,7 +31,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"paintbackground"		"1"
-		"image"		"graphics/logo6"
+		"image"		"graphics/ICONS/logo6"
 		"fillcolor"		""
 		"gradientStart"		""
 		"gradientEnd"		""

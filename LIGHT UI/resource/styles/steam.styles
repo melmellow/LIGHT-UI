@@ -87,7 +87,7 @@ steam.styles
 		CChatActionsButton
 		{
 			bgcolor="none"
-			image="graphics/metro/icons/navbar/menu"
+			image="icons/menu"
 			padding-left=13
 		}
 		CChatActionsButton:hover
@@ -897,7 +897,7 @@ steam.styles
 		{
 			bgcolor="228 228 228 255"
 			render_bg{}
-			image="graphics/metro/icons/navbar/menu_h"
+			image="icons/menu_h"
 		}
 		"MenuBar MenuButton:selected"
 		{

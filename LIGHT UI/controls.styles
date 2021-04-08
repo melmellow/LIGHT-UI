@@ -129,23 +129,23 @@
 			font-weight=400
 			bgcolor="none"
 			render_bg {}
-			image="graphics/radio_d"
+			image="graphics/ICONS/radio_d"
 		}
 		RadioButton:hover
 		{
 			render_bg {}
-			image="graphics/radio_h"
+			image="graphics/ICONS/radio_h"
 		}
 		RadioButton:selected
 		{
 			render_bg {}
-			image="graphics/radio_s"
+			image="ICONS/radio_s"
 		}
 		
 		RadioButton:selected:hover
 		{
 			render_bg {}
-			image="graphics/radio_sh"
+			image="ICONS/radio_sh"
 		}
 		RadioButtonList
 		{
@@ -166,31 +166,31 @@
 			textcolor="White50"
 			font-family=basefont
 			font-weight=400
-			image=graphics/check_d
+			image=ICONS/check_d
 		}
 		CheckButton:hover
 		{
-			image=graphics/check_h
+			image=ICONS/check_h
 		}
 		CheckButton:selected
 		{
-			image=graphics/check_s
+			image=ICONS/check_s
 		}
 		CheckButton:selected:hover
 		{
-			image=graphics/check_sh
+			image=ICONS/check_sh
 		}
 		CheckButton:disabled
 		{
 			textcolor="White24"
 			bgcolor="none"
-			image=graphics/check_d
+			image=ICONS/check_d
 		}
 		CheckButton:selected:disabled
 		{
 			textcolor="White24"
 			bgcolor="none"
-			image=graphics/check_s
+			image=ICONS/check_s
 		}
 
 		CheckButtonList

@@ -48,15 +48,15 @@
 		}
 		NextButtonSm:hover
 		{
-			image="graphics/metro/icons/navbar/forward_h"
+			image="icons/forward_h"
 		}
 		NextButtonSm:active
 		{
-			image="graphics/metro/icons/navbar/forward_p"
+			image="icons/forward_p"
 		}
 		NextButtonSm:disabled
 		{
-			image="graphics/metro/icons/navbar/forward_d"
+			image="icons/forward_d"
 		}
 
 		PrevButtonSm
@@ -64,7 +64,7 @@
 			inset="-5 0 0 0"
 			render_bg{}
 			bgcolor="none"
-			image="graphics/metro/icons/navbar/back"
+			image="graphics/icons/back"
 			padding-left=12
 						render {
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
@@ -75,15 +75,15 @@
 		}
 		PrevButtonSm:hover
 		{
-			image="graphics/metro/icons/navbar/back_h"
+			image="icons/back_h"
 		}
 		PrevButtonSm:active
 		{
-			image="graphics/metro/icons/navbar/back_p"
+			image="icons/back_p"
 		}
 		PrevButtonSm:disabled
 		{
-			image="graphics/metro/icons/navbar/back_d"
+			image="icons/back_d"
 		}
 
 		CloseButtonSm
