@@ -88,7 +88,7 @@
 		}
 		FrameMaximizeButton:active [$WIN32||$WINDOWS||$LINUX]
 		{
-			IMAGE="icons\caption\maximize"
+			IMAGE="icons/caption/maximize"
 		}
 		FrameMaximizeButton:active [$OSX]
 		{
@@ -206,7 +206,7 @@
 		{
 			inset="4 7 0 0"
 			render_bg{}
-			image="graphics/metro/icons/caption/sm/chat_min_sm"
+			image="icons/caption/chat_min_sm"
 		}
 		"ToolWindow FrameMinimizeButton:hover"
 		{
