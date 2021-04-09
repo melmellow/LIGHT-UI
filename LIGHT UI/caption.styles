@@ -18,7 +18,7 @@
 		FrameMinimizeButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
 			bgcolor="214 214 214 255"
-			//IMAGE="icons\caption\minimize_h"
+			//IMAGE="icons/caption/minimize_h"
 			render_bg{}
 		}
 		FrameMinimizeButton:hover [$OSX]
@@ -53,7 +53,7 @@
 		FrameMaximizeButton [$WIN32||$WINDOWS||$LINUX]
 		{
 			inset="9 14 0 0"
-			image="graphics/metro/icons/caption/maximize"
+			image="icons/caption/maximize"
 		}
 		FrameMaximizeButton [$OSX]
 		{
@@ -88,7 +88,7 @@
 		}
 		FrameMaximizeButton:active [$WIN32||$WINDOWS||$LINUX]
 		{
-			IMAGE="graphics\metro\icons\caption\maximize"
+			IMAGE="icons\caption\maximize"
 		}
 		FrameMaximizeButton:active [$OSX]
 		{
@@ -100,7 +100,7 @@
 		{
 			inset="9 14 0 0"
 			render_bg{}
-			image="graphics/metro/icons/caption/restore"
+			image="icons/caption/restore"
 		}
 		FrameRestoreButton [$OSX]
 		{
@@ -111,7 +111,7 @@
 		FrameRestoreButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
 			bgcolor="214 214 214 255"
-			//image="graphics\metro\icons\caption\restore_h"
+			//image="icons/caption/restore_h"
 			render_bg{}
 		}
 		FrameRestoreButton:hover [$OSX]
