@@ -136,6 +136,7 @@
 		FrameRestoreButton:active [$WIN32||$WINDOWS||$LINUX]
 		{
 			bgcolor=White5
+			image="icons/caption/restore"
 		}
 		FrameRestoreButton:active [$OSX]
 		{
@@ -222,7 +223,7 @@
 		{
 			inset="4 10 0 0"
 			render_bg{}
-			image="graphics/metro/icons/caption/sm/chat_max_sm"
+			image="icons/caption/chat_max_sm"
 		}
 		"ToolWindow FrameMaximizeButton:hover"
 		{
@@ -237,7 +238,7 @@
 		{
 			inset="4 10 0 0"
 			render_bg{}
-			image="graphics/metro/icons/caption/sm/chat_res_sm"
+			image="icons/caption/chat_res_sm"
 		}
 		"ToolWindow FrameRestoreButton:hover"
 		{
