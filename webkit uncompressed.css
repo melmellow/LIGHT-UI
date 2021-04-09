@@ -385,6 +385,12 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.tabCount {background:none!Important}
+.sectionTab:hover .tabCount {background:none!important}
+.parentCollectionsTitle {color:#585858!important}
+.parentCollectionTitle {color:#585858!important}
+.parentCollection {background-color:#e4e4e4!important}
+.parentCollection:hover {background-color:#ececec!important}
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_Footer_164mm .awardmodal_Left_1v0jL .awardmodal_BalanceDetails_209Gy .awardmodal_BalanceAmount_1O3FS {COLOR:#585858!IMPORTANT}
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h .awardmodal_Points_3k_jx {COLOR:#585858!IMPORTANT}
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_Footer_164mm .awardmodal_Left_1v0jL .awardmodal_BalanceDetails_209Gy .awardmodal_BalanceLabel_2u9RZ{color:#585858!important}
