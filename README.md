@@ -17,6 +17,7 @@ Steam will have to restart to apply the theme
 # CREDITS
 * jonius7 for the compact sidebar tweak
 * phantomgamers for making steamfriendspatcher
+* AikoMidori for the webkit
 * METRO SKIN
 * AIR SKIN
 
