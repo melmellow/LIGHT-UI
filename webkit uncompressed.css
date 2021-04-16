@@ -385,6 +385,9 @@ body::-webkit-scrollbar{background-clip:padding-box!important;border:5px solid t
 .inventory_load_error {BORDER:0!iMPORTANT;BACKGROUND-COLOR:#E4E4E4!IMPORTANT;BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT}
 
 /* Main Code */
+.btn {background:#585858!important}
+#ShareLinks {color:#585858!important}
+.legal {color:#585858!important}
 .tabCount {background:none!Important}
 .sectionTab:hover .tabCount {background:none!important}
 .parentCollectionsTitle {color:#585858!important}
@@ -2194,7 +2197,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {BACKGROUND-COLOR:#
 .workshop_browse_menu_area{border-radius:var(--border0)!important;background:var(--darkgrey)!important;text-align:left}
 .workshop_browse_search{height:34px!important;background-color:var(--grey)!important;border-left:0!important;border-top:0!important;border-right:0!important;border-bottom:0!important}
 .apphub_HeaderTop.workshop{background-image:none!important}
-#ButtonContainer{margin-top:5px!important;border-radius:var(--border0)!important}
+#ButtonContainer{background:#e4e4e4!important;margin-top:5px!important;border-radius:var(--border0)!important;box-shadow:1px 1px 2px #d6d1d1!important}
 #MessageContent{margin-top:5px!important}
 .profile_subpage_general .maincontent{border-left:0 solid!important;border-right:0 solid!important}
 .tradeoffer_items_ctn.active{border-top-color:rgba(0,0,0,0)!important;border-left-color:rgba(0,0,0,0)!important;border-right-color:rgba(0,0,0,0)!important;background:var(--grey)!important}
