@@ -29,7 +29,21 @@
   --TEXTENTRY: #e8e8e8;
   --DIVIDER1: #d6d1d1;
   --PLAYBUTTON: VAR(--ACCENT);
+  --GAMENAMECOLOR: VAR(--ACCENT);
+  --GAMESTATENAMECOLOR: VAR(--BUTTONHOVER);
+  --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
+  --GAMENAMEBACKGROUNDHOVERCOLOR: VAR(--BUTTON);
 }
+
+.appdetailsworkshopsection_WorkshopSection_2PfKa
+  .appdetailsworkshopsection_WorkshopHeader_139ka
+  .appdetailsworkshopsection_FeaturedItem_1W34W
+  .appdetailsworkshopsection_FeaturedItemHideButton_aZc8R
+  .SVGIcon_X_Line
+  line {
+  stroke: VAR(--ACCENT) !important;
+}
+
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_SteamInputStatusGrid_3lj3- {
@@ -1112,7 +1126,7 @@ div.NarrowRightPanel
 .gamelistentry_Container_2-O4Z
   .gamelistentry_GameListEntryContainer_1vO6B
   .gamelistentry_DownloadProgress_3uk3F {
-  color: var(--BUTTONHOVER) !important;
+  color: var(--GAMESTATENAMECOLOR) !important;
   font-weight: bold !important;
 }
 .ingame
@@ -1446,7 +1460,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .gamelistsectionheader_SectionHeaderContent_3cV3O:hover
   .gamelistsectionheader_SectionName_2mZ8L {
-  color: var(--ACCENT) !important;
+  color: var(--GAMEGROUPNAMECOLORHOVER) !important;
 }
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
 .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
@@ -1497,7 +1511,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .gamelistentry_Container_2-O4Z:hover,
 .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-  background-color: var(--BUTTON) !important;
+  background-color: var(--GAMENAMEBACKGROUNDHOVERCOLOR) !important;
 }
 .appdetailsplaysection_InnerContainer_3Y87Y {
   background: var(--BASE2) !important;
@@ -2078,7 +2092,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
-  color: var(--ACCENT) !important;
+  color: var(--GAMENAMECOLOR) !important;
   padding: 2px 4px 2px 22px !important;
 }
 .libraryhomenewupdates_EventTime_2rlKq {
