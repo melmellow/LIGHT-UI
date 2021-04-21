@@ -59,6 +59,12 @@
     --border8:0;
     --border50:50%
 }
+
+.jqplot-highlighter-tooltip {
+    background:#e4e4e4!important;
+    color:#585858!important;
+}
+
 .hover_release span.platform_img.valveindex{
     OPACITY:60%!IMPORTANT
 }
@@ -3240,8 +3246,8 @@ a.gutter_item{
     COLOR:#585858!IMPORTANT
 }
 .store_header_btn_gray a{
-    BACKGROUND:#585858!iMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND:#e4e4e4!iMPORTANT;
+    COLOR:#585858!IMPORTANT
 }
 h1{
     color:#585858!important
@@ -3478,37 +3484,38 @@ input[type=text],input[type=password],input[type=number],select{
     BORDER-BOTTOM:#d6d1d1!IMPORTANT
 }
 .account_table tr:nth-child(even){
-    BACKGROUND-COLOR:#e4e4e4!IMPORTANT
+    BACKGROUND-COLOR:#e4e4e4!important;
 }
 .apphub_CardContentMain .apphub_CardTextContent .date_posted{
     COLOR:#585858!IMPORTANT
 }
 div.filterselect_options div.option:hover{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important;
 }
 .home_title_ctn .home_line{
     background:#dcdcdc!important
 }
 .apphub_UserReviewCardContent{
     BORDER:0!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
 }
 .apphub_UserReviewCardContent .found_helpful{
-    BORDER-BOTTOM:1PX SOLID #d6d1d1!IMPORTANT;
+    BORDER-BOTTOM:1PX SOLID #d6d1d1!important;
     color:#585858!important
 }
 .apphub_UserReviewCardContent .apphub_CardTextContent{
     color:#585858!important
 }
 .apphub_BackToTop .apphub_BackToTopButton{
-    color:#fff!important
+    color:#fff!important;
 }
 .apphub_ProgressBar{
-    background-color:#585858!important
+    background-color:#585858!important;
+    border-radius:30px!important;
 }
 .apphub_ProgressBarBG{
     background-color:#d6d6d6!important;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    border-radius:30px!important;
 }
 .community_home_subtitle{
     color:#585858!important
@@ -3523,7 +3530,7 @@ body.v6 #footer #footer_text{
     color:#585858!important
 }
 body.v6 .discount_prices>div{
-    BACKGROUND-COLOR:#ececec!IMPORTANT;
+    BACKGROUND-COLOR:#ececec!important;
     color:#585858!important
 }
 .home_newupcoming_ctn .home_tab_button:hover:not(.active){
@@ -4036,12 +4043,11 @@ input::-webkit-input-placeholder{
     opacity:0!important
 }
 .store_header_btn_gray{
-    border:0!important;
+    border:1px solid #b8b8b8!important;
     background:#dedede!important
 }
 .store_header_btn_gray a:hover{
-    background:#000!important;
-    COLOR:#fff!IMPORTANT
+    COLOR:#000!important;
 }
 .store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span{
     background:#dedede!important;

@@ -1008,14 +1008,14 @@ div.ShortRightPanel
   color: var(--ACCENT) !important;
 }
 .appactionbutton_PlayButtonContainer_1FnJ6 {
-  min-width: 154px !important;
+  min-width: 120px !important;
 }
 div.NarrowRightPanel
   .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbutton_LongButton_20gjC) {
   height: 35px !important;
 }
 .appactionbutton_PlayButtonContainer_1FnJ6.appactionbutton_ShowingStreaming_1hhB2 {
-  min-width: 154px !important;
+  min-width: 132px !important;
 }
 .appactionbutton_StreamingSelector_2q-gZ {
   margin-left: 2px !important;
