@@ -29,10 +29,12 @@
   --TEXTENTRY: #e8e8e8;
   --DIVIDER1: #d6d1d1;
   --PLAYBUTTON: VAR(--ACCENT);
-  --GAMENAMECOLOR: VAR(--ACCENT);
+  --GAMENAME: VAR(--ACCENT);
   --GAMESTATENAMECOLOR: VAR(--BUTTONHOVER);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
-  --GAMENAMEBACKGROUNDHOVERCOLOR: VAR(--BUTTON);
+  --GAMENAMEBACKGROUNDHOVER: VAR(--BUTTON);
+  --FRIENDISPLAYING: VAR(--ACCENT);
+  --SCROLLTOTOP: VAR(--BLUE);
 }
 
 .appdetailsworkshopsection_WorkshopSection_2PfKa
@@ -1482,7 +1484,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .gamelistentry_FriendIsPlaying_cNZ3w svg circle,
 .gamelistentry_FriendIsPlaying_cNZ3w svg path {
-  fill: var(--ACCENT) !important;
+  fill: var(--FRIENDISPLAYING) !important;
 }
 .gamelistsectionheader_SectionCount_29ute {
   color: var(--ACCENT) !important;
@@ -1511,7 +1513,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .gamelistentry_Container_2-O4Z:hover,
 .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-  background-color: var(--GAMENAMEBACKGROUNDHOVERCOLOR) !important;
+  background-color: var(--GAMENAMEBACKGROUNDHOVER) !important;
 }
 .appdetailsplaysection_InnerContainer_3Y87Y {
   background: var(--BASE2) !important;
@@ -2092,7 +2094,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
-  color: var(--GAMENAMECOLOR) !important;
+  color: var(--GAMENAME) !important;
   padding: 2px 4px 2px 22px !important;
 }
 .libraryhomenewupdates_EventTime_2rlKq {
@@ -2542,7 +2544,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   border-radius: 19px 19px 0 0 !important;
   padding-left: 19px !important;
   padding-right: 19px !important;
-  background: var(--ACCENT) !important;
+  background: var(--SCROLLTOTOP) !important;
 }
 .smartscrollcontainer_ScrollToTopButton_1J21t:hover div {
   background: var(--BUTTONHOVER) !important;
