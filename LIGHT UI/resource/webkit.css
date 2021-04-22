@@ -60,6 +60,11 @@
     --border50:50%
 }
 
+.community_award {
+    background-color:#ececec!Important;
+    border:1px solid #d6d1d1!important;
+}
+
 .jqplot-highlighter-tooltip {
     background:#e4e4e4!important;
     color:#585858!important;
@@ -1211,9 +1216,6 @@ input.inputTagsFilter+label{
 }
 .group_curator_blurb{
     COLOR:#585858!IMPORTANT
-}
-.store_capsule .discount_block>.discount_prices{
-    BACKGROUND-COLOR:#ececec!IMPORTANT
 }
 body.v6 .broadcast_live_stream_icon{
     BACKGROUND:#ececec!IMPORTANT
@@ -3614,10 +3616,13 @@ body.v6.comingsoon .comingsoon_headercaps>a{
 .game_rating_area{
     border-radius:var(--border0)!important;
     margin-bottom:15px!important
+    background-color:#e4e4e4!important;
 }
 #package_header_container{
     border-radius:var(--border0)!important;
     margin-bottom:4px!important
+    background:#e4e4e4!important;
+    box-shadow:1px 1px 2px #d6d1d1!important;
 }
 .blotter_day_header_divider{
     display:none!important
