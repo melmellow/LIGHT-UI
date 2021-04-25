@@ -1,21 +1,5 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
-.index_Container_2mu1w.index_PreloadThrobber_2dqG9 {
-  background: #e4e4e4 !important;
-}
-.throbber_LoadingWrapper_2wAKy.throbber_Static_1Qfwp * {
-  filter: brightness(0) !important;
-  opacity: 60% !important;
-}
-.index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq {
-  border-radius: 50px !important;
-  background-color: #585858 !important;
-}
-.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
-  background: #dedede !important;
-}
-.library_AppDetailsTransitionGroup_2Dd4T {
-  background: #dedede !important;
-}
+
 :root {
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
@@ -35,6 +19,29 @@
   --GAMENAMEBACKGROUNDHOVER: VAR(--BUTTON);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOP: VAR(--ACCENT);
+}
+
+.index_Container_2mu1w.index_PreloadThrobber_2dqG9 {
+  background: VAR(--BASE1) !important;
+}
+
+.throbber_LoadingWrapper_2wAKy.throbber_Static_1Qfwp * {
+  filter: brightness(0) !important;
+  opacity: 60% !important;
+}
+.index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq {
+  border-radius: 50px !important;
+  background-color: VAR(--ACCENT) !important;
+}
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
+  background: VAR(--BASE2) !important;
+}
+.library_AppDetailsTransitionGroup_2Dd4T {
+  background: VAR(--BASE2) !important;
+}
+
+.appdetailssectionoffline_OfflineSectionBody_2dnxv {
+  color: var(--ACCENT) !important;
 }
 
 .appdetailsworkshopsection_WorkshopSection_2PfKa
