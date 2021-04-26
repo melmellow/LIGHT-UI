@@ -60,6 +60,10 @@
     --border50:50%
 }
 
+.popup_menu_twocol > .popup_menu.leftborder, .popup_menu_twocol_new > .popup_menu.leftborder {
+    border-left:1px solid #d6d1d1!important;
+}
+
 .community_award {
     background-color:#ececec!Important;
     border:1px solid #d6d1d1!important;
@@ -172,6 +176,12 @@ div.filterselect div.option,div.filterselect_options div.option{
 .rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO{
     box-shadow:1px 1px 2px #d6d1d1!important
 }
+
+#noteworthy_tab.tab.flyout_tab a.pulldown_desktop, #genre_tab.tab.flyout_tab a.pulldown_desktop {
+    filter:brightness(0)!important;
+    opacity:60%!important;
+}
+
 .rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO:hover{
     filter:none!important
 }
