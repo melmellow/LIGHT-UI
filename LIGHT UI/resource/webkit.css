@@ -2571,7 +2571,7 @@ body.v6 .game_page_background{
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
 .search_result_row,.search_result_row:hover{
-    background:#e4e4e4!important
+    background:#ececec!important
 }
 .search_result_row:hover{
     BORDER-RIGHT:2PX SOLID #d6d1d1!IMPORTANT
@@ -3409,7 +3409,6 @@ body.v6 h2{
     background:none!important
 }
 .title{
-    font-weight:bold!important;
     color:#585858!important
 }
 body.v6 .sale_capsule .discount_block_inline{
@@ -3532,7 +3531,6 @@ body.v6 #footer #footer_text{
     color:#585858!important
 }
 body.v6 .discount_prices>div{
-    BACKGROUND-COLOR:#ececec!important;
     color:#585858!important
 }
 .home_newupcoming_ctn .home_tab_button:hover:not(.active){
