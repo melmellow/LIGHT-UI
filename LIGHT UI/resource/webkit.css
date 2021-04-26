@@ -60,6 +60,23 @@
     --border50:50%
 }
 
+.eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v .eventcalendar_FilterOption_2LoOb {
+    background-color:none!important;
+}
+
+.eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v .eventcalendar_FilterOption_2LoOb {
+    color:#585858!important;
+}
+
+.eventcalendar_FiltersTitle_tQZ7I {
+    color:#585858!Important;
+}
+
+.eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC:hover .eventreminder_ReminderDefault_19p2Q, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC:hover .eventreminder_ReminderOptions_1Tp8K, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC:hover .eventreminder_ReminderCheck_3fMhC, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC:hover .eventreminder_ReminderOpennedOptions_vBuhk, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover:hover .eventreminder_ReminderDefault_19p2Q, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover:hover .eventreminder_ReminderOptions_1Tp8K, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover:hover .eventreminder_ReminderCheck_3fMhC, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover:hover .eventreminder_ReminderOpennedOptions_vBuhk, .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j:hover .eventreminder_ReminderDefault_19p2Q, .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j:hover .eventreminder_ReminderOptions_1Tp8K, .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j:hover .eventreminder_ReminderCheck_3fMhC, .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j:hover .eventreminder_ReminderOpennedOptions_vBuhk {
+    background-color:none!Important;
+    border-color:#000!important;
+}
+
 .popup_menu_twocol > .popup_menu.leftborder, .popup_menu_twocol_new > .popup_menu.leftborder {
     border-left:1px solid #d6d1d1!important;
 }
