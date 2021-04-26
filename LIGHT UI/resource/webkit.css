@@ -2571,10 +2571,10 @@ body.v6 .game_page_background{
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
 .search_result_row,.search_result_row:hover{
-    background:#ececec!important
+    background:#e4e4e4!important
 }
 .search_result_row:hover{
-    BORDER-RIGHT:2PX SOLID #d6d1d1!IMPORTANT
+    background-color:#ececec!IMPORTANT
 }
 .slider_ctn .slider_left:hover,.slider_ctn .slider_right:hover,.slider .handle:hover{
     background:none!important;
