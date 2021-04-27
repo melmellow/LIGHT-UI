@@ -60,6 +60,11 @@
     --border50:50%
 }
 
+
+.ds_collapse_flag.ds_flagged:hover .ds_flag {
+    COLOR:#585858!IMPORTANT;
+}
+
 .eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v .eventcalendar_FilterOption_2LoOb {
     background-color:#e4e4e4!important;
 }
@@ -3542,6 +3547,7 @@ div.filterselect_options div.option:hover{
 .apphub_ProgressBarBG{
     background-color:#d6d6d6!important;
     border-radius:30px!important;
+    BORDER:0!IMPORTANT;
 }
 .community_home_subtitle{
     color:#585858!important
