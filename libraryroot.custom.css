@@ -1430,7 +1430,7 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
 }
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
-  border-radius: 1px !important;
+  border-radius: 6px !important;
   border: 1px SOLID var(--BASE2) !important;
   background: var(--BASE1) !important;
   box-shadow: 2px 1px 2px VAR(--DIVIDER1) !important;
