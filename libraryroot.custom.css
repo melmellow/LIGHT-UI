@@ -1220,7 +1220,7 @@ div.NarrowRightPanel
   background-color: #ececec !important;
   border: 0 !important;
   box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
-  border-radius: 30px !important;
+  border-radius: 6px !important;
 }
 .appdetailscommunityfeed_AuthorSection_1ul9Z {
   color: var(--ACCENT) !important;
@@ -1365,7 +1365,7 @@ div.NarrowRightPanel
 }
 
 .ingame .steamavatar_avatarStatus_3xUpb {
-  background:none!important;
+  background: none !important;
 }
 
 .appactivityday_PartnerEventTextOnly_Icon_1-llQ svg path {
@@ -2237,7 +2237,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .appdetailscommunityfeed_MenuButton_CwZqp {
   border-radius: 100px !important;
-  background-color: #ececec !important;
+  border: 1px SOLID #b8b8b8 !important;
+  background-color: var(--BASE1) !important;
 }
 .appdetailscommunityfeed_MenuButton_CwZqp:hover {
   background-color: var(--BASE2) !important;
