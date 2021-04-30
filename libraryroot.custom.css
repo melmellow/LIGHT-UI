@@ -1359,6 +1359,15 @@ div.NarrowRightPanel
 .comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
   color: var(--ACCENT) !important;
 }
+
+.online .steamavatar_avatarStatus_3xUpb {
+  background: none !important;
+}
+
+.ingame .steamavatar_avatarStatus_3xUpb {
+  background:none!important;
+}
+
 .appactivityday_PartnerEventTextOnly_Icon_1-llQ svg path {
   fill: var(--ACCENT) !important;
 }
