@@ -2055,8 +2055,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 .library_LibraryWindowDivider_276E6 {
-  background-color: TRANSPARENT !important;
-  background-image: url(https://i.imgur.com/nlGfqx5.png);
+  background:#d6d1d1!important;
+  /*background-color: TRANSPARENT !important;*/
+  /*background-image: url(https://i.imgur.com/nlGfqx5.png)*/
 }
 .appdetailsplaysection_StickyHeaderShadow_2_86Q {
   background-color: var(--BASE2) !important;
