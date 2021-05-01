@@ -1368,7 +1368,6 @@ body.v6 .page_desc{
 }
 .tab_item_overlay img:hover,.large .tab_item_overlay img:hover{
     BORDER:0!iMPORTANT
-    border-radius:6px!Important;
 }
 .sortbox .dselect_container{
     BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT
@@ -4331,7 +4330,7 @@ a.following_button.btn_green_white_innerfade.btn_medium{
 .tab_item{
     transition:border-width .3s ease-in-out!Important;
     margin:5px!important;
-    border-radius:0!important
+    border-radius:6px!important
 }
 img.tab_item_cap_img{
     border-radius:var(--border0)!important
