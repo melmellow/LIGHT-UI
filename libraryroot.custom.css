@@ -2083,7 +2083,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background-color: NONE !important;
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-  border-radius: 0 !important;
+  border-radius: 6px !important;
   background-color: var(--BUTTON) !important;
   color: var(--ACCENT) !important;
   border-bottom: 1px solid var(--BUTTONBORDER) !important;
