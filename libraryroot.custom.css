@@ -21,6 +21,7 @@
   --GAMENAMEBACKGROUNDHOVER: VAR(--BUTTON);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOP: VAR(--ACCENT);
+  --ADVANCEDSEARCH: VAR(--BASE1);
 }
 
 .gamelistsearchbar_Container_20QAC
@@ -2753,7 +2754,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
   border: 0 !important;
   box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
-  background: VAR(--BASE3) !important;
+  background: VAR(--ADVANCEDSEARCH) !important;
 }
 
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
