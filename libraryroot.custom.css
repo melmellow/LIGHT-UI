@@ -472,6 +472,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .allcollections_CollectionLabelCount_36QQL {
   color: var(--ACCENT) !important;
 }
+.friendsnooze_SnoozeContainer_1Dsum.online .friendsnooze_SnoozeZ_2n0Ei {
+  color: var(--BLUE) !important;
+}
 .appdetailsadditionalcontentsection_AdditionalItem_11iUU:last-child {
   background: var(--BUTTON) !important;
   border: 1px solid var(--BUTTONBORDER) !important;
