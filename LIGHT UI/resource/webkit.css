@@ -5682,6 +5682,10 @@ div#headerSearch.friend_activity_header_search{
 .greyText{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
+.gameListRow {
+    border-radius:6px!Important;
+}
+
 .gameListRowItem{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
