@@ -3,12 +3,14 @@
 :root {
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
+  --BASE3: #ececec;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDERHOVER: #8d8d8d;
   --BUTTON: #d6d6d6;
   --BUTTONHOVER: #000;
   --BLUE: #1181d2;
+  --GREEN: #54a448;
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --DIVIDER1: #d6d1d1;
@@ -431,14 +433,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .appdetailsprimarylinkssection_LinkInner_7k4qm
   .appdetailsprimarylinkssection_Link_1b6LY:hover {
   border-radius: 30px !important;
-  background-color: #ececec !important;
+  background-color: VAR(--BASE3) !important;
   box-shadow: 1px 1px 2px var(--DIVIDER1) !important;
 }
 .online .personanameandstatus_playerName_nOdcT {
-  color: var(--BUTTONHOVER) !important;
+  color: var(--BLUE) !important;
 }
 .ingame .personanameandstatus_playerName_nOdcT {
-  color: #54a448 !important;
+  color: VAR(--GREEN) !important;
 }
 .offline .personanameandstatus_playerName_nOdcT {
   color: var(--ACCENT) !important;
@@ -463,7 +465,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   background: var(--BASE1) !important;
 }
 .allcollections_Collection_3IWn-:hover {
-  background: #ececec !important;
+  background: VAR(--BASE3) !important;
 }
 .allcollections_Collection_3IWn-
   .allcollections_CollectionLabel_1J1LQ
@@ -1217,7 +1219,7 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
 }
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
-  background-color: #ececec !important;
+  background-color: VAR(--BASE3) !important;
   border: 0 !important;
   box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
   border-radius: 6px !important;
@@ -1536,7 +1538,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .appgrid_ReadyToPlayBigButton_3wbWH:hover {
   filter: none !important;
-  background: #ececec !important;
+  background: VAR(--BASE3) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay path {
   fill: var(--ACCENT) !important;
@@ -2055,7 +2057,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 .library_LibraryWindowDivider_276E6 {
-  background:#d6d1d1!important;
+  background: #d6d1d1 !important;
   /*background-color: TRANSPARENT !important;*/
   /*background-image: url(https://i.imgur.com/nlGfqx5.png)*/
 }
@@ -2634,8 +2636,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   opacity: var(0.5);
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx {
-  background-color: #ececec !important;
-  color: #585858 !important;
+  background-color: VAR(--BASE3) !important;
+  color: VAR(--ACCENT) !important;
   box-shadow: 1px 1px 2px #d6d1d1 !important;
   margin-top: -32px;
   padding: 2px 8px;
