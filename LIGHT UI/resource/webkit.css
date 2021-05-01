@@ -884,10 +884,10 @@ a.linkbar>img{
     display:none!important
 }
 .carousel_container.maincap .carousel_items{
-    border-radius:0!important;
+    border-radius:6px!important;
     border:0!important;
     background:#e4e4e4!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
 }
 .carousel_container.maincap .carousel_items:active{
     background:#e4e4e4!important
@@ -1368,6 +1368,7 @@ body.v6 .page_desc{
 }
 .tab_item_overlay img:hover,.large .tab_item_overlay img:hover{
     BORDER:0!iMPORTANT
+    border-radius:6px!Important;
 }
 .sortbox .dselect_container{
     BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT
