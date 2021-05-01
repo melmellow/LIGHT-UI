@@ -10,7 +10,7 @@
 :root{
     --BASE1:#E4E4E4;
     --BASE3:#ECECEC;
-    --ACCENT:#ff0000;
+    --ACCENT:#585858;
     --BLUE:#1181d2;
     --GREEN:#54a448;
     --TEXTENTRY:#E8E8E8;
@@ -5632,9 +5632,6 @@ div#headerSearch.friend_activity_header_search{
 .review_recent_events{
     BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
-}
-.group_block{
-    background-color:VAR(--ACCENT)!important
 }
 .profile_friends.title_bar,.profile_groups.title_bar{
     margin-top:4px!important;
