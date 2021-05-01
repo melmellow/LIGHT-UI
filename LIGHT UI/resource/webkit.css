@@ -5012,7 +5012,7 @@ body.headerOverride{
     background:VAR(--ACCENT)!important
 }
 .pagecontent{
-    background:VAR(--ACCENT)!important
+    background:#dedede!important
 }
 body.flat_page:not(.iframe){
     background:VAR(--ACCENT)!important
@@ -5277,7 +5277,7 @@ div#headerSearch.friend_activity_header_search{
 .blotter_block{
     position:relative!important;
     background:#e4e4e4!important;
-    border-radius:0!important;
+    border-radius:6px!important;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
 .dynamiclink_box{
@@ -7426,7 +7426,7 @@ img#blotter_nofriends_block{
 }
 .blotter_author_block{
     border-bottom:0!important;
-    border-radius:0!important;
+    border-radius:6px!important;
     BACKGROUND:#e4e4e4!IMPORTANT
 }
 .blotter_screenshot>.blotter_author_block{
