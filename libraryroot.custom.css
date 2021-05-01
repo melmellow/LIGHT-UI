@@ -489,6 +489,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   color: var(--ACCENT) !important;
 }
 .appdetailscommunityfeed_Guide_-85o5 {
+  border-radius: 6px !important;
   box-shadow: 1px 0 VAR(--DIVIDER1) !important;
 }
 .appdetailscommunityfeed_Guide_-85o5
