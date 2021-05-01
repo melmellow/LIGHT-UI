@@ -3888,6 +3888,10 @@ body.v6.summer2018_home .home_page_body_ctn{
 .discovery_queue img{
     border-radius:var(--border0)!important
 }
+.blotter_userstatus_content {
+    color:var(--accent)!important;
+}
+
 .home_ctn{
     background:VAR(--ACCENT)!important
 }
