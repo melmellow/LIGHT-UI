@@ -883,7 +883,8 @@ div.ShortRightPanel
   border-bottom: 1px solid #b6b6b6 !important;
   font-weight: 400 !important;
   padding-left: 8px !important;
-  border-radius: 0 !important;
+  padding: 4px !important;
+  border-radius: 6px !important;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer:hover {
   transition: BORDER-COLOR 0.3s EASE-IN-OUT !important;
@@ -2561,6 +2562,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   border-bottom: 1px SOLID var(--BUTTONBORDER) !important;
   border-radius: 0 0 0 0 !important;
   background-color: var(--BUTTON) !important;
+  border-radius: 0 6px 6px 0 !important;
 }
 .appgrid_SortingDropDown_1tBzy
   ._DialogInputContainer
@@ -2568,6 +2570,14 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   svg {
   fill: var(--ACCENT) !important;
 }
+
+.appgrid_SortingDropDown_1tBzy
+  ._DialogInputContainer
+  .DialogDropDown_CurrentDisplay {
+  border-radius: 6px 0 0 6px !important;
+  padding: 4px !important;
+}
+
 .appportrait_FeaturedCapsule_xp7A- .appportrait_LibraryItemActionButton_3AjoL {
   background: var(--ACCENT) !important;
 }
