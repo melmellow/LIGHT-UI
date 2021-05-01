@@ -410,6 +410,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   stroke: var(--BASE2) !important;
   fill: var(--ACCENT) !important;
 }
+
+.appactivityday_ScreenshotCarousel_1pdQd
+  .appactivityday_CarouselThumbs_1tRKR
+  .appactivityday_CarouselThumb_1Lot-.appactivityday_Active_n98dr {
+  border: 0 !important;
+}
+
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_EmoticonButton_bACIu
