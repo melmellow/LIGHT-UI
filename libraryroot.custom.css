@@ -23,6 +23,13 @@
   --SCROLLTOTOP: VAR(--ACCENT);
 }
 
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_AdvancedSearchContainer_vCCmY
+  .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
+  .gamelistsearchbar_AdvancedSearchPane_Woh0k {
+  border-radius: 6px !important;
+}
+
 .index_Container_2mu1w.index_PreloadThrobber_2dqG9 {
   background: VAR(--BASE1) !important;
 }
@@ -1663,6 +1670,7 @@ A {
 }
 .DialogCheckbox.Active .SVGIcon_DialogCheck path {
   stroke: var(--ACCENT) !important;
+  border-radius: 3px !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
@@ -2728,6 +2736,16 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   height: 23px !important;
   background-color: transparent !important;
 }
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_AdvancedSearchContainer_vCCmY
+  .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x
+  .gamelistsearchbar_AdvancedSearchPane_Woh0k {
+  border: 0 !important;
+  box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
+  background: VAR(--BASE3) !important;
+}
+
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 
 /******************************************************/
