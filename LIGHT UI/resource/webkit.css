@@ -2006,9 +2006,13 @@ body.v6 .recommended_by_steam_labs_ctn .header_inline_reason{
 .discount_block .discount_prices{
     border:0!Important
 }
+
+
+
 .home_tabs_content .discount_block .discount_prices,.tab_content_ctn .discount_block .discount_prices{
     BORDER:0!IMPORTANT;
-    BORDER-RADIUS:0!iMPORTANT
+    BORDER-RADIUS:0!iMPORTANT;
+    box-shadow:none!important;
 }
 .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon line,.chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon circle,.chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon path{
     STROKE:#dedede!IMPORTANT;
@@ -3282,10 +3286,12 @@ a.gutter_item{
     COLOR:VAR(--ACCENT)!IMPORTANT
 }
 .tab_item{
+    border-radius:6px!Important;
     border:0!important;
     BACKGROUND:VAR(--BASE1)!IMPORTANT;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
+
 .spotlight_block .spotlight_content>h2,.spotlight_body{
     COLOR:VAR(--ACCENT)!IMPORTANT
 }
@@ -4280,7 +4286,6 @@ div.store_header_btn{
 .store_capsule .discount_block{
     border:0!important;
     background-color:VAR(--BASE1)!important;
-    box-shadow:1px 1px 2px #d6d1d1!important
 }
 .discount_block_large .discount_prices{
     background:var(--black)!important
@@ -8251,8 +8256,8 @@ a,.whiteLink{
     FONT-WEIGHT:500!IMPORTANT;
 }
 .discount_block .discount_pct,.discount_pct{
-    border-radius:0!important;
-    BACKGROUNDVAR(--GREEN)!IMPORTANT;
+    border-radius:6!important;
+    BACKGROUND:VAR(--GREEN)!IMPORTANT;
     COLOR:#FFF!IMPORTANT
 }
 .btn_medium>span,input.btn_medium{
