@@ -5890,6 +5890,11 @@ body.v6 h2 .header_inline{
 .home_discovery_queue_ctn .home_title_ctn,.home_discovery_queue_ctn .home_subtitle_ctn{
     COLOR:VAR(--ACCENT)!IMPORTANT
 }
+
+.gameListRow {
+    border-radius:6px!Important;
+}
+
 .gameListRowLogo img{
     border-radius:var(--border0)!important
 }
@@ -5908,7 +5913,7 @@ body.v6 h2 .header_inline{
 }
 .pullup_item{
     BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT;
-    border-radius:0!important;
+    border-radius:6px!important;
     BACKGROUND-COLOR:#d6d6d6!IMPORTANT;
     COLOR:VAR(--ACCENT)!IMPORTANT
 }
