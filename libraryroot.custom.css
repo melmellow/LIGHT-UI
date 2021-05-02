@@ -483,8 +483,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   color: var(--ACCENT) !important;
 }
 .allcollections_Collection_3IWn-.allcollections_NewCollection_2_dwx {
-  border: 1px solid var(--DIVIDER1) !important;
+  border: 0 !important;
   background: var(--BASE1) !important;
+  box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
 }
 .allcollections_Collection_3IWn-:hover {
   background: VAR(--BASE3) !important;
@@ -1581,7 +1582,8 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .appgrid_ReadyToPlayBigButton_3wbWH {
   background: var(--BASE1) !important;
   border-radius: 0 !important;
-  border: 1px solid var(--DIVIDER1) !important;
+  box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
+  border: 0 !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay circle {
   stroke: var(--ACCENT) !important;
