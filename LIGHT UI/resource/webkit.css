@@ -6781,6 +6781,9 @@ h2 span.note{
     padding-right:5px!important;
     border-radius:var(--border0)!important
 }
+.store_capsule .discount_block > .discount_prices {
+    BOX-SHADOW:NONE!iMPORTANT;
+}
 h2 span.note:hover{
     background:rgba(23,67,92,1)!important;
     color:VAR(--ACCENT)!important;
