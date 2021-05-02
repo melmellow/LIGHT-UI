@@ -2169,7 +2169,7 @@ body.v6 .store_nav .popup_menu_subheader,body.v6 #footer_nav .popup_menu_subhead
     background:VAR(--BASE1)!important
 }
 .tab_item_discount .discount_pct,.tab_item_discount.no_discount .bundle_base_discount{
-    BORDER-RADIUS:0!IMPORTANT
+    BORDER-RADIUS:6px!IMPORTANT
 }
 .btn_profile_action>span{
     color:VAR(--ACCENT)!important;
@@ -3285,13 +3285,6 @@ a.gutter_item{
 .tab_item_name:hover{
     COLOR:VAR(--ACCENT)!IMPORTANT
 }
-.tab_item{
-    border-radius:6px!Important;
-    border:0!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
-}
-
 .spotlight_block .spotlight_content>h2,.spotlight_body{
     COLOR:VAR(--ACCENT)!IMPORTANT
 }
@@ -8415,6 +8408,13 @@ input.discussionSearchText::SELECTION{
 
 .persona.online, a.persona.online, .persona.online a, .friend_status_online, .friend_status_online div, .friend_status_online a {
     COLOR:VAR(--BLUE)!IMPORTANT;
+}
+
+.tab_item{
+    border-radius:6px!Important;
+    border:0!important;
+    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
 
 .friends_search_text_box, .groups_search_text_box {
