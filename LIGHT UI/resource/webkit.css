@@ -37,7 +37,6 @@
     --grey-ish:#454545;
     --darkwhite:#000;
     --darkblue:#0e5984;
-  
     --blu:#67c1f5;
     --blue-ish:#7cbef8;
     --blue-er:#a4d7f5;
@@ -6798,7 +6797,7 @@ h2 span.note:hover{
 .early_access_review{
     COLOR:#FFF!IMPORTANT;
     border:0!important;
-    background-color:var(--blue)!important;
+    background-color:var(--BLUE)!important;
     border-radius:var(--border0)!important
 }
 #review_histograms_container{
