@@ -10,6 +10,7 @@
 :root{
     --BASE1:#E4E4E4;
     --BASE3:#ECECEC;
+    --DIVIDER1:#D6D1D1;
     --ACCENT:#585858;
     --BLUE:#1181d2;
     --GREEN:#54a448;
@@ -64,6 +65,22 @@
     --border50:50%
 }
 
+.mediaTop {
+    background-color:VAR(--BASE1)!Important;
+    box-shadow:1px 1px 2px VAR(--DIVIDER1)!important;
+}
+
+
+.visibilityNotification {
+    background-color:VAR(--BASE1)!important;
+    border:0!Important;
+    box-shadow:1px 1px 2px #d6d1d1!important;
+    color:var(--ACCENT)!IMPORTANT;
+}
+
+.visibilityNotification .visibilityDesc {
+    COLOR:VAR(--ACCENT)!IMPORTANT;
+}
 
 .blotter_recommendation_content {
     COLOR:VAR(--ACCENT)!IMPORTANT;
