@@ -76,6 +76,7 @@
     border:0!Important;
     box-shadow:1px 1px 2px #d6d1d1!important;
     color:var(--ACCENT)!IMPORTANT;
+    FONT-WEIGHT:BOLD!IMPORTANT;
 }
 
 .visibilityNotification .visibilityDesc {
@@ -8383,13 +8384,13 @@ input.discussionSearchText::SELECTION{
     COLOR:#1181d2!iMPORTANT
 }
 .app_tag_form_ctn .gray_bevel.for_text_input{
-    background-color:#e8e8e8!important;
+    background-color:VAR(--TEXTENTRY)!important;
     border-radius:30px!important;
     border:1px solid #b8b8b8!important
 }
 #ig_bottom .sidebar .panel,#ig_bottom .sidebar .detailPanel{
     background:VAR(--BASE1)!important;
-    box-shadow:1px 1px 2px #d6d1d1!important
+    box-shadow:1px 1px 2px VAR(--DIVIDER1)!important
 }
 .commentthread_comment_text{
     color:VAR(--ACCENT)!important
@@ -8397,7 +8398,7 @@ input.discussionSearchText::SELECTION{
 
 .persona.in-game, a.persona.in-game, .persona.in-game.a {
     BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX VAR(--DIVIDER1)!IMPORTANT;
     BORDER-RADIUS:6PX!iMPORTANT;
 }
 
