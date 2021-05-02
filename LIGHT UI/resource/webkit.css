@@ -1679,7 +1679,7 @@ div.sortselect{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .view_inventory_page .item.activeInfo,.view_inventory_page .item:hover{
-    BACKGROUND:#d6d6d6!IMPORTANT
+    BACKGROUND:#ececec!IMPORTANT
 }
 div.sortselect_options div.option:hover{
     BACKGROUND-COLOR:#d6d6d6!IMPORTANT
@@ -7526,7 +7526,8 @@ span.bb_spoiler{
 }
 .trade_item_box .item,.market_dialog_contents .item{
     BORDER-RADIUS:0!iMPORTANT;
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER:0!IMPORTANT;
+    box-shadow:1px 1px 2px #d6d1d1!important;
 }
 .rightSectionHolder{
     background:0 0!important;
