@@ -2819,7 +2819,7 @@ a.pulldown_desktop{
     COLOR:#FFF!IMPORTANT
 }
 .store_main_capsule .reason .main strong{
-    COLORVAR(--GREEN)!IMPORTANT
+    COLOR:VAR(--GREEN)!IMPORTANT;
 }
 .game_area_purchase_game p.package_contents,.game_area_offsite_purchase p.package_contents{
     color:VAR(--ACCENT)!important
