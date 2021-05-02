@@ -1804,10 +1804,10 @@ A {
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   ._DialogInputContainer {
-  background: var(--BASE1) !important;
-  border-radius: 0 !important;
-  border: 1px solid # !important;
-  box-shadow: none !important;
+  background-color: var(--BASE1) !important;
+  border-radius: 6px !important;
+  border: 1px solid var(--buttonborder) !important;
+  box-shadow: 0 0 2px var(--divider1) !important;
 }
 .contextmenu_contextMenuItem_1n7Wl:hover,
 .contextmenu_contextMenuItem_1n7Wl.contextmenu_active_18z-3 {
