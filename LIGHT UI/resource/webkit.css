@@ -6797,8 +6797,8 @@ h2 span.note:hover{
 }
 .early_access_review{
     COLOR:#FFF!IMPORTANT;
-    BORDER:1PX SOLID #41a6ef!IMPORTANT;
-    background-color:#41a6ef!important;
+    border:0!important;
+    background-color:var(--blue)!important;
     border-radius:var(--border0)!important
 }
 #review_histograms_container{
