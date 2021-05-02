@@ -1807,7 +1807,7 @@ A {
   background-color: var(--BASE1) !important;
   border-radius: 6px !important;
   border: 1px solid var(--buttonborder) !important;
-  box-shadow: 0 0 2px var(--divider1) !important;
+  font-weight: 500 !important;
 }
 .contextmenu_contextMenuItem_1n7Wl:hover,
 .contextmenu_contextMenuItem_1n7Wl.contextmenu_active_18z-3 {
