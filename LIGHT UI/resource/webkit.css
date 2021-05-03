@@ -1462,7 +1462,7 @@ body.v6 .page_desc{
 }
 #package_savings_bar{
     BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;
-    COLORVAR(--GREEN)!IMPORTANT
+    COLOR:VAR(--GREEN)!IMPORTANT;
 }
 .package_totals_area{
     COLOR:VAR(--ACCENT)!IMPORTANT;
@@ -2656,7 +2656,7 @@ h2{
     color:font-weight:500!important
 }
 .recommended_creators_ctn .recommended_creators_container .following_button span{
-    backgroundVAR(--GREEN)!important;
+    background:VAR(--GREEN)!important;
     opacity:1!Important;
     border:0!Important
 }
@@ -2750,12 +2750,6 @@ a.pulldown_desktop{
     color:VAR(--ACCENT)!Important;
     text-shadow:none!important
 }
-#store_nav_area .store_nav_bg,.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg{
-    border-radius:30px!important;
-    BORDER:0!IMPORTANT;
-    background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
-}
 .searchPersonaName,.searchPersonaName:active,.searchPersonaName:visited,.searchPersonaName:hover{
     color:VAR(--ACCENT)!important
 }
@@ -2787,7 +2781,7 @@ a.pulldown_desktop{
 }
 .agegate_birthday_selector{
     BORDER:0!IMPORTANT;
-    BORDER-RADIUS:0!iMPORTANT;
+    BORDER-RADIUS:6px!iMPORTANT;
     background:VAR(--BASE1)!important;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
@@ -2942,7 +2936,7 @@ span.vr_supported,span.vr_required{
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
 .store_header_btn_green a{
-    BACKGROUNDVAR(--GREEN)!IMPORTANT
+    BACKGROUND:VAR(--GREEN)!IMPORTANT
 }
 .game_area_sys_req ul li strong{
     FONT-WEIGHT:BOLD!IMPORTANT
@@ -3134,7 +3128,7 @@ a.market_listing_row_link,a.market_listing_row_link:hover,a.market_listing_row_l
     border:1px solid #b6b6b6!important
 }
 .playerAvatar.profile_header_size.in-game{
-    backgroundVAR(--GREEN)!important
+    background:VAR(--GREEN)!important
 }
 .persona.in-game,a.persona.in-game,.persona.in-game a,.friend_status_in-game,.friend_status_in-game div,.friend_status_in-game a{
     colorVAR(--GREEN)!important
@@ -3217,7 +3211,7 @@ h2 span.note a,h2 span.note a,h2 span.note a:visited{
     color:#fff!important
 }
 .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{
-    backgroundVAR(--GREEN)!important;
+    background:VAR(--GREEN)!important;
     color:#fff!important
 }
 .btn_green_steamui>span{
@@ -6345,7 +6339,7 @@ img.game_header_image_full{
     margin-left:-5px!important
 }
 body.v6 .game_area_already_owned.page_content{
-    backgroundVAR(--GREEN)!important;
+    background:VAR(--GREEN)!important;
     COLOR:#FFF!IMPORTANT;
     border-radius:var(--border0)!important
 }
@@ -7214,7 +7208,7 @@ a.readmore_link{
     border-radius:var(--border0)!important
 }
 .btn_addtocart .btn_addtocart_content{
-    BACKGROUNDVAR(--GREEN)!IMPORTANT;
+    BACKGROUND:VAR(--GREEN)!IMPORTANT;
     COLOR:#FFF!IMPORTANT
 }
 #widget .btn_addtocart .btn_addtocart_content{
@@ -7223,7 +7217,7 @@ a.readmore_link{
     BACKGROUND:#78be6d!IMPORTANT
 }
 #widget .btn_addtocart .btn_addtocart_content:hover{
-    BACKGROUNDVAR(--GREEN)!IMPORTANT
+    BACKGROUND:VAR(--GREEN)!IMPORTANT
 }
 .btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
     text-decoration:none!important;
@@ -8424,4 +8418,15 @@ input.discussionSearchText::SELECTION{
     BACKGROUND-COLOR:VAR(--TEXTENTRY)!IMPORTANT;
     BORDER-RADIUS:30PX!iMPORTANT;
     BORDER:1PX SOLID VAR(--BUTTONBORDER)!IMPORTANT;
+}
+
+#store_nav_area .store_nav_bg,.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg{
+    border-radius:6px!important;
+    BORDER:0!IMPORTANT;
+    background:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+}
+
+.package_totals_row.highlight, .package_totals_row.highlight .price {
+    color:var(--BLUE)!IMPORTANT;
 }
