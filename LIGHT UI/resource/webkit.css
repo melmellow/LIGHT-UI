@@ -5660,10 +5660,10 @@ div#headerSearch.friend_activity_header_search{
     background-color:rgba(255,255,255,.1)!important
 }
 .player_avatar{
-    border-radius:var(--border35)!important
+    border-radius:50PX!important;
 }
 .player_avatar img{
-    border-radius:var(--border35)!important
+    border-radius:50PX!important;
 }
 .friend_block_link_overlay{
     border-top-style:solid!important;
@@ -6055,12 +6055,15 @@ body.v6 .newonsteam_capsules>a{
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
     COLOR:VAR(--ACCENT)!IMPORTANT
 }
+.game_area_purchase_game b, .game_area_offsite_purchase b {
+    COLOR:VAR(--GREEN)!IMPORTANT;
+}
 .review_list h1{
     border-bottom:none!important
 }
 .review_box{
     BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER-RADIUS:0!IMPORTANT;
+    BORDER-RADIUS:6PX!IMPORTANT;
     BORDER:0!IMPORTANT;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
@@ -8397,6 +8400,7 @@ input.discussionSearchText::SELECTION{
 }
 
 .persona.in-game, a.persona.in-game, .persona.in-game.a {
+    COLOR:VAR(--GREEN)!IMPORTANT;
     BACKGROUND:VAR(--BASE1)!IMPORTANT;
     BOX-SHADOW:1PX 1PX 2PX VAR(--DIVIDER1)!IMPORTANT;
     BORDER-RADIUS:6PX!iMPORTANT;
