@@ -4272,6 +4272,8 @@ div.store_header_btn{
     border-radius:var(--border0)!important
 }
 .store_capsule .discount_block{
+    border-radius:6px!Important;
+    box-shadow:1px 1px 2px var(--divider1)!important;
     border:0!important;
     background-color:VAR(--BASE1)!important;
 }
