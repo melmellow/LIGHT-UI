@@ -4359,7 +4359,6 @@ img.tab_item_cap_img{
 }
 .tab_review_summary{
     border:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
     BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
     border-radius:0!important
 }
