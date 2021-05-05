@@ -918,13 +918,14 @@ a.linkbar>img{
     display:none!important
 }
 .carousel_container.maincap .carousel_items{
-    border-radius:0!important;
+    border-radius:6!important;
     border:0!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX  var(--divider1)!IMPORTANT
 }
 .carousel_container.maincap .carousel_items:active{
-    background:VAR(--BASE1)!important
+    background:VAR(--BASE1)!important;
+    border-radius:6px!important;
 }
 body::-webkit-scrollbar-thumb:window-inactive{
     background-clip:padding-box!important;
@@ -8444,4 +8445,9 @@ input.discussionSearchText::SELECTION{
 
 .block .block_header {
     background:none!important;
+}
+
+.carousel_container.spotlight .carousel_items > * .store_capsule.daily_deal {
+    border-radius:6px!important;
+    box-shadow:1px 1px 2px var(--divider1)!important;
 }
