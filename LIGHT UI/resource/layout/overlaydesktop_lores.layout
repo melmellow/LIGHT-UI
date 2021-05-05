@@ -8,7 +8,7 @@
 				control=FriendsButton,PlayersButton,AchievementsButton,GameHubButton,ScreenshotsButton
 				region=overlay
 				y=174
-				height=50
+				height=100
 				x=6
 				spacing=20
 				align=left
@@ -18,12 +18,20 @@
 			place { control=Clocksuffix region=overlay start=Clock y=2 }
 
 			place {
-				control=GameGroupsButton,ChatRoomButton,DLCButton,GuideButton,GuidesButton,LegacyCDKeyButton,WebSiteButton,ForumsButton,RecommendButton,WorkshopButton
+				control=ChatRoomButton,DLCButton,GuideButton,GuidesButton,LegacyCDKeyButton,WebSiteButton,ForumsButton,RecommendButton,WorkshopButton
 				region=overlay
 				y=269
 				x=6
 				dir=down
 				height=20
+			}
+			place {
+				 control=GameGroupsButton
+				 region=overlay
+				 y=150
+				 x=6
+				 dir=down
+				 height=20
 			}
 
 			place { control=BroadcastDetailPanel align=top-center y=14 height=40 width=360 }
