@@ -6061,12 +6061,6 @@ body.v6 .newonsteam_capsules>a{
 .review_list h1{
     border-bottom:none!important
 }
-.review_box{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER-RADIUS:6PX!IMPORTANT;
-    BORDER:0!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
-}
 .review_box .header{
     COLOR:VAR(--ACCENT)!IMPORTANT;
     border-top-left-radius:var(--border0)!important;
@@ -6778,6 +6772,11 @@ h2 span.note{
     padding-right:5px!important;
     border-radius:var(--border0)!important
 }
+
+.discount_block > .discount_prices {
+    box-shadow:none!Important;
+}
+
 .store_capsule .discount_block > .discount_prices {
     BOX-SHADOW:NONE!iMPORTANT;
 }
@@ -8433,4 +8432,15 @@ input.discussionSearchText::SELECTION{
 
 .package_totals_row.highlight, .package_totals_row.highlight .price {
     color:var(--BLUE)!IMPORTANT;
+}
+
+.review_box{
+    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    BORDER-RADIUS:6PX!IMPORTANT;
+    BORDER:0!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX var(--divider1)!IMPORTANT
+}
+
+.block .block_header {
+    background:none!important;
 }
