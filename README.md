@@ -15,11 +15,11 @@ Steam will have to restart to apply the theme
 * run steamfriendspatcher and it will apply the theme
 
 # CREDITS
-* jonius7 for the compact sidebar tweak
-* phantomgamers for making steamfriendspatcher
-* AikoMidori for the webkit
-* METRO SKIN
-* AIR SKIN
+* jonius7 for the compact sidebar tweak <3
+* phantomgamers for making steamfriendspatcher <3
+* AikoMidori for the webkit <3
+* METRO SKIN for the navbar <3
+* AIR SKIN for the overlay <3
 
 
 Its not perfect yet but I will keep working on it
