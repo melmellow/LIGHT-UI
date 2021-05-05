@@ -26,6 +26,12 @@
   --READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
+.appdetailsadditionalcontentsection_Soundtracks_LO26Z
+  .appdetailsadditionalcontentsection_SoundtrackDetails_krdL6
+  .appdetailsadditionalcontentsection_Artist_3NeZL {
+  color: VAR(--ACCENT) !important;
+}
+
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
   .appdetailssoundtrack_Header_4f23l
   .appdetailssoundtrack_StatsAndParent_3pUBu
