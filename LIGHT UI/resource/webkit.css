@@ -4524,13 +4524,13 @@ a.home_marketing_message{
 .home_content.single{
     background:VAR(--BASE1)!important;
     color:VAR(--ACCENT)!important;
-    border-radius:0!important;
+    border-radius:6px!important;
     border:0!important;
-    box-shadow:1px 1px 2px #d6d1d1!important
+    box-shadow:1px 1px 2px var(--divider1)!important;
 }
 .home_content.single_buttonbar{
     background:#dedede!important;
-    border-radius:var(--border0)!important
+    border-radius:var(--border0)!important;
 }
 .home_content.single .gamelink img{
     border-radius:var(--border0)!important
