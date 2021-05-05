@@ -26,6 +26,46 @@
   --READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep {
+  background: VAR(--BASE1) !important;
+  box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
+  border-radius: 6px !important;
+}
+
+.library_TopGradient_34Cqr {
+  background: NONE !important;
+}
+
+.appdetailssoundtrack_BackgroundContainer_26bNl
+  .appdetailssoundtrack_BackgroundBlurArt_3JZ9b {
+  opacity: 0 !important;
+}
+
+.appdetailssoundtrack_SoundtrackPanel_23zCI {
+  background: var(--BASE2) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_AlbumName_oW5xv {
+  color: var(--ACCENT) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_ArtistName_2bTdS {
+  color: var(--ACCENT) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_StatsAndParent_3pUBu
+  .appdetailssoundtrack_AlbumStats_1qxAZ {
+  color: var(--ACCENT) !important;
+}
+
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
