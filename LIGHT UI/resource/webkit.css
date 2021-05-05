@@ -4656,9 +4656,11 @@ a.home_marketing_message{
     BACKGROUND-COLOR:#ececec!IMPORTANT
 }
 #tab_preview_container{
-    border-radius:var(--border0)!important;
+    border-radius:6px!important;
     top:15px!important;
-    background:NONE!important
+    background:var(--BASE1)!important;
+    box-shadow:1px 1px 2px var(--DIVIDER1)!important;
+    margin-top:64px!important;
 }
 body.v6 .home_rightcol .tab_preview h2{
     color:VAR(--ACCENT)!important
