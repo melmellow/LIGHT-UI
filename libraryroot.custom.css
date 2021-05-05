@@ -28,6 +28,24 @@
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
   .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep
+  .appdetailssoundtrack_TrackListContainer_1Rrhq
+  .appdetailssoundtrack_Disc_17Yl1 {
+  background: NONE !important;
+  color: VAR(--ACCENT) !important;
+  font-weight: 500px !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep
+  .appdetailssoundtrack_TrackListContainer_1Rrhq
+  .appdetailssoundtrack_TrackListing_2c5PP {
+  color: VAR(--ACCENT) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
   .appdetailssoundtrack_RightColumn_1s3Ep {
   background: VAR(--BASE1) !important;
   box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
