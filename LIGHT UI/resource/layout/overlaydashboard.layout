@@ -21,7 +21,7 @@
 		topbar {
 			font-family=condensed
 			font-size=54
-			font-weight=500
+			font-weight=700
 			font-style=uppercase
 			textcolor="88 88 88 255"
 
