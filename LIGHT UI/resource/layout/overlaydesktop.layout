@@ -32,7 +32,8 @@
 			}
 
 			place { control=BroadcastDetailPanel align=top-center y=14 height=40 width=360 }
-
+			place { control=EditControllerConfig margin-left=-9999 width=0 }
+			place { control=ForceQuitButton margin-left=-9999 width=0 }
 		place { control=TwoWeeksText,GuidesDetailPanel,NewsDetailPanel,CommunityDiscussionsDetailPanel height=0 width=0 margin-left=-9999 }
 	}
 }
