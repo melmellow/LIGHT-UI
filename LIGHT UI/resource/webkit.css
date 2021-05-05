@@ -4208,6 +4208,7 @@ div.store_header_btn{
 }
 .carousel_container.maincap .capsule .screenshot{
     border-radius:var(--border0)!important
+    opacity:100%!important;
 }
 .carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal{
     background:VAR(--BASE1)!important;
