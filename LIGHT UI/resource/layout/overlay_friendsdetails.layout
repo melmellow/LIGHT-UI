@@ -7,7 +7,7 @@
 			inset-left=0
 			//minimum-height=0 //reset for button height
 			//padding-right=0 padding-left=0
-			image="icons/friends"
+			image="icons/overlay friends"
 			bgcolor=none
 			RENDER {
 			0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, "NONE" )"
@@ -19,7 +19,7 @@
 
 		button:hover { 
 			//textcolor="255 255 255 255"
-			image="icons/friends_h"
+			image="icons/overlay friends_h"
 			}
 	}
 
