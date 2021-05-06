@@ -6,6 +6,7 @@
   --BASE3: #ececec;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
+  --BUTTONBORDER2: #b6b6b6;
   --BUTTONBORDERHOVER: #8d8d8d;
   --BUTTON: #d6d6d6;
   --BUTTONHOVER: #000;
@@ -991,7 +992,7 @@ div.ShortRightPanel
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
   font-size: 15px !important;
   background-color: var(--BUTTON) !important;
-  border-bottom: 1px solid #b6b6b6 !important;
+  border-bottom: 1px solid VAR(--BUTTONBORDER2) !important;
   font-weight: 400 !important;
   padding-left: 8px !important;
   padding: 4px !important;
@@ -2003,11 +2004,11 @@ A {
 }
 .DialogTextInputBase,
 ._DialogInputContainer {
-  border-radius: 0 !important;
+  border-radius: 6px !important;
   background: var(--BUTTON) !important;
   font-weight: 200 !important;
   color: var(--ACCENT) !important;
-  border-bottom: 1px SOLID #b6b6b6;
+  border-bottom: 1px SOLID VAR(--BUTTONBORDER2);
 }
 .artworkmodal_Body_1uUBT
   .artworkmodal_Top_2CL3W
