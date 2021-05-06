@@ -1,8 +1,18 @@
 "Resource/layout/overlay_friendsdetails.layout" {
 
+	controls 
+	{
+		FriendsButton {style=friends1}
+	}
+	
 	styles {
 		detailsbox { }
-
+		
+		friends1 {
+		
+			
+		}
+		
 		button {
 			inset-left=0
 			//minimum-height=0 //reset for button height
@@ -24,7 +34,7 @@
 	}
 
 	layout {
-		place { control=AllFriendsButton,ViewPlayersButton height=20 spacing=35 }
+		place { control=AllFriendsButton,ViewPlayersButton height=20 spacing=10 }
 
 		place { control=TitleText,TextThisManyFriends,grid height=0 width=0 }
 	}
