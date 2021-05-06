@@ -32,7 +32,7 @@
 	}
 
 	layout {
-		region { name=overlay height=240 width=max margin-left=70 margin-right=60 }
+		region { name=overlay height=240 width=max margin-left=50 margin-right=60 }
 			place { control=gamename region=overlay align=left y=30 }
 			place { control=TaskbarPanel region=overlay width=200 height=max align=right end-right=CloseButton margin-right=50 }
 			place { control=CloseButton region=overlay align=right height=40 width=40 y=97 }
