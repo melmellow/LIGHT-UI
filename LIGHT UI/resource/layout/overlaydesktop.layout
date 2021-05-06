@@ -22,7 +22,7 @@
 			place { control=Clocksuffix region=overlay start=Clock y=2 }
 
 			place {
-				control=ChatRoomButton,DLCButton,GuideButton,LegacyCDKeyButton,WebSiteButton,RecommendButton,WorkshopButton
+				control=GameGroupsButton,ChatRoomButton,DLCButton,GuideButton,LegacyCDKeyButton,WebSiteButton,RecommendButton,WorkshopButton
 				region=overlay
 				y=269
 				x=6

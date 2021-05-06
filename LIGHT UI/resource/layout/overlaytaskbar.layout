@@ -4,7 +4,8 @@
 
 	layout {
 		place { control=TaskbarPanel height=max width=max }
-		place { control=WebBrowserButton,GameGroupsButton,SettingsButton height=20 y=93 align=right dir=down }
+		place { control=WebBrowserButton,SettingsButton height=20 y=93 align=right dir=down }
+		place { control=GameGroupsButton start=WebBrowserButton }
 		place { control=MusicPlayerButton margin-left=-9999 width=0 }
 		place { control=SteamLogo,FriendPanel,view_friends,online_friends height=0 width=0 }
 	}
