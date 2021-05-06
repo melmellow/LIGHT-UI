@@ -13,11 +13,17 @@
 		{
 			inset-left=-6
 			bgcolor="none"
-			image=graphics/metro/overlay/icons/screenshots
+			image=ICONS/screenshot
+			render{
+			0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, "NONE" )"
+				0="fill( x1 - 1, y0 + 1, x1 - 2, y0 + 2, "NONE")"
+				0="fill( x0 + 1, y1 - 1, x0 + 2, y1 - 2, "NONE")"
+				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, "NONE")"
+			}
 		}
 		Button:hover
 		{
-			image=graphics/metro/overlay/icons/screenshots_h		
+			image=ICONS/screenshot_h	
 		}
 		Button:active
 		{
