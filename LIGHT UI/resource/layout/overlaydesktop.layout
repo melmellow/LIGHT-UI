@@ -5,7 +5,7 @@
 	}
 
 	layout {
-		region { name=overlay height=max width=max margin-left=70 margin-right=70 }
+		region { name=overlay height=max width=max margin-left=50 margin-right=70 }
 			place { control=FriendsDetailPanel width=301 }
 			place { control=AchievementsDetailPanel width=207 }
 			place { control=CommunityHubDetailPanel width=191 }
@@ -14,7 +14,7 @@
 				control=FriendsDetailPanel,AchievementsDetailPanel,CommunityHubDetailPanel,ScreenshotsDetailPanel
 				region=overlay
 				y=181
-				height=30
+				height=50
 				align=left
 			}
 
