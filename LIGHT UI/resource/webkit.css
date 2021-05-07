@@ -64,6 +64,11 @@
     --border50:50%
 }
 
+
+.sale_page_block {
+    BORDER-RADIUS:6PX!important;
+}
+
 .mediaTop {
     background-color:VAR(--BASE1)!Important;
     box-shadow:1px 1px 2px VAR(--DIVIDER1)!important;
@@ -6019,30 +6024,6 @@ body.v6 .newonsteam_capsules>a{
     border-radius:10PX!important;
     vertical-align:0!important
 }
-.btnv6_green_white_innerfade{
-    border-radius:var(--border0)!important;
-    padding:3px!important;
-    text-decoration:none!important;
-    color:#FFF!important;
-    background:VAR(--ACCENT)!important
-}
-.btnv6_blue_blue_innerfade{
-    border-radius:var(--border0)!important;
-    padding:3px!important;
-    text-decoration:none!important;
-    color:var(--blue-er)!important;
-    background:rgba(47,137,188,1)!important
-}
-.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
-    border-radius:var(--border0)!important;
-    background:#1181d2!important;
-    color:#FFF!important
-}
-.btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
-    border-radius:var(--border0)!important;
-    background:#23678e!important;
-    color:VAR(--ACCENT)!important
-}
 .btn_medium>span,input.btn_medium{
     padding:0 15px!important;
     line-height:30px!important
@@ -6727,8 +6708,8 @@ body.v6 #footer .rule{
     border-radius:var(--border0)!important
 }
 .sale_page_purchase_item{
-    BACKGROUND:#d6d6d6!IMPORTANT;
-    border-radius:10PX!important
+    BACKGROUND:var(--BASE1)!important;
+    border-radius:6PX!important;
 }
 .sale_page_purchase_content .bundle_contents_preview{
     border-radius:var(--border0)!important
@@ -8453,4 +8434,28 @@ input.discussionSearchText::SELECTION{
 .carousel_container.spotlight .carousel_items > * .store_capsule.daily_deal {
     border-radius:6px!important;
     box-shadow:1px 1px 2px var(--divider1)!important;
+}
+
+.btn_medium > span, input.btn_medium {
+    color:var(--ACCENT)!important;
+}
+
+.btnv6_green_white_innerfade{
+    border-radius:var(--border0)!important;
+    padding:3px!important;
+    text-decoration:none!important;
+    color:#FFF!important;
+   background:none!important;
+}
+
+.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
+    background:none!important;
+}
+
+.btnv6_blue_blue_innerfade{
+    background:none!important
+}
+
+.btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
+    background:none!important;
 }
