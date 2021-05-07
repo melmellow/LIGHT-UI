@@ -27,6 +27,10 @@
   --READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
+.sharedappdetailsheader_ImgSrc_HNbe3 {
+  --webkit-mask-image: unset !important;
+}
+
 .appdetailsoverview_Container_27RcN {
   border-top: 1px solid var(--divider1) !important;
 }
