@@ -27,6 +27,13 @@
   --READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
+.appdetailssectionnonsteam_Body_1TGl5 {
+  border-radius: 6px !important;
+  background: var(--BASE1) !important;
+  color: var(--ACCENT) !important;
+  box-shadow: 1px 1px 2px var(--DIVIDER1) !important;
+}
+
 .personastatusicons_PersonaStatusIcon_KxAI_.ingame .SVGIcon_VR path,
 .personastatusicons_PersonaStatusIcon_KxAI_.ingame .SVGIcon_MobilePhone path,
 .personastatusicons_PersonaStatusIcon_KxAI_.ingame .SVGIcon_BigPicture path {
