@@ -27,6 +27,10 @@
   --READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
+.sharedappdetailsheader_TopCapsule_NZMJ6 {
+  background-color: var(--BUTTON) !important;
+}
+
 .sharedappdetailsheader_SVGTitle_121fl text {
   opacity: 0 !important;
 }
