@@ -102,6 +102,10 @@
   color: VAR(--ACCENT) !important;
 }
 
+.appdetailssoundtrack_SoundtrackContainer_1c7FW {
+  border-top: 1px solid var(--DIVIDER1) !important;
+}
+
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
   .appdetailssoundtrack_Header_4f23l
   .appdetailssoundtrack_StatsAndParent_3pUBu
