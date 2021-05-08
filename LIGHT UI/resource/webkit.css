@@ -7871,9 +7871,10 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
     padding:20px 0 0 0!important
 }
 .achieveTxtHolder{
-    box-shadow:1px 1px 2px #d6d1d1!important;
+    box-shadow:1px 1px 2px var(--DIVIDER1)!important;
     background-color:VAR(--BASE1)!important;
-    padding:0 10px!important
+    padding:0 10px!important;
+    border-radius:6px!important;
 }
 .achievementProgressBar{
     background-color:#d6d6d6!important;
