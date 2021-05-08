@@ -923,6 +923,9 @@ div.ShortRightPanel
 .appgrid_EmptyGridMessageLine_15p_9 {
   color: var(--ACCENT) !important;
 }
+.sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV {
+  opacity: 0 !important;
+}
 .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV,
 .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlur_HSQWw {
   filter: GRAYSCALE(30%) !important;
