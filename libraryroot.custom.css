@@ -2808,7 +2808,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   opacity: var(0.5);
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx {
-  background-color: VAR(--BLUE) !important;
+  background-color: VAR(--BUTTONHOVER) !important;
   color: VAR(--WHITE) !important;
   margin-top: -32px;
   padding: 2px 8px;
