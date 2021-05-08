@@ -27,6 +27,37 @@
   --READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
+.library_MainPanel_3BFcm
+  .library_NewCollectionTarget_3PAPB.library_Visible_3QGgg {
+  border: 3px dashed var(--BLUE) !important;
+  background-color: var(--BASE3) !important;
+}
+
+.removegamehover_Container_1rdB7
+  .removegamehover_Message_oYmrg
+  .removegamehover_AppName_1cn0X {
+  color: var(--ACCENT) !important;
+  font-weight: 600 !important;
+}
+
+.removegamehover_Container_1rdB7
+  .removegamehover_Message_oYmrg
+  .removegamehover_CollectionName_3Wdcn {
+  color: var(--ACCENT) !important;
+  font-weight: 600 !important;
+}
+
+.removegamehover_Container_1rdB7 {
+  background-color: var(--BASE3) !important;
+  color: var(--ACCENT) !important;
+}
+
+.allcollections_Collection_3IWn-
+  .allcollections_NavTimer_2Tnpa
+  .allcollections_Message_1XmVt {
+  color: var(--ACCENT) !important;
+}
+
 .sharedappdetailsheader_ImgSrc_HNbe3 {
   --webkit-mask-image: unset !important;
 }
