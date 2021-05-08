@@ -70,6 +70,10 @@
     border-top:1px solid var(--DIVIDER1)!important;
 }
 
+.report_profile_nav_ctn {
+    border-top:1px solid var(--DIVIDER1)!important;
+}
+
 #step_header {
     COLOR:VAR(--ACCENT)!important;
 }
