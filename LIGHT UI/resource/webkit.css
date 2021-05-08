@@ -66,6 +66,20 @@
     --border50:50%
 }
 
+.report_txt_ctn:before {
+    border-bottom-color:var(--BASE3)!important;
+}
+
+.report_txt_ctn {
+    background:var(--BASE3)!important;
+    box-shadow:1px 1px 2px var(--DIVIDER1)!important;
+}
+
+.action_btn_ctn img {
+    filter:brightness(0)!important;
+    opacity:60%!important;
+}
+
 .report_profile_current_step {
     border-top:1px solid var(--DIVIDER1)!important;
 }
@@ -8492,4 +8506,14 @@ input.discussionSearchText::SELECTION{
 
 .persona, a.persona, .persona a, .friend_status_offline, .friend_status_offline div, .friend_status_offline a {
     BORDER-RADIUS:6PX!important;
+}
+
+#report_txt_input {
+    color:var(--ACCENT)!important;
+    background-color:var(--TEXTENTRY)!important;
+    border-radius:6px!important;
+}
+
+#btn_submit_report {
+    background:none!important;
 }
