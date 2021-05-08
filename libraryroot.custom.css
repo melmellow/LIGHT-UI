@@ -2234,6 +2234,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   margin-top: 6px !important;
 }
 .collectionview_Container_2q70u {
+  border-top: 1px solid var(--DIVIDER1) !important;
+  border-radius: 0 !important;
   color: var(--ACCENT) !important;
   font-weight: 400 !important;
 }
