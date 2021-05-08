@@ -27,6 +27,17 @@
   --READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
+.comment_thread_ActivityCommentThread_39nna
+  .comment_thread_Comment_515RL
+  .comment_thread_CommentBody_1ltVe
+  .comment_thread_CommentControls_2-3DH
+  .comment_thread_CommentRatingButton_2ftHa
+  .comment_thread_CommentRating_1L2eb
+  .comment_thread_ThumbsUpComment_1DwcI {
+  fill: var(--ACCENT) !important;
+  stroke: var(--ACCENT) !important;
+}
+
 .appdetailscommunityfeed_NoContent_13Hxu {
   color: var(--ACCENT) !important;
 }
