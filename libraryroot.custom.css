@@ -27,6 +27,10 @@
   --READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
+.appdetailscommunityfeed_NoContent_13Hxu {
+  color: var(--ACCENT) !important;
+}
+
 .library_MainPanel_3BFcm
   .library_NewCollectionTarget_3PAPB.library_Visible_3QGgg {
   border: 3px dashed var(--BLUE) !important;
