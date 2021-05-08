@@ -2747,7 +2747,7 @@ h2{
     color:VAR(--ACCENT)!important
 }
 .forum_topic_label.sticky_label{
-    colorVAR(--GREEN)!important
+    color:VAR(--GREEN)!important;
 }
 .forum_topic_name{
     COLOR:VAR(--ACCENT)!iMPORTANT
