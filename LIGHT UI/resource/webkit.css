@@ -8517,3 +8517,7 @@ input.discussionSearchText::SELECTION{
 #btn_submit_report {
     background:none!important;
 }
+
+.group_block {
+    border-radius:6px!important;
+}
