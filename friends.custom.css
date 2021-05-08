@@ -1,6 +1,28 @@
 :root {
-	 	--BASE1:#E4E4E4;
-		--ACCENT:#585858;
+	--BASE1: #e4e4e4;
+	--BASE2: #dedede;
+	--BASE3: #ececec;
+	--ACCENT: #585858;
+	--BUTTONBORDER: #b8b8b8;
+	--BUTTONBORDER2: #b6b6b6;
+	--BUTTONBORDERHOVER: #8d8d8d;
+	--BUTTON: #d6d6d6;
+	--BUTTONHOVER: #000;
+	--BLUE: #1181d2;
+	--GREEN: #54a448;
+	--WHITE: #fff;
+	--TEXTENTRY: #e8e8e8;
+	--SHADOW: #d6d1d1;
+	--PLAYBUTTON: VAR(--ACCENT);
+	--GAMENAME: VAR(--ACCENT);
+	--GAMESTATENAMECOLOR: VAR(--BUTTONHOVER);
+	--GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
+	--GAMENAMEBACKGROUNDHOVER: VAR(--BUTTON);
+	--FRIENDISPLAYING: VAR(--ACCENT);
+	--SCROLLTOTOP: VAR(--ACCENT);
+	--ADVANCEDSEARCH: VAR(--BASE1);
+	--GAMELISTBORDER: VAR(--DIVIDER1);
+	--READYTOPLAYACTIVE: VAR(--BLUE);
 }
 
 
@@ -1363,7 +1385,8 @@ color: #54A448 !important;}
   color: rgb(var(--ingame)) !important; }
   
 .online .personanameandstatus_playerName_1uxaf {
-color: #4B94AB !important;}
+color: var(--BLUE) !important;
+}
 
 .ingame .steamavatar_avatarStatus_1Pwr6, .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--ingame)) !important; }
