@@ -38,6 +38,12 @@
   color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR);
 }
 
+.gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Uninstalled_5YTBr,
+.gamelistentry_Selected_1UBpA
+  .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
+  color: VAR(--UINSTALLEDGAMENAMEHOVERCOLOR);
+}
+
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
   color: VAR(--UNINSTALLEDGAMENAMECOLOR);
 }
@@ -1356,6 +1362,7 @@ div.NarrowRightPanel
 }
 .appactionbutton_ButtonChild_2AzIX {
   background: var(--ACCENT) !important;
+  border-radius: VAR(--PLAYBUTTONROUNDED3) !important;
 }
 .appactionbutton_ButtonChild_3cI5T {
   border-radius: 0 !important;
