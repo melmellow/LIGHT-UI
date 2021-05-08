@@ -794,7 +794,8 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   fill: VAR(--ACCENT) !important;
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40 {
-  background: #54a448 !important;
+  background: var(--BASE3) !important;
+  border: 1px solid var(--BUTTONHOVER) !important;
 }
 .appactivityday_ReviewIconThumbsUp_2oPMu {
   background: var(--BASE1) !important;
@@ -2807,10 +2808,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appportrait_LibraryItemBoxSubscript_1LJqx {
   background-color: VAR(--BASE3) !important;
   color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
   margin-top: -32px;
   padding: 2px 8px;
-  border-radius: 50px !important;
+  border: 1px solid var(--BUTTONHOVER) !important;
+  border-radius: 6px !important;
 }
 .gamelistdropdown_DropDown_EDl_m {
   width: 195px !important;
