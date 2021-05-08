@@ -17,6 +17,7 @@
   --DIVIDER1: #d6d1d1;
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
+  --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
   --PLAYBUTTON: VAR(--ACCENT);
   --GAMESTATENAMECOLOR: VAR(--BUTTONHOVER);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
@@ -29,6 +30,11 @@
   --PLAYBUTTONROUNDED1: 50px 0 0 50px;
   --PALYBUTTONROUNDED2: 0 50px 50px 0;
   --PLAYBUTTONROUNDED3: 50px;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
+.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr.gamelistentry_HoverOverlay_3cMVy {
+  color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR);
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
