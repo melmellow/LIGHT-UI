@@ -12,10 +12,12 @@
     --BASE3:#ECECEC;
     --DIVIDER1:#D6D1D1;
     --ACCENT:#585858;
+    --BUTTON:#D6D6D6;
     --BLUE:#1181d2;
     --GREEN:#54a448;
     --TEXTENTRY:#E8E8E8;
-    --BUTTONBORDER:#B8B8B8!IMPORTANT;
+    --BUTTONBORDER:#B8B8B8;
+    --BUTTONBORDERHOVER:#8D8D8D;
     --searchbox:#333;
     --scrollbar:VAR(--ACCENT);
     --trans:transparent;
@@ -64,6 +66,24 @@
     --border50:50%
 }
 
+.report_profile_current_step {
+    border-top:1px solid var(--DIVIDER1)!important;
+}
+
+#step_header {
+    COLOR:VAR(--ACCENT)!important;
+}
+
+
+.action_btn_ctn {
+    background-color:var(--BUTTON)!important;
+    color:var(--ACCENT)!important;
+    border:1px solid var(--BUTTONBORDER)
+}
+
+.action_btn_ctn:hover {
+    BORDER:1PX SOLID var(--BUTTONBORDERHOVER)!important;
+}
 
 .sale_page_block {
     BORDER-RADIUS:6PX!important;
