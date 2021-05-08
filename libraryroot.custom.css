@@ -2191,9 +2191,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
   color: var(--ACCENT) !important;
+  margin-top: 6px !important;
 }
 .collectionview_Container_2q70u {
   color: var(--ACCENT) !important;
+  font-weight: 400 !important;
 }
 .appgrid_CollectionOptionsRightJustified_3t1pL
   .appgrid_ShowingReadyToPlay_38IOu {
