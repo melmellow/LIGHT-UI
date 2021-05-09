@@ -2925,6 +2925,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   opacity: var(0.5);
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
+
+.personanameandstatus_playerNicknameBracket_3XEmW {
+  color: VAR(--ACCENT) !important;
+  opacity: 1 !important;
+}
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(3) {
   opacity: var(0.5);
