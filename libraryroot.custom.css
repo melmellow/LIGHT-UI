@@ -18,6 +18,7 @@
   --SHADOW: #d6d1d1;
   --BUTTON1: VAR(--ACCENT);
   --BUTTONHOVER: VAR(--BLACK);
+  --RUNNINGGAMENAMECOLOR: VAR(--ACCENT);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
@@ -51,6 +52,10 @@
   SEPIA(5)
   BLUR(5PX)
   */
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Running_10Gdo {
+  color: VAR(--RUNNINGGAMENAMECOLOR) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
