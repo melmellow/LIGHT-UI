@@ -137,6 +137,7 @@
 			
 			padding= 14
 			PADDING-RIGHT = 1
+			PADDING-LEFT = 9
 			
 			render {
 			
@@ -173,6 +174,7 @@
 			render_bg{}
 			font-family=basefont
 			padding= 14
+			PADDING-RIGHT = 9
 				render {
 			//	1="fill(x0,y0,x1,y0+1,white696969)"  top
 				2="fill(x0,y1-1,x1,y1,shadow1)"
@@ -187,6 +189,7 @@
 			font-style=uppercase
 			PADDING = 14
 			PADDING-RIGHT = 1
+			PADDING-LEFT = 9
 			
 			BGCOLOR="236 236 236 255"
 			
