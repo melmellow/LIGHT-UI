@@ -36,6 +36,9 @@
   --PLAYBUTTONROUNDED1: 50px 0 0 50px;
   --PALYBUTTONROUNDED2: 0 50px 50px 0;
   --PLAYBUTTONROUNDED3: 50px;
+  --GAMEARTBACKGROUNDCILTER: NONE;
+  --GAMELOGOFILTER: NONE;
+  --GAMEBOXARTFILTER: NONE;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
@@ -112,6 +115,11 @@
 
 .sharedappdetailsheader_ImgSrc_HNbe3 {
   --webkit-mask-image: unset !important;
+  filter: var(--GAMEARTBACKGROUNDCILTER) !important;
+}
+
+.sharedappdetailsheader_TitleLogo_3NBxS {
+  filter: var(--GAMELOGOFILTER) !important;
 }
 
 .appdetailsoverview_Container_27RcN {
@@ -1019,13 +1027,6 @@ div.ShortRightPanel
 .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV {
   opacity: 0 !important;
 }
-.sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV,
-.sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlur_HSQWw {
-  filter: GRAYSCALE(30%) !important;
-}
-.sharedappdetailsheader_TitleImageContainer_2DVdg {
-  filter: grayscale(30%) !important;
-}
 .gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
   transition: filter 0.3s ease-in-out !important;
 }
@@ -1198,7 +1199,7 @@ div.ShortRightPanel
 }
 .libraryassetimage_PortraitImage_3Ehhd .libraryassetimage_Image_24_Au,
 .libraryassetimage_LandscapeImage_ZsU8n .libraryassetimage_Image_24_Au {
-  filter: grayscale(30%) !important;
+  filter: VAR(--GAMEBOXARTFILTER) !important;
   border-radius: 0 !important;
 }
 .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_Pause {
