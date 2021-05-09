@@ -26,6 +26,7 @@
   --GAMESTATENAMECOLOR: VAR(--BLACK);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
+  --CONTEXTMENU: VAR(--BASE3);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOP: VAR(--ACCENT);
   --ADVANCEDSEARCH: VAR(--BASE1);
@@ -2054,7 +2055,7 @@ A {
   border-radius: 6px !important;
   border: 0 !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
-  background: var(--BASE3) !important;
+  background: var(--CONTEXTMENU) !important;
 }
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY
