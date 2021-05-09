@@ -36,17 +36,17 @@
   --SIDEBARBORDER: VAR(--SHADOW);
   --READYTOPLAYACTIVE: VAR(--BLUE);
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
-  --PLAYBUTTONROUNDED1: 50px 0 0 50px;
-  --PALYBUTTONROUNDED2: 0 50px 50px 0;
-  --PLAYBUTTONROUNDED3: 50px;
+  --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
+  --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
+  --ACTIONBUTTONROUNDED3: 50px;
   --GAMEARTBACKGROUNDCILTER: NONE;
   --GAMELOGOFILTER: NONE;
   --GAMEBOXARTFILTER: NONE;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
-  --PLAYBUTTONROUNDED1: 50px 0 0 50px;
-  --PALYBUTTONROUNDED2: 0 50px 50px 0;
-  --PLAYBUTTONROUNDED3: 50px;
+  --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
+  --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
+  --ACTIONBUTTONROUNDED3: 50px;
   */
 
   /* FILTERS
@@ -875,7 +875,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
-  border-radius: var(--PALYBUTTONROUNDED2) !important;
+  border-radius: var(--ACTIONBUTTONROUNDED2) !important;
 }
 
 .videoSrc {
@@ -1402,7 +1402,7 @@ div.NarrowRightPanel
   stroke: var(--WHITE) !important;
 }
 .appactionbutton_ButtonChild_2AzIX {
-  border-radius: VAR(--PLAYBUTTONROUNDED3) !important;
+  border-radius: VAR(--ACTIONBUTTONROUNDED3) !important;
 }
 .appactionbutton_ButtonChild_3cI5T {
   border-radius: 0 !important;
@@ -1411,7 +1411,7 @@ div.NarrowRightPanel
   background-color: var(--PLAYBUTTONHOVER) !important;
 }
 .appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
-  border-radius: var(--PLAYBUTTONROUNDED1) !important;
+  border-radius: var(--ACTIONBUTTONROUNDED1) !important;
 }
 .gamelistentry_Container_2-O4Z
   .gamelistentry_GameListEntryContainer_1vO6B
