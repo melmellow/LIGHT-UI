@@ -19,7 +19,8 @@
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
-  --PLAYBUTTON: VAR(--ACCENT);
+  --INSTALLBUTTON1: VAR(--ACCENT);
+  --PLAYBUTTON: PINK;
   --GAMESTATENAMECOLOR: VAR(--BUTTONHOVER);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --GAMENAMEBACKGROUNDHOVER: VAR(--BUTTON);
@@ -33,7 +34,13 @@
   --PLAYBUTTONROUNDED3: 50px;
 }
 
-.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
+.appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX {
+  background: VAR(--PLAYBUTTON) !important;
+}
+
+.appactionbutton_Green_3cI5T
+  > .appactionbutton_ButtonChild_2AzIX
+  .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr.gamelistentry_HoverOverlay_3cMVy {
   color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR);
 }
@@ -836,7 +843,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 .appactionbutton_ButtonChild_2AzIX {
   border-radius: 0 !important;
-  background: var(--PLAYBUTTON) !important;
+  /*background: var(--PLAYBUTTON) !important;*/
 }
 .appdetailsplaysection_SharedLibrary_z8GYw .appdetailsplaysection_Label_1j9LN {
   color: VAR(--ACCENT) !important;
@@ -1375,7 +1382,6 @@ div.NarrowRightPanel
   background-color: var(--BUTTONHOVER) !important;
 }
 .appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
-  background: var(--ACCENT) !important;
   border-radius: var(--PLAYBUTTONROUNDED1) !important;
 }
 .gamelistentry_Container_2-O4Z
