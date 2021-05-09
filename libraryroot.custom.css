@@ -2156,7 +2156,7 @@ A {
 .DialogTextInputBase,
 ._DialogInputContainer {
   border-radius: 6px !important;
-  background: var(--BUTTON) !important;
+  background: var(--DROPDOWN) !important;
   font-weight: 200 !important;
   color: var(--ACCENT) !important;
   border-bottom: 1px SOLID VAR(--BUTTONBORDER2);
