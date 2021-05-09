@@ -38,6 +38,7 @@
   --ADVANCEDSEARCH: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --READYTOPLAYACTIVE: VAR(--BLUE);
+  --GAMELOGOADJUSTER: VAR(--GREEN);
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
@@ -58,6 +59,23 @@
   SEPIA(5)
   BLUR(5PX)
   */
+}
+
+.sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_UpperCenter_3b-fV {
+  border-top: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
+}
+
+.sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_BottomLeft_2levH {
+  border-left: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
+  border-bottom: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
+}
+
+.sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_BottomCenter_1nosI {
+  border-bottom: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
+}
+
+.sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_CenterCenter_27g5S {
+  border: 4px solid var(--GAMELOGOADJUSTER) !important;
 }
 
 :not(.appactionbutton_Disabled_1Pb6P)
