@@ -32,6 +32,7 @@
   --ADVANCEDSEARCH: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --READYTOPLAYACTIVE: VAR(--BLUE);
+  --INSTALLEDGAMENAMEFONTWEIGHT: 500;
   --PLAYBUTTONROUNDED1: 50px 0 0 50px;
   --PALYBUTTONROUNDED2: 0 50px 50px 0;
   --PLAYBUTTONROUNDED3: 50px;
@@ -2378,7 +2379,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   fill: var(--BUTTONHOVER) !important;
 }
 .gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D {
-  font-weight: 500;
+  font-weight: VAR(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
   color: var(--INSTALLEDGAMENAMECOLOR) !important;
 }
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
