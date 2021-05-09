@@ -22,8 +22,10 @@
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
-  --INSTALLBUTTON1: VAR(--ACCENT);
+  --INSTALLBUTTON: VAR(--ACCENT);
+  --INSTALLBUTTONHOVER: VAR(--BLACK);
   --PLAYBUTTON: VAR(--ACCENT);
+  --PLAYBUTTONHOVER: VAR(--BLACK);
   --GAMESTATENAMECOLOR: VAR(--BLACK);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
@@ -52,6 +54,11 @@
   SEPIA(5)
   BLUR(5PX)
   */
+}
+
+:not(.appactionbutton_Disabled_1Pb6P)
+  > .appactionbutton_ButtonChild_2AzIX:hover {
+  background: var(--INSTALLBUTTONHOVER) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Running_10Gdo {
@@ -877,7 +884,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 .appactionbutton_ButtonChild_2AzIX {
   border-radius: 0 !important;
-  /*background: var(--PLAYBUTTON) !important;*/
+  background: var(--INSTALLBUTTON) !important;
 }
 .appdetailsplaysection_SharedLibrary_z8GYw .appdetailsplaysection_Label_1j9LN {
   color: VAR(--ACCENT) !important;
@@ -1395,18 +1402,13 @@ div.NarrowRightPanel
   stroke: var(--WHITE) !important;
 }
 .appactionbutton_ButtonChild_2AzIX {
-  background: var(--ACCENT) !important;
   border-radius: VAR(--PLAYBUTTONROUNDED3) !important;
 }
 .appactionbutton_ButtonChild_3cI5T {
   border-radius: 0 !important;
 }
-:not(.appactionbutton_Disabled_1Pb6P)
-  > .appactionbutton_ButtonChild_2AzIX:hover {
-  background: var(--BUTTONHOVER) !important;
-}
 .appactionbutton_ButtonChild_2AzIX:hover {
-  background-color: var(--BUTTONHOVER) !important;
+  background-color: var(--PLAYBUTTONHOVER) !important;
 }
 .appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
   border-radius: var(--PLAYBUTTONROUNDED1) !important;
@@ -1735,7 +1737,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 :not(.appactionbutton_Disabled_1Pb6P)
   > .appactionbutton_Green_3cI5T
   > .appactionbutton_ButtonChild_2AzIX:hover {
-  background-color: var(--BUTTONHOVER) !important;
+  background-color: var(--PLAYBUTTONHOVER) !important;
   background-repeat: no-repeat !important;
 }
 .gamelisthome_Label_3O48L {
