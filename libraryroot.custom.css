@@ -2310,7 +2310,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
   color: var(--ACCENT) !important;
-  margin-top: 6px !important;
+  margin-top: 0.2rem !important;
 }
 .collectionview_Container_2q70u {
   border-top: 1px solid var(--SHADOW) !important;
