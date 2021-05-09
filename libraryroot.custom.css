@@ -1198,7 +1198,6 @@ div.ShortRightPanel
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx
   .gamelisthome_CollectionIconBox_2tyaV {
   background-color: var(--BUTTONHOVER) !important;
-  margin-right: 14px !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
@@ -1766,6 +1765,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   font-size: 14px !important;
   margin-left: 0 !important;
   font-weight: bold !important;
+  position: absolute !important;
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_CollectionIconBox_2tyaV {
   background-color: var(--BUTTONHOVER) !important;
@@ -1818,11 +1818,11 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelisthome_CollectionBar_xeuK3 {
   width: 28px !important;
   position: ABSOLUTE !important;
-  left: 41px !important;
+  left: 37px !important;
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
   background-color: transparent !important;
-  left: 5px !important;
+  left: 4px !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_,
@@ -1931,12 +1931,16 @@ A {
   fill: var(--BUTTONHOVER) !important;
 }
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
+  position: fixed !important;
   transition: filter 0.3s ease-in-out !important;
+  width: 37px !important;
   color: transparent !important;
   background-image: url(https://i.imgur.com/AAFscfG.png) !important;
   background-size: 20px !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
+  left: 0 !important;
+  margin-left: 2px !important;
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_Label_3O48L {
   color: transparent !important;
@@ -2905,6 +2909,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelisthome_Label_3O48L {
   margin: AUTO !important;
+  left: -12px !important;
 }
 .libraryhome_LibraryHome_3Sb2o {
   padding: 8px 12px 12px;
