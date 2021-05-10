@@ -32,11 +32,13 @@
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --CONTEXTMENU: VAR(--BASE3);
+  --CHECKMARK: VAR(--ACCENT);
   --DROPDOWN: VAR(--BUTTON2);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOP: VAR(--ACCENT);
   --ADVANCEDSEARCH: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
+  --DIVIDER: VAR(--SHADOW);
   --READYTOPLAYACTIVE: VAR(--BLUE);
   --GAMELOGOADJUSTER: VAR(--GREEN);
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
@@ -1160,7 +1162,7 @@ div.ShortRightPanel
 .allcollections_ScrollContainer_u1xD3
   .allcollections_Header_2Th-v
   .allcollections_Rule_2wbrx {
-  background: var(--SHADOW) !important;
+  background: var(--DIVIDER) !important;
 }
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
   border: 1px solid var(--SHADOW) !important;
@@ -1959,7 +1961,7 @@ A {
   fill: var(--ACCENT) !important;
 }
 .DialogCheckbox.Active .SVGIcon_DialogCheck path {
-  stroke: var(--ACCENT) !important;
+  stroke: var(--CHECKMARK) !important;
   border-radius: 3px !important;
 }
 .gamelistsearchbar_Container_20QAC
@@ -2059,7 +2061,7 @@ A {
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Rule_1PhK8 {
   height: 1px !important;
-  background-color: var(--SHADOW) !important;
+  background-color: var(--DIVIDER) !important;
 }
 .libraryhomeshowcases_ReorderingDisabled_32LI4
   .libraryhomeshowcases_ShowcaseHeader_23Snl:hover
@@ -2097,7 +2099,7 @@ A {
   background: var(--BASE2) !important;
 }
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
-  background: var(--SHADOW) !important;
+  background: var(--DIVIDER) !important;
 }
 .contextmenu_contextMenu_PP7LM {
   border-radius: 6px !important;
