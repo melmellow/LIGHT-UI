@@ -41,6 +41,12 @@
   --DIVIDER: VAR(--SHADOW);
   --READYTOPLAYACTIVE: VAR(--BLUE);
   --GAMELOGOADJUSTER: VAR(--GREEN);
+  --MCSCOREBACKGROUND: VAR(--BLACK);
+  --MCSCOREBORDER: VAR(--WHITE);
+  --MCSCORETEXT: VAR(--WHITE);
+  --RELEASEDATEBACKGROUND: VAR(--BLUE);
+  --RELEASEDATETEXT: VAR(--WHITE);
+  --RELEASEDATEBORDER: VAR(--WHITE);
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
@@ -944,9 +950,9 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   fill: VAR(--ACCENT) !important;
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40 {
-  background: var(--BUTTONHOVER) !important;
-  border: 1px solid var(--WHITE) !important;
-  color: VAR(--WHITE) !important;
+  background: var(--MCSCOREBACKGROUND) !important;
+  border: 1px solid var(--MCSCOREBORDER) !important;
+  color: VAR(--MCSCORETEXT) !important;
   border-radius: 50px !important;
 }
 .appactivityday_ReviewIconThumbsUp_2oPMu {
@@ -2961,11 +2967,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   opacity: var(0.5);
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx {
-  background-color: VAR(--BUTTONHOVER) !important;
-  color: VAR(--WHITE) !important;
+  background-color: VAR(--RELEASEDATEBACKGROUND) !important;
+  color: VAR(--RELEASEDATETEXT) !important;
   margin-top: -32px;
   padding: 2px 8px;
-  border: 1px solid var(--WHITE) !important;
+  border: 1px solid var(--RELEASEDATEBORDER) !important;
   border-radius: 6px !important;
 }
 .gamelistdropdown_DropDown_EDl_m {
