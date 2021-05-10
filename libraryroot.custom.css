@@ -847,6 +847,7 @@ button.DialogButton {
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh {
   background-color: var(--BUTTON2) !important;
+  border-radius: var(--BUTTON2BORDERRADIUS) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
   color: var(--ACCENT) !important;
   width: 101% !important;
@@ -2510,7 +2511,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
   height: 20px !important;
   color: var(--ACCENT) !important;
-  border-radius: 30px !important;
+  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
   background: var(--TEXTENTRY) !important;
 }
