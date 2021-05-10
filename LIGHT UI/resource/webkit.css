@@ -1,12 +1,3 @@
-*{
-    text-shadow:none!important;
-    box-shadow:none!important
-}
-*::SELECTION{
-    TEXT-SHADOW:NONE!iMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:#d5d5d5!IMPORTANT
-}
 :root{
     --BASE1:#E4E4E4;
     --BASE3:#ECECEC;
@@ -64,6 +55,16 @@
     --border5:0;
     --border8:0;
     --border50:50%
+}
+
+*{
+    text-shadow:none!important;
+    box-shadow:none!important
+}
+*::SELECTION{
+    TEXT-SHADOW:NONE!iMPORTANT;
+    COLOR:VAR(--ACCENT)!IMPORTANT;
+    BACKGROUND:#d5d5d5!IMPORTANT
 }
 
 .report_txt_ctn:before {
@@ -2652,7 +2653,7 @@ body.v6 .game_page_background{
     color:VAR(--ACCENT)!important
 }
 .col.search_discount span{
-    background-colorVAR(--GREEN)!important;
+    background-color:VAR(--GREEN)!important;
     color:#fff!important
 }
 .searchbar_left>button{
@@ -2668,7 +2669,7 @@ body.v6 .game_page_background{
     background-color:#d6d6d6!important
 }
 .search_result_row{
-    border-radius:0!important;
+    border-radius:6PX!important;
     border:0!important;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
 }
