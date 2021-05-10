@@ -402,6 +402,10 @@ img {
   stroke: VAR(--ACCENT) !important;
 }
 
+.DialogInput_ClearAction:hover .SVGIcon_X_Line line {
+  stroke: var(--BLACK) !important;
+}
+
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_SteamInputStatusGrid_3lj3- {
