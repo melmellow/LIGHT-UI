@@ -44,6 +44,7 @@
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
   --ACTIONBUTTONROUNDED3: 50px;
   --DROPDOWNROUNDED2: 0 6px 6px 0;
+  --LISTITEMDETAILSPANELTOPBORDER: NONE;
   --GAMEARTBACKGROUNDCILTER: NONE;
   --GAMELOGOFILTER: NONE;
   --GAMEBOXARTFILTER: NONE;
@@ -204,9 +205,9 @@
   color: VAR(--ACCENT) !important;
 }
 
-/*.appdetailssoundtrack_SoundtrackContainer_1c7FW {
-  border-top: 1px solid var(--SHADOW) !important;
-}*/
+.appdetailssoundtrack_SoundtrackContainer_1c7FW {
+  border-top: 1px solid var(--LISTITEMDETAILSPANELTOPBORDER) !important;
+}
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
   .appdetailssoundtrack_Header_4f23l
@@ -1774,6 +1775,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
 }
 .libraryhome_LibraryHome_3Sb2o {
+  border-top: 1px SOLID VAR(--LISTITEMDETAILSPANELTOPBORDER) !important;
   background: var(--BASE2) !important;
 }
 .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
@@ -2334,7 +2336,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   margin-top: 0.2rem !important;
 }
 .collectionview_Container_2q70u {
-  border-top: 1px solid var(--SHADOW) !important;
+  border-top: 1px solid var(--LISTITEMDETAILSPANELTOPBORDER) !important;
   border-radius: 0 !important;
   color: var(--ACCENT) !important;
   font-weight: 400 !important;
@@ -2405,6 +2407,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background: var(--TEXTENTRY) !important;
 }
 .allcollections_ScrollContainer_u1xD3 {
+  border-top: 1px SOLID VAR(--LISTITEMDETAILSPANELTOPBORDER) !important;
   background: var(--BASE2) !important;
 }
 .allcollections_ScrollContainer_u1xD3 .allcollections_Header_2Th-v {
