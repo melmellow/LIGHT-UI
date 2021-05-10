@@ -73,6 +73,44 @@
   */
 }
 
+/*LIBRARY HOME ICON*/
+
+.gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
+  position: fixed !important;
+  transition: filter 0.3s ease-in-out !important;
+  width: 37px !important;
+  color: transparent !important;
+  background-image: url(https://i.imgur.com/AAFscfG.png) !important;
+  background-size: 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  left: 0 !important;
+  margin-left: 2px !important;
+}
+
+/*INFO ICON*/
+
+.appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
+  background-image: URL(https://i.imgur.com/2vWZ3Iq.png) !important;
+  background-size: 18px !important;
+  background-repeat: NO-REPEAT !important;
+  background-position: CENTER !important;
+}
+
+/*SEND ICON*/
+
+.posttextentry_PostTextEntry_3x31A
+  .posttextentry_Controls_37e7D
+  .posttextentry_PostButton_2JSyA {
+  background-color: var(--BASE2) !important;
+  background-image: url("https://i.imgur.com/WIakdrU.png") !important;
+  background-size: 26px !important;
+  background-repeat: NO-REPEAT !important;
+  border-radius: 0 !important;
+  background-position: CENTER !important;
+  width: 26px !important;
+}
+
 img {
   filter: NONE !important;
 }
@@ -560,23 +598,6 @@ SVGIcon_Button {
   .posttextentry_Label_3jvEk {
   width: 0 !important;
   opacity: 0 !important;
-}
-.posttextentry_PostTextEntry_3x31A
-  .posttextentry_Controls_37e7D
-  .posttextentry_PostButton_2JSyA {
-  background-color: var(--BASE2) !important;
-  background-image: url("https://i.imgur.com/WIakdrU.png") !important;
-  background-size: 26px !important;
-  background-repeat: NO-REPEAT !important;
-  border-radius: 0 !important;
-  background-position: CENTER !important;
-  width: 26px !important;
-}
-.appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
-  background-image: URL(https://i.imgur.com/2vWZ3Iq.png) !important;
-  background-size: 18px !important;
-  background-repeat: NO-REPEAT !important;
-  background-position: CENTER !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ
   .appdetailsplaysection_DotDotDot_zvLq1:hover {
@@ -1950,18 +1971,6 @@ A {
 }
 .libraryhomenewupdates_SettingsButton_1eFe5:hover .SVGIcon_Settings path {
   fill: var(--BUTTONHOVER) !important;
-}
-.gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
-  position: fixed !important;
-  transition: filter 0.3s ease-in-out !important;
-  width: 37px !important;
-  color: transparent !important;
-  background-image: url(https://i.imgur.com/AAFscfG.png) !important;
-  background-size: 20px !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
-  left: 0 !important;
-  margin-left: 2px !important;
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_Label_3O48L {
   color: transparent !important;
