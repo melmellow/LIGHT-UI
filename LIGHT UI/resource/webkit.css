@@ -46,6 +46,7 @@
     --red:#f00;
     --orange:#f60;
     --yellow:#ff0;
+    --TEXTNENTRYBORDERROUNDED:10PX;
     --blur:blur(10px);
     --BORDER1:6PX;
     --border2:0;
@@ -620,7 +621,7 @@ div.filterselect div.option,div.filterselect_options div.option{
     COLOR:#FFF!IMPORTANT
 }
 .storesuggest_SuggestContainer_2gBFq ._DialogLayout input{
-    BORDER-RADIUS:30PX!iMPORTANT
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!iMPORTANT
 }
 .legalfooter_LegalFooter_2XzXR img{
     FILTER:BRIGHTNESS(0)!IMPORTANT;
@@ -1039,7 +1040,7 @@ body::-webkit-scrollbar{
 .searchbox{
     background-image:none!important;
     background-color:#e8e8e8!important;
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     border:1px solid #b8b8b8!important;
     margin-top:0!important
 }
@@ -1119,7 +1120,7 @@ body::-webkit-scrollbar{
 }
 .commentthread_entry_quotebox{
     background-color:#e8e8e8!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     border:1px solid #b8b8b8!important;
     color:VAR(--ACCENT)!important
 }
@@ -1330,7 +1331,7 @@ body.v6 .broadcast_live_stream_icon{
 }
 a.store_header_btn_content{
     padding:0 15px!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     margin:0!Important
 }
 #reviews_filter_options.graph_collapsed #review_show_graph_button{
@@ -1765,7 +1766,7 @@ div.sortselect_options div.option:hover{
 .app_tag_form_ctn .gray_bevel.for_text_input,.text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input,.text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input{
     background-color:#e8e8e8!important;
     border:1px solid #b8b8b8!important;
-    border-radius:30px!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .tab_filter{
     BACKGROUND:VAR(--ACCENT)!iMPORTANT
@@ -1787,7 +1788,7 @@ div.sortselect_options div.option:hover{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .account_preferences input.gray_bevel,.account_preferences textarea.gray_bevel,.account_preferences .gray_bevel{
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#e8e8e8!important
 }
 .review_events_preferences_radio_btns{
@@ -2406,7 +2407,7 @@ div.early_access_header .heading{
     BACKGROUND:VAR(--BASE1)!iMPORTANT
 }
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox{
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#d6d6d6!important
 }
 #searchSubmitImg{
@@ -2658,7 +2659,7 @@ body.v6 .game_page_background{
     color:#fff!important
 }
 .searchbar_left>button{
-    border-radius:30px!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .search_results_count{
     background-color:#dedede!Important
@@ -2666,7 +2667,7 @@ body.v6 .game_page_background{
 #term{
     color:VAR(--ACCENT)!important;
     border:1px solid #b6b6b6!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#d6d6d6!important
 }
 .search_result_row{
@@ -2688,7 +2689,7 @@ body.v6 .game_page_background{
     BORDER-RADIUS:0!iMPORTANT
 }
 .tab_see_more .btnv6_blue_hoverfade{
-    border-radius:30px!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 body.v6 h2.pageheader{
     text-shadow:none!important
@@ -3280,7 +3281,7 @@ h2 span.note a,h2 span.note a,h2 span.note a:visited{
     background-color:VAR(--ACCENT)!important
 }
 .sysreq_tab.active,.discselect_tab.active{
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     color:#fff!important
 }
 .sysreq_tab,.discselect_tab{
@@ -3608,11 +3609,11 @@ div.filterselect_options div.option:hover{
 }
 .apphub_ProgressBar{
     background-color:VAR(--ACCENT)!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
 }
 .apphub_ProgressBarBG{
     background-color:#d6d6d6!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     BORDER:0!IMPORTANT;
 }
 .community_home_subtitle{
@@ -3743,13 +3744,13 @@ body.v6 .section_title_ctn p{
     background:transparent!important
 }
 .btnv6_white_transparent>span{
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     color:var(--blue)!important;
     background:var(--grey)!important;
     border:1px solid var(--grey)!important
 }
 .btnv6_white_transparent>span:hover{
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     color:#fff!important;
     background:#000!important;
     border:1px solid var(--blue)!important
@@ -4500,7 +4501,7 @@ img.member_tile{
     text-transform:uppercase!important;
     font-family:seogoe UI!important;
     color:#fff!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background:var(--grey)!important
 }
 .browse_tag_game_total,.browse_tag_games{
@@ -4513,7 +4514,7 @@ img.member_tile{
     COLOR:#1181d2!IMPORTANT
 }
 .navigation_bar>.curators_searchbox{
-    BORDER-RADIUS:30PX!IMPORTANT;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
     COLOR:VAR(--ACCENT)!IMPORTANT;
     BORDER:1PX SOLID #b8b8b8!IMPORTANT;
     BACKGROUND-COLOR:#e8e8e8!IMPORTANT
@@ -4818,7 +4819,7 @@ body.v6.newonsteam .newonsteam_headercaps>a{
 #term{
     OUTLINE:NONE!IMPORTANT;
     background-color:#e8e8e8!important;
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     border:1px solid #b8b8b8!important
 }
 .searchbar{
@@ -5281,17 +5282,17 @@ a.forum_comment_action:HOVER{
     border:0!important
 }
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox{
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#e8e8e8!important;
     border:1PX SOLID #b8b8b8!important
 }
 div#headerSearch.friend_activity_header_search{
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#e8e8e8!important;
     border:1px solid #b8b8b8!important
 }
 .profileFriendSearchBox{
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#e8e8e8!important;
     border:1PX SOLID #b8b8b8!important
 }
@@ -5312,7 +5313,7 @@ div#headerSearch.friend_activity_header_search{
 }
 #findItemsSearchBox{
     outline:0!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     color:VAR(--ACCENT)!important;
     background-color:#e8e8e8!important;
     border:1px solid #b8b8b8!important
@@ -5321,7 +5322,7 @@ div#headerSearch.friend_activity_header_search{
     background-color:var(--BASE1)!important
 }
 .blotter_comment_thread .commentthread_entry_quotebox{
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#e8e8e8!important;
     border:1PX SOLID #b8b8b8!important
 }
@@ -5639,7 +5640,7 @@ div#headerSearch.friend_activity_header_search{
     OUTLINE:NONE!IMPORTANT;
     font-style:normal!important;
     color:VAR(--ACCENT)!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background:#e8e8e8!important;
     border:1px solid #b8b8b8!important
 }
@@ -5788,7 +5789,7 @@ div#headerSearch.friend_activity_header_search{
     text-decoration:none!important;
     color:var(--blu)!important;
     background:var(--grey)!important;
-    border-radius:30px!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .explore_rightcol_box{
     background-color:rgba(255,255,255,.1)!important;
@@ -5949,7 +5950,7 @@ body.v6 h2 .header_inline{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .gray_bevel.for_text_input{
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#e8e8e8!important;
     border:0!important
 }
@@ -6014,7 +6015,7 @@ body.v6 .wishlist_header h2{
 #wishlist_search{
     border:1px solid #b6b6b6!important;
     color:VAR(--ACCENT)!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-color:#d6d6d6!important;
     border:0!important
 }
@@ -6072,7 +6073,7 @@ body.v6 .newonsteam_capsules>a{
 }
 .btn_medium>span,input.btn_medium{
     padding:0 15px!important;
-    line-height:30px!important
+    line-height:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 #rightContents .box{
     border-radius:0!important;
@@ -6163,7 +6164,7 @@ a.activetrigger,a.trigger{
     background:#d6d6d6!important;
     padding:0!important;
     border:0!important;
-    border-radius:30px!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .game_info_achievement,.game_info_achievement img{
     border-radius:var(--border0)!important
@@ -6216,11 +6217,11 @@ a.activetrigger,a.trigger{
     border-bottom:0!important;
     border:1PX SOLID #b8b8b8!important;
     background-color:#e8e8e8!important;
-    border-radius:30PX!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .commentthread_entry_quotebox{
     background-color:#e8e8e8!important;
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     BORDER:1PX SOLID #b8b8b8!IMPORTANT;
     margin-bottom:-2px!important
 }
@@ -6249,7 +6250,7 @@ span.invite_action_txt{
 .community_search_text_box{
     background:#e8e8e8!important;
     border:1px solid #b8b8b8!important;
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     color:VAR(--ACCENT)!important;
     FONT-STYLE:NORMAL!iMPORTANT
 }
@@ -6587,7 +6588,7 @@ body.v6 #footer .rule{
 .btn_next_in_queue{
     background:0 0!important;
     background-color:#584d31!important;
-    width:230px!important;
+    width:2VAR (--TEXTENTRYBORDERROUNDED)!important;
     height:80px!important;
     margin-bottom:-10px!important;
     margin-right:-15px!important;
@@ -6597,7 +6598,7 @@ body.v6 #footer .rule{
 .btn_next_in_queue{
     background:0 0!important;
     background-color:var(--bronze)!important;
-    width:230px!important;
+    width:2VAR (--TEXTENTRYBORDERROUNDED)!important;
     height:80px!important;
     margin-bottom:-10px!important;
     margin-right:-15px!important;
@@ -6694,7 +6695,7 @@ body.v6 #footer .rule{
 .game_area_details_specs{
     BORDER:1PX SOLID #b8b8b8!IMPORTANT;
     BACKGROUND-COLOR:#d6d6d6!IMPORTANT;
-    border-radius:30PX!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .reviews_info_ctn{
     BORDER-BOTTOM:1PX SOLID #dcdcdc!IMPORTANT
@@ -6705,7 +6706,7 @@ body.v6 #footer .rule{
 .game_area_details_specs a.name{
     color:VAR(--ACCENT)!important;
     background:#d6d6d6!important;
-    border-radius:30PX!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .game_area_details_specs a.name:hover{
     background:#d6d6d6!important
@@ -6915,7 +6916,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore{
     border-radius:var(--border5)!important
 }
 .review_box.partial .view_more a{
-    BORDER-RADIUS:30PX!IMPORTANT;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
     background:VAR(--ACCENT)!important;
     color:#fff!important;
     padding-top:3px!important;
@@ -7246,7 +7247,7 @@ a.readmore_link{
     COLOR:#FFF!IMPORTANT
 }
 #widget .btn_addtocart .btn_addtocart_content{
-    BORDER-RADIUS:30PX!IMPORTANT;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
     COLOR:#FFF!IMPORTANT;
     BACKGROUND:#78be6d!IMPORTANT
 }
@@ -7587,7 +7588,7 @@ span.bb_spoiler{
     margin-left:1px!important
 }
 .filter_ctn.inventory_filters #filter_control{
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     border:1PX SOLID #b8b8b8!important;
     background-color:#e8e8e8!important
 }
@@ -7680,7 +7681,7 @@ span.bb_spoiler{
 .profile_xp_block_remaining_bar_progress{
     BACKGROUND:#d6d6d6!IMPORTANT;
     BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT;
-    border-radius:30PX!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-image:none!important
 }
 .profile_xp_block_remaining_bar{
@@ -7747,7 +7748,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
     background-color:VAR(--BASE1)!important
 }
 .searchApps{
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background:#e8e8e8!important;
     BORDER:1PX SOLID #b8b8b8!IMPORTANT
 }
@@ -7886,7 +7887,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
 }
 .achievementProgressBar{
     background-color:#d6d6d6!important;
-    border-radius:30px!important
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .achieveBarProgress{
     background-color:VAR(--ACCENT)!Important;
@@ -8154,7 +8155,7 @@ div.bb_h3,.bb_wysiwyg h3{
 }
 .grouppage_member_tiles{
     right:-1px!important;
-    height:230px!important;
+    height:2VAR (--TEXTENTRYBORDERROUNDED)!important;
     padding-bottom:12px!important;
     padding-top:0!important;
     background:0 0!important;
@@ -8286,7 +8287,7 @@ a,.whiteLink{
 }
 .btn_medium>span,input.btn_medium{
     BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    BORDER-RADIUS:30PX!IMPORTANT;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
     background:#d6d6d6!Important
 }
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active){
@@ -8385,7 +8386,7 @@ body.v6 .store_nav .popup_block_new .popup_body,body.v6 #footer_nav .popup_block
     border-radius:var(--border0)!important
 }
 input.discussionSearchText{
-    BORDER-RADIUS:30PX!IMPORTANT;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
     BORDER:1PX SOLID #b8b8b8!IMPORTANT;
     position:static!important;
     padding:4px!important
@@ -8420,7 +8421,7 @@ input.discussionSearchText::SELECTION{
 }
 .app_tag_form_ctn .gray_bevel.for_text_input{
     background-color:VAR(--TEXTENTRY)!important;
-    border-radius:30px!important;
+    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     border:1px solid #b8b8b8!important
 }
 #ig_bottom .sidebar .panel,#ig_bottom .sidebar .detailPanel{
@@ -8452,7 +8453,7 @@ input.discussionSearchText::SELECTION{
 .friends_search_text_box, .groups_search_text_box {
     COLOR:VAR(--ACCENT)!IMPORTANT;
     BACKGROUND-COLOR:VAR(--TEXTENTRY)!IMPORTANT;
-    BORDER-RADIUS:30PX!iMPORTANT;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!iMPORTANT;
     BORDER:1PX SOLID VAR(--BUTTONBORDER)!IMPORTANT;
 }
 
