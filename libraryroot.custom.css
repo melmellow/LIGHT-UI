@@ -878,13 +878,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
   color: var(--ACCENT) !important;
-  width: 101% !important;
+  max-width: 256px !important;
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY {
   background-color: var(--BUTTON2) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
   border-color: var(--BUTTONBORDERHOVER) !important;
-  width: 87% !important;
+  max-width: 177px !important;
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh:hover {
   border-color: var(--BUTTONBORDERHOVER) !important;
@@ -2267,6 +2267,7 @@ button.DialogButton.Primary:hover {
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL {
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
+  max-width: 135px !important;
 }
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
