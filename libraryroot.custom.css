@@ -743,8 +743,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .posttextentry_Controls_37e7D
   .posttextentry_EmoticonButton_bACIu
   path {
-  stroke: var(--BASE2) !important;
-  fill: var(--ACCENT) !important;
+  stroke: var(--ACCENT) !important;
+  stroke-width: 20px !important;
+  fill: var(--BASE2) !important;
 }
 
 .appactivityday_ScreenshotCarousel_1pdQd
@@ -753,21 +754,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   border: 0 !important;
 }
 
-.posttextentry_PostTextEntry_3x31A
-  .posttextentry_Controls_37e7D
-  .posttextentry_EmoticonButton_bACIu
-  line,
-.posttextentry_PostTextEntry_3x31A
-  .posttextentry_Controls_37e7D
-  .posttextentry_EmoticonButton_bACIu
-  circle,
-.posttextentry_PostTextEntry_3x31A
-  .posttextentry_Controls_37e7D
-  .posttextentry_EmoticonButton_bACIu
-  path {
-  stroke: var(--BASE2) !important;
-  fill: var(--ACCENT) !important;
-}
 .appdetailsgameinfopanel_AssociationList_2ZcNQ
   .appdetailsgameinfopanel_Label_1vYL2 {
   color: var(--ACCENT) !important;
