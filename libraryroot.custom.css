@@ -38,6 +38,7 @@
   --DROPDOWN: VAR(--BUTTON2);
   --PROGRESSBAR: VAR(--ACCENT);
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
+  --THUMBICON: VAR(--ACCENT);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOP: VAR(--ACCENT);
   --ADVANCEDSEARCH: VAR(--BASE1);
@@ -1410,7 +1411,7 @@ div.NarrowRightPanel
   background-color: var(--BUTTON) !important;
 }
 .writereview_ThumbIcon_2Jkk- {
-  fill: var(--ACCENT) !important;
+  fill: var(--THUMBICON) !important;
 }
 .writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K) {
   border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
