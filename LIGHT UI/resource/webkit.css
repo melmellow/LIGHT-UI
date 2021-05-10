@@ -47,8 +47,7 @@
     --orange:#f60;
     --yellow:#ff0;
     --blur:blur(10px);
-    --border0:0;
-    --border1:0;
+    --BORDER1:6PX;
     --border2:0;
     --border25:0;
     --border35:0;
@@ -6515,7 +6514,7 @@ body.v6 .game_area_already_owned.page_content{
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
     border:0!important;
     background:#ececec!important;
-    border-radius:0!important
+    border-radius:var(--BORDER1)!important;
 }
 .review_box{
     background-color:VAR(--BASE1)!important
