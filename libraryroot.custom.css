@@ -55,6 +55,7 @@
   --TEXTENTRYBORDERROUNDED: 10px;
   --BORDERRADIUS: 6px;
   --BUTTON2BORDERRADIUS: 6px;
+  --BUTTON1BORDERRADIUS: 6px;
   --LISTITEMDETAILSPANELTOPBORDER: NONE;
   --GAMEARTBACKGROUNDCILTER: NONE;
   --GAMELOGOFILTER: NONE;
@@ -641,6 +642,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   color: var(--WHITE) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
   background-color: var(--BUTTON1) !important;
+  border-radius: VAR(--BUTTON1BORDERRADIUS) !important;
 }
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY
@@ -851,7 +853,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
   .appdetailsactivitysection_FetchMoreContainer_39Zur {
-  border-radius: 0 !important;
+  border-radius: VAR(--BUTTON1BORDERRADIUS) !important;
   background-color: var(--ACCENT) !important;
   color: var(--WHITE) !important;
 }
