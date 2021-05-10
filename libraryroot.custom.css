@@ -429,7 +429,7 @@ img {
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_SectionTopLine_r3hOL {
-  border-top: 1px SOLID var(--SHADOW) !important;
+  border-top: 1px SOLID var(--DIVIDER) !important;
 }
 .account_preferences input[type="checkbox"],
 .account_preferences label {
@@ -852,6 +852,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   color: var(--ACCENT) !important;
   font-weight: 440 !important;
 }
+
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_BlueHighlight_1KmR8 {
+  color: var(--BLUE) !important;
+}
+
 .appactivityday_Event_UVeN0:first-child {
   border-radius: 10px !important;
   border: 1px SOLID var(--BASE2) !important;
