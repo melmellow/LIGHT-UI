@@ -530,7 +530,7 @@ img {
   background: var(--TEXTENTRY) !important;
 }
 button.DialogButton:hover {
-  background: var(--BUTTONHOVER) !important;
+  border: 1px solid var(--BUTTONBORDERHOVER) !important;
 }
 .DialogOnOffToggle_Control .Active {
   background: var(--ACCENT) !important;
