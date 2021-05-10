@@ -34,6 +34,7 @@
   --CONTEXTMENU: VAR(--BASE3);
   --CHECKMARK: VAR(--ACCENT);
   --DROPDOWN: VAR(--BUTTON2);
+  --PROGRESSBAR: VAR(--ACCENT);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOP: VAR(--ACCENT);
   --ADVANCEDSEARCH: VAR(--BASE1);
@@ -1580,7 +1581,7 @@ div.NarrowRightPanel
 }
 .appdetailsachievementssection_AchievementProgressContainer_3ns91
   .appdetailsachievementssection_AchievementProgress_3Rm36 {
-  background-color: var(--ACCENT) !important;
+  background-color: var(--PROGRESSBAR) !important;
   border-radius: 30px !important;
 }
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
@@ -1611,7 +1612,7 @@ div.NarrowRightPanel
 }
 .appdetailsplaysection_DetailsProgressContainer_25YVD
   .appdetailsplaysection_DetailsProgressBar_1FnTq {
-  background-color: var(--ACCENT) !important;
+  background-color: var(--PROGRESSBAR) !important;
   border-radius: 30px !important;
 }
 .appdetailsplaysection_DetailsProgressContainer_25YVD {
@@ -2128,6 +2129,11 @@ A {
 .contextmenu_contextMenuItem_1n7Wl.contextmenu_active_18z-3 {
   background: var(--BUTTON) !important;
 }
+
+.appdetailsachievementssection_UnachievedSection_3ca11.appdetailsachievementssection_ShowDivider_3i6Pc {
+  border-top: 1px solid var(--DIVIDER) !important;
+}
+
 .appgrid_AppGridSectionHeader_3bWIS::after {
   background: var(--BASE2) !important;
 }
