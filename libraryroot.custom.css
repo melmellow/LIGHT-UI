@@ -2247,6 +2247,11 @@ button.DialogButton.Primary:hover {
 .appdetailsworkshopsection_WorkshopContainer_176QJ {
   background: var(--BASE1) !important;
 }
+
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL {
+  border-radius: var(--BUTTON2BORDERRADIUS) !important;
+}
+
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
   background-color: var(--BUTTON) !important;
   border-color: var(--BUTTONBORDERHOVER) !important;
