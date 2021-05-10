@@ -536,7 +536,7 @@ button.DialogButton:hover {
   background: var(--ACCENT) !important;
 }
 .ModalPosition_TopBar {
-  background: none !important;
+  height: 0 !important;
 }
 SVGIcon_Button {
   fill: var(--ACCENT) !important;
