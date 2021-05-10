@@ -219,6 +219,11 @@ img {
   filter: var(--GAMEARTBACKGROUNDCILTER) !important;
 }
 
+.localdateandtime_ActiveEvent_rT7Ek .localdateandtime_ActiveEventCallOut_2pJft {
+  background: var(--GREEN) !important;
+  color: var(--WHITE) !important;
+}
+
 .sharedappdetailsheader_TitleLogo_3NBxS {
   filter: var(--GAMELOGOFILTER) !important;
 }
@@ -1771,7 +1776,7 @@ div.NarrowRightPanel
   border-radius: 0 !important;
 }
 .partnereventshared_Button_1ABCO.partnereventshared_Icon_1dDpS {
-  border-radius: 0 !important;
+  border-radius: var(--BUTTON1BORDERRADIUS) !important;
   background: var(--ACCENT) !important;
 }
 .partnereventshared_Button_1ABCO.partnereventshared_Icon_1dDpS:hover {
