@@ -2235,7 +2235,7 @@ button.DialogButton::before {
 }
 button.DialogButton.Primary {
   width: 98% !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
   background: var(--BUTTON) !important;
 }
 button.DialogButton.Primary:hover {
@@ -2333,7 +2333,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .DialogTextInputBase {
   border: 1px SOLID var(--BUTTONBORDER) !important;
   background: var(--TEXTENTRY) !important;
-  border-radius: 30px !important;
+  border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
