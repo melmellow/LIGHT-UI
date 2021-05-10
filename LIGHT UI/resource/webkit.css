@@ -991,7 +991,7 @@ body::-webkit-scrollbar-track{
 body::-webkit-scrollbar{
     background-clip:padding-box!important;
     border:5px solid transparent!important;
-    background-color:transparent!important
+    background-color:var(--BASE1)!important;
 }
 .DialogBody::-webkit-scrollbar{
     display:none!important;
@@ -3474,8 +3474,9 @@ body.v6 h2{
     COLOR:VAR(--ACCENT)!IMPORTANT;
     FONT-WEIGHT:VAR(--ACCENT)!IMPORTANT;
     border:0!important;
+    BORDER-RADIUS:VAR(--BORDER1)!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX VAR(--SHADOW)!IMPORTANT
 }
 .user_reviews_sub_header{
     color:VAR(--ACCENT)!important
