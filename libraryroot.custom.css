@@ -1174,7 +1174,8 @@ div.ShortRightPanel
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled,
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled:hover {
   width: auto !important;
-  right: 29.5% !important;
+  left: 34.5% !important;
+  bottom: 51px !important;
 }
 
 .comment_thread_ActivityCommentThread_39nna
@@ -1444,6 +1445,11 @@ div.NarrowRightPanel
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
   background-color: var(--BASE2) !important;
 }
+
+.appfilterpane_Container_170Np {
+  width: 726px !important;
+}
+
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
@@ -1590,6 +1596,14 @@ div.NarrowRightPanel
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_AdvancedSearchContainer_vCCmY
+  .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
+  .gamelistsearchbar_AdvancedSearchPane_Woh0k {
+  height: 330px !important;
+}
+
 .appdetailscommunityfeed_AuthorSection_1ul9Z {
   color: var(--ACCENT) !important;
   background: var(--BASE1) !important;
@@ -2266,7 +2280,8 @@ button.DialogButton::before {
 }
 button.DialogButton.Primary {
   width: auto !important;
-  right: 29.5% !important;
+  left: 34.5% !important;
+  bottom: 51px !important;
   border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
   background: var(--BUTTON) !important;
 }
