@@ -1163,6 +1163,13 @@ div.ShortRightPanel
   fill: var(--ACCENT) !important;
   stroke: var(--ACCENT) !important;
 }
+
+.appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled,
+.appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled:hover {
+  width: auto !important;
+  right: 29.5% !important;
+}
+
 .comment_thread_ActivityCommentThread_39nna
   .comment_thread_Comment_515RL
   .comment_thread_CommentBody_1ltVe
@@ -2250,7 +2257,8 @@ button.DialogButton::before {
   background-color: var(--BASE2) !important;
 }
 button.DialogButton.Primary {
-  width: 98% !important;
+  width: auto !important;
+  right: 29.5% !important;
   border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
   background: var(--BUTTON) !important;
 }
