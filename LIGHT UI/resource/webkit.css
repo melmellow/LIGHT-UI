@@ -4,6 +4,7 @@
     --DIVIDER1:#D6D1D1;
     --ACCENT:#585858;
     --BUTTON:#D6D6D6;
+    --SHADOW:#D6D1D1;
     --BLUE:#1181d2;
     --GREEN:#54a448;
     --TEXTENTRY:#E8E8E8;
@@ -3479,6 +3480,11 @@ body.v6 h2{
 .user_reviews_sub_header{
     color:VAR(--ACCENT)!important
 }
+
+.review_box {
+    BOX-SHADOW:1PX 1PX 2PX VAR(--SHADOW)!important;
+}
+
 .review_box .content{
     color:VAR(--ACCENT)!important
 }
