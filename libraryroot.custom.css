@@ -2273,7 +2273,7 @@ button.DialogButton.Primary:hover {
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL {
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
-  max-width: 135px !important;
+  width: auto !important;
 }
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
