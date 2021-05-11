@@ -54,6 +54,7 @@
   --DIVIDER: VAR(--SHADOW);
   --SEARCHFILTER: VAR(--ACCENT);
   --READYTOPLAYACTIVE: VAR(--BLUE);
+  --BOXSIZEREDGE: VAR(--BLUE);
   --GAMELOGOADJUSTER: VAR(--GREEN);
   --MCSCOREBACKGROUND: VAR(--BLACK);
   --MCSCOREBORDER: VAR(--WHITE);
@@ -1564,6 +1565,19 @@ div.NarrowRightPanel
   .appdetailscommunityfeed_BottomSection_3uabi {
   background: var(--BASE1) !important;
 }
+
+.sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Right_16lyt {
+  border-left: 2px dotted var(--BOXSIZEREDGE) !important;
+}
+
+.sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Left_2ddbR {
+  border-right: 2px DOTTED VAR(--BOXSIZEREDGE) !important;
+}
+
+.sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Top_1Ou14 {
+  border-bottom: 2px DOTTED VAR(--BOXSIZEREDGE) !important;
+}
+
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_GuideTitle_23Pup {
   color: var(--ACCENT) !important;
   font-weight: BOLD !important;
