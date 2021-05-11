@@ -183,6 +183,17 @@ img {
   filter: VAR(--ACTIONBUTTONICONFILTER) !important;
 }
 
+:not(.appactionbutton_Disabled_1Pb6P)
+  > .appactionbutton_ButtonChild_2AzIX
+  svg
+  line,
+:not(.appactionbutton_Disabled_1Pb6P)
+  > .appactionbutton_ButtonChild_2AzIX
+  svg
+  polygon {
+  stroke: VAR(--WHITE) !important;
+}
+
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr.gamelistentry_HoverOverlay_3cMVy {
   color: VAR(--UNINSTALLEDGAMENAMECOLOR) !important;
