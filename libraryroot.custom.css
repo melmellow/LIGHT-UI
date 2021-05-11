@@ -36,7 +36,7 @@
   --PLAYBUTTON: VAR(--ACCENT);
   --PLAYBUTTONHOVER: VAR(--BLACK);
   --GAMESTATENAMECOLOR: VAR(--BLACK);
-  --GAMEGROUPNAMECOLOR: VAR(--UNINSTALLEDGAMENAMECOLOR);
+  --GAMEGROUPNAMECOLOR: VAR(--ACCENT);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --CONTEXTMENU: VAR(--BASE3);
@@ -46,6 +46,7 @@
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
   --THUMBICON: VAR(--ACCENT);
   --FRIENDISPLAYING: VAR(--ACCENT);
+  --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOP: VAR(--ACCENT);
   --ADVANCEDSEARCH: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
@@ -70,6 +71,7 @@
   --BORDERRADIUS: 6px;
   --BUTTON1BORDERRADIUS: 6px;
   --BUTTON2BORDERRADIUS: 6px;
+  --GAMEGROUPNAMEFONTWEIGHT: BOLD;
   --GAMESTATICONFILTER: BRIGHTNESS(0);
   --COMMUNITYFEEDICONFILTER: BRIGHTNESS(0);
   --SHOWCASEPAGEBUTTONICONFILTER: BRIGHTNESS(0);
@@ -2378,7 +2380,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .gamelistsectionheader_SectionHeaderContent_3cV3O {
   color: var(--GAMEGROUPNAMECOLOR) !important;
-  font-weight: bold !important;
+  font-weight: VAR(--GAMEGROUPNAMEFONTWEIGHT) !important;
   margin-top: 3px;
   padding: 0 9px 5px 9px;
 }
@@ -2966,7 +2968,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: var(--SHELFINSTALLBUTTONHOVER) !important;
 }
 .smartscrollcontainer_ScrollToTopButton_1J21t div {
-  color: var(--WHITE) !important;
+  color: var(--SCROLLTOTOPTEXT) !important;
   border-radius: 19px 19px 0 0 !important;
   padding-left: 19px !important;
   padding-right: 19px !important;
