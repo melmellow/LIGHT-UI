@@ -69,6 +69,7 @@
   --BORDERRADIUS: 6px;
   --BUTTON1BORDERRADIUS: 6px;
   --BUTTON2BORDERRADIUS: 6px;
+  --GAMESTATICONFILTER: BRIGHTNESS(0);
   --ACTIONBUTTONBORDER: NONE;
   --ACTIONBUTTONICONFILTER: NONE;
   --LISTITEMDETAILSPANELTOPBORDER: NONE;
@@ -2800,7 +2801,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appdetailsplaysection_GameStat_1kiZK
   .appdetailsplaysection_GameStatIcon_1tIg- {
   margin: 0px 3px 3px 3px !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: VAR(--GAMESTATICONFILTER) !important;
 }
 .appdetailsgameinfopanel_Container_2jPMy
   .appdetailsgameinfopanel_Stats_3cntz
