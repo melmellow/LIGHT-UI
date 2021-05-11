@@ -96,10 +96,6 @@
   */
 }
 
-:not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
-  filter: VAR(--ACTIONBUTTONICONFILTER) !important;
-}
-
 /*LIBRARY HOME ICON*/
 
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
@@ -113,6 +109,8 @@
   background-position: center !important;
   left: 0 !important;
   margin-left: 2px !important;
+  height: 20px !important;
+  top: 11px !important;
 }
 
 /*INFO ICON*/
@@ -166,6 +164,10 @@ img {
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Running_10Gdo {
   color: VAR(--RUNNINGGAMENAMECOLOR) !important;
+}
+
+:not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
+  filter: VAR(--ACTIONBUTTONICONFILTER) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
