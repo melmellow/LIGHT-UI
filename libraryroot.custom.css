@@ -43,6 +43,7 @@
   --CONTEXTMENU: VAR(--BASE3);
   --CHECKMARK: VAR(--ACCENT);
   --DROPDOWN: VAR(--BUTTON2);
+  --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
   --PROGRESSBAR: VAR(--ACCENT);
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
   --THUMBICON: VAR(--ACCENT);
@@ -636,7 +637,7 @@ SVGIcon_Button {
 }
 .addonpicker_ItemList_2OWGR .addonpicker_Item_1SFqy:hover {
   border-radius: 30px !important;
-  background-color: var(--BUTTON) !important;
+  background-color: var(--EMOTICONBACKGROUNDHOVER) !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchInput_12vo5
