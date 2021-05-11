@@ -23,3 +23,4 @@ Steam will have to restart to apply the theme
 
 
 Its not perfect yet but I will keep working on it
+I wasted my time so you don't have to :)
