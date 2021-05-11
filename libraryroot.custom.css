@@ -35,6 +35,7 @@
   --PLAYBUTTON: VAR(--ACCENT);
   --PLAYBUTTONHOVER: VAR(--BLACK);
   --GAMESTATENAMECOLOR: VAR(--BLACK);
+  --GAMEGROUPNAMECOLOR: VAR(--UNINSTALLEDGAMENAMECOLOR);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --CONTEXTMENU: VAR(--BASE3);
@@ -1862,7 +1863,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
 }
 .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
-  stroke: var(--ACCENT) !important;
+  stroke: var(--GAMEGROUPNAMECOLOR) !important;
 }
 .gamelistsectionheader_SectionHeaderContent_3cV3O:hover
   .gamelistsectionheader_SectionName_2mZ8L {
@@ -1891,7 +1892,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   fill: var(--FRIENDISPLAYING) !important;
 }
 .gamelistsectionheader_SectionCount_29ute {
-  color: var(--ACCENT) !important;
+  color: var(--GAMEGROUPNAMECOLOR) !important;
 }
 .gamelisthome_Selected_eNLOx .gamelisthome_Label_3O48L {
   color: TRANSPARENT !important;
@@ -2371,7 +2372,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 .gamelistsectionheader_SectionHeaderContent_3cV3O {
-  color: var(--ACCENT) !important;
+  color: var(--GAMEGROUPNAMECOLOR) !important;
   font-weight: bold !important;
   margin-top: 3px;
   padding: 0 9px 5px 9px;
