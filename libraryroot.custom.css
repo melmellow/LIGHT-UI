@@ -3063,7 +3063,9 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelist_Container_1ijTa {
   /* height: calc(94.4% - 76px+0.017vmax * 65);*/
-  height: calc(100% - 145px + 0.017vmax * 1);
+  height: calc(100% - 83px + 0.017vmax * 1);
+  position: absolute;
+  top: 84px !important;
 }
 .gamelist_NoSearchResultsContainer_1fbRp {
   margin: 2px;
