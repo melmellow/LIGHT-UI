@@ -72,6 +72,7 @@
   --BUTTON2BORDERRADIUS: 6px;
   --GAMESTATICONFILTER: BRIGHTNESS(0);
   --COMMUNITYFEEDICONFILTER: BRIGHTNESS(0);
+  --SHOWCASEPAGEBUTTONICONFILTER: BRIGHTNESS(0);
   --COMMUNITYFEEDICONOPACITY: 60%;
   --ACTIONBUTTONBORDER: NONE;
   --ACTIONBUTTONICONFILTER: NONE;
@@ -1176,7 +1177,7 @@ div.ShortRightPanel
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_PageButtons_29NTO
   .libraryhomeshowcases_PageRight_2kWWy {
-  filter: brightness(0) !important;
+  filter: VAR(--SHOWCASEPAGEBUTTONICONFILTER) !important;
 }
 .appdetailsreviewsection_ReviewIcon_1izIE {
   border-radius: 100px !important;
