@@ -48,6 +48,7 @@
   --ADVANCEDSEARCH: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--SHADOW);
+  --SEARCHFILTER: VAR(--ACCENT);
   --READYTOPLAYACTIVE: VAR(--BLUE);
   --GAMELOGOADJUSTER: VAR(--GREEN);
   --MCSCOREBACKGROUND: VAR(--BLACK);
@@ -56,6 +57,7 @@
   --SUBSCRIPTBACKGROUND: VAR(--BLACK);
   --SUBSCRIPTTEXT: VAR(--WHITE);
   --SUBSCRIPTBORDER: VAR(--WHITE);
+  --SEARCHFILTERROUNDED: 50px;
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
@@ -66,6 +68,7 @@
   --BUTTON2BORDERRADIUS: 6px;
   --BUTTON1BORDERRADIUS: 6px;
   --LISTITEMDETAILSPANELTOPBORDER: NONE;
+  --GAMEICONFILTER: NONE;
   --GAMEARTBACKGROUNDCILTER: NONE;
   --GAMELOGOFILTER: NONE;
   --GAMEBOXARTFILTER: NONE;
@@ -86,6 +89,7 @@
   GRAYSCALE(5)
   SEPIA(5)
   BLUR(5PX)
+  CONTRAST(5%)
   */
 }
 
@@ -1317,7 +1321,7 @@ div.ShortRightPanel
   background: var(--BASE2) !important;
 }
 .libraryassetimage_Image_24_Au {
-  filter: grayscale(30%!important;);
+  filter: var(--GAMEICONFILTER) !important;
 }
 .libraryassetimage_PortraitImage_3Ehhd .libraryassetimage_Image_24_Au,
 .libraryassetimage_LandscapeImage_ZsU8n .libraryassetimage_Image_24_Au {
@@ -2031,8 +2035,8 @@ A {
   box-shadow: NONE !important;
 }
 .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ {
-  background-color: var(--ACCENT) !important;
-  border-radius: 0 !important;
+  background-color: var(--SEARCHFILTER) !important;
+  border-radius: VAR(--SEARCHFILTERROUNDED) !important;
 }
 .DialogCheckbox {
   border: 1px SOLID VAR(--CHECKBOXBORDER) !important;
