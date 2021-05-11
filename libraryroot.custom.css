@@ -61,6 +61,7 @@
   --SUBSCRIPTBACKGROUND: VAR(--BLACK);
   --SUBSCRIPTTEXT: VAR(--WHITE);
   --SUBSCRIPTBORDER: VAR(--WHITE);
+  --PROGRESSBARBORDERROUNDED: 5px;
   --SEARCHFILTERROUNDED: 50px;
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
   --ACTIONBUTTONTEXT: VAR(--WHITE);
@@ -1626,10 +1627,11 @@ div.NarrowRightPanel
 .appdetailsachievementssection_AchievementProgressContainer_3ns91
   .appdetailsachievementssection_AchievementProgress_3Rm36 {
   background-color: var(--PROGRESSBAR) !important;
-  border-radius: 30px !important;
+  border-radius: VAR(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
   background-color: var(--PROGRESSBARBACKGROUND) !important;
+  border-radius: VAR(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appdetailssection_Highlight_38t1m {
   color: var(--ACCENT) !important;
@@ -1657,10 +1659,11 @@ div.NarrowRightPanel
 .appdetailsplaysection_DetailsProgressContainer_25YVD
   .appdetailsplaysection_DetailsProgressBar_1FnTq {
   background-color: var(--PROGRESSBAR) !important;
-  border-radius: 30px !important;
+  border-radius: VAR(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appdetailsplaysection_DetailsProgressContainer_25YVD {
   background-color: var(--PROGRESSBARBACKGROUND) !important;
+  border-radius: VAR(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
