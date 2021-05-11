@@ -189,7 +189,7 @@ img {
 .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Uninstalled_5YTBr,
 .gamelistentry_Selected_1UBpA
   .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
-  color: VAR(--UINSTALLEDGAMENAMEHOVERCOLOR);
+  color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR);
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
