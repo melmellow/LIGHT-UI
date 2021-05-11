@@ -569,7 +569,9 @@ img {
   color: var(--ACCENT) !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
-  border-right: 1px SOLID var(--SIDEBARBORDER) !important;
+  min-width: unset !important;
+  max-width: unset !important;
+  border-right: 2px SOLID var(--SIDEBARBORDER) !important;
   padding-left: 0 !important;
   background: var(--BASE1) !important;
 }
