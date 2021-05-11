@@ -69,6 +69,7 @@
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
   --ACTIONBUTTONROUNDED3: 50px;
+  --SHELFACTIONBUTTONROUNDED: 50px;
   --DROPDOWNROUNDED2: 0 6px 6px 0;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 6px;
@@ -581,6 +582,12 @@ SVGIcon_Button {
 .title-area-icon:hover .SVGIcon_Button polyline {
   stroke: var(--BUTTONHOVER) !important;
 }
+
+.appportrait_Short_yGeS6
+  .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 {
+  border-radius: VAR(--SHELFACTIONBUTTONROUNDED) !important;
+}
+
 .appportrait_HoversEnabled_54PuC
   .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4) {
   background: var(--SHELFPLAYBUTTON) !important;
