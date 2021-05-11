@@ -59,6 +59,9 @@
   --SUBSCRIPTBORDER: VAR(--WHITE);
   --SEARCHFILTERROUNDED: 50px;
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
+  --ACTIONBUTTONICONFILTER: NONE;
+  --ACTIONBUTTONTEXT: VAR(--WHITE);
+  --ACTIONBUTTONBORDER: NONE;
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
   --ACTIONBUTTONROUNDED3: 50px;
@@ -91,6 +94,10 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+:not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
+  filter: VAR(--ACTIONBUTTONICONFILTER) !important;
 }
 
 /*LIBRARY HOME ICON*/
@@ -971,8 +978,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   font-weight: 500 !important;
 }
 
+.appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
+  color: VAR(--ACTIONBUTTONTEXT) !important;
+}
+
 .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
   border-radius: var(--ACTIONBUTTONROUNDED2) !important;
+  border: 1px solid var(--ACTIONBUTTONBORDER) !important;
 }
 
 .videoSrc {
@@ -1472,16 +1484,6 @@ div.NarrowRightPanel
   polygon {
   fill: var(--WHITE) !important;
 }
-:not(.appactionbutton_Disabled_1Pb6P)
-  > .appactionbutton_ButtonChild_2AzIX
-  svg
-  line,
-:not(.appactionbutton_Disabled_1Pb6P)
-  > .appactionbutton_ButtonChild_2AzIX
-  svg
-  polygon {
-  stroke: var(--WHITE) !important;
-}
 .appdetailsactivitysection_NoActivity_2-kDc,
 .appdetailsactivitysection_Loading_3UShz {
   color: var(--ACCENT) !important;
@@ -1501,6 +1503,7 @@ div.NarrowRightPanel
 }
 .appactionbutton_ButtonChild_2AzIX {
   border-radius: VAR(--ACTIONBUTTONROUNDED3) !important;
+  border: 1px solid var(--ACTIONBUTTONBORDER) !important;
 }
 .appactionbutton_ButtonChild_3cI5T {
   border-radius: 0 !important;
@@ -1510,6 +1513,7 @@ div.NarrowRightPanel
 }
 .appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
   border-radius: var(--ACTIONBUTTONROUNDED1) !important;
+  border: 1px SOLID VAR(--ACTIONBUTTONBORDER) !important;
 }
 .gamelistentry_Container_2-O4Z
   .gamelistentry_GameListEntryContainer_1vO6B
