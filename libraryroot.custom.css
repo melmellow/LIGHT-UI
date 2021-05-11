@@ -71,6 +71,8 @@
   --BUTTON1BORDERRADIUS: 6px;
   --BUTTON2BORDERRADIUS: 6px;
   --GAMESTATICONFILTER: BRIGHTNESS(0);
+  --COMMUNITYFEEDICONFILTER: BRIGHTNESS(0);
+  --COMMUNITYFEEDICONOPACITY: 60%;
   --ACTIONBUTTONBORDER: NONE;
   --ACTIONBUTTONICONFILTER: NONE;
   --LISTITEMDETAILSPANELTOPBORDER: NONE;
@@ -2976,8 +2978,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   color: var(--WHITE) !important;
 }
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Icon16_3AoQ6 {
-  filter: BRIGHTNESS(0) !important;
-  opacity: 60% !important;
+  filter: VAR(--COMMUNITYFEEDICONFILTER) !important;
+  opacity: VAR(--COMMUNITYFEEDICONOPACITY) !important;
 }
 .gamelistsearchbar_Container_20QAC {
   width: 100%;
