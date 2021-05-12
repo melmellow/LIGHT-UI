@@ -9,21 +9,23 @@
 	{
 		LayoutDebugDialog	
 		{
+			bgcolor="header_dark2"
 			minimum-width=500
 			minimum-height=300
-			bgcolor=ClientBG
+			bgcolor=header_dark2
 			render_bg
 			{
-				0="fill( x0, y0, x1, y0+36, FrameBorder )"
-				1="fill( x0, y0, x1, y0+35, Header_Dark )"
-				2="fill( x0, y1-52, x1, y1, FrameBorder )"
-				3="fill( x0, y1-51, x1, y1, Header_Dark )"
-			  4="fill( x0+8, y1-26, x1-8, y1-25, FrameBorder )"
+				0="fill( x0, y0, x1, y0+36, "none" )"
+				1="fill( x0, y0, x1, y0+35,"none" )"
+				2="fill( x0, y1-52, x1, y1, "none" )"
+				3="fill( x0, y1-51, x1, y1, "none" )"
+			  4="fill( x0+8, y1-26, x1-8, y1-25, "none" )"
 			}
 		}
 		ListPanel
 		{
-			bgcolor=Header_Dark
+			text_a"88 88 88 255"
+			bgcolor=Header_Dark2
 		}
 		RichText
 		{

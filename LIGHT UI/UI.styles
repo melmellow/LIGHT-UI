@@ -269,7 +269,7 @@
 			bgcolor=ClientBG
 			render_bg
 			{
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
+				1="fill( x0, y1-44, x1, y1-43, "none" )"
 				2="fill( x0, y1-43, x1, y1, Header_Dark )"
 			}
 		}
