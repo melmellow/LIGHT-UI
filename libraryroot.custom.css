@@ -2532,7 +2532,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appdetailsplaysection_StickyHeaderShadow_2_86Q {
   background-color: var(--BASE2) !important;
   background-image: none !important;
-  border-bottom: 2px solid var(--SHADOW) !important;
+  border-bottom: 2px solid var(--DIVIDER) !important;
 }
 .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_:hover {
   background-color: NONE !important;
