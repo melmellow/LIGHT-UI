@@ -522,7 +522,8 @@ img {
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_Active_2DpXj {
   width: 173px !important;
-  background: var(--ACCENT) !important;
+  color: var(--ACCENT) !important;
+  background: var(--LISTITEMBACKGROUNDHOVER) !important;
   padding-left: 23px !important;
   padding-top: 4px !important;
   padding-bottom: 6px !important;
@@ -530,6 +531,7 @@ img {
   margin-right: 0 !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
+  color: var(--ACCENT) !important;
   text-transform: NONE !important;
   margin-bottom: 9px !important;
   padding-left: 23px !important;
@@ -537,7 +539,8 @@ img {
   padding-bottom: 6px !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr:not(.pagedsettings_Active_2DpXj):hover {
-  color: var(--BUTTONHOVER) !important;
+  color: var(--ACCENT) !important;
+  background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
 }
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY
