@@ -54,7 +54,9 @@
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--SHADOW);
   --SEARCHFILTER: VAR(--ACCENT);
-  --READYTOPLAYACTIVE: VAR(--BLUE);
+  --INACTIVEDROPDOWNFILTERICON: VAR(--ACCENT);
+  --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLACK);
+  --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
   --BOXSIZEREDGE: VAR(--BLUE);
   --GAMELOGOADJUSTER: VAR(--GREEN);
   --MCSCOREBACKGROUND: VAR(--BLACK);
@@ -2140,7 +2142,7 @@ A {
   .gamelistdropdown_CheckboxWithImage_3mzKd:hover
   svg
   circle {
-  stroke: var(--BUTTONHOVER) !important;
+  stroke: var(--INACTIVEDROPDOWNFILTERICONHOVER) !important;
 }
 .gamelistentry_HasContextMenuOpen_3km84 {
   border: none !important;
@@ -2267,7 +2269,7 @@ A {
   .gamelistdropdown_Filters_1PgAo
   .gamelistdropdown_CheckboxWithImage_3mzKd
   svg {
-  fill: var(--ACCENT) !important;
+  fill: var(--INACTIVEDROPDOWNFILTERICON) !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
@@ -2289,7 +2291,7 @@ A {
   .gamelistdropdown_CheckboxWithImage_3mzKd
   svg
   circle {
-  stroke: var(--ACCENT) !important;
+  stroke: var(--INACTIVEDROPDOWNFILTERICON) !important;
 }
 .DialogTextInputBase:not(disabled)::selection {
   background-color: VAR(--TEXTENTRYHIGHLIGHT) !important;
@@ -2551,7 +2553,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .gamelistdropdown_Filters_1PgAo
   .gamelistdropdown_CheckboxWithImage_3mzKd:hover
   svg {
-  fill: var(--BUTTONHOVER) !important;
+  fill: var(--INACTIVEDROPDOWNFILTERICONHOVER) !important;
 }
 .gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D {
   font-weight: VAR(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
@@ -2810,14 +2812,14 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk
   svg
   circle {
-  stroke: var(--READYTOPLAYACTIVE) !important;
+  stroke: var(--ACTIVEDROPDOWNFILTERICON) !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
   .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk
   svg {
-  stroke: var(--READYTOPLAYACTIVE) !important;
-  fill: var(--READYTOPLAYACTIVE) !important;
+  stroke: var(--ACTIVEDROPDOWNFILTERICON) !important;
+  fill: var(--ACTIVEDROPDOWNFILTERICON) !important;
 }
 .gamelist_NoResultsLink_WMjaq:hover {
   color: var(--BUTTONHOVER) !important;
