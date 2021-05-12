@@ -18,6 +18,8 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --COLLECTIONICON: VAR(--ACCENT);
+  --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBAR: VAR(--ACCENT);
   --RATINGICON: VAR(--ACCENT);
   --SCROLLBARHOVER: VAR(--ACCENT);
@@ -1198,6 +1200,7 @@ div.ShortRightPanel
   opacity: 0 !important;
 }
 .gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
+  background: var(--COLLECTIONICON);
   transition: filter 0.3s ease-in-out !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
@@ -1327,7 +1330,7 @@ div.ShortRightPanel
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx
   .gamelisthome_CollectionIconBox_2tyaV {
-  background-color: var(--BUTTONHOVER) !important;
+  background-color: var(--COLLECTIONICON) !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
@@ -1902,7 +1905,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   position: absolute !important;
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_CollectionIconBox_2tyaV {
-  background-color: var(--BUTTONHOVER) !important;
+  background-color: var(--COLLECTIONICONHOVER) !important;
 }
 .libraryhome_UpdatesContainer_17uEB {
   background: var(--BASE2) !important;
