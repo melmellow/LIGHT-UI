@@ -41,6 +41,9 @@
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --CONTEXTMENU: VAR(--BASE3);
+  --CONTEXTMENUPLAYBUTTON: VAR(--ACCENT);
+  --CONTEXTMENUPLAYBUTTONHOVER: VAR(--BLACK);
+  --CONTEXTMENUINSTALLBUTTON: VAR(--ACCENT);
   --CHECKMARK: VAR(--ACCENT);
   --DROPDOWN: VAR(--BUTTON2);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
@@ -2256,7 +2259,7 @@ A {
 .library_ContextMenuAction_Z5iAX.PurchaseApp {
   border-radius: 0 !important;
   color: var(--WHITE) !important;
-  background: var(--ACCENT) !important;
+  background: var(--CONTEXTMENUINSTALLBUTTON) !important;
 }
 .dropdown_DialogDropDownMenu_30wJO._DialogInputContainer {
   background-color: var(--BASE1) !important;
@@ -2956,14 +2959,14 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .library_ContextMenuAction_Z5iAX.Play {
   border-radius: 0 !important;
   color: var(--WHITE) !important;
-  background: var(--ACCENT) !important;
+  background: var(--CONTEXTMENUPLAYBUTTON) !important;
 }
 .library_ContextMenuAction_Z5iAX.Stream,
 .library_ContextMenuAction_Z5iAX.Connect,
 .library_ContextMenuAction_Z5iAX.Launch,
 .library_ContextMenuAction_Z5iAX.PlayMusic,
 .library_ContextMenuAction_Z5iAX.Play:hover {
-  background: var(--BUTTONHOVER) !important;
+  background: var(--CONTEXTMENUPLAYBUTTONHOVER) !important;
 }
 .comment_thread_RatingBar_1yWgP .comment_thread_RatingDetails_2lY7z {
   color: var(--ACCENT) !important;
