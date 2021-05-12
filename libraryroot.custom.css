@@ -22,6 +22,7 @@
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
   --COLLECTIONICONHOVER: VAR(--BLACK);
+  --SCROLLBARBORDERROUNDED: 0px;
   --SCROLLBAR: VAR(--ACCENT);
   --RATINGICON: VAR(--ACCENT);
   --SCROLLBARHOVER: VAR(--ACCENT);
@@ -3090,7 +3091,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   top: 0 !important;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 0;
+  border-radius: VAR(--SCROLLBARBOVERROUNDED);
 }
 .cssgrid_Container_DGRkX {
   height: unset !important;
