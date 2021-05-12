@@ -19,10 +19,7 @@
 			render {
 				0="image_scale( x0 + 182, y0, x0 + 188, y1, graphics/material/shadow_vert2)"
 			}
-			render_bg {
-				0="fill( x0, y0, x0 + 182, y1, dialogbg2 )"
-				1="fill( x0 + 182, y1 - 50, x1, y1, dialogbg)"
-			}
+		
 		}
 	
 		
