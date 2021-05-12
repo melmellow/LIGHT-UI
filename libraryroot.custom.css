@@ -160,6 +160,13 @@ img {
   filter: NONE !important;
 }
 
+.appdetailsachievementssection_Featured_1j_gj
+  .appdetailsachievementssection_TextSection_1s_9c
+  .appdetailsachievementssection_Stats_VKo9p {
+  color: VAR(--ACCENT) !important;
+  font-weight: 500 !important;
+}
+
 .sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_UpperCenter_3b-fV {
   border-top: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
 }
