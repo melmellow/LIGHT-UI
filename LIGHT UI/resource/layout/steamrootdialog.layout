@@ -28,10 +28,10 @@
 			image="icons/friends"
 			padding-right=2
 			render{
-			1="fill(x0,y0,x1,y0+1, navbar)"  // top
-				2="fill(x0,y1-1,x1,y1, navbar)"  // bottom
-				3="fill(x0,y0+1,x0+1,y1-1, navbar)"  // left
-				4="fill(x1-1,y0+1,x1,y1-1, navbar)"  // right
+			1="fill(x0,y0,x1,y0+1, "none")"  // top
+				2="fill(x0,y1-1,x1,y1, "none")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, "none")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "none")"  // right
 				}
 		}
 		view_friends:hover
@@ -271,10 +271,10 @@
 			padding-right=6
 			padding-top=1
 			render{
-			1="fill(x0,y0,x1,y0+1, navbar)"  // top
-				2="fill(x0,y1-1,x1,y1, navbar)"  // bottom
-				3="fill(x0,y0+1,x0+1,y1-1, navbar)"  // left
-				4="fill(x1-1,y0+1,x1,y1-1, navbar)"  // right
+			1="fill(x0,y0,x1,y0+1, "none")"  // top
+				2="fill(x0,y1-1,x1,y1, "none")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1"none")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "none")"  // right
 				}
 		}
 		FullscreenButton:hover

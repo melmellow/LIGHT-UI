@@ -57,12 +57,19 @@
 		}
 
 		AccountBalanceStyle
+	
 		{
 			textcolor="88 88 88 255"
 			bgcolor="228 228 228 255"
 			font-weight=500
 			padding-right=2
 			padding-left=0
+			render{
+					0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, "none" )"
+				0="fill( x1 - 1, y0 + 1, x1 - 2, y0 + 2, "none" )"
+				0="fill( x0 + 1, y1 - 1, x0 + 2, y1 - 2, "none" )"
+				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, "none" )"
+			}
 		}
 
 		AccountMenuButtonStyle
