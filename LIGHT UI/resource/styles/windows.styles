@@ -28,6 +28,14 @@ windows.styles
 
 		PageTab
 		{
+			render{
+	0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, "none" )"
+				0="fill( x1 - 1, y0 + 1, x1 - 2, y0 + 2, "none" )"
+				0="fill( x0 + 1, y1 - 1, x0 + 2, y1 - 2, "none" )"
+				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, "none" )"
+
+			}
+			
 			font-size=16
 			font-style="uppercase"
 		}
