@@ -1203,7 +1203,7 @@ steam.styles
 			textcolor="white"
 			selectedtextcolor="White"
 			font-family=basefont
-			selectedbgcolor="Focus"
+			selectedbgcolor="213 213 213 255"
 			bgcolor="none"
 			render_bg {}
 			render {}
