@@ -18,7 +18,7 @@
 		Password
 		{
 			font-size=40
-			bgcolor="214 214 214 255"
+			bgcolor="232 232 232 255"
 			minimum-height=50
 		}
 		Description
