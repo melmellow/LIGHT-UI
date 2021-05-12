@@ -181,8 +181,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, "none" )"
+				2="fill( x0, y1-43, x1, y1, Header_Dark2 )"
 			}
 			minimum-height=435
 		}
@@ -411,8 +411,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1, "none" )"
+				2="fill( x0, y1-43, x1, y1, Header_Dark2)"
 			}
 		}
 
