@@ -18,6 +18,8 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
+  --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
   --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBAR: VAR(--ACCENT);
@@ -2450,14 +2452,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .gamelistsearchbar_AdvancedSearchButton_1TxHd
   svg
   path {
-  fill: var(--ACCENT) !important;
+  fill: var(--ADVANCEDSEARCHBUTTON) !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchButton_1TxHd:hover
   svg
   path {
-  fill: var(--BUTTONHOVER) !important;
+  fill: var(--ADVANCEDSEARCHBUTTONHOVER) !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ {
   background-color: NONE !important;
