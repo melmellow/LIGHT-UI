@@ -33,6 +33,7 @@
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
+  --APPPORTRAITINSTALLBUTTON: VAR(--ACCENT);
   --SHELFPLAYBUTTON: VAR(--ACCENT);
   --SHELFPLAYBUTTONHOVER: VAR(--BUTTONHOVER);
   --SHELFINSTALLBUTTON: VAR(--ACCENT);
@@ -225,6 +226,12 @@ img {
   .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr.gamelistentry_HoverOverlay_3cMVy {
   color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR);
+}
+
+.appportrait_HoversEnabled_54PuC
+  .appportrait_LibraryItemBox_WYgDg:hover
+  .appportrait_UninstalledIcon_8YrRm {
+  background-color: var(--APPPORTRAITINSTALLBUTTON);
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Uninstalled_5YTBr,
