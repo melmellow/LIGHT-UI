@@ -537,7 +537,7 @@ steam.styles
 		{	
 			bgcolor="228 228 228 255"
 			textcolor="88 88 88 255"
-			selectedtextcolor="255 255 255 255"
+			selectedtextcolor="88 88 88 255"
 			selectedbgcolor=whitebase
 			shadowtextcolor="88 88 88 255"	// the color of disabled line items
 			font-family=basefont

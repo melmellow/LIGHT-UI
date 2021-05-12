@@ -41,7 +41,7 @@
 		}
 		ListPanel
 		{
-			selectedbgcolor="88 88 88 255"
+			selectedbgcolor="214 214 214 255"
 			//selectedtextcolor="88 88 88 255"
 			//Disabled:hover="214 214 214 255"
 		}
