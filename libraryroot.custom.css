@@ -93,6 +93,7 @@
   --COMMUNITYFEEDICONFILTER: BRIGHTNESS(0);
   --SHOWCASEPAGEBUTTONICONFILTER: BRIGHTNESS(0);
   --COMMUNITYFEEDICONOPACITY: 60%;
+  --GAMEBOXARTBORDERROUNDED: 0;
   --ACTIONBUTTONBORDER: NONE;
   --ACTIONBUTTONICONFILTER: NONE;
   --LISTITEMDETAILSPANELTOPBORDER: NONE;
@@ -1410,7 +1411,7 @@ div.ShortRightPanel
 .libraryassetimage_PortraitImage_3Ehhd .libraryassetimage_Image_24_Au,
 .libraryassetimage_LandscapeImage_ZsU8n .libraryassetimage_Image_24_Au {
   filter: VAR(--GAMEBOXARTFILTER) !important;
-  border-radius: 0 !important;
+  border-radius: var(--GAMEBOXARTBORDERROUNDED) !important;
 }
 .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_Pause {
   fill: var(--WHITE) !important;
