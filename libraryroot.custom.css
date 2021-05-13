@@ -207,6 +207,11 @@ img {
   filter: VAR(--ACTIONBUTTONICONFILTER) !important;
 }
 
+.appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Unowned_1A6NC.appdetailstradingcardssection_Loaded_3rqAf
+  .appdetailstradingcardssection_CardImage_1DgYm {
+  opacity: 1 !important;
+}
+
 :not(.appactionbutton_Disabled_1Pb6P)
   > .appactionbutton_ButtonChild_2AzIX
   svg
