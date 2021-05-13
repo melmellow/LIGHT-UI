@@ -30,7 +30,9 @@
   --BUTTON1: VAR(--ACCENT);
   --BUTTONHOVER: VAR(--BLACK);
   --RUNNINGGAMENAMECOLOR: VAR(--ACCENT);
+  --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
   --UPDATINGGAMENAMECOLOR: VAR(--ACCENT);
+  --UPDATINGGAMESTATECOLOR: VAR(--BLACK);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
@@ -43,7 +45,6 @@
   --INSTALLBUTTONHOVER: VAR(--BLACK);
   --PLAYBUTTON: VAR(--ACCENT);
   --PLAYBUTTONHOVER: VAR(--BLACK);
-  --GAMESTATENAMECOLOR: VAR(--BLACK);
   --GAMEGROUPNAMECOLOR: VAR(--ACCENT);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
@@ -190,6 +191,12 @@ img {
   border: 4px solid var(--GAMELOGOADJUSTER) !important;
 }
 
+.gamelistentry_Container_2-O4Z
+  .gamelistentry_GameListEntryContainer_1vO6B
+  .gamelistentry_DownloadProgress_3uk3F {
+  color: var(--UPDATINGGAMESTATECOLOR) !important;
+}
+
 :not(.appactionbutton_Disabled_1Pb6P)
   > .appactionbutton_ButtonChild_2AzIX:hover {
   background: var(--INSTALLBUTTONHOVER) !important;
@@ -197,6 +204,11 @@ img {
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Running_10Gdo {
   color: VAR(--RUNNINGGAMENAMECOLOR) !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Running_10Gdo
+  .gamelistentry_DownloadProgress_3uk3F {
+  color: VAR(--RUNNINGGAMESTATECOLOR) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
@@ -1593,10 +1605,10 @@ div.NarrowRightPanel
   border-radius: var(--ACTIONBUTTONROUNDED1) !important;
   border: 1px SOLID VAR(--ACTIONBUTTONBORDER) !important;
 }
+
 .gamelistentry_Container_2-O4Z
   .gamelistentry_GameListEntryContainer_1vO6B
   .gamelistentry_DownloadProgress_3uk3F {
-  color: var(--GAMESTATENAMECOLOR) !important;
   font-weight: bold !important;
 }
 .ingame
@@ -2602,6 +2614,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   font-weight: VAR(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
   color: var(--INSTALLEDGAMENAMECOLOR) !important;
 }
+
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
   padding: 2px 4px 2px 22px !important;
 }
