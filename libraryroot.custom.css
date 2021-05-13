@@ -30,6 +30,7 @@
   --BUTTON1: VAR(--ACCENT);
   --BUTTONHOVER: VAR(--BLACK);
   --RUNNINGGAMENAMECOLOR: VAR(--ACCENT);
+  --UPDATINGGAMENAMECOLOR: VAR(--ACCENT);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
@@ -131,7 +132,7 @@
   background-size: 20px !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
-  left: 0 !important;
+  left: 6px !important;
   margin-left: 2px !important;
   height: 20px !important;
   top: 11px !important;
@@ -195,6 +196,10 @@ img {
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Running_10Gdo {
   color: VAR(--RUNNINGGAMENAMECOLOR) !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
+  color: VAR(--UPDATINGGAMENAMECOLOR) !important;
 }
 
 :not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
@@ -1983,7 +1988,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelisthome_CollectionBar_xeuK3 {
   width: 28px !important;
   position: ABSOLUTE !important;
-  left: 37px !important;
+  left: 41px !important;
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
   background-color: transparent !important;
