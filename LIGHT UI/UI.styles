@@ -241,11 +241,11 @@
 
 		CLaunchOptionsDialog
 		{
-			bgcolor="228 228 228 255"
+			bgcolor="222 222 222 255"
 			render_bg
 			{
-				5="fill( x0, y1-42, x1, y1-41, frameBorder )"
-				6="fill( x0, y1-41, x1, y1, Header_Dark )"
+				5="fill( x0, y1-42, x1, y1-41, "NONE" )"
+				6="fill( x0, y1-41, x1, y1, Header_Dark2 )"
 			}
 		}
 
