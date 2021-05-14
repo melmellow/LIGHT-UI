@@ -63,8 +63,7 @@
 			bgcolor=focus
 		}
 
-		//Check
-		 bordercolor="182 182 182 255"
+		
 		//Text Boxes
 		TextEntry
 		{
@@ -73,13 +72,13 @@
 			textcolor = ACCENT
 			shadowtextcolor=white
 			selectedtextcolor="88 88 88 88"
-			selectedbgcolor = TEXTHIGHLIGHT
+			selectedbgcolor = TEXTENTRYHIGHLIGHT
 			inset-left=2
 			render_bg {
-			0="fill( x0, y0 + 1, x0 + 1, y1 - 1, bordercolor )"
-			0="fill( x1, y0 + 1, x1 - 1, y1 - 1, bordercolor )"
-				0="fill( x0 + 1, y0, x1 - 1, y0 + 1, bordercolor )"
-				0="fill( x0 + 1, y1 - 1, x1 - 1, y1, bordercolor )"
+			0="fill( x0, y0 + 1, x0 + 1, y1 - 1, TEXTENTRYBORDER )"
+			0="fill( x1, y0 + 1, x1 - 1, y1 - 1, TEXTENTRYBORDER )"
+				0="fill( x0 + 1, y0, x1 - 1, y0 + 1, TEXTENTRYBORDER )"
+				0="fill( x0 + 1, y1 - 1, x1 - 1, y1, TEXTENTRYBORDER )"
 				}
 		}
 
