@@ -26,10 +26,10 @@
 		DOWNLOADSNETGRAPH = BUTTON
 		NAVBUTTON = ACCENT
 		NAVBUTTONSELECTEDLINE = ACCENT
-		LISTITEM = ACCENT
-		LISTITEMHOVER = ACCENT
 		NAVBUTTONSELECTED = BLACK
 		NAVBUTTONHOVER = BLACK
+		LISTITEM = ACCENT
+		LISTITEMHOVER = ACCENT
 		LISTITEMBACKGROUNDHOVER = BUTTON
 		SCROLLBAR = ACCENT
 		SCROLLBARHOVER = ACCENT
@@ -76,8 +76,6 @@
 		black75="255 255 255 191.25"
 
 
-/////////////////////////
-//===Specific Colors===//
 		W10close_Red_h="232 18 35 255"
 		W10close_Red_p="241 112 121 255"
 
@@ -85,19 +83,11 @@
 		Grey2="48 48 48 255"
 		Grey3="75 75 75 255"
 
-		green50="87 119 15 255"
-		green="84 164 72 255"
-		green_bright="0 255 0 255"
-		Red="255 0 0 255"
 
-/////////////////////////////////////
-//======Base Background Color======//
+
 		ClientBG=BASE1
 		ClientBGTransparent="0 0 0 40"
 
-
-/////////////////////////
-//======Scrollbar======//
 		scroll=white02
 		scroll_a=white02
 
