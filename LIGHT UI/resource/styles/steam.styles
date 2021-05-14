@@ -719,7 +719,7 @@ steam.styles
 			bgcolor="none"
 			render
 			{
-				1="fill( x0, y0, x0+1, y1, Separators )"
+				1="fill( x0, y0, x0+1, y1, DIVIDER )"
 			}
 		}
 

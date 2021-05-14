@@ -20,17 +20,19 @@
 		ACCENT = "88 88 88 255"
 		TEXTENTRY = "232 232 255"
 		BLACK = "0 0 0 255"
-		BUTTON2 = "214 214 214 255"
+		BUTTON = "214 214 214 255"
 		DIVIDER = "214 209 209 255"
 		NAVBUTTON = ACCENT
+		NAVBUTTONSELECTEDLINE = ACCENT
+		NAVBUTTONSELECTED = BLACK
 		NAVBUTTONHOVER = BLACK
-		BUTTON2HOVER = BUTTON2
-		LISTITEMBACKGROUNDHOVER = BUTTON2
+		BUTTONHOVER = BUTTON
+		LISTITEMBACKGROUNDHOVER = BUTTON
 		SCROLLBAR = ACCENT
 		SCROLLBARHOVER = ACCENT
 		clearentryhover="214 214 214 255"
 		NAVBAR=BASE1
-		DROPDOWN=BUTTON2
+		DROPDOWN=BUTTON
 		DROPDOWNHOVERBORDER=BLACK
 		outline="182 182 182 255"
 		buttonhover="184 184 184 255"
@@ -143,9 +145,7 @@
 
 ///////////////////////////////
 //======Top Bar Buttons======//
-		mainButton=NAVBUTTON
 		mainButton_h=white75
-		mainButton_c=white
 		mainButton_d=white24
 
 
@@ -284,13 +284,6 @@
 		textList_a=white
 		textList_d=white45
 
-
-//////////////////////////////////////////////
-//======Divider / List Panel Separator======//
-		Dividers=DIVIDER
-		Separators=frameBorder
-
-
 //////////////////////////////
 //======Downloads Page======//
 		appName=text
@@ -324,12 +317,6 @@
 //////////////////////////////////
 //======Chat Window border======//
 		chatframe=white
-
-
-//////////////////////////
-//======Search Bar======//
-		TextEntry=TEXTENTRY
-
 
 /////////////////////////////////////////////////
 //======Recent/Installed/Tools Categories======//

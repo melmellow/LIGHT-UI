@@ -22,7 +22,7 @@
 		
 		Button
 		{
-			bgcolor=BUTTON2
+			bgcolor=BUTTON
 			font-family=basefont
 			textcolor=ACCENT
 				render {
@@ -35,7 +35,7 @@
 		Button:hover
 		{
 			
-			bgcolor=BUTTON2HOVER
+			bgcolor=BUTTONHOVER
 			textcolor=ACCENT
 					render {
 				1="fill(x0,y0,x1,y0+1, outlinehover)"  // top

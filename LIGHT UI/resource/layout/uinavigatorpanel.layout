@@ -378,11 +378,11 @@ styles
 	}
 	CUINavButton:selected
 	{
-		textcolor=mainButton_c
+		textcolor=NAVBUTTONSELECTED
 		render
 		{
-			1="fill(x0, y1-1, x1, y1, focus)"
-			1="fill(x0, y0+1, x1, y0+2, focus)" [$OSX||$LINUX]
+			1="fill(x0, y1-1, x1, y1, NAVBUTTONSELECTEDLINE)"
+			1="fill(x0, y0+1, x1, y0+2, NAVBUTTONSELECTEDLINE)" [$OSX||$LINUX]
 		}
 	}
 	CUINavButton:disabled
