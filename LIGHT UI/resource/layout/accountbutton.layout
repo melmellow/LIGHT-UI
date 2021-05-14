@@ -59,7 +59,7 @@
 		AccountBalanceStyle
 	
 		{
-			textcolor="88 88 88 255"
+			textcolor = ACCENT
 			bgcolor="NONE"
 			font-weight=500
 			padding-right=2

@@ -26,6 +26,7 @@
 		TEXTENTRYHIGHLIGHT = "213 213 213 255"
 		TEXTENTRYBORDER = "184 184 184 255"
 		GREEN = "167 213 161 180"
+		MENUBACKGROUND = DIVIDER
 		PROGRESSBAR = GREEN
 		BUTTONHOVER = BUTTON
 		DOWNLOADSDISCGRAPH = ACCENT
@@ -145,20 +146,10 @@
 		frameBorder_a=frameBorder
 
 
-//////////////////////////////////
-//======Top Bar Background======//
-		Header_Dark=NAVBAR
-		Header_dark2=BASE2
-
 ///////////////////////////////
 //======Top Bar Buttons======//
 		mainButton_h=white75
 		mainButton_d=white24
-
-
-////////////////////////////////
-//======Drop Menus===========//
-		bgMenu=NAVBAR
 
 		itemMenu=white
 		itemMenu_a=white
