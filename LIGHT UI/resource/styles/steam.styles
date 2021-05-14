@@ -47,10 +47,11 @@ steam.styles
 
 		LabelEVCert
 		{
-			bgcolor="232 232 232 255"
+			bgcolor = TEXTENTRY
 			textcolor=SecureURL
 			padding-left=4
 			padding-right=4
+			image="ICONS/URL_SECURE"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
