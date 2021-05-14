@@ -7,7 +7,7 @@
 		Restart 		{	text="#Steam_MustRestart_Button"		command="RestartSteam" }
 		Divider {}
 		Support			{	text="#steam_menu_support"			command="Support" }
-		CheckForUpdates	{	text="#steam_menu_checkforupdates"		command="CheckForUpdates" }
+			SkinVersionMod {	text="Unofficial Patch 9"  shellcmd="steam://openurl/https://github.com/uwuAngelo/LIGHT-UI" }
 		Divider {}
 		BackupGames		{	text="#steam_menu_backupgames"			command="backupgames" }
 		ActivateRetail		{	text="#Steam_RegisterProductCode"		command="ActivateRetail" }
