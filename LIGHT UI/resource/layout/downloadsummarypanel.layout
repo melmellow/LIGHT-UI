@@ -309,7 +309,7 @@
 		}
 		NetGraphPanel
 		{
-			textcolor="214 214 214 255"
+			textcolor = DOWNLOADSNETGRAPH
 			bgcolor "none"
 			render_bg {}
 		}
@@ -318,7 +318,7 @@
 		
 		DiscGraphPanel
 		{
-			textcolor="88 88 88 255"
+			textcolor = DOWNLOADSDISCGRAPH 
 			bgcolor "none"
 			render_bg {}
 		}

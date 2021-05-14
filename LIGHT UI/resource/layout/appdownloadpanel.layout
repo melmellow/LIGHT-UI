@@ -179,7 +179,7 @@
 		{
 			//bgcolor="236 236 236 255"
 			//alpha=63.75
-			textcolor="167 213 161 180"
+			textcolor = PROGRESSBAR
 			render_bg {}
 			render {}
 		}
