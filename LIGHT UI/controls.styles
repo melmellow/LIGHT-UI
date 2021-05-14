@@ -69,10 +69,10 @@
 		TextEntry
 		{
 			font-family=basefont
-			bgcolor = TEXTENTRY
+			bgcolor = 1TEXTENTRY
 			textcolor = ACCENT
 			shadowtextcolor=white
-			selectedtextcolor="88 88 88 88"
+			selectedtextcolor = ACCENT
 			selectedbgcolor = TEXTENTRYHIGHLIGHT
 			inset-left=2
 			render_bg {

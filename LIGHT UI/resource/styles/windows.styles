@@ -41,13 +41,14 @@ windows.styles
 		}
 		TextEntry
 		{
+			bgcolor = 1TEXTENTRY
 			font-size=16
 			CORNER_ROUNDING=30
 				render{
-				1="fill(x0,y0,x1,y0+1,white696969)"  // top
-				2="fill(x0,y1-1,x1,y1,white696969)"  // bottom
-				3="fill(x0,y0+1,x0+1,y1-1,white696969)"  // left
-				4="fill(x1-1,y0+1,x1,y1-1,white696969)"  // right
+				1="fill(x0,y0,x1,y0+1,TEXTENTRYBORDER)"  // top
+				2="fill(x0,y1-1,x1,y1,TEXTENTRYBORDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1,TEXTENTRYBORDER)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1,TEXTENTRYBORDER)"  // right
 			}
 		}
 		EmoticonMenuItemStyle
