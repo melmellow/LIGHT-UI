@@ -252,7 +252,7 @@
 		ComboBoxButton
 		{
 			bgcolor="none"
-			image="graphics/icon_down_default"
+			image="graphics/icon_down"
 			width=max
 			padding-left=2
 			render{
