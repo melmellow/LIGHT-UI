@@ -123,6 +123,16 @@
   */
 }
 
+.throbber_LoadingWrapper_2wAKy .throbber_Throbber_lYUEj,
+.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber,
+.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber path {
+  opacity: 60% !important;
+}
+
+.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber.throbber_blur_1ctjA {
+  filter: BRIGHTNESS(0) !important;
+}
+
 /*LIBRARY HOME ICON*/
 
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {

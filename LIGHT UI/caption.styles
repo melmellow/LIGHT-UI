@@ -29,7 +29,7 @@
 		FrameMinimizeButton:framefocus [$OSX]
 		{
 			render_bg {}
-			bgcolor="228 228 228 255"
+			bgcolor=BASE1
 			image="graphics/osx_min_def"
 			image="graphics/osx_min_def_new" [$OSX1010]
 		}
@@ -42,7 +42,7 @@
 		}
 		FrameMinimizeButton:active [$WIN32||$WINDOWS||$LINUX]
 		{
-			bgcolor="228 228 228 255"
+			bgcolor=BASE1
 		}
 		FrameMinimizeButton:active [$OSX]
 		{
@@ -82,7 +82,7 @@
 		FrameMaximizeButton:framefocus:hover [$OSX]
 		{
 			render_bg {}
-			bgcolor="228 228 228 255"
+			bgcolor=BASE1
 			image="graphics/osx_max_hov"
 			image="graphics/osx_max_hov_new" [$OSX1010]
 		}
@@ -129,7 +129,7 @@
 		FrameRestoreButton:framefocus:hover [$OSX]
 		{
 			render_bg {}
-			bgcolor="228 228 228 255"
+			bgcolor=BASE1
 			image="graphics/osx_max_hov"
 			image="graphics/osx_max_hov_new" [$OSX1010]
 		}

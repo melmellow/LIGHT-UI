@@ -5,7 +5,7 @@
 	{
 		"ManageSecurityButton" 
 		{
-			bgcolor="228 228 228 255"
+			bgcolor=BASE1
 		}
 	}
 	
@@ -22,9 +22,9 @@
 		
 		Button
 		{
-			bgcolor="214 214 214 255"
+			bgcolor=BUTTON2
 			font-family=basefont
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 				render {
 				1="fill(x0,y0,x1,y0+1, buttonhover)"  // top
 				2="fill(x0,y1-1,x1,y1, buttonhover)"  // bottom
@@ -35,8 +35,8 @@
 		Button:hover
 		{
 			
-			bgcolor="214 214 214 255"
-			textcolor="88 88 88 255"
+			bgcolor=BUTTON2HOVER
+			textcolor=ACCENT
 					render {
 				1="fill(x0,y0,x1,y0+1, outlinehover)"  // top
 				2="fill(x0,y1-1,x1,y1, outlinehover)"  // bottom
@@ -223,10 +223,10 @@
 		ComboBox
 		{
 			inset="3 -1"
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 			selectedtextcolor="White"
 			font-family=basefont
-			bgcolor="214 214 214 255"
+			bgcolor=DROPDOWN
 			render
 			{
 				2="fill(x0,y1-1,x1,y1,white696969)"  // bottom
@@ -236,7 +236,7 @@
 		{
 			render
 			{
-				2="fill(x0,y1-1,x1,y1,combohover)"  // bottom
+				2="fill(x0,y1-1,x1,y1,DROPDOWNHOVERBORDER)"  // bottom
 			}
 		}
 		ComboBox:disabled
@@ -288,7 +288,7 @@
 		PageTab:selected
 		{
 			textcolor="White"
-			bgcolor="228 228 228 255"
+			bgcolor=BASE1
 			render_bg
 			{
 				1="fill(x0+1,y0,x1-1,y1-1,whitebase)"
@@ -373,11 +373,11 @@
 
 		ScrollBarHandle  //vertical scrollbar thumb
 		{
-			bgcolor="88 88 88 255"
+			bgcolor=SCROLLBAR
 		}
 		"ScrollBarHandle:hover"
 		{
-			bgcolor="88 88 88 255"
+			bgcolor=SCROLLBARHOVER
 			render_bg
 			{
 				0="fill( x0, y0, x1, y1, white05 )"

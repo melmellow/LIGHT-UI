@@ -11,7 +11,7 @@
 		FrameTitle
 		{
 			textcolor="none"
-			bgcolor="222 222 222 255"
+			bgcolor=BASE2
 			render_bg{}
 		}
 

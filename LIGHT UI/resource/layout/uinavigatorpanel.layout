@@ -363,7 +363,7 @@ styles
 
 	CUINavButton
 	{
-		textcolor=mainButton
+		textcolor=NAVBUTTON
 		font-family=semibold
 		font-style="uppercase"
 		font-weight=400
@@ -374,8 +374,7 @@ styles
 	}
 	CUINavButton:hover
 	{
-		textcolor="0 0 0"
-   // bgcolor="228 228 228 255"
+		textcolor=NAVBUTTONHOVER
 	}
 	CUINavButton:selected
 	{

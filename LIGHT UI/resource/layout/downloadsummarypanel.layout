@@ -129,11 +129,11 @@
 		}
 		throttleLabel
 		{
-			textcolor="0 0 0"
+			textcolor=BLACK
 			font-family=semibold
 			font-style=uppercase
 			
-			bgcolor="236 236 236 255"
+			bgcolor=BASE3
 			
 			padding= 14
 			PADDING-RIGHT = 1
@@ -141,8 +141,8 @@
 			
 			render {
 			
-				2="fill(x0,y1-1,x1,y1,shadow1)"
-			//	4="fill(x1-1,y0+1,x1,y1-1,shadow1)"  
+				2="fill(x0,y1-1,x1,y1,DIVIDER)"
+			//	4="fill(x1-1,y0+1,x1,y1-1,DIVIDER)"  
 			}
 		}
 		throttleValue
@@ -170,35 +170,30 @@
 		bigtextNonUpper
 		{
 			textcolor="88 88 88 255"
-			bgcolor="236 236 236 255"
+			bgcolor=BASE3
 			render_bg{}
 			font-family=basefont
 			padding= 14
 			PADDING-RIGHT = 9
 			padding-left = 8
 				render {
-			//	1="fill(x0,y0,x1,y0+1,white696969)"  top
-				2="fill(x0,y1-1,x1,y1,shadow1)"
-			//	3="fill(x0,y0+1,x0+1,y1-1,white696969)"   left
-				4="fill(x1-1,y0+1,x1,y1-1,shadow1)"
+				2="fill(x0,y1-1,x1,y1,DIVIDER)"
+				4="fill(x1-1,y0+1,x1,y1-1,DIVIDER)"
 			}
 		}
 		bigtextlabel
 		{
-			textcolor="0 0 0"
+			textcolor=BLACK
 			font-family=semibold
 			font-style=uppercase
 			PADDING = 14
 			PADDING-RIGHT = 1
 			PADDING-LEFT = 9
 			
-			BGCOLOR="236 236 236 255"
+			BGCOLOR=BASE3
 			
 			render {
-			//	1="fill(x0,y0,x1,y0+1,white696969)"  top
-				2="fill(x0,y1-1,x1,y1,shadow1)"
-			//	3="fill(x0,y0+1,x0+1,y1-1,white696969)"   left
-			//	4="fill(x1-1,y0+1,x1,y1-1,shadow1)"
+				2="fill(x0,y1-1,x1,y1,DIVIDER)"
 			}
 		}
 			bigtextlabel2
@@ -209,7 +204,7 @@
 			font-weight=bold
 			padding = 14
 
-			BGCOLOR="236 236 236 255"
+			BGCOLOR=BASE3
 			
 			//render_bg{
 			//	1="fill(x0,y0,x1,y0+1,white696969)"  top
@@ -228,7 +223,7 @@
 		{
 			textcolor="88 88 88 255"
 			font-family=semilight
-			bgcolor="236 236 236 255"
+			bgcolor=BASE3
 		}
 
 		PauseButton

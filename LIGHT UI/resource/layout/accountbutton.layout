@@ -60,7 +60,7 @@
 	
 		{
 			textcolor="88 88 88 255"
-			bgcolor="228 228 228 255"
+			bgcolor="NONE"
 			font-weight=500
 			padding-right=2
 			padding-left=0

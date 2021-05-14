@@ -14,10 +14,24 @@
 
 ///////////////////////////
 //======Base Colors======//
-		shadow1="214 209 209 255"
+		BASE1 = "228 228 228 255"
+		BASE2 = "222 222 222 255"
+		BASE3 = "236 236 236 255"
+		ACCENT = "88 88 88 255"
+		TEXTENTRY = "232 232 255"
+		BLACK = "0 0 0 255"
+		BUTTON2 = "214 214 214 255"
+		DIVIDER = "214 209 209 255"
+		NAVBUTTON = ACCENT
+		NAVBUTTONHOVER = BLACK
+		BUTTON2HOVER = BUTTON2
+		LISTITEMBACKGROUNDHOVER = BUTTON2
+		SCROLLBAR = ACCENT
+		SCROLLBARHOVER = ACCENT
 		clearentryhover="214 214 214 255"
-		navbar="228 228 228 255"
-		combohover="88 88 88 255"
+		NAVBAR=BASE1
+		DROPDOWN=BUTTON2
+		DROPDOWNHOVERBORDER=BLACK
 		outline="182 182 182 255"
 		buttonhover="184 184 184 255"
 		outlinehover="141 141 141 255"
@@ -55,7 +69,6 @@
 		black25="255 255 255 63.75"
 		black45="255 255 255 114.75"
 		black75="255 255 255 191.25"
-		black="255 255 255 255"
 
 
 /////////////////////////
@@ -74,7 +87,7 @@
 
 /////////////////////////////////////
 //======Base Background Color======//
-		ClientBG="228 228 228 255"
+		ClientBG=BASE1
 		ClientBGTransparent="0 0 0 40"
 
 
@@ -86,7 +99,7 @@
 
 ////////////////////
 //======Text======//
-		text="88 88 88 255"
+		text=ACCENT
 		text_a="88 88 88 255"
 		url="88 88 88 255"
 		url_a="88 88 88 255"
@@ -125,12 +138,12 @@
 
 //////////////////////////////////
 //======Top Bar Background======//
-		Header_Dark="228 228 228 255"
-		Header_dark2="222 222 222 255"
+		Header_Dark=NAVBAR
+		Header_dark2=BASE2
 
 ///////////////////////////////
 //======Top Bar Buttons======//
-		mainButton=white75
+		mainButton=NAVBUTTON
 		mainButton_h=white75
 		mainButton_c=white
 		mainButton_d=white24
@@ -274,7 +287,7 @@
 
 //////////////////////////////////////////////
 //======Divider / List Panel Separator======//
-		Dividers="214 209  209 255"
+		Dividers=DIVIDER
 		Separators=frameBorder
 
 
@@ -315,7 +328,7 @@
 
 //////////////////////////
 //======Search Bar======//
-		TextEntry="232 232 232 255"
+		TextEntry=TEXTENTRY
 
 
 /////////////////////////////////////////////////
