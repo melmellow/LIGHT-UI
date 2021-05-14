@@ -821,7 +821,7 @@ steam.styles
 //======This controls the dropmenu buttons (inbox,filter button.....)=====//
 		MenuItem
 		{
-			textcolor=itemMenu
+			textcolor = LISTITEM
 			font-family=basefont
 			bgcolor=bgItemMenu
 		}
