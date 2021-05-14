@@ -21,6 +21,7 @@
 		TEXTENTRY = "232 232 255"
 		BLACK = "0 0 0 255"
 		BUTTON = "214 214 214 255"
+		BUTTONBORDER = "184 184 184 255"
 		DIVIDER = "214 209 209 255"
 		TEXTENTRYHIGHLIGHT = "213 213 213 255"
 		TEXTENTRYBORDER = "184 184 184 255"
@@ -37,9 +38,7 @@
 		DROPDOWN=BUTTON
 		DROPDOWNHOVERBORDER=BLACK
 		outline="182 182 182 255"
-		buttonhover="184 184 184 255"
 		outlinehover="141 141 141 255"
-		buttonactive="113 113 113 255"
 		white696969="182 182 182 255"
 		white0001="255 255 0 0.05"
 		white001="0 0 0 2.55"
@@ -88,10 +87,6 @@
 		green="84 164 72 255"
 		green_bright="0 255 0 255"
 		Red="255 0 0 255"
-
-/////////////////////////////////////
-//======Base Background Color======//
-		ClientBG=BASE1
 		ClientBGTransparent="0 0 0 40"
 
 

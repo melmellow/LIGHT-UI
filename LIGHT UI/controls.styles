@@ -26,10 +26,10 @@
 			font-family=basefont
 			textcolor=ACCENT
 				render {
-				1="fill(x0,y0,x1,y0+1, buttonhover)"  // top
-				2="fill(x0,y1-1,x1,y1, buttonhover)"  // bottom
-				3="fill(x0,y0+1,x0+1,y1-1, buttonhover)"  // left
-				4="fill(x1-1,y0+1,x1,y1-1, buttonhover)"  // right
+				1="fill(x0,y0,x1,y0+1, BUTTONBORDER)"  // top
+				2="fill(x0,y1-1,x1,y1, BUTTONBORDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BUTTONBORDER)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BUTTONBORDER)"  // right
 			}
 		}
 		Button:hover
@@ -63,7 +63,8 @@
 			bgcolor=focus
 		}
 
-		
+		//Check
+		 bordercolor="255 0 0 255"
 		//Text Boxes
 		TextEntry
 		{
@@ -74,7 +75,13 @@
 			selectedtextcolor="88 88 88 88"
 			selectedbgcolor = TEXTENTRYHIGHLIGHT
 			inset-left=2
-	
+			render_bg {
+			0="fill( x0, y0 + 1, x0 + 1, y1 - 1, bordercolor )"
+			0="fill( x1, y0 + 1, x1 - 1, y1 - 1, bordercolor )"
+				0="fill( x0 + 1, y0, x1 - 1, y0 + 1, bordercolor )"
+				0="fill( x0 + 1, y1 - 1, x1 - 1, y1, bordercolor )"
+				}
+		}
 
 		TextEntry:empty
 		{
