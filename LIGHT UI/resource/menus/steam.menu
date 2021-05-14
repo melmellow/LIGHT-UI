@@ -7,7 +7,6 @@
 		Restart 		{	text="#Steam_MustRestart_Button"		command="RestartSteam" }
 		Divider {}
 		Support			{	text="#steam_menu_support"			command="Support" }
-			SkinVersionMod {	text="Unofficial Patch 9"  shellcmd="steam://openurl/https://github.com/uwuAngelo/LIGHT-UI" }
 		Divider {}
 		BackupGames		{	text="#steam_menu_backupgames"			command="backupgames" }
 		ActivateRetail		{	text="#Steam_RegisterProductCode"		command="ActivateRetail" }
@@ -19,7 +18,7 @@
 		Mini_Mode {	text="#steam_menu_minimode"  shellcmd="steam://open/minigameslist" }
 		Large_Mode { text="#steam_menu_largemode"  shellcmd="steam://open/largegameslist" }
 		GoOnline		{	text="#SteamUI_OfflineMode_GoOnline"		command="goonline" }
-	
+		SkinVersionMod {	text="Light UI"  shellcmd="steam://openurl/https://github.com/uwuAngelo/LIGHT-UI" }
 	}
   
 }
