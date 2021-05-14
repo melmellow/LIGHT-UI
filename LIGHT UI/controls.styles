@@ -261,7 +261,7 @@
 		}
 		ComboBoxButton:hover
 		{
-			image="graphics/icon_down_hover"
+			
 		}
 
 		PageTab
