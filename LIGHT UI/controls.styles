@@ -63,8 +63,7 @@
 			bgcolor=focus
 		}
 
-		//Check
-		 bordercolor="255 0 0 255"
+	
 		//Text Boxes
 		TextEntry
 		{
@@ -80,6 +79,7 @@
 		TextEntry:empty
 		{
 			textcolor="none"
+				bgcolor = TEXTENTRY
 		}
 
 		//Chat Emoticon Button
