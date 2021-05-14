@@ -827,7 +827,7 @@ steam.styles
 		}
 		MenuItem:hover
 		{
-			textcolor=itemMenu_a
+			textcolor=LISTITEMHOVER
 			bgcolor=bgItemMenu_a
 		}
 		MenuItem:disabled

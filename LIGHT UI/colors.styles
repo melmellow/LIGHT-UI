@@ -3,17 +3,9 @@
 	include "custom.styles"
 	colors
 	{
-// _a = active (clicked, hover, focused)
-// _h = hover
-// _c = clicked
-// _d = disabled
 
-////////////////////////
-//======No Color======//
 		none="0 0 0 0"
 
-///////////////////////////
-//======Base Colors======//
 		BASE1 = "228 228 228 255"
 		BASE2 = "222 222 222 255"
 		BASE3 = "236 236 236 255"
@@ -35,6 +27,7 @@
 		NAVBUTTON = ACCENT
 		NAVBUTTONSELECTEDLINE = ACCENT
 		LISTITEM = ACCENT
+		LISTITEMHOVER = ACCENT
 		NAVBUTTONSELECTED = BLACK
 		NAVBUTTONHOVER = BLACK
 		LISTITEMBACKGROUNDHOVER = BUTTON
