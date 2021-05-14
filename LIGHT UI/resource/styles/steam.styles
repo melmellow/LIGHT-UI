@@ -188,7 +188,7 @@ steam.styles
 		"ProgressBox ProgressBar"
 		{
 			textcolor="none"
-			bgcolor="none"
+			bgcolor = BASE1
 			render{}
 		}
 		"ProgressBox FrameTitle"
