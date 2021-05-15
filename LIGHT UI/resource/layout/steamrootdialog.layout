@@ -105,16 +105,16 @@
 
 		inboxmenuitem
 		{
-			textcolor=white45
+			textcolor = ACCENT
 			padding-left=7
 		}
 		inboxmenuitem:hover
 		{
-			textcolor=white
+			textcolor = ACCENT
 		}
 		inboxmenuitem_active
 		{
-			textcolor=white
+			textcolor = ACCENT
 		}
 
 		announcement_button

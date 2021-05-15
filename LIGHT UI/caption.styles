@@ -17,7 +17,7 @@
 		}
 		FrameMinimizeButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
-			bgcolor="214 214 214 255"
+			bgcolor = CAPTIONBUTTONHOVER
 			//IMAGE="icons/caption/minimize_h"
 			render_bg{}
 		}
@@ -63,7 +63,7 @@
 		}
 		FrameMaximizeButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
-			BGCOLOR="214 214 214 255"
+			BGCOLOR = CAPTIONBUTTONHOVER
 			//IMAGE="graphics\metro\icons\caption\maximize_h"
 			render_bg{}
 		}
@@ -110,7 +110,7 @@
 		}
 		FrameRestoreButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
-			bgcolor="214 214 214 255"
+			bgcolor = CAPTIONBUTTONHOVER
 			//image="icons/caption/restore_h"
 			render_bg{}
 		}
@@ -158,7 +158,7 @@
 		FrameCloseButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
 			//image="icons/CAPTION/close_h"
-			BGCOLOR="214 214 214 255"
+			BGCOLOR = CAPTIONBUTTONHOVER
 			render_bg{}
 		}
 		FrameCloseButton:hover [$OSX]
@@ -211,7 +211,7 @@
 		}
 		"ToolWindow FrameMinimizeButton:hover"
 		{
-			bgcolor="214 214 214 255"
+			bgcolor = CAPTIONBUTTONHOVER
 			RENDER_BG{}
 		}
 		"ToolWindow FrameMinimizeButton:active"

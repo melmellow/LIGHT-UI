@@ -823,6 +823,7 @@ steam.styles
 				3="fill( x0, y0+1, x0+1, y1-1, DIVIDER)"	// Left
 				4="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"	// Right
 			}
+			MARGIN-TOP=1
 			padding-right=0
 			corner_rounding=30
 		}
@@ -833,7 +834,7 @@ steam.styles
 		{
 			textcolor = LISTITEM
 			font-family=basefont
-			bgcolor=bgItemMenu
+			bgcolor="NONE"
 		}
 		MenuItem:hover
 		{
