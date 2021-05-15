@@ -13,12 +13,12 @@
 		StatusLabel
 		{
 			inset-left=7
-			bgcolor="228 228 228 255"
+			bgcolor="NONE"
 			image="icons/downloads"
 		}
 		StatusLabel:hover
 		{
-			bgcolor="228 228 228 255"
+			bgcolor="NONE"
 			render {}
 			image="icons/downloads_h"
 		}
