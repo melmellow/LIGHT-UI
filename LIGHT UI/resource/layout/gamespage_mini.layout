@@ -27,17 +27,16 @@
 		{
 			inset="0 0 0 0"
 			textcolor="none"
-			bgcolor="228 228 228 255"
+			bgcolor = BASE2
 		}
 		NavLabel2:hover
 		{
 			textcolor="none"
-			bgcolor="214 214 214 255"
+			bgcolor=BUTTON
 		}
 		NavLabel2:selected
 		{
 			textcolor="none"
-			bgcolor="228 228 228 255"
 		}
 		"CGamesPage_Mini CMiniGameFilterMenuButton"
 		{
@@ -53,7 +52,7 @@
 		RichText
 		{
 			textcolor="none"
-			selectedbgcolor="none"
+			selectedbgcolor = LISTITEMBACKGROUNDHOVER
 		}
 	}
 
@@ -69,6 +68,9 @@
 		//Search
 		place { control="label_search_icon" region=top height=40 width=0 }
 		place { control="library_search" region=top start=label_search_icon height=40 width=max margin-right=38 }
+
+		 place { control="MenuButton" width=10 height=10}
+
 
 		//Content
 		place { control="subnavgroup_library" align=top-center y=80 height=26 width=max margin-right=9 margin-left=9 }

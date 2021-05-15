@@ -566,7 +566,7 @@ steam.styles
 //======This is the GameList from left======//
 		"CGamesListPanel"
 		{
-			bgcolor="228 228 228 255"
+			bgcolor = BASE2
 			render_bg {}
 					render{
 				1="fill(x0,y0,x1,y0+1, "none")"  // top
@@ -578,22 +578,25 @@ steam.styles
 
 		"GameItem_Uninstalled"
 		{
-			textcolor=game_uninstalled
-			selectedtextcolor=game_uninstalled_selected
+			textcolor = ACCENT
+			selectedtextcolor= BLACK
 		}
 		"GameItem_Uninstalled:hover"
 		{
-			textcolor=game_uninstalled_hover
+			textcolor = BLACK
 		}
 
 		"GameItem_Installed"
 		{
-			textcolor=game_installed
-			selectedtextcolor=game_installed_selected
+			FONT-WEIGHT = 700
+			textcolor = ACCENT
+			selectedtextcolor = ACCENT
 		}
 		"GameItem_Installed:hover"
 		{
-			textcolor=game_installed_hover
+
+			textcolor = ACCENT
+			
 		}
 
 		"GameItem_Running"
@@ -684,7 +687,7 @@ steam.styles
 		ListPanelColumnHeader:hover
 		{
 			textcolor="textHeaderList_a"
-			bgcolor=white05
+			bgcolor=LISTITEMBACKGROUNDHOVER
 		}
 
 		"CSteamRootDialog ListPanelColumnHeader"
@@ -717,7 +720,7 @@ steam.styles
 		}
 		"CGamesListPanel ListPanelColumnSelectButton"
 		{
-			bgcolor=bgGameList
+			bgcolor = BASE2
 			render_bg{}
 			render{}
 		}
@@ -739,8 +742,6 @@ steam.styles
 		{
 			textcolor="White"
 			bgcolor="none"
-			
-			3="fill( x1-1, y0+1, x1, y1-1, white10 )"
 					render{
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
 				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
@@ -803,13 +804,13 @@ steam.styles
 
 		MainNav
 		{
-			textcolor="White50"
-			selectedtextcolor="white"
+			textcolor = ACCENT
+			selectedtextcolor = LISTITEMBACKGROUNDHOVER
 			font-family=basefont
 			font-style="uppercase"
 			font-size=21
 			font-weight=700
-			bgcolor="none"
+			bgcolor = BASE2
 		}
 
 //////////////////////////////////////////////////////////////////////////////////////
