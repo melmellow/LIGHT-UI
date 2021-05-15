@@ -127,25 +127,6 @@
   */
 }
 
-.Install.contextMenuItem.contextmenu_contextMenuItem_1n7Wl.library_ContextMenuAction_Z5iAX:hover {
-  background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
-}
-
-.contextmenu_contextMenuItem_1n7Wl .SVGIcon_Button {
-  opacity: VAR(--CONTEXTMENUACTIONBUTTONICONOPACITY) !important;
-  filter: VAR(--CONTEXTMENUACTIONBUTTONICONFILTER) !important;
-}
-
-.throbber_LoadingWrapper_2wAKy .throbber_Throbber_lYUEj,
-.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber,
-.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber path {
-  opacity: 60% !important;
-}
-
-.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber.throbber_blur_1ctjA {
-  filter: BRIGHTNESS(0) !important;
-}
-
 /*LIBRARY HOME ICON*/
 
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
@@ -309,6 +290,25 @@ img {
   .library_NewCollectionTarget_3PAPB.library_Visible_3QGgg {
   border: 3px dashed var(--BLUE) !important;
   background-color: var(--BASE3) !important;
+}
+
+.Install.contextMenuItem.contextmenu_contextMenuItem_1n7Wl.library_ContextMenuAction_Z5iAX:hover {
+  background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
+}
+
+.contextmenu_contextMenuItem_1n7Wl .SVGIcon_Button {
+  opacity: VAR(--CONTEXTMENUACTIONBUTTONICONOPACITY) !important;
+  filter: VAR(--CONTEXTMENUACTIONBUTTONICONFILTER) !important;
+}
+
+.throbber_LoadingWrapper_2wAKy .throbber_Throbber_lYUEj,
+.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber,
+.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber path {
+  opacity: 60% !important;
+}
+
+.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber.throbber_blur_1ctjA {
+  filter: BRIGHTNESS(0) !important;
 }
 
 .removegamehover_Container_1rdB7

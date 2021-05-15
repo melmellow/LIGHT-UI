@@ -46,7 +46,8 @@
     --red:#f00;
     --orange:#f60;
     --yellow:#ff0;
-    --TEXTNENTRYBORDERROUNDED:10PX;
+    --TEXTENTRYBORDERROUNDED:10PX;
+    --TEXTENTRYBORDER:VAR(--BUTTONBORDER)
     --blur:blur(10px);
     --BORDER1:6PX;
     --border2:0;
@@ -1284,6 +1285,15 @@ input.inputTagsFilter+label{
 .btn_profile_action.btn_medium:hover{
     border-color:#8d8d8d!important
 }
+
+#create_account input, #create_account select {
+    border:1px solid var(--TEXTENTRYBORDER)
+}
+
+.joinsteam .section_title {
+    color:var(--ACCENT)!important;
+}
+
 .playerAvatar.profile_header_size.online{
     background:#1181d2!important
 }
@@ -8508,6 +8518,10 @@ input.discussionSearchText::SELECTION{
 
 .btnv6_blue_blue_innerfade{
     background:none!important
+}
+
+.joinsteam label {
+    COLOR:VAR(--ACCENT)!important;
 }
 
 .btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
