@@ -30,7 +30,7 @@
 		//Controls
 		place { control="BackButton,ForwardButton" y=40 x=1 align=left width=40 height=38 }
 		place { control="EVCert,URLBar" start=ForwardButton align=left width=max height=38 margin-right=77 }
-		place { control="PageLoadThrobber,ReloadButton,StopButton" start=URLBar align=right height=39 width=38 }
+		place { control="PageLoadThrobber,ReloadButton,StopButton" start=URLBar align=right height=0 width=0 }
 
 		//Page
 		place { control="HTMLPopupChild" width=max height=max y=78 margin-left=1 margin-right=1 margin-bottom=1 }

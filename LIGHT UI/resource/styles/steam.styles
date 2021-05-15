@@ -1506,6 +1506,8 @@ steam.styles
 
 		ReloadButton
 		{
+			width=0
+			height=0
 			inset-left=8
 			bgcolor="none"
 			image=graphics/metro/urlbar/reload_p
