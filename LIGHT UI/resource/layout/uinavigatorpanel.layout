@@ -375,6 +375,7 @@ styles
 	CUINavButton:hover
 	{
 		textcolor=NAVBUTTONHOVER
+		BGCOLOR = NAVBUTTONBACKGROUNDHOVER
 	}
 	CUINavButton:selected
 	{
