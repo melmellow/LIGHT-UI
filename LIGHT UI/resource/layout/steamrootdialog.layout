@@ -36,7 +36,7 @@
 		}
 		view_friends:hover
 		{
-			bgcolor="none"
+			bgcolor = ACTIONBUTTONHOVER
 			render_bg={}
 			image="icons/friends_h"
 		}
@@ -158,7 +158,7 @@
 		inbox_button:hover
 		{
 			textcolor=white
-			bgcolor="228 228 228 255"
+			bgcolor = ACTIONBUTTONHOVER
 			render_bg
 			{
 				0="image(x0+8,y0+12,x1,y1,icons/notifications_active)"
@@ -279,7 +279,7 @@
 		}
 		FullscreenButton:hover
 		{
-			bgcolor="228 228 228 255"
+			bgcolor = ACTIONBUTTONHOVER
 			render_bg={}
 			image="graphics/games"
 		}

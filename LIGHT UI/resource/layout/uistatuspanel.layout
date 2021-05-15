@@ -18,7 +18,7 @@
 		}
 		StatusLabel:hover
 		{
-			bgcolor="NONE"
+			bgcolor = ACTIONBUTTONHOVER
 			render {}
 			image="icons/downloads_h"
 		}
