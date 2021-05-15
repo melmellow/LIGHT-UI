@@ -15,7 +15,7 @@
 			CDialogSettings {
 			minimum-width=810
 			minimum-height=734
-			bgcolor=BASE2
+			bgcolor = BASE2
 			render {
 				0="image_scale( x0 + 182, y0, x0 + 188, y1, graphics/material/shadow_vert2)"
 			}
@@ -29,7 +29,7 @@
 			//minimum-height="505"
 			//minimum-width="525"
 			//minimum-height="505"
-			bgcolor="none"
+			bgcolor = BASE2
 			render_bg{}
 		}
 		"SettingsList"

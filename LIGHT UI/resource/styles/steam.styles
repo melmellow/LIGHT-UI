@@ -12,7 +12,6 @@ steam.styles
 	include "settings.styles"
 	colors
 	{
-		dialogbg2="228 228 228 255"
 	  DialogBG=BASE2
 		PropertySheetBG="50 55 61 255"
 		ButtonBorderDisabled="112 120 136 255"
@@ -904,7 +903,7 @@ steam.styles
 //======This is the HAMBURGER Menu=====//
 		"MenuBar MenuButton"
 		{
-			bgcolor="228 228 228 255"
+			bgcolor="NONE"
 			render_bg{}
 			image="icons/menu"
 			padding-left=5
@@ -912,13 +911,13 @@ steam.styles
 		}
 		"MenuBar MenuButton:hover"
 		{
-			bgcolor="228 228 228 255"
+			bgcolor = MENUBUTTONHOVER
 			render_bg{}
 			image="icons/menu_h"
 		}
 		"MenuBar MenuButton:selected"
 		{
-			bgcolor="228 228 228 255"
+			bgcolor = MENUBUTTON
 			render_bg{}
 		}
 
