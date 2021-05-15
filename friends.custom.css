@@ -1953,15 +1953,13 @@ display:none!important;}
 
 /*Line that separates friends and chat windows in single window mode*/
 .singleWindowDivider {
-    background-image: url(https://i.imgur.com/nlGfqx5.png)!important;
-	background-repeat:repeat-y!important;
     min-width: 6px!important;
     width: 1px!important;
-    background-color: #e4e4e4!important;
-    border-left: #dcdcdc!important;
-    border-right: #dcdcdc!important;
-    border-top: #e4e4e4!important;
-	border-bottom:#dedede!important;}
+    background-color: var(--SHADOW)!important;
+    border-left: none!important;
+    border-right: 1px solid var(--SHADOW)!important;
+    border-top: none!important;
+	border-bottom:none!important;}
 
 html.client_chat_frame body, html.web_chat_frame body {
 	background:#DCDCDC!important;
