@@ -28,7 +28,7 @@
 			Notifications.StackSize       "3"
 
 			ListPanel.TextColor       White
-			ListPanel.BgColor       BASE2
+			ListPanel.BgColor       BASE1
 			ListPanel.SelectedTextColor     White
 			ListPanel.SelectedBgColor     Focus
 			ListPanel.SelectedOutOfFocusgColor   Focus

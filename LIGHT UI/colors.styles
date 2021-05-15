@@ -89,7 +89,7 @@
 
 
 
-		ClientBG=BASE2
+		ClientBG=BASE1
 		ClientBGTransparent="0 0 0 40"
 
 		scroll=white02
