@@ -8442,6 +8442,10 @@ input.discussionSearchText::SELECTION{
     color:VAR(--ACCENT)!important
 }
 
+.community_home_login {
+    COLOR:VAR(--ACCENT)!important;
+}
+
 .persona.in-game, a.persona.in-game, .persona.in-game.a {
     COLOR:VAR(--GREEN)!IMPORTANT;
     BACKGROUND:VAR(--BASE1)!IMPORTANT;
