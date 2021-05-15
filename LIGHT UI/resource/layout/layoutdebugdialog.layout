@@ -9,10 +9,9 @@
 	{
 		LayoutDebugDialog	
 		{
-			bgcolor="header_dark2"
+			bgcolor = BASE2
 			minimum-width=500
 			minimum-height=300
-			bgcolor=header_dark2
 			render_bg
 			{
 				0="fill( x0, y0, x1, y0+36, "none" )"
@@ -24,7 +23,7 @@
 		}
 		ListPanel
 		{
-			text_aACCENT
+			text_a=ACCENT
 			bgcolor=Header_Dark2
 		}
 		RichText
@@ -34,7 +33,7 @@
 		ComboBox
 		{
 			font-size=14
-			bgcolor=ClientBG
+			bgcolor=BUTTON
 			render_bg {}
 		}
 	}

@@ -266,24 +266,24 @@
 
 		PageTab
 		{
-			textcolor="White50"
+			textcolor=ACCENT
 			font-family=semibold
 			bgcolor="none"
 			render_bg {}
 		}
 		PageTab:hover
 		{
-			textcolor="0 0 0 255"
+			textcolor = BLACK
 			bgcolor="none"
 		}
 		PageTab:selected
 		{
 			textcolor="White"
-			bgcolor=BASE1
+			bgcolor = "NONE"
 			render_bg
 			{
 				1="fill(x0+1,y0,x1-1,y1-1,whitebase)"
-				2="fill(x0+1, y1-1, x1-1, y1, focus)"
+				2="fill(x0+1, y1-1, x1-1, y1, ACCENT)"
 			}
 			render{}
 		}
