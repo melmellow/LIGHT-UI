@@ -24,7 +24,7 @@
 		}
 		ListPanel
 		{
-			text_a"88 88 88 255"
+			text_aACCENT
 			bgcolor=Header_Dark2
 		}
 		RichText

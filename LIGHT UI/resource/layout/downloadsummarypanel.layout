@@ -169,7 +169,7 @@
 		}
 		bigtextNonUpper
 		{
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 			bgcolor=BASE3
 			render_bg{}
 			font-family=basefont
@@ -198,7 +198,7 @@
 		}
 			bigtextlabel2
 		{
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 			font-family=semibold
 			font-style=uppercase
 			font-weight=bold
@@ -221,7 +221,7 @@
 		}
 		bigTextNumbers
 		{
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 			font-family=semilight
 			bgcolor=BASE3
 		}

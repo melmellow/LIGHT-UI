@@ -22,7 +22,7 @@
   {
 	description 
 	{
-		textcolor="88 88 88 255"
+		textcolor=ACCENT
 	
 	}
     CSettingsSubStreaming
@@ -44,7 +44,7 @@
     }
     ListPanelColumnHeader
     {
-		bgcolor="88 88 88 255"
+		bgcolor=ACCENT
 		textcolor="255 255 255 255"
 		padding-left=6
 	  inset-left=0

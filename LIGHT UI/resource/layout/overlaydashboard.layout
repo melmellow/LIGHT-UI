@@ -23,7 +23,7 @@
 			font-size=54
 			font-weight=700
 			font-style=uppercase
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 
 			//game name
 		}

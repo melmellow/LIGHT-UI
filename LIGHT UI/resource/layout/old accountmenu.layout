@@ -29,7 +29,7 @@
 
 		account_menu_label
 		{
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 		}
 	}
 

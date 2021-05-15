@@ -73,7 +73,7 @@ steam.styles
 		Slider
 		{
 			inset="0 1 0 0"
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 		}
 		Slider:focus
 		{
@@ -549,7 +549,7 @@ steam.styles
 			textcolor = ACCENT
 			selectedtextcolor = ACCENT
 			selectedbgcolor=whitebase
-			shadowtextcolor="88 88 88 255"	// the color of disabled line items
+			shadowtextcolor=ACCENT	// the color of disabled line items
 			font-family=basefont
 			font-weight=400
 			padding-left=16
@@ -753,7 +753,7 @@ steam.styles
 //======Library Categories(Recent,Software...etc)=====//
 		ListPanelSectionHeader
 		{
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 			font-style=uppercase
 			font-weight=400
 			bgcolor="none"
@@ -1119,7 +1119,7 @@ steam.styles
 		SectionHeaderStyleLabel
 		{
 			font-style=uppercase
-			text-color="88 88 88 255"
+			text-color=ACCENT
 		}
 
 ////////////////////////////////////////////////////////////////////////////

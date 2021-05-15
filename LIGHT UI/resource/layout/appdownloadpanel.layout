@@ -80,7 +80,7 @@
 		//Game Title
 		ModuleHeading
 		{
-			textcolor="88 88 88 255"
+			textcolor=ACCENT
 			font-family		"basefont"
 			font-style=uppercase
 			bgcolor=bgAppName

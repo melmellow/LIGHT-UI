@@ -96,9 +96,9 @@
 ////////////////////
 //======Text======//
 		text=ACCENT
-		text_a="88 88 88 255"
-		url="88 88 88 255"
-		url_a="88 88 88 255"
+		text_a=ACCENT
+		url=ACCENT
+		url_a=ACCENT
 
 
 /////////////////////////////
