@@ -32,7 +32,16 @@ steam.styles
 		URLBarSecure
 		{
 			textcolor = ACCENT
+			RENDER {
+						1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDER )"		// Top
+				2="fill( x0, y1-1, x1, y1, TEXTENTRYBORDER)"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1-1, "none")"	// Left
+				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDER)"	// Right
+			}
 	
+
+
+
 		}
 		URLBarBrokenSecure
 		{
@@ -54,9 +63,9 @@ steam.styles
 			image="ICONS/URL_SECURE"
 					render
 			{
-				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
-				2="fill( x0, y1-1, x1, y1, "none")"		// Bottom
-				3="fill( x0, y0+1, x0+1, y1-1, "none")"	// Left
+				1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDER )"		// Top
+				2="fill( x0, y1-1, x1, y1, TEXTENTRYBORDER)"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1-1, TEXTENTRYBORDER)"	// Left
 				4="fill( x1-1, y0+1, x1, y1-1, "none")"	// Right
 			}
 		}
