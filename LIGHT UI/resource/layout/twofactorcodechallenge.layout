@@ -50,6 +50,6 @@
 		place { control="Label2" width=0 height=0}
 
 		// bottom: OK/cancel
-		place { control="OK,Cancel" region="bottom" width=92 height=25 align=right margin-right=25 margin-top=0 margin-bottom=2 spacing=10 }
+		place { control="OK,Cancel" region="bottom" width=0 height=0 align=right margin-right=21 margin-top=0 margin-bottom=2 spacing=10 }
 	}
 }
