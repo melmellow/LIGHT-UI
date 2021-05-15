@@ -341,7 +341,7 @@ img {
   .allcollections_NavTimer_2Tnpa
   .allcollections_Message_1XmVt {
   color: var(--ACCENT) !important;
-  BACKGROUND:VAR(--BASE1)!important;
+  background: VAR(--BASE1) !important;
 }
 
 .sharedappdetailsheader_ImgSrc_HNbe3 {
@@ -2298,7 +2298,9 @@ A {
 }
 
 .appgrid_AppGridSectionHeader_3bWIS::after {
-  background: var(--BASE2) !important;
+  box-shadow: none !important;
+  background: var(--BASE1) !important;
+  border-bottom: 1px solid var(--DIVIDER) !important;
 }
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
   background: var(--DIVIDER) !important;
