@@ -115,7 +115,6 @@
 		}
 		CDialogSettings
 		{
-			bgcolor= "255 0 0 255"
 			render_bg
 			{
 			5="fill( x0, y0, x0+170, y1, BASE2 )"
