@@ -587,7 +587,7 @@ steam.styles
 
 		"GameItem_Installed"
 		{
-			FONT-WEIGHT = 700
+			FONT-WEIGHT = 600
 			textcolor = ACCENT
 			selectedtextcolor = ACCENT
 		}
