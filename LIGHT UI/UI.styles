@@ -115,13 +115,18 @@
 		}
 		CDialogSettings
 		{
+		bgcolor=BASE2
 			render_bg
 			{
-			5="fill( x0, y0, x0+170, y1, BASE2 )"
+				1="fill( x0, y0, x1, y0+1, frameBorder )"		// Top
+				2="fill( x0+1, y1-1, x1, y1, frameBorder )"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1, frameBorder )"		// Left
+				4="fill( x1-1, y0+1, x1, y1-1, frameBorder )"	// Right
+				5="fill( x0, y0, x0+170, y1, BASE1 )"
+				6="fill(x0+178,y1-44,x1-8,y1-43,White12)"		// Bottom-Right
 			}
-			
-			minimum-width="710"
-			minimum-height="600"
+			minimum-width="810"
+			minimum-height="734"
 		}
 		CMusicPlayerPanel
 		{
@@ -424,8 +429,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE2 )"
 			}
 		}
 
@@ -435,8 +440,8 @@
 		{
 			render_bg
 			{
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE2 )"
 			}
 		}
 
@@ -458,8 +463,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE2 )"
 			}
 		}
 
@@ -468,8 +473,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-68, x1, y1-67, frameBorder )"
-				2="fill( x0, y1-67, x1, y1, Header_Dark )"
+				1="fill( x0, y1-68, x1, y1-67, DIVIDER )"
+				2="fill( x0, y1-67, x1, y1, BASE2 )"
 			}
 		}
 
@@ -478,8 +483,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-36, x1, y1-35, frameBorder )"
-				2="fill( x0, y1-35, x1, y1, Header_Dark )"
+				1="fill( x0, y1-36, x1, y1-35, DIVIDER )"
+				2="fill( x0, y1-35, x1, y1, BASE2 )"
 			}
 		}
 
@@ -490,11 +495,11 @@
 			render_bg
 			{
 				//Top
-				1="fill( x0, y0+89, x1, y0+90, frameBorder )"
-				2="fill( x0, y0, x1, y0+89, Header_Dark )"
+				1="fill( x0, y0+89, x1, y0+90, DIVIDER )"
+				2="fill( x0, y0, x1, y0+89, BASE2 )"
 				//Bottom
-				3="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				4="fill( x0, y1-43, x1, y1, Header_Dark )"
+				3="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				4="fill( x0, y1-43, x1, y1, BASE2 )"
 			}
 		}
 
@@ -506,8 +511,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE2 )"
 			}
 		}
 

@@ -12,15 +12,15 @@
 	styles
 	{
 	
-			CDialogSettings {
-			minimum-width=810
-			minimum-height=734
-			bgcolor = BASE2
-			render {
-				0="image_scale( x0 + 182, y0, x0 + 188, y1, graphics/material/shadow_vert2)"
-			}
-		
-		}
+	//		CDialogSettings {
+	//		minimum-width=810
+	//		minimum-height=734
+	//		bgcolor = BASE2
+	//		render {
+	//			0="image_scale( x0 + 182, y0, x0 + 188, y1, graphics/material/shadow_vert2)"
+	//		}
+	//	
+	//  }
 	
 		
 		PropertySheet
@@ -29,15 +29,15 @@
 			//minimum-height="505"
 			//minimum-width="525"
 			//minimum-height="505"
-			bgcolor = BASE2
+			bgcolor = "NONE"
 			render_bg{}
 		}
 		"SettingsList"
 		{
 			font-family=basefont
-			inset-top=80
+			inset-top=40
 			padding-left=16
-			bgcolor=BASE1
+			bgcolor="NONE"
 		}
 		ListPanel
 		{
