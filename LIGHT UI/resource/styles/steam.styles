@@ -1813,15 +1813,15 @@ steam.styles
 //======Offline/Online/In-game Text Refferences(using inset is useful for repositioning texts according to their status; I wasnt able to remove the In-game text but it is possible while removing the Offline last seen text)=====//
 		friends_offline
 		{
-			textcolor="White50"
+			textcolor = ACCENT
 		}
 		friends_online
 		{
-			textcolor="Friends.OnlineColor"
+			textcolor = BLUE
 		}
 		friends_ingame
 		{
-			textcolor="Friends.InGameColor"
+			textcolor = GREEN2 
 		}
 		friends_ignored
 		{

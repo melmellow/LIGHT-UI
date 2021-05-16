@@ -24,7 +24,7 @@
 			Notifications.SlideDirection    "Vertical"    // Can be "Vertical", "Horizontal", "None" and controls slide effect
 			Notifications.FadeInTime      "0.45"
 			Notifications.FadeOutTime     "0.45"
-			Notifications.DisplayTime     "5.0"
+			Notifications.DisplayTime     "3.0"
 			Notifications.StackSize       "3"
 
 			ListPanel.TextColor       White
