@@ -933,7 +933,7 @@ steam.styles
 		{
 			font-family=basefont
 			font-weight=400
-			bgcolor="notifBG"
+			bgcolor = NOTIFICATIONBACKGROUND
 			render_bg {}
 			render{}
 		}
