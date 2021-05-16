@@ -1295,7 +1295,7 @@ steam.styles
 		}
 		BackButton:hover
 		{
-			bgcolor="228 228 228 255"
+			bgcolor = NAVBUTTONBACKGROUNDHOVER
 			image="icons/back_h"
 			
 		}
@@ -1426,6 +1426,7 @@ steam.styles
 		}
 		ForwardButton:hover
 		{
+			bgcolor=NAVBUTTONBACKGROUNDHOVER
 			image="icons/forward_h"
 		}
 		ForwardButton:active
