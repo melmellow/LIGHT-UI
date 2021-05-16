@@ -12,7 +12,7 @@ steam.styles
 	include "settings.styles"
 	colors
 	{
-	  DialogBG=BASE2
+	  DialogBG=BASE1
 		PropertySheetBG="50 55 61 255"
 		ButtonBorderDisabled="112 120 136 255"
 		ScrollBar.Wide "16"
@@ -136,7 +136,7 @@ steam.styles
 
 		Frame
 		{
-			bgcolor=BASE2
+			bgcolor = BASE1
 			render
 			{
 				1="fill( x0, y0, x1, y0+1, DIVIDER )"		// Top
@@ -149,10 +149,10 @@ steam.styles
 		{
 			render
 			{
-				1="fill( x0, y0, x1, y0+1, whitebase )"
-				2="fill( x0, y1-1, x1, y1, whitebase )"
-				3="fill( x0, y0+1, x0+1, y1-1, whitebase )"
-				4="fill( x1-1, y0+1, x1, y1-1, whitebase )"
+				1="fill( x0, y0, x1, y0+1, DIVIDER )"
+				2="fill( x0, y1-1, x1, y1, DIVIDER)"
+				3="fill( x0, y0+1, x0+1, y1-1, DIVIDER)"
+				4="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"
 			}
 		}
 
@@ -565,7 +565,7 @@ steam.styles
 //======This is the GameList from left======//
 		"CGamesListPanel"
 		{
-			bgcolor = BASE2
+			bgcolor = BASE1
 			render_bg {}
 					render{
 				1="fill(x0,y0,x1,y0+1, "none")"  // top
@@ -719,7 +719,7 @@ steam.styles
 		}
 		"CGamesListPanel ListPanelColumnSelectButton"
 		{
-			bgcolor = BASE2
+			bgcolor = BASE1
 			render_bg{}
 			render{}
 		}
@@ -809,7 +809,7 @@ steam.styles
 			font-style="uppercase"
 			font-size=21
 			font-weight=700
-			bgcolor = BASE2
+			bgcolor = BASE1
 		}
 
 //////////////////////////////////////////////////////////////////////////////////////

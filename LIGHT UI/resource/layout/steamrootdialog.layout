@@ -11,8 +11,8 @@
 		FrameTitle
 		{
 			textcolor="none"
-			bgcolor=BASE2
-			render_bg{}
+			bgcolor=BASE1
+			RENDER_BG{}
 		}
 
 		ClientTitle

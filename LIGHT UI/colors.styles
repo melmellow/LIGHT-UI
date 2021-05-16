@@ -21,7 +21,8 @@
 		GREEN2 = "84 164 72 255"
 		DISABLEDTEXT = "109 109 109 255"
 		NAVBAR = BASE1
-		MENUBACKGROUND = NAVBAR
+		NAVBARBOTTOMBORDER = DIVIDER
+		MENUBACKGROUND = BASE3
 		PROGRESSBAR = GREEN
 		BUTTONHOVER = BUTTON
 		DOWNLOADSDISCGRAPH = ACCENT
@@ -89,7 +90,7 @@
 
 
 
-		ClientBG=BASE1
+		//ClientBG=BASE1
 		ClientBGTransparent="0 0 0 40"
 
 		scroll=white02
@@ -130,7 +131,7 @@
 
 ////////////////////////////////////
 //======Steam Windows Border======//
-		frameBorder="214 209 209 255"
+		frameBorder=DIVIDER
 		frameBorder_a=frameBorder
 
 
