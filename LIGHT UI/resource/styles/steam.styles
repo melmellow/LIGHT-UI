@@ -883,7 +883,7 @@ steam.styles
 		}
 		SuperNavMenuItem:hover
 		{
-			bgcolor=bgItemMenu_a
+			bgcolor=LISTITEMBACKGROUNDHOVER
 		}
 		SuperNavMenuItem:selected
 		{
