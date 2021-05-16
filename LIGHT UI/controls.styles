@@ -38,10 +38,10 @@
 			bgcolor=BUTTONHOVER
 			textcolor=ACCENT
 					render {
-				1="fill(x0,y0,x1,y0+1, outlinehover)"  // top
-				2="fill(x0,y1-1,x1,y1, outlinehover)"  // bottom
-				3="fill(x0,y0+1,x0+1,y1-1, outlinehover)"  // left
-				4="fill(x1-1,y0+1,x1,y1-1, outlinehover)"  // right
+				1="fill(x0,y0,x1,y0+1, BUTTONBORDER)"  // top
+				2="fill(x0,y1-1,x1,y1, BUTTONBORDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BUTTONBORDER)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BUTTONBORDER)"  // right
 			}
 		}
 		Button:active
