@@ -37,6 +37,7 @@
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
   --APPPORTRAITINSTALLBUTTON: VAR(--ACCENT);
+  --APPPORTRAITINSTALLBUTTONHOVER: VAR(--BLACK);
   --SHELFPLAYBUTTON: VAR(--ACCENT);
   --SHELFPLAYBUTTONHOVER: VAR(--BUTTONHOVER);
   --SHELFINSTALLBUTTON: VAR(--ACCENT);
@@ -169,6 +170,12 @@
 
 img {
   filter: NONE !important;
+}
+
+.appportrait_HoversEnabled_54PuC
+  .appportrait_LibraryItemBox_WYgDg:hover
+  .appportrait_UninstalledIcon_8YrRm:not(.appportrait_ComingSoonIcon_1pvln):hover {
+  background: VAR(--APPPORTRAITINSTALLBUTTONHOVER) !important;
 }
 
 .appdetailsachievementssection_Featured_1j_gj
