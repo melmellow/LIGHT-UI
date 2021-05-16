@@ -863,13 +863,13 @@ steam.styles
 //======This controls the hovermenu buttons appearance(top client buttons)=====//
 		SuperNavMenu
 		{
-			bgcolor=bgMenu
-			render_bg
+			bgcolor = NAVBUTTONMENU
+			render
 			{
-				1="fill( x0, y0+1, x0+1, y1-1, frameBorder )"	//Left
-				2="fill( x1-1, y0+1, x1, y1-1, frameBorder )"	//Right
-				3="fill( x0, y0, x1, y0+1, frameBorder )"		//Top
-				4="fill( x0, y1-1, x1, y1, frameBorder )"		//Bottom
+				1="fill( x0, y0+1, x0+1, y1-1, DIVIDER )"	//Left
+				2="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"	//Right
+				3="fill( x0, y0, x1, y0+1, DIVIDER )"		//Top
+				4="fill( x0, y1-1, x1, y1, DIVIDER )"		//Bottom
 			}
 		}
 
@@ -877,9 +877,9 @@ steam.styles
 //======This controls the hovermenu buttons (top client buttons)=====//
 		SuperNavMenuItem
 		{
-			textcolor=itemMenu
+			textcolor = ACCENT
 			font-style="regular"
-			bgcolor=bgItemMenu
+			bgcolor = NAVBUTTONMENU
 		}
 		SuperNavMenuItem:hover
 		{
