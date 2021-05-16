@@ -47,10 +47,10 @@
 		Button:active
 		{
 				render {
-				1="fill(x0,y0,x1,y0+1, buttonactive)"  // top
-				2="fill(x0,y1-1,x1,y1, buttonactive)"  // bottom
-				3="fill(x0,y0+1,x0+1,y1-1, buttonactive)"  // left
-				4="fill(x1-1,y0+1,x1,y1-1, buttonactive)"  // right
+				1="fill(x0,y0,x1,y0+1, BUTTONPRESSEDBORDER)"  // top
+				2="fill(x0,y1-1,x1,y1, BUTTONPRESSEDBORDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BUTTONPRESSEDBORDER)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BUTTONPRESSEDBORDER)"  // right
 			}
 		}
 		Button:disabled
