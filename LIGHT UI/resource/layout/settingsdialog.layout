@@ -13,14 +13,14 @@
 	{
 	
 			CDialogSettings {
-	    	minimum-width=810
-       	minimum-height=734
-       bgcolor = BASE2
-       			render {
-       				0="image_scale( x0 + 182, y0, x0 + 188, y1, graphics/material/shadow_vert2)"
-       			}
-       		
-        		}
+			minimum-width=810
+			minimum-height=734
+			bgcolor = BASE2
+			render {
+				0="image_scale( x0 + 182, y0, x0 + 188, y1, graphics/material/shadow_vert2)"
+			}
+		
+		}
 	
 		
 		PropertySheet
