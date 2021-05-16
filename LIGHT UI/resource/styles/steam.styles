@@ -1161,29 +1161,21 @@ steam.styles
 //======This controls the hovering window=====//
 		"TooltipWindow"
 		{
-			bgcolor=bgToolTip
-			//bgcolor="Black"
-			//alpha=191.25
-			render_bg
-			{
-				1="fill( x0, y0, x1, y0+1, frameBorder )"		// Top
-				2="fill( x0+1, y1-1, x1, y1, frameBorder )"		// Bottom
-				3="fill( x0, y0+1, x0+1, y1, frameBorder )"		// Left
-				4="fill( x1-1, y0+1, x1, y1-1, frameBorder )"	// Right
-			}
+			bgcolor = TOOLTIPBACKGROUND
+	
 		}
 ////////////////////////////////////////////////////////
 //======This controls the hovering window's texts=====//
 		tooltip_headline
 		{
-			textcolor=titleToolTip
+			textcolor = ACCENT
 			font-family=basefont
-			bgcolor=bgTitleToolTip
+			bgcolor=TOOLTIPLISTITEMBACKGROUNDHOVER
 		}
 		"TooltipWindow Label"
 		{
-			textcolor=textToolTip
-			bgcolor=bgTextToolTip
+			textcolor = ACCENT
+			bgcolor = TOOLTIPBACKGROUND
 		}
 
 //////////////////////////////////////////////////////////
