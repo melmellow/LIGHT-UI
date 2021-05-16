@@ -158,7 +158,7 @@
 		inbox_button:hover
 		{
 			textcolor=white
-			bgcolor="228 228 228 255"
+			bgcolor = ACTIONBUTTONHOVER
 			render_bg
 			{
 				0="image(x0+8,y0+12,x1,y1,icons/notifications_active)"
