@@ -601,7 +601,7 @@ img {
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr:not(.pagedsettings_Active_2DpXj):hover {
   color: var(--ACCENT) !important;
-  background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
+  cursor: unset !important;
 }
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY
