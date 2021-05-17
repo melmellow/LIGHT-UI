@@ -1,6 +1,8 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 
 :root {
+  --OP: 60%;
+  --FILT: BRIGHTNESS(0);
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
   --BASE3: #ececec;
@@ -95,13 +97,15 @@
   --BUTTON1BORDERRADIUS: 0;
   --BUTTON2BORDERRADIUS: 0;
   --GAMEGROUPNAMEFONTWEIGHT: BOLD;
-  --GAMESTATICONFILTER: BRIGHTNESS(0);
-  --COMMUNITYFEEDICONFILTER: BRIGHTNESS(0);
-  --SHOWCASEPAGEBUTTONICONFILTER: BRIGHTNESS(0);
-  --COMMUNITYFEEDICONOPACITY: 60%;
+  --GAMESTATICONFILTER: VAR(--FILT);
+  --COMMUNITYFEEDICONFILTER: VAR(--FILT);
+  --SHOWCASEPAGEBUTTONICONFILTER: VAR(--FILT);
+  --APPFEATUREICONFILTER: VAR(--FILT);
+  --APPFEATUREICONOPACITY: VAR(--OP);
+  --COMMUNITYFEEDICONOPACITY: VAR(--OP);
   --GAMEBOXARTBORDERROUNDED: 0;
-  --CONTEXTMENUACTIONBUTTONICONOPACITY: 60% !important;
-  --CONTEXTMENUACTIONBUTTONICONFILTER: brightness(0);
+  --CONTEXTMENUACTIONBUTTONICONOPACITY: VAR(--OP) !important;
+  --CONTEXTMENUACTIONBUTTONICONFILTER: VAR(--FILT);
   --ACTIONBUTTONBORDER: NONE;
   --ACTIONBUTTONICONFILTER: NONE;
   --LISTITEMDETAILSPANELTOPBORDER: NONE;
@@ -787,8 +791,8 @@ SVGIcon_Button {
   stroke-width: 0px !important;
 }
 .appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Icon_2RwHE {
-  opacity: 60% !important;
-  filter: brightness(0) !important;
+  opacity: VAR(--APPFEATUREICONOPACITY) !important;
+  filter: VAR(--APPFEATUREICONFILTER) !important;
 }
 
 .comment_thread_RatingBar_1yWgP
@@ -2332,6 +2336,15 @@ A {
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
   background: var(--DIVIDER) !important;
 }
+
+.appactivityday_Event_UVeN0
+  .appactivityday_EventHeadline_QCKBq
+  .appactivityday_DeleteButton_djC4r:hover
+  .appactivityday_DeleteUserNews_1Ur_j {
+  fill: VAR(--BLACK) !important;
+  stroke: var(--BLACK) !important;
+}
+
 .contextmenu_contextMenu_PP7LM {
   border-radius: VAR(--BORDERRADIUS) !important;
   border: 0 !important;
@@ -2473,8 +2486,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border-color: var(--BUTTONBORDERHOVER) !important;
 }
 .appdetailsactivitysection_ViewLastNews_1EC1x:hover {
-  color: var(--WHITE) !important;
-  background-color: var(--BUTTONHOVER) !important;
+  color: var(--ACCENT) !important;
+  background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
 }
 .appactivityday_PartnerEventTextOnly_Title_1Cva_ {
   color: var(--ACCENT) !important;
