@@ -25,9 +25,10 @@
   --SCROLLBARBORDERROUNDED: 0px;
   --SCROLLBAR: VAR(--ACCENT);
   --RATINGICON: VAR(--ACCENT);
-  --SCROLLBARHOVER: VAR(--ACCENT);
+  --SCROLLBARHOVER: VAR(--BLACK);
   --BUTTON1TEXTCOLOR: VAR(--WHITE);
   --BUTTON1: VAR(--ACCENT);
+  --BUTTON1HOVER: VAR(--BLACK)
   --BUTTONHOVER: VAR(--BLACK);
   --RUNNINGGAMENAMECOLOR: VAR(--ACCENT);
   --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
@@ -87,11 +88,12 @@
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
   --ACTIONBUTTONROUNDED3: 50px;
   --SHELFACTIONBUTTONROUNDED: 50px;
-  --DROPDOWNROUNDED2: 0 6px 6px 0;
+  --DROPDOWNROUNDED1: 0;
+  --DROPDOWNROUNDED2: 0;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 6px;
-  --BUTTON1BORDERRADIUS: 6px;
-  --BUTTON2BORDERRADIUS: 6px;
+  --BUTTON1BORDERRADIUS: 0;
+  --BUTTON2BORDERRADIUS: 0;
   --GAMEGROUPNAMEFONTWEIGHT: BOLD;
   --GAMESTATICONFILTER: BRIGHTNESS(0);
   --COMMUNITYFEEDICONFILTER: BRIGHTNESS(0);
@@ -114,6 +116,11 @@
   --ACTIONBUTTONROUNDED3: 50px;
   */
 
+  /* PILL SHAPED DROPDOWNBUTTON
+   --DROPDOWNROUNDED1: 50PX;
+  --DROPDOWNROUNDED2: 50PX
+  */
+
   /* DEFAULT SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 0;
   --ACTIONBUTTONROUNDED2: 0;
@@ -126,6 +133,16 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+
+button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.DialogButton._DialogLayout.Secondary:HOVER {
+  BACKGROUND-COLOR:VAR(--BUTTON1HOVER)!important;
+}
+
+
+.DialogInput_Wrapper > input.DialogInput {
+  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
 }
 
 /*LIBRARY HOME ICON*/
@@ -1385,7 +1402,7 @@ div.ShortRightPanel
   font-weight: 400 !important;
   padding-left: 8px !important;
   padding: 4px !important;
-  border-radius: 6px !important;
+  border-radius: VAR(--DROPDOWNROUNDED1) !important;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer:hover {
   transition: BORDER-COLOR 0.3s EASE-IN-OUT !important;
@@ -2391,7 +2408,7 @@ A {
 }
 .DialogTextInputBase,
 ._DialogInputContainer {
-  border-radius: 6px !important;
+  border-radius: VAR(--DROPDOWNROUNDED1) !important;
   background: var(--DROPDOWN) !important;
   font-weight: 200 !important;
   color: var(--ACCENT) !important;
@@ -2605,7 +2622,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background-color: NONE !important;
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-  border-radius: 6px !important;
+  border-radius: var(--DROPDOWNROUNDED1) !important;
   background-color: var(--DROPDOWN) !important;
   color: var(--ACCENT) !important;
   border-bottom: 1px solid var(--BUTTONBORDER) !important;
@@ -2978,6 +2995,13 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appdetailsgameinfopanel_Container_2jPMy {
   background-color: var(--BASE2) !important;
 }
+
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_SteamInputLink_fy_T9:hover {
+  color: var(--BLACK) !important;
+}
+
 .appdetailsgameinfopanel_Container_2jPMy
   .appdetailsgameinfopanel_SectionContainer_1uS70
   .appdetailsgameinfopanel_GameDescription_3GkV1 {
@@ -3080,7 +3104,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appgrid_SortingDropDown_1tBzy
   ._DialogInputContainer
   .DialogDropDown_CurrentDisplay {
-  border-radius: 6px 0 0 6px !important;
   padding: 4px !important;
 }
 
