@@ -1,6 +1,6 @@
 "custom.styles"
 {
-colors{Focus="102 36 226 255"
+colors{Focus="88 88 88 255"
 basefont="Segoe UI"
 semibold="Segoe UI Semibold"
 1bold = "Segoe UI Bold"

@@ -600,22 +600,22 @@ steam.styles
 
 		"GameItem_Running"
 		{
-			textcolor=game_run
+			textcolor = SMGAMENAMERUNNING
 			selectedtextcolor=game_run_selected
 		}
 		"GameItem_Running:hover"
 		{
-			textcolor=game_run_hover
+			textcolor = SMGAMENAMERUNNINGHOVER
 		}
 
 		"GameItem_Shortcut"
 		{
-			textcolor=game_shortcut
+			textcolor = SMGAMENAMENONSTEAM
 			selectedtextcolor=game_shortcut_selected
 		}
 		"GameItem_Shortcut:hover"
 		{
-			textcolor=game_shortcut_hover
+			textcolor = SMGAMENAMENONSTEAMHOVER
 		}
 
 		"GameItem_Mod"
@@ -630,12 +630,12 @@ steam.styles
 
 		"GameItem_Updating"
 		{
-			textcolor=game_run
+			textcolor = SMGAMENAMEUPDATING
 			selectedtextcolor=game_run_selected
 		}
 		"GameItem_Updating:hover"
 		{
-			textcolor=game_run_hover
+			textcolor= SMGAMENAMEUPDATINGHOVER
 		}
 
 		"GameItem_Decrypting"
