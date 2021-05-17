@@ -577,24 +577,24 @@ steam.styles
 
 		"GameItem_Uninstalled"
 		{
-			textcolor = ACCENT
+			textcolor = SMGAMENAMEUNINSTALLEDHOVER
 			selectedtextcolor= BLACK
 		}
 		"GameItem_Uninstalled:hover"
 		{
-			textcolor = BLACK
+			textcolor = SMGAMENAMEUNINSTALLEDHOVER
 		}
 
 		"GameItem_Installed"
 		{
 			FONT-WEIGHT = 600
-			textcolor = ACCENT
+			textcolor = SMGAMENAMEINSTALLED
 			selectedtextcolor = ACCENT
 		}
 		"GameItem_Installed:hover"
 		{
 
-			textcolor = ACCENT
+			textcolor = SMGAMENAMEINSTALLEDHOVER
 			
 		}
 
@@ -610,6 +610,7 @@ steam.styles
 
 		"GameItem_Shortcut"
 		{
+			font-weight = 600
 			textcolor = SMGAMENAMENONSTEAM
 			selectedtextcolor=game_shortcut_selected
 		}
