@@ -52,7 +52,7 @@
 	{
 		highlight
 		{
-			textcolor=Text
+			textcolor= ACCENT
 		}	
 		
 		checkbox
@@ -108,6 +108,6 @@
 		place { controls="ShareIPNetworkingLabel" start=TextFilterUpdateSettingURL  width=235 dir=down y=40}
 		place { controls="ShareIPNetworkingInfo"  start=ShareIPNetworkingLabel  width=235 dir=down y=10}		
 		place { controls="ShareIPNetworkingURL" region=bottomleft start=ShareIPNetworkingInfo margin-top=5 width=235 dir=down }
-		place { controls="ShareIPNetworkingCombo"   region=bottomright start=PingRateCombo width=235 dir=down height=25 y=52}
+		place { controls="ShareIPNetworkingCombo"   region=bottomright start=PingRateCombo width=235 dir=down height=25 y=92}
 	}
 }

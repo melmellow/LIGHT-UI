@@ -14,7 +14,7 @@
 	{
 		Label
 		{
-			textcolor=white
+			textcolor=ACCENT
 		}
 
 		FindEntry
@@ -23,9 +23,9 @@
 			inset-top=-2
 			font-family=basefont
 			font-weight=300
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor=none
-			shadowtextcolor=white
+			shadowtextcolor=ACCENT
 			render
 			{
 				//0="image( x1-20, y0+8, x1, y1, graphics/search_sm )"

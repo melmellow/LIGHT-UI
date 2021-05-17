@@ -268,7 +268,7 @@
 			font-family=semibold
 			font-style=regular
 			font-size=14
-			textcolor=white
+			textcolor=ACCENT
 		}
 	}
 	layout

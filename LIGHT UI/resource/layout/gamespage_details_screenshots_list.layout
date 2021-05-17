@@ -28,7 +28,7 @@
 	{
 		infolabel
 		{
-			textcolor=White
+			textcolor=ACCENT
 		}
 
 		//Hidden

@@ -71,11 +71,11 @@
 
 		soft
 		{
-			textcolor=white
+			textcolor=ACCENT
 		}
 		bright
 		{
-			textcolor=white
+			textcolor=ACCENT
 		}
 
 		CloseStyle

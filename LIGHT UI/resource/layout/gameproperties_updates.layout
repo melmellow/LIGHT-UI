@@ -107,7 +107,7 @@
 	{
 		Highlight
 		{ 
-			textcolor=White
+			textcolor=ACCENT
 			font-size=24
 			font-family=semilight
 		}

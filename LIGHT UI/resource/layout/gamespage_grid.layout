@@ -39,7 +39,7 @@
 
 		emptylisttext
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			render_bg {}
 		}
 		// GameItem_whatever suffix is computed on the fly. (not case sensitive.) possible values:

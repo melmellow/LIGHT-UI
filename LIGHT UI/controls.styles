@@ -38,10 +38,10 @@
 			bgcolor=BUTTONHOVER
 			textcolor=ACCENT
 					render {
-				1="fill(x0,y0,x1,y0+1, BUTTONBORDER)"  // top
-				2="fill(x0,y1-1,x1,y1, BUTTONBORDER)"  // bottom
-				3="fill(x0,y0+1,x0+1,y1-1, BUTTONBORDER)"  // left
-				4="fill(x1-1,y0+1,x1,y1-1, BUTTONBORDER)"  // right
+				1="fill(x0,y0,x1,y0+1, BUTTONHOVERBORDER)"  // top
+				2="fill(x0,y1-1,x1,y1, BUTTONHOVERBORDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BUTTONHOVERBORDER)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BUTTONHOVERBORDER)"  // right
 			}
 		}
 		Button:active
@@ -70,7 +70,7 @@
 			font-family=basefont
 			bgcolor = TEXTENTRY
 			textcolor = ACCENT
-			shadowtextcolor=white
+			shadowtextcolor = ACCENT
 			selectedtextcolor = ACCENT
 			selectedbgcolor = TEXTENTRYHIGHLIGHT
 			inset-left=2
@@ -113,12 +113,12 @@
 		}
 		EmoticonMenuItemStyle:hover
 		{
-			textcolor=white
+			textcolor=ACCENT
 		}
 
 		RadioButton
 		{
-			textcolor="White50"
+			textcolor = ACCENT 
 			font-family=basefont
 			font-weight=400
 			bgcolor="none"
@@ -157,7 +157,7 @@
 		
 		CheckButton
 		{
-			textcolor="White50"
+			textcolor = ACCENT
 			font-family=basefont
 			font-weight=400
 			image=ICONS/check_d
@@ -176,7 +176,7 @@
 		}
 		CheckButton:disabled
 		{
-			textcolor="White24"
+			textcolor = DISABLEDTEXT
 			bgcolor="none"
 			image=ICONS/check_d
 		}
@@ -190,7 +190,7 @@
 		CheckButtonList
 		{
 			inset="0 1 1 1"
-			textcolor="White"
+			textcolor = ACCENT
 			bgcolor="none"
 			render_bg
 			{
@@ -204,21 +204,21 @@
 		CheckButtonList:scrollbar
 		{
 			inset="1 1 1 1"
-			textcolor="White"
+			textcolor = ACCENT
 			bgcolor="none"
 			render_bg {}
 			render {}
 		}
 		"CheckbuttonList CheckButton"
 		{
-			textcolor=White
+			textcolor=ACCENT
 		}
 
 		ComboBox
 		{
 			inset="3 -1"
 			textcolor=ACCENT
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			font-family=basefont
 			bgcolor=DROPDOWN
 			render
@@ -244,6 +244,7 @@
 		ComboBox:focus
 		{
 			selectedbgcolor="211 211 211 255"
+			TEXTCOLOR=ACCENT
 		}
 
 		ComboBoxButton
@@ -278,12 +279,12 @@
 		}
 		PageTab:selected
 		{
-			textcolor="White"
+			textcolor = NAVBUTTONSELECTED
 			bgcolor = "NONE"
 			render_bg
 			{
 				1="fill(x0+1,y0,x1-1,y1-1,whitebase)"
-				2="fill(x0+1, y1-1, x1-1, y1, ACCENT)"
+				2="fill(x0+1, y1-1, x1-1, y1, NAVBUTTONACTIVEBORDER)"
 			}
 			render{}
 		}
@@ -381,11 +382,11 @@
 
 		"SliderHoriz"  //horizontal scrollbar thumb
 		{
-			bgcolor=scroll
+			bgcolor = SCROLLBAR
 		}
 		"SliderHoriz:hover"
 		{
-			bgcolor=scroll_a
+			bgcolor = SCROLLBARHOVER
 			render_bg
 			{
 				0="fill( x0, y0, x1, y1, white05 )"
@@ -393,7 +394,7 @@
 		}
 		"SliderHoriz:selected"
 		{
-			bgcolor=scroll_a
+			bgcolor = SCROLLBARPRESSED
 		}
 
 		ScrollBarSlider // gutter

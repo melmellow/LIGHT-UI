@@ -20,7 +20,7 @@ steam.styles
 	
 	layout {
 	
-		place{control=SectionHeaderStyleLabel width=80}
+		place{control=SectionHeaderStyleLabel height=0 width=0}
 		place{control=SectionedListPanelCollapser width=50}
 	}
 	
@@ -72,18 +72,18 @@ steam.styles
 		Slider
 		{
 			inset="0 1 0 0"
-			textcolor=ACCENT
+			textcolor = ACCENT
 		}
 		Slider:focus
 		{
-			textcolor="White50"
+			textcolor = ACCENT
 		}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //======This controls some header texts from Settings(Family, In-Game, Downloads)=============//
 		highlight
 		{
-			textcolor=white
+			textcolor = ACCENT
 			font-family=semilight
 			font-weight=300
 		}
@@ -272,7 +272,7 @@ steam.styles
 		CFriendsListSectionHeader
 		{
 			inset=0
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family=semibold
 			font-style="uppercase"
 			render_bg {}
@@ -301,7 +301,7 @@ steam.styles
 		}
 		"ComboBox MenuItem:hover"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			bgcolor="none"
 			render_bg
 			{
@@ -327,7 +327,7 @@ steam.styles
 		FrameTitle
 		{
 			textcolor="none"
-			bgcolor = NAVBAR
+			bgcolor = "NONE"
 			render_bg
 			{
 				0="fill( x0, y0, x1, y1, BASE2)"
@@ -338,13 +338,13 @@ steam.styles
 //======Replacements for those image texts(better from my point AND compatible with all languages)======//
 		"CProductMarketingDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			padding-bottom=32
 			padding-bottom=16
 		}
 		"CDialogSettings FrameTitle"
 		{
-			textcolor="White"
+			textcolor = "NONE"
 			font-family="semilight"
 			font-weight=300
 			render_bg{}
@@ -353,7 +353,7 @@ steam.styles
 		}
 		"CGamePropertiesDialog FrameTitle"
 		{
-			textcolor=White
+			textcolor=ACCENT
 			font-family=basefont
 			render_bg{}
 			padding-left=16
@@ -362,7 +362,7 @@ steam.styles
 		}
 		"CGameLaunchParametersDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family="semilight"
 			font-weight=300
 			render_bg
@@ -394,7 +394,7 @@ steam.styles
 		}
 		"CContentManagmentDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			padding-left=10
 			font-family="semilight"
 			font-weight=300
@@ -408,7 +408,7 @@ steam.styles
 		}
 		"CSetNicknameDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			padding-left=8
 			padding-right=80
 			font-family="semilight"
@@ -424,7 +424,7 @@ steam.styles
 
 		"CFriendAliasesDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family="semilight"
 			font-weight=300
 			render_bg
@@ -439,7 +439,7 @@ steam.styles
 		}
 		"CEditFriendsGroupsDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family="semilight"
 			font-weight=300
 			render_bg
@@ -452,7 +452,7 @@ steam.styles
 		}
 		"CChooseBetaDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor = ACCENT
 			padding-left=10
 			font-family="semilight"
 			font-weight=300
@@ -465,7 +465,7 @@ steam.styles
 		}
 		"CEditTagsDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family="semilight"
 			render_bg
 			{
@@ -477,7 +477,7 @@ steam.styles
 		}
 		"COverlayBroadcastChatDialog FrameTitle"
 		{
-			textcolor=White
+			textcolor=ACCENT
 			font-family=basefont
 			render_bg
 			{
@@ -489,7 +489,7 @@ steam.styles
 		}
 		"CAddShortcutDialog FrameTitle"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family="semilight"
 			font-weight=300
 			render_bg
@@ -533,8 +533,8 @@ steam.styles
 
 		Label
 		{
-			textcolor=text
-			selectedtextcolor=text_a
+			textcolor = ACCENT
+			selectedtextcolor = ACCENT
 			font-family=basefont
 			font-weight=400
 			
@@ -544,7 +544,7 @@ steam.styles
 //======This is controls the list elements similar to the interior one but more usefull======//
 		ListPanel
 		{	
-			bgcolor="228 228 228 255"
+			bgcolor = BASE1
 			textcolor = ACCENT
 			selectedtextcolor = ACCENT
 			selectedbgcolor=whitebase
@@ -662,7 +662,7 @@ steam.styles
 //======List View Mode Games Name======//
 		"GameColumn_BigText"
 		{
-			textcolor="white"
+			textcolor="ACCENT"
 			font-family=basefont
 			font-weight=400
 		}
@@ -671,7 +671,7 @@ steam.styles
 //======List View Mode List Header Text======//
 		ListPanelColumnheader
 		{
-			textcolor=textHeaderList
+			textcolor = ACCENT
 			font-family=semibold
 			font-style="Uppercase"
 			bgcolor="none"
@@ -685,7 +685,7 @@ steam.styles
 		}
 		ListPanelColumnHeader:hover
 		{
-			textcolor="textHeaderList_a"
+			textcolor = NAVBUTTONHOVER
 			bgcolor=LISTITEMBACKGROUNDHOVER
 		}
 
@@ -739,7 +739,7 @@ steam.styles
 //======This controls the interior of List elements (though the fonts doesn't change on all of them.Better look at ListPanel)=====//
 		ListPanelInterior
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			bgcolor="none"
 					render{
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
@@ -764,7 +764,9 @@ steam.styles
 			minimum-height=30
 		}
 		"CDialogSettings ListPanelSectionHeader"
+
 		{
+			textcolor = ACCENT
 			bgcolor="none"
 		}
 ///////////////////////////////////////////////
@@ -883,11 +885,11 @@ steam.styles
 		}
 		SuperNavMenuItem:hover
 		{
-			bgcolor=LISTITEMBACKGROUNDHOVER
+			bgcolor = LISTITEMBACKGROUNDHOVER
 		}
 		SuperNavMenuItem:selected
 		{
-			textcolor=itemMenu_a
+			textcolor = LISTITEM
 		}
 
 ////////////////////////////////////////////////////////////////////
@@ -895,7 +897,7 @@ steam.styles
 		"SuperNavMenuDivider"
 		{
 			inset-left=-2
-			textcolor="Dividers"
+			textcolor = DIVIDER
 			render_bg{}
 		}
 
@@ -965,7 +967,7 @@ steam.styles
 		}
 		"ToolWindow PageTab:selected"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			bgcolor="none"
 			render_bg{}
 			render
@@ -994,14 +996,14 @@ steam.styles
 
 		Panel
 		{
-			//textcolor="white"
+			//textcolor="ACCENT"
 			//font-family=basefont
 			//font-weight=800	
 		}
 
 		ProgressBar
 		{
-			textcolor="Focus"
+			textcolor = LOADINGBAR
 			bgcolor="none"
 			render
 			{
@@ -1023,8 +1025,8 @@ steam.styles
 		RichText
 		{
 			inset="0 0 0 0"
-			textcolor="White"
-			selectedtextcolor="White"
+			textcolor = ACCENT 
+			selectedtextcolor="ACCENT"
 			font-family=basefont
 			font-weight=400
 			selectedbgcolor="Focus"
@@ -1050,20 +1052,20 @@ steam.styles
 		}
 		"CFriendPanel RichText URL"
 		{
-			textcolor="white"
+			textcolor="ACCENT"
 			font-style=underline
 		}
 
-		// style of bold White in a rich White control
+		// style of bold ACCENT in a rich ACCENT control
 		"RichText bold"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family=semibold
 			selectedbgcolor="Focus"
 		}
 		"RichText emphasis"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			selectedtextcolor="White75"
 			font-style=italic
 			selectedbgcolor="Focus"
@@ -1075,8 +1077,8 @@ steam.styles
 		{
 			inset="0 0 0 0"
 			bgcolor="ClientBG"
-			textcolor="white"
-			selectedtextcolor="White"
+			textcolor="ACCENT"
+			selectedtextcolor="ACCENT"
 			font-family=basefont
 			font-weight=400
 			selectedbgcolor="Focus"
@@ -1127,7 +1129,7 @@ steam.styles
 //======Downloads Button Styles (kept them cuz default steam did too)=====//
 		StatusLabel
 		{
-			textcolor="White50"
+			textcolor=ACCENT
 			font-family=basefont
 			font-style=uppercase
 			font-size=14
@@ -1135,7 +1137,7 @@ steam.styles
 		}
 		StatusLabel:hover
 		{
-			textcolor="White50"
+			textcolor=ACCENT
 			font-family=basefont
 			font-style=uppercase
 			font-size=14
@@ -1182,6 +1184,7 @@ steam.styles
 //======Select Directory Dialog's folders tree view=====//
 		TreeNode
 		{
+
 			bgcolor="none"
 			render_bg{}
 		}
@@ -1201,10 +1204,10 @@ steam.styles
 //======Select Directory Dialog's folders text=====//
 		TreeNodeText
 		{
-			textcolor="white"
-			selectedtextcolor="White"
+			textcolor = ACCENT
+			selectedtextcolor = ACCENT
 			font-family=basefont
-			selectedbgcolor="213 213 213 255"
+			selectedbgcolor = LISTITEMBACKGROUNDHOVER
 			bgcolor="none"
 			render_bg {}
 			render {}
@@ -1216,7 +1219,7 @@ steam.styles
 
 		URLLabel
 		{
-			textcolor=url
+			textcolor=ACCENT
 			font-family=basefont
 			font-style=underline
 			font-weight=400
@@ -1225,7 +1228,7 @@ steam.styles
 
 		URLLabel:Hover
 		{
-			textcolor=url_a
+			textcolor=BLACK
 		}
 
 		URLLabelSimple
@@ -1269,8 +1272,8 @@ steam.styles
 		WrapPanel
 		{
 			inset="0 0 0 0"
-			textcolor="white"
-			selectedtextcolor="White"
+			textcolor="ACCENT"
+			selectedtextcolor="ACCENT"
 			font-family=basefont
 			font-weight=400
 			selectedbgcolor="Focus"
@@ -1616,13 +1619,14 @@ steam.styles
 		}
 		nonsteamdetails 
 		{
+			TEXTCOLOR = ACCENT
 			bgcolor=bgPanel
 			minimum-height=68
 		}
 
 		gamedetails-headerlabel
 		{
-			textcolor="White"
+			textcolor = ACCENT
 			font-family=semibold
 			font-style=uppercase
 			font-size="18"
@@ -1635,7 +1639,7 @@ steam.styles
 		}
 		gamedetails-headerlabel-red
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
 			font-size="18"
@@ -1648,7 +1652,7 @@ steam.styles
 		}
 		gamedetails-headerlabel-green
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
 			font-size="18"
@@ -1661,7 +1665,7 @@ steam.styles
 		}
 		gamedetails-headerlabel-blue
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
 			font-size="18"
@@ -1685,22 +1689,22 @@ steam.styles
 			}
 		}
 
-//////////////// styles for White used in RichText controls in various places ////////////////
+//////////////// styles for ACCENT used in RichText controls in various places ////////////////
 
 ////////////////////////////////////////////////////////
 //======Steam Developer Console debug texts(-dev)=====//
 		console_text_error
 		{
 			textcolor="Red"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			selectedbgcolor="white08"
 		}
 		console_text
 		{
-			textcolor="white75"
-			selectedtextcolor="White"
+			textcolor = ACCENT
+			selectedtextcolor = ACCENT
 			font-family="basefont"
-			selectedbgcolor="Focus"
+			selectedbgcolor = TEXTENTRYHIGHLIGHT
 		}
 
 ////////////////////////////////////////
@@ -1711,7 +1715,7 @@ steam.styles
 		friends_chat_text
 		{
 			textcolor="white75"
-			selectedtextcolor="white"
+			selectedtextcolor="ACCENT"
 			selectedbgcolor="Focus"
 		}
 ////////////////////////
@@ -1719,7 +1723,7 @@ steam.styles
 		friends_chat_text_self
 		{
 			textcolor="White50"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			selectedbgcolor="Focus"
 		}
 ////////////////////////////////
@@ -1727,7 +1731,7 @@ steam.styles
 		friends_chat_history
 		{
 			textcolor="White50"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			selectedbgcolor="Focus"
 		}
 
@@ -1739,7 +1743,7 @@ steam.styles
 		friends_chat_event
 		{
 			textcolor="White50"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
 			selectedbgcolor="Focus"
@@ -1750,7 +1754,7 @@ steam.styles
 		friends_chat_bright_event
 		{
 			textcolor="Focus"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
 			selectedbgcolor="Focus"
@@ -1761,7 +1765,7 @@ steam.styles
 		friends_chat_url
 		{
 			textcolor="White75"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			font-style=underline
 			selectedbgColor="Focus"
 		}
@@ -1770,13 +1774,13 @@ steam.styles
 		friends_chat_name_ingame
 		{
 			textcolor="Friends.InGameColor"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			selectedbgcolor="Focus"
 		}
 		friends_chat_self
 		{
 			textcolor="Friends.OnlineColor"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			selectedbgcolor="Focus"
 		}
 ////////////////////////////////////////////
@@ -1784,7 +1788,7 @@ steam.styles
 		friends_chat_name
 		{
 			textcolor="Friends.OnlineColor"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			selectedbgcolor="Focus"
 		}
 
@@ -1792,8 +1796,8 @@ steam.styles
 //======This controls the : after everybody's name (for real :| )=====//
 		friends_chat_accountid
 		{
-			textcolor="white"
-			selectedtextcolor="White"
+			textcolor="ACCENT"
+			selectedtextcolor="ACCENT"
 			selectedbgcolor="Focus"
 		}
 /////////////////////////////////////////////////////
@@ -1801,7 +1805,7 @@ steam.styles
 		friends_chat_securitylink
 		{
 			textcolor="White75"
-			selectedtextcolor="White"
+			selectedtextcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
 			selectedbgcolor="Focus"

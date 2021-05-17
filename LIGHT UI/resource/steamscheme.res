@@ -10,7 +10,7 @@ Scheme
 	Colors
 	{
 		// base colors
-		"White"				"255 255 255 255"
+		"ACCENT"				"255 255 255 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
 		"Blank"				"1 1 1 0"
@@ -50,7 +50,7 @@ Scheme
 		"DisabledText1"			"117 128 111 255"	// disabled text
 		"DisabledText2"			"40 46 34 255"		// overlay color for disabled text (to give that inset look
 
-		"NotificationBodyText"		"White"
+		"NotificationBodyText"		"ACCENT"
 		
 		// button state text colors
 		"Normal"			"143 146 141 255"

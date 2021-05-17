@@ -40,7 +40,7 @@
 	{
 		GamesGridPlaceholder
 		{
-			textcolor=White
+			textcolor=ACCENT
 			font-family=basefont
 		}
 		GamesGridIconBorder
@@ -55,7 +55,7 @@
 		}
 		"GameItem_installed GamesGridPlaceholder"
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 		}
 
 		"GameItem_Installed GGPlaceholderBG"

@@ -23,8 +23,8 @@
 		}
 		bodycontent
 		{
-			textcolor="White"
-			selectedtextcolor="White"	
+			textcolor="ACCENT"
+			selectedtextcolor="ACCENT"	
 			font-size=15
 			render_bg {}
 		}

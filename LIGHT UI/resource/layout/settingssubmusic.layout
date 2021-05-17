@@ -39,13 +39,13 @@
 		}
 		HeaderText
 		{
-			textcolor=white
+			textcolor = ACCENT
 			font-family=semilight
 			font-weight=300
 		}
 		DescriptionLabel
 		{
-			textcolor=white75
+			textcolor = ACCENT 
 		}
 	}
 	layout

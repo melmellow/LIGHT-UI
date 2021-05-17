@@ -27,9 +27,9 @@
 			Notifications.DisplayTime     "3.0"
 			Notifications.StackSize       "3"
 
-			ListPanel.TextColor       White
+			ListPanel.TextColor       ACCENT
 			ListPanel.BgColor       BASE1
-			ListPanel.SelectedTextColor     White
+			ListPanel.SelectedTextColor     ACCENT
 			ListPanel.SelectedBgColor     Focus
 			ListPanel.SelectedOutOfFocusgColor   Focus
 			ListPanel.DisabledTextColor     White45
@@ -80,18 +80,18 @@
 			Friends.OfflineColor      "Friends_Offline"
 			Friends.GoldenColor       "Friends_Golden"
 			Friends.PanelDefault      "White75"
-			Friends.PanelOver       "White"
+			Friends.PanelOver       "ACCENT"
 			Friends.PanelSelected     "ClientBG"
 			Friends.SectionHeader     "White75"
-			Friends.NoAvatarOver      "White"
+			Friends.NoAvatarOver      "ACCENT"
 			Friends.IgnoredColor      "Red"
 		
-			ChatDialog.URLColor       "White"
+			ChatDialog.URLColor       "ACCENT"
 			ChatOwnTextColor        "White75"
 			ChatGradientTop         "39 39 39 255"
 			ChatGradientBottom        "102 104 99 255"
 			
-			AchievementPopup.TitleColor   "White"
+			AchievementPopup.TitleColor   "ACCENT"
 			AchievementPopup.DescriptionColor "214 214 214 255"
 			
 			GiftOnlyInfo.ImagePanelColor  "GrayBG" 

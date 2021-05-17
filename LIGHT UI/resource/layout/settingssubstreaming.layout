@@ -44,8 +44,8 @@
     }
     ListPanelColumnHeader
     {
-		bgcolor=ACCENT
-		textcolor="255 255 255 255"
+		bgcolor = LISTPANELHEADER
+		textcolor = ACCENT
 		padding-left=6
 	  inset-left=0
 	  render_bg{}

@@ -32,7 +32,7 @@
 	{
 		everythinglabel
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 		}
 		
 		button

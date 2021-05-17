@@ -399,7 +399,7 @@
 		Label
 		{
 			font-family=semilight
-			textcolor=white
+			textcolor=ACCENT
 		}
 		ListPanel
 		{

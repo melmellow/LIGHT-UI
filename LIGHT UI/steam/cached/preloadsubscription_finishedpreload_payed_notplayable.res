@@ -4,7 +4,7 @@
 	{
 		LabelBright
 		{
-			textcolor=white
+			textcolor=ACCENT
 			font-family=light
 			font-size=32
 			font-weight=300

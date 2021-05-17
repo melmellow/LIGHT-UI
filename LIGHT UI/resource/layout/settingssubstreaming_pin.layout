@@ -23,7 +23,7 @@
 		}
 		Description
 		{
-			textcolor="White45"
+			textcolor = ACCENT
 			font-family=semilight
 		}
 		//Hidden

@@ -38,13 +38,13 @@
 		{
 			font-size=36
 			font-family=light
-			textcolor=White
+			textcolor=ACCENT
 		}	
 		
 		captionlabel
 		{
 			font-size=24
-			textcolor=white
+			textcolor=ACCENT
 		}	
 	}
 	

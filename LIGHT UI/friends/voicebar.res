@@ -46,7 +46,7 @@
 		status_label
 		{
 			inset="0 0 0 0"
-			textcolor=white
+			textcolor=ACCENT
 			font-family=semibold
 		}
 		voice_image

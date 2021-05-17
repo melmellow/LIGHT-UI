@@ -29,7 +29,7 @@
 		ItemListStyle { minimum-height="150" }
 		BalanceStyle
 		{
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor=BalanceGreen
 			padding-left=8
 			padding-right=8

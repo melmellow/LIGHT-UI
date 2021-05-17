@@ -12,8 +12,8 @@
 		}
 		URLLabel
 		{
-			textcolor="White"
-			selectedtextcolor="White"
+			textcolor="ACCENT"
+			selectedtextcolor="ACCENT"
 			font-family="semilight"
 			font-weight=300
 			font-style=regular

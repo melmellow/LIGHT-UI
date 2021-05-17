@@ -133,7 +133,7 @@
 			font-family=semibold
 			font-style=uppercase
 			
-			bgcolor=BASE3
+			bgcolor = APPDOWNLOADSTATLABELBG
 			
 			padding= 14
 			PADDING-RIGHT = 1
@@ -148,7 +148,7 @@
 		throttleValue
 		{
 			bgcolor="214 214 214 255"
-			textcolor=white
+			textcolor=ACCENT
 			font-style=regular
 			padding= 14
 			render_bg
@@ -170,7 +170,7 @@
 		bigtextNonUpper
 		{
 			textcolor=ACCENT
-			bgcolor=BASE3
+			bgcolor = APPDOWNLOADSTATLABELBG
 			render_bg{}
 			font-family=basefont
 			padding= 14
@@ -190,7 +190,7 @@
 			PADDING-RIGHT = 1
 			PADDING-LEFT = 9
 			
-			BGCOLOR=BASE3
+			BGCOLOR = APPDOWNLOADSTATLABELBG
 			
 			render {
 				2="fill(x0,y1-1,x1,y1,DIVIDER)"
@@ -215,7 +215,7 @@
 		}
 		bigtextHeader
 		{
-			textcolor=white
+			textcolor=ACCENT
 			font-family=semilight
 		
 		}

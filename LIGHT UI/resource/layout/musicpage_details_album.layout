@@ -29,7 +29,7 @@
 
 		AlbumTitleStyle
 		{
-			textcolor=White
+			textcolor=ACCENT
 			font-family=light
 			font-size=36
 			font-weight=400
@@ -65,7 +65,7 @@
 		}
 		TrackStyle:active
 		{
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor=focus
 		}
 

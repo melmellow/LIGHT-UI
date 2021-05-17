@@ -38,7 +38,7 @@
 		TrackLabelStyle:hover
 		{
 			bgcolor=white05
-			textcolor=White
+			textcolor=ACCENT
 		}
 	}
 

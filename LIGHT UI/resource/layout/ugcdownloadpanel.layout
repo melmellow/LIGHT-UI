@@ -61,7 +61,7 @@
 
 		label2
 		{
-			textcolor		"white"
+			textcolor		"ACCENT"
 			font-family		"semibold"
 			font-style=uppercase
 			font-size		"14"

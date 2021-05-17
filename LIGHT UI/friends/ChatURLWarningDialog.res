@@ -205,7 +205,7 @@
 		danger
 		{
 			inset-left=16
-			textcolor="white"
+			textcolor="ACCENT"
 			font-family=basefont
 			font-size=16
 		}
@@ -213,7 +213,7 @@
 		warning
 		{
 			inset-left=16
-			textcolor="white"
+			textcolor="ACCENT"
 			font-family=basefont
 		}
 	}

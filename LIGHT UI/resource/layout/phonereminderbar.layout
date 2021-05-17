@@ -65,7 +65,7 @@
 		{
 			font-size=16
 			font-style=regular
-			textcolor=white
+			textcolor=ACCENT
 			//render_bg {}
 			//render {
 			//	1="fill( x0, y0, x1, y0 + 1, button_green_border )"  // top

@@ -75,15 +75,15 @@
 	{
 		ConsolePage
 		{
-			bgcolor=ClientBG
+			bgcolor = BASE2
 		}
 
 		CConsoleHistory
     {
       font-family=basefont
       font-size=9
-      textcolor="White45"
-      selectedtextcolor="White"
+      textcolor = ACCENT
+      selectedtextcolor="ACCENT"
 			padding=0
 			inset=0
     }

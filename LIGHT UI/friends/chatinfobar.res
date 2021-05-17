@@ -40,7 +40,7 @@
 		}
 		Button:hover
 		{
-			textcolor=white
+			textcolor = ACCENT
 		}
 	}
 	

@@ -46,7 +46,7 @@
 		}
 		PageTab:selected
 		{
-			textcolor=White
+			textcolor=ACCENT
 		}
 	}
 

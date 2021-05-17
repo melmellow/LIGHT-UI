@@ -4,7 +4,7 @@
 	{
 		Label
 		{
-			textcolor=white
+			textcolor = ACCENT
 			font-family=semibold
 			font-style=uppercase
 			bgcolor="none"

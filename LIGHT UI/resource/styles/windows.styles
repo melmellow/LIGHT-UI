@@ -41,6 +41,7 @@ windows.styles
 		}
 		TextEntry
 		{
+				BGCOLOR = TEXTENTRY
 			font-size=16
 			CORNER_ROUNDING=30
 				render{

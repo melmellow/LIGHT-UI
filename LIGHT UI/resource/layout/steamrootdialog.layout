@@ -143,7 +143,7 @@
 		inbox_button
 		{
 			inset="8 0 8 0"
-			textcolor=white
+			textcolor=ACCENT
 			font-family=basefont
 			font-style="none"
 			render_bg
@@ -157,7 +157,7 @@
 		}
 		inbox_button:hover
 		{
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor = ACTIONBUTTONHOVER
 			render_bg
 			{
@@ -167,7 +167,7 @@
 		}
 		inbox_button:selected
 		{
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor="NONE"
 			render_bg
 			{
@@ -176,7 +176,7 @@
 		}
 		inbox_button:disabled
 		{
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor="none"
 			render_bg
 			{
@@ -187,7 +187,7 @@
 		inbox_button_active
 		{
 			inset="8 0 -1 0"
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor="none"
 			render_bg
 			{
@@ -201,7 +201,7 @@
 		}
 		inbox_button_active:hover
 		{
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor=white05
 			render_bg
 			{
@@ -212,7 +212,7 @@
 		}
 		inbox_button_active:selected
 		{
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor=white10
 			render_bg
 			{
@@ -223,7 +223,7 @@
 		}
 		inbox_button_active:disabled
 		{
-			textcolor=white
+			textcolor=ACCENT
 			bgcolor="none"
 			render_bg
 			{

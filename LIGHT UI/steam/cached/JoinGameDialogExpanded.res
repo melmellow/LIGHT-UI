@@ -6,7 +6,7 @@
 		{
 			font-family=light
 			font-weight=300
-			textcolor=white
+			textcolor=ACCENT
 			font-size=32
 		}
 	}

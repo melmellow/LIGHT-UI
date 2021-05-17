@@ -6,7 +6,7 @@
 		{
 			font-family=semilight
 			font-size=28
-			textcolor=white
+			textcolor=ACCENT
 		}
 	}
 	layout

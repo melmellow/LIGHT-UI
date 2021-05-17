@@ -139,7 +139,7 @@
 	{
 		LabelDull
 		{
-			textcolor=white
+			textcolor=ACCENT
 			font-family=semilight
 			font-size=22
 			font-size=20 [$OSX||$LINUX]

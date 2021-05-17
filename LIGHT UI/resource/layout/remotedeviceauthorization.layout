@@ -13,6 +13,7 @@
 	{
 		RemoteDeviceAuthorization
 		{
+			BGCOLOR = BASE2
 			minimum-width = 380
 			minimum-height = 180
 		}

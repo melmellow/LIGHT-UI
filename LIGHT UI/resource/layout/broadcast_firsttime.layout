@@ -25,7 +25,7 @@
 	{
 		IntroHeading
 		{
-			textcolor="White"
+			textcolor="ACCENT"
 			font-family=basefont
 			font-size="18"
 			font-weight="500"
@@ -43,7 +43,7 @@
 		}
 		ViewerRequest
 		{
-			textcolor="white"
+			textcolor="ACCENT"
 			font-size="16"
 		}
 	}

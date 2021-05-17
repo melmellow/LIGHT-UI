@@ -4,7 +4,7 @@
 	{
 		Label
 		{
-			textcolor=White
+			textcolor=ACCENT
 		}
 	}
 	layout

@@ -16,7 +16,7 @@
 		announcementtext
 		{
 			font-size=16
-			textcolor=White
+			textcolor=ACCENT
 		}
 	}
 	

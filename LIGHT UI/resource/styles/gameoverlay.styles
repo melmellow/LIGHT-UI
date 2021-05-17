@@ -24,10 +24,10 @@ gameoverlay.styles {
 		A2ScrollHover				"60 108 149 100"			//scrollbar handle on hover
 		A2ScrollGutter				"A2Ribbon"					//scrollbar gutter/backdrop
 
-		A2TextPrimary				"255 255 255 220"			//white 87%, text
-		A2TextSecondary				"255 255 255 140"			//white 54%, caption
-		A2TextLabel					"255 255 255 100"			//white 39%, label
-		A2TextHint					"255 255 255 66"			//white 26%, hint text, disabled items
+		A2TextPrimary				"255 255 255 220"			//ACCENT 87%, text
+		A2TextSecondary				"255 255 255 140"			//ACCENT 54%, caption
+		A2TextLabel					"255 255 255 100"			//ACCENT 39%, label
+		A2TextHint					"255 255 255 66"			//ACCENT 26%, hint text, disabled items
 
 		A2ChatFriend				"A2TextPrimary"				//chat window friend text
 		//!! keep here due to bug

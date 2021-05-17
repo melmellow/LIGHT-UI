@@ -14,7 +14,7 @@
 		// and should be updated if you change vertical padding/margins/layout.
 		GameDetailsNewsItem.ExtraVerticalSpacing "76"
 
-		// Override base style rich White x inset inside this control
+		// Override base style rich ACCENT x inset inside this control
 		RichText.InsetX "0"
 		RichText.InsetY "4" 
 	}

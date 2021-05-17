@@ -29,7 +29,7 @@
 			font-family=basefont
 			font-size=15
 			font-weight=400
-			textcolor="white"
+			textcolor="ACCENT"
 			bgcolor=none
 
 			render_bg

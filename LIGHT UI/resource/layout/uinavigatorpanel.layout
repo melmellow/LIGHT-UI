@@ -218,7 +218,7 @@ styles
 
 	headertextlarge
 	{
-		textcolor=White
+		textcolor=ACCENT
 		font-size=30
 		font-weight=400
 		bgcolor=ClientBG
@@ -276,7 +276,7 @@ styles
 	}
 	NavLabel2:selected
 	{
-		textcolor=white
+		textcolor=ACCENT
 	}
 
 	Panel_transparent
@@ -355,10 +355,20 @@ styles
 	}
 
 	TextEntryURL
+
 	{
+		render {
+				0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, TEXTENTRYBORDER )"
+				0="fill( x1 - 1, y0 + 1, x1 - 2, y0 + 2, TEXTENTRYBORDER )"
+				0="fill( x0 + 1, y1 - 1, x0 + 2, y1 - 2, TEXTENTRYBORDER )"
+				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, TEXTENTRYBORDER )"
+		}
 		bgcolor = TEXTENTRY 
 		render_bg {}
-		render {}
+		render {
+			
+		}
+		
 	}
 
 	CUINavButton
@@ -410,7 +420,7 @@ styles
 	}
 	CUINavButton2:selected
 	{
-		textcolor="White"
+		textcolor="ACCENT"
 	}
 
 	MusicPlayerIcon

@@ -20,7 +20,7 @@
 		}
 		name:hover
 		{
-			textcolor=White
+			textcolor=ACCENT
 		}
 		Background
 		{

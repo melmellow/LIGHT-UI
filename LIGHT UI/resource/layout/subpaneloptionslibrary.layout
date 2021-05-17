@@ -24,7 +24,7 @@
   {
     highlight
     {
-      textcolor=White
+      textcolor = ACCENT
     }
   }
   layout

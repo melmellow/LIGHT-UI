@@ -229,7 +229,7 @@
 		{
 			font-family=semibold
 			font-style=uppercase
-			textcolor=white
+			textcolor=ACCENT
 		}
 	}
 	layout

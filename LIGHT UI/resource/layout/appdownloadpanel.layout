@@ -52,16 +52,16 @@
 		}
 		panelStyle
 		{
-			bgcolor=BASE3
+			bgcolor = PROGRESSBARCONTAINER
 		}
 		panelStyleHighlight
 		{
-			bgcolor=BASE3
+			bgcolor = PROGRESSBARCONTAINER
 		}
 
 		label2
 		{
-			textcolor		"white"
+			textcolor		BLACK
 			font-family		"semibold"
 			font-style=uppercase
 			bgcolor			"NONE"

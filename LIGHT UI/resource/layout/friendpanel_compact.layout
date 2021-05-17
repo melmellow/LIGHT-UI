@@ -23,7 +23,7 @@
 		}
 		nameInstanceStyle
 		{
-			textcolor=White
+			textcolor=ACCENT
 			font-family=basefont
 			padding-top=-1
 		}

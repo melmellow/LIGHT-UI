@@ -46,7 +46,7 @@
 		}
 		paginationLinkDisabledStyle
 		{
-			textcolor=White
+			textcolor=ACCENT
 			bgcolor="none"
 		}
 
@@ -54,28 +54,28 @@
 //======This controls the "Showing..." text(it appears only if you use Parental Control)=====//
 		pagedescriptionstyle
 		{
-		 	textcolor=White
+		 	textcolor=ACCENT
 			bgcolor="none"
 		}
 		PageButton
 		{
-			textcolor=White
+			textcolor=ACCENT
 			bgcolor="none"
 			render_bg {}
 		}
 		JumpButton
 		{
-			textcolor=White
+			textcolor=ACCENT
 			bgcolor="none"
 		}
 		paginationLinkStyle
 		{
-			textcolor=White
+			textcolor=ACCENT
 			bgcolor="none"
 		}
 		spacerstyle
 		{
-			textcolor=White
+			textcolor=ACCENT
 			bgcolor="none"
 		}
 	}

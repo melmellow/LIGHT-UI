@@ -82,7 +82,7 @@
 		}
 		NavLabel2:selected
 		{
-			textcolor=white
+			textcolor=ACCENT
 		}
 	}
 	layout
