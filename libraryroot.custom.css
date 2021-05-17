@@ -687,7 +687,7 @@ img {
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
   min-width: unset !important;
   max-width: unset !important;
-  border-right: 2px SOLID var(--SIDEBARBORDER) !important;
+  border-right: 1px SOLID var(--SIDEBARBORDER) !important;
   padding-left: 0 !important;
   background: var(--BASE1) !important;
 }
