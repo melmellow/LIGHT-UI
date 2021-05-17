@@ -28,7 +28,7 @@
   --SCROLLBARHOVER: VAR(--BLACK);
   --BUTTON1TEXTCOLOR: VAR(--WHITE);
   --BUTTON1: VAR(--ACCENT);
-  --BUTTON1HOVER: VAR(--BLACK)
+  --BUTTON1HOVER: VAR(--BLACK);
   --BUTTONHOVER: VAR(--BLACK);
   --RUNNINGGAMENAMECOLOR: VAR(--ACCENT);
   --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
@@ -40,9 +40,9 @@
   --APPPORTRAITINSTALLBUTTON: VAR(--ACCENT);
   --APPPORTRAITINSTALLBUTTONHOVER: VAR(--BLACK);
   --SHELFPLAYBUTTON: VAR(--ACCENT);
-  --SHELFPLAYBUTTONHOVER: VAR(--BUTTONHOVER);
+  --SHELFPLAYBUTTONHOVER: VAR(--BLACK);
   --SHELFINSTALLBUTTON: VAR(--ACCENT);
-  --SHELFINSTALLBUTTONHOVER: VAR(--BUTTONHOVER);
+  --SHELFINSTALLBUTTONHOVER: VAR(--BLACK);
   --INSTALLBUTTON: VAR(--ACCENT);
   --INSTALLBUTTONHOVER: VAR(--BLACK);
   --PLAYBUTTON: VAR(--ACCENT);
@@ -135,11 +135,9 @@
   */
 }
 
-
-button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.DialogButton._DialogLayout.Secondary:HOVER {
-  BACKGROUND-COLOR:VAR(--BUTTON1HOVER)!important;
+button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.DialogButton._DialogLayout.Secondary:hover {
+  background-color: VAR(--BUTTON1HOVER) !important;
 }
-
 
 .DialogInput_Wrapper > input.DialogInput {
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
@@ -1033,7 +1031,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
   .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {
-  background-color: var(--BUTTONHOVER) !important;
+  background-color: var(--BUTTON1HOVER) !important;
 }
 button.DialogButton {
   width: AUTO !important;
