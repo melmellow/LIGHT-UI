@@ -139,6 +139,15 @@
   */
 }
 
+.BroadcastVideoUserInputNeeded .SVGIcon_Play {
+  background: var(--ACCENT) !important;
+}
+
+.BroadcastVideoUserInputNeeded .SVGIcon_Play path {
+  fill: var(--WHITE) !important;
+  stroke: var(--WHITE) !important;
+}
+
 button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.DialogButton._DialogLayout.Secondary:hover {
   background-color: VAR(--BUTTON1HOVER) !important;
 }

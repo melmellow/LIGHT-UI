@@ -8442,6 +8442,10 @@ input.discussionSearchText::SELECTION{
     color:VAR(--ACCENT)!important
 }
 
+.blotter_userstatus_content {
+    color:var(--ACCENT)!important;
+}
+
 .community_home_login {
     COLOR:VAR(--ACCENT)!important;
 }
