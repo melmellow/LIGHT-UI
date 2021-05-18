@@ -15,8 +15,9 @@
   --BUTTON2: #d6d6d6;
   --GAMENAMERIGHTCLICKBACKGROUNDHOVER: #cacaca;
   --BLACK: #000;
-  --BLUE: #1181d2;
+  --RED: #bb1700;
   --GREEN: #54a448;
+  --BLUE: #1181d2;
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
@@ -370,6 +371,7 @@ img {
 }
 
 .removegamehover_Container_1rdB7 {
+  border: 2px DASHED VAR(--RED) !important;
   background-color: var(--BASE3) !important;
   color: var(--ACCENT) !important;
 }
@@ -378,7 +380,6 @@ img {
   .allcollections_NavTimer_2Tnpa
   .allcollections_Message_1XmVt {
   color: var(--ACCENT) !important;
-  background: VAR(--BASE1) !important;
 }
 
 .sharedappdetailsheader_ImgSrc_HNbe3 {
