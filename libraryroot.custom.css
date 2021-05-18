@@ -149,6 +149,10 @@
   */
 }
 
+svg.SVGIcon_Button.SVGIcon_Star_Filled:hover {
+  filter: var(--FILT) !important;
+}
+
 .BroadcastVideoUserInputNeeded .SVGIcon_Play {
   background: var(--BROADCASTPLAYBUTTON) !important;
 }
