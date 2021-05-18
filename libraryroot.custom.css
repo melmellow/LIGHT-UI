@@ -68,6 +68,7 @@
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
   --LIKETHUMBICON: VAR(--ACCENT);
   --LIKETHUMBICONHOVER: VAR(--BLACK);
+  --LIKETHUMBICONSELECTED: VAR(--BLACK);
   --DISLIKETHUMBICON: VAR(--ACCENT);
   --DISLIKETHUMBICONHOVER: VAR(--BLACK);
   --FRIENDISPLAYING: VAR(--ACCENT);
@@ -1293,7 +1294,7 @@ div.ShortRightPanel
 }
 
 .writereview_ThumbIcon_2Jkk-.writereview_Selected_Z3L6K.writereview_Up_2DXZF {
-  fill: var(--BUTTONHOVER) !important;
+  fill: var(--LIKETHUMBICONSELECTED) !important;
   top: 0 !important;
 }
 .writereview_ThumbIcon_2Jkk-.writereview_Selected_Z3L6K.writereview_Down_32G01 {
