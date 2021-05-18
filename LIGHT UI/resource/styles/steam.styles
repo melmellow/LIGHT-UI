@@ -922,6 +922,7 @@ steam.styles
 		{
 			bgcolor = MENUBUTTON
 			render_bg{}
+			image="icons/menu_h"
 		}
 
 		MenuButton

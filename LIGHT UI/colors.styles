@@ -49,7 +49,7 @@
 		NOTIFICATIONBACKGROUND = BASE1
 		NAVBUTTONMENU = BASE3
 		NAVBUTTON = ACCENT
-		NAVBUTTONACTIVEBORDER = ACCENT
+		NAVBUTTONACTIVEBORDER = "NONE"
 		NAVBUTTONSELECTED = BLACK
 		NAVBUTTONHOVER = BLACK
 		NAVBUTTONBACKGROUNDHOVER = "NONE"
@@ -77,14 +77,6 @@
 		green50="87 119 15 255"
 		green="130 186 0 255"
 		green_bright="0 255 0 255"
-		Red="255 0 0 255"
-
-/////////////////////////////
-//======Friends Panel======//
-		Friends_InGame="130 186 0 255"
-		Friends_Online="93 178 255 255"
-		Friends_Offline=White45
-		Friends_Golden="255 255 99 255"
 
 ///////////////////////////////////////
 //======Nickname/Balance Button======//
@@ -199,15 +191,6 @@
 		bgTextColumn_a=White05
 		tagColumn=White50
 		bgTagColumn=none
-
-///////////////////////////////
-//======Steam Grid View======//
-		gridInstalled=Friends_Online
-		gridRunning=Friends_InGame
-		gridUninstalled=none
-		gridUpdating=Focus
-		gridShortcut=ACCENT
-		gridMod=Friends_Golden
 
 //////////////////////////
 //======List Panel======//
