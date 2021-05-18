@@ -45,6 +45,8 @@
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
   --APPPORTRAITINSTALLBUTTON: VAR(--ACCENT);
   --APPPORTRAITINSTALLBUTTONHOVER: VAR(--BLACK);
+  --BROADCASTPLAYBUTTON: VAR(--ACCENT);
+  --BROADCASTPLAYBUTTONHOVER: VAR(--BLACK);
   --SHELFPLAYBUTTON: VAR(--ACCENT);
   --SHELFPLAYBUTTONHOVER: VAR(--BLACK);
   --SHELFINSTALLBUTTON: VAR(--ACCENT);
@@ -148,7 +150,11 @@
 }
 
 .BroadcastVideoUserInputNeeded .SVGIcon_Play {
-  background: var(--ACCENT) !important;
+  background: var(--BROADCASTPLAYBUTTON) !important;
+}
+
+.BroadcastVideoUserInputNeeded .SVGIcon_Play:hover {
+  background: VAR(--BROADCASTPLAYBUTTONHOVER) !important;
 }
 
 .BroadcastVideoUserInputNeeded .SVGIcon_Play path {
