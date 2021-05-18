@@ -67,7 +67,9 @@
   --PROGRESSBAR: VAR(--ACCENT);
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
   --LIKETHUMBICON: VAR(--ACCENT);
+  --LIKETHUMBICONHOVER: VAR(--BLACK);
   --DISLIKETHUMBICON: VAR(--ACCENT);
+  --DISLIKETHUMBICONHOVER: VAR(--BLACK);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOP: VAR(--ACCENT);
@@ -1278,8 +1280,16 @@ div.ShortRightPanel
   fill: VAR(--LIKETHUMBICON) !important;
 }
 
+.writereview_ThumbIcon_2Jkk-.writereview_Up_2DXZF:hover {
+  fill: VAR(--LIKETHUMBICONHOVER) !important;
+}
+
 .writereview_ThumbIcon_2Jkk-.writereview_Down_32G01 {
   fill: var(--DISLIKETHUMBICON) !important;
+}
+
+.writereview_ThumbIcon_2Jkk-.writereview_Down_32G01:hover {
+  fill: var(--DISLIKETHUMBICONHOVER) !important;
 }
 
 .writereview_ThumbIcon_2Jkk-.writereview_Selected_Z3L6K.writereview_Up_2DXZF {
