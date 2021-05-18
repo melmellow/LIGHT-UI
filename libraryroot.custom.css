@@ -66,7 +66,8 @@
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
   --PROGRESSBAR: VAR(--ACCENT);
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
-  --THUMBICON: VAR(--ACCENT);
+  --LIKETHUMBICON: VAR(--ACCENT);
+  --DISLIKETHUMBICON: VAR(--ACCENT);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOP: VAR(--ACCENT);
@@ -1272,6 +1273,15 @@ div.ShortRightPanel
   background-color: var(--BUTTON) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
 }
+
+.writereview_ThumbIcon_2Jkk-.writereview_Up_2DXZF {
+  fill: VAR(--LIKETHUMBICON) !important;
+}
+
+.writereview_ThumbIcon_2Jkk-.writereview_Down_32G01 {
+  fill: var(--DISLIKETHUMBICON) !important;
+}
+
 .writereview_ThumbIcon_2Jkk-.writereview_Selected_Z3L6K.writereview_Up_2DXZF {
   fill: var(--BUTTONHOVER) !important;
   top: 0 !important;
@@ -1589,9 +1599,9 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
   background-color: var(--BUTTON) !important;
 }
-.writereview_ThumbIcon_2Jkk- {
+/* .writereview_ThumbIcon_2Jkk- {
   fill: var(--THUMBICON) !important;
-}
+} */
 .writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K) {
   border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
 }
