@@ -22,6 +22,11 @@
 			render {}
 			image="icons/downloads_h"
 		}
+			StatusLabel:selected
+		{
+			render {}
+			image="icons/downloads_h"
+		}
 		StatusLabelDim
 		{
 			textcolor="none"

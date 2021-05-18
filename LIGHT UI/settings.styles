@@ -38,7 +38,7 @@
 			ListPanel.PerPixelScrolling     1
 			ListPanel.PostSectionLeading	0
 
-			Tooltip.Delay=1000
+			Tooltip.Delay=99999
 			//Tooltip.Anchor=Cursor
 		
 			WizardPanel.HeaderBGColor     Black25
