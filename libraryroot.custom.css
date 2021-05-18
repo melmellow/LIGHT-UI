@@ -20,6 +20,8 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
+  --APPDETAILSPANEL: VAR(--BASE1);
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
@@ -1695,7 +1697,7 @@ div.NarrowRightPanel
 }
 .appdetailscommunityfeed_Guide_-85o5
   .appdetailscommunityfeed_TopSectionInner_1dJuv {
-  background: var(--BASE1) !important;
+  background: var(--APPDETAILSPANEL) !important;
 }
 .appdetailscommunityfeed_ArtItem_1aP1b
   .appdetailscommunityfeed_DescriptionRow_Uhvgn {
@@ -1704,7 +1706,7 @@ div.NarrowRightPanel
 }
 .appdetailscommunityfeed_ArtItem_1aP1b
   .appdetailscommunityfeed_BottomSection_3uabi {
-  background: var(--BASE1) !important;
+  background: var(--APPDETAILSPANEL) !important;
 }
 
 .sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Right_16lyt {
@@ -1724,7 +1726,7 @@ div.NarrowRightPanel
   font-weight: BOLD !important;
 }
 .appdetailscommunityfeed_CommunityItem_3QS6O {
-  background-color: var(--BASE1) !important;
+  background-color: var(--APPDETAILSPANEL) !important;
   border-top: 1px SOLID var(--BASE2) !important;
   border-left: 1px SOLID var(--BASE2) !important;
   border-right: 1px SOLID var(--BASE2) !important;
@@ -1767,7 +1769,7 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
 }
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
-  background-color: VAR(--BASE3) !important;
+  background-color: VAR(--COMMUNITYFEEDCONTROLS) !important;
   border: 0 !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
@@ -1775,7 +1777,7 @@ div.NarrowRightPanel
 
 .appdetailscommunityfeed_AuthorSection_1ul9Z {
   color: var(--ACCENT) !important;
-  background: var(--BASE1) !important;
+  background: var(--APPDETAILSPANEL) !important;
   border: 0 !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
@@ -1994,7 +1996,7 @@ div.NarrowRightPanel
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px SOLID var(--BASE2) !important;
-  background: var(--BASE1) !important;
+  background: var(--APPDETAILSPANEL) !important;
   box-shadow: 2px 1px 2px VAR(--SHADOW) !important;
 }
 div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
