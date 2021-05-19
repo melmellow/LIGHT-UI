@@ -26,6 +26,9 @@
   --LSHOVERBORDERRADIUS: 0;
   --LSBACKGROUNDHOVER: NONE;
   --LSHOVERSHADOW: NONE;
+  --LOADINGFILT: VAR(--FILT);
+  --LOADINGOP: VAR(--OP2);
+  --LOADINGDOT: VAR(--ACCENT);
   --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
   --COMMUNITYFEEDBORDERROUNDED1: 0;
   --COMMUNITYFEEDBORDERROUNDED2: 0;
@@ -561,16 +564,17 @@ img {
 }
 
 .index_Container_2mu1w.index_PreloadThrobber_2dqG9 {
+  border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
   background: VAR(--BASE2) !important;
 }
 
 .throbber_LoadingWrapper_2wAKy.throbber_Static_1Qfwp * {
-  filter: brightness(0) !important;
-  opacity: 60% !important;
+  filter: var(--LOADINGFILT) !important;
+  opacity: var(--LOADINGOP) !important;
 }
 .index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq {
   border-radius: 50px !important;
-  background-color: VAR(--ACCENT) !important;
+  background-color: VAR(--LOADINGDOT) !important;
 }
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
   background: VAR(--BASE2) !important;
