@@ -164,6 +164,18 @@
   */
 }
 
+.pageablecontainer_PageClickContainer_3E421
+  .pageablecontainer_PageLeft_1L7no:hover,
+.pageablecontainer_PageClickContainer_3E421
+  .pageablecontainer_PageRight_1qFMs:hover {
+  background: var(--BLACK) !important;
+}
+
+.pageablecontainer_PageClickContainer_3E421 .pageablecontainer_PageLeft_1L7no,
+.pageablecontainer_PageClickContainer_3E421 .pageablecontainer_PageRight_1qFMs {
+  opacity: 1 !important;
+}
+
 svg.SVGIcon_Button.SVGIcon_Star_Filled:hover {
   filter: var(--FILT) !important;
 }
