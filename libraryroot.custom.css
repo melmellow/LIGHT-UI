@@ -27,6 +27,10 @@
   --LSBACKGROUNDHOVER: NONE;
   --LSHOVERSHADOW: NONE;
   --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
+  --COMMUNITYFEEDBORDERROUNDED1: 0;
+  --COMMUNITYFEEDBORDERROUNDED2: 0;
+  --COMMUNITYFEEDBORDERROUNDED3: 0;
+  --COMMUNITYFEEDBORDERROUNDED4: 0;
   --APPDETAILSPANEL: VAR(--BASE1);
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
@@ -1764,6 +1768,12 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
   font-weight: BOLD !important;
 }
+
+.appdetailscommunityfeed_CommunityItem_3QS6O
+  .appdetailscommunityfeed_PreviewContainer_3XZzf {
+  border-top-left-radius: VAR(--COMMUNITYFEEDBORDERROUNDED3) !important;
+  border-top-right-radius: var(--COMMUNITYFEEDBORDERROUNDED4) !important;
+}
 .appdetailscommunityfeed_CommunityItem_3QS6O {
   background-color: var(--APPDETAILSPANEL) !important;
   border-top: 1px SOLID var(--BASE2) !important;
@@ -1819,6 +1829,8 @@ div.NarrowRightPanel
   background: var(--APPDETAILSPANEL) !important;
   border: 0 !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border-bottom-left-radius: var(--COMMUNITYFEEDBORDERROUNDED1) !important;
+  border-bottom-right-radius: VAR(--COMMUNITYFEEDBORDERROUNDED2) !important;
 }
 .appdetailsachievementssection_AchievementProgressContainer_3ns91
   .appdetailsachievementssection_AchievementProgress_3Rm36 {
