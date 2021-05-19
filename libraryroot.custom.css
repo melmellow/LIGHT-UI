@@ -90,6 +90,7 @@
   --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
   --BOXSIZEREDGE: VAR(--BLUE);
   --GAMELOGOADJUSTER: VAR(--GREEN);
+  --DETAILSSECTIONHEADER: VAR(--ACCENT);
   --MCSCOREBACKGROUND: VAR(--BLACK);
   --MCSCOREBORDER: VAR(--WHITE);
   --MCSCORETEXT: VAR(--WHITE);
@@ -1040,7 +1041,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   border-color: var(--BUTTONBORDERHOVER) !important;
 }
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
-  color: var(--ACCENT) !important;
+  color: var(--DETAILSSECTIONHEADER) !important;
   font-weight: 440 !important;
 }
 
@@ -2765,7 +2766,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 .appdetailssectionheader_SectionHeader_1Q2q_ {
-  color: var(--ACCENT) !important;
+  color: var(--DETAILSSECTIONHEADER) !important;
   font-weight: BOLD !important;
 }
 .appdetailsprimarylinkssection_MenuButton_1bIMO {
