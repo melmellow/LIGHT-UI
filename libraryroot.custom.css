@@ -80,7 +80,8 @@
   --CHECKMARK: VAR(--ACCENT);
   --DROPDOWN: VAR(--BUTTON2);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
-  --PROGRESSBAR: VAR(--ACCENT);
+  --DOWNLOADPROGRESSBAR: VAR(--ACCENT);
+  --ACHIEVEMENTPROGRESSBAR: VAR(--ACCENT);
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
   --LIKETHUMBICON: VAR(--ACCENT);
   --LIKETHUMBICONHOVER: VAR(--BLACK);
@@ -1840,7 +1841,7 @@ div.NarrowRightPanel
 }
 .appdetailsachievementssection_AchievementProgressContainer_3ns91
   .appdetailsachievementssection_AchievementProgress_3Rm36 {
-  background-color: var(--PROGRESSBAR) !important;
+  background-color: var(--ACHIEVEMENTPROGRESSBAR) !important;
   border-radius: VAR(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
@@ -1872,7 +1873,7 @@ div.NarrowRightPanel
 }
 .appdetailsplaysection_DetailsProgressContainer_25YVD
   .appdetailsplaysection_DetailsProgressBar_1FnTq {
-  background-color: var(--PROGRESSBAR) !important;
+  background-color: var(--DOWNLOADPROGRESSBAR) !important;
   border-radius: VAR(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appdetailsplaysection_DetailsProgressContainer_25YVD {
@@ -2018,6 +2019,7 @@ div.NarrowRightPanel
 .libraryhome_InnerContainer_2AUVZ {
   color: VAR(--ACCENT) !important;
   background: var(--BASE2) !important;
+  border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
 }
 .apppartnereventspage_CloseButton_1_vCR svg line {
   stroke: var(--WHITE) !important;
@@ -2084,7 +2086,6 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
 }
 .libraryhome_LibraryHome_3Sb2o {
-  border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
   background: var(--BASE2) !important;
 }
 .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
