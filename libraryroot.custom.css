@@ -58,6 +58,7 @@
   --APPPORTRAITINSTALLBUTTONHOVER: VAR(--BLACK);
   --BROADCASTPLAYBUTTON: VAR(--ACCENT);
   --BROADCASTPLAYBUTTONHOVER: VAR(--BLACK);
+  --SHELFDROPDOWNLISTMENUBORDER: VAR(--DIVIDER);
   --SHELFPLAYBUTTON: VAR(--ACCENT);
   --SHELFPLAYBUTTONHOVER: VAR(--BLACK);
   --SHELFINSTALLBUTTON: VAR(--ACCENT);
@@ -2340,6 +2341,7 @@ A {
   border: none !important;
   background-color: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER) !important;
 }
+
 .appgrid_SortingDropDownContainer_1ZpBQ > div {
   border-left: none !important;
   background: var(--BASE1) !important;
@@ -2396,8 +2398,6 @@ A {
   ._DialogInputContainer {
   box-shadow: NONE !important;
   background-color: var(--BASE1) !important;
-  border-radius: 6px !important;
-  border: 1px solid var(--buttonborder) !important;
   font-weight: 500 !important;
 }
 .contextmenu_contextMenuItem_1n7Wl:hover,
@@ -2463,10 +2463,10 @@ A {
 }
 .dropdown_DialogDropDownMenu_30wJO._DialogInputContainer {
   background-color: var(--BASE1) !important;
-  border: 0 !important;
+  border: 1px SOLID VAR(--SHELFDROPDOWNLISTMENUBORDER) !important;
   box-shadow: 0 0 2px VAR(--SHADOW) !important;
   left: 200px !important;
-  border-radius: 6px !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
