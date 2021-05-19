@@ -66,6 +66,8 @@
   --GAMEGROUPNAMECOLOR: VAR(--ACCENT);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
+  --CONTEXTMENUBORDER: VAR(--DIVIDER);
+  --CONTEXTMENUSHADOW: "NONE";
   --CONTEXTMENU: VAR(--BASE3);
   --CONTEXTMENUPLAYBUTTON: NONE;
   --CONTEXTMENUACTIONBUTTONTEXT: VAR(--ACCENT);
@@ -2409,8 +2411,8 @@ A {
 
 .contextmenu_contextMenu_PP7LM {
   border-radius: VAR(--BORDERRADIUS) !important;
-  border: 0 !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border: 1px SOLID VAR(--CONTEXTMENUBORDER) !important;
+  box-shadow: 1px 1px 2px VAR(--CONTEXTMENUSHADOW) !important;
   background: var(--CONTEXTMENU) !important;
 }
 .appproperties_AppProperties_1FyBL
