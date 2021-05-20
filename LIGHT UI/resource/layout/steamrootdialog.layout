@@ -254,7 +254,7 @@
 			image="ICONS/FVUNLOCK"
 			padding-left=6
 			padding-right=6
-			inset-right = 16
+			inset-right = 1
 		}
 		parental_lock_button:hover
 		{
