@@ -264,25 +264,13 @@
 //======Steam Already Running Dialog=====//
 		SimpleDialog
 		{
-			bgcolor=ClientBG
-			render_bg
-			{
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
-			}
+			bgcolor = BASE2
+			
 		}
 
 		CPreloadAppDialog
 		{
-			render_bg
-			{
-				//Top
-				1="fill( x0, y0+89, x1, y0+90, frameBorder )"
-				2="fill( x0, y0, x1, y0+89, Header_Dark )"
-				//Bottom
-				3="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				4="fill( x0, y1-43, x1, y1, Header_Dark )"
-			}
+			BGCOLOR = BASE2
 		}
 
 /////////////////////////////////
@@ -546,15 +534,19 @@
 //======Parental Lock Dialog=====//
 		CDialogParentalLock
 		{
+			BGCOLOR = BASE2
 			minimum-width = 400
 			minimum-height = 160
+			RENDER_BG {}
 		}
 /////////////////////////////////////
 //======Parental Unlock Dialog=====//
 		CDialogParentalUnlock
 		{
+			BGCOLOR = BASE2
 			minimum-width = 400
 			minimum-height = 220
+			RENDER_BG {}
 		}
 
 ////////////////////////////////////////////////

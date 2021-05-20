@@ -59,6 +59,22 @@
     --border50:50%
 }
 
+.parental_settings_subinstructions {
+    color:var(--ACCENT);
+}
+
+
+.parental_settings_form input {
+    BACKGROUND-COLOR:VAR(--TEXTENTRY)!important;
+    color:var(--ACCENT)!important;
+    outline:none;
+}
+
+.parental_settings_form input {
+    BORDER:1PX SOLID #B8B8B8!important;
+    color:var(--ACCENT)!important;
+}
+
 *{
     text-shadow:none!important;
     box-shadow:none!important
