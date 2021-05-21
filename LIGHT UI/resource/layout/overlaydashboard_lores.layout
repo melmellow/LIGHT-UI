@@ -1,5 +1,7 @@
 "Resource/layout/overlaydashboard_lores.layout" {
 
+	include "colors.styles"
+
 	styles {
 		overlaymain {
 			render {
@@ -23,7 +25,7 @@
 			font-size=54
 			font-weight=500
 			font-style=uppercase
-			textcolor=A2TextOverlay
+			textcolor = OVERLAYGAMENAME
 
 			//game name
 		}
@@ -33,7 +35,7 @@
 		region { name=overlay height=240 width=max margin-left=70 margin-right=60 }
 			place { control=gamename region=overlay align=left y=30 }
 			place { control=TaskbarPanel region=overlay width=200 height=max align=right end-right=CloseButton margin-right=50 }
-			place { control=CloseButton region=overlay align=right height=40 width=40 y=97 }
+			place { control=CloseButton region=overlay align=right height=0 width=0 y=97 }
 
 		place { control=TopFadePanel,PowerMeterDim,BottomFadePanel,HotkeyLabel,HotkeyExplain height=0 width=0 }
 	}

@@ -29,6 +29,7 @@
 		NAVBARPROGRESSBAR = "0 255 0 255"
 		MENUBUTTONHOVER = "NONE"
 		MENUBUTTON = "NONE"
+		OVERLAYGAMENAME = ACCENT
 		OVERLAYBAR = BASE1
 		OVERLAYBACKGROUND = BASE2
 		SMGAMENAMEINSTALLED = ACCENT
@@ -172,12 +173,6 @@
 		urlTextNewsPanel_a=ACCENT
 		boldTextNewsPanel=Focus
 
-		overlay_bgTitleNewsPanel=none
-		overlay_titleNewsPanel=White35
-		overlay_titleNewsPanel_a=ACCENT
-		overlay_authorNewsPanel=White50
-
-
 /////////////////////////////////////////////////////////
 //======Steam Detail View Links/Custom Categories======//
 		titleColumn=ACCENT
@@ -217,22 +212,6 @@
 
 		statusDownload=text
 		bgStatusDownload=none
-
-
-////////////////////////////////
-//======Overlay Elements======//
-		OverlayBackground="0 0 0 127.5"
-		OverlayPanels="0 0 0 127.5"
-		OverlayClock="255 255 255 255"
-
-
-///////////////////////////////////////
-//======Compact Overlay Buttons======//
-		OverlaySideButtons="255 255 255 255"
-		OverlaySideButtons_h="255 255 255 144.75"
-		OverlaySideButtons_c="255 255 255 144.75"
-		OverlayHover05="255 255 255 12.75"
-
 
 /////////////////////////////
 //======Notifications======//
