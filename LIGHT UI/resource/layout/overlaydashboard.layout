@@ -16,7 +16,7 @@
 		topbar {
 			font-family=condensed
 			font-size=54
-			font-weight=700
+			font-weight=600
 			font-style=uppercase
 			textcolor = OVERLAYGAMENAME
 			//game name
