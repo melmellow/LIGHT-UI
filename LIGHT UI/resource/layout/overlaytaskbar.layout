@@ -7,8 +7,7 @@
 
 	layout {
 		place { control=TaskbarPanel height=max width=max }
-		place { control=SettingsButton,WebBrowserButton height=20 y=93 align=right dir=down }
-		place { control=MusicPlayerButton margin-left=-9999 width=0 }
+		place { control=SettingsButton,WebBrowserButton,MusicPlayerButton height=20 y=93 align=right dir=down }
 		place { control=SteamLogo,FriendPanel,view_friends,online_friends height=0 width=0 }
 	}
 }

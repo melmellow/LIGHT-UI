@@ -5,7 +5,7 @@
 	}
 
 	layout {
-		region { name=overlay height=max width=max margin-left=50 margin-right=70 }
+		region { name=overlay height=max width=max margin-left=50 }
 			place { control=FriendsDetailPanel width=301 }
 			place { control=AchievementsDetailPanel width=207 }
 			place { control=CommunityHubDetailPanel width=191 }
@@ -32,7 +32,7 @@
 			}
 
 			place { control=BroadcastDetailPanel align=top-center y=14 height=40 width=360 }
-			place { control=EditControllerConfig margin-left=-9999 width=0 }
+			place { control=EditControllerConfig   region=overlay align=top-center width=0 height=0 }
 			place { control=ForceQuitButton margin-left=-9999 width=0 }
 		place { control=TwoWeeksText,GuidesDetailPanel,NewsDetailPanel,CommunityDiscussionsDetailPanel height=0 width=0 margin-left=-9999 }
 	}

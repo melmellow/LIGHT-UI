@@ -32,10 +32,10 @@
 	}
 
 	layout {
-		region { name=overlay height=240 width=max margin-left=70 margin-right=60 }
+		region { name=overlay height=240 width=max margin-left=70 margin-right=0 }
 			place { control=gamename region=overlay align=left y=30 }
-			place { control=TaskbarPanel region=overlay width=200 height=max align=right end-right=CloseButton margin-right=50 }
-			place { control=CloseButton region=overlay align=right height=0 width=0 y=97 }
+			place { control=TaskbarPanel region=overlay width=200 height=max align=right y=30}
+		//	place { control=CloseButton region=overlay align=right height=0 width=0}
 
 		place { control=TopFadePanel,PowerMeterDim,BottomFadePanel,HotkeyLabel,HotkeyExplain height=0 width=0 }
 	}
