@@ -49,11 +49,6 @@
 		CChooseBetaDialog
 		{
 			bgcolor=BASE2
-			render_bg
-			{
-				//Bottom
-				2="fill( x0, y1-43, x1, y1, BASE2 )"
-			}
 		}
 		CLimitedUserDialog
 		{
@@ -119,7 +114,7 @@
 			render_bg
 			{
 				5="fill( x0, y0, x0+182, y1, BASE1 )"
-				6="fill(x0+178,y1-44,x1-8,y1-43,White12)"		// Bottom-Right
+				6="fill(x0+178,y1-44,x1-8,y1-43,BASE2)"		// Bottom-Right
 			}
 			minimum-width="810"
 			minimum-height="760"

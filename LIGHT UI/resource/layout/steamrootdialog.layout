@@ -247,9 +247,7 @@
 			}
 
 			image="ICONS/FVLOCK"
-			padding-left=6
-			padding-right=6
-			inset-right = 1
+			PADDING-RIGHT=4
 		}
 		parental_lock_button:hover
 		{
