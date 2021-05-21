@@ -59,8 +59,16 @@
     --border50:50%
 }
 
+.account_recovery_box{
+    color:var(--ACCENT)!important;
+    background-color:var(--BASE1)!important;
+    box-shadow:1px 1px 2px var(--SHADOW);
+}
+
+
+
 .parental_settings_subinstructions {
-    color:var(--ACCENT);
+    color:var(--ACCENT)!important;
 }
 
 
