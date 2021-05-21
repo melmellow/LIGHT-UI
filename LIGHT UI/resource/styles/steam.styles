@@ -1222,9 +1222,8 @@ steam.styles
 		URLLabel
 		{
 			textcolor=ACCENT
-			font-family=basefont
-			font-style=underline
-			font-weight=400
+			font-family=SEMIBOLD
+			font-weight=500
 			bgcolor="none"
 			FONT-STYLE=UPPERCASE
 		}
