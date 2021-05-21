@@ -9,15 +9,9 @@
 			}
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 234, OVERLAYBAR )"
+				1="fill( x0, y0 + 234, x1, y1, OVERLAYBACKGROUND)"
 			}
 		}
-
-		OverlayURLLabel {
-			textcolor=none
-			image="ICONS/overlay_close"
-		}
-
-		OverlayURLLabel:hover { image="ICONS/overlay_close_hover" }
 
 		topbar {
 			font-family=condensed
@@ -25,7 +19,6 @@
 			font-weight=700
 			font-style=uppercase
 			textcolor = OVERLAYGAMENAME
-
 			//game name
 		}
 		

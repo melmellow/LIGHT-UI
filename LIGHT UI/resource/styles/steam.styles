@@ -1226,6 +1226,7 @@ steam.styles
 			font-style=underline
 			font-weight=400
 			bgcolor="none"
+			FONT-STYLE=UPPERCASE
 		}
 
 		URLLabel:Hover
