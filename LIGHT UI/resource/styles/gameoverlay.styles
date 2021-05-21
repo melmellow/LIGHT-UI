@@ -5,10 +5,6 @@ gameoverlay.styles {
 	colors {
 		Notifications.PanelPosition "BottomRight"
 
-		A2OverlayBackground		none				//overlay bg
-		A2OverlayBar				"228 228 228 255"				//overlay topbar bg (A2Bar in dark theme)
-
-		A2Background				"32 55 82 255"				//client bg
 		A2Ribbon					"27 40 56 255"				//bg for section emphasis (ie. left side of settings dialog)
 		A2Divider					"28 47 69 255"				//client dividers
 		//A2Snackbar											//don't change in overlay due to avatarBorderNotification

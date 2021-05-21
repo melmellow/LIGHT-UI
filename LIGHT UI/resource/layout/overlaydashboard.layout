@@ -1,13 +1,15 @@
 "Resource/layout/overlaydashboard.layout" {
 
+	include "colors.styles"
+
 	styles {
 		overlaymain {
 			render {
-				0="image_scale( x0, y0 + 234, x1, y0 + 240, graphics/material/shadow_horiz )"
+				0="image_scale( x0, y0 + 234, x1, y0 + 240, graphics/material/shadow_horiz2 )"
 			}
 			render_bg {
-				0="fill( x0, y0, x1, y0 + 234, A2OverlayBar )"
-				1="fill( x0, y0 + 234, x1, y1, A2OverlayBackground )"
+				0="fill( x0, y0, x1, y0 + 234, OVERLAYBAR )"
+				1="fill( x0, y0 + 234, x1, y1, OVERLAYBACKGROUND )"
 			}
 		}
 
