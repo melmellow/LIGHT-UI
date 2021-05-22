@@ -1223,7 +1223,7 @@ steam.styles
 		{
 			textcolor=ACCENT
 			font-family=SEMIBOLD
-			font-weight=500
+			font-weight=300
 			bgcolor="none"
 			FONT-STYLE=UPPERCASE
 		}
