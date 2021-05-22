@@ -6,14 +6,14 @@
 
 	layout {
 		region { name=overlay height=max width=max margin-left=50 }
-			place { control=FriendsDetailPanel width=301 }
-			place { control=AchievementsDetailPanel width=207 }
-			place { control=CommunityHubDetailPanel width=191 }
-			place { control=ScreenshotsDetailPanel width=174 }
+			place { control=FriendsDetailPanel}
+			place { control=AchievementsDetailPanel}
+			place { control=CommunityHubDetailPanel}
+			place { control=ScreenshotsDetailPanel}
 			place {
 				control=FriendsDetailPanel,AchievementsDetailPanel,CommunityHubDetailPanel,ScreenshotsDetailPanel
 				region=overlay
-				y=181
+				y=191
 				height=50
 				align=left
 			}
