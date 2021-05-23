@@ -167,6 +167,10 @@
   */
 }
 
+.Resume.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
+  background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
+}
+
 .appgrid_SortingDropDown_1tBzy
   ._DialogInputContainer
   .DialogDropDown_CurrentDisplay {
