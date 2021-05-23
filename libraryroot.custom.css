@@ -45,7 +45,9 @@
   --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBARBORDERROUNDED: 0px;
   --SCROLLBAR: VAR(--ACCENT);
+  --RATINGICONBACKGROUNDHOVER: NONE !important;
   --RATINGICON: VAR(--ACCENT);
+  --RATINGICONHOVER: VAR(--BLACK);
   --SCROLLBARHOVER: VAR(--BLACK);
   --BUTTON1TEXTCOLOR: VAR(--WHITE);
   --BUTTON1: VAR(--ACCENT);
@@ -976,13 +978,19 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   stroke: var(--RATINGICON) !important;
   fill: var(--RATINGICON) !important;
 }
+
+svg#Layer_2:hover {
+  stroke: var(--RATINGICONHOVER) !important;
+  fill: var(--RATINGICONHOVER) !important;
+}
+
 .comment_thread_RatingBar_1yWgP
   .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover,
 .comment_thread_RatingBar_1yWgP
   .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover,
 .comment_thread_RatingBar_1yWgP
   .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {
-  background-color: var(--BUTTON) !important;
+  background-color: var(--RATINGICONBACKGROUNDHOVER) !important;
   border-radius: 30px !important;
 }
 .title-area-icon .SVGIcon_X_Line line {
