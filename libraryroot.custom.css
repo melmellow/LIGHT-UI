@@ -117,7 +117,8 @@
   --ACTIONBUTTONROUNDED3: 50px;
   --SHELFACTIONBUTTONROUNDED: 50px;
   --DROPDOWNROUNDED1: 10px;
-  --DROPDOWNROUNDED2: 10px;
+  --DROPDOWNROUNDED2: 0 10px 10px 0;
+  --DROPDOWNROUNDED3: 10px 0 0 10px;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 10px;
   --BUTTON1BORDERRADIUS: 0;
@@ -163,6 +164,12 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appgrid_SortingDropDown_1tBzy
+  ._DialogInputContainer
+  .DialogDropDown_CurrentDisplay {
+  border-radius: var(--DROPDOWNROUNDED3) !important;
 }
 
 .steamavatar_avatarHolder_nibod {
@@ -3129,7 +3136,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   border-left: 1px SOLID var(--BASE2) !important;
   border-top: 1px SOLID var(--BASE2) !important;
   border-bottom: 1px SOLID var(--BUTTONBORDER) !important;
-  border-radius: 0 0 0 0 !important;
   background-color: var(--DROPDOWN) !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
@@ -3203,6 +3209,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .eventbbcodeparser_HR_2IENn {
   background-color: var(--SHADOW) !important;
 }
+
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow {
   border-right: 1px SOLID var(--BASE2) !important;
   border-top: 1px SOLID var(--BASE2) !important;
