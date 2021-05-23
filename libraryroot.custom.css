@@ -116,10 +116,10 @@
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
   --ACTIONBUTTONROUNDED3: 50px;
   --SHELFACTIONBUTTONROUNDED: 50px;
-  --DROPDOWNROUNDED1: 0;
-  --DROPDOWNROUNDED2: 0;
+  --DROPDOWNROUNDED1: 10px;
+  --DROPDOWNROUNDED2: 10px;
   --TEXTENTRYBORDERROUNDED: 30px;
-  --BORDERRADIUS: 0;
+  --BORDERRADIUS: 10px;
   --BUTTON1BORDERRADIUS: 0;
   --BUTTON2BORDERRADIUS: 0;
   --GAMEGROUPNAMEFONTWEIGHT: BOLD;
@@ -1816,9 +1816,10 @@ div.NarrowRightPanel
 }
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
   margin-right: 15px !important;
-  background: var(--BASE2) !important;
+  background: var(--BASE1) !important;
   border-radius: 10px !important;
   border: 1px SOLID var(--BASE2) !important;
+  box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 .collectionview_ContainerScroll_1vHgY {
   background-image: url(https://i.imgur.com/kdxXmTO.png) !important;
