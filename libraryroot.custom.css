@@ -131,6 +131,7 @@
   --GAMESTATICONFILTER: VAR(--FILT);
   --COMMUNITYFEEDICONFILTER: VAR(--FILT);
   --SHOWCASEPAGEBUTTONICONFILTER: VAR(--FILT);
+  --APPFEATUREICONTITLESECTIONOP: 0 !important;
   --APPFEATUREICONFILTER: VAR(--FILT);
   --APPFEATUREICONOPACITY: VAR(--OP2);
   --COMMUNITYFEEDICONOPACITY: VAR(--OP);
@@ -175,8 +176,9 @@
   background: var(--BASE1) !important;
   border-radius: 50px !important;
   padding-right: 8px !important;
-  margin-right: 8px !important;
+  margin-right: 10px !important;
   border: 1px solid var(--DIVIDER) !important;
+  opacity: VAR(--APPFEATUREICONTITLESECTIONOP) !important;
 }
 
 .appproperties_AppProperties_1FyBL
