@@ -777,7 +777,7 @@ steam.styles
 		{
 			bgcolor=CategoryBG
 			render_bg{}
-			image="icons/smsection_closed"
+			image="icons/smsection_open"
 			padding-left=7
 			padding-right=14
 			padding-top=0
@@ -792,17 +792,17 @@ steam.styles
 		ListPanelSectionCollapser:hover
 		{
 			render_bg{}
-			image="icons/smsection_closed_h"
+			image="icons/smsection_open_h"
 		}
 		ListPanelSectionCollapser:selected
 		{
 			render_bg{}
-			image="icons/smsection_open"
+			image="icons/smsection_closed"
 		}
 		ListPanelSectionCollapser:selected:hover
 		{
 			render_bg{}
-			image="icons/smsection_open_h"
+			image="icons/smsection_closed_h"
 		}
 
 		MainNav
