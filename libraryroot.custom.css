@@ -690,7 +690,7 @@ img {
   padding-left: 23px !important;
   padding-top: 4px !important;
   padding-bottom: 6px !important;
-  padding-right: 0 !important;
+  padding-right: 44px !important;
   margin-right: 0 !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
@@ -750,16 +750,15 @@ img {
 }
 .pagedsettings_PagedSettingsDialog_Title_2rjVT {
   color: var(--ACCENT) !important;
-  padding-left: 0 !important;
+  padding-left: 20px !important;
   font-weight: bold !important;
-  padding: 10px !important;
 }
 .appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc {
   background: var(--BASE2) !important;
   color: var(--ACCENT) !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
-  min-width: unset !important;
+  min-width: 240px !important;
   max-width: unset !important;
   border-right: 1px SOLID var(--SIDEBARBORDER) !important;
   padding-left: 0 !important;
