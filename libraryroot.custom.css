@@ -165,6 +165,10 @@
   */
 }
 
+.steamavatar_avatarHolder_nibod {
+  margin-bottom: 8px !important;
+}
+
 .pageablecontainer_PageClickContainer_3E421
   .pageablecontainer_PageLeft_1L7no:hover,
 .pageablecontainer_PageClickContainer_3E421
@@ -1159,9 +1163,21 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   color: var(--ACCENT) !important;
 }
 .appportrait_FriendsBar_3dncO .appportrait_IconsRestCount_2JYwp {
-  background: var(--ACCENT) !important;
+  background: var(--GREEN) !important;
   border-radius: 50px !important;
+  color: var(--WHITE) !important;
+  margin-bottom: 8px !important;
+  border: 1px solid var(--WHITE) !important;
 }
+
+.steamavatar_avatarHolder_nibod {
+  margin-bottom: 8px !important;
+}
+
+.steamavatar_avatar_3h-QR {
+  border: 1px solid var(--WHITE) !important;
+}
+
 .appdetailscommunityfeed_InappropriateOverlay_aX5_K
   .appdetailscommunityfeed_InappropriateLinks_2YHrw {
   color: var(--ACCENT) !important;
