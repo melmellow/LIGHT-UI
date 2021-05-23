@@ -170,6 +170,14 @@
   */
 }
 
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_SteamInputLink_fy_T9 {
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+}
+
 .Resume.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
   background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
 }
