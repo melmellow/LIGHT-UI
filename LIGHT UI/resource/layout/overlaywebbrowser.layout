@@ -30,7 +30,7 @@
 
 		place {
 			control=PageLoadThrobber
-			region=nav align=right height=30 width=30 margin-right=26
+			region=nav align=right height=0 width=0 margin-right=26
 		}
 
 		place { control=HTMLField region=body width=max height=max }

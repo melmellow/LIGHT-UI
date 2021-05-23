@@ -1244,7 +1244,7 @@ steam.styles
 		URLLabelSimple:Hover
 		{
 			textcolor=url_a
-			font-style=underline
+			font-style=UPPERCASE
 		}
 
 		GameColumnHeaderFavorites
