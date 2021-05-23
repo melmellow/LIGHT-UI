@@ -227,34 +227,35 @@ steam.styles
 		uparrow
 		{
 			render_bg {}
-			image="graphics/up_arrow"
+			image="ICONS/up_arrow"
 		}
 		uparrow:hover
 		{
 			render_bg {}
-			image="graphics/up_arrow_h"
+			image="ICONS/up_arrow_h"
 		}
 
 		downarrow
 		{
 			render_bg {}
-			image="graphics/down_arrow"
+			image="ICONS/ADVANCEDSEARCH.tga"
+			INSET=0
 		}
 		downarrow:hover
 		{
 			render_bg {}
-			image="graphics/down_arrow_h"
+			image="ICONS/ADVANCEDSEARCH_H.tga"
 		}
 
 		rightarrow
 		{
 			render_bg {}
-			image="graphics/right_arrow"
+			image="ICONS/SMSECTION_CLOSED.tga"
 		}
 		rightarrow:hover
 		{
 			render_bg {}
-			image="graphics/right_arrow_h"
+			image="ICONS/SMSECTION_CLOSED_H.tga"
 		}
 
 ///////////////////////////////////////////
@@ -776,7 +777,7 @@ steam.styles
 		{
 			bgcolor=CategoryBG
 			render_bg{}
-			image="graphics/right_arrow"
+			image="icons/section_closed"
 			padding-left=4
 			padding-right=8
 			padding-top=5
@@ -791,17 +792,17 @@ steam.styles
 		ListPanelSectionCollapser:hover
 		{
 			render_bg{}
-			image="ICONS/right_arrow_h"
+			image="icons/section_closed_h"
 		}
 		ListPanelSectionCollapser:selected
 		{
 			render_bg{}
-			image="graphics/down_arrow"
+			image="icons/section_open"
 		}
 		ListPanelSectionCollapser:selected:hover
 		{
 			render_bg{}
-			image="graphics/down_arrow_h"
+			image="icons/section_open_h"
 		}
 
 		MainNav

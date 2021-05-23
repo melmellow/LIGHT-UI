@@ -25,9 +25,10 @@
 	{
 		NavLabel2
 		{
-			inset="0 0 0 0"
+			inset-right=10
 			textcolor="none"
 			bgcolor = BASE1
+			
 		}
 		NavLabel2:hover
 		{
