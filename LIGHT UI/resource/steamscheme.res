@@ -18,7 +18,7 @@ Scheme
 
 		// scheme-specific colors	
 		"OffWhite"			"216 222 211 255"
-		"DullGreen"			"216 222 211 255"
+		"GREEN2"			"216 222 211 255"
 		"Maize"				"196 181 80 255"
 		
 		"LightGrayBG"			"121 126 121 255"
@@ -33,8 +33,8 @@ Scheme
 		"ClayKeyFocus"			"89 92 77 255"
 		"ClayMouseDown"			"85 85 85 255"
 		"ClayDisabledText"		"128 134 126 255"
-		"ClayLightGreen"		"173 181 168 255"	// frame button (close X) etc
-		"ClayDimLightGreen"		"166 172 162 255"	// frame button and title without focus etc
+		"GREEN2"		"173 181 168 255"	// frame button (close X) etc
+		"GREEN2"		"166 172 162 255"	// frame button and title without focus etc
 		"LightClayBG"			"104 106 101 255"	// property sheet interior, active tab
 		"LightClayButtonBG"		"125 128 120 255"	// buttons on property sheet interior, active tab
 		"DarkClayBG"			"47 49 45 255"		// shadow
@@ -44,8 +44,8 @@ Scheme
 		"MaizeBG"			"145 134 60 255"	// background color of any selected text or menu item
 
 		"GreenBG"			"76 88 68 255"
-		"LightGreenBG"			"90 106 80 255"		// darker background color
-		"DarkGreenBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
+		"GREEN2"			"90 106 80 255"		// darker background color
+		"GREEN2BG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
 		
 		"DisabledText1"			"117 128 111 255"	// disabled text
 		"DisabledText2"			"40 46 34 255"		// overlay color for disabled text (to give that inset look

@@ -2,8 +2,6 @@
 {
 	colors
 	{
-		lightgreen="94 133 26 255"
-		darkgreen="67 99 0 255"
 	}
 
 	controls
@@ -18,9 +16,9 @@
 		CChatInfoBar
 		{
 			render_bg {
-				0="fill( x0+1, y0, x1-1, y0+1, lightgreen )"
-				0="fill( x0, y0+1, x1, y1-1, lightgreen )"
-				0="fill( x0+1, y1-1, x1-1, y1, lightgreen )"
+				0="fill( x0+1, y0, x1-1, y0+1, GREEN2 )"
+				0="fill( x0, y0+1, x1, y1-1, GREEN2 )"
+				0="fill( x0+1, y1-1, x1-1, y1, GREEN2 )"
 			}
 		}
 		
@@ -36,7 +34,7 @@
 			font-weight=900
 			font-size=14
 			textcolor="222 222 222 255"
-			bgcolor=darkgreen
+			bgcolor=GREEN2
 		}
 		Button:hover
 		{

@@ -55,7 +55,7 @@
 	{
 		CEmailReminderBar
 		{
-			bgcolor=green50
+			bgcolor=GREEN2
 		}
 
 		URLLabel

@@ -35,7 +35,7 @@
     --blue-ish:#7cbef8;
     --blue-er:#a4d7f5;
     --lightblue:#c4e4f2;
-    --darkgreen:#5c7e10;
+    --GREEN2:#5c7e10;
     --ingame:#90ba3c;
     --online:#57cbde;
     --offline:VAR(--ACCENT);
@@ -4063,7 +4063,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
     transition:background .6s!important
 }
 .global_header_toggle_button.green,.global_header_toggle_button.has_notifications:hover{
-    background-color:var(--darkgreen)!important;
+    background-color:var(--GREEN2)!important;
     transition:background .6s!important
 }
 .header_installsteam_btn_gray .header_installsteam_btn_content,.header_installsteam_btn_gray .header_installsteam_btn_leftcap,.header_installsteam_btn_gray .header_installsteam_btn_rightcap{

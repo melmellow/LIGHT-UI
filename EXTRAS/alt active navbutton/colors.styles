@@ -281,7 +281,7 @@
 
 ///////////////////////////////////////
 //======URL Secure / Not Secure======//
-		SecureURL=green50
+		SecureURL=GREEN2
 		NotSecureURL="170 20 20 255"
 	}
 }
