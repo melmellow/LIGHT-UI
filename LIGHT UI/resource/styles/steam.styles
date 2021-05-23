@@ -777,11 +777,11 @@ steam.styles
 		{
 			bgcolor=CategoryBG
 			render_bg{}
-			image="icons/section_closed"
-			padding-left=4
-			padding-right=8
-			padding-top=5
-			padding-bottom=6
+			image="icons/smsection_closed"
+			padding-left=7
+			padding-right=14
+			padding-top=0
+			padding-bottom=0
 					render {
 				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
 				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
@@ -792,17 +792,17 @@ steam.styles
 		ListPanelSectionCollapser:hover
 		{
 			render_bg{}
-			image="icons/section_closed_h"
+			image="icons/smsection_closed_h"
 		}
 		ListPanelSectionCollapser:selected
 		{
 			render_bg{}
-			image="icons/section_open"
+			image="icons/smsection_open"
 		}
 		ListPanelSectionCollapser:selected:hover
 		{
 			render_bg{}
-			image="icons/section_open_h"
+			image="icons/smsection_open_h"
 		}
 
 		MainNav
