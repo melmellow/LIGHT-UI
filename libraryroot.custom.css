@@ -30,6 +30,9 @@
   --LOADINGOP: VAR(--OP2);
   --LOADINGDOT: VAR(--ACCENT);
   --AVATARBORDER: VAR(--WHITE);
+  --HIDDENACHIEVEMENTBORDERRADIUS: 10px;
+  --HIDDENACHIEVEMENTBG: VAR(--ACCENT);
+  --HIDDENACHIEVEMENTQMARK: VAR(--WHITE);
   --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
   --COMMUNITYFEEDBORDERROUNDED1: 10px; /*bottom left*/
   --COMMUNITYFEEDBORDERROUNDED2: 10px; /*bottom right*/
@@ -1837,7 +1840,9 @@ div.NarrowRightPanel
   background-color: var(--ACCENT) !important;
 }
 .appdetailsachievementssection_HiddenLabel_2AYFr {
-  background: var(--ACCENT) !important;
+  background: var(--HIDDENACHIEVEMENTBG) !important;
+  color: VAR(--HIDDENACHIEVEMENTQMARK) !important;
+  border-radius: VAR(--HIDDENACHIEVEMENTBORDERRADIUS) !important;
 }
 .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
   color: var(--ACCENT) !important;
