@@ -99,6 +99,7 @@
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOP: VAR(--ACCENT);
   --ADVANCEDSEARCH: VAR(--BASE1);
+  --SIDEBAR: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--SHADOW);
   --SEARCHFILTER: VAR(--ACCENT);
@@ -1325,10 +1326,6 @@ div.ShortRightPanel
   .comment_thread_MakeCommentsVisible_FPxfN {
   color: VAR(--WHITE) !important;
   background-color: VAR(--ACCENT) !important;
-}
-.gamelistbar_Container_3x1Hk {
-  background-image: NONE !important;
-  background: var(--BASE1) !important;
 }
 .awardmodal_GrantAwardModal_2ilpH
   .awardmodal_Footer_164mm
@@ -3317,18 +3314,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .libraryhome_LibraryHome_3Sb2o {
   padding: 8px 12px 12px;
 }
-.gamelistbar_Container_3x1Hk {
-  background-image: NONE !important;
-  background: var(--BASE1) !important;
-  height: unset;
-  flex: 1;
-  display: flex;
-  min-width: 0;
-  flex-direction: row;
-  flex-wrap: wrap;
-  user-select: none;
-  outline: 0;
-}
 .gamelistdropdown_Bar_1ZS_x {
   position: absolute !important;
   width: 71% !important;
@@ -3488,7 +3473,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelistbar_Container_3x1Hk {
   background-image: NONE !important;
-  background: var(--BASE1) !important;
+  background: var(--SIDEBAR) !important;
   height: unset;
   flex: 1;
   display: flex;
