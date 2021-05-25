@@ -4,8 +4,7 @@
 	{
 		CDialogCheckForUpdates
 		{
-			bgcolor=ClientBG
-			render_bg{}
+			bgcolor=BASE1
 		}
 		Label
 		{

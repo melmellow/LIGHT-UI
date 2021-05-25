@@ -174,6 +174,11 @@
   */
 }
 
+.appdetailsprimarylinkssection_LinkInner_7k4qm
+  .appdetailsprimarylinkssection_Text_2sNDj {
+  color: var(--ACCENT) !important;
+}
+
 .sharedappdetailsheader_TitleSection_30acA
   .sharedappdetailsheader_Features_fqwOy {
   background: var(--BASE1) !important;
@@ -2794,7 +2799,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
   font-weight: 400 !important;
   padding-left: 12px !important;
-  border: 0.5px solid var(--BUTTONBORDER) !important;
+  border: 1px solid var(--BUTTONBORDER) !important;
   background: var(--TEXTENTRY) !important;
 }
 .allcollections_ScrollContainer_u1xD3 {
@@ -2867,7 +2872,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   fill: var(--BUTTONHOVER) !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ svg {
-  fill: var(--ACCENT) !important;
+  color: var(--ACCENT) !important;
 }
 .spotlightgameplaysummary_EventDaySeparator_1AIgW {
   background-color: var(--SHADOW) !important;
@@ -3420,6 +3425,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 {
   height: 10px;
+  border: 1px solid var(--BUTTONBORDER2) !important;
+  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
 }
 .gamelistbar_GameListHomeAndSearch_2TKEa {
   padding: 6px 3px 0 6px;
@@ -3574,7 +3581,12 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   margin-top: -6px;
   top: 51px !important;
 }
-.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 {
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_SearchInput_12vo5
+  .DialogTextInputBase
+  .gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_SearchInput_12vo5 {
   height: 10px;
 }
 .gamelistbar_GameListHomeAndSearch_2TKEa {
