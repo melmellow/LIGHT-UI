@@ -815,8 +815,8 @@ outline: 0px solid transparent !important; }
 }
 
 .contextmenu_contextMenu_3_a2Z {
-	border: 1px solid #b8b8b8;
-    background: #e4e4e4 !important;
+	border: 1px solid VAR(--CONTEXTMENUBORDER)!important;
+    background: VAR(--CONTEXTMENU)!important;
     box-shadow: none!important;
 	padding: 0px!important; 
 }
