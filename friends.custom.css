@@ -52,7 +52,7 @@
 
 .friendRequestButton .SVGIcon_FriendRequest, .addFriendButton .SVGIcon_AddFriend {
 	filter:brightness(0)!important;
-	opacity:60%!important;
+	opacity:63%!important;
 }
 
 .FriendPicker_SuggestedFriend.Focus {
@@ -60,7 +60,7 @@
 }
 
 .FriendPicker_Suggestions .friend.offline {
-	color:var(--ACCENT)!Important;
+	color:var(--ACCENT)!important;
 }
 
 html.client_chat_frame .popup_chat_frame {
@@ -77,13 +77,13 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .compactView .socialInputContainer .inputContainer {
-	border-radius:30px!Important;
+	border-radius:30px!important;
 	border:1px solid #b8b8b8!important;
 }
 
 .activeTab .TabSearchButton {
 	border:1px solid #b8b8b8!important;
-	border-radius:30px!Important;
+	border-radius:30px!important;
 }
 
 .SVGIcon_Pin:hover {
@@ -91,91 +91,91 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .DialogContent_InnerWidth > form {
-	padding-right:20px!Important;
+	padding-right:20px!important;
 }
 
 .addonpicker_AddonPickerMessage_2n0lH a {
-	COLOR:var(--ACCENT)!iMPORTANT;
-	FONT-WEIGHT:500!IMPORTANT;
+	COLOR:var(--ACCENT)!important;
+	FONT-WEIGHT:500!important;
 }
 
 .addonpicker_AddonPickerMessage_2n0lH a:HOVER {
-	COLOR:000!iMPORTANT;
+	COLOR:000!important;
 }
 
 .DialogTextInputBase, ._DialogInputContainer {
-	COLOR:var(--ACCENT)!iMPORTANT;
+	COLOR:var(--ACCENT)!important;
 }
 
 .ChatRoomListGroupItem .ContextMenuButton:hover .SVGIcon_DownArrowContextMenu {
-	FILL:#000!IMPORTANT;
+	FILL:#000!important;
 }
 
 .ChatRoomListGroupItem .openGroupButton .SVGIcon_DoubleArrow polyline {
-	STROKE:#000!IMPORTANT;
+	STROKE:#000!important;
 }
 
 .throbber_throbber_center_wrapper_1Dn-N {
-	    BACKGROUND-SIZE: 80PX!IMPORTANT;
+	    BACKGROUND-SIZE: 80PX!important;
     BACKGROUND-REPEAT: NO-REPEAT;
-	    BACKGROUND-POSITION: CENTER!iMPORTANT;
-		BACKGROUND-IMAGE:URL(https://i.imgur.com/3NHWp4r.png)!IMPORTANT;
+	    BACKGROUND-POSITION: CENTER!important;
+		BACKGROUND-IMAGE:URL(https://i.imgur.com/3NHWp4r.png)!important;
 }
 
 .throbber_LoadingWrapper_9UFR8.throbber_throbber_large_3hJM_ .throbber_Throbber_1Y6Da {
-	OPACITY:0!IMPORTANT;
+	OPACITY:0!important;
 }
 
 .throbber_ThrobberText_3r290, .throbber_LoadingWrapper_9UFR8 .throbber_ThrobberText_3r290 {
-	COLOR:#000!IMPORTANT;
-	FONT-WEIGHT:500!IMPORTANT;
+	COLOR:#000!important;
+	FONT-WEIGHT:500!important;
 }
 
 .throbber_LoadingWrapper_9UFR8 .SVGIcon_Throbber .throbber_bottomCircle_1XTvd path {
-	FILL:var(--ACCENT)!iMPORTANT;
+	FILL:var(--ACCENT)!important;
 }
 
 .throbber_LoadingWrapper_9UFR8 .SVGIcon_Throbber.throbber_blur_3cMTP path {
-	STROKE:var(--ACCENT)!IMPORTANT;
+	STROKE:var(--ACCENT)!important;
 }
 
 .chat_main .TitleBar {
-	HEIGHT:56PX!iMPORTANT;
-	BORDER-BOTTOM:0!IMPORTANT;
+	HEIGHT:56PX!important;
+	BORDER-BOTTOM:0!important;
 }
 
 .friendlist {
-	BACKGROUND:#E4E4E4!IMPORTANT;
+	BACKGROUND:#E4E4E4!important;
 }
 
 .FriendsFailureContainer .summaryText {
-	FONT-WEIGHT:500!iMPORTANT;
-	COLOR:#000!IMPORTANT;
+	FONT-WEIGHT:500!important;
+	COLOR:#000!important;
 }
 
 .retryButton {
-	    width: calc(100% - 130px)!IMPORTANT;
-	    margin-LEFT: 63px!IMPORTANT;
-	BORDER-RADIUS:30PX!IMPORTANT;
-	BACKGROUND:var(--ACCENT)!iMPORTANT;
-	BACKGROUND-COLOR:var(--ACCENT)!IMPORTANT;
+	    width: calc(100% - 130px)!important;
+	    margin-LEFT: 63px!important;
+	BORDER-RADIUS:30PX!important;
+	BACKGROUND:var(--ACCENT)!important;
+	BACKGROUND-COLOR:var(--ACCENT)!important;
 }
 
 .retryButton:HOVER {
-	BACKGROUND-COLOR:#000!IMPORTANT;
+	BACKGROUND-COLOR:#000!important;
 }
 
 .chat_main {
-	COLOR:var(--ACCENT)!IMPORTANT;
+	COLOR:var(--ACCENT)!important;
 }
 
 .friends_loading_error .currentUserContainer {
-	HEIGHT:56PX!iMPORTANT;
-	BORDER-BOTTOM:1PX SOLID #DCDCDC!IMPORTANT;
+	HEIGHT:56PX!important;
+	BORDER-COLOR:NONE;
 }
 
 .general_btn {
-	color:var(--ACCENT)!Important;
+	color:var(--ACCENT)!important;
 	border:1px solid #b8b8b8!important;
 	background-color:#d6d6d6!important;
 }
@@ -185,85 +185,85 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .ChatGroupSettingsChannels_Row ._DialogRow {
-	COLOR:var(--ACCENT)!iMPORTANT;
+	COLOR:var(--ACCENT)!important;
 }
 
 ._DialogRow._DialogRowBackground {
-	BACKGROUND:#D6D6D6!IMPORTANT;
+	BACKGROUND:#D6D6D6!important;
 }
 
 button.DialogButton.roleButton {
-	WIDTH:95%!IMPORTANT;
+	WIDTH:95%!important;
 }
 
 .meKey .SVGIcon_DialogCheck path, button.DialogButton.roleButton .SVGIcon_DialogCheck path {
-	STROKE:var(--ACCENT)!iMPORTANT;
+	STROKE:var(--ACCENT)!important;
 }
 
 .DialogBodyText {
-	COLOR:var(--ACCENT)!iMPORTANT;
+	COLOR:var(--ACCENT)!important;
 }
 
 .chatroomgroupsettings_PermissionsDescription_21ml5 a {
-	COLOR:var(--ACCENT)!iMPORTANT;
-	FONT-WEIGHT:500!iMPORTANT;
-	BORDER-BOTTOM:1PX SOLID #000!IMPORTANT;
+	COLOR:var(--ACCENT)!important;
+	FONT-WEIGHT:500!important;
+	BORDER-BOTTOM:1PX SOLID #000!important;
 }
 
 .chatroomgroupsettings_PermissionsEdit_12equ .chatroomgroupsettings_Back_xsnh9 {
-	color:#000!Important;
+	color:#000!important;
 }
 
 .DialogHBar {
-	BACKGROUND:#d6d1d1!IMPORTANT;
+	BACKGROUND:#d6d1d1!important;
 }
 
 .DialogSpanningTable.BannedUsersTable tr.hoverRow, .DialogSpanningTable.InvitedUsersTable tr.hoverRow, .DialogSpanningTable.InviteLinksTable tbody tr {
-	BACKGROUND:TRANSPARENT!IMPORTANT;
+	BACKGROUND:TRANSPARENT!important;
 }
 
 .DialogSpanningTable tr.hoverRow:hover {
-	BACKGROUND:TRANSPARENT!IMPORTANT;
+	BACKGROUND:TRANSPARENT!important;
 }
 
 .DialogLabel, .DialogLabelStrong, ._DialogInputContainer {
-	COLOR:var(--ACCENT)!IMPORTANT;
+	COLOR:var(--ACCENT)!important;
 }
 
 .chatroomgroupsettings_General_19Qfz .chatroomgroupsettings_Avatar_R-sn3 {
-	BORDER-RADIUS:100PX!IMPORTANT;
-	BACKGROUND-COLOR:#C3C3C3!IMPORTANT;
+	BORDER-RADIUS:100PX!important;
+	BACKGROUND-COLOR:#C3C3C3!important;
 }
 
 .chatroomgroupsettings_LeaveButton_3OGY7 {
-	PADDING-LEFT:20PX!iMPORTANT;
+	PADDING-LEFT:20PX!important;
 }
 
 .chatroomgroupsettings_Notification_235kw .SVGIcon_Lock .baseLock {
-	STROKE:#000!iMPORTANT;
+	STROKE:#000!important;
 }
 
 .chatroomgroupsettings_Notification_235kw .SVGIcon_Lock .topLock {
-	FILL:#000!IMPORTANT;
+	FILL:#000!important;
 }
 
 .chatroomgroupsettings_Notification_235kw {
-	COLOR:#000!iMPORTANT;
-	FONT-WEIGHT:BOLD!iMPORTANT;
+	COLOR:#000!important;
+	FONT-WEIGHT:BOLD!important;
 }
 
 .ModalPosition_Content {
-	COLOR:var(--ACCENT)!iMPORTANT;
+	COLOR:var(--ACCENT)!important;
 }
 
 .pagedcontent_Nav_2NEs2 .pagedcontent_NavItems_ay0LT .pagedcontent_NavItem_V9sAC:hover {
-	COLOR:var(--ACCENT)!IMPORTANT;
+	COLOR:var(--ACCENT)!important;
 }
 
 .pagedcontent_Nav_2NEs2 .pagedcontent_NavTitle_2u4uE {
-	PADDING-LEFT:20PX!iMPORTANT;
-	COLOR:var(--ACCENT)!IMPORTANT;
-	FONT-WEIGHT:500!iMPORTANT;
+	PADDING-LEFT:20PX!important;
+	COLOR:var(--ACCENT)!important;
+	FONT-WEIGHT:500!important;
 }
 
 .ChatRoomListGroupItem.ShowAllChannels .detailsView {
@@ -271,7 +271,7 @@ button.DialogButton.roleButton {
 }
 
 .dialogs_DialogTitle_3z6A8 {
-	COLOR:var(--ACCENT)!iMPORTANT;
+	COLOR:var(--ACCENT)!important;
 }
 
 .pagedcontent_Content_7oxxA {
@@ -279,33 +279,33 @@ button.DialogButton.roleButton {
 }
 
 .pagedcontent_Nav_2NEs2 .pagedcontent_NavItems_ay0LT .pagedcontent_NavItem_V9sAC {
-	PADDING-LEFT:20PX!iMPORTANT;
+	PADDING-LEFT:20PX!important;
 }
 
 .pagedcontent_Nav_2NEs2 .pagedcontent_NavItems_ay0LT .pagedcontent_NavItem_V9sAC.pagedcontent_Active_310MQ {
-	WIDTH:170PX!IMPORTANT;
-	BACKGROUND-COLOR:var(--ACCENT)!iMPORTANT;
-	PADDING-LEFT:20PX!iMPORTANT;
+	WIDTH:170PX!important;
+	BACKGROUND-COLOR:var(--ACCENT)!important;
+	PADDING-LEFT:20PX!important;
 }
 
 .pagedcontent_Nav_2NEs2 .pagedcontent_NavItems_ay0LT .pagedcontent_NavItem_V9sAC.pagedcontent_Active_310MQ:HOVER {
-	COLOR:#FFF!IMPORTANT;
+	COLOR:#FFF!important;
 }
 
 .pagedcontent_Nav_2NEs2 {
 	background-image:url('https://i.imgur.com/nlGfqx5.png')!important;
-	MIN-WIDTH:196PX!iMPORTANT;
-	PADDING-LEFT:0PX!iMPORTANT;
-	PADDING-RIGHT:0PX!IMPORTANT;
-	BACKGROUND-POSITION:RIGHT!iMPORTANT;
-/* BACKGROUND-IMAGE:URL(https://i.imgur.com/nlGfqx5.png)!IMPORTANT; */
-BACKGROUND-REPEAT:REPEAT-Y!IMPORTANT;
-	background-COLOR:#e4e4e4!Important;
+	MIN-WIDTH:196PX!important;
+	PADDING-LEFT:0PX!important;
+	PADDING-RIGHT:0PX!important;
+	BACKGROUND-POSITION:RIGHT!important;
+/* BACKGROUND-IMAGE:URL(https://i.imgur.com/nlGfqx5.png)!important; */
+BACKGROUND-REPEAT:REPEAT-Y!important;
+	background-COLOR:#e4e4e4!important;
 }
 
 span.mention {
 	background:var(--ACCENT)!important;
-	color:#fff!Important;
+	color:#fff!important;
 }
 
 .bbcode_RoomEffectContainer_25cnP {
@@ -483,17 +483,6 @@ color: rgb(var(--online))!important;}
 
 }
 
-.friendStatusHover.offline:hover, 
-.friendStatusHover.offline.Friend_ContextMenuActive{
-	background-color: rgba(var(--white05)) !important;
-
-}
-
-.friendStatusHover.watchingbroadcast:hover,
-.friendStatusHover.watchingbroadcast.Friend_ContextMenuActive{
-	background-color: rgba(var(--white05)) !important;
-}
-
 .friendStatusHover.golden:hover,
 .friendStatusHover.golden.Friend_ContextMenuActive{
 	background-color: rgba(var(--white05)) !important;
@@ -601,7 +590,7 @@ opacity: 1!important;
 
 
 .chatWindow{
-	background:transparent!Important;
+	background:transparent!important;
 	/* background-image: url(https://i.imgur.com/nlGfqx5.png)!important; */
 	background-color: #dedede !important;
 /* 	background-repeat:repeat-y!important; */
@@ -765,7 +754,7 @@ outline: 0px solid transparent !important; }
 
 .VoiceControlPanelButton:hover {
 	background-color:#A7CEA2!important;
-	border-radius:100px!Important;
+	border-radius:100px!important;
 }
 
 .ChatMessageEntryVoice .activeVoiceButtons {
@@ -786,7 +775,7 @@ outline: 0px solid transparent !important; }
   min-height: 14px!important; }
 
 .activeVoiceButtons .SVGIcon_Button {
-	fill:var(--ACCENT)!Important;
+	fill:var(--ACCENT)!important;
 }
 
 .ChatMessageEntryVoice.pushToTalkEnabled .activeVoiceButtons .SVGIcon_Button.SVGIcon_Shadow {
@@ -838,7 +827,7 @@ outline: 0px solid transparent !important; }
 /* ============================= */
 
 .DialogContent {
-	padding-right:4px!Important;
+	padding-right:4px!important;
 }
 
 button.DialogButton:not(.Off) {
@@ -847,13 +836,12 @@ button.DialogButton:not(.Off) {
 
 /* Global Dialogs */
 .DialogContent, .DialogContentTransition{
-	    background-color:#dedede !important;
+	    background-color:var(--BASE2) !important;
+		BORDER-LEFT:1PX SOLID VAR(--SIDEBARBORDER)!important;
     background: transparent;
-  /*   background-image: url(https://i.imgur.com/nlGfqx5.png);
-    background-repeat: repeat-y; */
 }
 .DialogSlider_Value{
-	border-radius:30px!Important;
+	border-radius:30px!important;
 	background: #c3c3c3 !important;
 }
 .DialogSlider_Grabber{
@@ -910,6 +898,10 @@ button.DialogButton.roleButton.owner:disabled {
 	color:var(--ACCENT)!important;
 }
 
+.groupName:HOVER {
+	BACKGROUND:VAR(--LISTITEMBACKGROUNDHOVER)!important;
+}
+
 .Disabled .DialogOnOffToggle_Option.Active {
     background-color: #4f4f4f!important;
 }
@@ -935,8 +927,7 @@ color: rgba(var(--white75))!important;
 }
 
 ._DialogTextInputBase, ._DialogInputContainer{
-background: #E8E8E8!important;
-border:1px solid #b8b8b8!important;}
+background: #E8E8E8!important;}
 
 .DialogDropDown._DialogInputContainer{
 	background-color:#d6d6d6!important;
@@ -988,7 +979,7 @@ border-bottom:1px solid #b8b8b8!important;
 }
 
 .toggle_Toggle_3RkmL .toggle_ToggleSwitch_3Ac8T.toggle_Off_2C6dp {
-	border-radius:30px!Important;
+	border-radius:30px!important;
 	background-color:var(--ACCENT)!important;
 }
 
@@ -1073,10 +1064,7 @@ button.DialogButton,
 }
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_3fNNR{
-	background-image:url('https://i.imgur.com/nlGfqx5.png')!important;
-	background-position:right!important;
-	background-repeat:repeat-y!Important;
-	background-color: rgb(var(--header_dark)) !important;
+	background:var(--sidebar)!important;
 	padding-left: 0px !important;
 	min-width: 205px!important;
 }
@@ -1095,6 +1083,7 @@ text-transform: none!important;
 letter-spacing: 0px!important;}
 
 .pagedsettings_PagedSettingsDialog_PageListItem_14LgX{
+	color:var(--ACCENT)!important;
 	text-transform: none!important;
 	font-size: 14px!important;
 margin-bottom: 3px!important;
@@ -1112,7 +1101,7 @@ cursor: initial!important;}
 }
 
 .pagedsettings_PagedSettingsDialog_PageListItem_14LgX.pagedsettings_Active_3cnaw{
-background-color:var(--listitembackgroundhover)!important;
+background-color:var(--LISTITEMBACKGROUNDHOVER)!important;
 color:var(--accent);
 }
 
@@ -1123,15 +1112,13 @@ color:#969696!important;}
 height: 0!important;}
 .DialogOnOffToggle_Option:hover:not(.Active) {
    background: #c3c3c3!important;}
-.DialogCheckbox .SVGIcon_DialogCheck{
-   overflow: rgb(var(--white))!important;}
 .FriendsSettingsNotificationRow{
 background-color: transparent!important;
 color: rgb(140,140,140)!important;
 }
 
 .MemberListColumn {
-/* 	width:290px!Important; */
+/* 	width:290px!important; */
     background-color: #dedede!important;
 /*     background-image: url("https://i.imgur.com/Bq81XWr.png")!important; */
  /*    background-repeat: repeat-y!important; */
@@ -1185,7 +1172,7 @@ color: rgb(140,140,140)!important;
     background-repeat: no-repeat!important;
     background-position: 0px 0px!important; */
 	width:0!important;
-	height:0!Important;
+	height:0!important;
 	background:#dedede!important;
 }
 /* Up */
@@ -1194,7 +1181,7 @@ color: rgb(140,140,140)!important;
     background-repeat: no-repeat!important;
     background-position: 0px 0px!important; */
 	width:0!important;
-	height:0!Important;
+	height:0!important;
 	background:#dedede!important;
 }
 
@@ -1239,7 +1226,7 @@ border: 1px solid #dcdcdc!important;} */
 .friendSearchInput[type="text"]:focus, 
 .friendSearchInput[type="text"] {
 	color:var(--ACCENT)!important;
-	font-weight:500!Important;
+	font-weight:500!important;
 	background-color: rgb(var(--clientBG)) !important;}
 	
 	.friendSearchInput[type="text"]::selection {
@@ -1255,7 +1242,7 @@ border: 1px solid #dcdcdc!important;} */
 }
 
 .msg.ChatMessageDeleted .filteredURL.bb_removedlink {
-	background-color:#000!Important;
+	background-color:#000!important;
 	color:#fff!important;
 }
 
@@ -1264,7 +1251,7 @@ border: 1px solid #dcdcdc!important;} */
 }
 
 .activeVoiceLabels .activeVoiceHeader {
-	color:var(--ACCENT)!Important;
+	color:var(--ACCENT)!important;
 }
 
 /* Voice control */
@@ -1339,8 +1326,8 @@ border-bottom: 1px solid rgb(var(--border))!important;
 }
 /*the box where you type*/
 .chatentry_chatTextarea_3e__5 {
-	BORDER:1PX SOLID #B8B8B8!IMPORTANT;
-	BORDER-RADIUS:30PX!IMPORTANT;
+	BORDER:1PX SOLID #B8B8B8!important;
+	BORDER-RADIUS:30PX!important;
 	margin:0!important;
      font-size: 16px !important;
 	   background-color: #E8E8E8 !important;
@@ -1351,8 +1338,8 @@ border-bottom: 1px solid rgb(var(--border))!important;
 }
 
 .chatentry_chatTextarea_3e__5::selection {
-	COLOR:var(--ACCENT)!IMPORTANT;
-	BACKGROUND-COLOR:#D3D3D3!IMPORTANT;
+	COLOR:var(--ACCENT)!important;
+	BACKGROUND-COLOR:#D3D3D3!important;
 }
 
 .chatentry_chatEntryControls_2O_X7 .chatentry_chatSubmitButton_3VRfL {
@@ -1565,7 +1552,7 @@ border-bottom: 2px solid rgb(var(--ingame)) !important;}
   padding: 5px!important;}
   
   .friendRequestButton .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton .SVGIcon_FriendRequest .friendHead, .friendRequestButton .SVGIcon_FriendRequest .friendArm, .friendRequestButton .SVGIcon_FriendRequest .friendBody, .addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody, .addFriendButton .SVGIcon_AddFriend .plusCircle, .friendsListSectionTitle .SVGIcon_NewChatGroup:HOVOER {
-	  FILL:#000!IMPORTANT;
+	  FILL:#000!important;
   }
   
   .VoiceToggle, .chatTextarea {
@@ -1575,7 +1562,7 @@ border-bottom: 2px solid rgb(var(--ingame)) !important;}
   
 
 .SVGIcon_Settings:HOVER {
-	FILL:#000!IMPORTANT;
+	FILL:#000!important;
 }
 
 /* Settings button itself */
@@ -1898,7 +1885,7 @@ display:none!important;}
  float: left!important;}
 
 .msg .ChatMessageOpenGraph_Description {
-	color:var(--ACCENT)!Important;
+	color:var(--ACCENT)!important;
 }
 
 /*Invite box*/
@@ -1953,7 +1940,7 @@ background-color: #D6D6D6!important;}
 }
 
 .TabSearchButton {
-	CURSOR:NORMAL!IMPORTANT;
+	CURSOR:NORMAL!important;
 background-color: #E8E8E8!important;}
 
 /*Hide single window switch button*/
@@ -2118,8 +2105,8 @@ height: 18px!important;}
 
 
 .VoiceToggle.Inactive:hover, .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh:hover, .chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0:hover, .chatentry_chatSubmitButton_3VRfL:hover {
-	BACKGROUND-COLOR:#d5d5d5!IMPORTANT;
-	border-radius:100px!Important;
+	BACKGROUND-COLOR:#d5d5d5!important;
+	border-radius:100px!important;
 }
 
 .chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip path, .SVGIcon_Paperclip, .chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon path, .VoiceToggleIconCtn .SVGIcon_VoiceRoom {
@@ -2129,7 +2116,7 @@ stroke: var(--ACCENT)!important;}
 fill: var(--ACCENT)!important;}
 
 .chatentry_chatSubmitButton_3VRfL:not(.chatentry_disabled_2p2vW):hover .SVGIcon_Button.SVGIcon_Submit path {
-	FILL:var(--ACCENT)!IMPORTANT;
+	FILL:var(--ACCENT)!important;
 stroke: var(--ACCENT)!important; }
 
 /*Unread messages count near username in friendslist*/
@@ -2172,7 +2159,7 @@ cursor: default!important;}
 
 /* .chattabs_CloseButton_SzByZ:hover{
 	background-color:#d5d5d5!important;
-	border-radius:100px!Important;
+	border-radius:100px!important;
 } */
 
 .chatTabList .chattabs_ChatTab_1WfqA, .ChatTabsBackButton {
@@ -2194,8 +2181,8 @@ cursor: initial!important;}
 .chatRoomButton .SVGIcon_Button{
 fill: rgb(var(--white))!important;}
 .chatRoomButton:hover{
-    background: #D6D6D6!IMPORTANT;
-    BORDER-RADIUS: 100PX!iMPORTANT;
+    background: #D6D6D6!important;
+    BORDER-RADIUS: 100PX!important;
 }
 
 .TradeOfferInvite .leftInviteContainer .SVGIcon_Trade{
@@ -2384,7 +2371,7 @@ border: 1px solid #535c68!important;}
 background-color: transparent!important;}
 
 .DialogSlider_Slider{
-	border-radius:30px!Important;
+	border-radius:30px!important;
 border: 0!important;
 background: #d6d6d6!important;}
 
@@ -2437,7 +2424,7 @@ margin-right: 55px!important;
 height:auto!important;}
 
 .friendCollapseButton .SVGIcon_DoubleArrow {
-	filter:brightness:0!Important;
+	filter:brightness:0!important;
 }
 
 .friendCollapseButton, .friendSettingsButton, .friendCollapseButton .SVGIcon_DoubleArrow, .chatTabOpenFriendsList{
@@ -2445,16 +2432,16 @@ height:auto!important;}
 cursor: default!important;}
 
 .compactView .chatTabOpenFriendsList {
-	color:transparent!Important;
+	color:transparent!important;
 	width:2%!important;
 }
 
 .ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
-	stroke:var(--ACCENT)!Important;
+	stroke:var(--ACCENT)!important;
 }
 
 .chatTabOpenFriendsList{
-	    background-repeat: no-repeat!Important;
+	    background-repeat: no-repeat!important;
     background-image: url(https://i.imgur.com/0vy9g9g.png)!important;
     color: rgba(var(--white75)) !important;
     background-color: #d6d6d6!important;
@@ -2491,17 +2478,17 @@ background:none!important;
 color:var(--ACCENT)!important;}
 
 .friendSearchInput[type="text"]:focus, .friendSearchInput[type="text"] {
-	BACKGROUND-COLOR:#E8E8E8!IMPORTANT;
+	BACKGROUND-COLOR:#E8E8E8!important;
 }
 
 .TabSearchButton .searchIconButton {
-	HEIGHT:23PX!IMPORTANT;
-	OPACITY:0!IMPORTANT;
+	HEIGHT:23PX!important;
+	OPACITY:0!important;
 }
 
 .tabSearchTransitionGroup, .tabSearchTransition {
-	border-radius:30px!Important;
-	BACKGROUND-COLOR:#E8E8E8!IMPORTANT;
+	border-radius:30px!important;
+	BACKGROUND-COLOR:#E8E8E8!important;
 }
 
 .socialListTab.TabSearchActive {
@@ -2529,7 +2516,7 @@ stroke: rgb(113,113,113);}
 }
 
 body, body.shared_common_v6_39eAm {
-	color:var(--ACCENT)!Important;
+	color:var(--ACCENT)!important;
 }
 
 .friendlistListContainer .friend.ingame .labelHolder {
@@ -2601,16 +2588,16 @@ letter-spacing: 0px;}
 	
 	.NotAFriendBody .Exclamation .SVGIcon_Caution line, .NotAFriendBody .Exclamation .SVGIcon_Caution path {
 		stroke:#fff!important;
-		fill:none!Important;
+		fill:none!important;
 	}
 	
 	.NotAFriendBody .ExplanationHeader {
-		color:var(--ACCENT)!Important;
+		color:var(--ACCENT)!important;
 	}
   
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:hover, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:focus {
-BORDER:1PX SOLID #B8B8B8!IMPORTANT;
-BORDER-RADIUS:30PX!iMPORTANT;
+BORDER:1PX SOLID #B8B8B8!important;
+BORDER-RADIUS:30PX!important;
 background-color:#d6d6d6!important;}
 
 .addonpicker_Tabs_1WUqY {
@@ -2630,6 +2617,6 @@ filter: opacity(0);}
 background-color: transparent!important;}
 
 .chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW, .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh, .chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0 {
-	  background-color:#DEDEDE!Important;
+	  background-color:#DEDEDE!important;
 	  padding-bottom:6px!important;
   }
