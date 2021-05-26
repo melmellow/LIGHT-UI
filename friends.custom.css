@@ -532,6 +532,7 @@ border: 1px solid rgb(var(--online))!important;
 }
 
 .ingame .steamavatar_avatar_f2laR {
+	border-radius:var(--CHATAVATARBORDERRADIUS)!important;
 border: 1px solid rgb(var(--ingame))!important;}
 
 .watchingbroadcast .steamavatar_avatar_f2laR {
