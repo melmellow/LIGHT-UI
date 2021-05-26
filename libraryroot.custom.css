@@ -177,6 +177,14 @@
   */
 }
 
+.discussionwidget_VoteUpIcon_2akzu {
+  fill: var(--WHITE) !important;
+}
+
+.discussionwidget_VoteDownIcon_3Zqxx {
+  fill:var(--white)!important;
+}
+
 .appdetailscommunityfeed_ArtItem_1aP1b
   .appdetailscommunityfeed_BottomSection_3uabi {
   border-top: 1px SOLID VAR(--DIVIDER) !important;
