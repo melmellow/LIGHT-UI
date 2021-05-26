@@ -1069,12 +1069,8 @@ button.DialogButton,
 	min-width: 205px!important;
 }
 .pagedsettings_PagedSettingsDialog_Title_2bZnn {
-color: rgb(var(--white))!important;
-font-size: 18px!important;
-text-transform: none!important;
-margin-left: 15px!important;
-margin-top: -3px!important;
-font-weight: 200!important;}
+	display:none!important;
+}
 
 .DialogHeader{
   color: rgb(var(--white))!important;
