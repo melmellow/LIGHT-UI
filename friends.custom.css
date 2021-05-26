@@ -41,8 +41,9 @@
 	--SCROLLTOBOTTOMBORDERRADIUS:4PX 4PX 0 0;
 	--CHATAVATARBORDER:NONE;
 	--CHATAVATARBORDERRADIUS:50PX;
-	--ACTIVECHATTAB:VAR(--BASE3);
+	--ACTIVECHATTAB:VAR(--BASE1);
 	--INACTIVECHATTAB:VAR(--BASE1);
+	--TEXTENTRYBORDER:VAR(--BUTTONBORDER)!important;
 }
 
 .CompactFriendsList .gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
@@ -1711,6 +1712,7 @@ fill: rgb(var(--white)) !important;}
 
 .chatTabList .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI)  {
 background: VAR(--INACTIVECHATTAB) !important;
+border:0!important;
 border-bottom: 1px transparent!important;}
 
 /* .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .chattabs_ChatTabContent_Friend_3m7Ps, .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .chattabs_ChatTabContent_ChatRoom_1AI14 {
@@ -2222,7 +2224,7 @@ fill:#000!important;
 cursor: initial!important;}
 
 .chatRoomButton .SVGIcon_Button{
-fill: rgb(var(--white))!important;}
+fill: VAR(--ACCENT)!important;}
 .chatRoomButton:hover{
     background: #D6D6D6!important;
     BORDER-RADIUS: 100PX!important;
@@ -2562,15 +2564,16 @@ margin-top: -8px!important;}
 .compactView .personanameandstatus_statusAndName_9U-hi.personanameandstatus_threeLines_2pPym {
 margin-top: -6px!important;}
 
+.compactView .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
+	font-weight:600!important;
+}
+
+
 .SVGIcon_Button.SVGIcon_CopyToClipboard {
 stroke: rgba(var(--white75));}
 
 .chattabs_CloseButton_SzByZ .SVGIcon_X_Line line {
 stroke: rgb(113,113,113);}
-
-.FriendsListChatSection.ChatRoomListContainerParent {
-    border-top: 1px solid var(--SIDEBARBORDER2)!important;
-}
 
 body, body.shared_common_v6_39eAm {
 	color:var(--ACCENT)!important;
@@ -2657,9 +2660,9 @@ letter-spacing: 0px;}
 	}
   
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:hover, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:focus {
-BORDER:1PX SOLID #B8B8B8!important;
+BORDER:1PX SOLID VAR(--TEXTENTRYBORDER)!important;
 BORDER-RADIUS:30PX!important;
-background-color:#d6d6d6!important;}
+background-color:VAR(--TEXTENTRY)!important;}
 
 .addonpicker_Tabs_1WUqY {
 	background-color: rgb(var(--header_dark))!important;
