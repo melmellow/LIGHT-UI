@@ -14,6 +14,7 @@
 	--WHITE: #fff;
 	--TEXTENTRY: #e8e8e8;
 	--SHADOW: #d6d1d1;
+	--DIVIDER:VAR(--SHADOW);
 	--PLAYBUTTON: VAR(--ACCENT);
 	--GAMENAME: VAR(--ACCENT);
 	--GAMESTATENAMECOLOR: VAR(--BUTTONHOVER);
@@ -192,6 +193,10 @@ html.client_chat_frame .popup_chat_frame {
 	COLOR:var(--ACCENT)!important;
 }
 
+.currentUserContainer {
+	border-bottom:0!important;
+}
+
 .friends_loading_error .currentUserContainer {
 	HEIGHT:56PX!important;
 	BORDER-COLOR:NONE;
@@ -359,11 +364,6 @@ margin-right: 12px!important;
 
 .currentUserContainer .personanameandstatus_richPresenceLabel_3Q6g1{
 -webkit-app-region: drag!important;
-}
-
-/* Top friends list border */
-.currentUserContainer{
-	border-bottom: 1px solid #dcdcdc !important;
 }
 
 /* Friends list window*/
@@ -612,6 +612,10 @@ opacity: 1!important;
     width: 0!important;
 }
 
+.singlewindow .titleBarContainer.ChatTabs {
+	padding-left:0!important;
+}
+
 
 .chatWindow{
 	background:transparent!important;
@@ -624,7 +628,7 @@ opacity: 1!important;
 background: rgb(var(--clientBG)) !important;}
 
 .titleBarContainer.ChatTabs {
-    background: VAR(--BASE2) !important;
+    background: VAR(--BASE1) !important;
 	border: none!important;
 }
 .chatEntryControls{
@@ -686,12 +690,14 @@ background-color: transparent!important;}
 .chatHeader {
 	background: VAR(--BASE2)!important;
 	min-height: 0px !important;
-	border-top: 1px SOLID #DCDCDC!important;
+	border-top: 1px SOLID VAR(--DIVIDER)!important;
 }
 .chatTabList .chattabs_ChatTab_1WfqA, .ChatTabsBackButton {
-    background: VAR(--BASE2) !important; /*rgba(var(--white05))*/
+    background: VAR(--BASE1) !important; /*rgba(var(--white05))*/
     margin-right: 1px!important;
-	border: 0!important;
+	border-top: 1px solid VAR(--DIVIDER)!important;
+	border-right: 1px solid VAR(--DIVIDER)!important;
+	BORDER-TOP-RIGHT-RADIUS:8PX!important;
 	/*border-bottom: 1px solid rgb(var(--focus)) !important;*/
 }
 
@@ -1221,7 +1227,7 @@ color: rgb(140,140,140)!important;
 }
 
 /* .multiChatDialog{
-border: 1px solid #dcdcdc!important;} */
+border: 1px solid VAR(--DIVIDER)!important;} */
 
 /* ======== Friend Panel Group ======== */
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle{
@@ -1354,7 +1360,7 @@ border-bottom: 1px solid rgb(var(--border))!important;
 	margin:0!important;
      font-size: 16px !important;
 	   background-color: #E8E8E8 !important;
-	 /*   border-top:#dcdcdc!important; */
+	 /*   border-top:VAR(--DIVIDER)!important; */
 	   height: 34px !important;
 /* 	   padding: 5px 5px 5px 5px!important; */
 	   color: rgb(var(--white))!important;
@@ -1951,6 +1957,10 @@ background-color: #D6D6D6!important;}
 	cursor:text!important;
 }
 
+.singlewindow .friendsListContainer {
+	border-right:1px solid var(--SIDEBARBORDER)!important;
+}
+
 .TabSearchButton {
 	CURSOR:NORMAL!important;
 background-color: #E8E8E8!important;}
@@ -1961,20 +1971,11 @@ display:none!important;}
 
 /*Line that separates friends and chat windows in single window mode*/
 .singleWindowDivider {
-    /* background-image: url(https://i.imgur.com/nlGfqx5.png)!important; */
-	/* background-repeat:repeat-y!important; */
-    min-width: 1px!important;
-    width: 1px!important;
-    background-color: VAR(--SIDEBARBORDER)!important;
-	BORDER-TOP:1PX SOLID TRANSPARENT!important;
-	BORDER-BOTTOM:1PX SOLID TRANSPARENT!important;
-	BORDER-LEFT:1PX SOLID TRANSPARENT!important;
-	BORDER-RIGHT:1PX SOLID TRANSPARENT!important;
-
+	DISPLAY:NONE!important;
 }
 
 html.client_chat_frame body, html.web_chat_frame body {
-	background:#DCDCDC!important;
+	background:VAR(--DIVIDER)!important;
 }
 
 .DialogTextInputBase:not(disabled){
@@ -2097,10 +2098,10 @@ right: 0px!important;}
 background: rgba(var(--white05))!important;}*/
 
 .minimizeButton:hover, .maximizeButton:hover, .restoreButton:hover {
-	background: #dcdcdc!important;}
+	background: VAR(--DIVIDER)!important;}
 	
 .closeButton:not(.chattabs_CloseButton_SzByZ):hover {
-background: #dcdcdc!important;}
+background: VAR(--DIVIDER)!important;}
 
 .multiChatDialog .title-area-icon {
 padding:1px!important;}
@@ -2204,7 +2205,7 @@ opacity:.4!important;}
 .inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line{
 	stroke: rgb(var(--white))!important;}
 .inviteAnotherFriendButton:hover{
-background: #dcdcdc!important;
+background: VAR(--DIVIDER)!important;
 fill:#000!important;
 cursor: initial!important;}
 
@@ -2281,7 +2282,7 @@ margin-top: 3px;!important;}
 }
 
 .chat_main_flex{
-border: 1px solid #dcdcdc!important;}
+border: 1px solid VAR(--DIVIDER)!important;}
 
 .DialogOnOffToggle_Option:not(.Active) {
 	background-color:#c3c3c3!important;
@@ -2589,7 +2590,7 @@ height: 34px!important;
 cursor: default!important;}
 
 .addonpicker_Tabs_1WUqY {
-	border-bottom:1px solid #dcdcdc!important;
+	border-bottom:1px solid VAR(--DIVIDER)!important;
 }
 
 .addonpicker_Tab_10fDn.addonpicker_Active_2J8Y1 {
