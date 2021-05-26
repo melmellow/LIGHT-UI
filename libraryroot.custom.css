@@ -100,6 +100,8 @@
   --SCROLLTOTOP: VAR(--ACCENT);
   --SCROLLTOTOPBORDER: VAR(--WHITE);
   --ADVANCEDSEARCH: VAR(--BASE1);
+  --ADVANCEDSEARCHBORDER: VAR(--DIVIDER);
+  --ADVANCEDSEARCHSHADOW: NONE;
   --SIDEBAR: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--SHADOW);
@@ -3464,8 +3466,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-  border: 0 !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border: 1px solid var(--ADVANCEDSEARCHBORDER) !important;
+  box-shadow: 1px 1px 2px VAR(--ADVANCEDSEARCHSHADOW) !important;
   background: VAR(--ADVANCEDSEARCH) !important;
 }
 
