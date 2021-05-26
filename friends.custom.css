@@ -29,6 +29,7 @@
 	--LISTITEMBACKGROUNDHOVER:VAR(--BUTTON);
 	--CONTEXTMENU:VAR(--BASE3);
 	--CONTEXTMENUBORDER:VAR(--SHADOW);
+	--CHECKMARK:VAR(--ACCENT);
 }
 
 
@@ -887,7 +888,7 @@ button.DialogButton:disabled:hover{
 }
 
 .DialogCheckbox path {
-	stroke: rgb(var(--white)) !important;
+	stroke: VAR(--CHECKMARK) !important;
 }
 
 button.DialogButton.roleButton.owner:disabled {
