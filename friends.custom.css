@@ -7,7 +7,8 @@
 	--BUTTONBORDER2: #b6b6b6;
 	--BUTTONBORDERHOVER: #8d8d8d;
 	--BUTTON: #d6d6d6;
-	--BUTTONHOVER: #000;
+	--BLACK:#000;
+	--BUTTONHOVER: VAR(--BLACK);
 	--BLUE: #1181d2;
 	--GREEN: #54a448;
 	--WHITE: #fff;
@@ -31,6 +32,14 @@
 	--CONTEXTMENUBORDER:VAR(--SHADOW);
 	--CHECKMARK:VAR(--ACCENT);
 	--TEXTENTRYBORDERROUNDED:30PX;
+	--SCROLLBAR:VAR(--ACCENT);
+	--SCROLLBARHOVER:VAR(--BLACK);
+	--SCROLLBARBORDERRADIUS:0;
+	--SCROLLTOBOTTOM:var(--ACCENT);
+	--SCROLLTOBOTTOMTEXT:VAR(--WHITE);
+	--SCROLLTOBOTTOMBORDERRADIUS:4PX 4PX 0 0;
+	--CHATAVATARBORDER:NONE;
+	--CHATAVATARBORDERRADIUS:50PX;
 }
 
 .CompactFriendsList .gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
@@ -637,10 +646,10 @@ background: rgb(var(--clientBG)) !important;}
 	z-index: 13!important;
 }
 .ScrollToBottomButton > span{
-	    width: 14% !important;
-    color: #fff!important;
-    background: var(--ACCENT);
-    border-radius: 30px!important;
+	    width: 9% !important;
+    color: VAR(--SCROLLTOBOTTOMTEXT)!important;
+    background: var(--SCROLLTOBOTTOM);
+    border-radius: VAR(--SCROLLTOBOTTOMBORDERRADIUS)!important;
 }
 
 .ScrollToBottomButton > span:hover{
@@ -1150,9 +1159,9 @@ color: rgb(140,140,140)!important;
 .ChatTabs ::-webkit-scrollbar-thumb {
   background-color: transparent!important;}
 ::-webkit-scrollbar-thumb{
-	border-radius: 30px !important;
-	background: rgba(var(--white05)) !important;
-	border: 0px solid #131313!important;
+	border-radius: VAR(--SCROLLBARBORDERRADIUS) !important;
+	background:VAR(--SCROLLBAR) !important;
+	border: 0!important;
 }
 
 .chatWindow ::-webkit-scrollbar,
@@ -1203,12 +1212,11 @@ color: rgb(140,140,140)!important;
 
 /* background behind scrollbar */
 ::-webkit-scrollbar-track {
-    background-color:VAR(--BASE2)!important;
+    background-color:NONE!important;
 }
 /* hovering for the scrollbar itself */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #717171!important;
-    border-radius: 30px!important;
+    background-color: VAR(--SCROLLBARHOVER)!important;
 }
 
 /* .multiChatDialog{
@@ -2402,7 +2410,9 @@ margin-top: -1px!important;}
   padding-left: 1px!important; }
   
 .ChatRoomMultiFriendAvatar, .ChatRoomGroupAvatar{
-border: 1px solid #535c68!important;}
+border:1px solid var(--CHATAVATARBORDER)!important;
+BORDER-RADIUS:VAR(--CHATAVATARBORDERRADIUS)!important;
+}
 
 .FriendsSettingsVoiceTransmissionType_ButtonRow, .FriendsSettingsFlashSection_ButtonRow{
 background-color: transparent!important;}
@@ -2630,6 +2640,10 @@ letter-spacing: 0px;}
 	
 	.NotAFriendBody .ExplanationHeader {
 		color:var(--ACCENT)!important;
+	}
+
+	.personanameandstatus_compactView_2PCWF.personanameandstatus_twoLine_2wZNn .personanameandstatus_richPresenceLabel_3Q6g1 {
+		FONT-WEIGHT:700!important;
 	}
   
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:hover, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:focus {
