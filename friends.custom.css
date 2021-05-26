@@ -30,6 +30,7 @@
 	--CONTEXTMENU:VAR(--BASE3);
 	--CONTEXTMENUBORDER:VAR(--SHADOW);
 	--CHECKMARK:VAR(--ACCENT);
+	--TEXTENTRYBORDERROUNDED:30PX;
 }
 
 .CompactFriendsList .gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
@@ -1969,6 +1970,9 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 .Dialog_EditNickName .friend.online .DialogTextInputBase, .Dialog_ChangePersonaName .friend.online .DialogTextInputBase {
 	color:var(--ACCENT)!important;
+	background:var(--TEXTENTRY)!important;
+	border:1px solid var(--BUTTONBORDER2)!important;
+	border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
 }
 
 .chatDialogs {
@@ -2023,8 +2027,13 @@ margin-left: -18px!important;
 margin-right: 15px!important;
 margin-top: 4px!important;}
 
-.groupHeaderContainer .SortByRecent {
+.groupHeaderContainer .SortByRecent:hover {
 	filter:brightness(0)!important;
+}
+
+.Dialog_EditNickName .friend .avatarMedium, .Dialog_ChangePersonaName .friend .avatarMedium {
+	border-radius:50px!important;
+	border:0!important;
 }
 
 
