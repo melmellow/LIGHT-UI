@@ -88,7 +88,7 @@
 		}
 		AccountMenuButtonStyle:hover
 		{
-			bgcolor="228 228 228 255"
+			bgcolor = ACTIONBUTTONHOVER
 			render_bg {}
 			image="graphics/user (2)"
 
@@ -105,7 +105,7 @@
 		
 		AccountMenuButtonStyle:active
 		{
-			bgcolor="228 228 228 255"
+			bgcolor = "NONE" 
 			render {}
 			image="graphics/user (2)"
 		}
