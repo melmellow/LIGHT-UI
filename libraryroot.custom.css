@@ -1934,6 +1934,13 @@ div.NarrowRightPanel
 .appactivityday_PartnerEventMediumImage_Title_1gljE {
   color: var(--ACCENT) !important;
 }
+
+.appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+  background: VAR(--BASE1) !important;
+  border-radius: var(--BORDERRADIUS) !important;
+  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+}
+
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover
   .appactivityday_PartnerEventMediumImage_Title_1gljE {
   color: var(--BUTTONHOVER) !important;
@@ -1943,9 +1950,6 @@ div.NarrowRightPanel
 }
 .appactivityday_PartnerEventMediumImage_Summary_Ru7OB {
   color: var(--ACCENT) !important;
-}
-.appactivityday_PartnerEventMediumImage_Contents_2gv3E {
-  background: var(--BASE2) !important;
 }
 .appdetailsplaysection_DetailsProgressContainer_25YVD
   .appdetailsplaysection_DetailsProgressBar_1FnTq {
@@ -2998,6 +3002,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   color: var(--BUTTONHOVER) !important;
 }
 .appdetailscommunityfeed_MenuButton_CwZqp svg {
+  color: VAR(--ACCENT) !important;
   fill: var(--ACCENT) !important;
 }
 .appactivityday_PartnerEventLargeImage_Title_3fsjz {
