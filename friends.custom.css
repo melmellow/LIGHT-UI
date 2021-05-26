@@ -1586,6 +1586,11 @@ border-bottom: 2px solid rgb(var(--ingame)) !important;}
 	FILL:#000!important;
 }
 
+.game_list4NG310_Library_Y0V3YE {
+	color: var(--ACCENT) !important;
+  }
+
+
 /* Settings button itself */
 .friendSettingsButton{
   cursor: initial!important;}
