@@ -98,6 +98,7 @@
   --FRIENDISPLAYING: VAR(--ACCENT);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOP: VAR(--ACCENT);
+  --SCROLLTOTOPBORDER: VAR(--WHITE);
   --ADVANCEDSEARCH: VAR(--BASE1);
   --SIDEBAR: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
@@ -1878,7 +1879,7 @@ div.NarrowRightPanel
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
   margin-right: 15px !important;
   background: var(--BASE1) !important;
-  border-radius: 10px !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   border: 1px SOLID var(--BASE2) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
@@ -3284,6 +3285,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   padding-left: 19px !important;
   padding-right: 19px !important;
   background: var(--SCROLLTOTOP) !important;
+  border: 1px SOLID VAR(--SCROLLTOTOPBORDER) !important;
 }
 .smartscrollcontainer_ScrollToTopButton_1J21t:hover div {
   background: var(--BUTTONHOVER) !important;
