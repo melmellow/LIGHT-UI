@@ -23,11 +23,18 @@
 	--ADVANCEDSEARCH: VAR(--BASE1);
 	--GAMELISTBORDER: VAR(--DIVIDER1);
 	--READYTOPLAYACTIVE: VAR(--BLUE);
+	--SIDEBAR:VAR(--BASE1);
+	--SIDEBARBORDER:VAR(--SHADOW);
+	--LISTITEMBACKGROUNDHOVER:VAR(--BUTTON);
+	--CONTEXTMENU:VAR(--BASE3);
+	--CONTEXTMENUBORDER:VAR(--SHADOW);
 }
 
 
 
-
+.friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
+	background-color:var(--listitembackgroundhover)!important;
+}
 
 
 
@@ -36,7 +43,7 @@
 }
 
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-	FILL:var(--ACCENT)!iMPORTANT;
+	FILL:var(--ACCENT)!important;
 }
 
 .currentUserContainer .ContextMenuButton .SVGIcon_DownArrowContextMenu {
@@ -57,7 +64,7 @@
 }
 
 html.client_chat_frame .popup_chat_frame {
-	background-color:#e4e4e4!important;
+	background-color:VAR(--BASE1)!important;
 }
 
 .FriendPicker_Suggestions_List {
@@ -494,7 +501,7 @@ color: rgb(var(--online))!important;}
 
 /*Group chats hover*/
 .ChatRoomListGroupItem:hover {
-	background-color: #d6d6d6 !important;
+	background-color: VAR(--LISTITEMBACKGROUNDHOVER) !important;
 }
 
 /* Avatar status boxes */
@@ -1105,7 +1112,9 @@ cursor: initial!important;}
 }
 
 .pagedsettings_PagedSettingsDialog_PageListItem_14LgX.pagedsettings_Active_3cnaw{
-background-color:rgb(76,76,76)!important;}
+background-color:var(--listitembackgroundhover)!important;
+color:var(--accent);
+}
 
 .pagedsettings_PagedSettingsDialog_PageListItem_14LgX:not(.pagedsettings_Active_3cnaw):hover{
 color:#969696!important;}
@@ -1953,15 +1962,17 @@ display:none!important;}
 
 /*Line that separates friends and chat windows in single window mode*/
 .singleWindowDivider {
-    background-image: url(https://i.imgur.com/nlGfqx5.png)!important;
-	background-repeat:repeat-y!important;
-    min-width: 6px!important;
+    /* background-image: url(https://i.imgur.com/nlGfqx5.png)!important; */
+	/* background-repeat:repeat-y!important; */
+    min-width: 1px!important;
     width: 1px!important;
-    background-color: #e4e4e4!important;
-    border-left: #dcdcdc!important;
-    border-right: #dcdcdc!important;
-    border-top: #e4e4e4!important;
-	border-bottom:#dedede!important;}
+    background-color: VAR(--SIDEBARBORDER)!important;
+	BORDER-TOP:1PX SOLID TRANSPARENT!important;
+	BORDER-BOTTOM:1PX SOLID TRANSPARENT!important;
+	BORDER-LEFT:1PX SOLID TRANSPARENT!important;
+	BORDER-RIGHT:1PX SOLID TRANSPARENT!important;
+
+}
 
 html.client_chat_frame body, html.web_chat_frame body {
 	background:#DCDCDC!important;
