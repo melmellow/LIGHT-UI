@@ -32,7 +32,18 @@
 	--CHECKMARK:VAR(--ACCENT);
 }
 
+.CompactFriendsList .gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
+	margin-right:0!important;
+	width:0!important;
+}
 
+.CompactFriendsList .groupName .gameGroupContainer .groupIcon {
+	display:none!important;
+}
+
+.CompactFriendsList .friend .avatarHolder img.avatar {
+	BORDER-RADIUS:50PX!important;
+}
 
 .friendStatusHover.offline:hover, .friendStatusHover.offline.Friend_ContextMenuActive {
 	background-color:var(--listitembackgroundhover)!important;
@@ -2206,6 +2217,7 @@ opacity:1!important;}
 
 .CompactFriendsList .friendGroup.taggedGroup .groupName, .CompactFriendsList .friendGroup.gameGroup .groupName {
 	font-weight:600!important;
+	margin-left:12px!important;
 }
 
 
