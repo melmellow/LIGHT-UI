@@ -1,6 +1,6 @@
 :root {
 	--BASE1: #e4e4e4;
-	--BASE2: VAR(--BASE2);
+	--BASE2: #DEDEDE;
 	--BASE3: #ececec;
 	--ACCENT: #585858;
 	--BUTTONBORDER: #b8b8b8;
@@ -25,6 +25,7 @@
 	--READYTOPLAYACTIVE: VAR(--BLUE);
 	--SIDEBAR:VAR(--BASE1);
 	--SIDEBARBORDER:VAR(--SHADOW);
+	--SIDEBARBORDER2:VAR(--SHADOW);
 	--LISTITEMBACKGROUNDHOVER:VAR(--BUTTON);
 	--CONTEXTMENU:VAR(--BASE3);
 	--CONTEXTMENUBORDER:VAR(--SHADOW);
@@ -1540,10 +1541,6 @@ border-bottom: 2px solid rgb(var(--ingame)) !important;}
 .personastatusicons_PersonaStatusIcon_2rP7f.ingame .SVGIcon_BigPicture path {
   fill: rgb(var(--ingame)) !important;}
   
-  .friendRequestButton .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton .SVGIcon_FriendRequest .friendHead, .friendRequestButton .SVGIcon_FriendRequest .friendArm, .friendRequestButton .SVGIcon_FriendRequest .friendBody, .addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody, .addFriendButton .SVGIcon_AddFriend .plusCircle, .friendsListSectionTitle .SVGIcon_NewChatGroup:HOVOER {
-	  FILL:#000!important;
-  }
-  
   .VoiceToggle, .chatTextarea {
 	  background-color:VAR(--BASE2)!important;
   }
@@ -2196,9 +2193,14 @@ display:none!important;}
 .friendlistListContainer .ExpandPlusMinus{
 opacity:1!important;}
 
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+	FONT-WEIGHT:600!important;
+}
+
+
 .friendGroup .groupName {
-	padding-top:4px!important;
-	padding-bottom:4px!important;
+	padding-top:2px!important;
+	padding-bottom:2px!important;
 }
 
 .CompactFriendsList .friendGroup.taggedGroup .groupName, .CompactFriendsList .friendGroup.gameGroup .groupName {
@@ -2511,7 +2513,7 @@ stroke: rgba(var(--white75));}
 stroke: rgb(113,113,113);}
 
 .FriendsListChatSection.ChatRoomListContainerParent {
-    border-top: 1px solid #dcdcdc !important;
+    border-top: 1px solid var(--SIDEBARBORDER2)!important;
 }
 
 body, body.shared_common_v6_39eAm {
