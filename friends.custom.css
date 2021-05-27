@@ -12,7 +12,7 @@
 	--BLUE: #1181d2;
 	--GREEN: #54a448;
 	--WHITE: #fff;
-	--TEXTENTRY: #e8e8e8;
+	--TEXTENTRY: VAR(--TEXTENTRY);
 	--SHADOW: #d6d1d1;
 	--DIVIDER:VAR(--SHADOW);
 	--PLAYBUTTON: VAR(--ACCENT);
@@ -99,7 +99,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .DialogTextInputBase:focus {
-	background-color:#E8E8E8!important;
+	background-color:VAR(--TEXTENTRY)!important;
 	border:1px solid #b8b8b8!important;
 }
 
@@ -961,7 +961,7 @@ color: rgba(var(--white75))!important;
 }
 
 ._DialogTextInputBase, ._DialogInputContainer{
-background: #E8E8E8!important;}
+background: VAR(--TEXTENTRY)!important;}
 
 .DialogDropDown._DialogInputContainer{
 	background-color:#d6d6d6!important;
@@ -1363,7 +1363,7 @@ border-bottom: 1px solid rgb(var(--border))!important;
 	BORDER-RADIUS:30PX!important;
 	margin:0!important;
      font-size: 16px !important;
-	   background-color: #E8E8E8 !important;
+	   background-color: VAR(--TEXTENTRY) !important;
 	 /*   border-top:VAR(--DIVIDER)!important; */
 	   height: 34px !important;
 /* 	   padding: 5px 5px 5px 5px!important; */
@@ -1976,7 +1976,7 @@ background-color: #D6D6D6!important;}
 
 .TabSearchButton {
 	CURSOR:NORMAL!important;
-background-color: #E8E8E8!important;}
+background-color: VAR(--TEXTENTRY)!important;}
 
 /*Hide single window switch button*/
 .title-area-icon.singleWindowToggle {
@@ -2214,14 +2214,17 @@ width: 170px!important;}
 transform: scale(1.16)!important;}
 
 .inviteAnotherFriendButton .SVGIcon_Button{
-fill: rgb(var(--white))!important;
-opacity:.4!important;}
+fill: var(--ACCENT)!important;
+opacity:1!important;}
 .inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line{
 	stroke: rgb(var(--white))!important;}
 .inviteAnotherFriendButton:hover{
-background: VAR(--DIVIDER)!important;
-fill:#000!important;
+FILTER:BRIGHTNESS(0)!important;
 cursor: initial!important;}
+
+.inviteAnotherFriendButton:hover .SVGIcon_Button, .inviteAnotherFriendButton:hover .SVGIcon_Button line {
+	stroke:var(--ACCENT)!important;
+}
 
 .chatRoomButton .SVGIcon_Button{
 fill: VAR(--ACCENT)!important;}
@@ -2487,7 +2490,7 @@ margin-right: 55px!important;
 height:auto!important;}
 
 .friendCollapseButton .SVGIcon_DoubleArrow {
-	filter:brightness:0!important;
+	filter:brightness(0)!important;
 }
 
 .compactView .chatTabOpenFriendsList {
@@ -2500,18 +2503,18 @@ height:auto!important;}
 }
 
 .chatTabOpenFriendsList{
+	padding:0!important;
+	margin:0!important;
 	    background-repeat: no-repeat!important;
-    background-image: url(https://i.imgur.com/0vy9g9g.png)!important;
+    background-image: url(https://i.imgur.com/4SthEqo.png)!important;
     color: rgba(var(--white75)) !important;
-    background-color: #d6d6d6!important;
-    border: 1px solid #b8b8b8!important;
-    background-size: 20px!important;
+    background-color: transparent!important;
+    /* background-size: 14px!important; */
     background-position: center!important;
 }
 
 .chatTabOpenFriendsList:hover {
-  border-color:#8d8d8d!important;
-  background-color: #d6d6d6 !important;}
+  filter:brightness(0)!important;}
   
 .friend.online {
 color: rgb(var(--online)) !important;}
@@ -2537,7 +2540,7 @@ background:none!important;
 color:var(--ACCENT)!important;}
 
 .friendSearchInput[type="text"]:focus, .friendSearchInput[type="text"] {
-	BACKGROUND-COLOR:#E8E8E8!important;
+	BACKGROUND-COLOR:VAR(--TEXTENTRY)!important;
 }
 
 .TabSearchButton .searchIconButton {
@@ -2547,7 +2550,7 @@ color:var(--ACCENT)!important;}
 
 .tabSearchTransitionGroup, .tabSearchTransition {
 	border-radius:30px!important;
-	BACKGROUND-COLOR:#E8E8E8!important;
+	BACKGROUND-COLOR:VAR(--TEXTENTRY)!important;
 }
 
 .socialListTab.TabSearchActive {
