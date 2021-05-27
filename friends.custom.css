@@ -637,7 +637,7 @@ opacity: 1!important;
 background: rgb(var(--clientBG)) !important;}
 
 .titleBarContainer.ChatTabs {
-    background: VAR(--BASE1) !important;
+    background: VAR(--BASE2) !important;
 	border: none!important;
 }
 .chatEntryControls{
@@ -1729,13 +1729,6 @@ background: VAR(--INACTIVECHATTAB) !important;
 border:0!important;
 border-bottom: 1px transparent!important;}
 
-/* .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .chattabs_ChatTabContent_Friend_3m7Ps, .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .chattabs_ChatTabContent_ChatRoom_1AI14 {
-filter: grayscale(100%)!important;
-opacity:.5!important;}
- */
-.chattabs_ChatTab_1WfqA:hover:not(.chattabs_Active_3sMSI), .ChatTabsContextMenu .chattabs_ChatTab_1WfqA:hover{
-	background-color: TRANSPARENT !important;}
-
 .msg.ChatMsgSlashEmote .speaker {
 background:rgb(var(--textentry))!important;
 color: rgb(var(--online))!important;}
@@ -2106,7 +2099,8 @@ margin-top: -2px!important;}
 margin-top: -5px!important;}
 
 .compactView .friend .personanameandstatus_statusAndName_9U-hi {
-margin-top: -3px!important;}
+margin-top: -3px!important;
+font-weight:700!important;}
 
 .currentUserContainer .personanameandstatus_playerName_1uxaf {
 font-size:14px!important;}
@@ -2678,9 +2672,6 @@ letter-spacing: 0px;}
 		color:var(--ACCENT)!important;
 	}
 
-	.personanameandstatus_compactView_2PCWF.personanameandstatus_twoLine_2wZNn .personanameandstatus_richPresenceLabel_3Q6g1 {
-		FONT-WEIGHT:700!important;
-	}
   
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:hover, .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:focus {
 BORDER:1PX SOLID VAR(--TEXTENTRYBORDER)!important;
