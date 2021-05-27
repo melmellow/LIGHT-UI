@@ -82,6 +82,11 @@
 	opacity:63%!important;
 }
 
+
+.friendRequestButton .SVGIcon_FriendRequest, .addFriendButton .SVGIcon_AddFriend:hover {
+	filter:brightness(0)!important;
+} 
+
 .FriendPicker_SuggestedFriend.Focus {
 	background:#d6d6d6!important;
 }
@@ -140,13 +145,6 @@ html.client_chat_frame .popup_chat_frame {
 
 .ChatRoomListGroupItem .openGroupButton .SVGIcon_DoubleArrow polyline {
 	STROKE:#000!important;
-}
-
-.throbber_throbber_center_wrapper_1Dn-N {
-	    BACKGROUND-SIZE: 80PX!important;
-    BACKGROUND-REPEAT: NO-REPEAT;
-	    BACKGROUND-POSITION: CENTER!important;
-		BACKGROUND-IMAGE:URL(https://i.imgur.com/3NHWp4r.png)!important;
 }
 
 .throbber_LoadingWrapper_9UFR8.throbber_throbber_large_3hJM_ .throbber_Throbber_1Y6Da {
@@ -2458,7 +2456,12 @@ background: #d6d6d6!important;}
 .chattabs_ChatTabContent_Friend_3m7Ps .friend.awayOrSnooze .labelHolder,
  .chattabs_ChatTabContent_Friend_3m7Ps .friend.awayOrSnooze .avatarHolder .avatarStatus, .chattabs_ChatTabContent_Friend_3m7Ps .friend.offline .avatarHolder .avatarStatus, .chattabs_ChatTabContent_Friend_3m7Ps .friend.offline .labelHolder {
 opacity: .5!important;}
-	
+
+.friend.awayOrSnooze:hover {
+	background:var(--LISTITEMBACKGROUNDHOVER)!important;
+}
+
+
 .friend.awayOrSnooze .playerNameQuickAccessContainer, .friend.awayOrSnooze .labelHolder  {
 opacity: 1!important;}
 
