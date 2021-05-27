@@ -654,15 +654,23 @@ background: rgb(var(--clientBG)) !important;}
 .ChatTabsContextMenu .ChatTabContextMenuItem {
   padding: 0!important; }
 
+  .friendsListSectionTitle.chatSectionTitle:hover {
+    background: var(--LISTITEMBACKGROUNDHOVER)!important;
+} 
+
+.friend.offline:HOVER {
+    BACKGROUND: VAR(--LISTITEMBACKGROUNDHOVER)!important;
+} 
+
+
 .ScrollToBottomButton{
   padding-top: 0px !important;
     color: rgb(var(--white)) !important;
 	z-index: 13!important;
 }
 .ScrollToBottomButton > span{
-	    width: 9% !important;
     color: VAR(--SCROLLTOBOTTOMTEXT)!important;
-    background: var(--SCROLLTOBOTTOM);
+    BACKGROUND: var(--SCROLLTOBOTTOM);
     border-radius: VAR(--SCROLLTOBOTTOMBORDERRADIUS)!important;
 }
 
