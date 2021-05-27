@@ -12,7 +12,7 @@
 	--BLUE: #1181d2;
 	--GREEN: #54a448;
 	--WHITE: #fff;
-	--TEXTENTRY: VAR(--TEXTENTRY);
+	--TEXTENTRY: #e8e8e8;
 	--SHADOW: #d6d1d1;
 	--DIVIDER:VAR(--SHADOW);
 	--PLAYBUTTON: VAR(--ACCENT);
@@ -519,6 +519,10 @@ color: rgb(var(--online))!important;}
 	background-color: VAR(--LISTITEMBACKGROUNDHOVER) !important;
 }
 
+.steamavatar_avatarHolder_1G7LI.Medium {
+	border-radius:50px!important;
+}
+
 /* Avatar status boxes */
 .avatarHolder .avatarStatus {
 display: none !important;}
@@ -528,9 +532,11 @@ border: none !important;}
 
 .offline .steamavatar_avatar_f2laR {
 border: 1px solid rgb(var(--offline))!important;
+border-radius:50px!important;
 }
 
 .online .steamavatar_avatar_f2laR {
+	border-radius:50px!important;
 border: 1px solid rgb(var(--online))!important;
 }
 
@@ -2006,7 +2012,11 @@ html.client_chat_frame body, html.web_chat_frame body {
 background: VAR(--BASE2)!important;}
 
 .friend .personanameandstatus_richPresenceLabel_3Q6g1 {
-margin-top: 0px!important;}
+margin-top: 6px!important;}
+
+.voiceSelfHeader .friend .avatarHolder .avatar {
+	border-radius:50px!important;
+}
 
 .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
 -webkit-mask: none!important;}
@@ -2261,6 +2271,8 @@ opacity:1!important;}
 
 
 .friendGroup .groupName {
+
+	FONT-WEIGHT:600!important;
 	padding-top:2px!important;
 	padding-bottom:2px!important;
 }
