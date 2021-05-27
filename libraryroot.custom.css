@@ -177,12 +177,31 @@
   */
 }
 
+.youtubeembed_DynamicLinkBox_1IGUR {
+  background: var(--BASE1) !important;
+  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+}
+
+.youtubeembed_DynamicLink_YoutubeViews_3clz2 {
+  color: var(--ACCENT) !important;
+}
+
+.youtubeembed_Dynamiclink_Content_1EYgV {
+  color: var(--ACCENT) !important;
+}
+
+.youtubeembed_DynamicLink_Name_1R7Ng {
+  color: var(--ACCENT) !important;
+  border-bottom: 0 !important;
+  font-weight: bold;
+}
+
 .discussionwidget_VoteUpIcon_2akzu {
   fill: var(--WHITE) !important;
 }
 
 .discussionwidget_VoteDownIcon_3Zqxx {
-  fill:var(--white)!important;
+  fill: var(--white) !important;
 }
 
 .appdetailscommunityfeed_ArtItem_1aP1b
