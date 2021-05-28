@@ -60,6 +60,7 @@
   --RUNNINGGAMENAMECOLOR: VAR(--ACCENT);
   --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
   --UPDATINGGAMENAMECOLOR: VAR(--ACCENT);
+  --UPDATINGGAMENAMEFONTWEIGHT: 500;
   --UPDATINGGAMESTATECOLOR: VAR(--BLACK);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
@@ -446,6 +447,7 @@ img {
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
   color: VAR(--UPDATINGGAMENAMECOLOR) !important;
+  font-weight: var(--UPDATINGGAMENAMEFONTWEIGHT) !important;
 }
 
 :not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
