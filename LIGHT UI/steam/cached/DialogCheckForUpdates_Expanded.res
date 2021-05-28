@@ -4,7 +4,7 @@
 	{
 		CDialogCheckForUpdates
 		{
-			bgcolor=BASE1
+			bgcolor=BASE2
 		}
 		Label
 		{
