@@ -247,6 +247,12 @@ steam.styles
 		
 		}
 
+			downarrow:selected
+		{
+			image="ICONS/ADVANCEDSEARCH_H"
+		
+		}
+
 		rightarrow
 		{
 			render_bg {}
