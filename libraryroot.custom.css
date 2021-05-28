@@ -643,8 +643,12 @@ img {
   .appdetailssoundtrack_StatsAndParent_3pUBu
   .appdetailssoundtrack_ParentGameLink_2pcGG
   .appdetailssoundtrack_ParentAppName_3C_pT {
-  color: VAR(--BLACK) !important;
-  font-weight: 300 !important;
+  color: VAR(--ACCENT) !important;
+  font-weight: 600 !important;
+}
+
+.appdetailssoundtrack_ParentAppName_3C_pT:hover {
+  color: var(--BLACK) !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
