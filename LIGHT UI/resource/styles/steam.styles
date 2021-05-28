@@ -639,6 +639,7 @@ steam.styles
 		"GameItem_Updating"
 		{
 			textcolor = SMGAMENAMEUPDATING
+			font-weight=600
 			selectedtextcolor=game_run_selected
 		}
 		"GameItem_Updating:hover"
@@ -763,12 +764,8 @@ steam.styles
 		{
 			textcolor=ACCENT
 			font-style=uppercase
-			font-weight=400
+			font-weight=600
 			bgcolor="none"
-			//render_bg
-			//{
-			//	//0="fill(x0,y1-1,x1,y1,White12)"
-			//}
 			minimum-height=30
 		}
 		"CDialogSettings ListPanelSectionHeader"
