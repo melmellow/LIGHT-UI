@@ -177,6 +177,10 @@
   */
 }
 
+.salepreviewwidgets_Action_2zssE:hover {
+  background-color: var(--BLACK) !important;
+}
+
 .salepreviewwidgets_AppTag_3FJnZ {
   color: var(--WHITE) !important;
   background-color: var(--ACCENT) !important;
@@ -201,7 +205,7 @@
 
 .salepreviewwidgets_Action_2zssE {
   background-image: none !important;
-  background-color: var(--GREEN) !important;
+  background-color: var(--ACCENT) !important;
 }
 
 .eventbbcodeparser_AppSummaryWidgetCtn_3DfY9 {
