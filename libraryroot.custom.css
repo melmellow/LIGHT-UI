@@ -183,6 +183,10 @@
   */
 }
 
+.Download.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
+  background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
+}
+
 .appdetailsspotlight_NewDLCContainer_3Exow .appdetailsspotlight_DLCLink_24wrY {
   color: var(--NEWLYADDEDDLCLINK) !important;
   text-transform: UPPERCASE !important;
