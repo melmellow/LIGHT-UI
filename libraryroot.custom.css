@@ -183,6 +183,10 @@
   */
 }
 
+.partnereventdisplay_EventCoverImageBackground_2-Iyg {
+  background-color: VAR(--BASE2) !important;
+}
+
 .Download.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
   background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
 }
@@ -2222,7 +2226,7 @@ div.NarrowRightPanel
   fill: var(--WHITE) !important;
 }
 .apppartnereventspage_CloseButton_1_vCR:hover {
-  border-color: var(--BUTTONHOVER) !important;
+  border: 1px SOLID var(--WHITE) !important;
   background-color: var(--BUTTONHOVER) !important;
 }
 .apppartnereventspage_ScrollButton_1t_97:hover {
@@ -2232,6 +2236,7 @@ div.NarrowRightPanel
 .apppartnereventspage_ScrollButton_1t_97 {
   background-color: var(--ACCENT) !important;
   border-radius: 0 !important;
+  border: 1px SOLID VAR(--WHITE) !important;
 }
 .partnereventshared_Button_1ABCO.partnereventshared_Icon_1dDpS {
   border-radius: var(--BUTTON1BORDERRADIUS) !important;
@@ -2546,7 +2551,7 @@ A {
 }
 .apppartnereventspage_CloseButton_1_vCR {
   background-color: var(--ACCENT) !important;
-  border: 1px solid var(--ACCENT) !important;
+  border: 1px solid var(--WHITE) !important;
 }
 .artworkmodal_ArtworkModalContainer_bAmL1 {
   -webkit-mask-image: none !important;
