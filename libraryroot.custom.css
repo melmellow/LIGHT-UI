@@ -22,6 +22,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --NEWLYADDEDDLC: #9370db24;
   --LSHOVER: VAR(--BLACK);
   --LSHOVERBORDERRADIUS: 0;
   --LSBACKGROUNDHOVER: NONE;
@@ -175,6 +176,10 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appdetailsspotlight_NewDLCContainer_3Exow {
+  background: var(--NEWLYADDEDDLC) !important;
 }
 
 .salepreviewwidgets_Action_2zssE:hover {
