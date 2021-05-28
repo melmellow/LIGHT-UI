@@ -127,6 +127,7 @@
   --SEARCHFILTERROUNDED: 50px;
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
   --ACTIONBUTTONTEXT: VAR(--WHITE);
+  --ACTIONBUTTONTEXTFONTWEIGHT: 200;
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
   --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
   --ACTIONBUTTONROUNDED3: 50px;
@@ -1348,6 +1349,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 .appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
   color: VAR(--ACTIONBUTTONTEXT) !important;
+  font-weight: VAR(--ACTIONBUTTONTEXTFONTWEIGHT) !important;
 }
 
 .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
