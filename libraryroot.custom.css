@@ -22,7 +22,10 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
-  --NEWLYADDEDDLC: #9370db24;
+  --NEWLYADDEDDLCLINK: VAR(--ACCENT);
+  --NEWLYADDEDDLCMESSAGE: VAR(--ACCENT);
+  --NEWLYADDEDDLC: VAR(--BASE1);
+  --NEWLYADDEDDLCAPPIMAGEBACKGROUND: var(--BASE3);
   --LSHOVER: VAR(--BLACK);
   --LSHOVERBORDERRADIUS: 0;
   --LSBACKGROUNDHOVER: NONE;
@@ -178,8 +181,28 @@
   */
 }
 
+.appdetailsspotlight_NewDLCContainer_3Exow .appdetailsspotlight_DLCLink_24wrY {
+  color: var(--NEWLYADDEDDLCLINK) !important;
+  text-transform: UPPERCASE !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+
+.appdetailsspotlight_NewDLCContainer_3Exow
+  .appdetailsspotlight_NewDLCMessage_1Dy60 {
+  color: VAR(--NEWLYADDEDDLCMESSAGE) !important;
+}
+
+.appdetailsspotlight_NewDLCImage_2ze8W {
+  background: VAR(--NEWLYADDEDDLCAPPIMAGEBACKGROUND) !important;
+  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border-radius: var(--BORDERRADIUS) !important;
+}
+
 .appdetailsspotlight_NewDLCContainer_3Exow {
   background: var(--NEWLYADDEDDLC) !important;
+  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
 .salepreviewwidgets_Action_2zssE:hover {
