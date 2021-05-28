@@ -32,7 +32,7 @@
 		NavLabel2:hover
 		{
 			textcolor="none"
-			bgcolor=BUTTON
+			bgcolor=ACTIONBUTTONHOVER
 		}
 		NavLabel2:selected
 		{

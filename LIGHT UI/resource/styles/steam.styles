@@ -238,15 +238,13 @@ steam.styles
 
 		downarrow
 		{
-			render_bg {}
 			image="ICONS/ADVANCEDSEARCH"
-			INSET-RIGHT=10
+			
 		}
 		downarrow:hover
 		{
-			render_bg {}
 			image="ICONS/ADVANCEDSEARCH_H"
-			INSET-RIGHT=10
+		
 		}
 
 		rightarrow
