@@ -177,6 +177,39 @@
   */
 }
 
+.salepreviewwidgets_AppTag_3FJnZ {
+  color: var(--WHITE) !important;
+  background-color: var(--ACCENT) !important;
+}
+
+.salepreviewwidgets_StoreSaleWidgetRelease_1qvTF {
+  color: var(--ACCENT) !important;
+}
+
+.salepreviewwidgets_CapsulePlatform_2bCf9 img,
+.salepreviewwidgets_CapsulePlatform_2bCf9 svg {
+  color: var(--ACCENT) !important;
+}
+
+.salepreviewwidgets_CapsuleBottomBar_3lmdE {
+  background-color: none !important;
+}
+
+.salepreviewwidgets_StoreSaleWidgetTitle_2ekpT {
+  color: var(--ACCENT) !important;
+}
+
+.salepreviewwidgets_Action_2zssE {
+  background-image: none !important;
+  background-color: var(--GREEN) !important;
+}
+
+.eventbbcodeparser_AppSummaryWidgetCtn_3DfY9 {
+  background-image: none !important;
+  background-color: var(--BASE1) !important;
+  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+}
+
 .youtubeembed_DynamicLinkBox_1IGUR {
   background: var(--BASE1) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
