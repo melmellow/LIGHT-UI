@@ -59,6 +59,18 @@
     --border50:50%
 }
 
+
+.checkout_content_box a {
+    text-decoration:none!important;
+    text-transform:uppercase!important;
+    font-weight:600!important;
+}
+
+
+.purchase_summary_area, .add_free_content_success_area, .checkout_steam_direct_area {
+    BACKGROUND:NONE!important;
+}
+
 body.clientNews .extImg {
     filter:brightness(0)!important;
     opacity:60.5%;
