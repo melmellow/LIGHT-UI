@@ -25,7 +25,6 @@
 	{
 		NavLabel2
 		{
-			inset-right=10
 			textcolor="none"
 			bgcolor = BASE1
 			

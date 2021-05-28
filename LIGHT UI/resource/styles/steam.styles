@@ -239,24 +239,25 @@ steam.styles
 		downarrow
 		{
 			render_bg {}
-			image="ICONS/ADVANCEDSEARCH.tga"
-			INSET=0
+			image="ICONS/ADVANCEDSEARCH"
+			INSET-RIGHT=10
 		}
 		downarrow:hover
 		{
 			render_bg {}
-			image="ICONS/ADVANCEDSEARCH_H.tga"
+			image="ICONS/ADVANCEDSEARCH_H"
+			INSET-RIGHT=10
 		}
 
 		rightarrow
 		{
 			render_bg {}
-			image="ICONS/SMSECTION_CLOSED.tga"
+			image="ICONS/SMSECTION_CLOSED"
 		}
 		rightarrow:hover
 		{
 			render_bg {}
-			image="ICONS/SMSECTION_CLOSED_H.tga"
+			image="ICONS/SMSECTION_CLOSED_H"
 		}
 
 ///////////////////////////////////////////
