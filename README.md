@@ -1,7 +1,7 @@
 # PREVIEW
 ![LIGHT UI THUMBNAIL](https://i.imgur.com/5iDtcYW.png)
 
-![LIGHT UI DESKTOP](https://i.imgur.com/tzwLe8I.png)
+![LIGHT UI DESKTOP](https://media.giphy.com/media/u8ZCz1DFn27e896cLI/giphy.gif)
 
 ![LIGHT UI](https://media.giphy.com/media/VGJmShrCh3vTgJhjKc/giphy.gif)
 
