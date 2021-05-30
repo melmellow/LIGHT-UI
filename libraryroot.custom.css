@@ -1949,6 +1949,10 @@ div.NarrowRightPanel
   background: var(--APPDETAILSPANEL) !important;
 }
 
+.Pause.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
+  background: var(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
+}
+
 .sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Right_16lyt {
   border-left: 2px dotted var(--BOXSIZEREDGE) !important;
 }
