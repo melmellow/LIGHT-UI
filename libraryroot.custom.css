@@ -492,23 +492,24 @@ img {
   > .appactionbutton_ButtonChild_2AzIX
   .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr.gamelistentry_HoverOverlay_3cMVy {
-  color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR);
+  color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR) !important;
 }
 
 .appportrait_HoversEnabled_54PuC
   .appportrait_LibraryItemBox_WYgDg:hover
   .appportrait_UninstalledIcon_8YrRm {
-  background-color: var(--APPPORTRAITINSTALLBUTTON);
+  background-color: var(--APPPORTRAITINSTALLBUTTON) !important;
+  border: 1px solid var(--WHITE) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Uninstalled_5YTBr,
 .gamelistentry_Selected_1UBpA
   .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
-  color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR);
+  color: VAR(--UNINSTALLEDGAMENAMEHOVERCOLOR) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
-  color: VAR(--UNINSTALLEDGAMENAMECOLOR);
+  color: VAR(--UNINSTALLEDGAMENAMECOLOR) !important;
 }
 
 .comment_thread_ActivityCommentThread_39nna
