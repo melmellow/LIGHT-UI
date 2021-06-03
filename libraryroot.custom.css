@@ -1741,6 +1741,7 @@ div.ShortRightPanel
 }
 .appportrait_UninstalledBar_kX-tI .appportrait_UninstalledProgressBar_mA39H {
   background-color: var(--ACCENT) !important;
+  border-radius: var(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appportrait_UninstalledBar_kX-tI.appportrait_BarDownloading_3BNwj {
   background-color: var(--BUTTON) !important;
@@ -2840,7 +2841,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   fill: var(--ADVANCEDSEARCHBUTTONHOVER) !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ {
-  background-color: NONE !important;
+  background-color: var(--BASE2) !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ:hover
   .appdetailsplaysection_DotDotDot_zvLq1
@@ -2990,6 +2991,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--DETAILSSECTIONHEADER) !important;
   font-weight: BOLD !important;
 }
+
+.appdetailsplaysection_AppButtonsContainer_lO1IF > :last-child {
+  border-radius: 0 10px 10px 0 !important;
+}
+
 .appdetailsprimarylinkssection_MenuButton_1bIMO {
   fill: var(--ACCENT) !important;
 }
