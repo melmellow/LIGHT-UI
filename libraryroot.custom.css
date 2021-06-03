@@ -22,6 +22,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --ADDTOFAVORTIES: VAR(--FILT);
   --NEWLYADDEDDLCLINK: VAR(--ACCENT);
   --NEWLYADDEDDLCMESSAGE: VAR(--ACCENT);
   --NEWLYADDEDDLC: VAR(--BASE1);
@@ -335,7 +336,7 @@
 }
 
 svg.SVGIcon_Button.SVGIcon_Star_Filled:hover {
-  filter: var(--FILT) !important;
+  filter: var(--ADDTOFAVORITESHOVER) !important;
 }
 
 .BroadcastVideoUserInputNeeded .SVGIcon_Play {
@@ -486,6 +487,15 @@ img {
 
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX {
   background: VAR(--PLAYBUTTON) !important;
+}
+
+.appdetailscommunityfeed_ArtItem_1aP1b .appdetailscommunityfeed_Preview_AxZMH {
+  border-bottom: 1px solid var(--DIVIDER) !important;
+}
+
+.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
+  .libraryhomeshowcases_DropDownItems_lYnGt {
+  font-weight: 400 !important;
 }
 
 .appactionbutton_Green_3cI5T
