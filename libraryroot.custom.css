@@ -184,6 +184,13 @@
   */
 }
 
+.appdetailscommunityfeed_SpoilerOverlay_2uP7d {
+  background-color: var(--BASE1) !important;
+  color: var(--ACCENT) !important;
+  top: 0px !important;
+  bottom: 0px !important;
+}
+
 .partnereventdisplay_EventCoverImageBackground_2-Iyg {
   background-color: VAR(--BASE2) !important;
 }
