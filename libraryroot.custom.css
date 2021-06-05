@@ -22,6 +22,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --ACHIEVEMENTTITLEFONTWEIGHT: 600;
   --ADDTOFAVORITESHOVER: VAR(--FILT);
   --NEWLYADDEDDLCLINK: VAR(--ACCENT);
   --NEWLYADDEDDLCMESSAGE: VAR(--ACCENT);
@@ -182,6 +183,12 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appdetailsachievementssection_Featured_1j_gj
+  .appdetailsachievementssection_TextSection_1s_9c
+  .appdetailsachievementssection_Name_39Y01 {
+  font-weight: VAR(--ACHIEVEMENTTITLEFONTWEIGHT) !important;
 }
 
 .appactivityday_ImageWrapper_rRIYi .appactivityday_SpoilerOverlay_1oYvb {
