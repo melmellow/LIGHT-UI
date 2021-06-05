@@ -14,6 +14,8 @@
 	--WHITE: #fff;
 	--TEXTENTRY: #e8e8e8;
 	--SHADOW: #d6d1d1;
+	--OFF:VAR(--BLUE);
+	--ON:VAR(--GREEN);
 	--DIVIDER:VAR(--SHADOW);
 	--PLAYBUTTON: VAR(--ACCENT);
 	--GAMENAME: VAR(--ACCENT);
@@ -941,7 +943,8 @@ button.DialogButton.roleButton.owner:disabled {
 }
 
 .DialogOnOffToggle_Option.Active {
-	color:var(--ACCENT)!important;
+	color:var(--WHITE)!important;
+	background:var(--ON)!important;
 }
 
 .groupName:HOVER {
@@ -1076,10 +1079,6 @@ button.DialogButton,
 .DialogOnOffToggle_Control {
 	background: #343434!important
 }
-.DialogOnOffToggle_Control .Active{
-	border:1px solid #b8b8b8!important;
-	background: #d6d6d6 !important;
-}
 
 .DialogOnOffToggle_Control .Active:hover {
 	border-color:#8d8d8d!important;
@@ -1135,6 +1134,10 @@ cursor: initial!important;}
 
 .voicesettings_TransmissionTypeSettings_2wcxX .voicesettings_HotkeySettingRow_2wDL4 .voicesettings_HotkeySettingDescription_2zgmL {
 	COLOR:VAR(--ACCENT)!important;
+}
+
+.DialogOnOffToggle_Option.Off.Active {
+	BACKGROUND:VAR(--OFF)!important;
 }
 
 .DialogOnOffToggle_Option.Off.Active:hover {
