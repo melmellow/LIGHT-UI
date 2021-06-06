@@ -81,7 +81,7 @@
 		}
 		bold
 		{
-			textcolor=White45
+			textcolor = ACCENT
 			font-size=16
 			font-family=basefont
 			font-weight=700
