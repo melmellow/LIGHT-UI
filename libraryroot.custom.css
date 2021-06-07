@@ -3467,6 +3467,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   text-shadow: none !important;
   color: var(--ACCENT) !important;
 }
+
+.appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
+  font-weight:400!important;
+}
+
 .appgrid_SortingDropDownContainer_1ZpBQ
   .appgrid_SortingDropDownItems_1ZtpS:hover {
   background-color: var(--BUTTON) !important;
