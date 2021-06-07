@@ -138,9 +138,10 @@
 			PADDING-LEFT = 9
 			
 			render {
-			
-				2="fill(x0,y1-1,x1,y1,DIVIDER)"
-			//	4="fill(x1-1,y0+1,x1,y1-1,DIVIDER)"  
+					1="fill(x0,y0,x1,y0+1, DIVIDER)"  // top
+				2="fill(x0,y1-1,x1,y1, DIVIDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, DIVIDER)"  // left
+			//	4="fill(x1-1,y0+1,x1,y1-1, DIVIDER)"   right
 			}
 		}
 		throttleValue
@@ -175,8 +176,10 @@
 			PADDING-RIGHT = 9
 			padding-left = 8
 				render {
-				2="fill(x0,y1-1,x1,y1,DIVIDER)"
-				4="fill(x1-1,y0+1,x1,y1-1,DIVIDER)"
+					1="fill(x0,y0,x1,y0+1, DIVIDER)"  // top
+				2="fill(x0,y1-1,x1,y1, DIVIDER)"  // bottom
+			//	3="fill(x0,y0+1,x0+1,y1-1, DIVIDER)"   left
+				4="fill(x1-1,y0+1,x1,y1-1, DIVIDER)" //  right
 			}
 		}
 		bigtextlabel
@@ -191,7 +194,10 @@
 			BGCOLOR = APPDOWNLOADSTATLABELBG
 			
 			render {
-				2="fill(x0,y1-1,x1,y1,DIVIDER)"
+							1="fill(x0,y0,x1,y0+1, DIVIDER)"  // top
+				2="fill(x0,y1-1,x1,y1, DIVIDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, DIVIDER)"  // left
+			//	4="fill(x1-1,y0+1,x1,y1-1, DIVIDER)"   right
 			}
 		}
 			bigtextlabel2
