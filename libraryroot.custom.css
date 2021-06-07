@@ -22,6 +22,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --FRIENDPLAYINGOP: 0;
   --SUBSCRIPTBORDERRADIUS: 4px;
   --DROPDOWNBORDERROUNDED: 0;
   --CONTEXTMENUBORDERRADIUS: 0;
@@ -1419,6 +1420,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .steamavatar_avatar_3h-QR {
+  opacity: var(--FRIENDPLAYINGOP) !important;
   border: 1px solid var(--AVATARBORDER) !important;
 }
 
