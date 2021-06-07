@@ -27,6 +27,8 @@
   --CONTEXTMENUBORDERRADIUS: 0;
   --ADVANCEDSEARCHBORDERRADIUS: 0;
   --ACHIEVEMENTTITLEFONTWEIGHT: 600;
+  --MOREINFOICON: VAR(--ACCENT);
+  --MOREINFOICONQMARK: VAR(--WHITE);
   --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
   --ADDTOFAVORITESHOVER: VAR(--FILT);
   --NEWLYADDEDDLCLINK: VAR(--ACCENT);
@@ -1332,8 +1334,8 @@ svg#Layer_2:hover {
   background: var(--BASE2) !important;
 }
 .infoicon_MoreInfoIcon_34I5H {
-  background-color: var(--ACCENT) !important;
-  color: var(--WHITE) !important;
+  background-color: var(--MOREINFOICON) !important;
+  color: var(--MOREINFOICONQMARK) !important;
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
   .appdetailsactivitysection_FetchMoreContainer_39Zur {
