@@ -22,6 +22,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --DROPDOWNBORDERROUNDED: 0;
   --CONTEXTMENUBORDERRADIUS: 0;
   --ADVANCEDSEARCHBORDERRADIUS: 0;
   --ACHIEVEMENTTITLEFONTWEIGHT: 600;
@@ -2737,7 +2738,7 @@ A {
   border: 1px SOLID VAR(--SHELFDROPDOWNLISTMENUBORDER) !important;
   box-shadow: 0 0 2px VAR(--SHADOW) !important;
   left: 200px !important;
-  border-radius: VAR(--BORDERRADIUS) !important;
+  border-radius: VAR(--DROPDOWNBORDERROUNDED) !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
