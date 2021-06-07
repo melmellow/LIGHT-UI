@@ -23,6 +23,7 @@
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
   --ACHIEVEMENTTITLEFONTWEIGHT: 600;
+  --READYTOPLAYBIGBUTTON: VAR(--BLUE);
   --ADDTOFAVORITESHOVER: VAR(--FILT);
   --NEWLYADDEDDLCLINK: VAR(--ACCENT);
   --NEWLYADDEDDLCMESSAGE: VAR(--ACCENT);
@@ -2416,11 +2417,11 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: VAR(--BASE3) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay path {
-  fill: var(--ACCENT) !important;
-  stroke: var(--ACCENT) !important;
+  fill: var(--READYTOPLAYBIGBUTTON) !important;
+  stroke: var(--READYTOPLAYBIGBUTTON) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .appgrid_ReadyToPlayIcon_pCHyk:after {
-  color: var(--ACCENT) !important;
+  color: var(--READYTOPLAYBIGBUTTON) !important;
 }
 .libraryhomeplaynext_PlayNextNoResultsContainer_1Zqz_
   .libraryhomeplaynext_Message_2GTdf {
@@ -2433,7 +2434,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   border: 0 !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay circle {
-  stroke: var(--ACCENT) !important;
+  stroke: var(--READYTOPLAYBIGBUTTON) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .appgrid_CountGamesExcluded_2R_HL {
   color: var(--ACCENT) !important;
@@ -2926,6 +2927,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appgrid_CollectionOptionsRightJustified_3t1pL
   .appgrid_ShowingReadyToPlay_38IOu {
   color: var(--ACCENT) !important;
+  display: none !important;
 }
 .libraryhomenewupdates_GameIconAndName_3_xMy {
   background-color: #797979 !important;
