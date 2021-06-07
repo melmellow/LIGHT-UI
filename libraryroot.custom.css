@@ -470,9 +470,14 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
 /*SEND ICON*/
 
 .posttextentry_PostTextEntry_3x31A
+  .posttextentry_Controls_37e7D.posttextentry_Active_1_KMh {
+  margin-top: -39px !important;
+}
+
+.posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA {
-  background-color: var(--BASE2) !important;
+  background-color: transparent !important;
   background-image: url("https://i.imgur.com/WIakdrU.png") !important;
   background-size: 26px !important;
   background-repeat: NO-REPEAT !important;
@@ -1214,7 +1219,7 @@ svg#Layer_2:hover {
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   button.posttextentry_EmoticonButton_bACIu {
-  background-color: var(--BASE2) !important;
+  background-color: transparent !important;
 }
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
