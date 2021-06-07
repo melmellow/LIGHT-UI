@@ -22,11 +22,12 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --SUBSCRIPTBORDERRADIUS: 4px;
   --DROPDOWNBORDERROUNDED: 0;
   --CONTEXTMENUBORDERRADIUS: 0;
   --ADVANCEDSEARCHBORDERRADIUS: 0;
   --ACHIEVEMENTTITLEFONTWEIGHT: 600;
-  --READYTOPLAYBIGBUTTON: VAR(--BLUE);
+  --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
   --ADDTOFAVORITESHOVER: VAR(--FILT);
   --NEWLYADDEDDLCLINK: VAR(--ACCENT);
   --NEWLYADDEDDLCMESSAGE: VAR(--ACCENT);
@@ -125,6 +126,7 @@
   --DETAILSSECTIONHEADER: VAR(--ACCENT);
   --MCSCOREBACKGROUND: VAR(--BLACK);
   --MCSCOREBORDER: VAR(--WHITE);
+  --SUBSCRIPTTEXTFONTWEIGHT: 500;
   --MCSCORETEXT: VAR(--WHITE);
   --SUBSCRIPTBACKGROUND: VAR(--BLACK);
   --SUBSCRIPTTEXT: VAR(--WHITE);
@@ -187,6 +189,13 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
+  font-weight: 400 !important;
+  font-size: 14px !important;
 }
 
 .Update.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
@@ -1482,7 +1491,8 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   background: var(--MCSCOREBACKGROUND) !important;
   border: 1px solid var(--MCSCOREBORDER) !important;
   color: VAR(--MCSCORETEXT) !important;
-  border-radius: 50px !important;
+  font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
+  border-radius: var(--SUBSCRIPTBORDERRADIUS) !important;
 }
 .appactivityday_ReviewIconThumbsUp_2oPMu {
   background: var(--BASE1) !important;
@@ -3576,10 +3586,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appportrait_LibraryItemBoxSubscript_1LJqx {
   background-color: VAR(--SUBSCRIPTBACKGROUND) !important;
   color: VAR(--SUBSCRIPTTEXT) !important;
+  font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
   margin-top: -32px;
   padding: 2px 8px;
   border: 1px solid var(--SUBSCRIPTBORDER) !important;
-  border-radius: 6px !important;
+  border-radius: VAR(--SUBSCRIPTBORDERRADIUS) !important;
 }
 .gamelistdropdown_DropDown_EDl_m {
   width: 195px !important;
@@ -3732,7 +3743,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appportrait_LibraryItemBoxSubscript_1LJqx {
   margin-top: -32px;
   padding: 2px 8px;
-  border-radius: 50px !important;
 }
 .gamelistdropdown_DropDown_EDl_m {
   width: 195px !important;
