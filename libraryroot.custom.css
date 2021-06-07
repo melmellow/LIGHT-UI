@@ -23,6 +23,8 @@
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
   --FRIENDPLAYINGOP: 0;
+  --FIRENDPLAYINGCOUNTOP: 0;
+  --STEAMAVATAROP: 1;
   --SUBSCRIPTBORDERRADIUS: 4px;
   --DROPDOWNBORDERROUNDED: 0;
   --CONTEXTMENUBORDERRADIUS: 0;
@@ -192,6 +194,15 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.steamavatar_avatarHolder_nibod.X-Small {
+  opacity: VAR(--FRIENDPLAYINGOP) !important;
+}
+
+.appportrait_FriendsBar_3dncO
+  .appportrait_IconsRestCount_2JYwp.appportrait_Short_yGeS6 {
+  opacity: VAR(--FIRENDPLAYINGCOUNTOP) !important;
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
@@ -1420,7 +1431,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .steamavatar_avatar_3h-QR {
-  opacity: var(--FRIENDPLAYINGOP) !important;
+  opacity: var(--STEAMAVATAROP) !important;
   border: 1px solid var(--AVATARBORDER) !important;
 }
 
