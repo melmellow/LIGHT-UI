@@ -185,6 +185,17 @@
   */
 }
 
+.appdetailsgameinfopanel_Portrait_1Id6Z
+  .appdetailsgameinfopanel_ZoomInButton_2mMT5 {
+  opacity: 0 !important;
+}
+
+.appdetailsgameinfopanel_Portrait_1Id6Z:hover
+  .appdetailsgameinfopanel_ZoomInButton_2mMT5 {
+  opacity: 1 !important;
+  background-color: var(--BLACK) !important;
+}
+
 .appdetailsachievementssection_Featured_1j_gj
   .appdetailsachievementssection_TextSection_1s_9c
   .appdetailsachievementssection_Name_39Y01 {
@@ -1654,6 +1665,8 @@ div.ShortRightPanel
   .appdetailsgameinfopanel_ZoomInButton_2mMT5 {
   border-radius: 100px !important;
   background-color: var(--ACCENT) !important;
+  padding: 4px !important;
+  border: 1px solid var(--WHITE) !important;
 }
 .reportitem_Description2_l13W0 {
   color: var(--ACCENT) !important;
