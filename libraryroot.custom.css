@@ -886,6 +886,13 @@ img {
   stroke: VAR(--ACCENT) !important;
 }
 
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_WorkshopGrid_2ZL5A
+  .appproperties_WorkshopHeader_2TJyz {
+  background: transparent !important;
+}
+
 .DialogInput_ClearAction:hover .SVGIcon_X_Line line {
   stroke: var(--BLACK) !important;
 }
@@ -893,7 +900,7 @@ img {
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_SteamInputStatusGrid_3lj3- {
-  background-color: NONE !important;
+  background-color: var(--BASE1) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 .appproperties_AppProperties_1FyBL
@@ -912,7 +919,7 @@ img {
   .DialogBody
   .appproperties_DlcGrid_3sXdO
   .appproperties_DlcHeader_1SKB0 {
-  background: var(--BUTTON) !important;
+  background: transparent !important;
 }
 .appproperties_AppProperties_1FyBL
   .DialogBody
