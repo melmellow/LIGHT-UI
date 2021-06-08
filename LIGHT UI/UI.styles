@@ -2,6 +2,28 @@
 {
 	styles
 	{
+
+		createdirectorydialog
+		{
+			BGCOLOR = BASE2
+		}
+		
+		DIRECTORYSELECTDIALOG
+		{
+			BGCOLOR = BASE2
+		}
+
+
+		QueryBox
+		{
+			bgcolor = BASE2
+		}
+
+		CJoinGameDialog
+		{
+			bgcolor = BASE2
+		}
+
 		CChatRoomDlg
 		{
 			render
