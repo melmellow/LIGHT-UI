@@ -34,7 +34,7 @@
 		
 		TextFilterLabel { controlname=label labeltext="#Steam_TextFilterSettingLabel" wrap=1 style=highlight }
 		TextFilterStatus { controlname=label wrap=1 }
-		TextFilterUpdateSettingURL { controlname=urllabel labeltext="#Steam_TextFilterSettingURL" URLText="steam://url/TextFilterSettings" wrap=1 style=highlight }
+		TextFilterUpdateSettingURL { controlname=urllabel TEXT="CHAT FILTERING PREFERENCES" wrap=1 style=highlight69 }
 
 		Divider2 { ControlName=Divider	}
 
@@ -50,6 +50,11 @@
 	
 	styles
 	{
+
+		HIGHLIGHT69 {
+			IMAGE="ICONS/BACK"
+		}
+
 		highlight
 		{
 			textcolor= ACCENT
@@ -96,18 +101,19 @@
 			margin-top=6 margin-left=10 height=22 width=max region=topright }
 
 		place { controls="TextFilterLabel" start=ShowIngameFPSContrastCheck width=max dir=down y=22 }
-		place { controls="TextFilterStatus" region=bottomleft start=TextFilterLabel margin-top=10 width=250 dir=down height=25 }
-		place { controls="TextFilterUpdateSettingURL" region=bottomleft start=TextFilterStatus  font-size=10 width=235 dir=down y=4}			
+		place { controls="TextFilterStatus" start=TextFilterLabel margin-top=10 width=350 dir=down height=25 }
+		place { controls="TextFilterUpdateSettingURL" start=TextFilterStatus  font-size=10 width=0 HEIGHT=0 dir=RIGHT y=4}			
 
-		place { controls="PingRateLabel" start=ScreenshotSaveUncompressedCheck   width=max dir=down y=10}
-		place { controls="PingRateInfo" region=bottomright start=PingRateLabel margin-top=5 width=235 dir=down }		
-		place { controls="PingRateCombo" region=bottomright start=PingRateInfo  width=235 dir=down height=25 y=10 }
+		place { controls="PingRateLabel" start=TextFilterStatus   width=max dir=down y=10}
+		place { controls="PingRateInfo" start=PingRateLabel margin-top=5 width=235 dir=down }		
+		place { controls="PingRateCombo"  start=PingRateInfo  width=203 dir=RIGHT height=25 y=10 X=80 }
 		
 		place { control=Divider2  width=max start=PingRateCombo }
 		
-		place { controls="ShareIPNetworkingLabel" start=TextFilterUpdateSettingURL  width=235 dir=down y=40}
+		place { controls="ShareIPNetworkingLabel" start=PINGRATEINFO width=235 dir=down y=30}
 		place { controls="ShareIPNetworkingInfo"  start=ShareIPNetworkingLabel  width=235 dir=down y=10}		
 		place { controls="ShareIPNetworkingURL" region=bottomleft start=ShareIPNetworkingInfo margin-top=5 width=235 dir=down }
-		place { controls="ShareIPNetworkingCombo"   region=bottomright start=PingRateCombo width=235 dir=down height=25 y=92}
+		place { controls="ShareIPNetworkingCombo"   region=bottomright start=PingRateCombo width=235 dir=down height=25 y=82}
 	}
 }
+
