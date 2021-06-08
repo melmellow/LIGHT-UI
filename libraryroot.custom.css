@@ -16,7 +16,7 @@
   --BUTTON2: #d6d6d6;
   --GAMENAMERIGHTCLICKBACKGROUNDHOVER: #cacaca;
   --BLACK: #000;
-  --RED: #bb1700;
+  --RED: #d21116;
   --GREEN: #54a448;
   --BLUE: #1181d2;
   --WHITE: #fff;
@@ -30,6 +30,7 @@
   --CONTEXTMENUBORDERRADIUS: 0;
   --ADVANCEDSEARCHBORDERRADIUS: 0;
   --ACHIEVEMENTTITLEFONTWEIGHT: 600;
+  --REVIEWICON: VAR(--BLUE);
   --MISSINGGAMEART: VAR(--BUTTON2);
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
@@ -1720,7 +1721,7 @@ div.ShortRightPanel
   border-radius: 100px !important;
 }
 .appdetailsreviewsection_ReviewIconThumbsUpColor_3QZfw {
-  fill: var(--ACCENT) !important;
+  fill: var(--REVIEWICON) !important;
 }
 .appdetailsreviewsection_ReviewIconThumbsUp_2BlTq {
   background: NONE !important;
