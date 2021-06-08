@@ -369,8 +369,12 @@ a:-webkit-any-link {
   font-weight: bold;
 }
 
+.discussionwidget_ShareIcon_3qVz2 {
+  fill: VAR(--ACCENT) !important;
+}
+
 .discussionwidget_VoteUpIcon_2akzu {
-  fill: var(--WHITE) !important;
+  fill: var(--ACCENT) !important;
 }
 
 .discussionwidget_VoteDownIcon_3Zqxx {
@@ -2386,11 +2390,13 @@ div.NarrowRightPanel
   border: 1px SOLID VAR(--WHITE) !important;
 }
 .partnereventshared_Button_1ABCO.partnereventshared_Icon_1dDpS {
-  border-radius: var(--BUTTON1BORDERRADIUS) !important;
-  background: var(--ACCENT) !important;
+  color: var(--ACCENT) !important;
+  border-radius: var(--BUTTON2BORDERRADIUS) !important;
+  background: var(--BUTTON2) !important;
+  border: 1px SOLID VAR(--BUTTONBORDER) !important;
 }
 .partnereventshared_Button_1ABCO.partnereventshared_Icon_1dDpS:hover {
-  background: var(--BUTTONHOVER) !important;
+  border-color: var(--BUTTONBORDERHOVER) !important;
 }
 .eventbbcodeparser_Header2_QuKtT {
   color: var(--ACCENT) !important;
