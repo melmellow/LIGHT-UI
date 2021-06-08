@@ -1905,10 +1905,10 @@ div.ShortRightPanel
   margin-bottom: -12px !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .SVGIcon_ReadyToPlay circle {
-  stroke: var(--BLUE) !important;
+  stroke: var(--ACTIVEDROPDOWNFILTERICON) !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .SVGIcon_ReadyToPlay path {
-  fill: var(--BLUE) !important;
+  fill: var(--ACTIVEDROPDOWNFILTERICON) !important;
 }
 .appportrait_LibraryItemBox_WYgDg .appportrait_UninstalledIcon_8YrRm {
   opacity: 1 !important;
