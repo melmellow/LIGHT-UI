@@ -2,6 +2,7 @@
 {
 	styles
 	{
+		
 		CGAMESLISTPANEL
 		{
 			BGCOLOR = BASE2
@@ -453,7 +454,7 @@
 
 		CInternetGames
 		{
-			bgcolor=ClientBG
+			bgcolor = BASE1
 			render_bg
 			{
 				//Bottom
