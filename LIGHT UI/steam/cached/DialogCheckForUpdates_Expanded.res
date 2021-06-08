@@ -5,6 +5,7 @@
 		CDialogCheckForUpdates
 		{
 			bgcolor=BASE2
+			render_bg{}
 		}
 		Label
 		{

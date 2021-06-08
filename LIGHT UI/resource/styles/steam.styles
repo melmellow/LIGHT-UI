@@ -1092,6 +1092,8 @@ steam.styles
 		{
 			bgcolor="none"
 			render_bg{}
+			padding-right=7
+			padding-left=1
 			image="ICONS/section_closed.tga"
 			render{
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
@@ -1119,6 +1121,7 @@ steam.styles
 		{
 			font-style=uppercase
 			text-color=ACCENT
+			font-weight=540
 		}
 
 ////////////////////////////////////////////////////////////////////////////
