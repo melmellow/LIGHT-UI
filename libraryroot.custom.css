@@ -46,7 +46,7 @@
   --LOADINGOP: VAR(--OP2);
   --LOADINGDOT: VAR(--ACCENT);
   --AVATARBORDER: VAR(--WHITE);
-  --HIDDENACHIEVEMENTBORDERRADIUS: 10px;
+  --HIDDENACHIEVEMENTBORDERRADIUS: 0;
   --HIDDENACHIEVEMENTBG: VAR(--ACCENT);
   --HIDDENACHIEVEMENTQMARK: VAR(--WHITE);
   --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
@@ -2121,7 +2121,7 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
 }
 .appdetailsachievementssection_AdditionalItem_2aVnD {
-  background-color: var(--ACCENT) !important;
+  background-color: transparent !important;
 }
 .appdetailsachievementssection_HiddenLabel_2AYFr {
   background: var(--HIDDENACHIEVEMENTBG) !important;
@@ -3660,6 +3660,17 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
   margin-left: 0 !important;
 }
+
+.appdetailsachievementssection_Remainder_2gISW
+  .appdetailsachievementssection_RemainderText_1-H7t {
+  color: VAR(--ACCENT) !important;
+  font-weight: 600 !important;
+}
+
+.appdetailsachievementssection_RemainderText_1-H7t:hover {
+  color: var(--BLACK) !important;
+}
+
 .appdetailsplaysection_GameStat_1kiZK
   .appdetailsplaysection_GameStatIcon_1tIg- {
   margin: 0px 3px 3px 3px !important;
