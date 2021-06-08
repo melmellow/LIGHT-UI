@@ -30,6 +30,7 @@
   --CONTEXTMENUBORDERRADIUS: 0;
   --ADVANCEDSEARCHBORDERRADIUS: 0;
   --ACHIEVEMENTTITLEFONTWEIGHT: 600;
+  --MISSINGGAMEART: VAR(--BUTTON2);
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
   --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
@@ -194,6 +195,12 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_SearchInput_12vo5
+  .DialogTextInputBase {
+  background: var(--TEXTENTRY) !important;
 }
 
 .awardmodal_NotEnoughPoints_2VkAe {
@@ -720,7 +727,7 @@ img {
 }
 
 .sharedappdetailsheader_TopCapsule_NZMJ6 {
-  background-color: var(--BUTTON) !important;
+  background-color: var(--MISSINGGAMEART) !important;
 }
 
 .sharedappdetailsheader_SVGTitle_121fl text {
