@@ -196,6 +196,22 @@
   */
 }
 
+.awardmodal_NotEnoughPoints_2VkAe {
+  opacity: 1 !important;
+}
+
+.awardmodal_GrantAwardModal_2ilpH
+  .awardmodal_Footer_164mm
+  .awardmodal_FooterLink_KId8d {
+  display: none !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+}
+
+a:-webkit-any-link {
+  text-decoration: NONE !important;
+}
+
 .steamavatar_avatarHolder_nibod.X-Small {
   opacity: VAR(--FRIENDPLAYINGOP) !important;
 }
@@ -908,6 +924,7 @@ img {
   color: var(--ACCENT) !important;
 }
 .ModalPosition_Content {
+  font-weight: 400 !important;
   color: var(--ACCENT) !important;
 }
 .sharedialog_ShareButton_1FFkd {
@@ -2827,7 +2844,7 @@ A {
 }
 .awardmodal_Divider_105py {
   height: 1px !important;
-  background-color: var(--BUTTONBORDER) !important;
+  background-color: var(--DIVIDER) !important;
 }
 button.DialogButton::before {
   box-shadow: none !important;
@@ -3265,6 +3282,12 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .apppartnereventspage_PostedBy_2VqeQ {
   color: var(--ACCENT) !important;
 }
+
+.awardmodal_GrantAwardModal_2ilpH
+  .awardmodal_ButtonContainer_JYQgs
+  .awardmodal_Button_3M92h.awardmodal_Selected_Efo_8 {
+  border-color: var(--BLUE) !important;
+}
 .localdateandtime_ShortDateAndTime_MBkkh {
   color: var(--ACCENT) !important;
 }
@@ -3469,7 +3492,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
-  font-weight:400!important;
+  font-weight: 400 !important;
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ
