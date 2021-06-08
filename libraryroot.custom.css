@@ -198,6 +198,13 @@
   */
 }
 
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_DlcGrid_3sXdO
+  .appproperties_Name_bP2Ip {
+  color: VAR(--ACCENT) !important;
+}
+
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchInput_12vo5
   .DialogTextInputBase {
