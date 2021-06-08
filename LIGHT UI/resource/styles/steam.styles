@@ -27,6 +27,11 @@ steam.styles
 	
 	styles
 	{
+		TREEIMAGE
+		{
+			IMAGE="ICONS/BACK"
+		}
+
 	
 		URLBarSecure
 		{
@@ -1183,7 +1188,7 @@ steam.styles
 //======Select Directory Dialog's folders tree view=====//
 		TreeNode
 		{
-
+			IMAGE="ICONS/TREENODE"
 			bgcolor="none"
 			render_bg{}
 		}
