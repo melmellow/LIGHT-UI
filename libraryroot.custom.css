@@ -888,6 +888,14 @@ img {
   color: var(--ACCENT) !important;
 }
 
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_SteamInputStatusGrid_3lj3-
+  .appproperties_SteamInputStatus_2H4Ly {
+  color: VAR(--ACCENT) !important;
+  font-weight: bold !important;
+}
+
 .appdetailsworkshopsection_WorkshopSection_2PfKa
   .appdetailsworkshopsection_WorkshopHeader_139ka
   .appdetailsworkshopsection_FeaturedItem_1W34W
@@ -901,7 +909,7 @@ img {
   .DialogBody
   .appproperties_WorkshopGrid_2ZL5A
   .appproperties_WorkshopHeader_2TJyz {
-  background: transparent !important;
+  background: var(--BASE2) !important;
 }
 
 .DialogInput_ClearAction:hover .SVGIcon_X_Line line {
@@ -3716,6 +3724,14 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
   width: 16px;
 }
+
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_WorkshopGrid_2ZL5A
+  .appproperties_Name_bP2Ip {
+  color: var(--ACCENT) !important;
+}
+
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb {
   border: 1px solid transparent;
