@@ -572,7 +572,7 @@ steam.styles
 //======This is the GameList from left======//
 		"CGamesListPanel"
 		{
-			bgcolor = BASE1
+			bgcolor = BASE2
 			render_bg {}
 					render{
 				1="fill(x0,y0,x1,y0+1, "none")"  // top
@@ -728,7 +728,7 @@ steam.styles
 		}
 		"CGamesListPanel ListPanelColumnSelectButton"
 		{
-			bgcolor = BASE1
+			bgcolor = BASE2
 			render_bg{}
 			render{}
 		}
