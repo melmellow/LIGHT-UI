@@ -22,6 +22,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --ONLINE: VAR(--BLUE);
   --ADVANCEDSEARCHPANE: VAR(--SIDEBAR);
   --ADVANCEDSEARCHPANEOP: 1;
   --FRIENDPLAYINGOP: 0;
@@ -1330,7 +1331,7 @@ svg#Layer_2:hover {
   box-shadow: 1px 1px 2px var(--LSHOVERSHADOW) !important;
 }
 .online .personanameandstatus_playerName_nOdcT {
-  color: var(--BLUE) !important;
+  color: var(--ONLINE) !important;
 }
 .ingame .personanameandstatus_playerName_nOdcT {
   color: VAR(--GREEN) !important;
