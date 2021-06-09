@@ -12,4 +12,4 @@ semilight="Helvetica Neue Light" [$OSX]
 light="Helvetica Neue Thin" [$OSX]
 }
 
-styles{"CSteamRootDialog"{bgcolor=BASE1 render_bg{ 0="fill( x0, y0, x1, y1, BASE1 )" 8="image( x1 - 821, y1 - 375, x1, y1, none)" 98="fill( x0, y0, x1, y0+40, NAVBARBOTTOMBORDER)" 99="fill( x0, y0, x1, y0+39, NAVBAR )"}}"GameItem_Uninstalled"{render{0="image(x1-18,y1-26,x1,y1,graphics/metro/icons/grid_uninstalled)"}} }}
+styles{"CSteamRootDialog"{bgcolor=BASE2 render_bg{ 0="fill( x0, y0, x1, y1, BASE2 )" 8="image( x1 - 821, y1 - 375, x1, y1, none)" 98="fill( x0, y0, x1, y0+40, NAVBARBOTTOMBORDER)" 99="fill( x0, y0, x1, y0+39, NAVBAR )"}}"GameItem_Uninstalled"{render{0="image(x1-18,y1-26,x1,y1,graphics/metro/icons/grid_uninstalled)"}} }}

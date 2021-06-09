@@ -67,7 +67,7 @@
 
 		//Search
 		place { control="label_search_icon" region=top height=0 width=0 }
-		place { control="library_search" region=top start=label_search_icon height=40 width=max margin-right=38 MARGIN-LEFT=4 MARGIN-TOP=4}
+		place { control="library_search" region=top start=label_search_icon height=40 width=max margin-right=37 MARGIN-LEFT=4 MARGIN-TOP=4}
 
 		 place { control="MenuButton" width=10 height=10}
 
