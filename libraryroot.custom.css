@@ -22,6 +22,8 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --ADVANCEDSEARCHPANE: VAR(--SIDEBAR);
+  --ADVANCEDSEARCHPANEOP: 1;
   --FRIENDPLAYINGOP: 0;
   --FIRENDPLAYINGCOUNTOP: 0;
   --STEAMAVATAROP: 1;
@@ -158,12 +160,12 @@
   --GAMESTATICONFILTER: VAR(--FILT);
   --COMMUNITYFEEDICONFILTER: VAR(--FILT);
   --SHOWCASEPAGEBUTTONICONFILTER: VAR(--FILT);
-  --APPFEATUREICONTITLESECTIONOP: 0 !important;
+  --APPFEATUREICONTITLESECTIONOP: 0;
   --APPFEATUREICONFILTER: VAR(--FILT);
   --APPFEATUREICONOPACITY: VAR(--OP2);
   --COMMUNITYFEEDICONOPACITY: VAR(--OP);
   --GAMEBOXARTBORDERROUNDED: 0;
-  --CONTEXTMENUACTIONBUTTONICONOPACITY: VAR(--OP) !important;
+  --CONTEXTMENUACTIONBUTTONICONOPACITY: VAR(--OP);
   --CONTEXTMENUACTIONBUTTONICONFILTER: VAR(--FILT);
   --ACTIONBUTTONBORDER: NONE;
   --ACTIONBUTTONICONFILTER: NONE;
@@ -2016,7 +2018,8 @@ div.NarrowRightPanel
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
   .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
-  background-color: var(--SIDEBAR) !important;
+  background-color: var(--ADVANCEDSEARCHPANE) !important;
+  opacity: VAR(--ADVANCEDSEARCHPANEOP) !important;
   left: -9px !important;
   top: -1px !important;
   border-top: 1px solid var(--DIVIDER) !important;
