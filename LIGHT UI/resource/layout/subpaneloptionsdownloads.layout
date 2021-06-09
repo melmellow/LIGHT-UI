@@ -61,7 +61,7 @@
 			place { controls="RestrictionsLabel" region=box start=RegionInfoLabel dir=down margin-top=15 }
 		
 		place { controls="AutoUpdateTimeRestrictCheckbox" region=box start=RestrictionsLabel dir=down margin-top=4 }
-		place { controls="AutoUpdateTimeRestrictStart" region=box start=AutoUpdateTimeRestrictCheckbox dir=right margin-top=4 width=78 }
+		place { controls="AutoUpdateTimeRestrictStart" region=box start=AutoUpdateTimeRestrictCheckbox dir=right width=78 }
 		place { controls="AutoUpdateTimeRestrictEndLabel" region=box start=AutoUpdateTimeRestrictStart dir=right margin-left=10 }
 		place { controls="AutoUpdateTimeRestrictEnd" region=box start=AutoUpdateTimeRestrictEndLabel dir=right margin-left=10 width=78 }
 		
