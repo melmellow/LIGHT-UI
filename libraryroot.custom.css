@@ -169,6 +169,7 @@
   --ACTIONBUTTONICONFILTER: NONE;
   --DETAILSPANELTOPBORDER: NONE;
   --GAMEICONFILTER: NONE;
+  --GAMEICONBORDERRADIUS: 0;
   --GAMEARTBACKGROUNDCILTER: NONE;
   --GAMELOGOFILTER: NONE;
   --GAMEBOXARTFILTER: NONE;
@@ -1889,6 +1890,7 @@ div.ShortRightPanel
 }
 .libraryassetimage_Image_24_Au {
   filter: var(--GAMEICONFILTER) !important;
+  border-radius: VAR(--GAMEICONBORDERRADIUS) !important;
 }
 .libraryassetimage_PortraitImage_3Ehhd .libraryassetimage_Image_24_Au,
 .libraryassetimage_LandscapeImage_ZsU8n .libraryassetimage_Image_24_Au {
