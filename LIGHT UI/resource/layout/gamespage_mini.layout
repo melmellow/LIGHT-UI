@@ -26,7 +26,7 @@
 		NavLabel2
 		{
 			textcolor="none"
-			bgcolor = BASE2
+			bgcolor = BASE1
 			
 		}
 		NavLabel2:hover
