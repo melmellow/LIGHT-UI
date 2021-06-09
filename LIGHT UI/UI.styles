@@ -133,7 +133,7 @@
 
 		CGamesPage_Mini
 		{
-			bgcolor=BASE2
+			bgcolor=BASE1
 			render
 			{
 				//Frame Border
