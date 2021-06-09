@@ -40,8 +40,8 @@
 		HeaderText
 		{
 			textcolor = ACCENT
-			font-family=SEMIBOLD
-			font-weight=100
+			font-family=SEMILIGHT
+			font-weight=300
 		}
 		DescriptionLabel
 		{

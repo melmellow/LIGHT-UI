@@ -61,18 +61,21 @@
 			place { controls="RestrictionsLabel" region=box start=RegionInfoLabel dir=down margin-top=15 }
 		
 		place { controls="AutoUpdateTimeRestrictCheckbox" region=box start=RestrictionsLabel dir=down margin-top=4 }
-		place { controls="AutoUpdateTimeRestrictStart" region=box start=AutoUpdateTimeRestrictCheckbox dir=down margin-top=4 width=78 margin-left=10 }
-		place { controls="AutoUpdateTimeRestrictEndLabel" region=box start=AutoUpdateTimeRestrictStart dir=right margin-left=20 }
+		place { controls="AutoUpdateTimeRestrictStart" region=box start=AutoUpdateTimeRestrictCheckbox dir=right margin-top=4 width=78 }
+		place { controls="AutoUpdateTimeRestrictEndLabel" region=box start=AutoUpdateTimeRestrictStart dir=right margin-left=10 }
 		place { controls="AutoUpdateTimeRestrictEnd" region=box start=AutoUpdateTimeRestrictEndLabel dir=right margin-left=10 width=78 }
 		
-		place { controls="ThrottleCheckbox" region=box start=RestrictionsLabel dir=down margin-top=4 margin-left=260 }
-		place { controls="ThrottleRateCurrent" region=box start=ThrottleCheckbox dir=down width=235 height=25 margin-top=4 }
-		place { controls="ThrottleRateEditLabel" region=box start=ThrottleRateCurrent dir=down width=175 height=25 }
-		place { controls="ThrottleRateEdit" region=box start=ThrottleRateEditLabel dir=down width=125 height=25 }
-		place { controls="ThrottleRateEditSuffix" region=box start=ThrottleRateEdit dir=right margin-left=4 margin-top=5 }
-		place { controls="ThrottleRateApply" region=box start=ThrottleRateEdit dir=down width=70 height=25 margin-top=4 }
+		place { controls="ThrottleCheckbox" region=box start=AutoUpdateTimeRestrictCheckbox dir=down margin-top=10 }
+		place { controls="ThrottleRateCurrent" start=ThrottleCheckbox dir=right width=235 height=25 }
+		place { controls="ThrottleRateApply"  start=ThrottleCheckbox dir=down width=50 height=25 margin-top=10  }
+		place { controls="ThrottleRateEdit"  start=ThrottleRateApply dir=right width=125 height=25 margin-left=4}
+		place { controls="ThrottleRateEditSuffix" start=ThrottleRateEdit dir=right margin-left=4 margin-top=4}
+		//place { controls="ThrottleRateEditLabel" region=box start=ThrottleRateCurrent dir=down width=175 height=25 }
 		
-		place { controls="AllowDownloadsDuringGameplayCheckbox" region=box start=AutoUpdateTimeRestrictStart dir=down margin-top=10 margin-left=-10 }
+		
+		
+		
+		place { controls="AllowDownloadsDuringGameplayCheckbox" start=throttlerateapply dir=down margin-top=10 }
 		place { controls="ThrottleDownloadsWhileStreamingCheckbox" region=box start=AllowDownloadsDuringGameplayCheckbox dir=down }
 		place { controls="DownloadRatesInBitsCheckbox" region=box start=ThrottleDownloadsWhileStreamingCheckbox dir=down }
 		

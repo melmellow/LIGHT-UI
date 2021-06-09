@@ -3,6 +3,11 @@
 	styles
 	{
 		
+		cdialogcheckforupdates
+		{
+			bgcolor = BASE2
+		}
+
 		CGAMESLISTPANEL
 		{
 			BGCOLOR = BASE2
