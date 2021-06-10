@@ -29,7 +29,7 @@
   --SHADOW: #d6d1d1;
   --ONLINE: VAR(--BLUE);
   --TRADINGCARD: VAR(--BASE3);
-  --ADVANCEDSEARCHPANE: VAR(--SIDEBAR);
+  --ADVANCEDSEARCHPANE: VAR(--BASE3);
   --ADVANCEDSEARCHPANEOP: 1;
   --FRIENDPLAYINGOP: 0;
   --FIRENDPLAYINGCOUNTOP: 0;
@@ -69,6 +69,7 @@
   --COMMUNITYFEEDBORDERROUNDED4: 10px; /*top right*/
   --APPDETAILSPANEL: VAR(--BASE1);
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
+  --ADVANCEDSEARCHBUTTONBACKGROUNDSELECTED: VAR(--BASE3);
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
   --COLLECTIONICONHOVER: VAR(--BLACK);
@@ -129,7 +130,7 @@
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOP: VAR(--ACCENT);
   --SCROLLTOTOPBORDER: VAR(--WHITE);
-  --ADVANCEDSEARCH: VAR(--BASE1);
+  --ADVANCEDSEARCH: VAR(--BASE3);
   --ADVANCEDSEARCHBORDER: VAR(--DIVIDER);
   --ADVANCEDSEARCHSHADOW: NONE;
   --SIDEBAR: VAR(--BASE1);
@@ -209,6 +210,27 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_AdvancedSearchContainer_vCCmY
+  .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
+  .gamelistsearchbar_AdvancedSearchPane_Woh0k {
+  top: -1px !important;
+}
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_,
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):active {
+  background: var(--ADVANCEDSEARCHBUTTONBACKGROUNDSELECTED) !important;
+  border-left: 1px solid var(--DIVIDER) !important;
+  border-bottom: 1px solid var(--DIVIDER) !important;
+  border-top: 1px solid var(--DIVIDER) !important;
+}
+
+.gamelistsearchbar_Disabled_1Gjk2:hover {
+  background: none !important;
 }
 
 /* jonius7*/
@@ -2122,11 +2144,12 @@ div.NarrowRightPanel
   .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
   background-color: var(--ADVANCEDSEARCHPANE) !important;
   opacity: VAR(--ADVANCEDSEARCHPANEOP) !important;
-  left: -9px !important;
+  left: -15px !important;
   top: -1px !important;
   border-top: 1px solid var(--DIVIDER) !important;
   border-bottom: 1px solid var(--DIVIDER) !important;
-  width: 9px !important;
+  height: 30px !important;
+  width: 15px !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
