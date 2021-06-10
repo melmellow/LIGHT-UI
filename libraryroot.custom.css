@@ -1,6 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 
 :root {
+  /* #1182d293 */
   --gridrowgap: 2px;
   --gridcolumngap: 2px;
   --OP: 63%;
@@ -36,7 +37,9 @@
   --CONTEXTMENUBORDERRADIUS: 0;
   --ADVANCEDSEARCHBORDERRADIUS: 0;
   --ACHIEVEMENTTITLEFONTWEIGHT: 600;
-  --REVIEWICON: VAR(--BLUE);
+  --REVIEWICONBACKGROUNDBORDERRADIUS: 10px;
+  --REVIEWICONBACKGROUND: VAR(--BLUE);
+  --REVIEWICON: VAR(--WHITE);
   --MISSINGGAMEART: VAR(--BUTTON2);
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
@@ -1763,13 +1766,13 @@ div.ShortRightPanel
   filter: VAR(--SHOWCASEPAGEBUTTONICONFILTER) !important;
 }
 .appdetailsreviewsection_ReviewIcon_1izIE {
-  border-radius: 100px !important;
+  border-radius: VAR(--REVIEWICONBACKGROUNDBORDERRADIUS) !important;
 }
 .appdetailsreviewsection_ReviewIconThumbsUpColor_3QZfw {
   fill: var(--REVIEWICON) !important;
 }
 .appdetailsreviewsection_ReviewIconThumbsUp_2BlTq {
-  background: NONE !important;
+  background: VAR(--REVIEWICONBACKGROUND) !important;
 }
 .appdetailsachievementssection_Icon_zcasg {
   filter: grayscale(30%) !important;
