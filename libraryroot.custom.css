@@ -217,16 +217,32 @@
   gap: var(--gridrowgap) var(--gridcolumngap) !important;
 }
 
-.gamelistdropdown_ViewName_3kSh7 {
-  font-weight: 400 !important;
-}
-
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
   opacity: var(--UNINSTALLEDGAMEIMAGEOPACITY) !important;
   filter: VAR(--UNINSTALLEDGAMEIMAGEFILTER) !important;
 }
 /* jonius7*/
+
+.appactivityday_ImageContainer_1XpBI {
+  margin-right: 14px !important;
+}
+
+.gamelistdropdown_ViewName_3kSh7 {
+  font-weight: 400 !important;
+}
+
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_LikeIcon_1OhPt
+  .comment_thread_ReactionSvg_1Wl4V,
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_CommentIcon_1R6Ou
+  .comment_thread_ReactionSvg_1Wl4V,
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_ReactionIcon_QL3Aa
+  .comment_thread_ReactionSvg_1Wl4V:hover {
+  filter: brightness(0) !important;
+}
 
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
@@ -1897,7 +1913,9 @@ div.ShortRightPanel
   background: var(--DIVIDER) !important;
 }
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
-  border: 1px solid var(--SHADOW) !important;
+  border: 0 !important;
+  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
   font-size: 15px !important;
@@ -3401,6 +3419,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   stroke: var(--ACCENT) !important;
   fill: var(--ACCENT) !important;
 }
+.appactivityday_PartnerEventLargeImage_Container_Libri {
+  background: none !important;
+}
+
 .appactivityday_PartnerEventLargeImage_Container_Libri:hover
   .appactivityday_PartnerEventLargeImage_Title_3fsjz {
   color: var(--BUTTONHOVER) !important;
@@ -3524,7 +3546,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   stroke: var(--ACCENT) !important;
 }
 .appactivityday_PartnerEventLargeImage_Contents_2tDv0 {
-  background: var(--BASE2) !important;
+  background: var(--BASE1) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 .appdetailsplaysection_GameStat_1kiZK
   .appdetailsplaysection_GameStatIcon_1tIg- {
