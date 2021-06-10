@@ -1,6 +1,8 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 
 :root {
+  --gridrowgap: 2px;
+  --gridcolumngap: 2px;
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
@@ -202,6 +204,13 @@
   CONTRAST(5%)
   */
 }
+
+/* jonius7 JS TWEAK*/
+.cssgrid_CSSGrid_3vHkm.libraryhomeshowcases_ShowcaseGrid_3DJLG,
+.appgrid_YourCollection_11p6F {
+  gap: var(--gridrowgap) var(--gridcolumngap) !important;
+}
+/* jonius7 JS TWEAK*/
 
 .appproperties_AppProperties_1FyBL
   .DialogBody
