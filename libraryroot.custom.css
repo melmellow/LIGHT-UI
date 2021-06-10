@@ -1666,7 +1666,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   color: VAR(--ACCENT) !important;
 }
 .appactivityday_ReviewIconThumbsUpColor_3AXaY {
-  fill: VAR(--ACCENT) !important;
+  fill: VAR(--REVIEWICON) !important;
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40 {
   background: var(--MCSCOREBACKGROUND) !important;
@@ -1676,8 +1676,8 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   border-radius: var(--SUBSCRIPTBORDERRADIUS) !important;
 }
 .appactivityday_ReviewIconThumbsUp_2oPMu {
-  background: var(--BASE1) !important;
-  border: 1px SOLID var(--SHADOW) !important;
+  background: var(--REVIEWICONBACKGROUND) !important;
+  border-radius: VAR(--REVIEWICONBACKGROUNDBORDERRADIUS) !important;
 }
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY
