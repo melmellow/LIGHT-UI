@@ -4,6 +4,7 @@
   /* #1182d293 */
   --gridrowgap: 2px;
   --gridcolumngap: 2px;
+  --UNINSTALLEDGAMEIMAGEOPACITY: 0.7;
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
@@ -209,12 +210,17 @@
   */
 }
 
-/* jonius7 JS TWEAK*/
+/* jonius7*/
 .cssgrid_CSSGrid_3vHkm.libraryhomeshowcases_ShowcaseGrid_3DJLG,
 .appgrid_YourCollection_11p6F {
   gap: var(--gridrowgap) var(--gridcolumngap) !important;
 }
-/* jonius7 JS TWEAK*/
+
+.appportrait_Draggable_1pwP4
+  > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
+  opacity: var(--UNINSTALLEDGAMEIMAGEOPACITY) !important;
+}
+/* jonius7*/
 
 .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Unowned_1A6NC
   .appdetailstradingcardssection_CardContainer_2DUDv,
