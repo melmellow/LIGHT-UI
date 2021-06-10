@@ -811,6 +811,7 @@ img {
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW {
+  padding: 10px 14px !important;
   border-top: 1px solid var(--DETAILSPANELTOPBORDER) !important;
 }
 
@@ -2521,6 +2522,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
 }
 .libraryhome_LibraryHome_3Sb2o {
+  padding: 10px 14px !important;
   background: var(--BASE2) !important;
 }
 .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
@@ -3095,6 +3097,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border-radius: 0 !important;
   color: var(--ACCENT) !important;
   font-weight: 400 !important;
+  padding: 10px 14px !important;
 }
 .appgrid_CollectionOptionsRightJustified_3t1pL
   .appgrid_ShowingReadyToPlay_38IOu {
@@ -3164,6 +3167,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background: var(--TEXTENTRY) !important;
 } */
 .allcollections_ScrollContainer_u1xD3 {
+  padding: 10px 14px !important;
   border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
   background: var(--BASE2) !important;
 }
@@ -3696,9 +3700,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   margin: AUTO !important;
   left: -12px !important;
 }
-.libraryhome_LibraryHome_3Sb2o {
-  padding: 8px 12px 12px;
-}
 .gamelistdropdown_Bar_1ZS_x {
   position: absolute !important;
   width: 73.5% !important;
@@ -3873,9 +3874,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelisthome_Label_3O48L {
   margin: AUTO !important;
-}
-.libraryhome_LibraryHome_3Sb2o {
-  padding: 8px 12px 12px;
 }
 .gamelistbar_Container_3x1Hk {
   background-image: NONE !important;
