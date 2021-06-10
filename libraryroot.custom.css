@@ -5,6 +5,7 @@
   --gridrowgap: 2px;
   --gridcolumngap: 2px;
   --UNINSTALLEDGAMEIMAGEOPACITY: 0.7;
+  --UNINSTALLEDGAMEIMAGEFILTER: NONE;
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
@@ -219,6 +220,7 @@
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
   opacity: var(--UNINSTALLEDGAMEIMAGEOPACITY) !important;
+  filter: VAR(--UNINSTALLEDGAMEIMAGEFILTER) !important;
 }
 /* jonius7*/
 
