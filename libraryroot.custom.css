@@ -25,6 +25,7 @@
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
   --ONLINE: VAR(--BLUE);
+  --TRADINGCARD: VAR(--BASE3);
   --ADVANCEDSEARCHPANE: VAR(--SIDEBAR);
   --ADVANCEDSEARCHPANEOP: 1;
   --FRIENDPLAYINGOP: 0;
@@ -211,6 +212,13 @@
   gap: var(--gridrowgap) var(--gridcolumngap) !important;
 }
 /* jonius7 JS TWEAK*/
+
+.appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Unowned_1A6NC
+  .appdetailstradingcardssection_CardContainer_2DUDv,
+.appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Loading_2ZOgN
+  .appdetailstradingcardssection_CardContainer_2DUDv {
+  background-color: var(--TRADINGCARD) !important;
+}
 
 .appproperties_AppProperties_1FyBL
   .DialogBody
