@@ -1419,11 +1419,11 @@ svg#Layer_2:hover {
   color: var(--BLUE) !important;
 }
 
-.appactivityday_Event_UVeN0:first-child {
+/* .appactivityday_Event_UVeN0:first-child {
   border-radius: 10px !important;
   border: 1px SOLID var(--BASE2) !important;
   background: var(--BASE2) !important;
-}
+} */
 .infoicon_MoreInfoIcon_34I5H {
   background-color: var(--MOREINFOICON) !important;
   color: var(--MOREINFOICONQMARK) !important;
@@ -2239,6 +2239,10 @@ div.NarrowRightPanel
   background: VAR(--BASE1) !important;
   border-radius: var(--BORDERRADIUS) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
+}
+
+.appactivityday_PartnerEvent_1AYE1 {
+  background: none !important;
 }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover
