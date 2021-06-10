@@ -217,12 +217,31 @@
   gap: var(--gridrowgap) var(--gridcolumngap) !important;
 }
 
+.gamelistdropdown_ViewName_3kSh7 {
+  font-weight: 400 !important;
+}
+
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
   opacity: var(--UNINSTALLEDGAMEIMAGEOPACITY) !important;
   filter: VAR(--UNINSTALLEDGAMEIMAGEFILTER) !important;
 }
 /* jonius7*/
+
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .appfilterpane_FilterBucketBoxes_32e6r
+  .appfilterpane_Row_1J53P
+  .appfilterpane_Checkbox_2AOkQ.DialogCheckbox_Container {
+  font-weight: 400 !important;
+}
+
+.allcollections_ScrollContainer_u1xD3
+  .allcollections_Header_2Th-v
+  .allcollections_Label_3ONu7 {
+  font-weight: 400 !important;
+}
 
 .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Unowned_1A6NC
   .appdetailstradingcardssection_CardContainer_2DUDv,
@@ -685,6 +704,12 @@ img {
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
   color: VAR(--UNINSTALLEDGAMENAMECOLOR) !important;
+}
+
+.collectionview_Container_2q70u
+  .collectionview_Header_2rqTS
+  .collectionview_CollectionName_2oJt3 {
+  font-weight: 400 !important;
 }
 
 .comment_thread_ActivityCommentThread_39nna
@@ -3091,6 +3116,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
   color: var(--ACCENT) !important;
   margin-top: 0.2rem !important;
+  font-weight: 400 !important;
 }
 .collectionview_Container_2q70u {
   border-top: 1px solid var(--DETAILSPANELTOPBORDER) !important;
@@ -3173,6 +3199,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .allcollections_ScrollContainer_u1xD3 .allcollections_Header_2Th-v {
   color: var(--ACCENT) !important;
+  font-weight: 400 !important;
 }
 /* .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchInput_12vo5
@@ -3549,8 +3576,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appgrid_SortingDropDown_1tBzy
   ._DialogInputContainer
   .DialogDropDown_CurrentDisplay {
-  border-left: 1px SOLID var(--BASE2) !important;
-  border-top: 1px SOLID var(--BASE2) !important;
+  font-weight: 400 !important;
   border-bottom: 1px SOLID var(--BUTTONBORDER) !important;
   background-color: var(--DROPDOWN) !important;
 }
