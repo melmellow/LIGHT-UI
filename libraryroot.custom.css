@@ -2,8 +2,8 @@
 
 :root {
   /* #1182d293 */
-  --gridrowgap: 2px;
-  --gridcolumngap: 2px;
+  --gridrowgap: 6px;
+  --gridcolumngap: 6px;
   --UNINSTALLEDGAMEIMAGEOPACITY: 0.7;
   --UNINSTALLEDGAMEIMAGEFILTER: NONE;
   --OP: 63%;
