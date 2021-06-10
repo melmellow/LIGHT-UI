@@ -2245,6 +2245,10 @@ div.NarrowRightPanel
   background: none !important;
 }
 
+.appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
+  background: var(--BASE3) !important;
+}
+
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover
   .appactivityday_PartnerEventMediumImage_Title_1gljE {
   color: var(--BUTTONHOVER) !important;
