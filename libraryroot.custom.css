@@ -70,6 +70,7 @@
   --APPDETAILSPANEL: VAR(--BASE1);
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
   --ADVANCEDSEARCHBUTTONBACKGROUNDSELECTED: VAR(--BASE3);
+  --ADVANCEDSEARCHBUTTONSELECTEDBORDER: VAR(--DIVIDER);
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
   --COLLECTIONICONHOVER: VAR(--BLACK);
@@ -224,9 +225,9 @@
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):active {
   background: var(--ADVANCEDSEARCHBUTTONBACKGROUNDSELECTED) !important;
-  border-left: 1px solid var(--DIVIDER) !important;
-  border-bottom: 1px solid var(--DIVIDER) !important;
-  border-top: 1px solid var(--DIVIDER) !important;
+  border-left: 1px solid var(--ADVANCEDSEARCHBUTTONSELECTEDBORDER) !important;
+  border-bottom: 1px solid var(--ADVANCEDSEARCHBUTTONSELECTEDBORDER) !important;
+  border-top: 1px solid var(--ADVANCEDSEARCHBUTTONSELECTEDBORDER) !important;
 }
 
 .gamelistsearchbar_Disabled_1Gjk2:hover {
