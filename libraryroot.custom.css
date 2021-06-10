@@ -1396,6 +1396,16 @@ svg#Layer_2:hover {
   color: var(--GREEN) !important;
 }
 
+.allcollections_Collection_3IWn- {
+  background: var(--BASE1) !important;
+}
+
+.allcollections_Collection_3IWn-
+  .allcollections_CollectionImage_2ERAQ
+  .allcollections_CollectionBG_akZKn {
+  opacity: 0 !important;
+}
+
 .offline .personanameandstatus_playerName_nOdcT {
   color: var(--ACCENT) !important;
 }
