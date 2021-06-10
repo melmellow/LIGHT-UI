@@ -833,7 +833,8 @@ img {
   .appdetailssoundtrack_Disc_17Yl1 {
   background: NONE !important;
   color: VAR(--ACCENT) !important;
-  font-weight: 300 !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
@@ -866,7 +867,7 @@ img {
   .appdetailssoundtrack_RightColumn_1s3Ep {
   background: VAR(--BASE1) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
-  border-radius: 6px !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 
 .library_TopGradient_34Cqr {
