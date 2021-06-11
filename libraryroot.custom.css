@@ -28,6 +28,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --RATINGCONTAINER: VAR(--BASE1);
   --DYNAMICCOLLECTIONICON: VAR(--ACCENT);
   --APPPORTRAITHOVERCARDOPACITY: 0;
   --APPPORTRAITHOVERBACKGROUND: VAR(--BASE1);
@@ -2609,8 +2610,17 @@ div.NarrowRightPanel
 .appactivityday_PartnerEventTextOnly_Icon_1-llQ svg path {
   fill: var(--ACCENT) !important;
 }
+
+.writereview_RatingContainer_2SAb6
+  .writereview_LeftContainer_2aeAn
+  .writereview_Playtime_qX4kN {
+  font-weight: bold !important;
+}
+
 .writereview_RatingContainer_2SAb6 {
-  background-color: var(--BASE2) !important;
+  background-color: var(--RATINGCONTAINER) !important;
+  border-radius: var(--BORDERRADIUS) !important;
+  box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 .appdetailsspotlight_ReviewContainer_3LE-6 {
   background-color: var(--BASE2) !important;
@@ -3419,7 +3429,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   text-shadow: NONE !important;
 }
 .appdetailsplaysection_PlayBarLabel_34lrt {
-  font-weight: 500 !important;
+  font-weight: bold !important;
   color: var(--ACCENT) !important;
 }
 .appdetailsplaysection_PlayBarDetailLabel_2TYVG,
