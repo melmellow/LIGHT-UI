@@ -6,6 +6,7 @@
   --gridcolumngap: 2px;
   --COLLECTIONSGRIDSPACING: 4px 4px;
   --PLAYNEXTGAMEIMAGESPACING: 2px;
+  --RECENTGAMESGAMEIMAGESPACING: 2px;
   --UNINSTALLEDGAMEIMAGEOPACITY: 0.7;
   --UNINSTALLEDGAMEIMAGEFILTER: NONE;
   --OP: 63%;
@@ -227,6 +228,10 @@
 
 .libraryhomeplaynext_PlayNextSuggestion_2a9Sn:not(:last-child) {
   margin-right: var(--PLAYNEXTGAMEIMAGESPACING) !important;
+}
+
+.libraryhomerecentgames_RecentGame_1esfE:not(:last-child) {
+  margin-right: VAR(--RECENTGAMESGAMEIMAGESPACING) !important;
 }
 
 .gamelistbar_OneCollectionWarning_2Q95p {
