@@ -4,6 +4,7 @@
   /* #1182d293 */
   --gridrowgap: 2px;
   --gridcolumngap: 2px;
+  --PLAYNEXTGAMEIMAGESPACING: 2px;
   --UNINSTALLEDGAMEIMAGEOPACITY: 0.7;
   --UNINSTALLEDGAMEIMAGEFILTER: NONE;
   --OP: 63%;
@@ -221,6 +222,10 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.libraryhomeplaynext_PlayNextSuggestion_2a9Sn:not(:last-child) {
+  margin-right: var(--PLAYNEXTGAMEIMAGESPACING) !important;
 }
 
 .gamelistbar_OneCollectionWarning_2Q95p {
