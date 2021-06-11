@@ -367,6 +367,7 @@
 .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Loading_2ZOgN
   .appdetailstradingcardssection_CardContainer_2DUDv {
   background-color: var(--TRADINGCARD) !important;
+  BOX-SHADOW:1PX 1PX 2PX VAR(--SHADOW)!important;
 }
 
 .appproperties_AppProperties_1FyBL
