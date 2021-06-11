@@ -222,6 +222,11 @@
   */
 }
 
+.gamelistbar_OneCollectionWarning_2Q95p {
+  background: var(--BUTTON1) !important;
+  border-radius: var(--BUTTON1BORDERRADIUS) !important;
+}
+
 .gamelistsearchbar_SearchFilterInput_172OF
   .gamelistsearchbar_FilterTag_3gzh_.gamelistsearchbar_RemovedAppTag_14AvU {
   background: var(--red) !important;
