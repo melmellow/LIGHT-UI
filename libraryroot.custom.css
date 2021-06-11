@@ -1571,7 +1571,10 @@ svg#Layer_2:hover {
   color: var(--ACCENT) !important;
 }
 .appdetailscommunityfeed_Guide_-85o5 {
-  border-radius: 6px !important;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom: 4px solid !important;
+  border-image: linear-gradient(red, yellow) !important;
   box-shadow: 1px 0 VAR(--SHADOW) !important;
 }
 .appdetailscommunityfeed_Guide_-85o5
