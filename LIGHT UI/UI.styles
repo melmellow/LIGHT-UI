@@ -2,6 +2,8 @@
 {
 	styles
 	{
+		
+
 		MESSAGEBOX 
 		{
 			BGCOLOR = BASE2
@@ -469,16 +471,6 @@
 				//Bottom
 				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
 				2="fill( x0, y1-43, x1, y1, Header_Dark )"
-			}
-		}
-
-		FileOpenDialog
-		{
-			render_bg
-			{
-				//Bottom
-				1="fill( x0, y1-68, x1, y1-67, frameBorder )"
-				2="fill( x0, y1-67, x1, y1, Header_Dark )"
 			}
 		}
 

@@ -27,6 +27,10 @@ steam.styles
 	
 	styles
 	{
+		fileopendialog {
+			bgcolor=BASE2
+		}
+
 		TREEIMAGE
 		{
 			IMAGE="ICONS/BACK"
@@ -1591,6 +1595,7 @@ steam.styles
 		turnnotifications
 		{
 		}
+		
 		friendsdetails
 		{
 			bgcolor=bgPanel

@@ -4,9 +4,14 @@
 	{
 		ComboBox
 		{
-			bgcolor=TextEntry
+			bgcolor=BUTTON
 			render_bg{}
 		}
+
+		folderupbutton {
+			bgcolor = "NONE"
+		}
+
 	}
 	layout
 	{
