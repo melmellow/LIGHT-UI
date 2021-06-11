@@ -4,6 +4,7 @@
   /* #1182d293 */
   --gridrowgap: 2px;
   --gridcolumngap: 2px;
+  --COLLECTIONSGRIDSPACING: 4px 4px;
   --PLAYNEXTGAMEIMAGESPACING: 2px;
   --UNINSTALLEDGAMEIMAGEOPACITY: 0.7;
   --UNINSTALLEDGAMEIMAGEFILTER: NONE;
@@ -1516,6 +1517,7 @@ svg#Layer_2:hover {
 .allcollections_Collection_3IWn- {
   background: var(--BASE1) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border-radius: var(--GAMEBOXARTBORDERROUNDED) !important;
 }
 
 .allcollections_Collection_3IWn-
@@ -2826,7 +2828,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .appgrid_ReadyToPlayBigButton_3wbWH {
   background: var(--BASE1) !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--GAMEBOXARTBORDERROUNDED) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border: 0 !important;
 }
