@@ -1367,12 +1367,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   font-weight: 500 !important;
 }
 
-.gamelistsearchbar_Container_20QAC {
+/* .gamelistsearchbar_Container_20QAC {
   position: absolute !important;
   padding: 0 !important;
   bottom: 2px !important;
   top: 58px !important;
-}
+} */
 
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
@@ -2012,14 +2012,13 @@ div.ShortRightPanel
   color: var(--WHITE) !important;
   text-shadow: none !important;
 }
-.gamelistbar_OneCollectionWarning_2Q95p {
+/* .gamelistbar_OneCollectionWarning_2Q95p {
   background-color: var(--ACCENT) !important;
   margin: 0 !important;
-  /* margin-left: 50% !important; */
   margin-left: 26% !important;
   top: 1px !important;
   position: absolute !important;
-}
+} */
 .gamelistbar_OneCollectionWarning_2Q95p:hover {
   background-color: var(--BUTTONHOVER) !important;
 }
@@ -3897,36 +3896,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   filter: VAR(--COMMUNITYFEEDICONFILTER) !important;
   opacity: VAR(--COMMUNITYFEEDICONOPACITY) !important;
 }
-.gamelistsearchbar_Container_20QAC {
-  width: 100%;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-top: -6px;
-}
-.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-  height: 100%;
-}
-.gamelistsectionheader_Container_2sYIg {
-  box-sizing: border-box;
-  color: #707379;
-  border: 0 solid rgba(0, 0, 0, 0);
-}
-.library_LeftListSizableContainer_9sPoV {
-  display: FLEX !important;
-}
-.gamelisthome_Label_3O48L {
-  margin: AUTO !important;
-  left: -12px !important;
-}
-.gamelistdropdown_Bar_1ZS_x {
-  position: absolute !important;
-  width: 73.5% !important;
-  flex: 1 1 auto;
-  padding: 6px 3px 0;
-  height: 36px;
-  left: 69px !important;
-  top: 0 !important;
-}
+
 ::-webkit-scrollbar-thumb {
   border-radius: VAR(--SCROLLBARBOVERROUNDED);
 }
@@ -3935,13 +3905,13 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
-  opacity: var(0.5);
+  /* opacity: var(0.5); */
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(1) {
-  opacity: var(0.5);
+  /* opacity: var(0.5); */
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 
@@ -3951,7 +3921,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(3) {
-  opacity: var(0.5);
+  /* opacity: var(0.5); */
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx {
   background-color: VAR(--SUBSCRIPTBACKGROUND) !important;
@@ -3979,31 +3949,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   color: var(--BLACK) !important;
 }
 
-.appdetailsplaysection_GameStat_1kiZK
-  .appdetailsplaysection_GameStatIcon_1tIg- {
-  margin: 0px 3px 3px 3px !important;
-}
-.gamelistsectionheader_Container_2sYIg {
-  background: NONE !important;
-  box-sizing: border-box;
-  color: #707379;
-  border: 0 solid rgba(0, 0, 0, 0);
-}
-.gamelist_Container_1ijTa {
-  /* height: calc(94.4% - 76px+0.017vmax * 65);*/
-  height: calc(100% - 83px + 0.017vmax * 1);
-  position: absolute;
-  top: 84px !important;
-}
-.gamelist_NoSearchResultsContainer_1fbRp {
-  margin: 2px;
-  height: calc(97.8% - 76px+ (1600px - 100vmax) * 0.007);
-}
-.gamelistdropdown_Bar_1ZS_x {
-  flex: 1 1 auto;
-  padding: 6px 3px 0;
-  height: 36px;
-}
 .allcollections_ScrollContainer_u1xD3 {
   padding: 10px 14px;
 }
@@ -4035,28 +3980,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   height: 22px;
   width: 22px;
 }
-.gamelistsearchbar_Container_20QAC {
-  width: 100%;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-top: -6px;
-}
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 {
   height: 10px;
-  /* border: 1px solid var(--BUTTONBORDER2) !important;
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important; */
-}
-.gamelistbar_GameListHomeAndSearch_2TKEa {
-  padding: 6px 3px 0 6px;
-  background-color: unset;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.8) !important;
-  position: relative;
-  display: flex;
-  height: 36px;
-  flex: 1 1 auto;
-  width: 20%;
-  height: 23px !important;
-  background-color: transparent !important;
 }
 
 .gamelistsearchbar_Container_20QAC
@@ -4068,101 +3993,23 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: VAR(--ADVANCEDSEARCH) !important;
 }
 
+.library_LeftListSizableContainer_9sPoV {
+  background: var(--SIDEBAR) !important;
+}
+
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 
 /******************************************************/
 
-/*CODE BY: JONIUS7*/
-.gamelistsearchbar_Container_20QAC {
-  width: 100%;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-top: -6px;
-}
-.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-  height: 100%;
-}
-.gamelistsectionheader_Container_2sYIg {
-  box-sizing: border-box;
-  color: #707379;
-  border: 0px solid rgba(0, 0, 0, 0);
-}
-.library_LeftListSizableContainer_9sPoV {
-  display: FLEX !important;
-}
-.gamelisthome_Label_3O48L {
-  margin: AUTO !important;
-}
 .gamelistbar_Container_3x1Hk {
-  background-image: NONE !important;
+  background-image: none !important;
   background: var(--SIDEBAR) !important;
-  height: unset;
-  flex: 1;
-  display: flex;
-  min-width: 0;
-  flex-direction: row;
-  flex-wrap: wrap;
-  user-select: none;
-  outline: none;
-}
-.gamelistdropdown_Bar_1ZS_x {
-  position: absolute !important;
-  flex: 1 1 auto;
-  padding: 6px 3px 0px;
-  height: 36px;
-  top: 0 !important;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 0;
 }
-.cssgrid_Container_DGRkX {
-  height: unset !important;
-}
-.appportrait_Draggable_1pwP4
-  > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
-  opacity: var(0.5);
-}
-.appportrait_Draggable_1pwP4
-  > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(3) {
-  opacity: var(0.5);
-}
-.appportrait_LibraryItemBoxSubscript_1LJqx {
-  margin-top: -32px;
-  padding: 2px 8px;
-}
-.gamelistdropdown_DropDown_EDl_m {
-  width: 195px !important;
-}
-.gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
-  margin-left: 0 !important;
-}
-.appdetailsplaysection_GameStat_1kiZK
-  .appdetailsplaysection_GameStatIcon_1tIg- {
-  margin: 0px 3px 3px 3px !important;
-}
 .game_list4NG310_Library_Y0V3YE {
   color: var(--ACCENT) !important;
-}
-.gamelistsectionheader_Container_2sYIg {
-  background: NONE !important;
-  box-sizing: border-box;
-  color: #707379;
-  border: 0px solid rgba(0, 0, 0, 0);
-}
-/*.gamelist_Container_1ijTa {
-  height: calc(94.4% - 76px + 0.017vmax * 65);
-}*/
-.gamelist_NoSearchResultsContainer_1fbRp {
-  margin: 2px;
-  height: calc(97.8% - 76px + (1600px - 100vmax) * 0.007);
-}
-.gamelistdropdown_Bar_1ZS_x {
-  flex: 1 1 auto;
-  padding: 6px 3px 0px;
-  height: 36px;
-}
-.allcollections_ScrollContainer_u1xD3 {
-  padding: 10px 14px;
 }
 .library_Container_3xRRJ *::-webkit-scrollbar,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
@@ -4174,42 +4021,34 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   border-right: 0px solid transparent;
   background-color: var(--SCROLLBAR) !important;
 }
-.library_Container_3xRRJ *::-webkit-scrollbar-thumb:active,
-.library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:active {
-  border: 1px solid transparent;
-  border-right: 0px solid transparent;
-  width: 14px !important;
-}
-.gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
-  height: 22px;
-  width: 22px;
-}
-.gamelistsearchbar_Container_20QAC {
-  width: 95%;
-  margin-left: 8px !important;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-top: -6px;
-  top: 51px !important;
+/* compact sidebar */
+.gamelistdropdown_Bar_1ZS_x {
+  left: 76px !important;
+  padding-left: 0 !important;
+  position: absolute !important;
+  width: 70.3% !important;
 }
 
-.gamelistsearchbar_Container_20QAC
-  .gamelistsearchbar_SearchInput_12vo5
-  .DialogTextInputBase
-  .gamelistsearchbar_Container_20QAC
-  .gamelistsearchbar_SearchInput_12vo5 {
-  height: 10px;
+.gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
+  right: 6px !important;
 }
-.gamelistbar_GameListHomeAndSearch_2TKEa {
-  padding: 6px 3px 0px 6px;
-  background-color: unset;
-  box-shadow: 0 0 0px rgba(0, 0, 0, 0.8) !important;
-  position: relative;
-  display: flex;
-  height: 36px;
-  flex: 1 1 auto;
-  width: 20%;
-  height: 23px !important;
+
+.contextmenu_contextMenu_PP7LM {
+  width: 195px !important;
+}
+
+.gamelisthome_Bar_3pSPl {
   background-color: transparent !important;
+  top: 4px !important;
 }
-/*CODE BY: JONIUS7*/
+
+.gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
+  top: 3px !important;
+  width: 37px !important;
+}
+
+.gamelistbar_GameListHomeAndSearch_2TKEa {
+  width: 75px !important;
+  background: none !important;
+}
+/* compact sidebar */
