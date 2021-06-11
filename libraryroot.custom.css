@@ -1841,6 +1841,12 @@ div.ShortRightPanel
 .steamavatar_avatar_3h-QR {
   border-radius: 100px !important;
 }
+
+.appfilterpane_Container_170Np {
+  padding: 12px 14px !important;
+  padding-right: 0 !important;
+}
+
 .artworkmodal_ArtworkModalDetails_1sEyq
   .artworkmodal_Header_J0VnC
   .artworkmodal_ScrollForMore_WgpsF
@@ -2916,8 +2922,9 @@ A {
   background: var(--BASE2) !important;
 }
 
-.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DragHandle_1OGfH {
-  MARGIN-TOP:6PX!important;
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_DragHandle_1OGfH {
+  margin-top: 6px !important;
 }
 
 .apppartnereventspage_CloseButton_1_vCR {
