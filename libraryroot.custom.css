@@ -28,6 +28,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --DYNAMICCOLLECTIONICON: VAR(--ACCENT);
   --APPPORTRAITHOVERCARDOPACITY: 0;
   --APPPORTRAITHOVERBACKGROUND: VAR(--BASE1);
   --INGAME: VAR(--GREEN);
@@ -218,6 +219,45 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW.appfilterpane_WideFormat_3BoPG {
+  grid-template-columns: repeat(8, 1fr) !important;
+}
+
+.collectionview_Container_2q70u
+  .collectionview_Header_2rqTS
+  .collectionview_DynamicCollectionLabelAndButton_8JUfQ {
+  background: var(--BUTTON2) !important;
+  border: 1px solid var(--BUTTONBORDER) !important;
+  border-radius: var(--BUTTON2BORDERRADIUS) !important;
+}
+
+.collectionview_Container_2q70u
+  .collectionview_DynamicCollectionSubHeader_1sK_7
+  .collectionview_RightSideButtons_3vDj4
+  .collectionview_FreezeButton_1qkt4 {
+  background: var(--BUTTON2) !important;
+  border: 1px solid var(--BUTTONBORDER) !important;
+  border-radius: var(--BUTTONBORDERRADIUS) !important;
+}
+
+.collectionview_Container_2q70u
+  .collectionview_DynamicCollectionSubHeader_1sK_7
+  .collectionview_RightSideButtons_3vDj4
+  .collectionview_FreezeButton_1qkt4:hover {
+  border-color: var(--BUTTONHOVER) !important;
+}
+
+.collectionview_Container_2q70u
+  .collectionview_Header_2rqTS
+  .collectionview_DynamicCollectionLabelAndButton_8JUfQ:hover {
+  border-color: var(--BUTTONBORDERHOVER) !important;
+}
+
+.gamelistsectionheader_SectionHeaderContent_3cV3O svg {
+  fill: var(--DYNAMICCOLLECTIONICON) !important;
 }
 
 .gamelistsearchbar_Container_20QAC
@@ -1847,6 +1887,27 @@ div.ShortRightPanel
   padding-right: 0 !important;
 }
 
+.collectionview_Container_2q70u
+  .collectionview_Header_2rqTS
+  .collectionview_DynamicCollectionLabelAndButton_8JUfQ
+  .collectionview_DynamicCollectionLabel_2cTiG
+  svg {
+  fill: var(--DYNAMICCOLLECTIONICON) !important;
+}
+
+.collectionview_Container_2q70u
+  .collectionview_EditButton_12pDi.collectionview_Pencil_2CPHr {
+  filter: var(--FILT) !important;
+  opacity: var(--OP) !important;
+}
+
+.collectionview_Container_2q70u
+  .collectionview_Header_2rqTS
+  .collectionview_DynamicCollectionLabelAndButton_8JUfQ
+  .collectionview_DynamicCollectionLabel_2cTiG {
+  color: var(--ACCENT) !important;
+}
+
 .artworkmodal_ArtworkModalDetails_1sEyq
   .artworkmodal_Header_J0VnC
   .artworkmodal_ScrollForMore_WgpsF
@@ -2832,6 +2893,13 @@ A {
   stroke: var(--CHECKMARK) !important;
   border-radius: 3px !important;
 }
+
+.collectionview_Container_2q70u
+  .collectionview_Header_2rqTS
+  .collectionview_EditButton_12pDi.collectionview_Close_1t_GA {
+  filter: var(--FILT) !important;
+}
+
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
