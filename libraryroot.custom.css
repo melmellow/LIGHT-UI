@@ -23,10 +23,12 @@
   --BLACK: #000;
   --RED: #d21116;
   --GREEN: #54a448;
+  --GREEN2: #49ee51;
   --BLUE: #1181d2;
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --INGAME: VAR(--GREEN);
   --ONLINE: VAR(--BLUE);
   --TRADINGCARD: VAR(--BASE3);
   --ADVANCEDSEARCHPANE: VAR(--BASE3);
@@ -76,7 +78,7 @@
   --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBARBORDERROUNDED: 0px;
   --SCROLLBAR: VAR(--ACCENT);
-  --RATINGICONBACKGROUNDHOVER: NONE !important;
+  --RATINGICONBACKGROUNDHOVER: NONE;
   --RATINGICON: VAR(--ACCENT);
   --RATINGICONHOVER: VAR(--BLACK);
   --SCROLLBARHOVER: VAR(--BLACK);
@@ -142,7 +144,8 @@
   --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLACK);
   --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
   --BOXSIZEREDGE: VAR(--BLUE);
-  --GAMELOGOADJUSTER: VAR(--GREEN);
+  --PINBOX: VAR(--GREEN2);
+  --PINBOXHOVER: VAR(--GREEN);
   --DETAILSSECTIONHEADER: VAR(--ACCENT);
   --MCSCOREBACKGROUND: VAR(--BLACK);
   --MCSCOREBORDER: VAR(--WHITE);
@@ -172,7 +175,9 @@
   --GAMESTATICONFILTER: VAR(--FILT);
   --COMMUNITYFEEDICONFILTER: VAR(--FILT);
   --SHOWCASEPAGEBUTTONICONFILTER: VAR(--FILT);
-  --APPFEATUREICONTITLESECTIONOP: 0;
+  --APPFEATUREICONTITLESECTIONOP: 1;
+  --APPFEATUREICONTITLESECTIONBACKGROUND: NONE;
+  --APPFEATUREICONTITLESECTIONBORDER: NONE;
   --APPFEATUREICONFILTER: VAR(--FILT);
   --APPFEATUREICONOPACITY: VAR(--OP2);
   --COMMUNITYFEEDICONOPACITY: VAR(--OP);
@@ -510,11 +515,11 @@ a:-webkit-any-link {
 
 .sharedappdetailsheader_TitleSection_30acA
   .sharedappdetailsheader_Features_fqwOy {
-  background: var(--BASE1) !important;
+  background: var(--APPFEATUREICONTITLESECTIONBACKGROUND) !important;
   border-radius: 50px !important;
   padding-right: 8px !important;
   margin-right: 10px !important;
-  border: 1px solid var(--DIVIDER) !important;
+  border: 1px solid var(--APPFEATUREICONTITLESECTIONBORDER) !important;
   opacity: VAR(--APPFEATUREICONTITLESECTIONOP) !important;
 }
 
@@ -642,20 +647,36 @@ img {
 }
 
 .sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_UpperCenter_3b-fV {
-  border-top: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
+  border-top: 4px SOLID VAR(--PINBOX) !important;
+}
+
+.sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_UpperCenter_3b-fV:hover {
+  border-color: var(--PINBOXHOVER) !important;
 }
 
 .sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_BottomLeft_2levH {
-  border-left: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
-  border-bottom: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
+  border-left: 4px SOLID VAR(--PINBOX) !important;
+  border-bottom: 4px SOLID VAR(--PINBOX) !important;
+}
+
+.sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_BottomLeft_2levH:hover {
+  border-color: VAR(--PINBOXHOVER) !important;
 }
 
 .sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_BottomCenter_1nosI {
-  border-bottom: 4px SOLID VAR(--GAMELOGOADJUSTER) !important;
+  border-bottom: 4px SOLID VAR(--PINBOX) !important;
+}
+
+.sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_BottomCenter_1nosI:hover {
+  border-color: VAR(--PINBOXHOVER) !important;
 }
 
 .sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_CenterCenter_27g5S {
-  border: 4px solid var(--GAMELOGOADJUSTER) !important;
+  border: 4px solid var(--PINBOX) !important;
+}
+
+.sharedappdetailsheader_PinBox_2O6k6.sharedappdetailsheader_CenterCenter_27g5S:hover {
+  border-color: VAR(--PINBOXHOVER) !important;
 }
 
 .gamelistentry_Container_2-O4Z
@@ -1428,7 +1449,7 @@ svg#Layer_2:hover {
   color: var(--ONLINE) !important;
 }
 .ingame .personanameandstatus_playerName_nOdcT {
-  color: VAR(--GREEN) !important;
+  color: VAR(--INGAME) !important;
 }
 
 .friendsnooze_SnoozeContainer_1Dsum.in-game .friendsnooze_SnoozeZ_2n0Ei {
