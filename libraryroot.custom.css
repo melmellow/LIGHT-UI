@@ -3277,7 +3277,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--GAMEGROUPNAMECOLOR) !important;
   font-weight: VAR(--GAMEGROUPNAMEFONTWEIGHT) !important;
   margin-top: 3px;
-  padding: 0 9px 5px 9px;
+  padding: 0 9px 5px 0px;
 }
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
