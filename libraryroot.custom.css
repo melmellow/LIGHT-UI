@@ -84,7 +84,7 @@
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
   --COLLECTIONICONHOVER: VAR(--BLACK);
-  --SCROLLBARBORDERROUNDED: 0px;
+  --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAR: VAR(--ACCENT);
   --RATINGICONBACKGROUNDHOVER: NONE;
   --RATINGICON: VAR(--ACCENT);
@@ -357,7 +357,7 @@
 }
 
 .appdetailsspotlight_ReviewContainer_3LE-6 .appdetailsspotlight_Inner_2z8Na {
-  width:unset!important;
+  width: unset !important;
 }
 
 .allcollections_ScrollContainer_u1xD3
@@ -371,7 +371,7 @@
 .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Loading_2ZOgN
   .appdetailstradingcardssection_CardContainer_2DUDv {
   background-color: var(--TRADINGCARD) !important;
-  BOX-SHADOW:1PX 1PX 2PX VAR(--SHADOW)!important;
+  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 
 .appproperties_AppProperties_1FyBL
@@ -3689,7 +3689,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_Collapser_3sz4L:hover {
-  background-color: var(--BASE2) !important;
+  border-color: var(--BUTTONBORDERHOVER);
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
@@ -4027,7 +4027,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: var(--SIDEBAR) !important;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 0;
+  border-radius: VAR(--SCROLLBARBORDERRADIUS);
 }
 .game_list4NG310_Library_Y0V3YE {
   color: var(--ACCENT) !important;
