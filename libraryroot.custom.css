@@ -28,6 +28,8 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --APPPORTRAITHOVERCARDOPACITY: 0;
+  --APPPORTRAITHOVERBACKGROUND: VAR(--BASE1);
   --INGAME: VAR(--GREEN);
   --ONLINE: VAR(--BLUE);
   --TRADINGCARD: VAR(--BASE3);
@@ -2138,6 +2140,28 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
   background-color: var(--BUTTON) !important;
 }
+
+.appportraithover_Content_12UNI {
+  background: VAR(--BLUE) !important;
+}
+
+.appportraithover_ScreenshotCrossfade_2R6-l {
+  --webkit-mask-image: none !important;
+  background: none !important;
+}
+
+.appportraithover_AppTitle_1Kdi2 {
+  color: var(--ACCENT) !important;
+}
+
+.appportraithover_AppStatus_My_Sv {
+  color: var(--ACCENT) !important;
+}
+
+.appportraithover_PlaytimeDetails_1VGPO {
+  color: var(--ACCENT) !important;
+}
+
 /* .writereview_ThumbIcon_2Jkk- {
   fill: var(--THUMBICON) !important;
 } */
@@ -2148,7 +2172,7 @@ div.NarrowRightPanel
   border-top-color: var(--SHADOW) !important;
 }
 .appportraithover_AppPortraitHover_2sGn0 {
-  background-color: var(--BASE2) !important;
+  background-color: var(--BASE1) !important;
 }
 .gamelist_NoResultsTitle_2NXXf {
   opacity: 0 !important;
@@ -2201,12 +2225,17 @@ div.NarrowRightPanel
 .appdetailsactivitysection_Loading_3UShz {
   color: var(--ACCENT) !important;
 }
+
+.appportraithover_PlaytimeDetails_1VGPO .appportraithover_Header_MIHa_ {
+  color: var(--ACCENT) !important;
+}
+
 .spotlight_MajorEventContainer_dVJB2 {
   border-image-source: NONE !important;
   border: 1px SOLID var(--BASE2) !important;
 }
 .hoverposition_HoverPosition_3vg1v.hoverposition_Ready_1Ye_0 {
-  opacity: 0 !important;
+  opacity: var(--APPPORTRAITHOVERCARDOPACITY) !important;
 }
 :not(.appactionbutton_Disabled_1Pb6P)
   > .appactionbutton_ButtonChild_2AzIX
