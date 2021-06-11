@@ -221,6 +221,13 @@
   */
 }
 
+.gamelistsearchbar_SearchFilterInput_172OF
+  .gamelistsearchbar_FilterTag_3gzh_.gamelistsearchbar_RemovedAppTag_14AvU {
+  background: var(--red) !important;
+  color: var(--WHITE) !important;
+  text-decoration: none !important;
+}
+
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW.appfilterpane_WideFormat_3BoPG {
   grid-template-columns: repeat(8, 1fr) !important;
