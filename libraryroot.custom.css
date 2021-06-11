@@ -1964,6 +1964,10 @@ div.ShortRightPanel
   stroke: var(--ACCENT) !important;
 }
 
+.appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA {
+  margin: 0 !important;
+}
+
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled,
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled:hover {
   width: auto !important;
