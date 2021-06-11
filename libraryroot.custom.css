@@ -2015,7 +2015,10 @@ div.ShortRightPanel
 .gamelistbar_OneCollectionWarning_2Q95p {
   background-color: var(--ACCENT) !important;
   margin: 0 !important;
-  margin-left: 50% !important;
+  /* margin-left: 50% !important; */
+  margin-left: 26% !important;
+  top: 1px !important;
+  position: absolute !important;
 }
 .gamelistbar_OneCollectionWarning_2Q95p:hover {
   background-color: var(--BUTTONHOVER) !important;
