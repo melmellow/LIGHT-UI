@@ -3,7 +3,7 @@
 
 ![LIGHT UI DESKTOP](https://media.giphy.com/media/u8ZCz1DFn27e896cLI/giphy.gif)
 
-![LIGHT UI](https://media.giphy.com/media/VGJmShrCh3vTgJhjKc/giphy.gif)
+![LIGHT UI](https://media.giphy.com/media/DoJpxRx2lmr9yMyNWT/giphy.gif)
 
 # INSTRUCTIONS
 * Move LIGHT UI folder to steam/skins/
