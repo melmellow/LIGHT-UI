@@ -639,7 +639,7 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
   left: -1px !important;
   margin-left: 2px !important;
   height: 20px !important;
-  top: 11px !important;
+  top: 14px !important;
 }
 
 /*INFO ICON*/
@@ -1221,10 +1221,6 @@ img {
   padding-left: 0 !important;
   background: var(--BASE1) !important;
 }
-/* .DialogTextInputBase:not(disabled) {
-  border: 1px solid var(--BUTTONBORDER) !important;
-  background: var(--TEXTENTRY) !important;
-} */
 button.DialogButton:hover {
   border: 1px solid var(--BUTTONBORDERHOVER) !important;
 }
@@ -1366,14 +1362,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   color: var(--ACCENT) !important;
   font-weight: 500 !important;
 }
-
-/* .gamelistsearchbar_Container_20QAC {
-  position: absolute !important;
-  padding: 0 !important;
-  bottom: 2px !important;
-  top: 58px !important;
-} */
-
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {
@@ -2081,7 +2069,7 @@ div.ShortRightPanel
 .gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
   background: transparent !important;
   margin-right: 0 !important;
-  left: -2px !important;
+  right: 8px !important;
 }
 .gamelistentry_Container_2-O4Z
   .gamelistentry_GameListEntryContainer_1vO6B
@@ -2697,9 +2685,6 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
   background: var(--BASE2) !important;
 }
-:not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_Green_3cI5T {
-  border-radius: 0 0 0 0 !important;
-}
 :not(.appactionbutton_Disabled_1Pb6P)
   > .appactionbutton_Green_3cI5T
   > .appactionbutton_ButtonChild_2AzIX:hover {
@@ -2709,7 +2694,6 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelisthome_Label_3O48L {
   font-size: 14px !important;
   margin-left: 0 !important;
-  font-weight: bold !important;
   position: absolute !important;
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_CollectionIconBox_2tyaV {
@@ -3182,11 +3166,11 @@ button.DialogButton.Primary:hover {
   color: var(--ACCENT) !important;
 }
 .gamelisthome_CollectionIcon_nC-pL {
-  padding-left: 0 !important;
+  /* padding-left: 0 !important; */
   grid-template-rows: 9px 9px !important;
   grid-column-gap: 3px !important;
   grid-row-gap: 3px !important;
-  padding-top: 4px !important;
+  /* padding-top: 4px !important; */
 }
 .appdetailsworkshopsection_WorkshopContainer_176QJ {
   background: var(--BASE1) !important;
@@ -3369,15 +3353,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
   border-bottom: 1px solid var(--BUTTONBORDERHOVER) !important;
 }
-/* .gamelistsearchbar_Container_20QAC
+.gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchInput_12vo5
   .DialogTextInputBase {
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
   font-weight: 400 !important;
-  padding-left: 12px !important;
   border: 1px solid var(--BUTTONBORDER) !important;
   background: var(--TEXTENTRY) !important;
-} */
+}
 .allcollections_ScrollContainer_u1xD3 {
   padding: 10px 14px !important;
   border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
@@ -3905,13 +3888,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
-  /* opacity: var(0.5); */
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(1) {
-  /* opacity: var(0.5); */
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 
@@ -3919,10 +3900,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   color: VAR(--ACCENT) !important;
   opacity: 1 !important;
 }
-.appportrait_Draggable_1pwP4
-  > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(3) {
-  /* opacity: var(0.5); */
-}
+
 .appportrait_LibraryItemBoxSubscript_1LJqx {
   background-color: VAR(--SUBSCRIPTBACKGROUND) !important;
   color: VAR(--SUBSCRIPTTEXT) !important;
@@ -3934,9 +3912,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelistdropdown_DropDown_EDl_m {
   width: 195px !important;
-}
-.gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
-  margin-left: 0 !important;
 }
 
 .appdetailsachievementssection_Remainder_2gISW
@@ -3980,10 +3955,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   height: 22px;
   width: 22px;
 }
-.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 {
-  height: 10px;
-}
-
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x
@@ -4028,11 +3999,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   position: absolute !important;
   width: 70.3% !important;
 }
-
-.gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
-  right: 6px !important;
-}
-
 .contextmenu_contextMenu_PP7LM {
   width: 195px !important;
 }
