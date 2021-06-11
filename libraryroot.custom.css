@@ -1621,7 +1621,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 .libraryhomeshowcases_DragElement_176H2
   .libraryhomeshowcases_ShowcaseHeader_23Snl {
-  border: 1px solid var(--SHADOW) !important;
+  border: 1px solid var(--ACCENT) !important;
 }
 .artworkmodal_Body_1uUBT
   .artworkmodal_FileInfo_34Wkv
@@ -1734,7 +1734,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
 div.ShortRightPanel
   .libraryhomeshowcases_Showcase_V7RuD
   .libraryhomeshowcases_ShowcaseHeader_23Snl {
-  border: 0 !important;
+  border: 1px solid var(--BLUE) !important;
   outline: NONE !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
@@ -2915,6 +2915,11 @@ A {
   .partnereventdisplay_EventDetailTitleContainer_3z2NY {
   background: var(--BASE2) !important;
 }
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DragHandle_1OGfH {
+  MARGIN-TOP:6PX!important;
+}
+
 .apppartnereventspage_CloseButton_1_vCR {
   background-color: var(--ACCENT) !important;
   border: 1px solid var(--WHITE) !important;
@@ -2923,7 +2928,6 @@ A {
   -webkit-mask-image: none !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Rule_1PhK8 {
-  height: 1px !important;
   background-color: var(--DIVIDER) !important;
 }
 .libraryhomeshowcases_ReorderingDisabled_32LI4
@@ -3082,7 +3086,9 @@ button.DialogButton::before {
   box-shadow: none !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl.libraryhomeshowcases_Reordering_2Ho8z {
-  background-color: var(--BASE2) !important;
+  background-color: var(--BASE1) !important;
+  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 button.DialogButton.Primary {
   width: auto !important;
