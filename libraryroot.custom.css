@@ -91,10 +91,11 @@
   --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAR: VAR(--ACCENT);
   --RATINGICONBACKGROUNDHOVER: NONE;
+  --COMMENTICONHOVER: VAR(--BLACK);
   --RATINGICON: VAR(--ACCENT);
   --RATINGICONHOVER: VAR(--BLACK);
-  --RATINGICONSELECTED: VAR(--BLUE);
-  --RATINGICONSELECTEDHOVER: VAR(--RED);
+  --LIKEBUTTONPRESSED: VAR(--BLUE);
+  --UNLIKEBUTTON: VAR(--RED);
   --SCROLLBARHOVER: VAR(--BLACK);
   --BUTTON1TEXTCOLOR: VAR(--WHITE);
   --BUTTON1: VAR(--ACCENT);
@@ -241,21 +242,21 @@
 .comment_thread_RatingBar_1yWgP
   .comment_thread_ReactionIcon_QL3Aa
   .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M {
-  fill: var(--RATINGICONSELECTED) !important;
-  stroke: var(--RATINGICONSELECTED) !important;
+  fill: var(--LIKEBUTTONPRESSED) !important;
+  stroke: var(--LIKEBUTTONPRESSED) !important;
 }
 
 .comment_thread_RatingBar_1yWgP
   .comment_thread_LikeIcon_1OhPt
-  .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M:HOVER,
+  .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M:hover,
 .comment_thread_RatingBar_1yWgP
   .comment_thread_CommentIcon_1R6Ou
   .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M,
 .comment_thread_RatingBar_1yWgP
   .comment_thread_ReactionIcon_QL3Aa
   .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M {
-  fill: VAR(--RATINGICONSELECTEDHOVER) !important;
-  stroke: VAR(--RATINGICONSELECTEDHOVER) !important;
+  fill: VAR(--UNLIKE) !important;
+  stroke: VAR(--UNLIKE) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_DropOption_3WdXW {
@@ -1543,6 +1544,16 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .comment_thread_RatingIcon_2AVfX {
   stroke: var(--RATINGICON) !important;
   fill: var(--RATINGICON) !important;
+}
+
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_LikeIcon_1OhPt
+  .comment_thread_RatingIcon_2AVfX,
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_CommentIcon_1R6Ou:hover
+  .comment_thread_RatingIcon_2AVfX {
+  stroke: var(--COMMENTICONHOVER) !important;
+  fill: var(--COMMENTICONHOVER) !important;
 }
 
 .comment_thread_RatingBar_1yWgP
