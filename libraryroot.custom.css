@@ -94,6 +94,7 @@
   --RATINGICON: VAR(--ACCENT);
   --RATINGICONHOVER: VAR(--BLACK);
   --RATINGICONSELECTED: VAR(--BLUE);
+  --RATINGICONSELECTEDHOVER: VAR(--RED);
   --SCROLLBARHOVER: VAR(--BLACK);
   --BUTTON1TEXTCOLOR: VAR(--WHITE);
   --BUTTON1: VAR(--ACCENT);
@@ -242,6 +243,19 @@
   .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M {
   fill: var(--RATINGICONSELECTED) !important;
   stroke: var(--RATINGICONSELECTED) !important;
+}
+
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_LikeIcon_1OhPt
+  .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M:HOVER,
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_CommentIcon_1R6Ou
+  .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M,
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_ReactionIcon_QL3Aa
+  .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M {
+  fill: VAR(--RATINGICONSELECTEDHOVER) !important;
+  stroke: VAR(--RATINGICONSELECTEDHOVER) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_DropOption_3WdXW {
@@ -1529,11 +1543,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .comment_thread_RatingIcon_2AVfX {
   stroke: var(--RATINGICON) !important;
   fill: var(--RATINGICON) !important;
-}
-
-svg#Layer_2:hover {
-  stroke: var(--RATINGICONHOVER) !important;
-  fill: var(--RATINGICONHOVER) !important;
 }
 
 .comment_thread_RatingBar_1yWgP
