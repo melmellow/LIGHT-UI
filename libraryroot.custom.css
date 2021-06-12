@@ -988,7 +988,24 @@ img {
   .allcollections_Collection_3IWn-
   .allcollections_CollectionImage_2ERAQ
   .allcollections_CapsuleImage_2zbkb {
-    filter: saturate(3) contrast(1) brightness(0.8);
+  filter: saturate(3) contrast(1) brightness(0.8);
+}
+
+.appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
+  .appgrid_CountGamesExcludedDesc_1MGS3 {
+  line-height: 17px !important;
+}
+
+.LibraryDisplaySizeSmall
+  .allcollections_ScrollContainer_u1xD3
+  .allcollections_Grid_Ma65K
+  .allcollections_CollectionLabel_1J1LQ {
+  font-weight: 500 !important;
+}
+
+.appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
+  .appgrid_CountGamesExcluded_2R_HL {
+  font-weight: 500 !important;
 }
 
 .throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber.throbber_blur_1ctjA {
