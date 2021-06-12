@@ -24,11 +24,14 @@
 			font-family=basefont
 			font-weight=300
 			textcolor=ACCENT
-			bgcolor=none
+			bgcolor= TEXTENTRY
 			shadowtextcolor=ACCENT
-			render
+						render
 			{
-				//0="image( x1-20, y0+8, x1, y1, graphics/search_sm )"
+				1="fill( x0, y0, x1, y0+1, TEXXTENTRYBORDER )"		// Top
+				2="fill( x0+1, y1-1, x1, y1, TEXXTENTRYBORDER )"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1, TEXXTENTRYBORDER )"		// Left
+				4="fill( x1-1, y0+1, x1, y1-1, TEXXTENTRYBORDER )"	// Right
 			}
 		}
 
