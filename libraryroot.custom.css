@@ -93,6 +93,7 @@
   --RATINGICONBACKGROUNDHOVER: NONE;
   --RATINGICON: VAR(--ACCENT);
   --RATINGICONHOVER: VAR(--BLACK);
+  --RATINGICONSELECTED: VAR(--BLUE);
   --SCROLLBARHOVER: VAR(--BLACK);
   --BUTTON1TEXTCOLOR: VAR(--WHITE);
   --BUTTON1: VAR(--ACCENT);
@@ -228,6 +229,19 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_LikeIcon_1OhPt
+  .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M,
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_CommentIcon_1R6Ou
+  .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M,
+.comment_thread_RatingBar_1yWgP
+  .comment_thread_ReactionIcon_QL3Aa
+  .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M {
+  fill: var(--RATINGICONSELECTED) !important;
+  stroke: var(--RATINGICONSELECTED) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_DropOption_3WdXW {
