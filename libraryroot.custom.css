@@ -226,6 +226,14 @@
   */
 }
 
+.gamelistsearchbar_SearchFilterInputClear_38tIM:hover {
+  background: VAR(--BUTTON2) !important;
+  padding: 4px !important;
+  border-radius: 50px !important;
+  top: 4px !important;
+  right: 4px !important;
+}
+
 .appdetailsheader_InCollection_1HS4t {
   background: var(--BUTTON2) !important;
   border: 1px solid var(--BUTTONBORDER) !important;
