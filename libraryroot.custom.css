@@ -984,6 +984,13 @@ img {
   opacity: 60% !important;
 }
 
+.LowPerfMode
+  .allcollections_Collection_3IWn-
+  .allcollections_CollectionImage_2ERAQ
+  .allcollections_CapsuleImage_2zbkb {
+    filter: saturate(3) contrast(1) brightness(0.8);
+}
+
 .throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber.throbber_blur_1ctjA {
   filter: BRIGHTNESS(0) !important;
 }
