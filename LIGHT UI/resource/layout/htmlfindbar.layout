@@ -110,8 +110,8 @@
 	layout
 	{
     place { control="Previous,Next" align=left x=1 y=1 height=38 width=40 }
-    place { control="FindEntry" start=Next width=max height=max margin-right=116 MARGIN-TOP=4 MARGIN-BOTTOM=3 }
-    place { control="FindCount" align=right width=70 height=40 margin-right=44 }
+    place { control="FindEntry" start=Next width=max height=max MARGIN-LEFT=8 margin-right=140 MARGIN-TOP=4 MARGIN-BOTTOM=3 }
+    place { control="FindCount" align=right width=70 height=40 margin-right=56}
     place { control="Close" align=right y=1 width=40 height=38 margin-right=1 }
     // Hidden
     place { control="SearchThisPage" width=1 } //Search//Icon
