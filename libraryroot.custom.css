@@ -31,6 +31,8 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --APPEVENTPAGEAPPSUMMARY: VAR(--BASE1);
+  --APPEVENTPAGE: VAR(--BASE2);
   --REMOVEGAMEHOVERBACKGROUND: VAR(--BASE3);
   --REMOVEGAMEHOVERBORDER: VAR(--RED);
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
@@ -637,7 +639,7 @@ a:-webkit-any-link {
 
 .eventbbcodeparser_AppSummaryWidgetCtn_3DfY9 {
   background-image: none !important;
-  background-color: var(--BASE1) !important;
+  background-color: var(--APPEVENTPAGEAPPSUMMARY) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 
@@ -2952,7 +2954,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background-color: transparent !important;
 }
 .partnereventdisplay_LibraryEventBodyContainer_32mHv {
-  background: var(--BASE2) !important;
+  background: var(--APPEVENTPAGE) !important;
 }
 .partnereventdisplay_LibraryEventBodyContainer_32mHv
   .partnereventdisplay_EventDetailsBody_A_A2B {
@@ -3116,13 +3118,13 @@ A {
   color: var(--ACCENT) !important;
 }
 .apppartnereventspage_PartnerEvent_1KsYS {
-  background: var(--BASE2) !important;
-  background-color: var(--BASE2) !important;
+  background: var(--APPEVENTPAGE) !important;
+  background-color: var(--APPEVENTPAGE) !important;
   background-image: none !important;
 }
 .partnereventdisplay_InLibraryView_3_SEi
   .partnereventdisplay_EventDetailTitleContainer_3z2NY {
-  background: var(--BASE2) !important;
+  background: var(--APPEVENTPAGE) !important;
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl
