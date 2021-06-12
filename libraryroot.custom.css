@@ -235,6 +235,10 @@
   */
 }
 
+.appdetailscommunityfeed_LoadContentButton_2RSxE:hover {
+  border-color: var(--BUTTONBORDERHOVER) !important;
+}
+
 .comment_thread_RatingBar_1yWgP
   .comment_thread_LikeIcon_1OhPt
   .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M,
