@@ -1,7 +1,7 @@
 # PREVIEW
 ![LIGHT UI THUMBNAIL](https://media.giphy.com/media/NWDpqe7kyPP35OvBp7/giphy.gif)
 
-![LIGHT UI DESKTOP](https://media.giphy.com/media/DoJpxRx2lmr9yMyNWT/giphy.gif)
+![LIGHT UI DESKTOP](https://media.giphy.com/media/mjXCOXMe4YJjQoC5GZ/giphy.gif)
 
 ![LIGHT UI](https://media.giphy.com/media/VGJmShrCh3vTgJhjKc/giphy.gif)
 
