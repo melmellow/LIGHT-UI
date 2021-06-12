@@ -84,6 +84,7 @@
       font-size=9
       textcolor = ACCENT
       selectedtextcolor="ACCENT"
+	  selectedbgcolor=TEXTENTRYHIGHLIGHT
 			padding=0
 			inset=0
     }

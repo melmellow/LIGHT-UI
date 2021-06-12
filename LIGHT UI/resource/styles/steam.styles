@@ -1028,11 +1028,11 @@ steam.styles
 		RichText
 		{
 			inset="0 0 0 0"
-			textcolor = ACCENT 
-			selectedtextcolor="ACCENT"
+			textcolor= ACCENT
+			selectedtextcolor= ACCENT
 			font-family=basefont
 			font-weight=400
-			selectedbgcolor="Focus"
+			selectedbgcolor = "255 0 0 255"
 			render_bg {}
 		}
 		RichTextInterior
@@ -1044,10 +1044,10 @@ steam.styles
 //======This controls the urls from rich text areas (News Panel, Some text from Music....)=====//
 		"RichText url"
 		{
-			textcolor="White50"
-			selectedtextcolor="White50"
+			textcolor= ACCENT
+			selectedtextcolor= ACCENT
 			font-style=underline
-			selectedbgcolor="Focus"
+			selectedbgcolor= TEXTENTRYHIGHLIGHT
 		}
 		"RichText url:hover"
 		{
@@ -1064,14 +1064,14 @@ steam.styles
 		{
 			textcolor="ACCENT"
 			font-family=semibold
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 		"RichText emphasis"
 		{
 			textcolor="ACCENT"
 			selectedtextcolor="White75"
 			font-style=italic
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1084,7 +1084,7 @@ steam.styles
 			selectedtextcolor="ACCENT"
 			font-family=basefont
 			font-weight=400
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 			bgcolor="none"
 			render_bg {}
 		}
@@ -1282,7 +1282,7 @@ steam.styles
 			selectedtextcolor="ACCENT"
 			font-family=basefont
 			font-weight=400
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 			bgcolor="none"
 			render_bg {}
 			inset="1 -1 1 1"
@@ -1708,10 +1708,10 @@ steam.styles
 		}
 		console_text
 		{
-			textcolor = ACCENT
-			selectedtextcolor = ACCENT
+			textcolor = "ACCENT"
+			selectedtextcolor = "BLACK"
 			font-family="basefont"
-			selectedbgcolor = TEXTENTRYHIGHLIGHT
+			selectedbgcolor = "TEXTENTRYHIGHLIGHT"
 		}
 
 ////////////////////////////////////////
@@ -1723,7 +1723,7 @@ steam.styles
 		{
 			textcolor="white75"
 			selectedtextcolor="ACCENT"
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 ////////////////////////
 //======Your Text=====//
@@ -1731,7 +1731,7 @@ steam.styles
 		{
 			textcolor="White50"
 			selectedtextcolor="ACCENT"
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 ////////////////////////////////
 //======Chat History Text=====//
@@ -1739,7 +1739,7 @@ steam.styles
 		{
 			textcolor="White50"
 			selectedtextcolor="ACCENT"
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 
 ////////////////////////////////////
@@ -1753,18 +1753,18 @@ steam.styles
 			selectedtextcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 
 //////////////////////////////////////////////////
 //======Your Status Changes/Connection/Game=====//
 		friends_chat_bright_event
 		{
-			textcolor="Focus"
+			textcolor=TEXTENTRYHIGHLIGHT
 			selectedtextcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 
 ////////////////////////////////////
@@ -1774,7 +1774,7 @@ steam.styles
 			textcolor="White75"
 			selectedtextcolor="ACCENT"
 			font-style=underline
-			selectedbgColor="Focus"
+			selectedbgColor=TEXTENTRYHIGHLIGHT
 		}
 /////////////////////////////////////////////
 //======Everybody's Name while in-game=====//
@@ -1782,13 +1782,13 @@ steam.styles
 		{
 			textcolor="Friends.InGameColor"
 			selectedtextcolor="ACCENT"
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 		friends_chat_self
 		{
 			textcolor="Friends.OnlineColor"
 			selectedtextcolor="ACCENT"
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 ////////////////////////////////////////////
 //======Everybody's Name while online=====//
@@ -1796,7 +1796,7 @@ steam.styles
 		{
 			textcolor="Friends.OnlineColor"
 			selectedtextcolor="ACCENT"
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 
 ////////////////////////////////////////////////////////////////////////
@@ -1805,7 +1805,7 @@ steam.styles
 		{
 			textcolor="ACCENT"
 			selectedtextcolor="ACCENT"
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 /////////////////////////////////////////////////////
 //======"Never tell your password to...." Text=====//
@@ -1815,7 +1815,7 @@ steam.styles
 			selectedtextcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
-			selectedbgcolor="Focus"
+			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
 
 //////////////// Used in friends tooltip and friends list for overriding regular styles with custom colors ////////////////
