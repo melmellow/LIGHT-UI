@@ -226,6 +226,43 @@
   */
 }
 
+.gamelistentry_Container_2-O4Z.gamelistentry_DropOption_3WdXW {
+  border-color: var(--ACCENT) !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_DropTarget_1m8Mc {
+  border-color: var(--ACCENT) !important;
+}
+
+.collectionview_Container_2q70u.collectionview_DropOption_3Buvs {
+  border-color: var(--ACCENT) !important;
+}
+
+.gamelistsectionheader_Container_2sYIg.gamelistsectionheader_DropOption_2iS5r {
+  border-color: var(--ACCENT) !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_DropOption_3WdXW.gamelistentry_LastInCollection_1VBNp {
+  border-color: VAR(--ACCENT) !important;
+}
+
+.gamelistsectionheader_Container_2sYIg.gamelistsectionheader_DropTarget_3zHMJ {
+  border-color: var(--ACCENT) !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_DropTarget_1m8Mc.gamelistentry_LastInCollection_1VBNp {
+  border-color: var(--ACCENT) !important;
+}
+
+.collectionview_Container_2q70u.collectionview_DropTarget_dTH3e {
+  background: none !important;
+  border: 0 !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_DropTarget_1m8Mc {
+  background-color: var(--BASE3) !important;
+}
+
 .gamelistsearchbar_SearchFilterInputClear_38tIM:hover {
   background: VAR(--BUTTON2) !important;
   padding: 4px !important;
