@@ -226,6 +226,18 @@
   */
 }
 
+.appdetailsheader_InCollection_1HS4t {
+  background: var(--BUTTON2) !important;
+  border: 1px solid var(--BUTTONBORDER) !important;
+  color: var(--ACCENT) !important;
+  border-radius: var(--BUTTON2BORDERRADIUS) !important;
+  padding: 4px !important;
+}
+
+.appdetailsheader_InCollection_1HS4t:hover {
+  border-color: var(--BUTTONBORDERHOVER) !important;
+}
+
 .libraryhomeplaynext_PlayNextSuggestion_2a9Sn:not(:last-child) {
   margin-right: var(--PLAYNEXTGAMEIMAGESPACING) !important;
 }
