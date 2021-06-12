@@ -24,5 +24,6 @@ Steam will have to restart to apply the theme
 * METRO SKIN for the navbar <3
 * AIR SKIN for the overlay <3
 
-
 Its not perfect yet but I will keep working on it <3
+
+screw the default UI!
