@@ -31,6 +31,9 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --NEWAPPBANNERBACKGROUND: VAR(--BLUE);
+  --NEWAPPBANNERTEXT: VAR(--WHITE);
+  --NEWAPPBANNERBORDERRADIUS: 6px;
   --APPEVENTPAGEAPPSUMMARY: VAR(--BASE1);
   --APPEVENTPAGE: VAR(--BASE2);
   --REMOVEGAMEHOVERBACKGROUND: VAR(--BASE3);
@@ -1072,8 +1075,8 @@ img {
 }
 
 .appdetailssectionnonsteam_Body_1TGl5 {
-  border-radius: 6px !important;
-  background: var(--BASE1) !important;
+  border-radius: var(--BORDERRADIUS) !important;
+  background: var(--APPDETAILSPANEL) !important;
   color: var(--ACCENT) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
@@ -1152,6 +1155,15 @@ img {
   .appdetailssoundtrack_Content_22Q27
   .appdetailssoundtrack_RightColumn_1s3Ep
   .appdetailssoundtrack_TrackListContainer_1Rrhq
+  .appdetailssoundtrack_TrackListing_2c5PP
+  .appdetailssoundtrack_TrackNumber_NZZPO {
+  color: VAR(--ACCENT) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep
+  .appdetailssoundtrack_TrackListContainer_1Rrhq
   .appdetailssoundtrack_TrackListing_2c5PP {
   color: VAR(--ACCENT) !important;
 }
@@ -1159,7 +1171,7 @@ img {
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
   .appdetailssoundtrack_Content_22Q27
   .appdetailssoundtrack_RightColumn_1s3Ep {
-  background: VAR(--BASE1) !important;
+  background: VAR(--APPDETAILSPANEL) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
@@ -2424,6 +2436,13 @@ div.NarrowRightPanel
   height: 30px !important;
   width: 15px !important;
 }
+
+.appportrait_AppPortraitBanner_N8aJr {
+  background: VAR(--NEWAPPBANNERBACKGROUND) !important;
+  color: var(--NEWAPPBANNERTEXT) !important;
+  border-radius: VAR(--NEWAPPBANNERBORDERRADIUS) !important;
+}
+
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
@@ -2568,7 +2587,7 @@ div.NarrowRightPanel
 }
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
   margin-right: 15px !important;
-  background: var(--BASE1) !important;
+  background: var(--APPDETAILSPANEL) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
   border: 1px SOLID var(--BASE2) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
@@ -2626,7 +2645,7 @@ div.NarrowRightPanel
 }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
-  background: VAR(--BASE1) !important;
+  background: VAR(--APPDETAILSPANEL) !important;
   border-radius: var(--BORDERRADIUS) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
