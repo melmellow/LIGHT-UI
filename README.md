@@ -1,5 +1,5 @@
 # PREVIEW
-![LIGHT UI THUMBNAIL](https://i.imgur.com/5iDtcYW.png)
+![LIGHT UI THUMBNAIL](https://i.imgur.com/0guBFAG.png)
 
 ![LIGHT UI DESKTOP](https://media.giphy.com/media/DoJpxRx2lmr9yMyNWT/giphy.gif)
 
