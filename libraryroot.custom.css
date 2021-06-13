@@ -30,8 +30,8 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
-  --PLAYBUTTON2: #66d455;
-  --PLAYBUTTON2HOVER: VAR(--GREEN);
+  --PLAYBUTTON2: var(--ACCENT);
+  --PLAYBUTTON2HOVER: VAR(--BLACK);
   --PLAYBUTTON2BORDERRADIUS: 50px;
   --APPEVENTPAGEAPPSUMMARY: VAR(--BASE1);
   --APPEVENTPAGE: VAR(--BASE2);
@@ -729,6 +729,12 @@ a:-webkit-any-link {
   background-image: none !important;
   background-color: var(--PLAYBUTTON2) !important;
   border-radius: VAR(--PLAYBUTTON2BORDERRADIUS) !important;
+}
+
+.salepreviewwidgets_CapsuleMenuButton_niVR8 {
+  border-radius: 50px !important;
+  padding: 8px !important;
+  background: var(--BASE1) !important;
 }
 
 .eventbbcodeparser_AppSummaryWidgetCtn_3DfY9 {
