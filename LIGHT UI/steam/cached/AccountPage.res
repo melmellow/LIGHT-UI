@@ -3,7 +3,7 @@ Steam/cached/AccountPage.res {
   layout {
     place { control=AccountInfo margin-left=-999}
     place { control=EmailInfo dir=down start=AccountInfo y=10 margin-left=-999 } //disappears in offline mode
-    place { control=SecurityStatusState dir=down  y=10 x=20 }
+    place { control=SecurityStatusState dir=down  y=0 x=0 }
     place { control=VACInfoLink dir=down start=SecurityStatusState y=10 }
     place { control=AccountLink dir=down start=VACInfoLink y=10 }
 
