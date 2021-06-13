@@ -3840,6 +3840,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border-top-right-radius: var(--BORDERRADIUS) !important;
 }
 
+.appdetailsactivitysection_NoActivity_2-kDc,
+.appdetailsactivitysection_Loading_3UShz {
+  border-color: var(--ACCENT) !important;
+}
+
 .appdetailsreviewsection_CommentsGroup_2Z3gh
   .appdetailsreviewsection_CommentsContainer_17u7k
   .appdetailsreviewsection_CommentsLabel_2EyEa {
