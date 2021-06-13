@@ -2686,6 +2686,7 @@ div.NarrowRightPanel
   border-top-right-radius: var(--COMMUNITYFEEDBORDERROUNDED4) !important;
 }
 .appdetailscommunityfeed_CommunityItem_3QS6O {
+  border-radius: var(--BORDERRADIUS) !important;
   background-color: var(--APPDETAILSPANEL) !important;
 }
 .appdetailsachievementssection_UnachievedSection_3ca11
