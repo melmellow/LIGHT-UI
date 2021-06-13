@@ -214,6 +214,7 @@
   --NEWAPPBANNERBACKGROUND: VAR(--BLUE);
   --NEWAPPBANNERTEXT: VAR(--WHITE);
   --NEWAPPBANNERBORDERRADIUS: VAR(--GAMEBOXARTBORDERROUNDED);
+  --COLLECTIONSCONTAINERGAMEIMAGEFILTER: none;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -238,6 +239,13 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.LowPerfMode
+  .allcollections_Collection_3IWn-
+  .allcollections_CollectionImage_2ERAQ
+  .allcollections_CapsuleImage_2zbkb {
+  filter: VAR(--COLLECTIONSCONTAINERGAMEIMAGEFILTER) !important;
 }
 
 .appdetailscommunityfeed_LoadContentButton_2RSxE:hover {
@@ -3821,6 +3829,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX {
   color: var(--ACCENT) !important;
 }
+
 .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX:hover {
   color: var(--BUTTONHOVER) !important;
 }
