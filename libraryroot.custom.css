@@ -1702,6 +1702,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .toggle_Toggle_3POJz .toggle_ToggleRail_3DiLY {
   background-color: var(--BUTTONHOVER) !important;
 }
+
+.DialogContent {
+  padding:12px 14px!important;
+}
+
 .DialogContent,
 .DialogContentTransition {
   background-color: var(--BASE2) !important;
