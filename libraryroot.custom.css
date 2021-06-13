@@ -99,6 +99,7 @@
   --RATINGICONHOVER: VAR(--BLACK);
   --LIKEBUTTONPRESSED: VAR(--BLUE);
   --UNLIKEBUTTON: VAR(--RED);
+  --DISLIKEBUTTONPRESSED: VAR(--RED);
   --SCROLLBARHOVER: VAR(--BLACK);
   --BUTTON1TEXTCOLOR: VAR(--WHITE);
   --BUTTON1: VAR(--ACCENT);
@@ -835,9 +836,17 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
 
 /*SEND ICON*/
 
-.posttextentry_PostTextEntry_3x31A
+/* .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D.posttextentry_Active_1_KMh {
   margin-top: -39px !important;
+} */
+
+.discussionwidget_VoteUpSelectedIcon_34YgM {
+  fill: VAR(--LIKEBUTTONPRESSED) !important;
+}
+
+.discussionwidget_VoteDownSelectedIcon_1PTQ2 {
+  fill: VAR(--DISLIKEBUTTONPRESSED) !important;
 }
 
 .posttextentry_PostTextEntry_3x31A
