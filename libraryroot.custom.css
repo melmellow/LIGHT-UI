@@ -92,6 +92,8 @@
   --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAR: VAR(--ACCENT);
+  --SCROLLBARWIDTH: 0px;
+  --SCROLLBARHOVERWIDTH: 16px;
   --RATINGICONBACKGROUNDHOVER: NONE;
   --COMMENTICONHOVER: VAR(--BLACK);
   --RATINGICON: VAR(--ACCENT);
@@ -2746,16 +2748,18 @@ div.NarrowRightPanel
   background-image: none !important;
   background-color: var(--BASE2) !important;
 }
-.library_Container_3xRRJ *::-webkit-scrollbar,
+/* .library_Container_3xRRJ *::-webkit-scrollbar,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
   width: 14px !important;
-}
+} */
 .broadcast_embeddable_side_panels_T_zpR::-webkit-scrollbar-thumb {
   background-color: var(--ACCENT) !important;
+  width: var(--SCROLLBARWIDTH) !important;
 }
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb:hover,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:hover {
   background-color: var(--SCROLLBARHOVER) !important;
+  width: VAR(--SCROLLBARHOVERWIDTH) !important;
 }
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY::-webkit-scrollbar-thumb {
