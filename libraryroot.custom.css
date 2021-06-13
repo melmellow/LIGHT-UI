@@ -1375,6 +1375,7 @@ img {
   .appproperties_SteamInputStatusGrid_3lj3- {
   background-color: var(--BASE1) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 .appproperties_AppProperties_1FyBL
   .DialogBody
@@ -3321,6 +3322,7 @@ A {
   .libraryhomeshowcases_Rule_1PhK8 {
   height: 1px !important;
 }
+
 .libraryhomenewupdates_EventOptions_2-p7s:hover > div {
   background-color: var(--BUTTONHOVER) !important;
 }
@@ -3330,7 +3332,7 @@ A {
   color: var(--ACCENT) !important;
 }
 .libraryhomeshowcases_OptionsRule_2U_Y7 {
-  border-top: 1px solid var(--BASE2) !important;
+  border-top: 1px solid var(--DIVIDER) !important;
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   .libraryhomeshowcases_DropDownItems_lYnGt:hover {
