@@ -1408,6 +1408,16 @@ img {
   background: var(--BASE2) !important;
 }
 
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_SteamInputStatus_2H4Ly {
+  margin-left: 0 !important;
+}
+
+.DialogInputLabelGroup {
+  margin-bottom: 8px !important;
+}
+
 .DialogInput_ClearAction:hover .SVGIcon_X_Line line {
   stroke: var(--BLACK) !important;
 }
@@ -1419,7 +1429,8 @@ img {
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
   padding: 0 !important;
-  margin: 0 !important;
+  margin-top: 8px;
+  margin-left: 0 !important;
 }
 .appproperties_AppProperties_1FyBL
   .DialogBody
