@@ -403,8 +403,12 @@
   padding: 4px !important;
   border-radius: 50px !important;
   top: 4px !important;
-  right: 2px !important;
+  right: 1px !important;
   transition: all 0.18s ease-in-out;
+}
+
+.gamelistsearchbar_SearchFilterInputClear_38tIM:active {
+  background: var(--TEXTENTRYHIGHLIGHT) !important;
 }
 
 .appdetailsheader_InCollection_1HS4t {
