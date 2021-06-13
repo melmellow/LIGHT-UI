@@ -215,6 +215,9 @@
   --NEWAPPBANNERTEXT: VAR(--WHITE);
   --NEWAPPBANNERBORDERRADIUS: VAR(--GAMEBOXARTBORDERROUNDED);
   --COLLECTIONSCONTAINERGAMEIMAGEFILTER: none;
+  --CIRCLECOLLAPSER: VAR(--ACCENT);
+  --CIRCLECOLLAPSERHOVER: VAR(--BLACK);
+  --CIRCLECOLLAPSEROP: 1;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -239,6 +242,21 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.collapseicon_Container_3SFRZ .SVGIcon_PlusCircle circle {
+  opacity: var(--CIRCLECOLLAPSEROP) !important;
+  fill: var(--CIRCLECOLLAPSER) !important;
+}
+
+.collapseicon_Container_3SFRZ .SVGIcon_PlusCircle circle:hover {
+  fill: var(--CIRCLECOLLAPSERHOVER) !important;
+}
+
+.collapseicon_Container_3SFRZ .SVGIcon_PlusCircle {
+  width: 10px !important;
+  height: 10px !important;
+  margin-right: 4px !important;
 }
 
 .LowPerfMode
