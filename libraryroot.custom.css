@@ -90,6 +90,7 @@
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
   --COLLECTIONICONHOVER: VAR(--BLACK);
+  --SCROLLBAROP: 0;
   --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAR: VAR(--ACCENT);
   --SCROLLBARWIDTH: 8px;
@@ -2751,6 +2752,7 @@ div.NarrowRightPanel
 .library_Container_3xRRJ *::-webkit-scrollbar,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
   width: var(--SCROLLBARWIDTH) !important;
+  opacity: VAR(--SCROLLBAROP) !important;
 }
 
 .library_Container_3xRRJ *::-webkit-scrollbar:hover,
@@ -4192,6 +4194,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   border-right: 0px solid transparent;
   background-color: var(--SCROLLBAR) !important;
 }
+
 /* compact sidebar */
 .gamelistdropdown_Bar_1ZS_x {
   left: 76px !important;
