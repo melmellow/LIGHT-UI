@@ -247,6 +247,20 @@
   */
 }
 
+.appactivityday_CommentsGroup_1-KuQ
+  .appactivityday_CommentsContainer_3uiPs
+  .appactivityday_CommentIcon_2Xa07 {
+  filter: var(--FILT) !important;
+  opacity: var(--OP2) !important;
+}
+
+.appactivityday_CommentsGroup_1-KuQ
+  .appactivityday_CommentsContainer_3uiPs
+  .appactivityday_UpVotesIcon_1yGY_ {
+  filter: var(--FILT) !important;
+  opacity: var(--OP2) !important;
+}
+
 .collapseicon_Container_3SFRZ .SVGIcon_PlusCircle circle {
   opacity: var(--CIRCLECOLLAPSEROP) !important;
   fill: var(--CIRCLECOLLAPSER) !important;
@@ -2185,9 +2199,16 @@ div.ShortRightPanel
   .comment_thread_Comment_515RL
   .comment_thread_CommentBody_1ltVe
   .comment_thread_CommentControls_2-3DH
+  .comment_thread_CommentRatingButton_2ftHa:hover {
+  background-color: var(--BUTTON) !important;
+}
+
+.comment_thread_ActivityCommentThread_39nna
+  .comment_thread_Comment_515RL
+  .comment_thread_CommentBody_1ltVe
+  .comment_thread_CommentControls_2-3DH
   .comment_thread_CommentRatingButton_2ftHa {
   border-radius: 100px !important;
-  background-color: var(--BUTTON) !important;
 }
 .appactivityday_CommentsGroup_1-KuQ
   .appactivityday_CommentsContainer_3uiPs
