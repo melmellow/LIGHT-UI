@@ -386,6 +386,14 @@
   border: 0 !important;
 }
 
+.gamelistsearchbar_Container_20QAC .DialogInput_ClearAction svg line,
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_SearchFilterInputClear_38tIM
+  svg
+  line {
+  stroke-width: 28px !important;
+}
+
 .gamelistentry_Container_2-O4Z.gamelistentry_DropTarget_1m8Mc {
   background-color: var(--BASE3) !important;
 }
