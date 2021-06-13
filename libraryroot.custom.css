@@ -456,16 +456,16 @@
 }
 
 .gamelistbar_OneCollectionWarning_2Q95p {
-  margin: 0 !important;
-  background: transparent !important;
-  width: 100% !important;
-  display: block !important;
-  /* padding: 4px !important; */
-  padding-left: 42px !important;
+  margin-left: 4px !important;
+  background: var(--BUTTON2) !important;
+  border-radius: var(--BUTTON2BORDERRADIUS) !important;
+  border: 1px SOLID VAR(--BUTTONBORDER) !important;
   color: var(--ACCENT) !important;
-  font-weight: var(--SHOWALLCOLLECTIONSFONTWEIGHT) !important;
   text-transform: UPPERCASE !important;
-  text-align: middle !important;
+}
+
+.gamelistbar_OneCollectionWarning_2Q95p:hover {
+  border-color: var(--BUTTONBORDERHOVER) !important;
 }
 
 .gamelistsearchbar_SearchFilterInput_172OF {
