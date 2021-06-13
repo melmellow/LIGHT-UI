@@ -11,6 +11,7 @@
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
+  --BASE0: #e4e4e4c2;
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
   --BASE3: #ececec;
@@ -31,6 +32,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --FRIENDSBAR: VAR(--GREEN);
   --PLAYBUTTON2: var(--ACCENT);
   --PLAYBUTTON2HOVER: VAR(--BLACK);
   --PLAYBUTTON2BORDERRADIUS: 50px;
@@ -253,6 +255,17 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appportrait_FriendsBar_3dncO.appportrait_SummaryView_1To_Q {
+  background: VAR(--BASE0) !important;
+  border-radius: 50px !important;
+  padding: 2px !important;
+}
+
+.appportrait_FriendsBar_3dncO .appportrait_SummaryCount_1CA44 {
+  color: var(--GREEN) !important;
+  font-weight: 500 !important;
 }
 
 .gamelistdropdown_Bar_1ZS_x
@@ -3082,6 +3095,10 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   .gamelistentry_Container_2-O4Z
   .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
   background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
+}
+
+.appportrait_FriendsBar_3dncO .appportrait_SummaryLeader_2SZ70 {
+  background-color: var(--FRIENDSBAR) !important;
 }
 
 .gamelistentry_FriendIsPlaying_cNZ3w {
