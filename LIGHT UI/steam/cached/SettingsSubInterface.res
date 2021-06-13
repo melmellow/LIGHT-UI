@@ -444,4 +444,8 @@
 		"Default"		"0"
 		"selected"		"0"
 	}	
+
+	layout {
+		place { region=box margin-left=0 margin-right=0 margin-top=0 margin-bottom=0 }
+	}
 }
