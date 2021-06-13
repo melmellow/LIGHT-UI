@@ -42,7 +42,7 @@
 	}
 	layout
 	{
-		region { name="body" margin-right=16 margin-bottom=44 }
+		region { name="body" margin-right=16 margin-bottom=12 }
 
 		place { control="settingslist" width=182 height=max }
 		place { control="sheet" start=settingslist x=16 y=40 region=body width=max height=max }

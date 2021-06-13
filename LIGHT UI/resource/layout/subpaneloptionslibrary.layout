@@ -29,8 +29,8 @@
   }
   layout
   {
-    region { name=box margin-left=16 margin-right=16 }
-    place { control=TitleLabel,LibraryDisplaySizeLabel region=box spacing=6 dir=down margin-top=20 } 
+    region { name=box margin-left=14 margin-right=14 y=-10 }
+    place { control=TitleLabel,LibraryDisplaySizeLabel region=box spacing=6 dir=down margin-top=0 } 
     place { start=LibraryDisplaySizeLabel control="LibraryDisplaySizeAutomatic" dir=down }
     place { start=LibraryDisplaySizeAutomatic control="LibraryDisplaySizeAutomaticLabel" x=6 y=5 }
     place { start=LibraryDisplaySizeAutomatic control="LibraryDisplaySizeSmall" dir=down }
