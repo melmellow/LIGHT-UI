@@ -788,8 +788,8 @@ steam.styles
 			bgcolor=CategoryBG
 			render_bg{}
 			image="icons/smsection_open"
-			padding-left=7
-			padding-right=14
+			padding-left=2
+			padding-right=2
 			padding-top=0
 			padding-bottom=0
 					render {
