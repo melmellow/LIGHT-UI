@@ -1960,6 +1960,7 @@ div.ShortRightPanel
 }
 .appgrid_AppGridSectionLabel_2hvQb {
   color: VAR(--ACCENT) !important;
+  font-weight: 500 !important;
 }
 .appdetailsplaysection_InvalidPlatform_3Ads1 span {
   color: VAR(--ACCENT) !important;
@@ -3098,7 +3099,7 @@ A {
 .collectionview_Container_2q70u
   .collectionview_Header_2rqTS
   .collectionview_EditButton_12pDi.collectionview_Close_1t_GA {
-  filter: var(--FILT) !important;
+  fill: VAR(--ACCENT) !important;
 }
 
 .gamelistsearchbar_Container_20QAC
