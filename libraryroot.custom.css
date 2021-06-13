@@ -3845,7 +3845,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background-color: var(--BASE1) !important;
 }
 .appdetailscommunityfeed_MenuButton_CwZqp:hover {
-  background-color: var(--BASE2) !important;
+  border-color: var(--BUTTONBORDERHOVER) !important;
 }
 .appdetailsfriendssection_AvatarAndLabel_1GCZA:hover {
   background-color: var(--BASE2) !important;
