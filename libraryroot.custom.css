@@ -162,6 +162,7 @@
   --INACTIVEDROPDOWNFILTERICON: VAR(--ACCENT);
   --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLACK);
   --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
+  --ACTIVEDROPDOWNFILTERICONHOVER: var(--ACCENT);
   --BOXSIZEREDGE: VAR(--BLUE);
   --PINBOX: VAR(--GREEN2);
   --PINBOXHOVER: VAR(--GREEN);
@@ -246,6 +247,41 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.gamelistdropdown_Bar_1ZS_x
+  .gamelistdropdown_Filters_1PgAo
+  .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover
+  svg
+  path,
+.gamelistdropdown_Bar_1ZS_x
+  .gamelistdropdown_Filters_1PgAo
+  .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover
+  svg
+  line,
+.gamelistdropdown_Bar_1ZS_x
+  .gamelistdropdown_Filters_1PgAo
+  .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover
+  svg
+  polyline,
+.gamelistdropdown_Bar_1ZS_x
+  .gamelistdropdown_Filters_1PgAo
+  .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover
+  svg
+  circle {
+  stroke: VAR(--ACTIVEDROPDOWNFILTERICONHOVER) !important;
+}
+
+.gamelistdropdown_Bar_1ZS_x
+  .gamelistdropdown_Filters_1PgAo
+  .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover
+  svg {
+  fill: VAR(--ACTIVEDROPDOWNFILTERICONHOVER) !important;
+}
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN
+  .libraryhomeshowcases_AddShowcase_2aw5a:hover {
+  border-color: var(--BUTTONBORDERHOVER) !important;
 }
 
 .appactivityday_CommentsGroup_1-KuQ
@@ -3086,6 +3122,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   border: 0 !important;
   background: none !important;
 }
+
 .eventbbcodeparser_Header1_SPYFj {
   color: var(--ACCENT) !important;
 }
