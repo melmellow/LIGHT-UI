@@ -26,7 +26,7 @@
 	}
 	layout
 	{
-		region { name=box margin-left=16 margin-right=16 }
+		region { name=box margin-left=0 margin-right=0 }
 
 		place { region=box controls=DescriptionLabel y=6 width=max }
 		place { start=DescriptionLabel controls=OverlayHomePageLabel y=20 dir=down width=200 }
