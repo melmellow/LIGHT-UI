@@ -163,6 +163,7 @@
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--SHADOW);
   --SEARCHFILTER: VAR(--ACCENT);
+  --SEARCHFILTERTEXT: VAR(--WHITE);
   --INACTIVEDROPDOWNFILTERICON: VAR(--ACCENT);
   --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLACK);
   --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
@@ -443,6 +444,10 @@
   font-weight: var(--SHOWALLCOLLECTIONSFONTWEIGHT) !important;
   text-transform: UPPERCASE !important;
   text-align: middle !important;
+}
+
+.gamelistsearchbar_SearchFilterInput_172OF {
+  color: var(--SEARCHFILTERTEXT) !important;
 }
 
 .gamelistsearchbar_SearchFilterInput_172OF
