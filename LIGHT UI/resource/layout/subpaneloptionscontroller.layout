@@ -25,7 +25,7 @@
 	}
 	layout
 	{
-		region { name=box margin-left=16 margin-right=16 }
+		region { name=box margin-left=0 margin-right=0 }
 
 		place { region=box controls=TitleLabel,DescriptionLabel dir=down width=max spacing=6 }
 		place { region=box start=DescriptionLabel controls=GeneralSettingsButton height=28 width=240 dir=down margin-top=15 }

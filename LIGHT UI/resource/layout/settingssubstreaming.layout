@@ -57,7 +57,7 @@
   }
   layout
   {
-    region { name=box margin-left=16 margin-right=16 }
+    region { name=box margin-left=0 margin-right=0 }
     region { name=center width=max align=center }
     
     place { region=box control="DescriptionLabel" dir=down align=top width=max y=33 }
