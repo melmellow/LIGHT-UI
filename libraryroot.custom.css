@@ -90,11 +90,10 @@
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
   --COLLECTIONICONHOVER: VAR(--BLACK);
-  --SCROLLBAROP: 0;
   --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAR: VAR(--ACCENT);
-  --SCROLLBARWIDTH: 8px;
-  --SCROLLBARHOVERWIDTH: 16px;
+  --SCROLLBARWIDTH: 14px;
+  --SCROLLBARHOVERWIDTH: 14px;
   --RATINGICONBACKGROUNDHOVER: NONE;
   --COMMENTICONHOVER: VAR(--BLACK);
   --RATINGICON: VAR(--ACCENT);
@@ -2752,7 +2751,6 @@ div.NarrowRightPanel
 .library_Container_3xRRJ *::-webkit-scrollbar,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
   width: var(--SCROLLBARWIDTH) !important;
-  opacity: VAR(--SCROLLBAROP) !important;
 }
 
 .library_Container_3xRRJ *::-webkit-scrollbar:hover,
