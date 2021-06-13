@@ -1948,6 +1948,12 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   .appproperties_BrowseDiskButton_OF562 {
   width: 50% !important;
 }
+
+.appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
+  .appgrid_ReadyToPlayIcon_pCHyk:after {
+  top: 3px !important;
+}
+
 div.ShortRightPanel
   .libraryhomeshowcases_Showcase_V7RuD
   .libraryhomeshowcases_ShowcaseHeader_23Snl {
