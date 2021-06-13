@@ -44,7 +44,7 @@
 
 	layout
 	{
-		region { name=box margin-left=16 margin-right=16 }
+		region { name=box margin-left=0 margin-right=0 }
 
 		// Content Libraries
 		place { region=box control="LibrariesLabel,ManageInstalledappsLabel" dir=down spacing=6 }

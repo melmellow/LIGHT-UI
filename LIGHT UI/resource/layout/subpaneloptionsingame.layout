@@ -69,7 +69,7 @@
 	
 	layout
 	{
-		region { name=box margin-top=10 margin-bottom=20 margin-left=20 margin-right=20 width=max height=max }
+		region { name=box margin-top=0 margin-bottom=20 margin-left=0 margin-right=0 width=max height=max }
 		region { name=top region=box margin-top=10 }
 		region { name=topleft region=top y=120 width=255 margin-right=20 }
 		region { name=topright region=top x=263 width=235 y=121}
