@@ -191,7 +191,7 @@
   --DROPDOWNROUNDED3: 0;
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER2);
   --TEXTENTRYBORDERROUNDED: 30px;
-  --BORDERRADIUS: 10px;
+  --BORDERRADIUS: 4px;
   --BUTTON1BORDERRADIUS: 0;
   --BUTTON2BORDERRADIUS: 0;
   --GAMEGROUPNAMEFONTWEIGHT: BOLD;
@@ -3290,6 +3290,7 @@ A {
   color: var(--ACCENT) !important;
 }
 .apppartnereventspage_PartnerEvent_1KsYS {
+  border-radius: var(--BORDERRADIUS) !important;
   background: var(--APPEVENTPAGE) !important;
   background-color: var(--APPEVENTPAGE) !important;
   background-image: none !important;
