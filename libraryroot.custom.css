@@ -2385,9 +2385,10 @@ div.ShortRightPanel
   background: var(--BASE2) !important;
 }
 .comment_thread_ActivityCommentThread_39nna {
-  border-radius: 10px !important;
-  border: 1px solid var(--BASE2) !important;
   background: var(--BASE2) !important;
+  margin-top: 1px !important;
+  padding-top: 3px !important;
+  padding-left: 1px !important;
 }
 .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL {
   color: var(--ACCENT) !important;
@@ -2904,6 +2905,10 @@ div.NarrowRightPanel
 .comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc,
 .comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
   color: var(--ACCENT) !important;
+}
+
+.comment_thread_RatingBar_1yWgP {
+  margin-right: 7px !important;
 }
 
 .online .steamavatar_avatarStatus_3xUpb {
