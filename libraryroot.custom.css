@@ -30,6 +30,9 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --PLAYBUTTON2: #66d455;
+  --PLAYBUTTON2HOVER: VAR(--GREEN);
+  --PLAYBUTTON2BORDERRADIUS: 50px;
   --APPEVENTPAGEAPPSUMMARY: VAR(--BASE1);
   --APPEVENTPAGE: VAR(--BASE2);
   --REMOVEGAMEHOVERBACKGROUND: VAR(--BASE3);
@@ -696,12 +699,13 @@ a:-webkit-any-link {
 }
 
 .salepreviewwidgets_Action_2zssE:hover {
-  background-color: var(--BLACK) !important;
+  background-color: var(--PLAYBUTTON2HOVER) !important;
 }
 
 .salepreviewwidgets_AppTag_3FJnZ {
-  color: var(--WHITE) !important;
-  background-color: var(--ACCENT) !important;
+  color: var(--ACCENT) !important;
+  background-color: var(--BASE3) !important;
+  border: 1px SOLID VAR(--DIVIDER) !important;
 }
 
 .salepreviewwidgets_StoreSaleWidgetRelease_1qvTF {
@@ -723,13 +727,15 @@ a:-webkit-any-link {
 
 .salepreviewwidgets_Action_2zssE {
   background-image: none !important;
-  background-color: var(--ACCENT) !important;
+  background-color: var(--PLAYBUTTON2) !important;
+  border-radius: VAR(--PLAYBUTTON2BORDERRADIUS) !important;
 }
 
 .eventbbcodeparser_AppSummaryWidgetCtn_3DfY9 {
   background-image: none !important;
   background-color: var(--APPEVENTPAGEAPPSUMMARY) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
 .youtubeembed_DynamicLinkBox_1IGUR {
