@@ -501,6 +501,7 @@
   border-left: 1px solid var(--ADVANCEDSEARCHBUTTONSELECTEDBORDER) !important;
   border-bottom: 1px solid var(--ADVANCEDSEARCHBUTTONSELECTEDBORDER) !important;
   border-top: 1px solid var(--ADVANCEDSEARCHBUTTONSELECTEDBORDER) !important;
+  margin-right: 1px !important;
 }
 
 .gamelistsearchbar_Disabled_1Gjk2:hover {
@@ -3964,6 +3965,13 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   polygon:hover {
   fill: var(--BUTTONHOVER) !important;
 }
+
+/* .gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_SearchInput_12vo5
+  .DialogInput_Wrapper {
+  margin-right: 4px !important;
+} */
+
 .gamelistdropdown_AppCount_3A3N3 {
   opacity: 1 !important;
 }
