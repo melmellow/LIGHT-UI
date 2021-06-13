@@ -747,6 +747,7 @@ a:-webkit-any-link {
 .youtubeembed_DynamicLinkBox_1IGUR {
   background: var(--BASE1) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 
 .youtubeembed_DynamicLink_YoutubeViews_3clz2 {
