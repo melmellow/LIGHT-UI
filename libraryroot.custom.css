@@ -225,7 +225,8 @@
   --CIRCLECOLLAPSER: VAR(--ACCENT);
   --CIRCLECOLLAPSERHOVER: VAR(--BLACK);
   --CIRCLECOLLAPSEROP: 1;
-  --CIRCLECOLLAPSERMARGIN: 5px; /*DEFAULT IS 0*/
+  --CIRCLECOLLAPSERMARGINRIGHT: 5px; /*DEFAULT IS 0*/
+  --CIRCLECOLLAPSERMARGINLEFT: 3px; /*DEFAULT IS 0*/
   --CIRCLECOLLAPSERWIDTH: 10px; /*DEFAULT IS 20PX*/
   --CIRCLECOLLAPSERHEIGHT: 10px; /*DEFAULT IS 20PX*/
 
@@ -315,7 +316,8 @@
 .collapseicon_Container_3SFRZ .SVGIcon_PlusCircle {
   width: VAR(--CIRCLECOLLAPSERWIDTH) !important;
   height: VAR(--CIRCLECOLLAPSERHEIGHT) !important;
-  margin-right: VAR(--CIRCLECOLLAPSERMARGIN) !important;
+  margin-right: VAR(--CIRCLECOLLAPSERMARGINRIGHT) !important;
+  margin-left: VAR(--CIRCLECOLLAPSERMARGINLEFT) !important;
 }
 
 .LowPerfMode
@@ -3081,6 +3083,11 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
   background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
 }
+
+.gamelistentry_FriendIsPlaying_cNZ3w {
+  width: 12px !important;
+}
+
 .gamelistentry_FriendIsPlaying_cNZ3w svg circle,
 .gamelistentry_FriendIsPlaying_cNZ3w svg path {
   fill: var(--FRIENDISPLAYING) !important;
