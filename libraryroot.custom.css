@@ -150,6 +150,8 @@
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
   --CHECKMARK: VAR(--ACCENT);
   --DROPDOWN: VAR(--BUTTON2);
+  --CHOOSEEMOTICON: VAR(--ACCENT);
+  --CHOOSEEMOTICONHOVER: VAR(--BLACK);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
   --DOWNLOADPROGRESSBAR: VAR(--ACCENT);
   --ACHIEVEMENTPROGRESSBAR: VAR(--ACCENT);
@@ -1813,6 +1815,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   button.posttextentry_EmoticonButton_bACIu {
   background-color: transparent !important;
 }
+
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_EmoticonButton_bACIu
@@ -1825,8 +1828,24 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .posttextentry_Controls_37e7D
   .posttextentry_EmoticonButton_bACIu
   path {
-  stroke: var(--ACCENT) !important;
+  stroke: var(--CHOOSEEMOTICON) !important;
   stroke-width: 20px !important;
+  fill: var(--BASE2) !important;
+}
+
+.posttextentry_PostTextEntry_3x31A
+  .posttextentry_Controls_37e7D:hover
+  .posttextentry_EmoticonButton_bACIu
+  line,
+.posttextentry_PostTextEntry_3x31A
+  .posttextentry_Controls_37e7D:hover
+  .posttextentry_EmoticonButton_bACIu
+  circle,
+.posttextentry_PostTextEntry_3x31A
+  .posttextentry_Controls_37e7D:hover
+  .posttextentry_EmoticonButton_bACIu
+  path {
+  stroke: var(--CHOOSEEMOTICONHOVER) !important;
   fill: var(--BASE2) !important;
 }
 
