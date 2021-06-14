@@ -1204,7 +1204,7 @@ img {
 .throbber_LoadingWrapper_2wAKy .throbber_Throbber_lYUEj,
 .throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber,
 .throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber path {
-  opacity: 60% !important;
+  opacity: 67.8% !important;
 }
 
 .LowPerfMode
@@ -1440,10 +1440,6 @@ img {
   background: VAR(--BASE2) !important;
 }
 
-.throbber_LoadingWrapper_2wAKy.throbber_Static_1Qfwp * {
-  filter: var(--LOADINGFILT) !important;
-  opacity: var(--LOADINGOP) !important;
-}
 .index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq {
   border-radius: 50px !important;
   background-color: VAR(--LOADINGDOT) !important;
