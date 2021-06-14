@@ -90,6 +90,7 @@
   --LOADINGOP: VAR(--OP2);
   --LOADINGDOT: VAR(--ACCENT);
   --AVATARBORDER: VAR(--WHITE);
+  --ACHIEVEMENTBORDERRADIUS: VAR(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBORDERRADIUS: var(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBG: VAR(--ACCENT);
   --HIDDENACHIEVEMENTQMARK: VAR(--WHITE);
@@ -2870,6 +2871,11 @@ div.NarrowRightPanel
 .appdetailsachievementssection_AdditionalItem_2aVnD {
   background-color: transparent !important;
 }
+
+.appdetailsachievementssection_Icon_zcasg {
+  border-radius: VAR(--ACHIEVEMENTBORDERRADIUS) !important;
+}
+
 .appdetailsachievementssection_HiddenLabel_2AYFr {
   background: var(--HIDDENACHIEVEMENTBG) !important;
   color: VAR(--HIDDENACHIEVEMENTQMARK) !important;
