@@ -2694,7 +2694,7 @@ div.NarrowRightPanel
 }
 
 .appdetailsplaysection_ActionSection_2zxzS {
-  height: 37px !important;
+  height: VAR(--ACTIONBUTTONHEIGHT) !important;
 }
 
 .gamelistentry_Container_2-O4Z
