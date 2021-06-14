@@ -1490,7 +1490,7 @@ img {
 }
 
 .DialogInputLabelGroup {
-  margin-bottom: 8px !important;
+  margin-bottom: 0 !important;
 }
 
 .DialogInput_ClearAction:hover .SVGIcon_X_Line line {
@@ -3827,8 +3827,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
   color: var(--ACCENT) !important;
-  margin-top: 0.2rem !important;
   font-weight: 400 !important;
+  align-self: center !important;
 }
 .collectionview_Container_2q70u {
   border-top: 1px solid var(--DETAILSPANELTOPBORDER) !important;
@@ -3872,10 +3872,21 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .library_LibraryWindowDivider_276E6 {
   background: VAR(--SIDEBARBORDER) !important;
 }
+
+/* .libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_SortingDropDown_30PVt {
+  margin-bottom: 9px !important;
+} */
+
 .appdetailsplaysection_StickyHeaderShadow_2_86Q {
   background-color: var(--BASE2) !important;
   background-image: none !important;
   border-bottom: 2px solid var(--DIVIDER) !important;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_SortingDropDown_30PVt {
+  align-self: center !important;
 }
 
 .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_ {
