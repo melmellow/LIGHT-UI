@@ -164,6 +164,7 @@
   --SIDEBAR: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--SHADOW);
+  --SEARCHFILTERBORDER: VAR(--ACCENT);
   --SEARCHFILTER: VAR(--ACCENT);
   --SEARCHFILTERTEXT: VAR(--WHITE);
   --INACTIVEDROPDOWNFILTERICON: VAR(--ACCENT);
@@ -3295,6 +3296,7 @@ A {
 .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ {
   background-color: var(--SEARCHFILTER) !important;
   border-radius: VAR(--SEARCHFILTERROUNDED) !important;
+  border: 1px solid var(--SEARCHFILTERBORDER) !important;
 }
 .DialogCheckbox {
   border: 1px SOLID VAR(--CHECKBOXBORDER) !important;
