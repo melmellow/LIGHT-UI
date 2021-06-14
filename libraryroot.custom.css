@@ -201,6 +201,7 @@
   --BUTTON2BORDERRADIUS: 0;
   --GAMEGROUPNAMEFONTWEIGHT: BOLD;
   --GAMESTATICONFILTER: VAR(--FILT);
+  --GAMESTATMARGIN: 2px; /*DEFAULT IS 0*/
   --COMMUNITYFEEDICONFILTER: VAR(--FILT);
   --SHOWCASEPAGEBUTTONICONFILTER: VAR(--FILT);
   --APPFEATUREICONTITLESECTIONOP: 1;
@@ -257,6 +258,11 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appdetailsplaysection_StatusAndStats_1YbtI
+  .appdetailsplaysection_StatusNameContainer_zjtAI {
+  top: var(--GAMESTATMARGIN) !important;
 }
 
 .gamelistsearchbar_Container_20QAC
