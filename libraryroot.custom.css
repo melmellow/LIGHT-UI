@@ -1,6 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 
 :root {
+  --SIDEBARLISTTEXTCASE: UPPERCASE; /*default is normal*/
   --gridrowgap: 2px;
   --gridcolumngap: 2px;
   --COLLECTIONSGRIDSPACING: 4px 4px;
@@ -44,8 +45,9 @@
   --PLAYBUTTON2: var(--ACCENT);
   --PLAYBUTTON2HOVER: VAR(--BLACK);
   --PLAYBUTTON2BORDERRADIUS: 50px;
-  --APPEVENTPAGEAPPSUMMARY: VAR(--BASE1);
-  --APPEVENTPAGE: VAR(--BASE2);
+  --YOUTUBELINKBOX: VAR(--BASE3);
+  --APPEVENTPAGEAPPSUMMARY: VAR(--BASE3);
+  --APPEVENTPAGE: VAR(--BASE1);
   --REMOVEGAMEHOVERBACKGROUND: VAR(--BASE3);
   --REMOVEGAMEHOVERBORDER: VAR(--RED);
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
@@ -846,7 +848,7 @@ a:-webkit-any-link {
 }
 
 .youtubeembed_DynamicLinkBox_1IGUR {
-  background: var(--BASE1) !important;
+  background: var(--YOUTUBELINKBOX) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
@@ -3911,6 +3913,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
   padding: 2px 4px 2px 22px !important;
+  text-transform: VAR(--SIDEBARLISTTEXTCASE) !important;
 }
 .libraryhomenewupdates_EventTime_2rlKq {
   color: var(--ACCENT) !important;
