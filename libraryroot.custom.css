@@ -162,6 +162,7 @@
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
   --CHECKMARK: VAR(--ACCENT);
   --DROPDOWN: VAR(--BUTTON2);
+  --DROPDOWNHOVER: VAR(--BUTTON2);
   --CHOOSEEMOTICON: VAR(--ACCENT);
   --CHOOSEEMOTICONHOVER: VAR(--BLACK);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
@@ -2472,6 +2473,12 @@ div.ShortRightPanel
 .gamelistbar_OneCollectionWarning_2Q95p:hover {
   background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
 }
+
+.DialogDropDown._DialogInputContainer.Panel.Focusable:hover {
+  background: var(--DROPDOWNHOVER) !important;
+  border-color: var(--BUTTONBORDERHOVER) !important;
+}
+
 .allcollections_ScrollContainer_u1xD3
   .allcollections_Header_2Th-v
   .allcollections_Rule_2wbrx {
@@ -2492,6 +2499,7 @@ div.ShortRightPanel
   border-radius: VAR(--DROPDOWNROUNDED1) !important;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer:hover {
+  background: VAR(--DROPDOWNHOVER) !important;
   transition: BORDER-COLOR 0.3s EASE-IN-OUT !important;
   border-color: var(--BUTTONBORDERHOVER) !important;
 }
@@ -3386,10 +3394,7 @@ A {
   color: transparent !important;
   filter: brightness(0) !important;
 }
-.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
-  background-color: transparent !important;
-  color: var(--BUTTONHOVER) !important;
-}
+
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_MenuHeader_2PF_m:hover
   .gamelistdropdown_Arrow_15aGn
@@ -3875,7 +3880,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border-bottom: 1px solid var(--BUTTONBORDER) !important;
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
-  background-color: var(--DROPDOWN) !important;
+  background-color: var(--DROPDOWNHOVER) !important;
   color: var(--ACCENT) !important;
   border-bottom: 1px solid var(--BUTTONBORDERHOVER) !important;
 }
@@ -4380,11 +4385,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow {
-  border-right: 1px SOLID var(--BASE2) !important;
-  border-top: 1px SOLID var(--BASE2) !important;
   border-bottom: 1px SOLID var(--BUTTONBORDER) !important;
   background-color: var(--DROPDOWN) !important;
   border-radius: VAR(--DROPDOWNROUNDED2) !important;
+  top: 0 !important;
 }
 .appgrid_SortingDropDown_1tBzy
   ._DialogInputContainer
@@ -4397,6 +4401,15 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   ._DialogInputContainer
   .DialogDropDown_CurrentDisplay {
   padding: 4px !important;
+}
+
+.appgrid_SortingDropDown_1tBzy
+  ._DialogInputContainer:hover
+  .DialogDropDown_CurrentDisplay,
+.appgrid_SortingDropDown_1tBzy
+  ._DialogInputContainer:hover
+  .DialogDropDown_Arrow {
+  background: var(--DROPDOWNHOVER) !important;
 }
 
 .appportrait_FeaturedCapsule_xp7A- .appportrait_LibraryItemActionButton_3AjoL {
