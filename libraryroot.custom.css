@@ -212,6 +212,7 @@
   --GAMEBOXARTBORDERROUNDED: 0;
   --CONTEXTMENUACTIONBUTTONICONOPACITY: VAR(--OP);
   --CONTEXTMENUACTIONBUTTONICONFILTER: VAR(--FILT);
+  --ACTIONBUTTONHEIGHT: 37px;
   --ACTIONBUTTONBORDER: NONE;
   --ACTIONBUTTONICONFILTER: NONE;
   --DETAILSPANELTOPBORDER: NONE;
@@ -2684,6 +2685,10 @@ div.NarrowRightPanel
 .appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
   border-radius: var(--ACTIONBUTTONROUNDED1) !important;
   border: 1px SOLID VAR(--ACTIONBUTTONBORDER) !important;
+}
+
+.appdetailsplaysection_ActionSection_2zxzS {
+  height: 37px !important;
 }
 
 .gamelistentry_Container_2-O4Z
