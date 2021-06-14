@@ -276,6 +276,12 @@
   */
 }
 
+.appactivityday_ScreenshotCarousel_1pdQd
+  .appactivityday_CarouselThumbs_1tRKR
+  .appactivityday_CarouselThumb_1Lot- {
+  border: 0 !important;
+}
+
 .appdetailsreviewsection_ReviewIconThumbsDownBox_H3AIY {
   background: var(--NEGATIVEREVIEWICONBACKGROUND) !important;
 }
