@@ -29,9 +29,12 @@
   --GREEN: #54a448;
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
+  --BLUE2: #71c4ff;
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --REVIEWOPTIONS: VAR(--BLUE);
+  --REVIEWOPTIONSHOVER: VAR(--BLUE2);
   --FRIENDSBAR: VAR(--GREEN);
   --PLAYBUTTON2: var(--ACCENT);
   --PLAYBUTTON2HOVER: VAR(--BLACK);
@@ -62,7 +65,8 @@
   --ADVANCEDSEARCHBORDERRADIUS: 0;
   --ACHIEVEMENTTITLEFONTWEIGHT: 600;
   --REVIEWICONBACKGROUNDBORDERRADIUS: VAR(--BORDERRADIUS);
-  --REVIEWICONBACKGROUND: VAR(--BLUE);
+  --POSITIVEREVIEWICONBACKGROUND: VAR(--BLUE);
+  --NEGATIVEREVIEWICONBACKGROUND: VAR(--RED);
   --REVIEWICON: VAR(--WHITE);
   --MISSINGGAMEART: VAR(--BUTTON2);
   --MOREINFOICON: VAR(--ACCENT);
@@ -178,7 +182,7 @@
   --INACTIVEDROPDOWNFILTERICON: VAR(--ACCENT);
   --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLACK);
   --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
-  --ACTIVEDROPDOWNFILTERICONHOVER: #71c4ff;
+  --ACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLUE2);
   --BOXSIZEREDGE: VAR(--BLUE);
   --PINBOX: VAR(--GREEN2);
   --PINBOXHOVER: VAR(--GREEN);
@@ -269,6 +273,11 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appactivityday_ReviewIconThumbsDownBox_1VDAe {
+  background: VAR(--NEGATIVEREVIEWICONBACKGROUND) !important;
+  border-radius: var(--REVIEWICONBACKGROUNDBORDERRADIUS) !important;
 }
 
 .appdetailsplaysection_StatusAndStats_1YbtI
@@ -2146,7 +2155,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   border-radius: var(--SUBSCRIPTBORDERRADIUS) !important;
 }
 .appactivityday_ReviewIconThumbsUp_2oPMu {
-  background: var(--REVIEWICONBACKGROUND) !important;
+  background: var(--POSITIVEREVIEWICONBACKGROUND) !important;
   border-radius: VAR(--REVIEWICONBACKGROUNDBORDERRADIUS) !important;
 }
 .appproperties_AppProperties_1FyBL
@@ -2221,14 +2230,19 @@ div.ShortRightPanel
 }
 .writereview_OptionsContainer_lNPFw .writereview_OptionButton_2gJ9F {
   outline: 0 !important;
-  background: var(--ACCENT) !important;
+  background: var(--REVIEWOPTIONS) !important;
 }
+
+.writereview_OptionsContainer_lNPFw .writereview_OptionButton_2gJ9F:hover {
+  background: var(--REVIEWOPTIONSHOVER) !important;
+}
+
 .writereview_OptionsContainer_lNPFw .writereview_LeftContainer_2aeAn {
-  border-right: 1px solid var(--BUTTONBORDER) !important;
+  border-right: 1px solid var(--DIVIDER) !important;
 }
 .writereview_OptionsContainer_lNPFw {
-  background-color: var(--BUTTON) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  background-color: var(--BASE1) !important;
+  border: 1px SOLID var(--DIVIDER) !important;
 }
 
 .writereview_ThumbIcon_2Jkk-.writereview_Up_2DXZF {
@@ -2336,8 +2350,13 @@ div.ShortRightPanel
 .appdetailsreviewsection_ReviewIconThumbsUpColor_3QZfw {
   fill: var(--REVIEWICON) !important;
 }
+
+.appactivityday_ReviewIconThumbsDownColor_1vUp7 {
+  fill: VAR(--REVIEWICON) !important;
+}
+
 .appdetailsreviewsection_ReviewIconThumbsUp_2BlTq {
-  background: VAR(--REVIEWICONBACKGROUND) !important;
+  background: VAR(--POSITIVEREVIEWICONBACKGROUND) !important;
 }
 .appdetailsachievementssection_Icon_zcasg {
   filter: grayscale(30%) !important;
