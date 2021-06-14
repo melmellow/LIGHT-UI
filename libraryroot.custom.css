@@ -126,6 +126,7 @@
   --APPPORTRAITINSTALLBUTTON: VAR(--ACCENT);
   --APPPORTRAITINSTALLBUTTONHOVER: VAR(--BLACK);
   --BROADCASTPLAYBUTTON: VAR(--ACCENT);
+  --BROADCASTPLAYBUTTONBORDER: VAR(--WHITE);
   --BROADCASTPLAYBUTTONHOVER: VAR(--BLACK);
   --SHELFDROPDOWNLISTMENUBORDER: VAR(--DIVIDER);
   --SHELFPLAYBUTTON: VAR(--ACCENT);
@@ -895,6 +896,8 @@ svg.SVGIcon_Button.SVGIcon_Star_Filled:hover {
 
 .BroadcastVideoUserInputNeeded .SVGIcon_Play {
   background: var(--BROADCASTPLAYBUTTON) !important;
+  border: 1px solid var(--BROADCASTPLAYBUTTONBORDER) !important;
+  transition: all 0.18s ease-in-out;
 }
 
 .BroadcastVideoUserInputNeeded .SVGIcon_Play:hover {
@@ -904,6 +907,7 @@ svg.SVGIcon_Button.SVGIcon_Star_Filled:hover {
 .BroadcastVideoUserInputNeeded .SVGIcon_Play path {
   fill: var(--WHITE) !important;
   stroke: var(--WHITE) !important;
+  stroke-width: 0 !important;
 }
 
 button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.DialogButton._DialogLayout.Secondary:hover {
