@@ -33,7 +33,7 @@
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
   --BLUE2: #71c4ff;
-  --WHITE: #fff;
+  --WHITE: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
   --REVIEWOPTIONS: VAR(--BLUE);
