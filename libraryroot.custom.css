@@ -275,6 +275,14 @@
   */
 }
 
+.appdetailsreviewsection_ReviewIconThumbsDownBox_H3AIY {
+  background: var(--NEGATIVEREVIEWICONBACKGROUND) !important;
+}
+
+.appdetailsreviewsection_ReviewIconThumbsDownColor_GUO5K {
+  fill: var(--REVIEWICON) !important;
+}
+
 .appactivityday_ReviewIconThumbsDownBox_1VDAe {
   background: VAR(--NEGATIVEREVIEWICONBACKGROUND) !important;
   border-radius: var(--REVIEWICONBACKGROUNDBORDERRADIUS) !important;
