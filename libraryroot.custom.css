@@ -9,7 +9,7 @@
   --UNINSTALLEDGAMEIMAGEOPACITY: 0.7;
   --UNINSTALLEDGAMEIMAGEFILTER: NONE;
   --GAMEIMAGEACTIVEFILTER: BRIGHTNESS(1.3);
-  --GAMEIMAGEDRAGGEDFILTER: BLUR(5);
+  --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --OP: 63%;
   --OP2: 60.5%;
@@ -2586,9 +2586,8 @@ div.ShortRightPanel
   border-radius: 10px !important;
 }
 .appportrait_LibraryItemBox_WYgDg {
-  /* border-radius: 0 !important;
-  border-bottom: 1px SOLID var(--SHADOW) !important; */
-  filter: VAR(--GAMEIMAGEDRAGGEDFILTER);
+  border-radius: 0 !important;
+  border-bottom: 1px SOLID var(--SHADOW) !important;
 }
 .appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-,
 .appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn,
