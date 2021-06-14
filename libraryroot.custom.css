@@ -4410,6 +4410,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   ._DialogInputContainer:hover
   .DialogDropDown_Arrow {
   background: var(--DROPDOWNHOVER) !important;
+  border-color: var(--BUTTONBORDERHOVER) !important;
 }
 
 .appportrait_FeaturedCapsule_xp7A- .appportrait_LibraryItemActionButton_3AjoL {
