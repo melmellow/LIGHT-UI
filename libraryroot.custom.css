@@ -3117,6 +3117,11 @@ div.NarrowRightPanel
   font-weight: bold !important;
 }
 
+.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
+  ._DialogInputContainer {
+  margin-left: 11px !important;
+}
+
 .writereview_RatingContainer_2SAb6 {
   background-color: var(--RATINGCONTAINER) !important;
   border-radius: var(--BORDERRADIUS) !important;
@@ -3542,6 +3547,7 @@ A {
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   ._DialogInputContainer {
+  /* width: 105px !important; */
   box-shadow: NONE !important;
   background-color: var(--BASE1) !important;
   font-weight: 500 !important;
@@ -3619,6 +3625,7 @@ A {
   box-shadow: 0 0 2px VAR(--SHADOW) !important;
   left: 200px !important;
   border-radius: VAR(--DROPDOWNBORDERROUNDED) !important;
+  margin-left: 11px !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
@@ -3870,6 +3877,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background-image: none !important;
   border-bottom: 2px solid var(--DIVIDER) !important;
 }
+
+.library_LibraryWindowDivider_276E6.library_Sizable_2g5K_ {
+  cursor: ew-resize !important;
+}
+
 .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_:hover {
   background-color: NONE !important;
 }
