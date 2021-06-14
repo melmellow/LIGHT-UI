@@ -187,6 +187,7 @@
   --PINBOX: VAR(--GREEN2);
   --PINBOXHOVER: VAR(--GREEN);
   --DETAILSSECTIONHEADER: VAR(--ACCENT);
+  --MCSCOREBACKGROUNDHIGHSCORE: VAR(--GREEN);
   --MCSCOREBACKGROUND: VAR(--BLACK);
   --MCSCOREBORDER: VAR(--WHITE);
   --SUBSCRIPTTEXTFONTWEIGHT: 500;
@@ -2156,7 +2157,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   fill: VAR(--REVIEWICON) !important;
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40 {
-  background: var(--MCSCOREBACKGROUND) !important;
+  background: var(--MCSCOREBACKGROUNDHIGHSCORE) !important;
   border: 1px solid var(--MCSCOREBORDER) !important;
   color: VAR(--MCSCORETEXT) !important;
   font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
