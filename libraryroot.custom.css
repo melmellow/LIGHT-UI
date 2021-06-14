@@ -1711,6 +1711,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   background-color: var(--BUTTON1) !important;
   border-radius: VAR(--BUTTON1BORDERRADIUS) !important;
 }
+
+.emoticon_NewEmoticonIndicator_3O2gR {
+  width: 9px !important;
+  left: 67% !important;
+}
+
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY
   .appproperties_BlueHighlight_1KmR8 {
