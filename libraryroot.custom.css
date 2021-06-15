@@ -37,6 +37,13 @@
   --WHITE: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --NEWEMOTICONINDICATORSHADOW: radial-gradient(
+    ellipse farthest-corner at 50% 50%,
+    rgba(255, 153, 0, 0.8) 0%,
+    rgba(233, 154, 35, 0.2) 45%,
+    rgba(233, 154, 35, 0) 85%
+  );
+  --NEWEMOTICONINDICATOR: #ff0;
   --REVIEWOPTIONS: VAR(--BLUE);
   --REVIEWOPTIONSHOVER: VAR(--BLUE2);
   --FRIENDSBARBACKGROUND: NONE;
@@ -285,6 +292,14 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.emoticon_NewEmoticonIndicator_3O2gR {
+  background: VAR(--NEWEMOTICONINDICATORSHADOW) !important;
+}
+
+.emoticon_NewEmoticonIndicator_3O2gR .emoticon_NewEmoticonCircle_JRMFr {
+  background-color: var(--NEWEMOTICONINDICATOR) !important;
 }
 
 .draganddrop_Draggable_2wgFG.draganddrop_Active_1FSEr {
