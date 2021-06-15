@@ -331,6 +331,33 @@
   */
 }
 
+.BroadcastVideoWatchState,
+.BroadcastVideoUserInputNeeded {
+  background: var(--BASE1) !important;
+}
+
+.videoControls .videoControlsBottom {
+  background: VAR(--BASE1) !important;
+}
+
+.videoControlButton.videoControlGoLive.isLiveEdge:hover .jumpGoLive,
+.videoControlButton.videoControlGoLive.isLiveEdge .jumpGoLive {
+  color: var(--BLUE) !important;
+}
+
+.appdetailsbroadcastsection_BroadcastPlayer_2lAf2,
+.appdetailsbroadcastsection_BroadcastThumbnail_2l1gE {
+  border-color: var(--DIVIDER) !important;
+}
+
+.videoControlButton.buttonPlayPause {
+  border: 4px SOLID VAR(--ACCENT) !important;
+}
+
+.videoControlButton.buttonPlayPause .SVGIcon_Button path {
+  fill: var(--ACCENT) !important;
+}
+
 .index_Container_2mu1w.index_PreloadThrobber_2dqG9 {
   border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
   background: VAR(--BASE2) !important;
@@ -2248,7 +2275,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 
 .videoSrc {
-  border: 1px solid var(--SHADOW) !important;
+  border: 1px solid none !important;
   background-color: var(--BASE1) !important;
 }
 .appactionbutton_ButtonChild_2AzIX {
