@@ -142,6 +142,7 @@
   --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
   --UPDATINGGAMENAMECOLOR: VAR(--ACCENT);
   --UPDATINGGAMENAMEFONTWEIGHT: 500;
+  --UPDATINGGAMESTATECOLOR: BOLD;
   --UPDATINGGAMESTATECOLOR: VAR(--BLACK);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
@@ -2837,7 +2838,7 @@ div.NarrowRightPanel
 .gamelistentry_Container_2-O4Z
   .gamelistentry_GameListEntryContainer_1vO6B
   .gamelistentry_DownloadProgress_3uk3F {
-  font-weight: bold !important;
+  font-weight: var(--UPDATINGGAMESTATEFONTWEIGHT) !important;
 }
 .ingame
   .personanameandstatus_gameName_1cB0q.personanameandstatus_richPresenceLabel_2Ri00,
