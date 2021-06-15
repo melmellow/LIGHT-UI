@@ -38,6 +38,9 @@
   --WHITE: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --SCROLLTOTOPSIDEBAR: VAR(--ACCENT);
+  --SCROLLTOTOPSIDEBARHOVER: VAR(--BLACK);
+  --SCROLLTOTOPSIDEBARSTROKEWIDTH: 20px;
   --NEWEMOTICONINDICATORSHADOW: radial-gradient(
     ellipse farthest-corner at 50% 50%,
     rgba(255, 153, 0, 0.8) 0%,
@@ -2142,8 +2145,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   background-color: var(--BUTTON) !important;
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline {
-  stroke: var(--ACCENT) !important;
+  stroke: var(--SCROLLTOTOPSIDEBAR) !important;
+  stroke-width: VAR(--SCROLLTOTOPSIDEBARSTROKEWIDTH) !important;
 }
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline:hover {
+  stroke: var(--SCROLLTOTOPSIDEBARHOVER) !important;
+}
+
 .libraryhomenewupdates_GameIconAndName_3_xMy
   .libraryhomenewupdates_GameName_28Iqr {
   color: var(--WHITE) !important;
