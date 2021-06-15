@@ -331,6 +331,10 @@
   */
 }
 
+.BroadcastFullscreenToggle {
+  filter: brightness(0) !important;
+}
+
 .BroadcastTheaterToggle {
   filter: brightness(0) !important;
 }
@@ -345,6 +349,8 @@
 
 .BroadcastVolumeSlider_Track {
   background-color: var(--BUTTON2) !important;
+  height: 4px !important;
+  border-radius: 50px !important;
 }
 
 .videoTimelineMain .STV_timelineNoVideo {
