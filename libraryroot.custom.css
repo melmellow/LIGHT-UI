@@ -236,6 +236,8 @@
   --DROPDOWNROUNDED2: 0;
   --DROPDOWNROUNDED3: 0;
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER2);
+  --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
+  --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
   --BUTTON1BORDERRADIUS: 0;
@@ -300,6 +302,18 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_SearchInput_12vo5
+  .DialogTextInputBase:hover {
+  border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_SearchInput_12vo5
+  .DialogTextInputBase:focus {
+  border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
 }
 
 .emoticon_NewEmoticonIndicator_3O2gR {
