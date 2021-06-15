@@ -100,7 +100,9 @@
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
   --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
-  --ADDTOFAVORITESHOVER: VAR(--FILT);
+  --REMOVEFROMFAVORITESHOVER: VAR(--FILT);
+  --ADDTOFAVORITESHOVER: VAR(--BLACK);
+  --SETTINGSHOVER: VAR(--BLACK);
   --NEWLYADDEDDLCLINK: VAR(--ACCENT);
   --NEWLYADDEDDLCMESSAGE: VAR(--ACCENT);
   --NEWLYADDEDDLC: VAR(--BASE1);
@@ -1123,7 +1125,7 @@ a:-webkit-any-link {
 }
 
 svg.SVGIcon_Button.SVGIcon_Star_Filled:hover {
-  filter: var(--ADDTOFAVORITESHOVER) !important;
+  filter: var(--REMOVEFROMFAVORITESHOVER) !important;
 }
 
 .BroadcastVideoUserInputNeeded .SVGIcon_Play {
@@ -4183,10 +4185,22 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appdetailsprimarylinkssection_MenuButton_1bIMO {
   fill: var(--ACCENT) !important;
 }
-.appdetailsplaysection_MenuButton_3qDWQ:hover {
+.appdetailsplaysection_MenuButton_3qDWQ:hover,
+.appdetailsplaysection_MenuButton_3qDWQ:hover.appdetailsplaysection_FavoriteButton_21hXW
+  svg
+  path {
   background-color: var(--BASE2) !important;
+  stroke: var(--ADDTOFAVORITESHOVER) !important;
 }
+
 .appdetailsplaysection_MenuButton_3qDWQ:hover .SVGIcon_Settings path {
+  fill: VAR(--SETTINGSHOVER) !important;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ:hover
+  .appdetailsplaysection_MenuButton_3qDWQ:hover
+  .SVGIcon_Settings
+  path {
   fill: var(--BUTTONHOVER) !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ svg {
