@@ -193,6 +193,7 @@
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOP: VAR(--ACCENT);
   --SCROLLTOTOPBORDER: VAR(--WHITE);
+  --FILTERBUCKETLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --ADVANCEDSEARCH: VAR(--BASE3);
   --ADVANCEDSEARCHBORDER: VAR(--DIVIDER);
   --ADVANCEDSEARCHSHADOW: NONE;
@@ -2774,7 +2775,7 @@ div.NarrowRightPanel
   .appfilterpane_FilterBucket_1axoi
   .appfilterpane_FilterBucketLabel_3iV2v {
   color: var(--ACCENT) !important;
-  font-weight: bold !important;
+  font-weight: VAR(--FILTERBUCKETLABELFONTWEIGHT) !important;
 }
 :not(.appactionbutton_Disabled_1Pb6P)
   > .appactionbutton_ButtonChild_2AzIX
