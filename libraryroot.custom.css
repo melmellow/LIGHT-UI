@@ -101,6 +101,8 @@
   --MOREINFOICONQMARK: VAR(--WHITE);
   --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
   --REMOVEFROMFAVORITESHOVER: VAR(--FILT);
+  --MENUBUTTONSBORDERRADIUS: 0;
+  --MENUBUTTONSBACKGROUND: VAR(--BASE2);
   --MENUBUTTONSBACKGROUNDHOVER: VAR(--BASE2);
   --ADDTOFAVORITESHOVER: VAR(--BLACK);
   --SETTINGSHOVER: VAR(--BLACK);
@@ -4010,7 +4012,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   fill: var(--ADVANCEDSEARCHBUTTONHOVER) !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ {
-  background-color: var(--BASE2) !important;
+  background-color: var(--MENUBUTTONSBACKGROUND) !important;
+  border-radius: VAR(--MENUBUTTONSBORDERRADIUS) !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ:hover
   .appdetailsplaysection_DotDotDot_zvLq1
@@ -4177,10 +4180,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appdetailssectionheader_SectionHeader_1Q2q_ {
   color: var(--DETAILSSECTIONHEADER) !important;
   font-weight: VAR(--DETAILSSECTIONHEADERFONTWEIGHT) !important;
-}
-
-.appdetailsplaysection_AppButtonsContainer_lO1IF > :last-child {
-  border-radius: 0 10px 10px 0 !important;
 }
 
 .appdetailsprimarylinkssection_MenuButton_1bIMO {
