@@ -143,6 +143,8 @@
   --UPDATINGGAMENAMECOLOR: VAR(--ACCENT);
   --UPDATINGGAMENAMEFONTWEIGHT: 500;
   --UPDATINGGAMESTATEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --COMMUNITYFEEDDESCRIPTIONFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --COMMUNITYFEEDGUIDETITLEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --UPDATINGGAMESTATECOLOR: VAR(--BLACK);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
@@ -2897,7 +2899,7 @@ div.NarrowRightPanel
 .appdetailscommunityfeed_ArtItem_1aP1b
   .appdetailscommunityfeed_DescriptionRow_Uhvgn {
   color: var(--ACCENT) !important;
-  font-weight: BOLD !important;
+  font-weight: var(--COMMUNITYFEEDDESCRIPTIONFONTWEIGHT) !important;
 }
 .appdetailscommunityfeed_ArtItem_1aP1b
   .appdetailscommunityfeed_BottomSection_3uabi {
@@ -2922,7 +2924,7 @@ div.NarrowRightPanel
 
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_GuideTitle_23Pup {
   color: var(--ACCENT) !important;
-  font-weight: BOLD !important;
+  font-weight: VAR(--COMMUNITYFEEDGUIDETITLEFONTWEIGHT) !important;
 }
 
 .appdetailscommunityfeed_CommunityItem_3QS6O
