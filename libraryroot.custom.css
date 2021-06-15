@@ -43,7 +43,7 @@
   --SCROLLTOTOPSIDEBARBACKGROUNDSELECTED: VAR(
     --GAMENAMERIGHTCLICKBACKGROUNDHOVER
   );
-  --SCROLLTOTOPSIDEBARHOVER: VAR(--BLACK);
+  --SCROLLTOTOPSIDEBARHOVER: VAR(--ACCENT);
   --SCROLLTOTOPSIDEBARSTROKEWIDTH: 20px;
   --NEWEMOTICONINDICATORSHADOW: radial-gradient(
     ellipse farthest-corner at 50% 50%,
@@ -2122,8 +2122,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   border: NONE !important;
   background-color: TRANSPARENT !important;
 }
-.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:hover {
+.gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow,
+.gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow polyline {
   background-color: var(--SCROLLTOTOPSIDEBARBACKGROUNDHOVER) !important;
+  stroke: var(--SCROLLTOTOPSIDEBARHOVER) !important;
 }
 
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:active {
@@ -2253,10 +2255,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline {
   stroke: var(--SCROLLTOTOPSIDEBAR) !important;
   stroke-width: VAR(--SCROLLTOTOPSIDEBARSTROKEWIDTH) !important;
-}
-
-.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline:hover {
-  stroke: var(--SCROLLTOTOPSIDEBARHOVER) !important;
 }
 
 .libraryhomenewupdates_GameIconAndName_3_xMy
