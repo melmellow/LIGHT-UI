@@ -24,6 +24,7 @@
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDER2: #b6b6b6;
   --CHECKBOXBORDER: #b3b3b3;
+  --CHECKBOXBORDERHOVER: VAR(--ACCENT);
   --BUTTONBORDERHOVER: #8d8d8d;
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
   --BUTTON2: #d6d6d6;
@@ -3475,7 +3476,7 @@ A {
   color: var(--ACCENT) !important;
 }
 .DialogCheckbox:hover {
-  border-color: var(--ACCENT) !important;
+  border-color: var(--CHECKBOXBORDERHOVER) !important;
 }
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
