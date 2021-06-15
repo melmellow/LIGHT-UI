@@ -43,6 +43,7 @@
     rgba(233, 154, 35, 0.2) 45%,
     rgba(233, 154, 35, 0) 85%
   );
+  --APPTAG: VAR(--BASE4);
   --NEWEMOTICONINDICATOR: #ff0;
   --REVIEWOPTIONS: VAR(--BLUE);
   --REVIEWOPTIONSHOVER: VAR(--BLUE2);
@@ -825,7 +826,7 @@ a:-webkit-any-link {
 
 .salepreviewwidgets_AppTag_3FJnZ {
   color: var(--ACCENT) !important;
-  background-color: var(--BASE3) !important;
+  background-color: var(--APPTAG) !important;
   border: 1px SOLID VAR(--DIVIDER) !important;
 }
 
