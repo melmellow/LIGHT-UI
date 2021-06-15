@@ -4056,6 +4056,17 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background: var(--TEXTENTRY) !important;
   transition: all 0.18s ease-in-out;
 }
+
+.posttextentry_PostTextEntry_3x31A
+  .posttextentry_PostTextEntryArea_1JlC2:hover {
+  border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.posttextentry_PostTextEntry_3x31A
+  .posttextentry_PostTextEntryArea_1JlC2:focus {
+  border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
+}
+
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_PostTextEntryArea_1JlC2::selection {
   color: var(--ACCENT) !important;
