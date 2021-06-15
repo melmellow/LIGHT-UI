@@ -331,6 +331,14 @@
   */
 }
 
+.BroadcastTheaterToggle {
+  filter: brightness(0) !important;
+}
+
+.videoTimelineMain .STV_timelineGhostValue {
+  background: var(--BLUE) !important;
+}
+
 .BroadcastVolumeSlider_Thumb {
   background: var(--ACCENT) !important;
 }
