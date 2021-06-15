@@ -3511,6 +3511,10 @@ A {
   background-color: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER) !important;
 }
 
+.appgrid_SortingDropDownContainer_1ZpBQ {
+  margin-left: 0 !important;
+}
+
 .appgrid_SortingDropDownContainer_1ZpBQ > div {
   border-left: none !important;
   background: var(--BASE1) !important;
