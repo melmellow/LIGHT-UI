@@ -331,6 +331,27 @@
   */
 }
 
+.BroadcastVolumeSlider_Thumb {
+  background: var(--ACCENT) !important;
+}
+
+.BroadcastVolumeSlider_Track {
+  background-color: var(--BUTTON2) !important;
+}
+
+.videoTimelineMain .STV_timelineNoVideo {
+  background: var(--ACCENT) !important;
+}
+
+.videoControlButton .SVGIcon_Button polyline,
+.videoControlButton .SVGIcon_Button path {
+  fill: var(--ACCENT) !important;
+}
+
+.videoControlButton .jumpAheadValue {
+  color: var(--WHITE) !important;
+}
+
 .BroadcastVideoWatchState,
 .BroadcastVideoUserInputNeeded {
   background: var(--BASE1) !important;
@@ -351,6 +372,7 @@
 }
 
 .videoControlButton.buttonPlayPause {
+  background-color: none !important;
   border: 4px SOLID VAR(--ACCENT) !important;
 }
 
