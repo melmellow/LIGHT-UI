@@ -28,6 +28,7 @@
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
   --BUTTON2: #d6d6d6;
   --GAMENAMERIGHTCLICKBACKGROUNDHOVER: #cacaca;
+  --FILTERCLEARACTIVE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --BLACK: #000;
   --RED: #d21116;
   --GREEN: #54a448;
@@ -686,7 +687,7 @@
 }
 
 .gamelistsearchbar_SearchFilterInputClear_38tIM:active {
-  background: var(--TEXTENTRYHIGHLIGHT) !important;
+  background: VAR(--FILTERCLEARACTIVE) !important;
 }
 
 .appdetailsheader_InCollection_1HS4t {
