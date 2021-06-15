@@ -186,6 +186,7 @@
   --DROPDOWNBORDER: VAR(--BUTTONBORDER);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --DROPDOWNHOVER: VAR(--BUTTON2);
+  --CHOOSEEMOTICONSTROKEWIDTH: 18px;
   --CHOOSEEMOTICON: VAR(--ACCENT);
   --CHOOSEEMOTICONHOVER: VAR(--BLACK);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
@@ -1948,7 +1949,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .posttextentry_EmoticonButton_bACIu
   path {
   stroke: var(--CHOOSEEMOTICON) !important;
-  stroke-width: 20px !important;
+  stroke-width: var(--CHOOSEEMOTICONSTROKEWIDTH) !important;
   fill: var(--BASE2) !important;
 }
 
