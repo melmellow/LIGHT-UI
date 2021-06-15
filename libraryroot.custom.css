@@ -1160,6 +1160,10 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
   background-color: var(--TEXTENTRYBACKGROUNDHOVER) !important;
 }
 
+.DialogInput_Wrapper > input.DialogInput:focus-within {
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
+}
+
 /*LIBRARY HOME ICON*/
 
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
