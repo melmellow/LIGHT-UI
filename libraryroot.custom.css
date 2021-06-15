@@ -84,6 +84,7 @@
   --STEAMAVATAROP: 1;
   --SUBCRIPTMARGIN: -32px;
   --SUBSCRIPTBORDERRADIUS: 4px;
+  --DROPDOWNITEMSFONTWEIGHT: NONE;
   --DROPDOWNBORDERROUNDED: 0;
   --CONTEXTMENUBORDERRADIUS: 0;
   --ADVANCEDSEARCHBORDERRADIUS: 0;
@@ -1235,7 +1236,7 @@ img {
 
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   .libraryhomeshowcases_DropDownItems_lYnGt {
-  font-weight: 400 !important;
+  font-weight: VAR(--DROPDOWNITEMSFONTWEIGHT) !important;
 }
 
 .appactionbutton_Green_3cI5T
@@ -4498,7 +4499,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
-  font-weight: 400 !important;
+  font-weight: VAR(--DROPDOWNITEMSFONTWEIGHT) !important;
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ
