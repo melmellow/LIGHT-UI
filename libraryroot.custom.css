@@ -196,6 +196,7 @@
   --SCROLLTOTOP: VAR(--ACCENT);
   --SCROLLTOTOPBORDER: VAR(--WHITE);
   --FILTERBUCKETLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --APPGRIDSECTIONLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --ADVANCEDSEARCH: VAR(--BASE3);
   --ADVANCEDSEARCHBORDER: VAR(--DIVIDER);
   --ADVANCEDSEARCHSHADOW: NONE;
@@ -2271,7 +2272,7 @@ div.ShortRightPanel
 }
 .appgrid_AppGridSectionLabel_2hvQb {
   color: VAR(--ACCENT) !important;
-  font-weight: 500 !important;
+  font-weight: VAR(--APPGRIDSECTIONLABELFONTWEIGHT) !important;
 }
 .appdetailsplaysection_InvalidPlatform_3Ads1 span {
   color: VAR(--ACCENT) !important;
