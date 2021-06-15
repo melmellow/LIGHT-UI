@@ -331,6 +331,19 @@
   */
 }
 
+.videoControlButton:hover {
+  filter: brightness(0) !important;
+}
+
+.BroadcastVideoWatchState,
+.BroadcastVideoUserInputNeeded {
+  filter: brightness(0) !important;
+}
+
+.videoControlButton.buttonPlayPause:hover {
+  background-color: NONE !important;
+}
+
 .BroadcastFullscreenToggle {
   filter: brightness(0) !important;
 }
@@ -351,6 +364,7 @@
   background-color: var(--BUTTON2) !important;
   height: 4px !important;
   border-radius: 50px !important;
+  top: 9px !important;
 }
 
 .videoTimelineMain .STV_timelineNoVideo {
@@ -363,7 +377,7 @@
 }
 
 .videoControlButton .jumpAheadValue {
-  color: var(--WHITE) !important;
+  color: var(--ACCENT) !important;
 }
 
 .BroadcastVideoWatchState,
