@@ -1,7 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 
 :root {
-  --SIDEBARLISTTEXTCASE: UPPERCASE; /*default is normal*/
+  --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
   --gridrowgap: 2px;
   --gridcolumngap: 2px;
   --COLLECTIONSGRIDSPACING: 4px 4px;
