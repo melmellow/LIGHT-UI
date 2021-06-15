@@ -101,6 +101,7 @@
   --MOREINFOICONQMARK: VAR(--WHITE);
   --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
   --REMOVEFROMFAVORITESHOVER: VAR(--FILT);
+  --MENUBUTTONSBACKGROUNDHOVER: VAR(--BASE2);
   --ADDTOFAVORITESHOVER: VAR(--BLACK);
   --SETTINGSHOVER: VAR(--BLACK);
   --NEWLYADDEDDLCLINK: VAR(--ACCENT);
@@ -4189,7 +4190,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appdetailsplaysection_MenuButton_3qDWQ:hover.appdetailsplaysection_FavoriteButton_21hXW
   svg
   path {
-  background-color: var(--BASE2) !important;
+  background-color: var(--MENUBUTTONSBACKGROUNDHOVER) !important;
   stroke: var(--ADDTOFAVORITESHOVER) !important;
 }
 
