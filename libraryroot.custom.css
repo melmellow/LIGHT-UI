@@ -148,6 +148,7 @@
   --COMMUNITYFEEDGUIDETITLEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --COLLECTIONSHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --COLLECTIONSNAMEHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --SOUNDTRACKDISCFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --UPDATINGGAMESTATECOLOR: VAR(--BLACK);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
@@ -312,6 +313,13 @@
   CONTRAST(5%)
   */
 }
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_AlbumName_oW5xv {
+  text-transform: UPPERCASE !important;
+}
+
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
@@ -1421,7 +1429,7 @@ img {
   .appdetailssoundtrack_Disc_17Yl1 {
   background: NONE !important;
   color: VAR(--ACCENT) !important;
-  font-weight: 600 !important;
+  font-weight: var(--SOUNDTRACKDISCFONTWEIGHT) !important;
   text-transform: uppercase !important;
 }
 
