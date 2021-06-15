@@ -314,6 +314,14 @@
   border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
 }
 
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .DialogInput_Wrapper
+  .DialogTextInputBase:focus {
+  border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
+}
+
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchInput_12vo5
   .DialogTextInputBase:hover {
