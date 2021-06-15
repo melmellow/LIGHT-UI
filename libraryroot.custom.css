@@ -1,5 +1,4 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
-
 :root {
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
   --gridrowgap: 2px;
@@ -324,6 +323,18 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.index_Container_2mu1w.index_PreloadThrobber_2dqG9 {
+  border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
+  background: VAR(--BASE2) !important;
+  filter: grayscale(2) !important;
+}
+
+.index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq {
+  border-radius: 50px !important;
+  background-color: VAR(--LOADINGDOT) !important;
+  opacity: 50%;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
@@ -1299,12 +1310,6 @@ img {
   filter: VAR(--CONTEXTMENUACTIONBUTTONICONFILTER) !important;
 }
 
-.throbber_LoadingWrapper_2wAKy .throbber_Throbber_lYUEj,
-.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber,
-.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber path {
-  opacity: 67.8% !important;
-}
-
 .LowPerfMode
   .allcollections_Collection_3IWn-
   .allcollections_CollectionImage_2ERAQ
@@ -1327,10 +1332,6 @@ img {
 .appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
   .appgrid_CountGamesExcluded_2R_HL {
   font-weight: VAR(--GAMESEXCLUDEDCOUNTERFONTWEIGHT) !important;
-}
-
-.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber.throbber_blur_1ctjA {
-  filter: BRIGHTNESS(0) !important;
 }
 
 .removegamehover_Container_1rdB7
@@ -1531,16 +1532,6 @@ img {
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
   border-radius: VAR(--ADVANCEDSEARCHBORDERRADIUS) !important;
-}
-
-.index_Container_2mu1w.index_PreloadThrobber_2dqG9 {
-  border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
-  background: VAR(--BASE2) !important;
-}
-
-.index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq {
-  border-radius: 50px !important;
-  background-color: VAR(--LOADINGDOT) !important;
 }
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
   background: VAR(--BASE2) !important;
