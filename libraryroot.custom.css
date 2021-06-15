@@ -282,6 +282,7 @@
   --GAMEARTBACKGROUNDCILTER: NONE;
   --GAMELOGOFILTER: NONE;
   --GAMEBOXARTFILTER: NONE;
+  --SOUNDTRACKALBUMARTFILTER: NONE;
   --NEWAPPBANNERBORDER: VAR(--WHITE);
   --NEWAPPBANNERBACKGROUND: VAR(--BLACK);
   --NEWAPPBANNERTEXT: VAR(--WHITE);
@@ -319,6 +320,13 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_LeftColumn_23WS1
+  .appdetailssoundtrack_AlbumArt_1R0eE {
+  filter: var(--SOUNDTRACKALBUMARTFILTER) !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
