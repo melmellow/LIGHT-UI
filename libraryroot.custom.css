@@ -166,9 +166,15 @@
   --QUICKINSTALLBOTTOMMARGIN: 71%; /*DEFAULT IS 2%*/
   --APPPORTRAITINSTALLBUTTON: VAR(--ACCENT);
   --APPPORTRAITINSTALLBUTTONHOVER: VAR(--BLACK);
-  --BROADCASTPLAYBUTTON: VAR(--ACCENT);
-  --BROADCASTPLAYBUTTONBORDER: VAR(--WHITE);
-  --BROADCASTPLAYBUTTONHOVER: VAR(--BLACK);
+  --BROADCASTPLAYBUTTONWIDTH: 40px;
+  --BROADCASTPLAYBUTTONHEIGHT: 40px;
+  --BROADCASTPLAYBUTTONPADDING: 8px;
+  --BROADCASTPLAYBUTTON: VAR(--BASE1);
+  --BROADCASTPLAYBUTTONICON: VAR(--ACCENT);
+  --BROADCASTPLAYBUTTONICONHOVER: VAR(--BLACK);
+  --BROADCASTPLAYBUTTONBORDER: VAR(--ACCENT);
+  --BROADCASTPLAYBUTTONBORDERHOVER: var(--BLACK);
+  --BROADCASTPLAYBUTTONHOVER: VAR(--BASE1);
   --SHELFDROPDOWNLISTMENUBORDER: VAR(--DIVIDER);
   --SHELFPLAYBUTTON: VAR(--ACCENT);
   --SHELFPLAYBUTTONHOVER: VAR(--BLACK);
@@ -1045,17 +1051,21 @@ svg.SVGIcon_Button.SVGIcon_Star_Filled:hover {
 
 .BroadcastVideoUserInputNeeded .SVGIcon_Play {
   background: var(--BROADCASTPLAYBUTTON) !important;
-  border: 1px solid var(--BROADCASTPLAYBUTTONBORDER) !important;
-  transition: all 0.18s ease-in-out;
+  border: 4px solid var(--BROADCASTPLAYBUTTONBORDER) !important;
+  height: VAR(--BROADCASTPLAYBUTTONHEIGHT) !important;
+  width: var(--BROADCASTPLAYBUTTONWIDTH) !important;
 }
 
-.BroadcastVideoUserInputNeeded .SVGIcon_Play:hover {
+.BroadcastVideoUserInputNeeded:hover .SVGIcon_Play path,
+.BroadcastVideoUserInputNeeded:hover .SVGIcon_Play {
   background: VAR(--BROADCASTPLAYBUTTONHOVER) !important;
+  border-color: var(--BROADCASTPLAYBUTTONBORDERHOVER) !important;
+  fill: VAR(--BROADCASTPLAYBUTTONICONHOVER) !important;
 }
 
 .BroadcastVideoUserInputNeeded .SVGIcon_Play path {
-  fill: var(--WHITE) !important;
-  stroke: var(--WHITE) !important;
+  fill: var(--BROADCASTPLAYBUTTONICON) !important;
+  stroke: var(--BROADCASTPLAYBUTTONICON) !important;
   stroke-width: 0 !important;
 }
 
