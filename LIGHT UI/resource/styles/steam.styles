@@ -605,7 +605,7 @@ steam.styles
 		{
 			FONT-WEIGHT = 600
 			textcolor = SMGAMENAMEINSTALLED
-			selectedtextcolor = ACCENT
+			selectedtextcolor = SMGAMENAMEINSTALLEDSELECTED
 		}
 		"GameItem_Installed:hover"
 		{
@@ -628,7 +628,7 @@ steam.styles
 		{
 			font-weight = 600
 			textcolor = SMGAMENAMENONSTEAM
-			selectedtextcolor=game_shortcut_selected
+			selectedtextcolor=SMGAMENAMENONSTEAMSELECTED
 		}
 		"GameItem_Shortcut:hover"
 		{
@@ -649,7 +649,7 @@ steam.styles
 		{
 			textcolor = SMGAMENAMEUPDATING
 			font-weight=600
-			selectedtextcolor=game_run_selected
+			selectedtextcolor=SMGAMENAMEUPDATINGSELECTED
 		}
 		"GameItem_Updating:hover"
 		{
