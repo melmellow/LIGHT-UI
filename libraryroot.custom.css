@@ -327,6 +327,9 @@
   --CIRCLECOLLAPSERMARGINLEFT: 3px; /*DEFAULT IS 0*/
   --CIRCLECOLLAPSERWIDTH: 10px; /*DEFAULT IS 20PX*/
   --CIRCLECOLLAPSERHEIGHT: 10px; /*DEFAULT IS 20PX*/
+  --TWOOPTIONSCONTAINER: VAR(--BASE3);
+  --TWOOPTIONSCONTAINERBORDER: VAR(--DIVIDER);
+  --DIALOGCONTENT: VAR(--BASE1);
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -2079,12 +2082,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 
 .DialogContent,
 .DialogContentTransition {
-  background-color: var(--BASE2) !important;
+  background-color: var(--DIALOGCONTENT) !important;
 }
 
 .savecollectiondialog_TwoOptionsContainer_33bWW {
-  background-color: var(--BASE1) !important;
-  border: 1px solid var(--DIVIDER) !important;
+  background-color: var(--TWOOPTIONSCONTAINER) !important;
+  border: 1px solid var(--TWOOPTIONSCONTAINERBORDER) !important;
 }
 
 /* .savecollectiondialog_TwoOptionsContainer_33bWW
@@ -2093,7 +2096,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   background: var(--ACCENT) !important;
 } */
 .savecollectiondialog_Description_3uOEr {
-  background: var(--BASE1) !important;
+  background: var(--TWOOPTIONSCONTAINER) !important;
   color: var(--ACCENT) !important;
 }
 .comment_thread_RatingBar_1yWgP
