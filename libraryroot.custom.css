@@ -22,6 +22,7 @@
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDER2: #b6b6b6;
+  --CHECKBOX: VAR(--BUTTON2);
   --CHECKBOXBORDER: #b3b3b3;
   --CHECKBOXBORDERRADIUS: 50px;
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
@@ -101,6 +102,8 @@
   --MISSINGGAMEART: #d4d4d4;
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
+  --READYTOPLAYBIGBUTTONBACKGROUND: VAR(--BASE1);
+  --READYTOPLAYBIGBUTTONBACKGROUNDHOVER: VAR(--BASE3);
   --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
   --REMOVEFROMFAVORITESHOVER: VAR(--FILT);
   --MENUBUTTONSBORDERRADIUS: 0;
@@ -157,7 +160,7 @@
   --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
   --UPDATINGGAMENAMECOLOR: VAR(--ACCENT);
   --UPDATINGGAMENAMEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --COLLECTIONSLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --COLLECTIONSLABELFONTWEIGHT: NONE;
   --UPDATINGGAMESTATEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --COMMUNITYFEEDDESCRIPTIONFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --COMMUNITYFEEDGUIDETITLEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -2953,6 +2956,7 @@ div.NarrowRightPanel
   border: 1px solid var(--DIVIDER) !important;
   background-color: var(--BASE4) !important;
   border-radius: VAR(--ADVANCEDSEARCHBORDERRADIUS) !important;
+  transition: opacity 0.18s ease-in-out;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
@@ -3542,7 +3546,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .appgrid_ReadyToPlayBigButton_3wbWH:hover {
   filter: none !important;
-  background: VAR(--BASE3) !important;
+  background: VAR(--READYTOPLAYBIGBUTTONBACKGROUNDHOVER) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay path {
   fill: var(--READYTOPLAYBIGBUTTON) !important;
@@ -3556,7 +3560,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   color: var(--ACCENT) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH {
-  background: var(--BASE1) !important;
+  background: var(--READYTOPLAYBIGBUTTONBACKGROUND) !important;
   border-radius: VAR(--GAMEBOXARTBORDERROUNDED) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border: 0 !important;
@@ -3670,8 +3674,8 @@ A {
 }
 .DialogCheckbox {
   border: 1px SOLID VAR(--CHECKBOXBORDER) !important;
-  background-color: var(--BUTTON) !important;
-  border-radius: 0 !important;
+  background-color: var(--CHECKBOX) !important;
+  transition: all 0.18s ease-in-out;
 }
 .writereview_Header_27mfP {
   font-weight: BOLD !important;
