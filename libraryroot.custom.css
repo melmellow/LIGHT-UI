@@ -3746,6 +3746,13 @@ A {
 
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
+  .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
+  .gamelistsearchbar_AdvancedSearchPane_Woh0k {
+  transition: none !important;
+}
+
+.gamelistsearchbar_Container_20QAC
+  .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
   border: 1px SOLID var(--BASE2) !important;
   box-shadow: NONE !important;
