@@ -58,7 +58,10 @@
   --NEWEMOTICONINDICATOR: #ff0;
   --REVIEWOPTIONS: VAR(--BLUE);
   --REVIEWOPTIONSHOVER: VAR(--BLUE2);
-  --FRIENDSBARBACKGROUND: NONE;
+  --FRIENDSBARBOTTOMMARGIN: 0;
+  --FRIENDSBARRIGHTMARGIN: 0;
+  --FRIENDSBARBORDERRADIUS: 8px;
+  --FRIENDSBARBACKGROUND: var(--BLACK);
   --FRIENDSBARDOT: VAR(--WHITE);
   --FRIENDSBARTEXT: VAR(--WHITE);
   --PLAYBUTTON2: var(--ACCENT);
@@ -593,8 +596,11 @@
 
 .appportrait_FriendsBar_3dncO.appportrait_SummaryView_1To_Q {
   background: VAR(--FRIENDSBARBACKGROUND) !important;
-  border-radius: 50px !important;
-  padding: 2px !important;
+  padding-left: 5px !important;
+  padding-right: 4px !important;
+  margin-right: VAR(--FRIENDSBARRIGHTMARGIN) !important;
+  margin-bottom: var(--FRIENDSBARBOTTOMMARGIN) !important;
+  border-top-left-radius: var(--FRIENDSBARBORDERRADIUS) !important;
 }
 
 .appportrait_FriendsBar_3dncO .appportrait_SummaryCount_1CA44 {
