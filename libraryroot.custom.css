@@ -3963,6 +3963,7 @@ button.DialogButton::before {
   background-color: var(--BASE1) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
 }
 button.DialogButton.Primary {
   width: auto !important;
