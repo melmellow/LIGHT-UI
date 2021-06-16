@@ -52,11 +52,11 @@
 		}
 		panelStyle
 		{
-			bgcolor="236 236 236 255"
+			bgcolor=DOWNLOADSAPPPANEL
 		}
 		panelStyleHighlight
 		{
-			bgcolor=white05
+			bgcolor=DOWNLOADSAPPPANEL
 		}
 
 		label2

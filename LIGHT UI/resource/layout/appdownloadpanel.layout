@@ -53,7 +53,7 @@
 		}
 		panelStyle
 		{
-			bgcolor = PROGRESSBARCONTAINER
+			bgcolor = DOWNLOADSAPPPANEL
 			RENDER_BG{
 				0="fill( x0, y0 + 0, x1, y0 + 1, DIVIDER )"
 					1="fill( x0, y0 + 119, x1, y0 + 120, DIVIDER )"
@@ -62,7 +62,7 @@
 		}
 		panelStyleHighlight
 		{
-			bgcolor = PROGRESSBARCONTAINER
+			bgcolor = DOWNLOADSAPPPANEL
 				RENDER_BG{
 				0="fill( x0, y0 + 0, x1, y0 + 1, DIVIDER )"
 					1="fill( x0, y0 + 119, x1, y0 + 120, DIVIDER )"
