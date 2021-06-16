@@ -3308,6 +3308,7 @@ div.NarrowRightPanel
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb:hover,
 .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:hover {
   background-color: var(--SCROLLBARHOVER) !important;
+  transition: all 0.18s ease-in-out;
 }
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY::-webkit-scrollbar-thumb {
