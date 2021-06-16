@@ -199,6 +199,7 @@
   --PLAYBUTTONHOVER: VAR(--BLACK);
   --GAMEGROUPNAMECOLOR: VAR(--ACCENT);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
+  --SELECTEDLISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --CONTEXTMENUBORDER: VAR(--DIVIDER);
   --CONTEXTMENUSHADOW: "NONE";
@@ -3336,6 +3337,17 @@ div.NarrowRightPanel
   background-color: var(--SCROLLBARHOVER) !important;
   transition: all 0.18s ease-in-out;
 }
+
+.contextmenu_contextMenu_PP7LM *::-webkit-scrollbar-thumb {
+  background-color: var(--SCROLLBAR) !important;
+  border-radius: var(--SCROLLBARBORDERRADIUS) !important;
+}
+
+.contextmenu_contextMenu_PP7LM *::-webkit-scrollbar-thumb:hover {
+  background-color: var(--SCROLLBARHOVER) !important;
+  width: 4px !important;
+}
+
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY::-webkit-scrollbar-thumb {
   background-color: var(--BASE2) !important;
@@ -3517,7 +3529,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelistentry_Selected_1UBpA
   .gamelistentry_Container_2-O4Z
   .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-  background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
+  background-color: var(--SELECTEDLISTITEMBACKGROUNDHOVER) !important;
 }
 
 .appportrait_FriendsBar_3dncO .appportrait_SummaryLeader_2SZ70 {
