@@ -350,12 +350,6 @@
   */
 }
 
-.collectionview_Container_2q70u .collectionview_EditButton_12pDi svg:hover {
-  background: VAR(--COLLECTIONNAMEEDITBACKGROUNDHOVER) !important;
-  border-radius: 50px !important;
-  padding: 4px !important;
-}
-
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
@@ -3708,12 +3702,10 @@ A {
   svg
   line {
   stroke: VAR(--COLLECTIONNAMEEDITHOVER) !important;
-  background-color: VAR(--COLLECTIONNAMEEDITBACKGROUNDHOVER) !important;
 }
 
 .DialogCheckbox.Active .SVGIcon_DialogCheck path {
   stroke: var(--CHECKMARK) !important;
-  border-radius: 3px !important;
 }
 
 .collectionview_Container_2q70u
