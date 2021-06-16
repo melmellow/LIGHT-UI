@@ -133,6 +133,7 @@
   --COMMUNITYFEEDBORDERROUNDED3: 4px; /*top left*/
   --COMMUNITYFEEDBORDERROUNDED4: 4px; /*top right*/
   --APPDETAILSPANEL: VAR(--BASE1);
+  --APPDETAILSPANELBORDER: NONE;
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
   --ADVANCEDSEARCHBUTTONBACKGROUNDSELECTED: VAR(--BASE3);
   --ADVANCEDSEARCHBUTTONSELECTEDBORDER: VAR(--DIVIDER);
@@ -1548,6 +1549,7 @@ img {
   background: var(--APPDETAILSPANEL) !important;
   color: var(--ACCENT) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
 }
 
 .personastatusicons_PersonaStatusIcon_KxAI_.ingame .SVGIcon_VR path,
@@ -1643,6 +1645,7 @@ img {
   background: VAR(--APPDETAILSPANEL) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
 }
 
 .library_TopGradient_34Cqr {
@@ -3149,7 +3152,7 @@ div.NarrowRightPanel
   margin-right: 15px !important;
   background: var(--APPDETAILSPANEL) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
-  border: 1px SOLID var(--BASE2) !important;
+  border: 1px SOLID var(--APPDETAILSPANELBORDER) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 .collectionview_ContainerScroll_1vHgY {
@@ -3208,6 +3211,7 @@ div.NarrowRightPanel
   background: VAR(--APPDETAILSPANEL) !important;
   border-radius: var(--BORDERRADIUS) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  border: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
 }
 
 .appactivityday_PartnerEvent_1AYE1 {
@@ -3449,7 +3453,7 @@ div.NarrowRightPanel
 }
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
   border-radius: var(--BORDERRADIUS) !important;
-  border: 1px SOLID var(--BASE2) !important;
+  border: 1px SOLID var(--APPDETAILSPANELBORDER) !important;
   background: var(--APPDETAILSPANEL) !important;
   box-shadow: 2px 1px 2px VAR(--SHADOW) !important;
 }
