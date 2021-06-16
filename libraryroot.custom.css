@@ -353,6 +353,27 @@
   */
 }
 
+.LibraryDisplaySizeSmall
+  .allcollections_ScrollContainer_u1xD3
+  .allcollections_Grid_Ma65K
+  .allcollections_NewCollection_2_dwx
+  .allcollections_BigPlus_g0-tU {
+  top: calc(50% - 42px) !important;
+}
+
+.appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
+  .appgrid_CountGamesExcludedDesc_1MGS3 {
+  display: NONE !important;
+}
+
+.LibraryDisplaySizeSmall
+  .allcollections_ScrollContainer_u1xD3
+  .allcollections_Grid_Ma65K
+  .allcollections_NewCollection_2_dwx
+  .allcollections_CollectionLabel_1J1LQ {
+  display: none !important;
+}
+
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
@@ -2468,7 +2489,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
 
 .appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
   .appgrid_ReadyToPlayIcon_pCHyk:after {
-  top: 3px !important;
+  top: 19px !important;
 }
 
 div.ShortRightPanel
