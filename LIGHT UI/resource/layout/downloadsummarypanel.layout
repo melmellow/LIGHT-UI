@@ -121,7 +121,7 @@
 		CDownloadSummaryPanel
 		{
 			bgcolor=none
-			minimum-height=162
+			minimum-height=161
 			render
 			{}
 		}
