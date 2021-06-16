@@ -675,6 +675,7 @@
   .comment_thread_RatingIcon_2AVfX.comment_thread_UserRated_2gr2M {
   fill: VAR(--UNLIKEBUTTON) !important;
   stroke: VAR(--UNLIKEBUTTON) !important;
+  transition: all 0.18s ease-in-out !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_DropOption_3WdXW {
@@ -4721,6 +4722,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   padding-right: 19px !important;
   background: var(--SCROLLTOTOP) !important;
   border: 1px SOLID VAR(--SCROLLTOTOPBORDER) !important;
+  transition: all 0.18s ease-in-out !important;
 }
 .smartscrollcontainer_ScrollToTopButton_1J21t:hover div {
   background: var(--SCROLLTOTOPHOVER) !important;
