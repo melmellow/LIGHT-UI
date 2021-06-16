@@ -208,6 +208,7 @@
   --CONTEXTMENUINSTALLBUTTON: NONE;
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
   --CHECKMARK: none;
+  --CHECKMARKSTROKEWIDTH: 0; /*default is 40*/
   --DROPDOWN: VAR(--BUTTON2);
   --DROPDOWNBORDER: VAR(--BUTTONBORDER);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
@@ -367,6 +368,10 @@
 }
 
 /* dot checkmark */
+
+.DialogCheckbox .SVGIcon_DialogCheck path {
+  stroke-width: VAR(--CHECKMARKSTROKEWIDTH) !important;
+}
 
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
