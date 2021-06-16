@@ -23,6 +23,7 @@
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDER2: #b6b6b6;
   --CHECKBOXBORDER: #b3b3b3;
+  --CHECKBOXBORDERRADIUS: 50px;
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
   --BUTTONBORDERHOVER: #8d8d8d;
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
@@ -201,7 +202,7 @@
   --CONTEXTMENUPLAYBUTTONHOVER: var(--BUTTON2);
   --CONTEXTMENUINSTALLBUTTON: NONE;
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
-  --CHECKMARK: VAR(--ACCENT);
+  --CHECKMARK: none;
   --DROPDOWN: VAR(--BUTTON2);
   --DROPDOWNBORDER: VAR(--BUTTONBORDER);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
@@ -335,6 +336,47 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+/* dot checkmark */
+
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .appfilterpane_FilterBucketBoxes_32e6r
+  .appfilterpane_Row_1J53P
+  .appfilterpane_Checkbox_2AOkQ
+  svg {
+  background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
+  background-repeat: no-repeat !important;
+  transform: scale(0.54, 0.54);
+}
+
+.gamelistdropdown_DropDown_EDl_m
+  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
+  svg {
+  background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
+  background-repeat: no-repeat !important;
+  transform: scale(0.54, 0.54);
+  margin-left: 0 !important;
+}
+
+/* dot checkmark */
+
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .appfilterpane_FilterBucketBoxes_32e6r
+  .appfilterpane_Row_1J53P
+  .appfilterpane_Checkbox_2AOkQ
+  .DialogCheckbox {
+  border-radius: var(--CHECKBOXBORDERRADIUS) !important;
+}
+
+.gamelistdropdown_DropDown_EDl_m
+  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
+  .DialogCheckbox {
+  border-radius: var(--CHECKBOXBORDERRADIUS) !important;
 }
 
 .videoControlButton:hover {
@@ -3854,6 +3896,7 @@ A {
   svg
   circle {
   stroke: var(--INACTIVEDROPDOWNFILTERICON) !important;
+  transition: all 0.18s ease-in-out !important;
 }
 .DialogTextInputBase:not(disabled)::selection {
   background-color: VAR(--TEXTENTRYHIGHLIGHT) !important;
@@ -4002,6 +4045,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   svg
   path {
   fill: var(--ADVANCEDSEARCHBUTTON) !important;
+  transition: all 0.18s ease-in-out !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
