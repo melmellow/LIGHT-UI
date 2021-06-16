@@ -347,6 +347,12 @@
   */
 }
 
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
+  font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
+}
+
 /* dot checkmark */
 
 .appfilterpane_Container_170Np
@@ -960,13 +966,6 @@ a:-webkit-any-link {
 .salepreviewwidgets_StoreSaleWidgetTitle_2ekpT:hover {
   color: var(--BLACK) !important;
   text-decoration: none !important;
-}
-
-.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
-.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
-.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
-  font-weight: 400 !important;
-  font-size: 14px !important;
 }
 
 .salepreviewwidgets_StoreSaleWidgetShortDesc_3AsE5 {
