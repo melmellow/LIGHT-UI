@@ -368,6 +368,14 @@
   margin-left: 0 !important;
 }
 
+.appproperties_AppProperties_1FyBL .DialogCheckbox svg {
+  background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
+  background-repeat: no-repeat !important;
+  transform: scale(0.54, 0.54);
+  margin-left: 3px !important;
+  margin-top: 3px !important;
+}
+
 /* dot checkmark */
 
 .DialogCheckbox .SVGIcon_DialogCheck path {
@@ -3687,6 +3695,7 @@ A {
 .DialogCheckbox {
   border: 1px SOLID VAR(--CHECKBOXBORDER) !important;
   background-color: var(--CHECKBOX) !important;
+  border-radius: var(--CHECKBOXBORDERRADIUS) !important;
   transition: all 0.18s ease-in-out;
 }
 .writereview_Header_27mfP {
