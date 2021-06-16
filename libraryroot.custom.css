@@ -69,6 +69,9 @@
   --APPEVENTPAGE: VAR(--BASE1);
   --REMOVEGAMEHOVERBACKGROUND: VAR(--BASE3);
   --REMOVEGAMEHOVERBORDER: VAR(--RED);
+  --COLLECTIONNAMEEDIT: VAR(--ACCENT);
+  --COLLECTIONNAMEEDITHOVER: VAR(--BLACK);
+  --COLLECTIONNAMEEDITBACKGROUNDHOVER: VAR(--BUTTON2);
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
   --NEWCOLLECTIONTARGETBORDER: VAR(--ACCENT);
   --SHOWALLCOLLECTIONSFONTWEIGHT: 600;
@@ -345,6 +348,12 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.collectionview_Container_2q70u .collectionview_EditButton_12pDi svg:hover {
+  background: VAR(--COLLECTIONNAMEEDITBACKGROUNDHOVER) !important;
+  border-radius: 50px !important;
+  padding: 4px !important;
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
@@ -3683,6 +3692,25 @@ A {
   polygon {
   fill: var(--ACCENT) !important;
 }
+
+.collectionview_Container_2q70u
+  .collectionview_Header_2rqTS
+  .collectionview_EditButton_12pDi
+  svg
+  line {
+  stroke: VAR(--COLLECTIONNAMEEDIT) !important;
+  stroke-width: 30px !important;
+}
+
+.collectionview_Container_2q70u:hover
+  .collectionview_Header_2rqTS:hover
+  .collectionview_EditButton_12pDi:hover
+  svg
+  line {
+  stroke: VAR(--COLLECTIONNAMEEDITHOVER) !important;
+  background-color: VAR(--COLLECTIONNAMEEDITBACKGROUNDHOVER) !important;
+}
+
 .DialogCheckbox.Active .SVGIcon_DialogCheck path {
   stroke: var(--CHECKMARK) !important;
   border-radius: 3px !important;
