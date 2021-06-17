@@ -3474,6 +3474,7 @@ div.NarrowRightPanel
   background: var(--BASE2) !important;
   padding-left: 4px !important;
   padding-right: 0 !important;
+  margin-bottom: 4px !important;
 }
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
   background: var(--BASE2) !important;
