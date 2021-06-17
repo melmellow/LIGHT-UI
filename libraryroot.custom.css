@@ -177,7 +177,7 @@
   --COLLECTIONSNAMEHEADERFONTWEIGHT: NONE;
   --SOUNDTRACKPARENTAPPNAMEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --SOUNDTRACKDISCFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --UPDATINGGAMESTATECOLOR: VAR(--ACCENT);
+  --UPDATINGGAMESTATECOLOR: VAR(--BLACK);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
@@ -327,9 +327,9 @@
   --CIRCLECOLLAPSERMARGINLEFT: 3px; /*DEFAULT IS 0*/
   --CIRCLECOLLAPSERWIDTH: 10px; /*DEFAULT IS 20PX*/
   --CIRCLECOLLAPSERHEIGHT: 10px; /*DEFAULT IS 20PX*/
-  --TWOOPTIONSCONTAINER: VAR(--BASE3);
+  --TWOOPTIONSCONTAINER: VAR(--BASE1);
   --TWOOPTIONSCONTAINERBORDER: VAR(--DIVIDER);
-  --DIALOGCONTENT: VAR(--BASE1);
+  --DIALOGCONTENT: VAR(--BASE2);
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -354,6 +354,12 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_ShortcutChange_2MgqW {
+  max-width: 80px !important;
 }
 
 .LibraryDisplaySizeSmall
@@ -385,6 +391,12 @@
 
 /* dot checkmark */
 
+.gamelistdropdown_DropDown_EDl_m
+  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
+  .DialogCheckbox {
+  flex: unset !important;
+}
+
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
@@ -402,16 +414,16 @@
   svg {
   background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
   background-repeat: no-repeat !important;
-  transform: scale(0.54, 0.54);
-  margin-left: 0 !important;
+  transform: scale(0.6) !important;
+  /* margin-left: 0 !important; */
 }
 
 .appproperties_AppProperties_1FyBL .DialogCheckbox svg {
   background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
   background-repeat: no-repeat !important;
-  transform: scale(0.54, 0.54);
-  margin-left: 3px !important;
-  margin-top: 3px !important;
+  transform: scale(0.7) !important;
+  margin-left: 4px !important;
+  margin-top: 4px !important;
 }
 
 /* dot checkmark */
