@@ -78,6 +78,7 @@
   --PLAYBUTTON2BORDERRADIUS: 50px;
   --YOUTUBELINKBOX: VAR(--BASE3);
   --APPEVENTPAGEAPPSUMMARY: VAR(--BASE3);
+  --PLATFORM: VAR(--ACCENT);
   --APPEVENTPAGE: VAR(--BASE1);
   --REMOVEGAMEHOVERBACKGROUND: VAR(--BASE3);
   --REMOVEGAMEHOVERBORDER: VAR(--RED);
@@ -367,6 +368,10 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.salepreviewwidgets_BundleContentPreview_jQ5Ga {
+  background: VAR(--APPEVENTPAGEAPPSUMMARY) !important;
 }
 
 .salepreviewwidgets_BundleShowButton_2Vu78
@@ -1199,11 +1204,12 @@ a:-webkit-any-link {
 
 .salepreviewwidgets_CapsulePlatform_2bCf9 img,
 .salepreviewwidgets_CapsulePlatform_2bCf9 svg {
-  color: var(--ACCENT) !important;
+  fill: var(--PLATFORM) !important;
 }
 
 .salepreviewwidgets_CapsuleBottomBar_3lmdE {
-  background-color: none !important;
+  background-color: var(--BASE4) !important;
+  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 
 .salepreviewwidgets_StoreSaleWidgetTitle_2ekpT {
