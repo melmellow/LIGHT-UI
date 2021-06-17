@@ -4999,6 +4999,14 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   opacity: VAR(--COMMUNITYFEEDICONOPACITY) !important;
 }
 
+.appportrait_LibraryItemBox_WYgDg:active,
+.appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-:active,
+.appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn:active,
+.appportrait_RecentGameFooter_2d1hS:active {
+  filter: NONE !important;
+  background-color: var(--BASE3) !important;
+}
+
 ::-webkit-scrollbar-thumb {
   border-radius: VAR(--SCROLLBARBOVERROUNDED);
 }
