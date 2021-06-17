@@ -1322,10 +1322,6 @@ a:-webkit-any-link {
   border-right: 1px SOLID VAR(--DIVIDER) !important;
 }
 
-.appdetailsprimarylinkssection_LinkInner_7k4qm {
-  padding-top:2px!important;
-}
-
 .appdetailsprimarylinkssection_LinkInner_7k4qm
   .appdetailsprimarylinkssection_Text_2sNDj {
   color: var(--ACCENT) !important;
@@ -2329,6 +2325,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .appactivityday_CarouselThumbs_1tRKR
   .appactivityday_CarouselThumb_1Lot-.appactivityday_Active_n98dr {
   border: 0 !important;
+}
+
+.appdetailsprimarylinkssection_LinksSection_3-V8v
+  .appdetailsprimarylinkssection_Links_DgVQa {
+  margin-top: -1px !important;
 }
 
 .appdetailsgameinfopanel_AssociationList_2ZcNQ
