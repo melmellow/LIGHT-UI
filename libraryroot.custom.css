@@ -382,9 +382,11 @@
   */
 }
 
-.appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_PlayBarIconAndGame_2MBVR .appdetailsplaysection_PlayBarGameIcon_1iNIp {
-  height:30px!important;
-  width:30px!important;
+.appdetailsplaysection_StatusAndStats_1YbtI
+  .appdetailsplaysection_PlayBarIconAndGame_2MBVR
+  .appdetailsplaysection_PlayBarGameIcon_1iNIp {
+  height: 30px !important;
+  width: 30px !important;
 }
 
 .appdetailsgameinfopanel_Portrait_1Id6Z.appdetailsgameinfopanel_Expanded_YR4JA {
@@ -3469,6 +3471,8 @@ div.NarrowRightPanel
 }
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
+  padding-left: 4px !important;
+  padding-right: 0 !important;
 }
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
   background: var(--BASE2) !important;
@@ -3770,6 +3774,12 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   left: 41px !important;
   bottom: 2px !important;
 }
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_ColumnContainer_OhSdL {
+  padding: 0 !important;
+  padding-left: 4px !important;
+}
+
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
   background-color: transparent !important;
   /* left: -2px !important; */
@@ -3787,6 +3797,8 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .appdetailsplaysection_InnerContainer_3Y87Y {
   background: var(--BASE2) !important;
+  padding: 12px 14px !important;
+  padding-bottom: 0 !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH:hover {
   filter: none !important;
