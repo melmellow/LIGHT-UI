@@ -4999,10 +4999,12 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   opacity: VAR(--COMMUNITYFEEDICONOPACITY) !important;
 }
 
-.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi.appfilterpane_SearchResultsBox_MIMuV .appfilterpane_FilterBucketBoxes_32e6r {
-  top:53px!important;
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi.appfilterpane_SearchResultsBox_MIMuV
+  .appfilterpane_FilterBucketBoxes_32e6r {
+  top: 53px !important;
 }
-
 
 .appportrait_LibraryItemBox_WYgDg:active,
 .appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-:active,
