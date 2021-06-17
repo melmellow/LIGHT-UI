@@ -108,8 +108,8 @@
   --SUBSCRIPTBORDERRADIUS: 4px;
   --DROPDOWNITEMSFONTWEIGHT: 100;
   --DROPDOWNBORDERROUNDED: 0;
-  --CONTEXTMENUBORDERRADIUS: 0;
-  --ADVANCEDSEARCHBORDERRADIUS: 0;
+  --CONTEXTMENUBORDERRADIUS: 4px;
+  --ADVANCEDSEARCHBORDERRADIUS: var(--BORDERRADIUS);
   --ACHIEVEMENTTITLEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --REVIEWICONBACKGROUNDBORDERRADIUS: VAR(--BORDERRADIUS);
   --POSITIVEREVIEWICONBACKGROUND: VAR(--BLUE);
@@ -323,7 +323,7 @@
   --APPFEATUREICONFILTER: VAR(--FILT);
   --APPFEATUREICONOPACITY: VAR(--OP2);
   --COMMUNITYFEEDICONOPACITY: VAR(--OP);
-  --GAMEBOXARTBORDERROUNDED: 0;
+  --GAMEBOXARTBORDERROUNDED: 4px;
   --CONTEXTMENUACTIONBUTTONICONOPACITY: VAR(--OP);
   --CONTEXTMENUACTIONBUTTONICONFILTER: VAR(--FILT);
   --ACTIONBUTTONHEIGHT: 37px;
@@ -2335,7 +2335,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .allcollections_Collection_3IWn- {
   background: var(--BASE1) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
-  border-radius: var(--GAMEBOXARTBORDERROUNDED) !important;
 }
 
 .allcollections_Collection_3IWn-
@@ -5010,11 +5009,13 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border-radius: var(--GAMEBOXARTBORDERROUNDED) !important;
 }
 
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(1) {
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border-radius: var(--GAMEBOXARTBORDERROUNDED) !important;
 }
 
 .personanameandstatus_playerNicknameBracket_3XEmW {
