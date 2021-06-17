@@ -64,6 +64,13 @@
   --FRIENDSBARBACKGROUND: var(--BASE1);
   --FRIENDSBARDOT: VAR(--GREEN);
   --FRIENDSBARTEXT: VAR(--GREEN);
+  --ORIGINALPRICESLASH: NONE;
+  --ORIGINALPRICE: VAR(--ACCENT);
+  --DISCOUNT: VAR(--WHITE);
+  --DISCOUNTBACKGROUND: VAR(--GREEN);
+  --DISCOUNTEDPRICE: VAR(--GREEN);
+  --WISHLIST: VAR(--ACCENT);
+  --WISHLISTBORDERRADIUS: 50px;
   --PLAYBUTTON2: var(--ACCENT);
   --PLAYBUTTON2HOVER: VAR(--BLACK);
   --PLAYBUTTON2BORDERRADIUS: 50px;
@@ -358,6 +365,34 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.salepreviewwidgets_StoreOriginalPrice_3fFFs::before {
+  border-bottom: 1px SOLID VAR(--ORIGINALPRICESLASH) !important;
+}
+
+.salepreviewwidgets_StoreOriginalPrice_3fFFs {
+  color: var(--ORIGINALPRICE) !important;
+}
+
+.salepreviewwidgets_StoreSaleDiscountedPriceCtn_3NhLu
+  .salepreviewwidgets_StoreSalePriceBox_3j4dI {
+  color: VAR(--DISCOUNTEDPRICE) !important;
+}
+
+.salepreviewwidgets_StoreSaleDiscountBox_cnkoF {
+  color: var(--DISCOUNT) !important;
+  background: VAR(--DISCOUNTBACKGROUND) !important;
+}
+
+.salepreviewwidgets_BundleShowButton_2Vu78 {
+  border-top: 1px solid var(--DIVIDER) !important;
+}
+
+.salepreviewwidgets_WishList_1djkd {
+  background: VAR(--WISHLIST) !important;
+  background-image: none !important;
+  border-radius: VAR(--WISHLISTBORDERRADIUS) !important;
 }
 
 .gamelistsearchbar_SearchFilterInput_172OF
