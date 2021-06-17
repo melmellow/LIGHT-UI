@@ -70,6 +70,7 @@
   --DISCOUNTBACKGROUND: VAR(--GREEN);
   --DISCOUNTEDPRICE: VAR(--GREEN);
   --WISHLIST: VAR(--ACCENT);
+  --WISHLISTHOVER: VAR(--BLACK);
   --WISHLISTBORDERRADIUS: 50px;
   --PLAYBUTTON2: var(--ACCENT);
   --PLAYBUTTON2HOVER: VAR(--BLACK);
@@ -367,6 +368,21 @@
   */
 }
 
+.salepreviewwidgets_BundleShowButton_2Vu78
+  .salepreviewwidgets_ShowContentsButton_-VlK4 {
+  background: VAR(--BUTTON2) !important;
+  border: 1px solid var(--BUTTONBORDER) !important;
+  border-radius: var(--BUTTON2BORDERRADIUS) !important;
+  color: var(--ACCENT) !important;
+}
+
+.salepreviewwidgets_BundleShowButton_2Vu78
+  .salepreviewwidgets_ShowContentsButton_-VlK4:hover {
+  background: VAR(--BUTTON2) !important;
+  border: 1px solid var(--BUTTONBORDERHOVER) !important;
+  color: var(--ACCENT) !important;
+}
+
 .salepreviewwidgets_StoreOriginalPrice_3fFFs::before {
   border-bottom: 1px SOLID VAR(--ORIGINALPRICESLASH) !important;
 }
@@ -393,6 +409,10 @@
   background: VAR(--WISHLIST) !important;
   background-image: none !important;
   border-radius: VAR(--WISHLISTBORDERRADIUS) !important;
+}
+
+.salepreviewwidgets_WishList_1djkd:hover {
+  background: VAR(--WISHLISTHOVER) !important;
 }
 
 .gamelistsearchbar_SearchFilterInput_172OF
