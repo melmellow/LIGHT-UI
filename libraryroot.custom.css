@@ -184,7 +184,8 @@
   --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
   --UPDATINGGAMENAMECOLOR: VAR(--ACCENT);
   --UPDATINGGAMENAMEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --COLLECTIONSLABELFONTWEIGHT: NONE;
+  --COLLECTIONSLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --COLLECTIONSBORDERRADIUS: var(--BORDERRADIUS);
   --COMMUNITYFEEDDESCRIPTION: VAR(--ACCENT);
   --UPDATINGGAMESTATEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --COMMUNITYFEEDDESCRIPTIONFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -485,6 +486,7 @@
   .allcollections_NewCollection_2_dwx
   .allcollections_BigPlus_g0-tU {
   top: calc(50% - 42px) !important;
+  transform: SCALE(1.9) !important;
 }
 
 .appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
@@ -2341,6 +2343,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .allcollections_Collection_3IWn- {
   background: var(--BASE1) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border-radius: var(--COLLECTIONSBORDERRADIUS) !important;
 }
 
 .allcollections_Collection_3IWn-
@@ -2369,7 +2372,15 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 
 .allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
   color: var(--ACCENT) !important;
+  opacity: 50% !important;
 }
+
+.allcollections_Collection_3IWn-:hover,
+.allcollections_Collection_3IWn-:hover .allcollections_BigPlus_g0-tU {
+  opacity: 1 !important;
+  transition: all 0.18s ease-in-out;
+}
+
 .allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ {
   text-shadow: none !important;
   color: var(--ACCENT) !important;
