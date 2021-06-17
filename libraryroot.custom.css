@@ -3584,8 +3584,8 @@ div.NarrowRightPanel
   background-color: var(--APPEVENTPAGECONTROLSHOVER) !important;
 }
 .apppartnereventspage_ScrollButton_1t_97:hover {
-  border-color: var(--WHITE) !important;
-  background-color: var(--BUTTONHOVER) !important;
+  border-color: var(--APPEVENTPAGECONTROLSHOVERBORDER) !important;
+  background-color: var(--APPEVENTPAGECONTROLSHOVER) !important;
 }
 .apppartnereventspage_ScrollButton_1t_97 {
   background-color: var(--APPEVENTPAGECONTROLS) !important;
