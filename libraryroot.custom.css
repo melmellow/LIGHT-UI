@@ -153,6 +153,7 @@
   --COMMUNITYFEEDBORDERROUNDED3: 4px; /*top left*/
   --COMMUNITYFEEDBORDERROUNDED4: 4px; /*top right*/
   --APPDETAILSPANEL: VAR(--BASE1);
+  --APPDETAILSPANELHOVER: VAR(--BASE3);
   --APPDETAILSPANELBORDER: NONE;
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
   --ADVANCEDSEARCHBUTTONBACKGROUNDSELECTED: VAR(--BASE3);
@@ -3401,7 +3402,7 @@ div.NarrowRightPanel
 }
 
 .appactivityday_PartnerEventTextOnly_3QRf-:hover {
-  background: var(--BASE3) !important;
+  background: var(--APPDETAILSPANELHOVER) !important;
 }
 
 .appactivityday_PartnerEvent_1AYE1 {
@@ -3415,7 +3416,7 @@ div.NarrowRightPanel
 } */
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
-  background: var(--BASE3) !important;
+  background: var(--APPDETAILSPANELHOVER) !important;
 }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover
