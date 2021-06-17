@@ -127,6 +127,7 @@
   --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
   --REMOVEFROMFAVORITESHOVER: VAR(--FILT);
   --MENUBUTTONSBORDERRADIUS: 0;
+  --MENUBUTTONSBORDER: NONE;
   --MENUBUTTONSBACKGROUND: VAR(--BASE2);
   --MENUBUTTONSBACKGROUNDHOVER: VAR(--BASE2);
   --ADDTOFAVORITESHOVER: VAR(--BLACK);
@@ -4306,6 +4307,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   fill: var(--ADVANCEDSEARCHBUTTONHOVER) !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ {
+  border: 1px SOLID VAR(--MENUBUTTONSBORDER) !important;
   background-color: var(--MENUBUTTONSBACKGROUND) !important;
   border-radius: VAR(--MENUBUTTONSBORDERRADIUS) !important;
 }
