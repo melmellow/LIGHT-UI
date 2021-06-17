@@ -4393,6 +4393,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appportrait_FooterBlurImage_2nq-z {
   opacity: 0 !important;
 }
+
+.appportrait_LibraryItemBoxSubscript_1LJqx {
+  pointer-events: none !important;
+}
+
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
