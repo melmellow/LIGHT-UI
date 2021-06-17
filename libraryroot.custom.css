@@ -3809,10 +3809,8 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .appgrid_ReadyToPlayBigButton_3wbWH:hover .SVGIcon_ReadyToPlay circle,
 .appgrid_ReadyToPlayBigButton_3wbWH:hover .appgrid_ReadyToPlayIcon_pCHyk:after,
 .appgrid_ReadyToPlayBigButton_3wbWH:hover .SVGIcon_ReadyToPlay path {
-  /* fill:var(--BBACTIVEDROPDOWNFILTERICONHOVER)!important; */
   stroke: VAR(--BBACTIVEDROPDOWNFILTERICONHOVER) !important;
   color: VAR(--BBACTIVEDROPDOWNFILTERICONHOVER) !important;
-  /* transition: all 0.18s ease-in-out !important; */
 }
 
 .appgrid_ReadyToPlayBigButton_3wbWH:hover,
