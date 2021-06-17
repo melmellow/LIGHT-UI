@@ -2863,6 +2863,7 @@ div.ShortRightPanel
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled,
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled:hover {
   width: auto !important;
+  top: -3px !important;
 }
 
 .comment_thread_ActivityCommentThread_39nna
@@ -4764,6 +4765,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background-color: var(--DIVIDER) !important;
 }
 .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
   color: var(--ACCENT) !important;
 }
 
@@ -4773,7 +4776,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .gamelistdropdown_DropDown_EDl_m
   .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4 {
-  padding-right: 7px !important;
+  padding-right: 4px !important;
 }
 .LibraryDisplaySizeSmall .libraryhome_UpdatesContainer_17uEB {
   height: 0 !important;
@@ -5082,7 +5085,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   border-radius: VAR(--SUBSCRIPTBORDERRADIUS) !important;
 }
 .gamelistdropdown_DropDown_EDl_m {
-  width: 195px !important;
+  width: fit-content !important;
   margin-left: 61px !important;
   margin-top: 2px !important;
 }
