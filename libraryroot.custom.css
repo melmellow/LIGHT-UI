@@ -426,12 +426,12 @@
   margin-top: 4px !important;
 }
 
-/* dot checkmark */
-
 .DialogCheckbox .SVGIcon_DialogCheck {
   width: 14px !important;
   height: 14px !important;
 }
+
+/* dot checkmark */
 
 .DialogCheckbox .SVGIcon_DialogCheck path {
   stroke-width: VAR(--CHECKMARKSTROKEWIDTH) !important;
