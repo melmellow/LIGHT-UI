@@ -4168,6 +4168,7 @@ A {
   box-shadow: 0 0 2px VAR(--SHADOW) !important;
   border-radius: VAR(--DROPDOWNBORDERROUNDED) !important;
   position: relative !important;
+  width: fit-content !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
@@ -4768,6 +4769,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX:hover {
   color: var(--BUTTONHOVER) !important;
+}
+
+.gamelistdropdown_DropDown_EDl_m
+  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4 {
+  padding-right: 7px !important;
 }
 .LibraryDisplaySizeSmall .libraryhome_UpdatesContainer_17uEB {
   height: 0 !important;
