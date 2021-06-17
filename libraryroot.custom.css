@@ -375,6 +375,23 @@
   */
 }
 
+.ModalDialogPopup
+  .DialogContentTransition
+  .DialogBody
+  *::-webkit-scrollbar-thumb {
+  background: var(--SCROLLBAR) !important;
+  border-radius: VAR(--SCROLLBARBORDERRADIUS) !important;
+  width: var(--SCROLLBARWIDTH) !important;
+}
+
+.ModalDialogPopup
+  .DialogContentTransition
+  .DialogBody
+  *::-webkit-scrollbar-thumb:hover {
+  background: var(--SCROLLBARHOVER) !important;
+  width: var(--SCROLLBARHOVERWIDTH) !important;
+}
+
 .salepreviewwidgets_BundleContentPreview_jQ5Ga {
   background: VAR(--APPEVENTPAGEAPPSUMMARY) !important;
 }
