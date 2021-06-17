@@ -3037,6 +3037,12 @@ div.ShortRightPanel
   background-color: var(--BUTTON) !important;
   border: 1px SOLID var(--BASE2) !important;
 }
+
+.appportrait_HoversEnabled_54PuC
+  .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2) {
+  transform: translatez(10px);
+}
+
 .appportrait_UninstalledBar_kX-tI {
   height: 5px !important;
 }
@@ -3046,6 +3052,7 @@ div.ShortRightPanel
 }
 .appportrait_LibraryItemBox_WYgDg {
   border-radius: 0 !important;
+  border-top: 0 !important;
   border-bottom: 1px SOLID var(--SHADOW) !important;
 }
 .appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-,
