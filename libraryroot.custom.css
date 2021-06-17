@@ -122,6 +122,7 @@
   --MISSINGGAMEART: #d4d4d4;
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
+  --BBACTIVEDROPDOWNFILTERICONHOVER: VAR(--ACTIVEDROPDOWNFILTERICONHOVER);
   --READYTOPLAYBIGBUTTONBACKGROUND: VAR(--BASE1);
   --READYTOPLAYBIGBUTTONBACKGROUNDHOVER: VAR(--BASE3);
   --READYTOPLAYBIGBUTTON: VAR(--ACTIVEDROPDOWNFILTERICON);
@@ -3769,6 +3770,22 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   filter: none !important;
   background: VAR(--READYTOPLAYBIGBUTTONBACKGROUNDHOVER) !important;
 }
+
+.appgrid_ReadyToPlayBigButton_3wbWH:hover,
+.appgrid_ReadyToPlayBigButton_3wbWH:hover .SVGIcon_ReadyToPlay circle,
+.appgrid_ReadyToPlayBigButton_3wbWH:hover .appgrid_ReadyToPlayIcon_pCHyk:after,
+.appgrid_ReadyToPlayBigButton_3wbWH:hover .SVGIcon_ReadyToPlay path {
+  /* fill:var(--BBACTIVEDROPDOWNFILTERICONHOVER)!important; */
+  stroke: VAR(--BBACTIVEDROPDOWNFILTERICONHOVER) !important;
+  color: VAR(--BBACTIVEDROPDOWNFILTERICONHOVER) !important;
+  /* transition: all 0.18s ease-in-out !important; */
+}
+
+.appgrid_ReadyToPlayBigButton_3wbWH:hover,
+.appgrid_ReadyToPlayBigButton_3wbWH:hover .SVGIcon_ReadyToPlay path {
+  fill: var(--BBACTIVEDROPDOWNFILTERICONHOVER) !important;
+}
+
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay path {
   fill: var(--READYTOPLAYBIGBUTTON) !important;
   stroke: var(--READYTOPLAYBIGBUTTON) !important;
