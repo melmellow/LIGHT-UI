@@ -246,9 +246,13 @@
   --SIDEBAR: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--SHADOW);
-  --SEARCHFILTERBORDER: VAR(--ACCENT);
-  --SEARCHFILTER: VAR(--ACCENT);
-  --SEARCHFILTERTEXT: VAR(--WHITE);
+  --SEARCHFILTERBORDER: VAR(--DIVIDER);
+  --REMOVESEARCHFILTERFILT: VAR(--FILT);
+  --REMOVESEARCHFILTEROP: var(--OP);
+  --REMOVESEARCHFILTERHOVEROP: 1;
+  --SEARCHFILTER: VAR(--BASE3);
+  --SEARCHFILTERTEXT: VAR(--ACCENT);
+  --SEARCHFILTERFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --INACTIVEDROPDOWNFILTERICON: VAR(--ACCENT);
   --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLACK);
   --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
@@ -354,6 +358,19 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.gamelistsearchbar_SearchFilterInput_172OF
+  .gamelistsearchbar_FilterTag_3gzh_
+  svg {
+  filter: var(--REMOVESEARCHFILTERFILT) !important;
+  opacity: VAR(--REMOVESEARCHFILTEROP) !important;
+}
+
+.gamelistsearchbar_SearchFilterInput_172OF
+  .gamelistsearchbar_FilterTag_3gzh_
+  svg:hover {
+  opacity: var(--REMOVESEARCHFILTERHOVEROP) !important;
 }
 
 .appproperties_AppProperties_1FyBL
@@ -845,6 +862,7 @@
 
 .gamelistsearchbar_SearchFilterInput_172OF {
   color: var(--SEARCHFILTERTEXT) !important;
+  font-weight: VAR(--SEARCHFILTERFONTWEIGHT) !important;
 }
 
 .gamelistsearchbar_SearchFilterInput_172OF
@@ -4625,11 +4643,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .gamelist_NoResultsLink_WMjaq:hover {
   color: var(--BUTTONHOVER) !important;
 }
-.gamelistsearchbar_SearchFilterInput_172OF
-  .gamelistsearchbar_FilterTag_3gzh_
-  svg {
-  opacity: 1 !important;
-}
+
 .gamelist_NoResultsLink_WMjaq {
   width: 0px !important;
   cursor: unset !important;
