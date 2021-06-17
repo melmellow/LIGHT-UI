@@ -5060,6 +5060,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .cssgrid_Container_DGRkX {
   height: unset !important;
+  overflow: unset !important;
 }
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
