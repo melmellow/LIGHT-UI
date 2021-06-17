@@ -107,7 +107,7 @@
   --SUBCRIPTMARGIN: -32px;
   --SUBSCRIPTBORDERRADIUS: 4px;
   --DROPDOWNITEMSFONTWEIGHT: 100;
-  --DROPDOWNBORDERROUNDED: 0;
+  --DROPDOWNBORDERROUNDED: var(--BORDERRADIUS);
   --CONTEXTMENUBORDERRADIUS: 4px;
   --ADVANCEDSEARCHBORDERRADIUS: var(--BORDERRADIUS);
   --ACHIEVEMENTTITLEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -5007,7 +5007,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .appportrait_Draggable_1pwP4
   > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: var(--GAMEBOXARTBORDERROUNDED) !important;
 }
 
