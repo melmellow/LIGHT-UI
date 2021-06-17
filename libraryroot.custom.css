@@ -375,6 +375,13 @@
   */
 }
 
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_WorkshopTopRow_3Oi_X
+  .appproperties_ViewMore_3jITh {
+  flex: unset !important;
+}
+
 .ModalDialogPopup
   .DialogContentTransition
   .DialogBody
