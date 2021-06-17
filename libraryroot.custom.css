@@ -67,6 +67,7 @@
   --ORIGINALPRICESLASH: NONE;
   --ORIGINALPRICE: VAR(--ACCENT);
   --DISCOUNT: VAR(--WHITE);
+  --DISCOUNTFONTWEIGHT: 400;
   --DISCOUNTBACKGROUND: VAR(--GREEN);
   --DISCOUNTEDPRICE: VAR(--GREEN);
   --WISHLIST: VAR(--ACCENT);
@@ -399,6 +400,7 @@
 .salepreviewwidgets_StoreSaleDiscountBox_cnkoF {
   color: var(--DISCOUNT) !important;
   background: VAR(--DISCOUNTBACKGROUND) !important;
+  font-weight: var(--DISCOUNTFONTWEIGHT) !important;
 }
 
 .salepreviewwidgets_BundleShowButton_2Vu78 {
