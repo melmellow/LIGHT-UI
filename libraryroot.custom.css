@@ -1717,10 +1717,10 @@ img {
 
 .appdetailssectionnonsteam_Body_1TGl5 {
   border-radius: var(--BORDERRADIUS) !important;
-  background: var(--APPDETAILSPANEL) !important;
+  /* background: var(--APPDETAILSPANEL) !important; */
   color: var(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
-  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  /* box-shadow: 1px 1px 2px var(--SHADOW) !important; */
+  border: 2px DASHED var(--ACCENT) !important;
 }
 
 .personastatusicons_PersonaStatusIcon_KxAI_.ingame .SVGIcon_VR path,
