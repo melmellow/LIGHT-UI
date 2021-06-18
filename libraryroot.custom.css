@@ -3161,6 +3161,12 @@ div.ShortRightPanel
 .appactionbutton_PlayButtonContainer_1FnJ6 {
   min-width: 111px !important;
 }
+
+.salepreviewwidgets_CapsulePlatform_2bCf9 img.SVGIcon_SteamLogo,
+.salepreviewwidgets_CapsulePlatform_2bCf9 svg.SVGIcon_SteamLogo {
+  fill: var(--PLATFORM) !important;
+}
+
 div.NarrowRightPanel
   .appactionbutton_PlayButtonContainer_1FnJ6:not(.appactionbutton_LongButton_20gjC) {
   height: 35px !important;
