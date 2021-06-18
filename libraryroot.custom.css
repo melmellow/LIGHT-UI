@@ -363,7 +363,8 @@
   --TEXTENTRYFONTWEIGHT: 400;
   --CHECKMARKHEIGHT: 12px; /*DEFAULT IS 14PX*/
   --CHECKMARKWIDTH: 12px; /*DEFAULT IS 14PX*/
-  --DESCRIPTIONBG:VAR(--BASE1);
+  --DESCRIPTIONBG: VAR(--BASE1);
+  --GAMESTATICONDISPLAY: none;/*default is none*/
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -388,6 +389,11 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appdetailsplaysection_GameStat_1kiZK
+  .appdetailsplaysection_GameStatIcon_1tIg- {
+  display: VAR(--GAMESTATICONDISPLAY) !important;
 }
 
 .appportrait_Short_yGeS6 .appportrait_PortraitMessage_3gwMk {
