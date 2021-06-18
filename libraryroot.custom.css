@@ -1857,12 +1857,39 @@ img {
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l {
+  border-bottom: 1px solid var(--DIVIDER) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep
+  .appdetailssoundtrack_TrackListContainer_1Rrhq
+  .appdetailssoundtrack_TrackListing_2c5PP
+  .appdetailssoundtrack_TrackNumber_NZZPO {
+  text-align: unset !important;
+  padding-left: 6px !important;
+  padding-right: 0 !important;
+}
+
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP .appdetailssoundtrack_TrackName_JpRLQ {
+  padding-left:0!important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
   .appdetailssoundtrack_Content_22Q27
   .appdetailssoundtrack_RightColumn_1s3Ep
   .appdetailssoundtrack_TrackListContainer_1Rrhq
   .appdetailssoundtrack_TrackListing_2c5PP
   .appdetailssoundtrack_TrackNumber_NZZPO {
   color: VAR(--ACCENT) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_StatsAndParent_3pUBu {
+  flex-direction: column !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
@@ -1880,6 +1907,7 @@ img {
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  flex: unset !important;
 }
 
 .library_TopGradient_34Cqr {
