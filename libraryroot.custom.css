@@ -1873,6 +1873,12 @@ img {
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_ArtistName_2bTdS {
+  margin-bottom: 6px !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
   .appdetailssoundtrack_Content_22Q27
   .appdetailssoundtrack_RightColumn_1s3Ep
   .appdetailssoundtrack_TrackListContainer_1Rrhq
@@ -1884,7 +1890,7 @@ img {
   .appdetailssoundtrack_Header_4f23l
   .appdetailssoundtrack_StatsAndParent_3pUBu
   .appdetailssoundtrack_ParentGameLink_2pcGG {
-  margin-top: 4px !important;
+  margin-top: 6px !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
