@@ -389,6 +389,10 @@
   */
 }
 
+.appportrait_Short_yGeS6 .appportrait_PortraitMessage_3gwMk {
+  padding-top: 10px !important;
+}
+
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
@@ -5042,6 +5046,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .libraryhomeplaynext_PlayNextSubHead_1kdin {
   color: var(--ACCENT) !important;
+  display: none !important;
 }
 .appdetailsgameinfopanel_Container_2jPMy
   .appdetailsgameinfopanel_Stats_3cntz
