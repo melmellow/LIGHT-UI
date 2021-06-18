@@ -40,13 +40,13 @@
   --WHITE: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
-  --SCROLLTOTOPSIDEBAR: VAR(--ACCENT);
+  --SCROLLTOTOPSIDEBAR: transparent;
   --SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS: 30px;
   --SCROLLTOTOPSIDEBARBACKGROUNDHOVER: VAR(--BUTTON2);
   --SCROLLTOTOPSIDEBARBACKGROUNDSELECTED: VAR(
     --GAMENAMERIGHTCLICKBACKGROUNDHOVER
   );
-  --SCROLLTOTOPSIDEBARHOVER: VAR(--ACCENT);
+  --SCROLLTOTOPSIDEBARHOVER: transparent;
   --SCROLLTOTOPSIDEBARSTROKEWIDTH: 20px;
   --NEWEMOTICONINDICATORSHADOW: radial-gradient(
     ellipse farthest-corner at 50% 50%,
@@ -364,7 +364,7 @@
   --CHECKMARKHEIGHT: 12px; /*DEFAULT IS 14PX*/
   --CHECKMARKWIDTH: 12px; /*DEFAULT IS 14PX*/
   --DESCRIPTIONBG: VAR(--BASE1);
-  --GAMESTATICONDISPLAY: none;/*default is none*/
+  --GAMESTATICONDISPLAY: none; /*default is none*/
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -2496,6 +2496,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   border-radius: VAR(--SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS) !important;
   border: NONE !important;
   background-color: TRANSPARENT !important;
+  background-image: url(https://i.imgur.com/7sdRRO6.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow,
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow polyline {
