@@ -234,8 +234,13 @@
   --CONTEXTMENUPLAYBUTTONHOVER: var(--BUTTON2);
   --CONTEXTMENUINSTALLBUTTON: NONE;
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
-  --CHECKMARK: none;
-  --CHECKMARKSTROKEWIDTH: 0; /*default is 40*/
+  --CHECKMARKPADDING: 2px;
+  --CHECKMARK: VAR(--WHITE);
+  --CHECKMARKBACKGROUND: VAR(--ACCENT);
+  --CHECKMARKBACKGROUNDHOVER: VAR(--BLACK);
+  --CHECKMARKTOPMARGIN: 0;
+  --CHECKMARKLEFTMARGIN: ;
+  --CHECKMARKSTROKEWIDTH: 40px; /*default is 40*/
   --DROPDOWN: VAR(--BUTTON2);
   --DROPDOWNBORDER: VAR(--BUTTONBORDER);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
@@ -356,6 +361,8 @@
   --APPPORTRAITZOOM: VAR(--ACCENT);
   --APPPORTRAITZOOMBORDER: VAR(--WHITE);
   --TEXTENTRYFONTWEIGHT: 400;
+  --CHECKMARKHEIGHT: 12px; /*DEFAULT IS 14PX*/
+  --CHECKMARKWIDTH: 12px; /*DEFAULT IS 14PX*/
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -380,6 +387,37 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .appfilterpane_FilterBucketBoxes_32e6r
+  .appfilterpane_Row_1J53P
+  .appfilterpane_Checkbox_2AOkQ
+  svg {
+  width: var(--CHECKMARKWIDTH) !important;
+  height: var(--CHECKMARKHEIGHT) !important;
+}
+
+.gamelistdropdown_DropDown_EDl_m
+  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
+  svg {
+  height: var(--CHECKMARKHEIGHT) !important;
+  width: var(--CHECKMARKWIDTH) !important;
+}
+
+.gamelistdropdown_DropDown_EDl_m
+  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
+  .DialogCheckbox {
+  flex: unset !important;
+}
+
+.gamelistdropdown_DropDown_EDl_m
+  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
+  svg {
+  margin-top: VAR(--CHECKMARKTOPMARGIN) !important;
+  margin-left: VAR(--CHECKMARKLEFTMARGIN) !important;
 }
 
 .appdetailsplaysection_StatusAndStats_1YbtI
@@ -518,7 +556,7 @@
 
 /* dot checkmark */
 
-.gamelistdropdown_DropDown_EDl_m
+/* .gamelistdropdown_DropDown_EDl_m
   .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
   .DialogCheckbox {
   flex: unset !important;
@@ -542,7 +580,6 @@
   background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
   background-repeat: no-repeat !important;
   transform: scale(0.6) !important;
-  /* margin-left: 0 !important; */
 }
 
 .appproperties_AppProperties_1FyBL .DialogCheckbox svg {
@@ -556,9 +593,14 @@
 .DialogCheckbox .SVGIcon_DialogCheck {
   width: 14px !important;
   height: 14px !important;
-}
+} */
 
 /* dot checkmark */
+
+.appproperties_AppProperties_1FyBL .DialogCheckbox svg {
+  margin-top: VAR(--CHECKMARKTOPMARGIN) !important;
+  margin-left: var(--CHECKMARKLEFTMARGIN) !important;
+}
 
 .DialogCheckbox .SVGIcon_DialogCheck path {
   stroke-width: VAR(--CHECKMARKSTROKEWIDTH) !important;
@@ -3945,6 +3987,27 @@ A {
   stroke-width: 30px !important;
 }
 
+/* .appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .appfilterpane_FilterBucketBoxes_32e6r
+  .appfilterpane_Row_1J53P
+  .appfilterpane_Checkbox_2AOkQ
+  svg {
+  height: var(--CHECKMARKHEIGHT) !important;
+} */
+
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .appfilterpane_FilterBucketBoxes_32e6r
+  .appfilterpane_Row_1J53P
+  .appfilterpane_Checkbox_2AOkQ
+  svg {
+  margin-top: var(--CHECKMARKTOPMARGIN) !important;
+  margin-left: VAR(--CHECKMARKLEFTMARGIN) !important;
+}
+
 .collectionview_Container_2q70u:hover
   .collectionview_Header_2rqTS:hover
   .collectionview_EditButton_12pDi:hover
@@ -3953,8 +4016,19 @@ A {
   stroke: VAR(--COLLECTIONNAMEEDITHOVER) !important;
 }
 
+.DialogCheckbox.Active .SVGIcon_DialogCheck {
+  padding: VAR(--CHECKMARKPADDING) !important;
+  background: VAR(--CHECKMARKBACKGROUND) !important;
+  border-radius: var(--CHECKBOXBORDERRADIUS) !important;
+}
+
+.DialogCheckbox.Active .SVGIcon_DialogCheck:hover {
+  background: VAR(--CHECKMARKBACKGROUNDHOVER) !important;
+}
+
 .DialogCheckbox.Active .SVGIcon_DialogCheck path {
   stroke: var(--CHECKMARK) !important;
+  transition: unset !important;
 }
 
 .collectionview_Container_2q70u
