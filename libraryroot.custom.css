@@ -4026,10 +4026,13 @@ A {
 .DialogCheckbox.Active .SVGIcon_DialogCheck {
   padding: VAR(--CHECKMARKPADDING) !important;
   background: VAR(--CHECKMARKBACKGROUND) !important;
-  border-radius: var(--CHECKBOXBORDERRADIUS) !important;
+  border-radius: 0 !important;
 }
 
-.DialogCheckbox.Active .SVGIcon_DialogCheck:hover {
+.DialogCheckbox.Active
+  .SVGIcon_DialogCheck
+  .DialogCheckbox.Active
+  .SVGIcon_DialogCheck:hover {
   background: VAR(--CHECKMARKBACKGROUNDHOVER) !important;
 }
 
