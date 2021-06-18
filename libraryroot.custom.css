@@ -1872,9 +1872,44 @@ img {
   padding-right: 0 !important;
 }
 
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep
+  .appdetailssoundtrack_TrackListContainer_1Rrhq
+  .appdetailssoundtrack_Disc_17Yl1 {
+  display: none !important;
+}
 
-.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP .appdetailssoundtrack_TrackName_JpRLQ {
-  padding-left:0!important;
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_StatsAndParent_3pUBu
+  .appdetailssoundtrack_ParentGameLink_2pcGG {
+  margin-top: 4px !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep
+  .appdetailssoundtrack_TrackListContainer_1Rrhq
+  .appdetailssoundtrack_Disc_17Yl1 {
+  margin-top: 0 !important;
+  padding-left: 0 !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep
+  .appdetailssoundtrack_TrackListContainer_1Rrhq {
+  flex-direction: row !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_RightColumn_1s3Ep
+  .appdetailssoundtrack_TrackListContainer_1Rrhq
+  .appdetailssoundtrack_TrackListing_2c5PP
+  .appdetailssoundtrack_TrackName_JpRLQ {
+  padding-left: 0 !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
