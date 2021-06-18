@@ -24,7 +24,7 @@
   --BUTTONBORDER2: #b6b6b6;
   --CHECKBOX: VAR(--BUTTON2);
   --CHECKBOXBORDER: #b3b3b3;
-  --CHECKBOXBORDERRADIUS: VAR(--BORDERRADIUS);
+  --CHECKBOXBORDERRADIUS: 0;
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
   --BUTTONBORDERHOVER: #8d8d8d;
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
@@ -4029,10 +4029,7 @@ A {
   border-radius: 0 !important;
 }
 
-.DialogCheckbox.Active
-  .SVGIcon_DialogCheck
-  .DialogCheckbox.Active
-  .SVGIcon_DialogCheck:hover {
+.DialogCheckbox.Active .SVGIcon_DialogCheck:hover {
   background: VAR(--CHECKMARKBACKGROUNDHOVER) !important;
 }
 
