@@ -958,7 +958,8 @@
 }
 
 .gamelistbar_OneCollectionWarning_2Q95p {
-  margin-left: 4px !important;
+  margin-top: 0 !important;
+  margin-left: 38px !important;
   background: var(--BUTTON2) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
   border: 1px SOLID VAR(--BUTTONBORDER) !important;
@@ -3044,7 +3045,7 @@ div.ShortRightPanel
 
 .appportrait_HoversEnabled_54PuC
   .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2) {
-  transform:translatez(10px);
+  transform: translatez(10px);
 }
 
 .appportrait_UninstalledBar_kX-tI {
