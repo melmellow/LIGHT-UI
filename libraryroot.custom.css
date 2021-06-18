@@ -3164,7 +3164,8 @@ div.ShortRightPanel
 
 .salepreviewwidgets_CapsulePlatform_2bCf9 img.SVGIcon_SteamLogo,
 .salepreviewwidgets_CapsulePlatform_2bCf9 svg.SVGIcon_SteamLogo {
-  fill: var(--PLATFORM) !important;
+  filter: var(--FILT) !important;
+  opacity: var(--OP) !important;
 }
 
 div.NarrowRightPanel
