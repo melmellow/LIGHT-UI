@@ -363,6 +363,7 @@
   --TEXTENTRYFONTWEIGHT: 400;
   --CHECKMARKHEIGHT: 12px; /*DEFAULT IS 14PX*/
   --CHECKMARKWIDTH: 12px; /*DEFAULT IS 14PX*/
+  --DESCRIPTIONBG:VAR(--BASE1);
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -3428,7 +3429,7 @@ div.NarrowRightPanel
 }
 .appdetailscommunityfeed_ArtItem_1aP1b
   .appdetailscommunityfeed_BottomSection_3uabi {
-  background: var(--APPDETAILSPANEL) !important;
+  background: var(--DESCRIPTIONBG) !important;
 }
 
 .Pause.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
@@ -3450,6 +3451,7 @@ div.NarrowRightPanel
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_GuideTitle_23Pup {
   color: var(--ACCENT) !important;
   font-weight: VAR(--COMMUNITYFEEDGUIDETITLEFONTWEIGHT) !important;
+  display: none !important;
 }
 
 .appdetailscommunityfeed_CommunityItem_3QS6O
@@ -3936,6 +3938,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
   padding: 12px 14px !important;
   padding-bottom: 0 !important;
+  padding-top: 10px !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH:hover {
   filter: none !important;
