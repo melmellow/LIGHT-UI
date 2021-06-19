@@ -4638,6 +4638,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 
+.gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_SearchByTypePrompt_2zPn_ {
+  display:none!important;
+}
+
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .appfilterpane_FilterBucketBoxes_32e6r {
   padding-top:0!important;
   padding-bottom:0!important;
