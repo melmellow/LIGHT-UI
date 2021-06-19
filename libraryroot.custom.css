@@ -2038,7 +2038,7 @@ img {
 }
 
 .DialogInputLabelGroup {
-  margin-bottom: 8px !important;
+  margin-bottom: 0 !important;
 }
 
 .DialogInput_ClearAction:hover .SVGIcon_X_Line line {
