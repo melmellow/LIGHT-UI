@@ -2038,7 +2038,7 @@ img {
 }
 
 .DialogInputLabelGroup {
-  margin-bottom: 0 !important;
+  margin-bottom: 8px !important;
 }
 
 .DialogInput_ClearAction:hover .SVGIcon_X_Line line {
@@ -4426,7 +4426,7 @@ A {
 ._DialogInputContainer {
   border-radius: VAR(--DROPDOWNROUNDED1) !important;
   background: var(--DROPDOWN) !important;
-  font-weight: 200 !important;
+  font-weight: 400 !important;
   color: var(--ACCENT) !important;
   border-bottom: 1px SOLID VAR(--BUTTONBORDER2);
 }
