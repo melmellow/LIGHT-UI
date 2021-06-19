@@ -2620,6 +2620,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {
   background-color: var(--BUTTON1HOVER) !important;
 }
+
+.appdetailscommunityfeed_AppOverviewRow_1I55h.appdetailscommunityfeed_AutoRow_290KS {
+  gap:24px 10px!important;
+}
+
 button.DialogButton {
   /* align-self: center !important;
   height: 32px !important; */
