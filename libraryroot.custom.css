@@ -3339,6 +3339,7 @@ div.NarrowRightPanel
   position: ABSOLUTE !important;
   right: 0 !important;
   top: 0 !important;
+  display:none!important;
 }
 
 .gamelistsearchbar_Container_20QAC
