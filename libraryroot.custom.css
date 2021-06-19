@@ -303,6 +303,7 @@
   --PROGRESSBARBORDERROUNDED: 5px;
   --SEARCHFILTERROUNDED: 50px;
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
+  --STREAMINGSELECTDISPLAY: unset; /*default is unset*/
   --ACTIONBUTTONTEXT: VAR(--WHITE);
   --ACTIONBUTTONTEXTFONTWEIGHT: 200;
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -405,7 +406,7 @@
   .libraryhomeshowcases_ShowcaseHeader_23Snl:hover
   .libraryhomeshowcases_Rule_1PhK8 {
   height: 0 !important;
-  border:0 !important;
+  border: 0 !important;
   background-image: none !important;
 }
 
@@ -3316,6 +3317,11 @@ div.NarrowRightPanel
   width: 15px !important;
 }
 
+.appactionbutton_Green_3cI5T
+  > .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
+  display: var(--STREAMINGSELECTDISPLAY) !important;
+}
+
 .libraryhomeshowcases_ShowcaseHeader_23Snl:hover
   .libraryhomeshowcases_Rule_1PhK8 {
   background-color: var(--SHOWCASEDIVIDERHOVER) !important;
@@ -3339,7 +3345,7 @@ div.NarrowRightPanel
   position: ABSOLUTE !important;
   right: 0 !important;
   top: 0 !important;
-  display:none!important;
+  display: none !important;
 }
 
 .gamelistsearchbar_Container_20QAC
