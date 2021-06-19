@@ -2605,6 +2605,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   background-color: var(--MOREINFOICON) !important;
   color: var(--MOREINFOICONQMARK) !important;
 }
+
+.allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K {
+  padding-top:5px!important;
+}
+
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
   .appdetailsactivitysection_FetchMoreContainer_39Zur {
   border-radius: VAR(--BUTTON1BORDERRADIUS) !important;
@@ -2616,6 +2621,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   background-color: var(--BUTTON1HOVER) !important;
 }
 button.DialogButton {
+  align-self:center!important;
+  height: 32px !important;
   width: AUTO !important;
   padding-left: 6px !important;
   padding-right: 6px !important;
@@ -3045,10 +3052,20 @@ div.ShortRightPanel
 .reportitem_InputBox_1H8F9 {
   width: 99% !important;
   color: var(--ACCENT) !important;
-  background: var(--BUTTON) !important;
+  background: var(--TEXTENTRY) !important;
   outline: none !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  border: 1px solid var(--TEXTENTRYBORDER) !important;
 }
+
+.reportitem_InputBox_1H8F9:focus-within {
+  border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
+}
+
+.reportitem_InputBox_1H8F9:hover {
+  background: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
+  border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
+}
+
 .libraryassetimage_Title_13fGP {
   color: var(--WHITE) !important;
   text-shadow: none !important;
@@ -5429,7 +5446,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .appgrid_CollectionOptions_BpxCz {
-  padding-top:12px!important;
+  padding-top: 12px !important;
 }
 
 .appdetailsactivitysection_NoActivity_2-kDc,
