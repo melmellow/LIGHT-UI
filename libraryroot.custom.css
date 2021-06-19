@@ -5428,6 +5428,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background-color: var(--SCROLLBAR) !important;
 }
 
+.appgrid_CollectionOptions_BpxCz {
+  padding-top:12px!important;
+}
+
 .appdetailsactivitysection_NoActivity_2-kDc,
 .appdetailsactivitysection_Loading_3UShz {
   display: none !important;
