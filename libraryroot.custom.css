@@ -2206,11 +2206,11 @@ SVGIcon_Button {
 }
 
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_Detail_Hxqea {
-  display:none!important;
+  display: none !important;
 }
 
 .DialogFooter {
-  margin-top:8px!important;
+  margin-top: 8px !important;
 }
 
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
@@ -2219,7 +2219,7 @@ SVGIcon_Button {
 .DialogHeader {
   color: var(--ACCENT) !important;
   font-size: 28px !important;
-  line-height:36px!important;
+  line-height: 36px !important;
 }
 ._DialogInputContainer .libraryhomenewupdates_DialogLabelSoft_3Hf53,
 .DialogLabel.libraryhomenewupdates_DialogLabelSoft_3Hf53 {
@@ -5426,6 +5426,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   border: 1px solid transparent;
   border-right: 0px solid transparent;
   background-color: var(--SCROLLBAR) !important;
+}
+
+.appdetailsactivitysection_NoActivity_2-kDc,
+.appdetailsactivitysection_Loading_3UShz {
+  display: none !important;
 }
 
 /* compact sidebar 0 u 0 */
