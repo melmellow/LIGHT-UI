@@ -4645,6 +4645,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   padding: 4px !important;
   background: var(--ACCENT) !important;
 }
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_SortingDropDown_30PVt {
+  margin-left:0!important;
+}
+
 .appactivityday_ScreenshotCaption_23HTp.appactivityday_HasCaption_tLc3y
   .appactivityday_CaptionQuote_IYDCY,
 .appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y
