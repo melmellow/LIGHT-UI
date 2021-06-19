@@ -4572,6 +4572,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
   font-weight: 400 !important;
   align-self: center !important;
+  display:none!important;
 }
 .collectionview_Container_2q70u {
   border-top: 1px solid var(--DETAILSPANELTOPBORDER) !important;
@@ -4727,9 +4728,15 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appdetailsplaysection_LastPlayedInfo_1nfJN {
   color: var(--ACCENT) !important;
 }
+
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .appfilterpane_FilterBucketLabel_3iV2v {
+  display:none!important;
+}
+
 .appdetailssectionheader_SectionHeader_1Q2q_ {
   color: var(--DETAILSSECTIONHEADER) !important;
   font-weight: VAR(--DETAILSSECTIONHEADERFONTWEIGHT) !important;
+  display:none!important;
 }
 
 .appdetailsprimarylinkssection_MenuButton_1bIMO {
