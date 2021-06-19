@@ -947,6 +947,11 @@
   border-color: var(--ACCENT) !important;
 }
 
+.DialogInput_ClearAction .SVGIcon_X_Line line {
+  stroke-width: 28px !important;
+  stroke:var(--ACCENT)!important;
+}
+
 .collectionview_Container_2q70u.collectionview_DropTarget_dTH3e {
   background: none !important;
   border: 0 !important;
@@ -2979,7 +2984,7 @@ div.ShortRightPanel
 
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA {
   margin: 0 !important;
-  bottom:6px!important;
+  bottom: 6px !important;
 }
 
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled,
