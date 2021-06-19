@@ -269,7 +269,7 @@
   --ADVANCEDSEARCHSHADOW: NONE;
   --SIDEBAR: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
-  --DIVIDER: VAR(--SHADOW);
+  --DIVIDER: VAR(--BUTTON2);
   --SEARCHFILTERBORDER: VAR(--DIVIDER);
   --REMOVESEARCHFILTERFILT: VAR(--FILT);
   --REMOVESEARCHFILTEROP: 40%;
@@ -371,7 +371,10 @@
   --CHECKMARKHEIGHT: 12px; /*DEFAULT IS 14PX*/
   --CHECKMARKWIDTH: 12px; /*DEFAULT IS 14PX*/
   --DESCRIPTIONBG: VAR(--BASE1);
-  --GAMESTATICONDISPLAY: none; /*default is none*/
+  --GAMESTATICONDISPLAY: none; /*default is unset*/
+  --SHOWCASEDIVIDERHOVER: VAR(--BUTTON2);
+  --SHOWCASEDIVIDERHOVERBR: 50px;
+  --SHOWCASEDIVIDERHOVERBORDER: VAR(--BUTTONBORDER);
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -3341,6 +3344,13 @@ div.NarrowRightPanel
   border-bottom: 1px solid var(--DIVIDER) !important;
   height: 30px !important;
   width: 15px !important;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl:hover
+  .libraryhomeshowcases_Rule_1PhK8 {
+  background-color: var(--SHOWCASEDIVIDERHOVER) !important;
+  border-radius: VAR(--SHOWCASEDIVIDERHOVERBR) !important;
+  border: 1px solid var(--SHOWCASEDIVIDERHOVERBORDER) !important;
 }
 
 .appportrait_AppPortraitBanner_N8aJr {
