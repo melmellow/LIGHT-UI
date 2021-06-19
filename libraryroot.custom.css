@@ -3132,7 +3132,8 @@ div.ShortRightPanel
   border: 1px solid var(--BUTTONBORDER) !important;
 }
 .appportrait_RecentGameFooter_2d1hS {
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--APPDETAILSPANEL) !important;
+  border-bottom: 1px SOLID VAR(--DIVIDER) !important;
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
   background: transparent !important;
@@ -3200,7 +3201,7 @@ div.ShortRightPanel
 .appportrait_LibraryItemBox_WYgDg {
   border-radius: 0 !important;
   border-top: 0 !important;
-  border-bottom: 1px SOLID var(--SHADOW) !important;
+  border-bottom: 1px SOLID TRANSPARENT !important;
 }
 .appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-,
 .appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn,
