@@ -2984,7 +2984,7 @@ div.ShortRightPanel
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled,
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled:hover {
   width: auto !important;
-  top: -3px !important;
+  top: -6px !important;
 }
 
 .comment_thread_ActivityCommentThread_39nna
@@ -4572,7 +4572,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
   font-weight: 400 !important;
   align-self: center !important;
-  display:none!important;
+  display: none !important;
 }
 .collectionview_Container_2q70u {
   border-top: 1px solid var(--DETAILSPANELTOPBORDER) !important;
@@ -4659,6 +4659,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border: 1px solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
 }
+
+.appdetailsactivitysection_NoActivity_2-kDc,
+.appdetailsactivitysection_Loading_3UShz {
+  padding: 2px !important;
+}
+
 .allcollections_ScrollContainer_u1xD3 {
   padding: 10px 14px !important;
   border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
@@ -4667,6 +4673,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .allcollections_ScrollContainer_u1xD3 .allcollections_Header_2Th-v {
   color: var(--ACCENT) !important;
   font-weight: 400 !important;
+  display: none !important;
 }
 /* .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchInput_12vo5
@@ -4729,14 +4736,21 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 
-.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .appfilterpane_FilterBucketLabel_3iV2v {
-  display:none!important;
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .appfilterpane_FilterBucketLabel_3iV2v {
+  display: none !important;
+}
+
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW {
+  grid-gap: 0 24px !important;
 }
 
 .appdetailssectionheader_SectionHeader_1Q2q_ {
   color: var(--DETAILSSECTIONHEADER) !important;
   font-weight: VAR(--DETAILSSECTIONHEADERFONTWEIGHT) !important;
-  display:none!important;
+  display: none !important;
 }
 
 .appdetailsprimarylinkssection_MenuButton_1bIMO {
@@ -5255,7 +5269,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi.appfilterpane_SearchResultsBox_MIMuV
   .appfilterpane_FilterBucketBoxes_32e6r {
-  top: 53px !important;
+  top: 37px !important;
 }
 
 .appportrait_LibraryItemBox_WYgDg:active,
