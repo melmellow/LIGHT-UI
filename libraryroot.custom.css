@@ -949,7 +949,7 @@
 
 .DialogInput_ClearAction .SVGIcon_X_Line line {
   stroke-width: 28px !important;
-  stroke:var(--ACCENT)!important;
+  stroke: var(--ACCENT) !important;
 }
 
 .collectionview_Container_2q70u.collectionview_DropTarget_dTH3e {
@@ -1781,11 +1781,15 @@ img {
   opacity: 0 !important;
 }
 
+.appdetailsactivitysection_NoActivity_2-kDc,
+.appdetailsactivitysection_Loading_3UShz {
+  margin-bottom: 0 !important;
+}
+
 .appdetailssectionnonsteam_Body_1TGl5 {
+  min-height: 94px !important;
   border-radius: var(--BORDERRADIUS) !important;
-  /* background: var(--APPDETAILSPANEL) !important; */
   color: var(--ACCENT) !important;
-  /* box-shadow: 1px 1px 2px var(--SHADOW) !important; */
   border: 2px DASHED var(--ACCENT) !important;
 }
 
@@ -2200,11 +2204,22 @@ SVGIcon_Button {
   .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4):hover {
   background: var(--SHELFPLAYBUTTONHOVER) !important;
 }
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_Detail_Hxqea {
+  display:none!important;
+}
+
+.DialogFooter {
+  margin-top:8px!important;
+}
+
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
   background: var(--BASE2) !important;
 }
 .DialogHeader {
   color: var(--ACCENT) !important;
+  font-size: 28px !important;
+  line-height:36px!important;
 }
 ._DialogInputContainer .libraryhomenewupdates_DialogLabelSoft_3Hf53,
 .DialogLabel.libraryhomenewupdates_DialogLabelSoft_3Hf53 {
