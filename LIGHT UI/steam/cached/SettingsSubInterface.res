@@ -1,53 +1,22 @@
-steam/cached/SettingsSubInterface.res {
-
-	"TranslationLabel"
+"steam/cached/SettingsSubInterface.res"
+{
+	styles
 	{
-		"ControlName"		"URLLabel"
-		"fieldName"		"TranslationLabel"
-		"xpos"		"20"
-		"ypos"		"70"
-		"wide"		"436"
-		"tall"		"24"
-		"AutoResize"		"0"
-		"PinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"paintbackground"		"1"
-		"labelText"		"#Steam_HelpUsTranslate"
-		"textAlignment"		"west"
-		"wrap"		"0"
-		"URLText"		"http://translation.steampowered.com"
-		"group"			"SteamRealmGlobalOnly"
+	
 	}
+	layout
+	{
+		region { name=box margin-left=0 margin-right=0 }
 
-
-	layout {
-		//place { control=Label4 dir=down }
-		place { control=LanguageCombo dir=down width=max start=Label4 y=5 }
-		place { control=TranslationLabel dir=down width=max start=LanguageCombo y=20 }
-
-		place { control=Label1 dir=down start=TranslationLabel y=20 }
-		place { control=FavoriteWindowCombo dir=down width=max start=Label1 y=5 }
-
-		place { control=Label3 dir=down start=FavoriteWindowCombo y=20 }
-		place { control=SkinCombo dir=down width=max start=Label3 y=5 }
-
-		place [$WINDOWS] {
-			control=DPIScalingCheck,AutoLaunchCheck,BigPictureModeCheck,UrlBarCheck,SmoothScrollWebViewCheck,GPUWebViewCheck,DWriteCheck,H264HWAccelCheck
-			dir=down start=SkinCombo y=20
-		}
-
-		place [$LINUX||$OSX] {
-			control=DPIScalingCheck,AutoLaunchCheck,BigPictureModeCheck,UrlBarCheck,GPUWebViewCheck
-			dir=down start=SkinCombo y=20
-		}
-
-		place [$LINUX||$OSX] { control=NotifyAvailableGamesCheck dir=down start=GPUWebViewCheck y=4 }
-		place [$WINDOWS] { control=NotifyAvailableGamesCheck dir=down start=H264HWAccelCheck y=4 }
-
-		place { control=SetJumpListOptionsButton dir=down start=NotifyAvailableGamesCheck y=10 }
-
-		place { control=Divider3,Divider2,Divider1 height=0 width=0 }
+		place { region=box control="LanguageCombo" width=310 }
+		place { region=box control="FavoriteWindowCombo" width=310 }
+		place { region=box control="SkinCombo" width=310 }
+		place { region=box control="LabelLanguageCombo,LanguageCombo,TranslationLabel" y=17 margin-top=16 height=24 dir=down }
+		place { start=TranslationLabel control="Label2,FavoriteWindowCombo" y=8 height=24 dir=down }
+		place { start=FavoriteWindowCombo control="Label3,SkinCombo" y=8 height=24 dir=down }
+		place { start=SkinCombo control="Divider3,AutoLaunchCheck,BigPictureModeCheck,UrlBarCheck,DWriteCheck,H264HWAccelCheck,SmoothScrollWebViewCheck,DPIScalingCheck,GPUWebViewCheck,NotifyAvailableGamesCheck" y=6 spacing=2 dir=down }
+		place {	start=NotifyAvailableGamesCheck control="SetJumpListOptionsButton" dir=down }
+		//Hidden
+		place {	control="Label1,Divider1,Divider2" dir=down margin-left=-999 }
 	}
 }
