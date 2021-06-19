@@ -401,9 +401,17 @@
   */
 }
 
+.libraryhomeshowcases_ReorderingDisabled_32LI4
+  .libraryhomeshowcases_ShowcaseHeader_23Snl:hover
+  .libraryhomeshowcases_Rule_1PhK8 {
+  height: 0 !important;
+  border:0 !important;
+  background-image: none !important;
+}
+
 .libraryhomeshowcases_ShowcaseHeader_23Snl:hover
   .libraryhomeshowcases_DragHandle_1OGfH {
-  display:none !important;
+  display: none !important;
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
@@ -3315,7 +3323,7 @@ div.NarrowRightPanel
   border: 1px solid var(--SHOWCASEDIVIDERHOVERBORDER) !important;
   background-image: url(https://i.imgur.com/PAj4O8t.png) !important;
   background-repeat: no-repeat !important;
-  background-position:center!important;
+  background-position: center !important;
 }
 
 .appportrait_AppPortraitBanner_N8aJr {
