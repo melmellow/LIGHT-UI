@@ -346,7 +346,8 @@
   --GAMELOGOFILTER: NONE;
   --GAMEBOXARTFILTER: NONE;
   --SOUNDTRACKALBUMARTFILTER: NONE;
-  --NEWAPPBANNERBORDER: none;
+  --NEWAPPBANNERBOTTOMBORDER: VAR(--DIVIDER);
+  --NEWAPPBANNERLEFTBORDER: VAR(--DIVIDER);
   --NEWAPPBANNERBACKGROUND: VAR(--BASE2);
   --NEWAPPBANNERTEXT: VAR(--ACCENT);
   --NEWAPPBANNERBORDERRADIUS: 0;
@@ -3348,7 +3349,8 @@ div.NarrowRightPanel
   color: var(--NEWAPPBANNERTEXT) !important;
   border-radius: VAR(--NEWAPPBANNERBORDERRADIUS) !important;
   border-bottom-left-radius: var(--NEWAPPBANNERBOTTOMLEFTRADIUS) !important;
-  border: 1px SOLID VAR(--NEWAPPBANNERBORDER) !important;
+  border-bottom: 1px SOLID VAR(--NEWAPPBANNERBOTTOMBORDER) !important;
+  border-left: 1px SOLID VAR(--NEWAPPBANNERLEFTBORDER) !important;
   padding: 2px 8px !important;
   position: ABSOLUTE !important;
   right: 0 !important;
