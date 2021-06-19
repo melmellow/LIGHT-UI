@@ -2779,7 +2779,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
   border-radius: var(--SUBSCRIPTBORDERRADIUS) !important;
   border-top-right-radius: var(--SUBSCRIPTTOPRIGHTRADIUS) !important;
-  padding: 2px 8px !important;
+  padding: 1px 8px !important;
 }
 .appactivityday_ReviewIconThumbsUp_2oPMu {
   background: var(--POSITIVEREVIEWICONBACKGROUND) !important;
@@ -3352,7 +3352,7 @@ div.NarrowRightPanel
   border-bottom-left-radius: var(--NEWAPPBANNERBOTTOMLEFTRADIUS) !important;
   border-bottom: 1px SOLID VAR(--NEWAPPBANNERBOTTOMBORDER) !important;
   border-left: 1px SOLID VAR(--NEWAPPBANNERLEFTBORDER) !important;
-  padding: 2px 8px !important;
+  padding: 0 8px !important;
   position: ABSOLUTE !important;
   right: 0 !important;
   top: 0 !important;
