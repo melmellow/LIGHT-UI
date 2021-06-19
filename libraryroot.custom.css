@@ -401,6 +401,11 @@
   */
 }
 
+.libraryhomeshowcases_ShowcaseHeader_23Snl:hover
+  .libraryhomeshowcases_DragHandle_1OGfH {
+  display:none !important;
+}
+
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
@@ -580,49 +585,6 @@
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
   font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
 }
-
-/* dot checkmark */
-
-/* .gamelistdropdown_DropDown_EDl_m
-  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
-  .DialogCheckbox {
-  flex: unset !important;
-}
-
-.appfilterpane_Container_170Np
-  .appfilterpane_FilterArea_1ennW
-  .appfilterpane_FilterBucket_1axoi
-  .appfilterpane_FilterBucketBoxes_32e6r
-  .appfilterpane_Row_1J53P
-  .appfilterpane_Checkbox_2AOkQ
-  svg {
-  background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
-  background-repeat: no-repeat !important;
-  transform: scale(0.54, 0.54);
-}
-
-.gamelistdropdown_DropDown_EDl_m
-  .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
-  svg {
-  background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
-  background-repeat: no-repeat !important;
-  transform: scale(0.6) !important;
-}
-
-.appproperties_AppProperties_1FyBL .DialogCheckbox svg {
-  background-image: url(https://i.imgur.com/FuRFRIt.png) !important;
-  background-repeat: no-repeat !important;
-  transform: scale(0.7) !important;
-  margin-left: 4px !important;
-  margin-top: 4px !important;
-}
-
-.DialogCheckbox .SVGIcon_DialogCheck {
-  width: 14px !important;
-  height: 14px !important;
-} */
-
-/* dot checkmark */
 
 .appproperties_AppProperties_1FyBL .DialogCheckbox svg {
   margin-top: VAR(--CHECKMARKTOPMARGIN) !important;
@@ -3351,6 +3313,9 @@ div.NarrowRightPanel
   background-color: var(--SHOWCASEDIVIDERHOVER) !important;
   border-radius: VAR(--SHOWCASEDIVIDERHOVERBR) !important;
   border: 1px solid var(--SHOWCASEDIVIDERHOVERBORDER) !important;
+  background-image: url(https://i.imgur.com/PAj4O8t.png) !important;
+  background-repeat: no-repeat !important;
+  background-position:center!important;
 }
 
 .appportrait_AppPortraitBanner_N8aJr {
