@@ -2586,7 +2586,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 
 .appactivityday_AppActivityDay_S2Fu9 {
-  padding-top:7px!important;
+  padding-top: 7px !important;
 }
 
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
@@ -2768,7 +2768,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_Collapser_3sz4L.libraryhomeshowcases_Visible_1XDaf {
   border: 1px SOLID VAR(--BUTTONBORDER) !important;
-    align-self:center!important;
+  align-self: center !important;
 }
 .artworkmodal_ArtworkModal_36VpV {
   border: 2px SOLID var(--SHADOW) !important;
@@ -4492,10 +4492,11 @@ button.DialogButton::before {
   box-shadow: none !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl.libraryhomeshowcases_Reordering_2Ho8z {
-  background-color: var(--BASE1) !important;
+  background-color: var(--APPDETAILSPANEL) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  padding-left:10PX!important;
 }
 button.DialogButton.Primary {
   width: auto !important;
@@ -4512,8 +4513,8 @@ button.DialogButton.Primary:hover {
   color: var(--ACCENT) !important;
   text-transform: UPPERCASE !important;
   font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
-  padding:0!important;
-  align-self:flex-start!important;
+  padding: 0 !important;
+  align-self: flex-start !important;
 }
 .gamelisthome_CollectionIcon_nC-pL {
   padding-left: 0 !important;
