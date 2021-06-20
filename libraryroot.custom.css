@@ -4374,6 +4374,12 @@ A {
   border-top: 1px solid var(--DIVIDER) !important;
 }
 
+.appgrid_AppGridSectionHeader_3bWIS {
+  padding-top:8px!important;
+  padding-bottom:8px!important;
+}
+
+
 .appgrid_AppGridSectionHeader_3bWIS::after {
   box-shadow: none !important;
   background: var(--BASE1) !important;
@@ -5255,6 +5261,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .collectionview_Container_2q70u
   .collectionview_Header_2rqTS
   .collectionview_Rule_1grg9 {
+    display:none!important;
   background-color: var(--BUTTON) !important;
 }
 .eventbbcodeyoutubeembed_DynamicLink_Content_10QvP {
