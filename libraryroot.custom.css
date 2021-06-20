@@ -4485,8 +4485,16 @@ A {
   stroke: var(--ACCENT) !important;
 }
 
+.libraryhomeshowcases_DoneReorderingRow_1dy2s .libraryhomeshowcases_DoneReordering_MXh6n {
+  margin-bottom:4px!important;
+}
+
 .boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
   padding-left:17px!important;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DeleteButton_3cK5j svg path:hover {
+  stroke:var(--BLACK)!important;
 }
 
 .awardmodal_Divider_105py {
