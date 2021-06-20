@@ -58,10 +58,12 @@
   --NEWEMOTICONINDICATOR: #ff0;
   --REVIEWOPTIONS: VAR(--BLUE);
   --REVIEWOPTIONSHOVER: VAR(--BLUE2);
-  --FRIENDSBARBOTTOMMARGIN: 0;
+  --FRIENDSBARBOTTOMMARGIN: -1px;
   --FRIENDSBARRIGHTMARGIN: 0;
   --FRIENDSBARBORDERRADIUS: 4px;
   --FRIENDSBARBACKGROUND: var(--BASE2);
+  --FRIENDSBARTOPBORDER: VAR(--DIVIDER);
+  --FRIENDSBARRIGHTBORDER: VAR(--DIVIDER);
   --FRIENDSBARDOT: VAR(--GREEN);
   --FRIENDSBARTEXT: VAR(--GREEN);
   --ORIGINALPRICESLASH: NONE;
@@ -804,12 +806,15 @@
 
 .appportrait_FriendsBar_3dncO.appportrait_SummaryView_1To_Q {
   background: VAR(--FRIENDSBARBACKGROUND) !important;
-  padding-left: 5px !important;
-  padding-right: 4px !important;
+  border-top: 1px SOLID VAR(--FRIENDSBARTOPBORDER) !important;
+  border-right: 1px SOLID VAR(--FRIENDSBARRIGHTBORDER) !important;
+  padding: 2px !important;
+  padding-right: 6px !important;
   margin-right: VAR(--FRIENDSBARRIGHTMARGIN) !important;
   margin-bottom: var(--FRIENDSBARBOTTOMMARGIN) !important;
   border-top-right-radius: var(--FRIENDSBARBORDERRADIUS) !important;
   left: 0 !important;
+  bottom: 0 !important;
   right: unset !important;
 }
 
@@ -985,7 +990,7 @@
 }
 
 .appdetailsheader_InCollection_1HS4t {
-  display:none!important;
+  display: none !important;
   background: var(--BUTTON2) !important;
   border: 1px solid var(--BUTTONBORDER) !important;
   color: var(--ACCENT) !important;
@@ -4486,16 +4491,20 @@ A {
   stroke: var(--ACCENT) !important;
 }
 
-.libraryhomeshowcases_DoneReorderingRow_1dy2s .libraryhomeshowcases_DoneReordering_MXh6n {
-  margin-bottom:4px!important;
+.libraryhomeshowcases_DoneReorderingRow_1dy2s
+  .libraryhomeshowcases_DoneReordering_MXh6n {
+  margin-bottom: 4px !important;
 }
 
 .boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
-  padding-left:17px!important;
+  padding-left: 17px !important;
 }
 
-.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DeleteButton_3cK5j svg path:hover {
-  stroke:var(--BLACK)!important;
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_DeleteButton_3cK5j
+  svg
+  path:hover {
+  stroke: var(--BLACK) !important;
 }
 
 .awardmodal_Divider_105py {
@@ -4510,7 +4519,7 @@ button.DialogButton::before {
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
-  padding-left:10px!important;
+  padding-left: 10px !important;
 }
 button.DialogButton.Primary {
   width: auto !important;
