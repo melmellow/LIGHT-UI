@@ -4731,11 +4731,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .libraryhomeshowcases_AddShowcaseRow_3SkuN {
   color: var(--BUTTON2TEXT) !important;
 }
-
-.libraryhomeshowcases_AddShowcaseRow_3SkuN:hover {
-  background-color: var(--BUTTON2HOVER) !important;
-}
-
 .appactivityday_ScreenshotCaption_23HTp.appactivityday_HasCaption_tLc3y,
 .appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y {
   background-image: none !important;
