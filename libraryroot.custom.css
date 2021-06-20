@@ -2768,6 +2768,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_Collapser_3sz4L.libraryhomeshowcases_Visible_1XDaf {
   border: 1px SOLID VAR(--BUTTONBORDER) !important;
+    align-self:center!important;
 }
 .artworkmodal_ArtworkModal_36VpV {
   border: 2px SOLID var(--SHADOW) !important;
