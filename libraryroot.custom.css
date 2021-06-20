@@ -4411,6 +4411,7 @@ A {
 }
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
   background: var(--DIVIDER) !important;
+  margin-left:0!important;
 }
 
 .appactivityday_Event_UVeN0
