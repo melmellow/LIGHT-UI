@@ -29,6 +29,8 @@
   --BUTTONBORDERHOVER: #8d8d8d;
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
   --BUTTON2: #d6d6d6;
+  --BUTTON2HOVER: VAR(--BUTTON2);
+  --BUTTON2TEXT: VAR(--ACCENT);
   --GAMENAMERIGHTCLICKBACKGROUNDHOVER: #cacaca;
   --FILTERCLEARACTIVE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --BLACK: #000;
@@ -38,6 +40,7 @@
   --BLUE: #1181d2;
   --BLUE2: #71c4ff;
   --WHITE: VAR(--BASE1);
+  --SEARCHBARBACKGROUND: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
   --SCROLLTOTOPSIDEBAR: transparent;
@@ -316,6 +319,7 @@
   --DROPDOWNROUNDED2: 0;
   --DROPDOWNROUNDED3: 0;
   --TEXTENTRYBACKGROUNDHOVER: VAR(--TEXTENTRY);
+  --TEXTENTRYBORDERWIDTH: 2px;
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER);
   --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
@@ -379,7 +383,7 @@
   --SHOWCASEDIVIDERHOVERBR: 50px;
   --SHOWCASEDIVIDERHOVERBORDER: VAR(--BUTTONBORDER);
   --REVIEWHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --APPDETAILSACTIVEDROPDOWNFILTERICONDISPLAY:none;
+  --APPDETAILSACTIVEDROPDOWNFILTERICONDISPLAY: none;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -966,6 +970,10 @@
   border: 0 !important;
 }
 
+.gamelistsearchbar_Container_20QAC {
+  background: var(--SEARCHBARBACKGROUND) !important;
+}
+
 .gamelistsearchbar_Container_20QAC .DialogInput_ClearAction svg line,
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchFilterInputClear_38tIM
@@ -1222,8 +1230,8 @@ a:-webkit-any-link {
   .gamelistsearchbar_SearchInput_12vo5
   .DialogTextInputBase {
   padding: 0 !important;
-  padding-top: 5px !important;
-  border: 1px solid var(--TEXTENTRYBORDER) !important;
+  padding-top: 3px !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
   padding-bottom: 3px !important;
   padding-left: 16px !important;
@@ -1458,7 +1466,7 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
 }
 
 .DialogInput_Wrapper > input.DialogInput {
-  border: 1px SOLID VAR(--TEXTENTRYBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
   font-weight: var(--TEXTENTRYFONTWEIGHT) !important;
 }
@@ -1863,7 +1871,7 @@ img {
   .appdetailssoundtrack_RightColumn_1s3Ep
   .appdetailssoundtrack_TrackListContainer_1Rrhq
   .appdetailssoundtrack_TrackListing_2c5PP:hover {
-  background-color: VAR(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
@@ -2071,13 +2079,13 @@ img {
   .DialogBody
   .appproperties_DlcGrid_3sXdO
   .appproperties_DlcHeader_1SKB0:hover {
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
 }
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_DlcGrid_3sXdO
   .appproperties_DlcHeader_1SKB0:active {
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
 }
 .appproperties_AppProperties_1FyBL
   .DialogBody
@@ -2144,7 +2152,7 @@ img {
   .appproperties_DlcGrid_3sXdO
   .appproperties_DlcHeader_1SKB0 {
   height: 8px !important;
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
   color: var(--ACCENT) !important;
 }
 .appproperties_AppProperties_1FyBL
@@ -2651,7 +2659,11 @@ button.DialogButton {
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
   background: var(--BUTTON2) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
-  color: var(--ACCENT) !important;
+  color: var(--BUTTON2TEXT) !important;
+}
+
+button.DialogButton:hover {
+  background-color: VAR(--BUTTON2HOVER) !important;
 }
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover {
@@ -2673,7 +2685,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Bot
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh:hover {
   border-color: var(--BUTTONBORDERHOVER) !important;
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline {
   stroke: var(--SCROLLTOTOPSIDEBAR) !important;
@@ -2786,7 +2798,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
-  background-color: VAR(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
 }
 .eventbbcodeparser_BlockQuote_2cY7b {
   border: 1px SOLID var(--SHADOW) !important;
@@ -2865,7 +2877,7 @@ div.ShortRightPanel
 .awardmodal_GrantAwardModal_2ilpH
   .awardmodal_ButtonContainer_JYQgs
   .awardmodal_Button_3M92h.awardmodal_Selected_Efo_8 {
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
 }
 .awardmodal_GrantAwardModal_2ilpH {
   color: var(--ACCENT) !important;
@@ -3048,7 +3060,7 @@ div.ShortRightPanel
   .comment_thread_CommentBody_1ltVe
   .comment_thread_CommentControls_2-3DH
   .comment_thread_CommentRatingButton_2ftHa:hover {
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
 }
 
 .comment_thread_ActivityCommentThread_39nna
@@ -3082,7 +3094,7 @@ div.ShortRightPanel
   color: var(--ACCENT) !important;
   background: var(--TEXTENTRY) !important;
   outline: none !important;
-  border: 1px solid var(--TEXTENTRYBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
 }
 
 .reportitem_InputBox_1H8F9:focus-within {
@@ -3222,7 +3234,7 @@ div.ShortRightPanel
   border-radius: var(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appportrait_UninstalledBar_kX-tI.appportrait_BarDownloading_3BNwj {
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
   border: 1px SOLID var(--BASE2) !important;
 }
 
@@ -3323,7 +3335,7 @@ div.NarrowRightPanel
 .writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover {
   border-color: var(--BUTTONBORDERHOVER) !important;
   color: var(--ACCENT) !important;
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
 }
 
 .appportraithover_Content_12UNI {
@@ -3716,7 +3728,7 @@ div.NarrowRightPanel
 }
 .writereview_ReviewThumbButton_1kCN0 {
   color: var(--ACCENT) !important;
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
 }
 .appactivityday_ReviewText_3ZTUR {
@@ -4130,7 +4142,7 @@ A {
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a.libraryhomeshowcases_Disabled_1MNhU {
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg {
@@ -4261,7 +4273,7 @@ A {
   background-color: var(--TEXTENTRY) !important;
 }
 .writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE {
-  border: 1px SOLID var(--TEXTENTRYBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   outline: NONE !important;
 }
 .DialogBodyText {
@@ -4366,7 +4378,7 @@ A {
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   .libraryhomeshowcases_DropDownItems_lYnGt:hover {
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   ._DialogInputContainer {
@@ -4382,7 +4394,7 @@ A {
 
 .contextmenu_contextMenuItem_1n7Wl:hover,
 .contextmenu_contextMenuItem_1n7Wl.contextmenu_active_18z-3 {
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
 }
 
 .appdetailsachievementssection_UnachievedSection_3ca11.appdetailsachievementssection_ShowDivider_3i6Pc {
@@ -4411,7 +4423,7 @@ A {
 }
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
   background: var(--DIVIDER) !important;
-  margin-left:0!important;
+  margin-left: 0 !important;
 }
 
 .appactivityday_Event_UVeN0
@@ -4555,10 +4567,10 @@ button.DialogButton::before {
 button.DialogButton.Primary {
   width: auto !important;
   border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
 }
 button.DialogButton.Primary:hover {
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
   border-color: var(--BUTTONBORDERHOVER) !important;
 }
 .appdetailsactivitysection_ViewLastNews_1EC1x {
@@ -4587,7 +4599,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
   border-color: var(--BUTTONBORDERHOVER) !important;
 }
 .appdetailsactivitysection_ViewLastNews_1EC1x:hover {
@@ -4655,7 +4667,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
   .DialogTextInputBase {
-  border: 1px SOLID var(--TEXTENTRYBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
 }
@@ -4714,8 +4726,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border-radius: 0 !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN {
-  color: var(--ACCENT) !important;
+  color: var(--BUTTON2TEXT) !important;
 }
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN:hover {
+  background-color: var(--BUTTON2HOVER) !important;
+}
+
 .appactivityday_ScreenshotCaption_23HTp.appactivityday_HasCaption_tLc3y,
 .appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y {
   background-image: none !important;
@@ -4781,7 +4798,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background-color: NONE !important;
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-  padding:0 8px!important;
+  padding: 0 8px !important;
   border-radius: var(--DROPDOWNROUNDED1) !important;
   background-color: var(--DROPDOWN) !important;
   color: var(--ACCENT) !important;
@@ -4797,7 +4814,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .DialogTextInputBase {
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
   font-weight: VAR(--TEXTENTRYFONTWEIGHT) !important;
-  border: 1px solid var(--TEXTENTRYBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
 }
 
@@ -4929,9 +4946,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   height: 20px !important;
   color: var(--ACCENT) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
-  border: 1px SOLID var(--TEXTENTRYBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
   transition: all 0.18s ease-in-out;
+  padding: 7px !important;
 }
 
 .posttextentry_PostTextEntry_3x31A
@@ -5148,7 +5166,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_Collapser_3sz4L {
-  background: var(--BUTTON) !important;
+  background: VAR(--BUTTON2) !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_Collapser_3sz4L:hover {
@@ -5288,7 +5306,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .collectionview_Header_2rqTS
   .collectionview_Rule_1grg9 {
   display: none !important;
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
 }
 .eventbbcodeyoutubeembed_DynamicLink_Content_10QvP {
   text-shadow: none !important;
@@ -5324,7 +5342,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .appgrid_SortingDropDownContainer_1ZpBQ
   .appgrid_SortingDropDownItems_1ZtpS:hover {
-  background-color: var(--BUTTON) !important;
+  background-color: VAR(--BUTTON2) !important;
 }
 .library_ContextMenuAction_Z5iAX.Stream,
 .library_ContextMenuAction_Z5iAX.Connect,
