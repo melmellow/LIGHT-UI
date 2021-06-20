@@ -378,6 +378,7 @@
   --SHOWCASEDIVIDERHOVER: VAR(--BUTTON2);
   --SHOWCASEDIVIDERHOVERBR: 50px;
   --SHOWCASEDIVIDERHOVERBORDER: VAR(--BUTTONBORDER);
+  --REVIEWHEADERFONTWEIGHT:VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -3836,6 +3837,17 @@ div.NarrowRightPanel
   font-weight: bold !important;
 }
 
+.writereview_RatingContainer_2SAb6
+  .writereview_LeftContainer_2aeAn
+  .writereview_Playtime_qX4kN {
+  font-weight: VAR(--REVIEWHEADERFONTWEIGHT) !important;
+}
+
+.appdetailsoverview_Container_27RcN
+  .appdetailsoverview_Spotlights_11kuV.appdetailsoverview_SpotlightLeftColumn_3wbnd {
+  padding-left: 1px !important;
+}
+
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   ._DialogInputContainer {
   margin-left: 11px !important;
@@ -3845,6 +3857,7 @@ div.NarrowRightPanel
   background-color: var(--RATINGCONTAINER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  padding: 10px !important;
 }
 .appdetailsspotlight_ReviewContainer_3LE-6 {
   background-color: var(--BASE2) !important;
@@ -4374,14 +4387,18 @@ A {
   border-top: 1px solid var(--DIVIDER) !important;
 }
 
+.appdetails_PlayBar_2L3s2 {
+  display: none !important;
+}
+
 .appactivityday_ActivityAchievementUnlocked_yJLy7 {
-  gap:2px 2px !important;
+  gap: 2px 2px !important;
 }
 
 .appgrid_AppGridSectionHeader_3bWIS {
   padding-top: 8px !important;
   padding-bottom: 8px !important;
-  position:inherit!important;
+  position: inherit !important;
 }
 
 .appgrid_AppGridSectionHeader_3bWIS::after {
