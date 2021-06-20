@@ -808,7 +808,9 @@
   padding-right: 4px !important;
   margin-right: VAR(--FRIENDSBARRIGHTMARGIN) !important;
   margin-bottom: var(--FRIENDSBARBOTTOMMARGIN) !important;
-  border-top-left-radius: var(--FRIENDSBARBORDERRADIUS) !important;
+  border-top-right-radius: var(--FRIENDSBARBORDERRADIUS) !important;
+  left: 0 !important;
+  right:unset!important;
 }
 
 .appportrait_FriendsBar_3dncO .appportrait_SummaryCount_1CA44 {
@@ -1093,6 +1095,8 @@
 .cssgrid_CSSGrid_3vHkm.libraryhomeshowcases_ShowcaseGrid_3DJLG,
 .appgrid_YourCollection_11p6F {
   gap: var(--gridrowgap) var(--gridcolumngap) !important;
+  padding-left:1px!important;
+  padding-right:1px!important;
 }
 
 .appportrait_Draggable_1pwP4
@@ -2622,7 +2626,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 
 .appdetailscommunityfeed_AppOverviewRow_1I55h.appdetailscommunityfeed_AutoRow_290KS {
-  gap:24px 10px!important;
+  gap: 24px 10px !important;
 }
 
 button.DialogButton {
@@ -2682,6 +2686,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 .discussionwidget_DiscussionCount_QQy4B > svg {
   fill: var(--ACCENT) !important;
 }
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl  {
+  padding-left:0!important;
+}
+
 .libraryhomeshowcases_DragElement_176H2
   .libraryhomeshowcases_ShowcaseHeader_23Snl {
   border: 1px solid var(--ACCENT) !important;
@@ -3240,6 +3249,7 @@ div.ShortRightPanel
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .SVGIcon_ReadyToPlay {
   margin-bottom: -12px !important;
+  margin-left:-7px!important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .SVGIcon_ReadyToPlay circle {
   stroke: var(--ACTIVEDROPDOWNFILTERICON) !important;
@@ -4062,6 +4072,11 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   .partnereventdisplay_EventDetailsBody_A_A2B {
   color: var(--ACCENT) !important;
 }
+
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
+  margin-left: 1px !important;
+}
+
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer.DialogDropDown {
   border: 0 !important;
   background: none !important;
