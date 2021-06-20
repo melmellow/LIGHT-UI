@@ -4501,7 +4501,7 @@ button.DialogButton::before {
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
-  padding-left:10PX!important;
+  padding-left:10px!important;
 }
 button.DialogButton.Primary {
   width: auto !important;
