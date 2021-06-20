@@ -236,8 +236,8 @@
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
   --CHECKMARKPADDING: 2px;
   --CHECKMARK: VAR(--WHITE);
-  --CHECKMARKBACKGROUND: VAR(--ACCENT);
-  --CHECKMARKBACKGROUNDHOVER: VAR(--BLACK);
+  --CHECKMARKBACKGROUND: VAR(--BLUE);
+  --CHECKMARKBACKGROUNDHOVER: VAR(--BLUE2);
   --CHECKMARKTOPMARGIN: 0;
   --CHECKMARKLEFTMARGIN: ;
   --CHECKMARKSTROKEWIDTH: 40px; /*default is 40*/
@@ -4168,7 +4168,7 @@ A {
 .DialogCheckbox.Active .SVGIcon_DialogCheck {
   padding: VAR(--CHECKMARKPADDING) !important;
   background: VAR(--CHECKMARKBACKGROUND) !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--CHECKBOXBORDERRADIUS) !important;
 }
 
 .DialogCheckbox.Active .SVGIcon_DialogCheck:hover {
