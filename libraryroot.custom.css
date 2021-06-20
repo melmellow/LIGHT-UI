@@ -4375,15 +4375,15 @@ A {
 }
 
 .appgrid_AppGridSectionHeader_3bWIS {
-  padding-top:8px!important;
-  padding-bottom:8px!important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
 }
 
-
 .appgrid_AppGridSectionHeader_3bWIS::after {
+  display: none !important;
   box-shadow: none !important;
   background: var(--BASE1) !important;
-  border-bottom: 1px solid var(--DIVIDER) !important;
+  border-bottom: 0 !important;
 }
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
   background: var(--DIVIDER) !important;
@@ -5261,7 +5261,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .collectionview_Container_2q70u
   .collectionview_Header_2rqTS
   .collectionview_Rule_1grg9 {
-    display:none!important;
+  display: none !important;
   background-color: var(--BUTTON) !important;
 }
 .eventbbcodeyoutubeembed_DynamicLink_Content_10QvP {
