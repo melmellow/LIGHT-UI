@@ -4484,6 +4484,11 @@ A {
   path {
   stroke: var(--ACCENT) !important;
 }
+
+.boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
+  padding-left:17px!important;
+}
+
 .awardmodal_Divider_105py {
   height: 1px !important;
   background-color: var(--DIVIDER) !important;
