@@ -985,6 +985,7 @@
 }
 
 .appdetailsheader_InCollection_1HS4t {
+  display:none!important;
   background: var(--BUTTON2) !important;
   border: 1px solid var(--BUTTONBORDER) !important;
   color: var(--ACCENT) !important;
