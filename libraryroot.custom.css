@@ -2260,6 +2260,7 @@ SVGIcon_Button {
   color: var(--ACCENT) !important;
   font-size: 28px !important;
   line-height: 36px !important;
+  letter-spacing:0!important;
 }
 ._DialogInputContainer .libraryhomenewupdates_DialogLabelSoft_3Hf53,
 .DialogLabel.libraryhomenewupdates_DialogLabelSoft_3Hf53 {
@@ -5165,11 +5166,14 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   fill: var(--BUTTONHOVER) !important;
 }
 
-/* .gamelistsearchbar_Container_20QAC
-  .gamelistsearchbar_SearchInput_12vo5
-  .DialogInput_Wrapper {
-  margin-right: 4px !important;
-} */
+.collectionview_Container_2q70u .collectionview_Header_2rqTS .collectionview_SectionCount_3Xgxj {
+  color:var(--ACCENT)!important;
+  font-size:16px!important;
+}
+
+.collectionview_Container_2q70u .collectionview_Header_2rqTS .collectionview_CollectionName_2oJt3 {
+  letter-spacing:0!important;
+}
 
 .gamelistdropdown_AppCount_3A3N3 {
   opacity: 1 !important;
