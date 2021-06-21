@@ -561,7 +561,7 @@ steam.styles
 		ListPanel
 		{	
 			bgcolor = BASE1
-			textcolor = ACCENT
+			textcolor = LISTITEM
 			selectedtextcolor = ACCENT
 			selectedbgcolor=LISTITEMBACKGROUNDHOVER
 			shadowtextcolor=ACCENT	// the color of disabled line items
