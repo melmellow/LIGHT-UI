@@ -4678,7 +4678,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appdetailsworkshopsection_FeaturedLinks_3Mq6s
   .appdetailsworkshopsection_FeaturedItemLink_YE_jJ {
   color: var(--ACCENT) !important;
-  font-weight: 400 !important;
+  font-weight: BOLD !important;
+  TEXT-TRANSFORM:UPPERCASE!important;
 }
 .appdetailsworkshopsection_WorkshopSection_2PfKa
   .appdetailsworkshopsection_WorkshopHeader_139ka
@@ -4702,7 +4703,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem
   .appdetailsworkshopsection_FeaturedItemHeader_1jkfJ {
   color: var(--ACCENT) !important;
-  font-weight: 600 !important;
+  font-weight: VAR(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 .appdetailsworkshopsection_WorkshopSection_2PfKa
   .appdetailsworkshopsection_WorkshopHeader_139ka
@@ -5337,7 +5338,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .appdetailsgameinfopanel_Release_1OWQ9
   .appdetailsgameinfopanel_Label_1vYL2 {
   color: var(--ACCENT) !important;
-  font-weight: bold !important;
+  font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 .appdetailsgameinfopanel_Container_2jPMy {
   background-color: var(--BASE2) !important;
