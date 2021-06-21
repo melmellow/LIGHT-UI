@@ -2904,6 +2904,7 @@ div.ShortRightPanel
   stroke: VAR(--ACCENT) !important;
 }
 .appgrid_AppGridSectionLabel_2hvQb {
+  letter-spacing:1px!important;
   color: VAR(--ACCENT) !important;
   font-weight: VAR(--APPGRIDSECTIONLABELFONTWEIGHT) !important;
 }
