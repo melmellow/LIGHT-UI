@@ -150,7 +150,7 @@
 		
 			render_bg
 			{
-				5="fill( x0, y0, x0+182, y1, BASE1 )"
+				5="fill( x0, y0, x0+182, y1, SETTINGSSIDEBAR )"
 				6="fill(x0+178,y1-44,x1-8,y1-43, "NONE")"		// Bottom-Right
 			}
 			minimum-width="810"
