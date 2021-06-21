@@ -4013,7 +4013,6 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   .gamelistentry_Container_2-O4Z
   .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
   background-color: var(--SELECTEDLISTITEMBACKGROUNDHOVER) !important;
-  color: var(--SELECTEDLISTITEMTEXTCOLOR) !important;
 }
 
 .appportrait_FriendsBar_3dncO .appportrait_SummaryLeader_2SZ70 {
@@ -5601,6 +5600,21 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appdetailsactivitysection_NoActivity_2-kDc,
 .appdetailsactivitysection_Loading_3UShz {
   display: none !important;
+}
+
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z
+  .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
+.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z,
+.gamelistentry_Selected_1UBpA
+  .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
+.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z,
+.gamelistentry_Selected_1UBpA
+  .gamelistentry_Container_2-O4Z
+  .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
+  color: VAR(--SELECTEDLISTITEMTEXTCOLOR) !important;
 }
 
 /* compact sidebar 0 u 0 */
