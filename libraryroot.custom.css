@@ -4279,6 +4279,17 @@ A {
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   outline: NONE !important;
 }
+
+.writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE:HOVER{
+  border-COLOR:VAR(--TEXTENTRYBORDERHOVER)!important;
+  background-color:var(--TEXTENTRYBACKGROUNDHOVER)!important;
+}
+
+.writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE:FOCUS-WITHIN {
+  border-COLOR:VAR(--TEXTENTRYBORDERSELECTED)!important;
+  background-color:var(--TEXTENTRYBACKGROUNDSELECTED)!important;
+}
+
 .DialogBodyText {
   color: var(--ACCENT) !important;
 }
