@@ -26,7 +26,7 @@
 		LISTPANELHEADER = BUTTON
 		INACTIVEWINDOWBORDER = DIVIDER
 		ACTIVEFRAMEBORDER = "NONE"
-		NAVBAR = BASE1
+		NAVBAR = "0 188 212 255"
 		NAVBARBOTTOMBORDER = DIVIDER
 		NAVBARPROGRESSBARPAUSED = ACCENT
 		MENUBUTTONHOVER = "NONE"
@@ -58,10 +58,10 @@
 		DOWNLOADSNETGRAPH = BUTTON
 		NOTIFICATIONBACKGROUND = BASE1
 		NAVBUTTONMENU = BASE3
-		NAVBUTTON = ACCENT
+		NAVBUTTON = "211 238 239 255"
 		NAVBUTTONACTIVEBORDER = "NONE"
-		NAVBUTTONSELECTED = BLACK
-		NAVBUTTONHOVER = BLACK
+		NAVBUTTONSELECTED = "255 255 255 255"
+		NAVBUTTONHOVER = "255 255 255 255"
 		NAVBUTTONBACKGROUNDHOVER = "NONE"
 		APPDOWNLOADSTATLABELBG = BASE1
 		ACTIONBUTTONHOVER = "NONE"
@@ -83,28 +83,6 @@
 		Grey1="40 40 40 255"
 		Grey2="48 48 48 255"
 		Grey3="75 75 75 255"
-
-///////////////////////////////////////
-//======Nickname/Balance Button======//
-		ingameNick=Friends_InGame
-		onlineNick=Friends_Online
-		offlineNick=Friends_Offline
-
-		bgIngameNick=none
-		bgOnlineNick=none
-		bgOfflineNick=none
-
-		bgIngameNearAvatar=Friends_InGame
-		bgOnlineNearAvatar=Friends_Online
-		bgOfflineNearAvatar=Friends_Offline
-
-		textCash=ACCENT
-		bgTextCash=none
-
-		textToolTip=White50
-		bgTitleToolTip=none
-		bgTextToolTip=none
-
 
 ///////////////////////////////////////
 //======Library Game/Music List======//
