@@ -755,7 +755,7 @@ steam.styles
 //======This controls the interior of List elements (though the fonts doesn't change on all of them.Better look at ListPanel)=====//
 		ListPanelInterior
 		{
-			textcolor="ACCENT"
+			textcolor="LISTITEM"
 			bgcolor="none"
 					render{
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
