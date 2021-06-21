@@ -43,13 +43,13 @@
   --SEARCHBARBACKGROUND: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
-  --SCROLLTOTOPSIDEBAR: transparent;
+  --SCROLLTOTOPSIDEBAR: var(--ACCENT);
   --SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS: 30px;
   --SCROLLTOTOPSIDEBARBACKGROUNDHOVER: VAR(--BUTTON2);
   --SCROLLTOTOPSIDEBARBACKGROUNDSELECTED: VAR(
     --GAMENAMERIGHTCLICKBACKGROUNDHOVER
   );
-  --SCROLLTOTOPSIDEBARHOVER: transparent;
+  --SCROLLTOTOPSIDEBARHOVER: VAR(--ACCENT);
   --SCROLLTOTOPSIDEBARSTROKEWIDTH: 20px;
   --NEWEMOTICONINDICATORSHADOW: radial-gradient(
     ellipse farthest-corner at 50% 50%,
@@ -973,6 +973,7 @@
 
 .gamelistsearchbar_Container_20QAC {
   background: var(--SEARCHBARBACKGROUND) !important;
+  padding-bottom:6px!important;
 }
 
 .gamelistsearchbar_Container_20QAC .DialogInput_ClearAction svg line,
@@ -2524,9 +2525,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   border-radius: VAR(--SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS) !important;
   border: NONE !important;
   background-color: TRANSPARENT !important;
-  background-image: url(https://i.imgur.com/7sdRRO6.png) !important;
+  /* background-image: url(https://i.imgur.com/7sdRRO6.png) !important;
   background-repeat: no-repeat !important;
-  background-position: center !important;
+  background-position: center !important; */
 }
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow,
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow polyline {
