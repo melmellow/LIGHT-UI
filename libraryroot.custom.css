@@ -613,6 +613,11 @@
   stroke-width: VAR(--CHECKMARKSTROKEWIDTH) !important;
 }
 
+.DialogCheckbox .SVGIcon_DialogCheck {
+  MARGIN-TOP:0!important;
+  margin-left:0!important;
+}
+
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
@@ -735,7 +740,7 @@
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
-  .DialogTextInputBase:hover:NOT(.DialogTextInputBase:active) {
+  .DialogTextInputBase:hover:not(.DialogTextInputBase:active) {
   border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
   background-color: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
 }
@@ -4274,20 +4279,23 @@ A {
 .writereview_ReviewTextArea_392iE {
   color: var(--ACCENT) !important;
   background-color: var(--TEXTENTRY) !important;
+  width: calc(100% - 8px);
 }
 .writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE {
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   outline: NONE !important;
+  transition: all 0.18s ease-in-out !important;
 }
 
-.writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE:HOVER{
-  border-COLOR:VAR(--TEXTENTRYBORDERHOVER)!important;
-  background-color:var(--TEXTENTRYBACKGROUNDHOVER)!important;
+.writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE:hover {
+  border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
+  background-color: var(--TEXTENTRYBACKGROUNDHOVER) !important;
 }
 
-.writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE:FOCUS-WITHIN {
-  border-COLOR:VAR(--TEXTENTRYBORDERSELECTED)!important;
-  background-color:var(--TEXTENTRYBACKGROUNDSELECTED)!important;
+.writereview_FormContainer_sK8bm
+  .writereview_ReviewTextArea_392iE:focus-within {
+  border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
+  background-color: var(--TEXTENTRYBACKGROUNDSELECTED) !important;
 }
 
 .DialogBodyText {
