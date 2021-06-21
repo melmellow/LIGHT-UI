@@ -2253,6 +2253,18 @@ SVGIcon_Button {
   margin-top: 8px !important;
 }
 
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_TopGapLarge_1FyDt {
+  margin-top:12px!important;
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_TopGap_1Ym7e {
+  margin-top:-4px!important;
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_SectionTopLine_r3hOL {
+  margin-top:12px!important;
+}
+
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
   background: var(--BASE2) !important;
 }
