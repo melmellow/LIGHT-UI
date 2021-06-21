@@ -3149,8 +3149,7 @@ div.ShortRightPanel
   border-bottom: 1px solid VAR(--DROPDOWNBOTTOMBORDER) !important;
   border: 1px solid var(--DROPDOWNBORDER) !important;
   font-weight: 400 !important;
-  padding-left: 8px !important;
-  padding: 4px !important;
+  padding: 3px !important;
   border-radius: VAR(--DROPDOWNROUNDED1) !important;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer:hover {
