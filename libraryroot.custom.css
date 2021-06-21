@@ -5387,7 +5387,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: var(--CONTEXTMENUPLAYBUTTONHOVER) !important;
 }
 .comment_thread_RatingBar_1yWgP .comment_thread_RatingDetails_2lY7z {
-  color: var(--ACCENT) !important;
+  color: transparent !important;
 }
 .discussionwidget_Container_mKmrO {
   background-image: none !important;
