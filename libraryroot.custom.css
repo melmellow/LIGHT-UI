@@ -735,7 +735,7 @@
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
-  .DialogTextInputBase:hover {
+  .DialogTextInputBase:hover:NOT(.DialogTextInputBase:active) {
   border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
   background-color: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
 }
@@ -750,7 +750,7 @@
 
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchInput_12vo5
-  .DialogTextInputBase:hover {
+  .DialogTextInputBase:hover:not(.DialogTextInputBase:active) {
   border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
   background-color: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
 }
@@ -973,7 +973,7 @@
 
 .gamelistsearchbar_Container_20QAC {
   background: var(--SEARCHBARBACKGROUND) !important;
-  padding-bottom:6px!important;
+  padding-bottom: 6px !important;
 }
 
 .gamelistsearchbar_Container_20QAC .DialogInput_ClearAction svg line,
