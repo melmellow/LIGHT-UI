@@ -5175,6 +5175,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   opacity: 1 !important;
 }
 .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Rule_2kvdT {
+  display:none!important;
   background-color: var(--DIVIDER) !important;
 }
 .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX {
