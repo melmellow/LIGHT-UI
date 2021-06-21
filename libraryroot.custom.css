@@ -2681,6 +2681,7 @@ button.DialogButton:hover {
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover {
   border-color: VAR(--BUTTONBORDERHOVER) !important;
+  background: VAR(--BUTTON2HOVER) !important;
 }
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh {
@@ -2698,7 +2699,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Bot
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh:hover {
   border-color: var(--BUTTONBORDERHOVER) !important;
-  background-color: VAR(--BUTTON2) !important;
+  background: VAR(--BUTTON2HOVER) !important;
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline {
   stroke: var(--SCROLLTOTOPSIDEBAR) !important;
