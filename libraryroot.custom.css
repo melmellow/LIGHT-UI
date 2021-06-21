@@ -3015,6 +3015,7 @@ div.ShortRightPanel
   height: 41px !important;
 }
 .appgrid_EmptyGridMessageLine_15p_9 {
+ DISPLAY:NONE!important;
   color: var(--ACCENT) !important;
 }
 .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV {
