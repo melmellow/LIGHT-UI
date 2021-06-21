@@ -2651,7 +2651,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
   .appdetailsactivitysection_FetchMoreContainer_39Zur {
   border-radius: VAR(--BUTTON1BORDERRADIUS) !important;
-  background-color: var(--ACCENT) !important;
+  background-color: var(--BUTTON1) !important;
   color: var(--BUTTON1TEXTCOLOR) !important;
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
@@ -4625,7 +4625,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
-  background-color: VAR(--BUTTON2) !important;
+  background-color: VAR(--BUTTON2HOVER) !important;
   border-color: var(--BUTTONBORDERHOVER) !important;
 }
 .appdetailsactivitysection_ViewLastNews_1EC1x:hover {
