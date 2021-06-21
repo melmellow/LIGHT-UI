@@ -2706,6 +2706,14 @@ button.DialogButton {
   color: var(--BUTTON2TEXT) !important;
 }
 
+.addonpicker_SectionedPageTitle_ZmsEl, .addonpicker_SectionTitle_3WuFl {
+  letter-spacing:0!important;
+}
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
+  padding:4px 12px!important;
+}
+
 button.DialogButton:hover {
   background-color: VAR(--BUTTON2HOVER) !important;
 }
