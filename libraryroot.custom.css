@@ -2514,6 +2514,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   border: 0 !important;
 }
 
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_Header_2_vbZ .awardmodal_Description_16dRE {
+  font-size:13px!important;
+}
+
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h .awardmodal_Points_3k_jx {
   font-weight:var(--INSTALLEDGAMENAMEFONTWEIGHT)!important;
 }
@@ -4656,6 +4660,7 @@ A {
 }
 
 .awardmodal_Divider_105py {
+  margin:10px 0!important;
   height: 1px !important;
   background-color: var(--DIVIDER) !important;
 }
