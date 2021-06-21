@@ -2513,9 +2513,35 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .appactivityday_CarouselThumb_1Lot-.appactivityday_Active_n98dr {
   border: 0 !important;
 }
+
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h .awardmodal_Points_3k_jx {
+  font-weight:var(--INSTALLEDGAMENAMEFONTWEIGHT)!important;
+}
+
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h .awardmodal_IconCtn_1fdGE img {
+  width:60px!important;
+  height:60px!important;
+}
+
 .appdetailsprimarylinkssection_LinksSection_3-V8v
   .appdetailsprimarylinkssection_Links_DgVQa {
   margin-top: -2px !important;
+}
+
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h {
+  padding:0!important;
+}
+
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_Header_2_vbZ .awardmodal_Title_2yJ4j {
+  letter-spacing:0!important;
+}
+
+.artworkmodal_ArtworkModalDetails_1sEyq .artworkmodal_Header_J0VnC .artworkmodal_ScrollForMore_WgpsF {
+  display:none!important;
+}
+
+.artworkmodal_Body_1uUBT .artworkmodal_FileInfo_34Wkv .artworkmodal_CreatedBy_dnuQ_ {
+  display:none!important;
 }
 
 .appdetailsgameinfopanel_AssociationList_2ZcNQ
