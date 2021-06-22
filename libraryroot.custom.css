@@ -299,13 +299,14 @@
   --MCSCORETOPBORDER: VAR(--DIVIDER);
   --MCSCORERIGHTBORDER: VAR(--DIVIDER);
   --SUBSCRIPTTEXTFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --MCSCORETEXT: VAR(--GREEN);
+  --MCSCORETEXTHIGH: VAR(--GREEN);
+  --MCSCORETEXTLOW: #ffc82c;
   --NEWAPPBANNERTOPMARGIN: 2px;
   --NEWAPPBANNERLEFTMARGIN: 56px;
   --SUBSCRIPTTOPMARGIN: -23px;
   --SUBSCRIPTLEFTMARGIN: 0;
   --SUBSCRIPTBACKGROUND: VAR(--BASE2);
-  --SUBSCRIPTTEXT: VAR(--ACCENT);
+  --SUBSCRIPTTEXT: VAR(--BLUE);
   --SUBSCRIPTTOPBORDER: VAR(--DIVIDER);
   --SUBSCRIPTRIGHTBORDER: VAR(--DIVIDER);
   --PROGRESSBARBORDERROUNDED: 5px;
@@ -612,6 +613,10 @@
   .allcollections_NewCollection_2_dwx
   .allcollections_CollectionLabel_1J1LQ {
   display: none !important;
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR {
+  color: VAR(--MCSCORETEXTLOW) !important;
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
@@ -2938,7 +2943,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   background: var(--MCSCOREBACKGROUNDHIGHSCORE) !important;
   border-top: 1px solid var(--MCSCORETOPBORDER) !important;
   border-right: 1px solid var(--MCSCORERIGHTBORDER) !important;
-  color: VAR(--MCSCORETEXT) !important;
+  color: VAR(--MCSCORETEXTHIGH) !important;
   font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
   border-radius: var(--SUBSCRIPTBORDERRADIUS) !important;
   border-top-right-radius: var(--SUBSCRIPTTOPRIGHTRADIUS) !important;
