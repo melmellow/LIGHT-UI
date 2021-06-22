@@ -31,6 +31,7 @@
   --BUTTON2: #d6d6d6;
   --BUTTON2HOVER: VAR(--BUTTON2);
   --BUTTON2TEXT: VAR(--ACCENT);
+  --BUTTON2FONTWEIGHT:400;
   --GAMENAMERIGHTCLICKBACKGROUNDHOVER: #cacaca;
   --FILTERCLEARACTIVE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --BLACK: #000;
@@ -2851,6 +2852,7 @@ button.DialogButton {
   background: var(--BUTTON2) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
   color: var(--BUTTON2TEXT) !important;
+  font-weight:var(--BUTTON2FONTWEIGHT)!important;
 }
 
 .addonpicker_SectionedPageTitle_ZmsEl,
@@ -2878,6 +2880,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   border: 1px SOLID var(--BUTTONBORDER) !important;
   color: var(--BUTTON2TEXT) !important;
   width: auto !important;
+  font-weight:var(--BUTTON2FONTWEIGHT)!important;
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY {
   margin-top: 0 !important;
@@ -4966,6 +4969,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN {
   color: var(--BUTTON2TEXT) !important;
+  font-weight:var(--BUTTON2FONTWEIGHT)!important;
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN:hover {
