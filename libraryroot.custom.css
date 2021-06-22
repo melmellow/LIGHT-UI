@@ -5759,7 +5759,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appdetailsachievementssection_Remainder_2gISW
   .appdetailsachievementssection_RemainderText_1-H7t {
   color: VAR(--ACCENT) !important;
-  font-weight: 600 !important;
+  font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 
 .appdetailsachievementssection_RemainderText_1-H7t:hover {
