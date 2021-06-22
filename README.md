@@ -18,7 +18,6 @@ Steam will have to restart to apply the theme
 * run steamfriendspatcher and it will apply the theme
 
 # CREDITS
-* jonius7 for the compact sidebar tweak <3
 * phantomgamers for making steamfriendspatcher <3
 * AikoMidori for contributing on the webkit and chat ui <3
 * METRO SKIN for the navbar <3
