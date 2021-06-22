@@ -46,6 +46,7 @@
 		region { name=box margin-left=0 margin-right=0 }
 
 		//Internet Connection
-		place { region=box control="SteamCloudInfo,EnableCloudCheck,EnableScreenshotsCheck" width=max y=46 dir=down }
+		place { control="SteamCloudInfo" width=0 height=0 }
+		place { region=box control="EnableCloudCheck,EnableScreenshotsCheck" width=max y=0 dir=down }
 	}
 }
