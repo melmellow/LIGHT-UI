@@ -79,7 +79,7 @@
 		region { name=bottomright region=bottom x=263 width=255 }
 		
 		place { controls=TitleLabel region=top height=0 width=0 }
-		place { controls=DescriptionLabel width=max region=top start=TitleLabel dir=down margin-top=8 }
+		place { controls=DescriptionLabel width=0 HEIGHT=0 }
 		place { controls=EnableOverlayCheck region=top start=DescriptionLabel dir=down height=20 margin-top=8 margin-bottom=6}
 		place [!$OSX] { controls=EnableSCTenfootOverlayCheck region=top start=EnableOverlayCheck dir=down height=20 }
 		place [!$OSX&&!$LINUX] { controls=EnableVRDesktopGameTheaterCheck region=top start=EnableSCTenfootOverlayCheck dir=down height=20 }
@@ -87,7 +87,7 @@
 		
 		place { controls=ShowIngameFPSLabel,ShowIngameFPSCombo,ShowIngameFPSContrastCheck dir=down spacing=5 start=HotKeySelector margin-top=10 width=max region=topleft y=29 }
 			
-		place { controls=ScreenshotLabel start=EnableOverlayCheck y=45 dir=down region=topright }
+		place { controls=ScreenshotLabel start=EnableOverlayCheck y=8 dir=down region=topright }
 		place { controls=ScreenshotHotKeySelector,SetScreenshotFolderButton 
 			dir=down 
 			start=ScreenshotLabel
