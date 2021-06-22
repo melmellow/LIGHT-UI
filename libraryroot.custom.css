@@ -418,6 +418,9 @@
   */
 }
 
+.DialogTwoColLayout>._DialogLayout {
+  max-height:0!important;
+}
 
 
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs {
