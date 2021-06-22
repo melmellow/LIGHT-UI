@@ -1558,11 +1558,32 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
   background-position: CENTER !important;
 }
 
-/*SEND ICON*/
+/* .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D.posttextentry_Active_1_KMh {
+  margin-top:11px!important;
+}
 
-/* .posttextentry_PostTextEntry_3x31A
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D {
+  margin-bottom:0!important;
+}
+
+.appdetailsactivitysection_InnerContainer_2EEAp {
+  position: relative !important;
+}
+
+.appdetailsactivitysection_PostTextEntry_YFAtL {
+  position: absolute !important;
+}
+
+.comment_thread_AddReply_2Yybx {
+  position: absolute !important;
+}
+
+.posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D.posttextentry_Active_1_KMh {
-  margin-top: -39px !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  padding: 0 !important;
 } */
 
 .discussionwidget_VoteUpSelectedIcon_34YgM {
