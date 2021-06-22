@@ -266,6 +266,7 @@
   --DISLIKETHUMBICON: VAR(--ACCENT);
   --DISLIKETHUMBICONHOVER: VAR(--BLACK);
   --FRIENDISPLAYING: VAR(--ACCENT);
+  --FRIENDISPLAYINGDISPLAY: unset;
   --SCROLLTOTOPHOVER: VAR(--BLACK);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOP: VAR(--ACCENT);
@@ -4235,6 +4236,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelistentry_FriendIsPlaying_cNZ3w svg circle,
 .gamelistentry_FriendIsPlaying_cNZ3w svg path {
   fill: var(--FRIENDISPLAYING) !important;
+  display: var(--FRIENDISPLAYINGDISPLAY) !important;
 }
 .gamelistsectionheader_SectionCount_29ute {
   color: var(--GAMEGROUPNAMECOLOR) !important;
