@@ -27,9 +27,9 @@
 		}
 		"SettingsList"
 		{
-					render {
+				render {
 				0="image_scale( x0 + 182, y0, x0 + 184, y1, graphics/material/shadow_vert2)"
-			}
+			    }
 			font-family=basefont
 			inset-top=60
 			padding-left=16

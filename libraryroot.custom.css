@@ -2958,7 +2958,7 @@ div.ShortRightPanel
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_Rule_1PhK8 {
-  flex-grow:0!important;
+  flex-grow: 0 !important;
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl
@@ -5751,6 +5751,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .gamelistbar_GameListHomeAndSearch_2TKEa {
   position: absolute !important;
   background: none !important;
+}
+
+.allcollections_Collection_3IWn-.allcollections_NewCollection_2_dwx
+  .allcollections_CollectionLabel_1J1LQ {
+  display: none !important;
 }
 
 .gamelistbar_GameListHomeAndSearch_2TKEa .gamelistbar_CollectionsButton_2CEKF {

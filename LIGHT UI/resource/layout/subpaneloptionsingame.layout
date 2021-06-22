@@ -78,7 +78,7 @@
 		region { name=bottomleft region=bottom width=275 margin-right=20 }
 		region { name=bottomright region=bottom x=263 width=255 }
 		
-		place { controls=TitleLabel region=top }
+		place { controls=TitleLabel region=top height=0 width=0 }
 		place { controls=DescriptionLabel width=max region=top start=TitleLabel dir=down margin-top=8 }
 		place { controls=EnableOverlayCheck region=top start=DescriptionLabel dir=down height=20 margin-top=8 margin-bottom=6}
 		place [!$OSX] { controls=EnableSCTenfootOverlayCheck region=top start=EnableOverlayCheck dir=down height=20 }
