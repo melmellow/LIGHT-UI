@@ -1720,6 +1720,7 @@ img {
 }
 
 .appdetailscommunityfeed_NoContent_13Hxu {
+  display: none !important;
   color: var(--ACCENT) !important;
 }
 
