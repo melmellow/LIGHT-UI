@@ -417,6 +417,10 @@
   */
 }
 
+.awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs {
+  GAP:8PX 8PX!important;
+}
+
 .appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
   .appgrid_CountGamesExcluded_2R_HL {
   color: VAR(--GAMESEXCLUDEDCOUNTER) !important;
