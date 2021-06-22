@@ -3121,8 +3121,15 @@ div.ShortRightPanel
   color: var(--ACCENT) !important;
 }
 .writereview_OptionSvg_3Wesr {
+  margin-left:20%!important;
   fill: var(--WHITE) !important;
   opacity: 1 !important;
+  width:70px!important;
+  height:70px!important;
+}
+
+.writereview_OptionsContainer_lNPFw .writereview_OptionButton_2gJ9F .writereview_ButtonText_3pmHH {
+  margin-left:0!important;
 }
 
 .writereview_OptionsContainer_lNPFw>div {
