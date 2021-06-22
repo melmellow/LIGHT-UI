@@ -3379,6 +3379,7 @@ div.ShortRightPanel
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Title_2xEgU {
   color: var(--ACCENT) !important;
+  font-weight:var(--INSTALLEDGAMENAMEFONTWEIGHT)!important;
 }
 .appdetailsreviewsection_ReviewText_3k8QE {
   color: var(--ACCENT) !important;
