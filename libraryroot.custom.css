@@ -748,6 +748,13 @@
   .appdetailssoundtrack_Content_22Q27
   .appdetailssoundtrack_LeftColumn_23WS1
   .appdetailssoundtrack_AlbumArt_1R0eE {
+  margin-bottom: 12px !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Content_22Q27
+  .appdetailssoundtrack_LeftColumn_23WS1
+  .appdetailssoundtrack_AlbumArt_1R0eE {
   filter: var(--SOUNDTRACKALBUMARTFILTER) !important;
 }
 
@@ -2021,8 +2028,44 @@ img {
   opacity: 0 !important;
 }
 
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l {
+  margin-bottom: 16px !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_AlbumName_oW5xv {
+  letter-spacing: 0 !important;
+  font-size: 20px !important;
+}
+
 .appdetailssoundtrack_SoundtrackPanel_23zCI {
   background: var(--BASE2) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_StatsAndParent_3pUBu
+  .appdetailssoundtrack_ParentGameLink_2pcGG
+  .appdetailssoundtrack_ParentAppName_3C_pT
+  .appdetailssoundtrack_ParentGameIcon_Pc5ZA {
+  margin-left: 0 !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_StatsAndParent_3pUBu
+  .appdetailssoundtrack_ParentGameLink_2pcGG
+  .appdetailssoundtrack_ParentAppName_3C_pT:hover {
+  color: var(--BLACK) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW
+  .appdetailssoundtrack_Header_4f23l
+  .appdetailssoundtrack_StatsAndParent_3pUBu
+  .appdetailssoundtrack_ParentGameLink_2pcGG {
+  text-indent: -999px !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW
