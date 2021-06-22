@@ -5536,11 +5536,16 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .eventbbcodeyoutubeembed_DynamicLink_Content_10QvP {
   text-shadow: none !important;
 }
+
+.partnereventdisplay_EventBackgroundBlur_stsss {
+  opacity: 0 !important;
+}
+
 .apppartnereventspage_EventTypeAndTimeRow_3bWTO
   .apppartnereventspage_TimeandPostedBy_2WwG2
   .apppartnereventspage_EventType_Udzrp {
   color: var(--BUTTONHOVER) !important;
-  font-weight: bold !important;
+  font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 .eventbbcodeyoutubeembed_DynamicLink_YoutubeViews_1EXif {
   color: var(--ACCENT) !important;
