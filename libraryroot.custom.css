@@ -11,6 +11,7 @@
   --GAMEIMAGEACTIVEFILTER: BRIGHTNESS(1.3);
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
+  --GAMEIMAGEMAXHEIGHT:248px;
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
@@ -31,7 +32,7 @@
   --BUTTON2: #d6d6d6;
   --BUTTON2HOVER: VAR(--BUTTON2);
   --BUTTON2TEXT: VAR(--ACCENT);
-  --BUTTON2FONTWEIGHT:400;
+  --BUTTON2FONTWEIGHT: 400;
   --GAMENAMERIGHTCLICKBACKGROUNDHOVER: #cacaca;
   --FILTERCLEARACTIVE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --BLACK: #000;
@@ -418,7 +419,7 @@
 }
 
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs {
-  GAP:8PX 8PX!important;
+  gap: 8px 8px !important;
 }
 
 .appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
@@ -2753,7 +2754,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .allcollections_CollectionLabel_1J1LQ
   .allcollections_CollectionLabelCount_36QQL {
   color: var(--ACCENT) !important;
-  letter-spacing:0!important;
+  letter-spacing: 0 !important;
 }
 .friendsnooze_SnoozeContainer_1Dsum.online .friendsnooze_SnoozeZ_2n0Ei {
   color: var(--ONLINE) !important;
@@ -2857,7 +2858,7 @@ button.DialogButton {
   background: var(--BUTTON2) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
   color: var(--BUTTON2TEXT) !important;
-  font-weight:var(--BUTTON2FONTWEIGHT)!important;
+  font-weight: var(--BUTTON2FONTWEIGHT) !important;
 }
 
 .addonpicker_SectionedPageTitle_ZmsEl,
@@ -2885,7 +2886,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   border: 1px SOLID var(--BUTTONBORDER) !important;
   color: var(--BUTTON2TEXT) !important;
   width: auto !important;
-  font-weight:var(--BUTTON2FONTWEIGHT)!important;
+  font-weight: var(--BUTTON2FONTWEIGHT) !important;
 }
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY {
   margin-top: 0 !important;
@@ -3387,7 +3388,7 @@ div.ShortRightPanel
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Title_2xEgU {
   color: var(--ACCENT) !important;
-  font-weight:var(--INSTALLEDGAMENAMEFONTWEIGHT)!important;
+  font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 .appdetailsreviewsection_ReviewText_3k8QE {
   color: var(--ACCENT) !important;
@@ -3827,7 +3828,7 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
 }
 .appdetailsreviewsection_PlayedForTime_BDa6l {
-  display:none!important;
+  display: none !important;
   color: var(--ACCENT) !important;
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
@@ -4975,7 +4976,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN {
   color: var(--BUTTON2TEXT) !important;
-  font-weight:var(--BUTTON2FONTWEIGHT)!important;
+  font-weight: var(--BUTTON2FONTWEIGHT) !important;
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN:hover {
@@ -5754,6 +5755,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   width: fit-content !important;
   margin-left: 61px !important;
   margin-top: 2px !important;
+}
+
+.sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
+  max-height: VAR(--GAMEIMAGEMAXHEIGHT) !important;
 }
 
 .appdetailsachievementssection_Remainder_2gISW
