@@ -2753,6 +2753,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .allcollections_CollectionLabel_1J1LQ
   .allcollections_CollectionLabelCount_36QQL {
   color: var(--ACCENT) !important;
+  letter-spacing:0!important;
 }
 .friendsnooze_SnoozeContainer_1Dsum.online .friendsnooze_SnoozeZ_2n0Ei {
   color: var(--ONLINE) !important;
