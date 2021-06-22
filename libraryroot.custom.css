@@ -5758,6 +5758,13 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   display: none !important;
 }
 
+.LibraryDisplaySizeLarge
+  .allcollections_ScrollContainer_u1xD3
+  .allcollections_Grid_Ma65K
+  .allcollections_CollectionLabel_1J1LQ {
+  letter-spacing: 0 !important;
+}
+
 .gamelistbar_GameListHomeAndSearch_2TKEa .gamelistbar_CollectionsButton_2CEKF {
   z-index: 1 !important;
 }
