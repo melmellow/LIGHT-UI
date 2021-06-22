@@ -2956,6 +2956,11 @@ div.ShortRightPanel
   .libraryhomeshowcases_ShowcaseHeader_23Snl {
   outline: NONE !important;
 }
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_Rule_1PhK8 {
+  flex-grow:0!important;
+}
+
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_DragHandle_1OGfH {
   fill: VAR(--ACCENT) !important;
