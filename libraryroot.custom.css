@@ -584,6 +584,14 @@
   max-width: 80px !important;
 }
 
+.LibraryDisplaySizeMedium
+  .allcollections_ScrollContainer_u1xD3
+  .allcollections_Grid_Ma65K
+  .allcollections_NewCollection_2_dwx
+  .allcollections_BigPlus_g0-tU {
+  top: 24% !important;
+}
+
 .LibraryDisplaySizeSmall
   .allcollections_ScrollContainer_u1xD3
   .allcollections_Grid_Ma65K
@@ -2634,6 +2642,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
   color: var(--ACCENT) !important;
   opacity: 50% !important;
+  transform: scale(3) !important;
 }
 
 .allcollections_Collection_3IWn-:hover,
