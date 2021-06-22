@@ -3827,6 +3827,7 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
 }
 .appdetailsreviewsection_PlayedForTime_BDa6l {
+  display:none!important;
   color: var(--ACCENT) !important;
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
