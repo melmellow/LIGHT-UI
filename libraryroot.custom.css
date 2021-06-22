@@ -418,6 +418,8 @@
   */
 }
 
+
+
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs {
   gap: 8px 8px !important;
 }
@@ -3122,7 +3124,17 @@ div.ShortRightPanel
   fill: var(--WHITE) !important;
   opacity: 1 !important;
 }
+
+.writereview_OptionsContainer_lNPFw>div {
+  padding:0!important;
+}
+
+.writereview_OptionsContainer_lNPFw {
+  padding:14px!important;
+}
+
 .writereview_OptionsContainer_lNPFw .writereview_OptionButton_2gJ9F {
+  padding:0!important;
   outline: 0 !important;
   background: var(--REVIEWOPTIONS) !important;
 }
