@@ -271,6 +271,7 @@
   --FRIENDISPLAYINGDISPLAY: unset;
   --SCROLLTOTOPHOVER: VAR(--BLACK);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
+  --SCROLLTOTOPFONTWEIGHT:400;
   --SCROLLTOTOP: VAR(--ACCENT);
   --SCROLLTOTOPBORDER: VAR(--WHITE);
   --FILTERBUCKETLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -5745,6 +5746,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: var(--SHELFINSTALLBUTTONHOVER) !important;
 }
 .smartscrollcontainer_ScrollToTopButton_1J21t div {
+  LETTER-SPACING:0!important;
+  font-weight:var(--SCROLLTOTOPFONTWEIGHT)!important;
   color: var(--SCROLLTOTOPTEXT) !important;
   padding-left: 19px !important;
   padding-right: 19px !important;
