@@ -245,8 +245,8 @@
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
   --CHECKMARKPADDING: 2px;
   --CHECKMARK: VAR(--WHITE);
-  --CHECKMARKBACKGROUND: VAR(--BLUE);
-  --CHECKMARKBACKGROUNDHOVER: VAR(--BLUE2);
+  --CHECKMARKBACKGROUND: VAR(--ACCENT);
+  --CHECKMARKBACKGROUNDHOVER: VAR(--BLACK);
   --CHECKMARKTOPMARGIN: 0;
   --CHECKMARKLEFTMARGIN: ;
   --CHECKMARKSTROKEWIDTH: 40px; /*default is 40*/
@@ -419,7 +419,7 @@
 }
 
 .DialogTwoColLayout > ._DialogLayout {
-  max-height: 34PX !important;
+  max-height: 34px !important;
 }
 
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs {
@@ -505,7 +505,36 @@
   .DialogBody
   .appproperties_WorkshopTopRow_3Oi_X
   .appproperties_ViewMore_3jITh {
+    padding:0!important;
+  margin-right: 0 !important;
+  margin-top: 8px !important;
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 50px !important;
+  color: transparent !important;
+  background: transparent !important;
+  border: 0 !important;
+  background-size: 22px !important;
   flex: unset !important;
+  background-image: url(https://i.imgur.com/3NHWp4r.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A {
+  margin-top:10px!important;
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_Name_bP2Ip .appproperties_PreviewArt_1Apuj {
+  height:34px!important;
+  width:34px!important;
+}
+
+
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_WorkshopTopRow_3Oi_X
+  .appproperties_ViewMore_3jITh:hover {
+  filter: var(--FILT) !important;
 }
 
 .ModalDialogPopup
@@ -2233,14 +2262,9 @@ img {
   background: var(--BUTTONHOVER) !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_Active_2DpXj {
-  /* width: 173px !important; */
+  display:block!important;
   color: var(--ACCENT) !important;
   background: var(--LISTITEMBACKGROUNDHOVER) !important;
-  padding-left: 17px !important;
-  padding-top: 4px !important;
-  padding-bottom: 6px !important;
-  padding-right: 44px !important;
-  margin-right: 0 !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
   color: var(--ACCENT) !important;
