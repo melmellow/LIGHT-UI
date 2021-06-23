@@ -282,6 +282,7 @@
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--BUTTON2);
   --SEARCHFILTERBORDER: VAR(--DIVIDER);
+  --SEARCHFILTERBORDERWIDTH:2PX;
   --REMOVESEARCHFILTERFILT: VAR(--FILT);
   --REMOVESEARCHFILTEROP: 40%;
   --REMOVESEARCHFILTERHOVEROP: 1;
@@ -505,7 +506,7 @@
   .DialogBody
   .appproperties_WorkshopTopRow_3Oi_X
   .appproperties_ViewMore_3jITh {
-    padding:0!important;
+  padding: 0 !important;
   margin-right: 0 !important;
   margin-top: 8px !important;
   width: 24px !important;
@@ -520,15 +521,20 @@
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
-.appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A {
-  margin-top:10px!important;
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_WorkshopGrid_2ZL5A {
+  margin-top: 10px !important;
 }
 
-.appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_Name_bP2Ip .appproperties_PreviewArt_1Apuj {
-  height:34px!important;
-  width:34px!important;
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_WorkshopGrid_2ZL5A
+  .appproperties_Name_bP2Ip
+  .appproperties_PreviewArt_1Apuj {
+  height: 34px !important;
+  width: 34px !important;
 }
-
 
 .appproperties_AppProperties_1FyBL
   .DialogBody
@@ -2262,7 +2268,7 @@ img {
   background: var(--BUTTONHOVER) !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_Active_2DpXj {
-  display:block!important;
+  display: block !important;
   color: var(--ACCENT) !important;
   background: var(--LISTITEMBACKGROUNDHOVER) !important;
 }
@@ -4548,7 +4554,7 @@ A {
 .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ {
   background-color: var(--SEARCHFILTER) !important;
   border-radius: VAR(--SEARCHFILTERROUNDED) !important;
-  border: 1px solid var(--SEARCHFILTERBORDER) !important;
+  border: VAR(--SEARCHFILTERBORDERWIDTH) solid var(--SEARCHFILTERBORDER) !important;
 }
 .DialogCheckbox {
   border: 1px SOLID VAR(--CHECKBOXBORDER) !important;
