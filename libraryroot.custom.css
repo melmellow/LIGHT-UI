@@ -821,6 +821,10 @@
   text-transform: UPPERCASE !important;
 }
 
+.DialogInput {
+  padding:8px!important;
+}
+
 .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
