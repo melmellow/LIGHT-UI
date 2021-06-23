@@ -3854,6 +3854,11 @@ div.NarrowRightPanel
   display: none !important;
   color: var(--ACCENT) !important;
 }
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_EndofFeed_3LIds .appdetailsactivitysection_EndRule_1AZdy {
+  background-color:var(--DIVIDER)!important;
+}
+
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
   .appdetailsactivitysection_EndofFeed_3LIds
   .appdetailsactivitysection_EndText_3jmKN {
