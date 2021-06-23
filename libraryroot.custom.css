@@ -3197,7 +3197,7 @@ div.ShortRightPanel
   filter: BRIGHTNESS(0) !important;
 }
 .artworkmodal_Body_1uUBT .artworkmodal_Top_2CL3W {
-  color: var(--ACCENT) !important;
+  color: var(--BLUE) !important;
 }
 .steamavatar_avatar_3h-QR {
   border-radius: 100px !important;
@@ -3855,8 +3855,10 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
 }
 
-.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_EndofFeed_3LIds .appdetailsactivitysection_EndRule_1AZdy {
-  background-color:var(--DIVIDER)!important;
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3
+  .appdetailsactivitysection_EndofFeed_3LIds
+  .appdetailsactivitysection_EndRule_1AZdy {
+  background-color: var(--DIVIDER) !important;
 }
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
@@ -4801,7 +4803,7 @@ A {
 .artworkmodal_Body_1uUBT
   .artworkmodal_Top_2CL3W
   .artworkmodal_CaptionQuote_1fPJb {
-  color: var(--ACCENT) !important;
+  color: var(--BLUE) !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_DeleteButton_3cK5j
