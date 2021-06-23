@@ -4688,8 +4688,7 @@ A {
 }
 
 .appgrid_AppGridSectionHeader_3bWIS {
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
+  padding:0!important;
   position: inherit !important;
 }
 
@@ -4700,6 +4699,7 @@ A {
   border-bottom: 0 !important;
 }
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
+  display:none!important;
   background: var(--DIVIDER) !important;
   margin-left: 0 !important;
 }
