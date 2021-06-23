@@ -4988,6 +4988,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
   .DialogTextInputBase {
+    height:10px!important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
