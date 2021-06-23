@@ -65,7 +65,7 @@
 		place { region=box start="EncoderHeader" control="EncoderSetting" dir=down margin-top=4 width=250 }
 
 		place { region=box start="EncoderSetting" control="ShowChatHeader" dir=down margin-top=10 width=max }
-		place { region=box start="ShowChatHeader" control="ShowChatCombo" dir=down margin-top=4 width=250 }
+		place { region=box start="ShowChatHeader" control="ShowChatCombo" dir=down margin-top=4 width=200 }
 
 		place { region=box start="ShowChatCombo" control="IncludeDesktop,RecordSystemAudio,RecordMic,ShowDebugInfo,ShowReminder" dir=down margin-top=10 }	
 		place { region=box start="RecordMic" control="ConfigMic" dir=right height=28 }
