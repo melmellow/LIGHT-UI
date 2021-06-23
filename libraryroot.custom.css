@@ -419,7 +419,7 @@
 }
 
 .DialogTwoColLayout > ._DialogLayout {
-  max-height: 0 !important;
+  max-height: 34PX !important;
 }
 
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs {
@@ -2378,7 +2378,7 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
 }
 .DialogHeader {
   color: var(--ACCENT) !important;
-  font-size: 28px !important;
+  font-size: 24px !important;
   line-height: 36px !important;
   letter-spacing: 0 !important;
 }
@@ -4533,7 +4533,7 @@ A {
   transition: all 0.18s ease-in-out;
 }
 .writereview_Header_27mfP {
-  font-weight: BOLD !important;
+  font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
   color: var(--ACCENT) !important;
 }
 .writereview_ReviewTextArea_392iE {
@@ -4688,8 +4688,15 @@ A {
 }
 
 .appgrid_AppGridSectionHeader_3bWIS {
-  padding:0!important;
+  padding: 0 !important;
   position: inherit !important;
+}
+
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_DlcTopRow_ZII4C
+  .appproperties_ViewMore_3jITh {
+  flex: unset !important;
 }
 
 .appgrid_AppGridSectionHeader_3bWIS::after {
@@ -4699,7 +4706,7 @@ A {
   border-bottom: 0 !important;
 }
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
-  display:none!important;
+  display: none !important;
   background: var(--DIVIDER) !important;
   margin-left: 0 !important;
 }
