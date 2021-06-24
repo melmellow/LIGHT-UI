@@ -254,8 +254,8 @@
   --CHECKMARK: VAR(--WHITE);
   --CHECKMARKBACKGROUND: VAR(--BLUE);
   --CHECKMARKBACKGROUNDHOVER: VAR(--BLUE2);
-  --CHECKMARKTOPMARGIN: 0;
-  --CHECKMARKLEFTMARGIN: ;
+  --CHECKMARKTOPMARGIN: -1px;
+  --CHECKMARKLEFTMARGIN: -1px;
   --CHECKMARKSTROKEWIDTH: 40px; /*default is 40*/
   --DROPDOWN: VAR(--BUTTON2);
   --DROPDOWNBORDER: NONE;
@@ -392,8 +392,8 @@
   --APPPORTRAITZOOM: VAR(--ACCENT);
   --APPPORTRAITZOOMBORDER: VAR(--WHITE);
   --TEXTENTRYFONTWEIGHT: 400;
-  --CHECKMARKHEIGHT: 12px; /*DEFAULT IS 14PX*/
-  --CHECKMARKWIDTH: 12px; /*DEFAULT IS 14PX*/
+  --CHECKMARKHEIGHT: 14px; /*DEFAULT IS 14PX*/
+  --CHECKMARKWIDTH: 14px; /*DEFAULT IS 14PX*/
   --DESCRIPTIONBG: VAR(--BASE1);
   --GAMESTATICONDISPLAY: none; /*default is unset*/
   --SHOWCASEDIVIDERHOVER: VAR(--BUTTON2);
@@ -726,8 +726,8 @@
 }
 
 .DialogCheckbox .SVGIcon_DialogCheck {
-  margin-top: 0 !important;
-  margin-left: 0 !important;
+  margin-top: -2px !important;
+  margin-left: -2px !important;
 }
 
 .appfilterpane_Container_170Np
@@ -4620,6 +4620,8 @@ A {
   background-color: var(--CHECKBOX) !important;
   border-radius: var(--CHECKBOXBORDERRADIUS) !important;
   transition: all 0.18s ease-in-out;
+  width:20px!important;
+  height:20px!important;
 }
 .writereview_Header_27mfP {
   font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
