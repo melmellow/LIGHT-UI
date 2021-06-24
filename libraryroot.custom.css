@@ -40,7 +40,7 @@
   --GREEN: #54a448;
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
-  --BLUE2: #71c4ff;
+  --BLUE2: #285d83;
   --WHITE: VAR(--BASE1);
   --SEARCHBARBACKGROUND: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
@@ -419,6 +419,10 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover .appdetailsprimarylinkssection_Text_2sNDj {
+  color:var(--LSHOVER)!important;
 }
 
 .appdetailsscreenshotssection_ScreenshotsSection_2_TE0
@@ -2735,7 +2739,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 
 .appdetailsprimarylinkssection_LinkInner_7k4qm
   .appdetailsprimarylinkssection_Link_1b6LY:hover {
-  color: VAR(--LSHOVER) !important;
   border-radius: var(--LSHOVERBORDERRADIUS) !important;
   background-color: VAR(--LSBACKGROUNDHOVER) !important;
   box-shadow: 1px 1px 2px var(--LSHOVERSHADOW) !important;
@@ -3458,10 +3461,6 @@ div.ShortRightPanel
 }
 .bbcodes_Header1_3Jkby {
   font-weight: 500 !important;
-  color: var(--BUTTONHOVER) !important;
-}
-.appdetailsprimarylinkssection_LinkInner_7k4qm
-  .appdetailsprimarylinkssection_Text_2sNDj:hover {
   color: var(--BUTTONHOVER) !important;
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Title_2xEgU {
