@@ -3739,7 +3739,7 @@ div.NarrowRightPanel
   border: 1px solid var(--DIVIDER) !important;
   background-color: var(--BASE4) !important;
   border-radius: VAR(--ADVANCEDSEARCHBORDERRADIUS) !important;
-  transition: opacity 0.18s ease-in-out;
+  transition: all 0.18s ease-in-out;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
