@@ -428,6 +428,16 @@
   */
 }
 
+/* .title-area .title-bar-actions {
+  background-image: url(https://i.imgur.com/dDdDGdb.png) !important;
+  background-position: center !important;
+  background-repeat:no-repeat!important;
+} */
+
+.title-area .title-bar-actions {
+  right: 0 !important;
+}
+
 .writereview_WriteReviewContainer_10bN3 a {
   font-weight: bold !important;
 }
@@ -2324,7 +2334,7 @@ img {
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
   color: var(--ACCENT) !important;
   text-transform: NONE !important;
-  margin-bottom: 7px !important;
+  margin-bottom: 1px !important;
   padding-left: 17px !important;
   padding-top: 4px !important;
   padding-bottom: 6px !important;
@@ -2387,8 +2397,8 @@ img {
 }
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
   background: var(--SETTINGSSIDEBAR) !important;
-  min-width: 155px !important;
-  max-width: 155px !important;
+  min-width: 140px !important;
+  max-width: 140px !important;
   border-right: 1px SOLID var(--SIDEBARBORDER) !important;
   padding-left: 0 !important;
 }
@@ -2649,7 +2659,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   background-color: var(--RATINGICONBACKGROUNDHOVER) !important;
   border-radius: 30px !important;
 }
+
+.title-area-icon .SVGIcon_X_Line {
+  margin-top:0!important;
+  margin-left:0!important;
+}
+
 .title-area-icon .SVGIcon_X_Line line {
+  stroke-width:32px!important;
   stroke: var(--ACCENT) !important;
 }
 .posttextentry_PostTextEntry_3x31A
@@ -4620,8 +4637,8 @@ A {
   background-color: var(--CHECKBOX) !important;
   border-radius: var(--CHECKBOXBORDERRADIUS) !important;
   transition: all 0.18s ease-in-out;
-  width:20px!important;
-  height:20px!important;
+  width: 20px !important;
+  height: 20px !important;
 }
 .writereview_Header_27mfP {
   font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
