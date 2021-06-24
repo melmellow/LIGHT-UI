@@ -316,7 +316,6 @@
   --MCSCORETEXTLOW: #d69d00;
   --NEWAPPBANNERTOPMARGIN: 2px;
   --NEWAPPBANNERLEFTMARGIN: 56px;
-  --SUBSCRIPTTOPMARGIN: -23px;
   --SUBSCRIPTLEFTMARGIN: 0;
   --SUBSCRIPTBACKGROUND: VAR(--BASE2);
   --SUBSCRIPTTEXT: VAR(--ACCENT);
@@ -3557,11 +3556,20 @@ div.ShortRightPanel
   border: 1px SOLID var(--BASE2) !important;
 }
 
-.appportrait_HoversEnabled_54PuC
-  .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2) {
-  transform: translatez(10px);
+.appportrait_Short_yGeS6
+  .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_SteamReview_2pens,
+.appportrait_Small_3plHT
+  .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_SteamReview_2pens,
+.appportrait_Medium_3SNGK
+  .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_SteamReview_2pens {
+  position: absolute !important;
+  bottom: 0 !important;
 }
 
+.appportrait_HoversEnabled_54PuC
+  .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2) {
+  transform: translatez(10px) !important;
+}
 .appportrait_UninstalledBar_kX-tI {
   height: 5px !important;
 }
@@ -5253,8 +5261,10 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   opacity: 0 !important;
 }
 
-.appportrait_LibraryItemBoxSubscript_1LJqx {
-  pointer-events: none !important;
+.appportrait_LibraryItemBox_WYgDg:hover
+  ~ .appportrait_LibraryItemBoxSubscript_1LJqx
+  .appportrait_LibraryItemBoxSubscript_1LJqx {
+  /* pointer-events: none !important; */
   position: absolute !important;
   left: 0 !important;
   bottom: 0 !important;
@@ -5873,11 +5883,13 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
   background-color: VAR(--SUBSCRIPTBACKGROUND) !important;
   color: VAR(--SUBSCRIPTTEXT) !important;
   font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
-  margin-top: VAR(--SUBSCRIPTTOPMARGIN) !important;
-  padding: 2px 8px;
+  padding: 2px 8px !important;
   border-top: 1px solid var(--SUBSCRIPTTOPBORDER) !important;
   border-right: 1px solid var(--SUBSCRIPTRIGHTBORDER) !important;
   border-radius: VAR(--SUBSCRIPTBORDERRADIUS) !important;
