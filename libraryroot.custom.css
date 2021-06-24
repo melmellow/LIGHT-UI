@@ -103,7 +103,7 @@
   --NEWCOLLECTIONBORDERWIDTH: 0;
   --NEWCOLLECTIONSHADOW: VAR(--SHADOW);
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
-  --NEWCOLLECTIONTARGETBORDER: VAR(--ACCENT);
+  --NEWCOLLECTIONTARGETBORDER: VAR(--BLUE);
   --SHOWALLCOLLECTIONSFONTWEIGHT: 600;
   --RATINGCONTAINER: VAR(--BASE1);
   --DYNAMICCOLLECTIONICON: VAR(--ACCENT);
@@ -671,7 +671,7 @@
 .gamelistsearchbar_SearchFilterInput_172OF
   .gamelistsearchbar_FilterTag_3gzh_
   svg {
-    transition: all 0.18s ease-in-out !important;
+  transition: all 0.18s ease-in-out !important;
   filter: var(--REMOVESEARCHFILTERFILT) !important;
   opacity: VAR(--REMOVESEARCHFILTEROP) !important;
 }
@@ -740,8 +740,8 @@
 .DialogCheckbox .SVGIcon_DialogCheck {
   margin-top: -2px !important;
   margin-left: -2px !important;
-  height:var(--CHEKCMARKHEIGHT)!important;
-  width:var(--CHECKMARKWIDTH)!important;
+  height: var(--CHEKCMARKHEIGHT) !important;
+  width: var(--CHECKMARKWIDTH) !important;
 }
 
 .appfilterpane_Container_170Np
