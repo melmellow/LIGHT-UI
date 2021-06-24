@@ -420,6 +420,14 @@
   */
 }
 
+.appactivityday_PartnerEventMediumImage_Image_VytJz {
+  border-radius:var(--BORDERRADIUS)!important;
+}
+
+.ModalPosition_Content>div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
+  border-radius:var(--BORDERRADIUS)!important;
+}
+
 .DialogTwoColLayout > ._DialogLayout {
   max-height: 34px !important;
 }
