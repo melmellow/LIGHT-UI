@@ -96,6 +96,12 @@
   --COLLECTIONNAMEEDIT: VAR(--ACCENT);
   --COLLECTIONNAMEEDITHOVER: VAR(--BLACK);
   --COLLECTIONNAMEEDITBACKGROUNDHOVER: VAR(--BUTTON2);
+  --NEWCOLLECTIONBACKGROUND: VAR(--BASE1);
+  --NEWCOLLECTIONBACKGROUNDHOVER: VAR(--BASE3);
+  --NEWCOLLECTIONBORDER: NONE;
+  --NEWCOLLECTIONBORDERHOVER: TRANSPARENT;
+  --NEWCOLLECTIONBORDERWIDTH: 0;
+  --NEWCOLLECTIONSHADOW: VAR(--SHADOW);
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
   --NEWCOLLECTIONTARGETBORDER: VAR(--ACCENT);
   --SHOWALLCOLLECTIONSFONTWEIGHT: 600;
@@ -2811,12 +2817,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   color: var(--ACCENT) !important;
 }
 .allcollections_Collection_3IWn-.allcollections_NewCollection_2_dwx {
-  border: 0 !important;
-  background: var(--BASE1) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  border: VAR(--NEWCOLLECTIONBORDERWIDTH) SOLID var(--NEWCOLLECTIONBORDER) !important;
+  background: var(--NEWCOLLECTIONBACKGROUND) !important;
+  box-shadow: 1px 1px 2px VAR(--NEWCOLLECTIONSHADOW) !important;
 }
 .allcollections_Collection_3IWn-:hover {
-  background: VAR(--BASE3) !important;
+  background: VAR(--NEWCOLLECTIONBACKGROUNDHOVER) !important;
+  border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
 }
 .allcollections_Collection_3IWn-
   .allcollections_CollectionLabel_1J1LQ
