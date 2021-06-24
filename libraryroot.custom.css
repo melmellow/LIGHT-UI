@@ -169,7 +169,7 @@
   --ADVANCEDSEARCHBUTTONSELECTEDBORDER: VAR(--DIVIDER);
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
-  --COLLECTIONICONBORDERRADIUS:2px;
+  --COLLECTIONICONBORDERRADIUS: 2px;
   --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAR: VAR(--ACCENT);
@@ -421,16 +421,22 @@
   */
 }
 
+.appdetailsscreenshotssection_ScreenshotsSection_2_TE0
+  .appdetailsscreenshotssection_Thumbnail_2B8Nk {
+  border-radius: VAR(--BORDERRADIUS) !important;
+}
+
 .partnereventdisplay_EventDetailsBody_A_A2B img {
-  border-radius:var(--BORDERRADIUS)!important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
 .appactivityday_PartnerEventMediumImage_Image_VytJz {
-  border-radius:var(--BORDERRADIUS)!important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
-.ModalPosition_Content>div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
-  border-radius:var(--BORDERRADIUS)!important;
+.ModalPosition_Content
+  > div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
 .DialogTwoColLayout > ._DialogLayout {
@@ -3300,7 +3306,7 @@ div.ShortRightPanel
 }
 .gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
   background: var(--COLLECTIONICON);
-  border-radius:var(--COLLECTIONICONBORDERRADIUS)!important;
+  border-radius: var(--COLLECTIONICONBORDERRADIUS) !important;
   transition: filter 0.3s ease-in-out !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
