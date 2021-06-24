@@ -421,8 +421,14 @@
   */
 }
 
-.appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover .appdetailsprimarylinkssection_Text_2sNDj {
-  color:var(--LSHOVER)!important;
+.appdetailssection_AppDetailsSection_2r4TK {
+  font-family: segoe UI semibold !important;
+}
+
+.appdetailsprimarylinkssection_LinkInner_7k4qm
+  .appdetailsprimarylinkssection_Link_1b6LY:hover
+  .appdetailsprimarylinkssection_Text_2sNDj {
+  color: var(--LSHOVER) !important;
 }
 
 .appdetailsscreenshotssection_ScreenshotsSection_2_TE0
@@ -2868,6 +2874,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .appdetailscommunityfeed_VideoPreview_jjN9C
   .appdetailscommunityfeed_PlayLogo_2co0e {
   filter: brightness(2) !important;
+  transform: scale(0.8) !important;
+  top: 42% !important;
+  left: 42% !important;
 }
 
 .appproperties_AppProperties_1FyBL
