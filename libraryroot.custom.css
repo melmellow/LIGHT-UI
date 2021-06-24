@@ -318,8 +318,8 @@
   --NEWAPPBANNERLEFTMARGIN: 56px;
   --SUBSCRIPTLEFTMARGIN: 0;
   --SUBSCRIPTBACKGROUND: VAR(--BASE2);
-  --STEAMREVIEWCOLOR:VAR(--ACCENT);
-  --SUBSCRIPTTEXT: VAR(--BLUE);
+  --STEAMREVIEWCOLOR: VAR(--ACCENT);
+  --SUBSCRIPTTEXT: VAR(--ACCENT);
   --SUBSCRIPTTOPBORDER: VAR(--DIVIDER);
   --SUBSCRIPTRIGHTBORDER: VAR(--DIVIDER);
   --PROGRESSBARBORDERROUNDED: 5px;
@@ -4768,9 +4768,14 @@ A {
   display: none !important;
 }
 
+.appgrid_AppGridSectionFooter_2c0Fg {
+  height:10px!important;
+}
+
 .appgrid_AppGridSectionHeader_3bWIS {
+  margin-top:10px!important;
+  margin-left: 25px !important;
   padding: 0 !important;
-  position: inherit !important;
 }
 
 .appproperties_AppProperties_1FyBL
