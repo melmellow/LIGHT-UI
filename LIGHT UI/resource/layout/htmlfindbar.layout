@@ -35,6 +35,31 @@
 			}
 		}
 
+
+				FindEntry:hover
+		{
+		
+			render
+			{
+				1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDERHOVER)"		// Top
+				2="fill( x0+1, y1-1, x1, y1, TEXTENTRYBORDERHOVER)"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1, TEXTENTRYBORDERHOVER)"		// Left
+				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDERHOVER)"	// Right
+			}
+		}
+
+					FindEntry:ACTIVE
+		{
+		
+			render
+			{
+				1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDERSELECTED)"		// Top
+				2="fill( x0+1, y1-1, x1, y1, TEXTENTRYBORDERSELECTED)"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1, TEXTENTRYBORDERSELECTED)"		// Left
+				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDERSELECTED)"	// Right
+			}
+		}
+
 		NextButtonSm
 		{
 			inset="-5 0 0 0"

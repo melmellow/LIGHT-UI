@@ -341,6 +341,7 @@
   --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
+  --DIALOGTEXTENTRYBORDERROUNDED:0;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
   --BUTTON1BORDERRADIUS: 0;
@@ -1623,7 +1624,7 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
 
 .DialogInput_Wrapper > input.DialogInput {
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
+  border-radius: var(--DIALOGTEXTENTRYBORDERROUNDED) !important;
   font-weight: var(--TEXTENTRYFONTWEIGHT) !important;
 }
 
