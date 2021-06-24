@@ -297,7 +297,7 @@
   --REMOVESEARCHFILTERHOVEROP: 1;
   --SEARCHFILTER: VAR(--BLUE);
   --SEARCHFILTERTEXT: VAR(--WHITE);
-  --SEARCHFILTERFONTWEIGHT: 400;
+  --SEARCHFILTERFONTWEIGHT: 500;
   --INACTIVEDROPDOWNFILTERICON: VAR(--ACCENT);
   --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLACK);
   --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
@@ -671,6 +671,7 @@
 .gamelistsearchbar_SearchFilterInput_172OF
   .gamelistsearchbar_FilterTag_3gzh_
   svg {
+    transition: all 0.18s ease-in-out !important;
   filter: var(--REMOVESEARCHFILTERFILT) !important;
   opacity: VAR(--REMOVESEARCHFILTEROP) !important;
 }
