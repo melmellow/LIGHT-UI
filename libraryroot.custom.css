@@ -280,6 +280,7 @@
   --ADVANCEDSEARCH: VAR(--BASE3);
   --ADVANCEDSEARCHBORDER: VAR(--DIVIDER);
   --ADVANCEDSEARCHSHADOW: NONE;
+  --SETTINGSSIDEBAR:VAR(--BASE1);
   --SIDEBAR: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--BUTTON2);
@@ -2371,11 +2372,11 @@ img {
   color: var(--ACCENT) !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
+  background: var(--SETTINGSSIDEBAR) !important;
   min-width: 155px !important;
   max-width: 155px !important;
   border-right: 1px SOLID var(--SIDEBARBORDER) !important;
   padding-left: 0 !important;
-  background: var(--BASE1) !important;
 }
 button.DialogButton:hover {
   border: 1px solid var(--BUTTONBORDERHOVER) !important;
