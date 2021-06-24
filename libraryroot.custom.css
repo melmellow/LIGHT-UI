@@ -91,7 +91,7 @@
   --APPEVENTPAGECONTROLSBORDER: VAR(--WHITE);
   --APPEVENTPAGECONTROLSHOVERBORDER: VAR(--WHITE);
   --APPEVENTPAGECONTROLSHOVER: VAR(--BLACK);
-  --REMOVEGAMEHOVERBACKGROUND: VAR(--BASE3);
+  --REMOVEGAMEHOVERBACKGROUND: var(--BASE3);
   --REMOVEGAMEHOVERBORDER: VAR(--RED);
   --COLLECTIONNAMEEDIT: VAR(--ACCENT);
   --COLLECTIONNAMEEDITHOVER: VAR(--BLACK);
@@ -429,11 +429,11 @@
 }
 
 .writereview_WriteReviewContainer_10bN3 a {
-  font-weight:bold!important;
+  font-weight: bold !important;
 }
 
 .writereview_WriteReviewContainer_10bN3 a:hover {
-  color:var(--BLACK)!important;
+  color: var(--BLACK) !important;
 }
 
 .appdetailssection_AppDetailsSection_2r4TK {
