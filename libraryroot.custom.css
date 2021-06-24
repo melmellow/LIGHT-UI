@@ -271,7 +271,7 @@
   --FRIENDISPLAYINGDISPLAY: unset;
   --SCROLLTOTOPHOVER: VAR(--BLACK);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
-  --SCROLLTOTOPFONTWEIGHT:400;
+  --SCROLLTOTOPFONTWEIGHT: 400;
   --SCROLLTOTOP: VAR(--ACCENT);
   --SCROLLTOTOPBORDER: VAR(--WHITE);
   --FILTERBUCKETLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -283,7 +283,7 @@
   --SIDEBARBORDER: VAR(--SHADOW);
   --DIVIDER: VAR(--BUTTON2);
   --SEARCHFILTERBORDER: VAR(--DIVIDER);
-  --SEARCHFILTERBORDERWIDTH:2PX;
+  --SEARCHFILTERBORDERWIDTH: 2px;
   --REMOVESEARCHFILTERFILT: VAR(--FILT);
   --REMOVESEARCHFILTEROP: 40%;
   --REMOVESEARCHFILTERHOVEROP: 1;
@@ -823,7 +823,7 @@
 }
 
 .DialogInput {
-  padding:8px!important;
+  padding: 8px !important;
 }
 
 .appfilterpane_Container_170Np
@@ -4732,7 +4732,28 @@ A {
   .appproperties_DlcTopRow_ZII4C
   .appproperties_ViewMore_3jITh {
   flex: unset !important;
+  padding: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 8px !important;
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 50px !important;
+  color: transparent !important;
+  background: transparent !important;
+  border: 0 !important;
+  background-size: 22px !important;
+  flex: unset !important;
+  background-image: url(https://i.imgur.com/3NHWp4r.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
+
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_DlcTopRow_ZII4C
+  .appproperties_ViewMore_3jITh:hover{
+    filter:var(--FILT)!important;
+  }
 
 .appgrid_AppGridSectionHeader_3bWIS::after {
   display: none !important;
@@ -4989,7 +5010,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
   .DialogTextInputBase {
-    height:10px!important;
+  height: 10px !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
@@ -5746,8 +5767,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: var(--SHELFINSTALLBUTTONHOVER) !important;
 }
 .smartscrollcontainer_ScrollToTopButton_1J21t div {
-  LETTER-SPACING:0!important;
-  font-weight:var(--SCROLLTOTOPFONTWEIGHT)!important;
+  letter-spacing: 0 !important;
+  font-weight: var(--SCROLLTOTOPFONTWEIGHT) !important;
   color: var(--SCROLLTOTOPTEXT) !important;
   padding-left: 19px !important;
   padding-right: 19px !important;
