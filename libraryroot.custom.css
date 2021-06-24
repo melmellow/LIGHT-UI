@@ -428,6 +428,14 @@
   */
 }
 
+.writereview_WriteReviewContainer_10bN3 a {
+  font-weight:bold!important;
+}
+
+.writereview_WriteReviewContainer_10bN3 a:hover {
+  color:var(--BLACK)!important;
+}
+
 .appdetailssection_AppDetailsSection_2r4TK {
   font-family: segoe UI semibold !important;
 }
