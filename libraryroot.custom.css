@@ -2334,10 +2334,10 @@ img {
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
   color: var(--ACCENT) !important;
   text-transform: NONE !important;
-  margin-bottom: 1px !important;
+  margin-bottom:0!important;
   padding-left: 17px !important;
-  padding-top: 4px !important;
-  padding-bottom: 6px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr:not(.pagedsettings_Active_2DpXj):hover {
   color: var(--ACCENT) !important;
