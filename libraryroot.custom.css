@@ -169,6 +169,7 @@
   --ADVANCEDSEARCHBUTTONSELECTEDBORDER: VAR(--DIVIDER);
   --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
   --COLLECTIONICON: VAR(--ACCENT);
+  --COLLECTIONICONBORDERRADIUS:2px;
   --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAR: VAR(--ACCENT);
@@ -418,6 +419,10 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.partnereventdisplay_EventDetailsBody_A_A2B img {
+  border-radius:var(--BORDERRADIUS)!important;
 }
 
 .appactivityday_PartnerEventMediumImage_Image_VytJz {
@@ -3295,6 +3300,7 @@ div.ShortRightPanel
 }
 .gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
   background: var(--COLLECTIONICON);
+  border-radius:var(--COLLECTIONICONBORDERRADIUS)!important;
   transition: filter 0.3s ease-in-out !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
