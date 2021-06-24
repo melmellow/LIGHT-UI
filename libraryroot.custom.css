@@ -341,7 +341,7 @@
   --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
-  --DIALOGTEXTENTRYBORDERROUNDED:0;
+  --DIALOGTEXTENTRYBORDERROUNDED: 0;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
   --BUTTON1BORDERRADIUS: 0;
@@ -739,6 +739,8 @@
 .DialogCheckbox .SVGIcon_DialogCheck {
   margin-top: -2px !important;
   margin-left: -2px !important;
+  height:var(--CHEKCMARKHEIGHT)!important;
+  width:var(--CHECKMARKWIDTH)!important;
 }
 
 .appfilterpane_Container_170Np
@@ -2335,7 +2337,7 @@ img {
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
   color: var(--ACCENT) !important;
   text-transform: NONE !important;
-  margin-bottom:0!important;
+  margin-bottom: 0 !important;
   padding-left: 17px !important;
   padding-top: 5px !important;
   padding-bottom: 5px !important;
@@ -2662,12 +2664,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 
 .title-area-icon .SVGIcon_X_Line {
-  margin-top:0!important;
-  margin-left:0!important;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
 }
 
 .title-area-icon .SVGIcon_X_Line line {
-  stroke-width:32px!important;
+  stroke-width: 32px !important;
   stroke: var(--ACCENT) !important;
 }
 .posttextentry_PostTextEntry_3x31A
@@ -4638,8 +4640,8 @@ A {
   background-color: var(--CHECKBOX) !important;
   border-radius: var(--CHECKBOXBORDERRADIUS) !important;
   transition: all 0.18s ease-in-out;
-  width: 20px !important;
-  height: 20px !important;
+  height: 16px !important;
+  width: 16px !important;
 }
 .writereview_Header_27mfP {
   font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
