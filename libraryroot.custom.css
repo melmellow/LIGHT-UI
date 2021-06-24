@@ -1591,7 +1591,7 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
   width: 37px !important;
   color: transparent !important;
   background-image: url(https://i.imgur.com/AAFscfG.png) !important;
-  background-size: 21px !important;
+  background-size: 20px !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   left: -1px !important;
@@ -4751,9 +4751,9 @@ A {
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_DlcTopRow_ZII4C
-  .appproperties_ViewMore_3jITh:hover{
-    filter:var(--FILT)!important;
-  }
+  .appproperties_ViewMore_3jITh:hover {
+  filter: var(--FILT) !important;
+}
 
 .appgrid_AppGridSectionHeader_3bWIS::after {
   display: none !important;
@@ -4927,8 +4927,8 @@ button.DialogButton.Primary:hover {
 .gamelisthome_CollectionIcon_nC-pL {
   padding-left: 0 !important;
   grid-template-rows: 9px 9px !important;
-  grid-column-gap: 3px !important;
-  grid-row-gap: 3px !important;
+  grid-column-gap: 2px !important;
+  grid-row-gap: 2px !important;
   padding-top: 3px !important;
 }
 .appdetailsworkshopsection_WorkshopContainer_176QJ {
