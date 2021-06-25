@@ -568,16 +568,24 @@
 
 /*-------------------------- INFO PANEL TOP BORDER --------------------------*/
 
-.appdetailsgameinfocontainer_Glassy_2QAgO.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
-  background: var(--INFOPANEL) !important;
-  background-image: url(https://i.imgur.com/Js7qIy8.png) !important;
-  background-repeat: repeat-x !important;
+.appdetailsgameinfopanel_Container_2jPMy {
+  background-color: transparent !important;
 }
 
-.appdetailsgameinfopanel_Container_2jPMy {
-  background-color: var(--INFOPANEL) !important;
-  background-image: url(https://i.imgur.com/Js7qIy8.png) !important;
-  background-repeat: repeat-x !important;
+.appdetailsgameinfocontainer_Glassy_2QAgO.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
+  background: var(--INFOPANEL) !important;
+  background-image: url(https://i.imgur.com/oSBAgR8.png),
+    url(https://i.imgur.com/oSBAgR8.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: top, bottom !important;
+}
+
+.appdetailsgameinfocontainer_Glassy_2QAgO.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
+  background: var(--INFOPANEL) !important;
+  background-image: url(https://i.imgur.com/oSBAgR8.png),
+    url(https://i.imgur.com/oSBAgR8.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: top, bottom !important;
 }
 
 /*-------------------------- INFO PANEL TOP BORDER --------------------------*/
@@ -5700,6 +5708,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   margin: 0px 3px 3px 3px !important;
   filter: VAR(--GAMESTATICONFILTER) !important;
 }
+
 .appdetailsgameinfopanel_Container_2jPMy
   .appdetailsgameinfopanel_Stats_3cntz
   .appdetailsgameinfopanel_Release_1OWQ9
