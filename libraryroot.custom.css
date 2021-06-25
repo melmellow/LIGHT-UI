@@ -37,6 +37,7 @@
   --BLACK: #000;
   --RED: #d21116;
   --GREEN: #54a448;
+  --GREEN3: #27771b;
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
   --BLUE2: #285d83;
@@ -195,9 +196,10 @@
   --BUTTON1BORDER: NONE;
   --BUTTON1HOVER: VAR(--BLACK);
   --BUTTONHOVER: VAR(--BLACK);
-  --RUNNINGGAMENAMECOLOR: VAR(--ACCENT);
-  --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
-  --UPDATINGGAMENAMECOLOR: VAR(--ACCENT);
+  --GAMESTATEDASH: VAR(--ACCENT);
+  --RUNNINGGAMENAMECOLOR: VAR(--GREEN);
+  --RUNNINGGAMESTATECOLOR: VAR(--GREEN);
+  --UPDATINGGAMENAMECOLOR: VAR(--BLUE);
   --UPDATINGGAMENAMEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --COLLECTIONSLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --COLLECTIONSBORDERRADIUS: var(--BORDERRADIUS);
@@ -212,7 +214,7 @@
   --COLLECTIONSNAMEHEADERFONTWEIGHT: NONE;
   --SOUNDTRACKPARENTAPPNAMEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --SOUNDTRACKDISCFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --UPDATINGGAMESTATECOLOR: VAR(--BLACK);
+  --UPDATINGGAMESTATECOLOR: VAR(--BLUE);
   --INSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
@@ -234,14 +236,13 @@
   --SHELFPLAYBUTTONHOVER: VAR(--BLACK);
   --SHELFINSTALLBUTTON: VAR(--ACCENT);
   --SHELFINSTALLBUTTONHOVER: VAR(--BLACK);
-  --INSTALLBUTTON: VAR(--ACCENT);
-  --INSTALLBUTTONHOVER: VAR(--BLACK);
-  --PLAYBUTTON: VAR(--ACCENT);
-  --PLAYBUTTONHOVER: VAR(--BLACK);
+  --INSTALLBUTTON: VAR(--BLUE);
+  --INSTALLBUTTONHOVER: VAR(--BLUE2);
+  --PLAYBUTTON: VAR(--GREEN);
+  --PLAYBUTTONHOVER: VAR(--GREEN3);
   --GAMEGROUPNAMECOLOR: VAR(--ACCENT);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --SELECTEDLISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
-  --SELECTEDLISTITEMTEXTCOLOR: var(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --CONTEXTMENUBORDER: VAR(--DIVIDER);
   --CONTEXTMENUSHADOW: "NONE";
@@ -268,8 +269,8 @@
   --CHOOSEEMOTICON: VAR(--ACCENT);
   --CHOOSEEMOTICONHOVER: VAR(--BLACK);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
-  --DOWNLOADPROGRESSBAR: VAR(--ACCENT);
-  --ACHIEVEMENTPROGRESSBAR: VAR(--ACCENT);
+  --DOWNLOADPROGRESSBAR: VAR(--BLUE);
+  --ACHIEVEMENTPROGRESSBAR: VAR(--BLUE);
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
   --LIKETHUMBICON: VAR(--ACCENT);
   --LIKETHUMBICONHOVER: VAR(--BLACK);
@@ -431,12 +432,22 @@
   */
 }
 
-.appdetailsplaysection_DetailsSection_1dg8h .appdetailsplaysection_DetailsProgressContainer_25YVD {
-  margin-top:6px!important;
+.gamelistentry_Container_2-O4Z
+  .gamelistentry_GameListEntryContainer_1vO6B
+  .gamelistentry_DownloadDash_2RggX {
+  color: VAR(--GAMESTATEDASH) !important;
 }
 
-div.NarrowRightPanel .appdetailsplaysection_DetailsSection_1dg8h .appdetailsplaysection_DetailsProgressContainer_25YVD {
-  height:6px!important;
+.appdetailsplaysection_DetailsSection_1dg8h
+  .appdetailsplaysection_DetailsProgressContainer_25YVD {
+  margin-top: 6px !important;
+  width: 118px !important;
+}
+
+div.NarrowRightPanel
+  .appdetailsplaysection_DetailsSection_1dg8h
+  .appdetailsplaysection_DetailsProgressContainer_25YVD {
+  height: 6px !important;
 }
 
 .appdetailsplaysection_DetailsSection_1dg8h
@@ -6074,21 +6085,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appdetailsactivitysection_NoActivity_2-kDc,
 .appdetailsactivitysection_Loading_3UShz {
   display: none !important;
-}
-
-.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
-.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
-.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
-.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z
-  .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
-.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z,
-.gamelistentry_Selected_1UBpA
-  .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
-.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z,
-.gamelistentry_Selected_1UBpA
-  .gamelistentry_Container_2-O4Z
-  .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-  color: VAR(--SELECTEDLISTITEMTEXTCOLOR) !important;
 }
 
 /* compact sidebar 0 u 0 */
