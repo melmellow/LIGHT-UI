@@ -15,7 +15,6 @@
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
-  --BASE0: #e4e4e4c2;
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
   --BASE3: #ececec;
@@ -41,6 +40,7 @@
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
   --BLUE2: #285d83;
+  --LETTERSPACING: 1px;
   --WHITE: VAR(--BASE1);
   --SEARCHBARBACKGROUND: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
@@ -430,11 +430,24 @@
   */
 }
 
-/* .title-area .title-bar-actions {
-  background-image: url(https://i.imgur.com/dDdDGdb.png) !important;
-  background-position: center !important;
-  background-repeat:no-repeat!important;
-} */
+.appdetailsworkshopsection_WorkshopSection_2PfKa
+  .appdetailsworkshopsection_WorkshopHeader_139ka
+  .appdetailsworkshopsection_FeaturedItem_1W34W
+  .appdetailsworkshopsection_FeaturedItemImage_gh2rj {
+  border-radius: var(--BORDERRADIUS) !important;
+}
+
+.appactivityday_ScreenshotCarousel_1pdQd
+  .appactivityday_CarouselThumbs_1tRKR
+  .appactivityday_CarouselThumb_1Lot-.appactivityday_Active_n98dr {
+  border-radius: var(--BORDERRADIUS) !important;
+}
+
+.appactivityday_ScreenshotCarousel_1pdQd
+  .appactivityday_ActiveScreenshot_290Dq
+  img {
+  border-radius: var(--BORDERRADIUS) !important;
+}
 
 .title-area .title-bar-actions {
   right: 0 !important;
@@ -850,12 +863,12 @@
   opacity: 50%;
 }
 
-.LibraryDisplaySizeSmall
+/* .LibraryDisplaySizeSmall
   .allcollections_ScrollContainer_u1xD3
   .allcollections_Grid_Ma65K
   .allcollections_CollectionLabel_1J1LQ {
   letter-spacing: 0 !important;
-}
+} */
 
 .appdetailssoundtrack_SoundtrackButtonDivider_2n7O9 {
   height: 0 !important;
@@ -2904,7 +2917,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
-  letter-spacing: 0 !important;
+  letter-spacing: var(--LETTERSPACING) !important;
   color: var(--DETAILSSECTIONHEADER) !important;
   font-weight: 440 !important;
 }
@@ -4356,7 +4369,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 
 .gamelistsectionheader_SectionName_2mZ8L {
-  letter-spacing: 0 !important;
+  letter-spacing: VAR(--LETTERSPACING) !important;
 }
 
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
@@ -5063,7 +5076,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appdetailsworkshopsection_FeaturedItem_1W34W
   .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem
   .appdetailsworkshopsection_FeaturedItemHeader_1jkfJ {
-  color: var(--ACCENT) !important;
+  color: var(--BLUE) !important;
   font-weight: VAR(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 .appdetailsworkshopsection_WorkshopSection_2PfKa
@@ -5316,7 +5329,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appdetailsplaysection_PlayBarLabel_34lrt {
   font-weight: VAR(--GAMESTATLABELFONTWEIGHT) !important;
   color: var(--ACCENT) !important;
-  letter-spacing: 0 !important;
+  letter-spacing: var(--LETTERSPACING) !important;
 }
 .appdetailsplaysection_PlayBarDetailLabel_2TYVG,
 .appdetailsplaysection_LastPlayed_3pS8k
@@ -5570,7 +5583,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .collectionview_Container_2q70u
   .collectionview_Header_2rqTS
   .collectionview_CollectionName_2oJt3 {
-  letter-spacing: 0 !important;
+  letter-spacing: VAR(--LETTERSPACING) !important;
 }
 
 .gamelistdropdown_AppCount_3A3N3 {
@@ -5850,7 +5863,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: var(--SHELFINSTALLBUTTONHOVER) !important;
 }
 .smartscrollcontainer_ScrollToTopButton_1J21t div {
-  letter-spacing: 0 !important;
+  letter-spacing: var(--LETTERSPACING) !important;
   font-weight: var(--SCROLLTOTOPFONTWEIGHT) !important;
   color: var(--SCROLLTOTOPTEXT) !important;
   padding-left: 19px !important;
@@ -5920,6 +5933,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx {
+  font-family: SEGOE UI SEMIBOLD !important;
   position: absolute !important;
   bottom: 0 !important;
   left: 0 !important;
@@ -6057,7 +6071,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .allcollections_ScrollContainer_u1xD3
   .allcollections_Grid_Ma65K
   .allcollections_CollectionLabel_1J1LQ {
-  letter-spacing: 0 !important;
+  letter-spacing: VAR(--LETTERSPACING) !important;
 }
 
 .gamelistbar_GameListHomeAndSearch_2TKEa .gamelistbar_CollectionsButton_2CEKF {
