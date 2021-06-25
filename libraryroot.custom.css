@@ -431,6 +431,10 @@
   */
 }
 
+.appdetailsplaysection_Row_9EHg9 {
+  align-items:center!important;
+}
+
 .discussionwidget_VoteUpStaticIcon_Sf3ur {
   fill: VAR(--BLUE) !important;
 }
@@ -4458,7 +4462,6 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .appdetailsplaysection_InnerContainer_3Y87Y {
   background: var(--BASE2) !important;
   padding: 9px 14px !important;
-  padding-bottom: 0 !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH:hover {
   filter: none !important;
