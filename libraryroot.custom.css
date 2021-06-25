@@ -180,6 +180,8 @@
   --COLLECTIONICONBORDERRADIUS: 2px;
   --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBARBORDERRADIUS: 0px;
+  --SCROLLBAROP: 0;
+  --SCROLLBARHOVEROP:1;
   --SCROLLBAR: VAR(--ACCENT);
   --SCROLLBARWIDTH: 14px;
   --SCROLLBARHOVERWIDTH: 14px;
@@ -658,6 +660,7 @@ div.NarrowRightPanel
   .DialogBody
   *::-webkit-scrollbar-thumb {
   background: var(--SCROLLBAR) !important;
+  opacity: var(--SCROLLBAROP) !important;
   border-radius: VAR(--SCROLLBARBORDERRADIUS) !important;
   width: var(--SCROLLBARWIDTH) !important;
 }
@@ -666,6 +669,7 @@ div.NarrowRightPanel
   .DialogContentTransition
   .DialogBody
   *::-webkit-scrollbar-thumb:hover {
+  opacity: var(--SCROLLBARHOVEROP) !important;
   background: var(--SCROLLBARHOVER) !important;
   width: var(--SCROLLBARHOVERWIDTH) !important;
 }
