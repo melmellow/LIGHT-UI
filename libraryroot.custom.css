@@ -3033,7 +3033,7 @@ button.DialogButton {
 
 .addonpicker_SectionedPageTitle_ZmsEl,
 .addonpicker_SectionTitle_3WuFl {
-  letter-spacing: 0 !important;
+  letter-spacing: var(--LETTERSPACING) !important;
 }
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
