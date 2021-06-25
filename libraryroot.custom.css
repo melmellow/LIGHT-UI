@@ -324,7 +324,7 @@
   --SUBSCRIPTTEXT: VAR(--ACCENT);
   --SUBSCRIPTTOPBORDER: VAR(--DIVIDER);
   --SUBSCRIPTRIGHTBORDER: VAR(--DIVIDER);
-  --PROGRESSBARBORDERROUNDED: 5px;
+  --PROGRESSBARBORDERROUNDED: 100px;
   --SEARCHFILTERROUNDED: 4px;
   --INSTALLEDGAMENAMEFONTWEIGHT: 500;
   --STREAMINGSELECTDISPLAY: unset; /*default is unset*/
@@ -351,7 +351,7 @@
   --GAMEGROUPNAMEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATICONFILTER: VAR(--FILT);
-  --GAMESTATMARGIN: 2px; /*DEFAULT IS 0*/
+  --GAMESTATMARGIN: 0; /*DEFAULT IS 0*/
   --COMMUNITYFEEDICONFILTER: VAR(--FILT);
   --SHOWCASEPAGEBUTTONICONFILTER: VAR(--FILT);
   --APPFEATUREICONTITLESECTIONOP: 1;
@@ -431,8 +431,25 @@
   */
 }
 
+.appdetailsplaysection_DetailsSection_1dg8h .appdetailsplaysection_DetailsProgressContainer_25YVD {
+  margin-top:6px!important;
+}
+
+div.NarrowRightPanel .appdetailsplaysection_DetailsSection_1dg8h .appdetailsplaysection_DetailsProgressContainer_25YVD {
+  height:6px!important;
+}
+
+.appdetailsplaysection_DetailsSection_1dg8h
+  .appdetailsplaysection_DetailsSectionExtra_2pGX3 {
+  display: none !important;
+}
+
+.appdetailsplaysection_StatusAndStats_1YbtI {
+  max-height: 34px !important;
+}
+
 .appdetailsplaysection_Row_9EHg9 {
-  align-items:center!important;
+  align-items: center !important;
 }
 
 .discussionwidget_VoteUpStaticIcon_Sf3ur {
@@ -2562,7 +2579,7 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
 }
 
 .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
-  padding:0 5px!important;
+  padding: 0 5px !important;
 }
 
 .appdetailsgameinfocontainer_Glassy_2QAgO.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
