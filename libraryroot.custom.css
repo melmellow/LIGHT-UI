@@ -2456,8 +2456,7 @@ img {
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_SteamInputStatusGrid_3lj3- {
-  background-color: var(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  background-color: var(--BASE2) !important;
   border-radius: var(--BORDERRADIUS) !important;
   padding: 0 !important;
   margin-top: 8px;
