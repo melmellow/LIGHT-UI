@@ -159,7 +159,7 @@
   --LOADINGOP: VAR(--OP2);
   --LOADINGDOT: VAR(--ACCENT);
   --AVATARBORDER: VAR(--ACCENT);
-  --AVATARBORDERWIDTH:2PX;
+  --AVATARBORDERWIDTH: 2px;
   --ACHIEVEMENTBORDERRADIUS: VAR(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBORDERRADIUS: var(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBG: VAR(--ACCENT);
@@ -604,6 +604,22 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.comment_thread_ActivityCommentThread_39nna
+  .comment_thread_Comment_515RL:hover
+  .comment_thread_CommentControls_2-3DH
+  .comment_thread_ThumbsUpComment_1DwcI {
+  opacity: 1 !important;
+}
+
+.comment_thread_ActivityCommentThread_39nna
+  .comment_thread_Comment_515RL
+  .comment_thread_CommentBody_1ltVe
+  .comment_thread_CommentControls_2-3DH
+  .comment_thread_DeleteButton_n-qlR:hover {
+  background: var(--BUTTON2) !important;
+  border-radius: 50px !important;
+}
 
 .gamelistentry_Container_2-O4Z
   .gamelistentry_GameListEntryContainer_1vO6B
@@ -3493,8 +3509,8 @@ div.ShortRightPanel
   .comment_thread_CommentControls_2-3DH
   .comment_thread_CommentRatingButton_2ftHa:hover
   .comment_thread_ThumbsUpComment_1DwcI.comment_thread_ThumbsUpComment_1DwcI {
-  fill: var(--ACCENT) !important;
-  stroke: var(--ACCENT) !important;
+  fill: var(--LIKETHUMBICON) !important;
+  stroke: var(--LIKETHUMBICON) !important;
 }
 
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA {
@@ -3512,8 +3528,23 @@ div.ShortRightPanel
   .comment_thread_Comment_515RL
   .comment_thread_CommentBody_1ltVe
   .comment_thread_CommentControls_2-3DH
-  .comment_thread_CommentRatingButton_2ftHa:hover {
-  background-color: VAR(--BUTTON2) !important;
+  .comment_thread_CommentRatingButton_2ftHa:hover,
+.comment_thread_ActivityCommentThread_39nna
+  .comment_thread_Comment_515RL
+  .comment_thread_CommentBody_1ltVe
+  .comment_thread_CommentControls_2-3DH
+  .comment_thread_CommentRatingButton_2ftHa:hover
+  .comment_thread_CommentRating_1L2eb.comment_thread_CommentRating_1L2eb,
+.comment_thread_ActivityCommentThread_39nna
+  .comment_thread_Comment_515RL
+  .comment_thread_CommentBody_1ltVe
+  .comment_thread_CommentControls_2-3DH
+  .comment_thread_CommentRatingButton_2ftHa:hover
+  .comment_thread_ThumbsUpComment_1DwcI.comment_thread_ThumbsUpComment_1DwcI {
+    transition: all 0.18s ease-in-out !important;
+  background-color: VAR(--BASE2) !important;
+  fill: var(--LIKETHUMBICONHOVER) !important;
+  stroke: var(--LIKETHUMBICONHOVER) !important;
 }
 
 .comment_thread_ActivityCommentThread_39nna
