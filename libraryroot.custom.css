@@ -158,7 +158,8 @@
   --LOADINGFILT: VAR(--FILT);
   --LOADINGOP: VAR(--OP2);
   --LOADINGDOT: VAR(--ACCENT);
-  --AVATARBORDER: VAR(--WHITE);
+  --AVATARBORDER: VAR(--ACCENT);
+  --AVATARBORDERWIDTH:2PX;
   --ACHIEVEMENTBORDERRADIUS: VAR(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBORDERRADIUS: var(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBG: VAR(--ACCENT);
@@ -3162,7 +3163,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 
 .steamavatar_avatar_3h-QR {
   opacity: var(--STEAMAVATAROP) !important;
-  border: 1px solid var(--AVATARBORDER) !important;
+  border: VAR(--AVATARBORDERWIDTH) solid var(--AVATARBORDER) !important;
 }
 
 .appdetailscommunityfeed_InappropriateOverlay_aX5_K
