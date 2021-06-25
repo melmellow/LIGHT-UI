@@ -609,6 +609,18 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appactivityday_PartnerEventLargeImage_Container_Libri:hover {
+  background:var(--APPDETAILSPANELHOVER)!important;
+}
+
+.appactivityday_PartnerEventTypeUpdate_29bW1 {
+  color:var(--BLUE)!important;
+}
+
+.appactivityday_ScreenshotCarousel_1pdQd .appactivityday_ActiveScreenshot_290Dq .appactivityday_TimeStamp_3ljAd {
+  font-weight:500!important;
+}
+
 .appdetailsachievementssection_Featured_1j_gj
   .appdetailsachievementssection_TextSection_1s_9c
   .appdetailsachievementssection_Desc_2gLHb {
@@ -4187,9 +4199,6 @@ div.NarrowRightPanel
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover
   .appactivityday_PartnerEventMediumImage_Title_1gljE {
   color: var(--BUTTONHOVER) !important;
-}
-.appactivityday_PartnerEventType_1ujzu {
-  color: var(--ACCENT) !important;
 }
 
 .bbcodes_Header1_2SIyP {
