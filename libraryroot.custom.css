@@ -123,7 +123,7 @@
   --DROPDOWNBORDERROUNDED: var(--BORDERRADIUS);
   --CONTEXTMENUBORDERRADIUS: 4px;
   --ADVANCEDSEARCHBORDERRADIUS: var(--BORDERRADIUS);
-  --ACHIEVEMENTTITLEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --ACHIEVEMENTTITLEFONTWEIGHT: BOLD;
   --REVIEWICONBACKGROUNDBORDERRADIUS: VAR(--BORDERRADIUS);
   --POSITIVEREVIEWICONBACKGROUND: VAR(--BLUE);
   --POSITIVEREVIEWICONBACKGROUNDBORDER: none;
@@ -428,6 +428,10 @@
   BLUR(5PX)
   CONTRAST(5%)
   */
+}
+
+.discussionwidget_VoteUpStaticIcon_Sf3ur {
+  FILL:VAR(--BLUE)!important;
 }
 
 .appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
@@ -1983,6 +1987,7 @@ img {
 .localdateandtime_ActiveEvent_rT7Ek .localdateandtime_ActiveEventCallOut_2pJft {
   background: var(--GREEN) !important;
   color: var(--WHITE) !important;
+  BORDER-RADIUS:var(--BORDERRADIUS)!important;
 }
 
 .sharedappdetailsheader_TitleLogo_3NBxS {
@@ -3046,7 +3051,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   background-color: var(--BASE2) !important;
 }
 .discussionwidget_DiscussionCount_QQy4B > svg {
-  fill: var(--ACCENT) !important;
+  fill: var(--BLUE) !important;
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl {
@@ -3310,10 +3315,7 @@ div.ShortRightPanel
   height: 34px !important;
   width: 34px !important;
 }
-.discussionwidget_VoteUpStaticIcon_Sf3ur {
-  filter: BRIGHTNESS(0) !important;
-  opacity: 60% !important;
-}
+
 .discussionwidget_DiscussionCount_QQy4B .discussionwidget_DiscussIcon_1HBhp {
   filter: BRIGHTNESS(0) !important;
 }
@@ -4745,7 +4747,7 @@ A {
 .discussionwidget_VoteCount_3csl-,
 .discussionwidget_DiscussionCount_QQy4B {
   font-size: 14px !important;
-  color: var(--ACCENT) !important;
+  color: var(--BLUE) !important;
 }
 .apppartnereventspage_PartnerEvent_1KsYS {
   border-radius: var(--BORDERRADIUS) !important;
@@ -5774,7 +5776,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .apppartnereventspage_EventTypeAndTimeRow_3bWTO
   .apppartnereventspage_TimeandPostedBy_2WwG2
   .apppartnereventspage_EventType_Udzrp {
-  color: var(--BUTTONHOVER) !important;
+  color: var(--BLUE) !important;
   font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 .eventbbcodeyoutubeembed_DynamicLink_YoutubeViews_1EXif {
