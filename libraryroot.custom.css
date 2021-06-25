@@ -181,7 +181,7 @@
   --COLLECTIONICONHOVER: VAR(--BLACK);
   --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAROP: 0;
-  --SCROLLBARHOVEROP:1;
+  --SCROLLBARHOVEROP: 1;
   --SCROLLBAR: VAR(--ACCENT);
   --SCROLLBARWIDTH: 14px;
   --SCROLLBARHOVERWIDTH: 14px;
@@ -407,7 +407,12 @@
   --SHOWCASEDIVIDERHOVERBORDER: VAR(--BUTTONBORDER);
   --REVIEWHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --APPDETAILSACTIVEDROPDOWNFILTERICONDISPLAY: none;
-  --APPPORTRAITDOWNLOADBARDISPLAY:NONE;
+  --APPPORTRAITDOWNLOADBARDISPLAY: NONE;
+  --SHAREDAPPDETAILHEADERDISPLAY: unset;
+  --SHAREDAPPDETAILHEADERFILT: VAR(--FILT);
+  --SHAREDAPPDETAILHEADEROP:59%;
+  --SHAREDAPPDETAILHEADERLETTERSPACING:0;
+  --SHAREDAPPDETAILHEADERFONTSIZE:8px;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -2028,7 +2033,7 @@ img {
 }
 
 .appdetailsoverview_Container_27RcN {
-  border-top: 1px solid var(--SHADOW) !important;
+  border-top: 1px solid var(--BUTTONBORDER) !important;
 }
 
 .sharedappdetailsheader_TopCapsule_NZMJ6 {
@@ -2036,7 +2041,14 @@ img {
 }
 
 .sharedappdetailsheader_SVGTitle_121fl text {
-  opacity: 0 !important;
+  display: var(--SHAREDAPPDETAILHEADERDISPLAY) !important;
+  letter-spacing:var(--SHAREDAPPDETAILHEADERLETTERSPACING)!important;
+  font-size:var(--SHAREDAPPDETAILHEADERFONTSIZE)!important;
+}
+
+.sharedappdetailsheader_SVGTitle_121fl {
+  filter: VAR(--SHAREDAPPDETAILHEADERFILT) !important;
+  opacity: VAR(--SHAREDAPPDETAILHEADEROP) !important;
 }
 
 .appdetailsactivitysection_NoActivity_2-kDc,
@@ -3642,7 +3654,7 @@ div.ShortRightPanel
   border-radius: var(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appportrait_UninstalledBar_kX-tI.appportrait_BarDownloading_3BNwj {
-  display:var(--APPPORTRAITDOWNLOADBARDISPLAY)!important;
+  display: var(--APPPORTRAITDOWNLOADBARDISPLAY) !important;
   background-color: VAR(--BUTTON2) !important;
   border: 1px SOLID var(--BASE2) !important;
 }
