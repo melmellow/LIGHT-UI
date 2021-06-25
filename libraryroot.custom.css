@@ -4863,8 +4863,6 @@ A {
 
 .appgrid_AppGridSectionHeader_3bWIS {
   margin-top: 10px !important;
-  margin-left: 25px !important;
-  padding: 0 !important;
 }
 
 .appproperties_AppProperties_1FyBL
@@ -4902,7 +4900,6 @@ A {
   border-bottom: 0 !important;
 }
 .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
-  display: none !important;
   background: var(--DIVIDER) !important;
   margin-left: 0 !important;
 }
