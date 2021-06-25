@@ -133,6 +133,7 @@
   --POSITIVEREVIEWICON: VAR(--WHITE);
   --NEGATIVEREVIEWICON: VAR(--WHITE);
   --MISSINGGAMEART: #d4d4d4;
+  --INFOPANEL: VAR(--MISSINGGAMEART);
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
   --BBACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLUE);
@@ -431,11 +432,11 @@
 }
 
 .discussionwidget_VoteUpStaticIcon_Sf3ur {
-  FILL:VAR(--BLUE)!important;
+  fill: VAR(--BLUE) !important;
 }
 
 .appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
-  border:2px dashed var(--ACCENT)!important;
+  border: 2px dashed var(--ACCENT) !important;
 }
 
 .appdetailsworkshopsection_WorkshopSection_2PfKa
@@ -1987,7 +1988,7 @@ img {
 .localdateandtime_ActiveEvent_rT7Ek .localdateandtime_ActiveEventCallOut_2pJft {
   background: var(--GREEN) !important;
   color: var(--WHITE) !important;
-  BORDER-RADIUS:var(--BORDERRADIUS)!important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
 .sharedappdetailsheader_TitleLogo_3NBxS {
@@ -2556,7 +2557,9 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
   filter: brightness(0) !important;
 }
 .appdetailsgameinfocontainer_Glassy_2QAgO.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
-  background: var(--BASE2) !important;
+  background: var(--INFOPANEL) !important;
+  background-image: url(https://i.imgur.com/Js7qIy8.png) !important;
+  background-repeat: repeat-x !important;
 }
 .appdetailsplaysection_MenuButton_3qDWQ
   .appdetailsplaysection_DotDotDot_zvLq1
@@ -4501,7 +4504,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .discussionwidget_ShareContainer_3ctGq,
 .discussionwidget_DiscussContainer_16xC0 {
   background-color: VAR(--BASE3) !important;
-  BOX-SHADOW:1PX 1PX 2PX VAR(--SHADOW)!important;
+  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 .partnereventdisplay_LibraryEventBodyContainer_32mHv {
   background: var(--APPEVENTPAGE) !important;
@@ -5730,7 +5733,9 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 .appdetailsgameinfopanel_Container_2jPMy {
-  background-color: var(--BASE2) !important;
+  background-color: var(--INFOPANEL) !important;
+  background-image: url(https://i.imgur.com/Js7qIy8.png) !important;
+  background-repeat: repeat-x !important;
 }
 
 .appproperties_AppProperties_1FyBL
