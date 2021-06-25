@@ -405,7 +405,6 @@
   --SHOWCASEDIVIDERHOVERBORDER: VAR(--BUTTONBORDER);
   --REVIEWHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --APPDETAILSACTIVEDROPDOWNFILTERICONDISPLAY: none;
-  --CLEARSEARCHBARDISPLAY: NONE;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -1182,10 +1181,6 @@ div.NarrowRightPanel
 .gamelistsearchbar_Container_20QAC {
   background: var(--SEARCHBARBACKGROUND) !important;
   padding-bottom: 6px !important;
-}
-
-.DialogInput_ClearAction svg {
-  display: VAR(--CLEARSEARCHBARDISPLAY) !important;
 }
 
 .gamelistsearchbar_Container_20QAC .DialogInput_ClearAction svg line,
