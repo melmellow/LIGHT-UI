@@ -43,6 +43,9 @@
   --BLUE2: #285d83;
   --LETTERSPACING: 1px;
   --WHITE: VAR(--BASE1);
+  --CAPTION: VAR(--BLUE);
+  --ACTIVESCREENSHOTBORDER: VAR(--BLUE);
+  --ACTIVESCREENSHOTBORDERWIDTH: 2px;
   --SEARCHBARBACKGROUND: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
@@ -75,6 +78,7 @@
   --ORIGINALPRICESLASH: NONE;
   --ORIGINALPRICE: VAR(--ACCENT);
   --DISCOUNT: VAR(--WHITE);
+  --LINKFONTWEIGHT: BOLD;
   --DISCOUNTFONTWEIGHT: 400;
   --DISCOUNTBACKGROUND: VAR(--GREEN);
   --DISCOUNTEDPRICE: VAR(--GREEN);
@@ -604,6 +608,22 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.appdetailsachievementssection_Featured_1j_gj
+  .appdetailsachievementssection_TextSection_1s_9c
+  .appdetailsachievementssection_Desc_2gLHb {
+  font-weight: 350 !important;
+}
+
+.appdetailsachievementssection_Featured_1j_gj
+  .appdetailsachievementssection_Remainder_2gISW {
+  display: NONE !important;
+}
+
+.appactivityday_ScreenshotCaption_23HTp.appactivityday_HasCaption_tLc3y,
+.appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y {
+  margin-bottom: 20px !important;
+}
 
 .comment_thread_ActivityCommentThread_39nna
   .comment_thread_Comment_515RL:hover
@@ -2848,7 +2868,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .appactivityday_ScreenshotCarousel_1pdQd
   .appactivityday_CarouselThumbs_1tRKR
   .appactivityday_CarouselThumb_1Lot-.appactivityday_Active_n98dr {
-  border: 0 !important;
+  border: VAR(--ACTIVESCREENSHOTBORDERWIDTH) SOLID VAR(--ACTIVESCREENSHOTBORDER) !important;
 }
 
 .awardmodal_GrantAwardModal_2ilpH
@@ -3541,7 +3561,7 @@ div.ShortRightPanel
   .comment_thread_CommentControls_2-3DH
   .comment_thread_CommentRatingButton_2ftHa:hover
   .comment_thread_ThumbsUpComment_1DwcI.comment_thread_ThumbsUpComment_1DwcI {
-    transition: all 0.18s ease-in-out !important;
+  transition: all 0.18s ease-in-out !important;
   background-color: VAR(--BASE2) !important;
   fill: var(--LIKETHUMBICONHOVER) !important;
   stroke: var(--LIKETHUMBICONHOVER) !important;
@@ -5254,8 +5274,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .appactivityday_ScreenshotCaption_23HTp.appactivityday_HasCaption_tLc3y,
 .appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y {
   background-image: none !important;
-  background-color: var(--BASE1) !important;
-  color: var(--ACCENT) !important;
+  background-color: var(--APPDETAILSPANEL) !important;
+  color: var(--CAPTION) !important;
 }
 
 .gamelistsearchbar_SearchFilterInput_172OF
@@ -5281,7 +5301,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appactivityday_CaptionQuote_IYDCY,
 .appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y
   .appactivityday_CaptionQuote_IYDCY {
-  color: var(--ACCENT) !important;
+  color: var(--CAPTION) !important;
 }
 .library_LibraryWindowDivider_276E6 {
   background: VAR(--SIDEBARBORDER) !important;
