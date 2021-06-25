@@ -2556,6 +2556,11 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
   .appdetailsplaysection_DotDotDot_zvLq1:hover {
   filter: brightness(0) !important;
 }
+
+.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
+  padding:0 5px!important;
+}
+
 .appdetailsgameinfocontainer_Glassy_2QAgO.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
   background: var(--INFOPANEL) !important;
   background-image: url(https://i.imgur.com/Js7qIy8.png) !important;
