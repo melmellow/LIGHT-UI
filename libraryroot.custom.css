@@ -4500,7 +4500,8 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .discussionwidget_VoteContainer_3Kelh,
 .discussionwidget_ShareContainer_3ctGq,
 .discussionwidget_DiscussContainer_16xC0 {
-  background-color: transparent !important;
+  background-color: VAR(--BASE3) !important;
+  BOX-SHADOW:1PX 1PX 2PX VAR(--SHADOW)!important;
 }
 .partnereventdisplay_LibraryEventBodyContainer_32mHv {
   background: var(--APPEVENTPAGE) !important;
