@@ -4755,7 +4755,7 @@ A {
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-  transition: none !important;
+    transform: .21s ease-in-out,opacity .21s ease-in-out!important;
 }
 
 .gamelistsearchbar_Container_20QAC
