@@ -408,6 +408,7 @@
   --SHOWCASEDIVIDERHOVER: VAR(--BUTTON2);
   --SHOWCASEDIVIDERHOVERBR: 50px;
   --SHOWCASEDIVIDERHOVERBORDER: VAR(--BUTTONBORDER);
+  --REVIEWHEADER:VAR(--BLUE);
   --REVIEWHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --APPDETAILSACTIVEDROPDOWNFILTERICONDISPLAY: none;
   --APPPORTRAITDOWNLOADBARDISPLAY: NONE;
@@ -609,16 +610,26 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appactivityday_PartnerEventType_1ujzu {
+  color: var(--ACCENT) !important;
+}
+
+.appactivityday_PartnerEventLargeImage_Contents_2tDv0:hover {
+  background: var(--APPDETAILSPANELHOVER) !important;
+}
+
 .appactivityday_PartnerEventLargeImage_Container_Libri:hover {
-  background:var(--APPDETAILSPANELHOVER)!important;
+  background: var(--APPDETAILSPANELHOVER) !important;
 }
 
 .appactivityday_PartnerEventTypeUpdate_29bW1 {
-  color:var(--BLUE)!important;
+  color: var(--BLUE) !important;
 }
 
-.appactivityday_ScreenshotCarousel_1pdQd .appactivityday_ActiveScreenshot_290Dq .appactivityday_TimeStamp_3ljAd {
-  font-weight:500!important;
+.appactivityday_ScreenshotCarousel_1pdQd
+  .appactivityday_ActiveScreenshot_290Dq
+  .appactivityday_TimeStamp_3ljAd {
+  font-weight: 500 !important;
 }
 
 .appdetailsachievementssection_Featured_1j_gj
@@ -627,8 +638,10 @@
   font-weight: 350 !important;
 }
 
-.appactivityday_ScreenshotCarousel_1pdQd .appactivityday_CarouselThumbs_1tRKR .appactivityday_CarouselThumb_1Lot- {
-  BACKGROUND:TRANSPARENT!important;
+.appactivityday_ScreenshotCarousel_1pdQd
+  .appactivityday_CarouselThumbs_1tRKR
+  .appactivityday_CarouselThumb_1Lot- {
+  background: TRANSPARENT !important;
 }
 
 .appdetailsachievementssection_Featured_1j_gj
@@ -1782,6 +1795,7 @@ a:-webkit-any-link {
 .appdetailsprimarylinkssection_LinkInner_7k4qm
   .appdetailsprimarylinkssection_Text_2sNDj {
   color: var(--ACCENT) !important;
+  font-weight: 600 !important;
 }
 
 .sharedappdetailsheader_TitleSection_30acA
@@ -4240,11 +4254,6 @@ div.NarrowRightPanel
 .appactivityday_ReviewText_3ZTUR {
   color: var(--ACCENT) !important;
 }
-.writereview_RatingContainer_2SAb6
-  .writereview_LeftContainer_2aeAn
-  .writereview_Playtime_qX4kN {
-  color: var(--ACCENT) !important;
-}
 .writereview_RatingContainer_2SAb6 .writereview_RecommendGame_My1be {
   color: var(--ACCENT) !important;
 }
@@ -4354,13 +4363,8 @@ div.NarrowRightPanel
 .writereview_RatingContainer_2SAb6
   .writereview_LeftContainer_2aeAn
   .writereview_Playtime_qX4kN {
-  font-weight: bold !important;
-}
-
-.writereview_RatingContainer_2SAb6
-  .writereview_LeftContainer_2aeAn
-  .writereview_Playtime_qX4kN {
   font-weight: VAR(--REVIEWHEADERFONTWEIGHT) !important;
+  color: var(--REVIEWHEADER) !important;
 }
 
 .appdetailsoverview_Container_27RcN
