@@ -5302,7 +5302,6 @@ body.flat_page:not(.iframe){
 }
 .discussionSearchTextContainer{
     border-radius:var(--border4)!important;
-    background-color:#d6d6d6!important;
     border:0!important;
     color:VAR(--ACCENT)!important;
     height:28px!important
@@ -8510,10 +8509,21 @@ body.v6 .store_nav .popup_block_new .popup_body,body.v6 #footer_nav .popup_block
 }
 input.discussionSearchText{
     BORDER-RADIUS:var(--TEXTENTRYBORDERROUNDED)!important;
-    BORDER:1PX SOLID #b8b8b8!important;
+    BORDER:VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER)!important;
     position:static!important;
-    padding:4px!important
+    padding:4px!important;
 }
+
+input.discussionSearchText:hover{
+    BORDER-COLOR: VAR(--TEXTENTRYBORDERHOVER)!important;
+    BACKGROUND-COLOR:VAR(--TEXTENTRYBACKGROUNDHOVER)!important;
+}
+
+input.discussionSearchText:focus-within{
+    BORDER-COLOR: VAR(--TEXTENTRYBORDERSELECTED)!important;
+    BACKGROUND-COLOR:VAR(--TEXTENTRYBACKGROUNDSELECTED)!important;
+}
+
 input.discussionSearchText::SELECTION{
     COLOR:VAR(--ACCENT)!important
 }
