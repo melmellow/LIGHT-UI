@@ -1,26 +1,17 @@
 :root{
     --BASE1:#E4E4E4;
     --BASE3:#ECECEC;
-    --DIVIDER1:#D6D1D1;
+    --DIVIDER1:var(--SHADOW);
     --ACCENT:#585858;
     --BUTTON:#D6D6D6;
-    --SHADOW:#D6D1D1;
+    --SHADOW:var(--SHADOW);
     --BLUE:#1181d2;
     --GREEN:#54a448;
     --TEXTENTRY:#E8E8E8;
     --BUTTONBORDER:#B8B8B8;
     --BUTTONBORDERHOVER:#8D8D8D;
-    --searchbox:#333;
-    --scrollbar:VAR(--ACCENT);
     --trans:transparent;
-    --black:#000;
-    --black-ish:#2a3f5a00;
-    --realblack:#101010;
-    --blacker-ish:#1b1b1b;
-    --blacker:#1c1c1c;
-    --lightblack:#121212;
-    --darkergrey:VAR(--ACCENT);
-    --bedarkgrey:VAR(--ACCENT);
+    --BLACK:#000;
     --thegrey:#d6d6d6;
     --begrey:#262627;
     --littlegrey:VAR(--ACCENT);
@@ -57,6 +48,25 @@
     --border5:0;
     --border8:0;
     --border50:50%
+}
+
+.welcome_dismiss {
+    background-color:var(--GREEN)!important;
+}
+
+.alertbox_content {
+    border:0!important;
+    background-color:var(--BASE1)!important;
+}
+
+a.newitem {
+    box-shadow:1px 1px 2px var(--SHADOW)!important;
+    background-color:var(--BASE3)!important;
+}
+
+.alertbox_header, .alertbox_header .leftcap, .alertbox_header .rightcap {
+    background-image:none!important;
+    background:var(--GREEN)!important;
 }
 
 
@@ -106,8 +116,8 @@ body.clientNews .extImg {
 }
 *::SELECTION{
     TEXT-SHADOW:NONE!iMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:#d5d5d5!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND:#d5d5d5!important
 }
 
 .report_txt_ctn:before {
@@ -161,20 +171,20 @@ body.clientNews .extImg {
     background-color:VAR(--BASE1)!important;
     border:0!Important;
     box-shadow:1px 1px 2px #d6d1d1!important;
-    color:var(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:BOLD!IMPORTANT;
+    color:var(--ACCENT)!important;
+    FONT-WEIGHT:BOLD!important;
 }
 
 .visibilityNotification .visibilityDesc {
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
 }
 
 .blotter_recommendation_content {
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
 }
 
 .ds_collapse_flag.ds_flagged:hover .ds_flag {
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
 }
 
 .eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v .eventcalendar_FilterOption_2LoOb {
@@ -209,31 +219,31 @@ body.clientNews .extImg {
 }
 
 .hover_release span.platform_img.valveindex{
-    OPACITY:60%!IMPORTANT
+    OPACITY:60%!important
 }
 .hover_release span.platform_img.htcvive{
-    OPACITY:60%!IMPORTANT
+    OPACITY:60%!important
 }
 .hover_release span.platform_img.oculusrift{
-    OPACITY:60%!IMPORTANT
+    OPACITY:60%!important
 }
 .hover_release span.platform_img.windowsmr{
-    OPACITY:60%!IMPORTANT
+    OPACITY:60%!important
 }
 .market_commodity_orders_table tr:nth-child(even){
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    BACKGROUND-COLOR:#dedede!important
 }
 .market_listing_iteminfo{
     BACKGROUND-COLOR:VAR(--BASE1)!iMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 #largeiteminfo_clienthover{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .market_commodity_orders_block{
-    BORDER:0!IMPORTANT;
-    BACKGROUND-COLOR:#ececec!IMPORTANT;
-    box-shadow:0 0 2px #d6d1d1!IMPORTANT
+    BORDER:0!important;
+    BACKGROUND-COLOR:#ececec!important;
+    box-shadow:0 0 2px #d6d1d1!important
 }
 .market_commodity_orders_header{
     BORDER-BOTTOM:0!iMPORTANT
@@ -243,39 +253,39 @@ body.clientNews .extImg {
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .market_commodity_orders_table_container{
-    BORDER-TOP:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-TOP:1PX SOLID #d6d1d1!important
 }
 .market_listing_iteminfo hr{
-    HEIGHT:1PX!IMPORTANT;
+    HEIGHT:1PX!important;
     BORDER:0!iMPORTANT;
-    BACKGROUND-COLOR:#d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:#d6d1d1!important
 }
 #modalContentTitleBar{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .tab_item.focus .tab_item_details span.platform_img.win{
     opacity:60%!important
 }
 .tab_item.focus .tab_item_details span.platform_img.mac{
-    OPACITY:60%!IMPORTANT
+    OPACITY:60%!important
 }
 .tab_item.focus .tab_item_details span.platform_img.linux{
-    OPACITY:60%!IMPORTANT
+    OPACITY:60%!important
 }
 .login_client_waitforauth_title{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .login_client_waitforauth_desc{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .login_client_waitforauth{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .help_app_header img{
     BORDER-RADIUS:0!iMPORTANT
 }
 .referringSteamCurator{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .queue_ignore_menu_option:hover{
     backgoround:#d6d6d6!important
@@ -287,19 +297,19 @@ div.filterselect div.option,div.filterselect_options div.option{
     border-bottom:1px solid #b8b8b8!important
 }
 .dynamiclink_author{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .btn_grey_grey{
     color:VAR(--ACCENT)!important;
-    BACKGROUND:NONE!IMPORTANT
+    BACKGROUND:NONE!important
 }
 .btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
     background:#d6d6d6!important;
     color:#FFF!important
 }
 .game_area_purchase_game_dropdown_selection{
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important;
+    COLOR:VAR(--ACCENT)!important;
     background:#d6d6d6!important;
     line-height:36px!important
 }
@@ -569,7 +579,7 @@ div.filterselect div.option,div.filterselect_options div.option{
     border-bottom:1px solid #b6b6b6!important
 }
 .eventcalendar_SidebarContainer_15YLD{
-    BORDER-RIGHT:1PX SOLID #bebebe!IMPORTANT;
+    BORDER-RIGHT:1PX SOLID #bebebe!important;
     background-color:VAR(--BASE1)!important
 }
 .eventcalendar_SidebarContainer_15YLD .eventcalendar_CollapseButton_1RCio .eventcalendar_DesktopButton_2vMIl,.eventcalendar_SidebarContainer_15YLD.eventcalendar_SidebarCollapsed_3x2Ig .eventcalendar_DesktopButton_2vMIl{
@@ -585,40 +595,40 @@ div.filterselect div.option,div.filterselect_options div.option{
     color:VAR(--ACCENT)!important
 }
 .eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl) .eventcalendartile_Tile_3xvUZ{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background:VAR(--BASE1)!important
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ .eventcalendartile_EventName_1M8-P{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_GameSource_vfv1Q .eventcalendartile_SourceList_3BIx7{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .legalfooter_LegalFooter_2XzXR{
-    BORDER-TOP:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-TOP:1PX SOLID #d6d1d1!important
 }
 .eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_PastSection_3FpvG.eventcalendar_DarkerBackground_1U2BW{
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    BACKGROUND-COLOR:#dedede!important
 }
 .eventcalendar_EventCalendarContainer_1e3Wb .eventcalendar_RowContainer_3yqpP .eventcalendar_Rows_r3Dia .eventcalendar_PastSection_3FpvG{
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    BACKGROUND-COLOR:#dedede!important
 }
 .eventcalendartile_GameTitleContainer_WHJ_W .eventcalendartile_TileTextAppName_71phF{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_FutureDateText_2xdhM{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     BORDER-RADIUS:0!iMPORTANT
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_TileTextCategoryType_1LkWX{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .eventcalendar_NewsChannelGroup_3U5MY .eventcalendar_NewsChannelListTitle_3X16T{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_FooterStat_3_86J span{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -627,47 +637,47 @@ div.filterselect div.option,div.filterselect_options div.option{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .curatorfeedsuggestrow_FeedSuggestContainerBG_3ICp4{
-    BACKGROUND-COLOR:#dedede!IMPORTANT;
-    BACKGROUND-IMAGE:NONE!IMPORTANT;
+    BACKGROUND-COLOR:#dedede!important;
+    BACKGROUND-IMAGE:NONE!important;
     BORDER-BOTTOM:0!iMPORTANT
 }
 .curatorfeedsuggestrow_FeedSuggestContainer_1420T{
     BACKGROUND-IMAGE:NONE!iMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .curatorfeedbrowse_CuratorInfoIcon_3Y0jF .curatorfeedbrowse_CuratorInfoActionCtn_2y3rS .curatorfeedbrowse_CuratorInfoFollow_1I_eQ{
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--ACCENT)!important
 }
 .contextmenu_contextMenu_PP7LM{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BORDER:1PX SOLID #d6d1d1!important
 }
 .contextmenu_contextMenuItem_1n7Wl{
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    BORDER-TOP:0!IMPORTANT;
-    BORDER-BOTTOM:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-TOP:0!important;
+    BORDER-BOTTOM:1PX SOLID #d6d1d1!important
 }
 .contextmenu_contextMenuItem_1n7Wl:hover,.contextmenu_contextMenuItem_1n7Wl.contextmenu_active_18z-3{
-    BACKGROUND:#d6d6d6!IMPORTANT
+    BACKGROUND:#d6d6d6!important
 }
 .eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v{
     padding-left:0!important
 }
 .eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v .eventcalendar_FilterLink_1zyVy{
-    BACKGROUND:VAR(--ACCENT)!IMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND:VAR(--ACCENT)!important;
+    COLOR:#FFF!important
 }
 .eventcalendar_SidebarContainer_15YLD .eventcalendar_Sidebar_1nf0v .eventcalendar_FilterLink_1zyVy:HOVER{
-    BACKGROUND:#000!IMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND:#000!important;
+    COLOR:#FFF!important
 }
 .storesuggest_SuggestContainer_2gBFq ._DialogLayout input{
     BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!iMPORTANT
 }
 .legalfooter_LegalFooter_2XzXR img{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 body.clientNews .header{
     background:#dedede!important
@@ -679,8 +689,8 @@ body.clientNews .post_pmbutton{
     color:#000!important
 }
 .market_arrow_up{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 .apphub_CardContentPlayVideoIcon{
     FILTER:BRIGHTNESS(2)!iMPORTANT
@@ -690,12 +700,12 @@ body.clientNews .post_pmbutton{
     opacity:1!important
 }
 p.reason.for:before{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 .curators_for_app_filter_menu .title{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 .apphub_WorkshopPiston{
     FILTER:BRIGHTNESS(0)!iMPORTANT;
@@ -703,46 +713,46 @@ p.reason.for:before{
 }
 .dotted_hr_uri,h2.stats:before,h2.stats:after{
     FILTER:BRIGHTNESS(0)!iMPORTANT;
-    OPACITY:60%!IMPORTANT
+    OPACITY:60%!important
 }
 .rateUpCount img{
     filter:brightness(0)!important;
     opacity:60%!important
 }
 span.platform_img.streamingvideo{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     FILTER:BRIGHTNESS(0)!iMPORTANT
 }
 div.advanced_controls_toggle_icon{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 .newmodal_close{
     OPACITY:60%!iMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 #filter_clear_btn{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 img.category_icon{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 .see_all_expander{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    WIDTH:20%!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
+    WIDTH:20%!important;
     color:#FFF!important;
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT;
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important;
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .game_language_options td span{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     FILTER:BRIGHTNESS(0)!iMPORTANT
 }
 .ico18{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
+    FILTER:BRIGHTNESS(0)!important;
     opacity:60%!important
 }
 .forumtopic_answer.answer_header img{
@@ -750,128 +760,128 @@ img.category_icon{
     opacity:60%!important
 }
 .curator_received{
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 div.graph_toggle_icon{
-    OPACITY:60%!IMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    OPACITY:60%!important;
+    FILTER:BRIGHTNESS(0)!important
 }
 .apphub_CardCommentCount{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 .broadcast_embeddable_viewer_bar_2Ygph .broadcast_embeddable_viewer_links_2EQpO{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
-    OPACITY:60%!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important;
+    OPACITY:60%!important
 }
 a.forum_comment_action img{
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 .commentnotification_icon{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 .commentnotification_col img{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 .forum_topic_reply_count img,.forum_topic_award_count img{
-    OPACITY:60%!IMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    OPACITY:60%!important;
+    FILTER:BRIGHTNESS(0)!important
 }
 .dselect_container a.trigger::after,.dselect_container a.activetrigger::after{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 .commentthread_subscribe_check{
     opacity:60%!important;
     FILTER:BRIGHTNESS(0)!iMPORTANT
 }
 div.filterselect .filterselect_arrow,div.filterselect #filterselect_arrow{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 .apphub_HubDivider{
-    FILTER:BRIGHTNESS(0)!IMPORTANT;
+    FILTER:BRIGHTNESS(0)!important;
     OPACITY:.1!iMPORTANT
 }
 .curator_cluster_expanded.carousel_container .curator_page .socialmedia img{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 .right_controls_large_block_active_bg{
     FILER:BRIGHTNESS(0)!iMPORTANT;
-    OPACITY:.1!IMPORTANT
+    OPACITY:.1!important
 }
 .published_file_icon{
     opacity:60%!important;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 div.sharedfiles_filterselect_options div.option:hover{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 #sharedfiles_filterselect_search_img{
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT;
+    FILTER:BRIGHTNESS(50%)!important;
     color:VAR(--ACCENT)!important
 }
 div.sortselect #sortselect_arrow{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 body.v6 #footer #footer_logo_steam{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     FILTER:BRIGHTNESS(0)!iMPORTANT
 }
 .profile_customization_edit_icon{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 .view_inventory_logo img{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     FILTER:BRIGHTNESS(0)!iMPORTANT
 }
 .apphub_CardMetaData .review_award_aggregated>img,.apphub_UserReviewCardContent .review_award_aggregated>img{
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 .gutter_item .icon{
     OPACITY:60%!iMPORTANT;
     filter:brightness(0)!important
 }
 .cart_tab_left_on{
-    OPACITY:60%!IMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    OPACITY:60%!important;
+    FILTER:BRIGHTNESS(0)!important
 }
 #checkout_steam_logo img{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 .friends_nav a.icon_item .title{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     filter:brightness(0)!important
 }
 .phone_header_description img{
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 .live_steam_viewers{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     filter:brightness(0)!important
 }
 .review_box .vote_header .review_source{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     filter:brightness(0)!Important
 }
 .ico16{
     opacity:60%!important;
-    filter:brightness(0)!IMPORTANT
+    filter:brightness(0)!important
 }
 .broadcast_embeddable_viewer_count_1MrTW svg{
     filter:brightness(50%)!important
 }
 span.platform_img.valveindex{
     opacity:60%!important;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 .review_box .vote_info .commentCount a{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     FILTER:BRIGHTNESS(0)!iMPORTANT
 }
 span.platform_img.music{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     filter:brightness(0)!important
 }
 span.platform_img.linux{
@@ -905,10 +915,10 @@ img{
     filter:grayscale(30%)!important
 }
 a img{
-    FILTER:BRIGHTNESS(50%)!IMPORTANT
+    FILTER:BRIGHTNESS(50%)!important
 }
 .carousel_container .arrow>div{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     filter:brightness(0)!important
 }
 a.linkbar>img{
@@ -916,14 +926,14 @@ a.linkbar>img{
     filter:brightness(0)!important
 }
 .apphub_UserReviewCardContent .review_award_aggregated>img{
-    OPACITY:60%!IMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    OPACITY:60%!important;
+    FILTER:BRIGHTNESS(0)!important
 }
 .most_recommended .steam_curator_recommendation .steam_curator_for_app_img{
     filter:none!important
 }
 .review_box .short_header .review_source{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     filter:brightness(0)!important
 }
 .newmodal_background{
@@ -931,13 +941,13 @@ a.linkbar>img{
     backdrop-filter:var(--blur)!important
 }
 .workshopAppsSort .browseOptionImage{
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 .commentnotification_browseoption.active .browseOptionImage{
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 .browseOptionImage{
-    OPACITY:.1!IMPORTANT;
+    OPACITY:.1!important;
     FILTER:BRIGHTNESS(0)!iMPORTANT
 }
 .broadcast_embeddable_bordered_corner_expanded_ahz31{
@@ -978,7 +988,7 @@ a.linkbar>img{
 .recent_game{
     background-color:VAR(--BASE1)!important;
     backdrop-filter:blur(10px)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .profile_content.has_profile_background{
     z-index:0!important;
@@ -989,17 +999,17 @@ a.linkbar>img{
     border-radius:0!important
 }
 .text_filter_toggle_icon{
-    OPACITY:60%!IMPORTANT;
+    OPACITY:60%!important;
     filter:brightness(0)!Important
 }
 .apphub_CardRating.rateUp{
     OPACITY:60%!iMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FILTER:BRIGHTNESS(0)!important
 }
 .apphub_CardMetaData .reward_btn_icon{
     OPACITY:60%!iMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    FILTER:BRIGHTNESS(0)!important
 }
 [class*="libraryhome_WhatsNew"]{
     display:none!important
@@ -1008,7 +1018,7 @@ a.linkbar>img{
     border-radius:6!important;
     border:0!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX  var(--divider1)!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX  var(--divider1)!important
 }
 .carousel_container.maincap .carousel_items:active{
     background:VAR(--BASE1)!important;
@@ -1081,21 +1091,21 @@ body::-webkit-scrollbar{
 }
 .searchbox{
     background-image:none!important;
-    background-color:#e8e8e8!important;
-    border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
-    border:1px solid #b8b8b8!important;
+    background-color:VAR(--TEXTENTRY)!important;
+    border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
+    border:VAR(--TEXTENTRYBORDERWIDTH) solid VAR(--TEXTENTRYBORDER)!important;
     margin-top:0!important
 }
 .ico16.thumb_upv6{
-    OPACITY:60%!iMPORTANT
+    OPACITY:60%!important;
 }
 .ico16.thumb_downv6{
-    OPACITY:60%!IMPORTANT
+    OPACITY:60%!important;
 }
 .inventory_load_error{
-    BORDER:0!iMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BORDER:0!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .btn{
     background:VAR(--ACCENT)!important
@@ -1125,10 +1135,10 @@ body::-webkit-scrollbar{
     background-color:#ececec!important
 }
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_Footer_164mm .awardmodal_Left_1v0jL .awardmodal_BalanceDetails_209Gy .awardmodal_BalanceAmount_1O3FS{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_ButtonContainer_JYQgs .awardmodal_Button_3M92h .awardmodal_Points_3k_jx{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .awardmodal_GrantAwardModal_2ilpH .awardmodal_Footer_164mm .awardmodal_Left_1v0jL .awardmodal_BalanceDetails_209Gy .awardmodal_BalanceLabel_2u9RZ{
     color:VAR(--ACCENT)!important
@@ -1314,7 +1324,7 @@ input.inputTagsFilter+label{
     border-bottom:2px solid VAR(--ACCENT)!important
 }
 .adult_content_age_gate{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .adult_content_age_gate .edit_preferences{
     BORDER-TOP:NONE!iMPORTANT
@@ -1348,30 +1358,30 @@ input.inputTagsFilter+label{
     color:VAR(--ACCENT)!important
 }
 .blotter_gamepurchase_content .plus_block{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .game_info_achievement.plus_more,.showcase_achievement.plus_more{
     BACKGROUND-COLOR:VAR(--ACCENT)!iMPORTANT;
-    BORDER:1PX SOLID VAR(--ACCENT)!IMPORTANT
+    BORDER:1PX SOLID VAR(--ACCENT)!important
 }
 .groupstat{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .group_curator_more_box{
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND-COLOR:VAR(--ACCENT)!important;
+    COLOR:#FFF!important
 }
 .group_curator_more_box:hover{
     BACKGROUND-COLOR:#000!iMPORTANT
 }
 .group_curator_recommends{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .group_curator_blurb{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 body.v6 .broadcast_live_stream_icon{
-    BACKGROUND:#ececec!IMPORTANT
+    BACKGROUND:#ececec!important
 }
 .ratingSummaryHeader{
     background:VAR(--BASE1)!important
@@ -1387,31 +1397,31 @@ a.store_header_btn_content{
 }
 #reviews_filter_options.graph_collapsed #review_show_graph_button{
     MARGIN-TOP:4PX!iMPORTANT;
-    MARGIN-RIGHT:2PX!IMPORTANT
+    MARGIN-RIGHT:2PX!important
 }
 .Curators_loading{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .curators_for_app_filter_menu_flyout{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .curators_for_app_filter_menu:hover .curators_for_app_filter_menu_flyout,.curators_for_app_filter_menu_flyout:hover{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BORDER:1PX SOLID #b8b8b8!important
 }
 .curators_for_app_filter{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .discussions_searchedForTerm{
     BACKGROUND-COLORVAR(--GREEN)!iMPORTANT;
     BORDER:0!iMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    COLOR:#FFF!important
 }
 .discussions_searchedForTerm:HOVER{
     BACKGROUND-COLORVAR(--GREEN)!iMPORTANT;
     BORDER:0!iMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    COLOR:#FFF!important
 }
 .post_searchresult .searchmatch_highlight,.discussion_searchresults .searchmatch_highlight{
     background-colorVAR(--GREEN)!important;
@@ -1433,87 +1443,87 @@ a.store_header_btn_content{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .detailsStatRight{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .workshopBrowsePagingInfo{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .game_area_purchase_game>h1 span{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .workshopTagsTitle{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .detailsStatNumChangeNotes{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important
 }
 .detailsStatLeft{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .backgroundImg{
-    OPACITY:0!IMPORTANT
+    OPACITY:0!important
 }
 .general_btn{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .workshopItemSubscription{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .workshopItemSubscription:hover{
-    BORDER-RIGHT:2PX SOLID #d6d1d1!IMPORTANT
+    BORDER-RIGHT:2PX SOLID #d6d1d1!important
 }
 .greyHR,.greyHR2{
     BACKGROUND-COLOR:TRANSPARENT!iMPORTANT
 }
 .workshopBrowsePagingWithBG{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 body.v6 .page_desc{
     BORDER:0!iMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .queue_ctn .queue_reason_description{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .item_scrap_actions{
-    BOX-SHADOW:1PX 0 2PX #d6d1d1!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BOX-SHADOW:1PX 0 2PX #d6d1d1!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .checkout_review_item_desc{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .block{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .item_desc_content.app753.context1 .item_desc_descriptors{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .user_reviews_filter_options{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .tab_item_overlay img:hover,.large .tab_item_overlay img:hover{
     BORDER:0!iMPORTANT
 }
 .sortbox .dselect_container{
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important
 }
 .dlc_page_release_date{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .dlc_page_purchase_dlc{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .game_name{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 #review_create .content .controls .dselect_container{
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important
 }
 .forumtopic_answer{
     background:VAR(--BASE1)!important
@@ -1529,68 +1539,68 @@ body.v6 .page_desc{
     background-color:#d6d6d6!important
 }
 .commentnotification:hover{
-    BORDER-RIGHT:2PX SOLID #d6d1d1!IMPORTANT
+    BORDER-RIGHT:2PX SOLID #d6d1d1!important
 }
 .joinchat_bg .joinchat_button{
-    BACKGROUND:#1181d2!IMPORTANT
+    BACKGROUND:#1181d2!important
 }
 .game_area_comingsoon .not_yet{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .home_block_footer{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .home_specials_grid .special:hover{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER:0!IMPORTANT;
-    BORDER-RIGHT:2PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BORDER:0!important;
+    BORDER-RIGHT:2PX SOLID #d6d1d1!important
 }
 .home_specials_grid .special{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .block .block_content_inner p{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .package_totals_area .price{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 #package_savings_bar{
-    BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;
-    COLOR:VAR(--GREEN)!IMPORTANT;
+    BACKGROUND-COLOR:TRANSPARENT!important;
+    COLOR:VAR(--GREEN)!important;
 }
 .package_totals_area{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .account_settings_container p.info{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .quadscreenshot_carousel .recommended_curator p{
     TEXT-SHADOW:NONE!iMPORTANT
 }
 .friend_block_v2{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .review_box .control_block .dselect_container{
-    TEXT-SHADOW:NONE!IMPORTANT
+    TEXT-SHADOW:NONE!important
 }
 .follow_controls,.ignore_controls.ignored{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .socialmedia_accounts>*{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .curator_details{
-    TEXT-SHADOW:NONE!IMPORTANT
+    TEXT-SHADOW:NONE!important
 }
 .creator_announcement_body{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .creator_announcement_img_title,.creator_announcement_title{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -1599,20 +1609,20 @@ body.v6 .page_desc{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .home_page_content .more_content_desc{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .forumtopic_comments .commentthread_comment .commentthread_comment_author{
-    OPACITY:1!IMPORTANT
+    OPACITY:1!important
 }
 .workshop_apps_paging_pagelink,.workshop_apps_paging_controls .commentthread_pagelink{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .workshopAppsSort .browseOption.notSelected:hover{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .friendBlock.persona.online{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .commentthread_subscribe_hint .commentthread_subscribe_hint_q{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -1628,15 +1638,15 @@ body.v6 .page_desc{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .review_comments_disabled{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND:VAR(--BASE1)!important;
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .user_reviews_count{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .user_reviews_active_filters .active_filter{
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--ACCENT)!important
 }
 .quadscreenshot_carousel .taglist>span{
     BACKGROUND-COLOR:VAR(--ACCENT)!iMPORTANT
@@ -1645,35 +1655,35 @@ body.v6 .page_desc{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .quadscreenshot_carousel .default{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .mature_content_filtered{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .contenthub_subtitle{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .friendactivity_tab_row{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .page_desc{
     border-top:1px solid #d6d1d1!important;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .curator_page .name span{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important
 }
 .curator_page .name{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 body.v6 .store_capsule_frame.curator_spotlight h2 b{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .curator_list_title b{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .curator_list_title{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -1687,14 +1697,14 @@ body.v6 .header_area .page_desc{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .similar_grid_item .similar_grid_capsule{
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER:1PX SOLID #d6d1d1!important
 }
 body.v6 h2.morelike_section_divider{
-    BORDER-BOTTOM:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #d6d1d1!important
 }
 .similar_grid_item{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .recommendation_highlight.morelikethis_border{
     BACKGROUND-IMAGE:NONE!iMPORTANT
@@ -1721,25 +1731,25 @@ body.v6 h2.morelike_section_divider{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .tradehistoryrow:nth-child(even){
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .tradehistoryrow{
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    BACKGROUND-COLOR:#dedede!important
 }
 .inventory_history_pagingrow{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .inventory_history_message{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .inventory_history_message.inventory_history_message_blue{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .right_controls_large_block div.secondary{
-    COLOR:#000!IMPORTANT;
+    COLOR:#000!important;
     FONT-WEIGHT:500!iMPORTANT
 }
 .tradeoffer_welcome_ctn{
@@ -1751,68 +1761,68 @@ body.v6 h2.morelike_section_divider{
     border:0!Important
 }
 .market_headertip_container{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .inventory_iteminfo{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .btn_black{
     BACKGROUND:VAR(--ACCENT)!iMPORTANT
 }
 .btn_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
-    BACKGROUND:#000!IMPORTANT
+    BACKGROUND:#000!important
 }
 .sharedfiles_usercontrols_label{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .formHR{
-    BACKGROUND-COLOR:#d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:#d6d1d1!important
 }
 div.sortselect{
     BORDER:0!iMPORTANT;
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT;
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important;
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .view_inventory_page .item.activeInfo,.view_inventory_page .item:hover{
-    BACKGROUND:#ececec!IMPORTANT
+    BACKGROUND:#ececec!important
 }
 div.sortselect_options div.option:hover{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .review_box .vote_header{
-    BACKGROUND:#ececec!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:#ececec!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .review_box .vote_header .hours{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .panel .hr{
-    BACKGROUND-COLOR:#d6d1d1!IMPORTANT;
-    BACKGROUND-COLOR:#d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:#d6d1d1!important;
+    BACKGROUND-COLOR:#d6d1d1!important
 }
 #rightContents .panel{
     BORDER:0!iMPORTANT;
     BACKGROUND:VAR(--BASE1)!iMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .menu_ico{
-    OPACITY:60%!IMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    OPACITY:60%!important;
+    FILTER:BRIGHTNESS(0)!important
 }
 .gray_bevel input,.gray_bevel textarea{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 #tabcontent_inventory{
-    BORDER:0!IMPORTANT;
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    BORDER:0!important;
+    BACKGROUND-COLOR:#dedede!important
 }
 .friends_link_block{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .group_comments .commentthread_entry_quotebox{
-    BACKGROUND-COLOR:#e8e8e8!IMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BACKGROUND-COLOR:#e8e8e8!important;
+    BORDER:1PX SOLID #b8b8b8!important
 }
 .app_tag_form_ctn .gray_bevel.for_text_input,.text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input,.text_filter_custom_clean_words_form_ctn .gray_bevel.for_text_input{
     background-color:#e8e8e8!important;
@@ -1823,7 +1833,7 @@ div.sortselect_options div.option:hover{
     BACKGROUND:VAR(--ACCENT)!iMPORTANT
 }
 .tab_filter_control_count{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .tab_filter_control_checkbox{
     background:#d6d6d6!important
@@ -1832,8 +1842,8 @@ div.sortselect_options div.option:hover{
     color:VAR(--ACCENT)!Important
 }
 .searchtag{
-    COLOR:#FFF!IMPORTANT;
-    BACKGROUND:VAR(--ACCENT)!IMPORTANT
+    COLOR:#FFF!important;
+    BACKGROUND:VAR(--ACCENT)!important
 }
 .search_result_row .col.search_released{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -1849,10 +1859,10 @@ div.sortselect_options div.option:hover{
     color:VAR(--ACCENT)!important
 }
 .twofactor_settings_input{
-    OUTLINE:NONE!IMPORTANT;
+    OUTLINE:NONE!important;
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    BACKGROUND-COLOR:#e8e8e8!IMPORTANT
+    BORDER:1PX SOLID #b8b8b8!important;
+    BACKGROUND-COLOR:#e8e8e8!important
 }
 .twofactor_settings_choice_rule{
     border-top:1px solid #d6d1d1!important
@@ -1872,38 +1882,38 @@ div.sortselect_options div.option:hover{
     box-shadow:1PX 1PX 2PX #d6d1d1!important
 }
 .account_table th{
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--ACCENT)!important
 }
 .account_change_country_content{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND:VAR(--BASE1)!important;
     box-shadow:1px 1px 2px #d6d1d1!important
 }
 .checkout_main .dselect_container a,.checkout_main .dselect_container a:hover,.checkout_main .dselect_container a:active,.checkout_main .dselect_container a:visited{
-    OUTLINE:NONE!IMPORTANT
+    OUTLINE:NONE!important
 }
 .checkout_main input[type="text"],.checkout_main input[type="password"],.checkout_main select{
-    OUTLINE:NONE!IMPORTANT
+    OUTLINE:NONE!important
 }
 .cart_tab_on{
-    TEXT-SHADOW:NONE!IMPORTANT;
-    BACKGROUND:VAR(--ACCENT)!IMPORTANT
+    TEXT-SHADOW:NONE!important;
+    BACKGROUND:VAR(--ACCENT)!important
 }
 body.checkout .block .block_content{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 #payment_info_tab .checkout_content .payment_info_form_area{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .addfunds_footer{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .accountBalance .price{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .addfunds_about{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .btn_blue_white_innerfade>span{
     color:#fff!important;
@@ -1916,8 +1926,8 @@ body.checkout .block .block_content{
     color:VAR(--ACCENT)!important
 }
 .managefriends_Background_1xwi0{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .phone_box{
     background:VAR(--BASE1)!important;
@@ -1966,7 +1976,7 @@ td.wht_date{
     COLOR:#000!iMPORTANT
 }
 .not_interested_container{
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER:1PX SOLID #d6d1d1!important
 }
 .game_purchase_discount .discount_pct,.game_purchase_discount .bundle_base_discount{
     BORDER-RADIUS:0!iMPORTANT
@@ -1976,112 +1986,112 @@ td.wht_date{
 }
 .sort_options .selected_sort{
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    FONT-WEIGHT:BOLD!IMPORTANT
+    FONT-WEIGHT:BOLD!important
 }
 .sort_options a{
     TEXT-DECORATION:NONE!iMPORTANT
 }
 .queue_options_ctn{
-    BORDER-BOTTOM:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #d6d1d1!important
 }
 .dq_settings_content .dq_settings_section_title{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .account_setting_parenthetical{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .account_preferences input[type=checkbox],.account_preferences label{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .wth_item_refunded{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .generic_kv_table th,.generic_kv_table td{
-    BORDER-BOTTOM:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #d6d1d1!important
 }
 .youraccount_steamid{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .dq_settings_checkrow{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .review_anomalous_events_icon{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .review_anomalous_events_title,.review_anomalous_events_desc{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 #primary_language{
-    BORDER-RADIUS:0!IMPORTANT;
+    BORDER-RADIUS:0!important;
     OUTLINE:NONE!iMPORTANT
 }
 .account_settings_container label{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .account_settings_container{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .wallet_history_click_hint{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .wallet_history_table th{
-    COLOR:#FFF!IMPORTANT;
-    BACKGROUND:VAR(--ACCENT)!IMPORTANT
+    COLOR:#FFF!important;
+    BACKGROUND:VAR(--ACCENT)!important
 }
 .account_setting_block{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .account_setting_block_short{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .account_manage_link{
     FONT-WEIGHT:500!iMPORTANT
 }
 .account_setting_sub_block{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .account_data_field{
-    color:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    color:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important
 }
 .rule,.inner_rule{
-    BORDER-TOP:#d6d1d1!IMPORTANT
+    BORDER-TOP:#d6d1d1!important
 }
 .account_header_line{
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--ACCENT)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .account_setting_block{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .save_preferences_desc{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .preferencesSavedCtn{
     BACKGROUND:NONE!iMPORTANT
 }
 .trending_reviews_controls label{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .trending_reviews_controls{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:400!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:400!important
 }
 .reviewed_app.has_multiple_reviews .paging_thumbs{
-    BORDER:0!IMPORTANT
+    BORDER:0!important
 }
 .reviewed_app .right_col{
     BACKGROUND-IMAGE:NONE!iMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .trending_reviews_controls_ctn{
     BACKGROUND:NONE!iMPORTANT
 }
 body.v6 h3{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .profileeditshell_BackToProfileCtn_1YOt2 a{
     TEXT-DECORATION:NONE!iMPORTANT;
@@ -2091,13 +2101,13 @@ body.v6 h3{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block_new .popup_body{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .explore_rightcol_header{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 body.v6 .recommended_by_steam_labs_ctn .header_inline_reason{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .discount_block .discount_prices{
     border:0!Important
@@ -2106,42 +2116,42 @@ body.v6 .recommended_by_steam_labs_ctn .header_inline_reason{
 
 
 .home_tabs_content .discount_block .discount_prices,.tab_content_ctn .discount_block .discount_prices{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     BORDER-RADIUS:0!iMPORTANT;
     box-shadow:none!important;
 }
 .chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon line,.chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon circle,.chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon path{
-    STROKE:#dedede!IMPORTANT;
+    STROKE:#dedede!important;
     FILL:VAR(--ACCENT)!iMPORTANT
 }
 .chatentry_chatSubmitButton_RVIs8.chatentry_EmoticonPickerButton_Aupsw,.chatentry_chatSubmitButton_RVIs8.chatentry_EmbedButton_3zOBe{
     BORDER:0!iMPORTANT;
-    BACKGROUND-COLOR:TRANSPARENT!IMPORTANT
+    BACKGROUND-COLOR:TRANSPARENT!important
 }
 .DialogCheckbox{
-    BORDER:1PX SOLID #b6b6b6!IMPORTANT;
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BORDER:1PX SOLID #b6b6b6!important;
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .commentnotification.unread:hover{
-    BORDER-RIGHT:2PX SOLID #d6d1d1!IMPORTANT
+    BORDER-RIGHT:2PX SOLID #d6d1d1!important
 }
 .summary_summaryTextArea_2ipSt{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    BACKGROUND-COLOR:#e8e8e8!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
+    BACKGROUND-COLOR:#e8e8e8!important;
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .profileedit_ProfileBox_uwqwo .profileedit_ProfileBoxTitle_2CGYg{
     COLOR:VAR(--ACCENT)!imPORTANT
 }
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu{
-    FILL:#FFF!IMPORTANT
+    FILL:#FFF!important
 }
 .DialogTextInputBase,._DialogInputContainer{
-    COLOR:#FFF!IMPORTANT;
+    COLOR:#FFF!important;
     BACKGROUND:VAR(--ACCENT)!iMPORTANT
 }
 input.DialogTextInputBase,input.DialogTextInputBase:not(disabled):hover,input.DialogTextInputBase:disabled:hover,input.DialogTextInputBase:focus{
-    BACKGROUND:#e8e8e8!IMPORTANT
+    BACKGROUND:#e8e8e8!important
 }
 .DialogBodyText{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -2153,20 +2163,20 @@ input.DialogTextInputBase,input.DialogTextInputBase:not(disabled):hover,input.Di
     BACKGROUND:VAR(--ACCENT)!iMPORTANT
 }
 .DialogHeader{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .game_area_purchase_game b,.game_area_offsite_purchase b{
-    COLORVAR(--GREEN)!IMPORTANT
+    COLORVAR(--GREEN)!important
 }
 .tab_item:hover,.large .tab_item:hover{
     background:#ececec!Important;
 }
 .tab_item_details{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .tab_item.focus{
     padding-right:0!Important;
-    BACKGROUND:#ececec!IMPORTANT
+    BACKGROUND:#ececec!important
 }
 label.send_choice_txt{
     color:VAR(--ACCENT)!important
@@ -2178,7 +2188,7 @@ label.send_choice_txt{
     color:VAR(--ACCENT)!important
 }
 #sidebar_documentation{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 #question{
     border-top:0!important
@@ -2192,15 +2202,15 @@ label.send_choice_txt{
     box-shadow:1px 1px 2px #d6d1d1!important
 }
 .accountInfoBlock .block_content{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND:VAR(--BASE1)!important;
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .checkout_content_box input[type="text"],.checkout_content_box input[type="password"],.checkout_content_box select,.checkout_content_box textarea,.checkout_main .dselect_container a.trigger{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    OUTLINE:NONE!IMPORTANT;
-    BORDER-COLOR:1PX SOLID #b8b8b8!IMPORTANT;
-    BACKGROUND-COLOR:#e8e8e8!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    OUTLINE:NONE!important;
+    BORDER-COLOR:1PX SOLID #b8b8b8!important;
+    BACKGROUND-COLOR:#e8e8e8!important
 }
 .redeem_wallet_code_upsell div{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -2220,10 +2230,10 @@ label.send_choice_txt{
     BACKGROUND-COLOR:#dedede!important
 }
 .account_settings_container hr{
-    BORDER-COLOR:#d6d1d1!IMPORTANT
+    BORDER-COLOR:#d6d1d1!important
 }
 .not_interested_container .description{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 #tsblTitle{
     color:VAR(--ACCENT)!Important
@@ -2245,27 +2255,27 @@ label.send_choice_txt{
 }
 .profile_count_link a .count_link_label{
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    TEXT-TRANSFORM:UPPERCASE!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    TEXT-TRANSFORM:UPPERCASE!important;
+    FONT-WEIGHT:500!important
 }
 .profile_count_link a:HOVER .count_link_label{
-    COLOR:#000!IMPORTANT;
-    TEXT-DECORATION:NONE!IMPORTANT
+    COLOR:#000!important;
+    TEXT-DECORATION:NONE!important
 }
 .profile_customization_header{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 body.v6 .store_nav .popup_menu_subheader,body.v6 #footer_nav .popup_menu_subheader{
-    COLOR:#000!IMPORTANT;
-    FONT-WEIGHT:BOLD!IMPORTANT
+    COLOR:#000!important;
+    FONT-WEIGHT:BOLD!important
 }
 .profile_rightcol{
     background:VAR(--BASE1)!important
 }
 .tab_item_discount .discount_pct,.tab_item_discount.no_discount .bundle_base_discount{
-    BORDER-RADIUS:6px!IMPORTANT
+    BORDER-RADIUS:6px!important
 }
 .btn_profile_action>span{
     color:VAR(--ACCENT)!important;
@@ -2284,7 +2294,7 @@ body.v6 .store_nav .popup_menu_subheader,body.v6 #footer_nav .popup_menu_subhead
 }
 .recommendation_row{
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .persona.online,a.persona.online,.persona.online a,.friend_status_online,.friend_status_online div,.friend_status_online a{
     color:VAR(--ACCENT)!important
@@ -2300,14 +2310,14 @@ h4{
     color:VAR(--ACCENT)!important
 }
 .recommendation_highlight .highlight_description{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .recommendation_highlight .highlight_description h4{
     color:VAR(--ACCENT)!important
 }
 .recommendation_highlight{
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 #detailStats td b{
     font-size:12px!important;
@@ -2317,7 +2327,7 @@ h4{
     color:VAR(--ACCENT)!important
 }
 #tag_browse_description_recommended{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .queue_page_desc{
     color:VAR(--ACCENT)!important;
@@ -2337,15 +2347,15 @@ a{
     color:VAR(--ACCENT)!important
 }
 .creatorhome .curator_featured>div{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .autocollapse_enabled .search_collapse_block .block_header{
     background:VAR(--ACCENT)!important
 }
 .browse_tag_games,.browse_tag_game_total{
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .dailydeal_ctn{
     border:1px solid #d6d1d1!important;
@@ -2363,7 +2373,7 @@ a{
 }
 .carousel_container .carousel_thumbs>div{
     border:0!important;
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .carousel_container .carousel_thumbs>div:hover{
     border-color:#8d8d8d!important
@@ -2372,7 +2382,7 @@ a{
     background-color:VAR(--ACCENT)!important
 }
 .dselect_container a.trigger{
-    BORDER-BOTTOM:#b8b8b8!IMPORTANT;
+    BORDER-BOTTOM:#b8b8b8!important;
     background:#d6d6d6!important
 }
 .game_area_dlc_excluded_by_preferences{
@@ -2390,7 +2400,7 @@ a{
 }
 .explore_rightcol_box{
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .explore_rightcol_count{
     color:VAR(--ACCENT)!important
@@ -2407,18 +2417,18 @@ a{
     color:VAR(--ACCENT)!important
 }
 .recommendation_highlight .highlight_description .regular_price{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .color_created{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .browse_filters a:hover,.browse_filters a.selected{
     background-color:#d6d6d6!important
 }
 .creatorhome .browse_content .recommendation{
-    MARGIN-BOTTOM:4PX!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    MARGIN-BOTTOM:4PX!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .curator_review_date{
     color:VAR(--ACCENT)!important
@@ -2430,12 +2440,12 @@ a{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .browse_content .recommendation:hover{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BORDER-RIGHT:2PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BORDER-RIGHT:2PX SOLID #d6d1d1!important
 }
 .game_description_column .block .block_content a:hover{
     border:0!important;
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 div.early_access_header .devnotes .morebutton{
     background:NONE!important
@@ -2444,7 +2454,7 @@ div.early_access_header .devnotes>div{
     color:VAR(--ACCENT)!important
 }
 div.early_access_header .heading p span{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     font-weight:bold!important
 }
 div.early_access_header .inset{
@@ -2465,7 +2475,7 @@ div.early_access_header .heading{
     opacity:0!important
 }
 .rightbox_list_header,.rightbox_content_header{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .popup_menu .popup_menu_item:hover,.popup_menu .popup_menu_item.focus{
     color:#000!Important
@@ -2479,21 +2489,21 @@ div.early_access_header .heading{
     color:VAR(--ACCENT)!important
 }
 select{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 #market_advancedsearch_appselect_options .market_advancedsearch_appname{
     border-bottom:1px solid #b6b6b6!important
 }
 #market_advancedsearch_appselect{
     background-color:#d6d6d6!Important;
-    BORDER:0!IMPORTANT;
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER:0!important;
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important
 }
 .market_advancedsearch_filters{
     border-radius:0!important;
     border:0!important;
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .market_listing_num_listings_qty{
     color:#000!important
@@ -2518,10 +2528,10 @@ select{
 }
 .market_tab_well_tabs{
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .market_advancedsearch_appname{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 a.commentthread_author_valve,a.commentthread_author_developer{
     color:VAR(--ACCENT)!important
@@ -2533,52 +2543,52 @@ a.commentthread_author_valve,a.commentthread_author_developer{
     color:VAR(--ACCENT)!important
 }
 .btn_grey_white_innerfade>span:hover{
-    BACKGROUND-COLOR:#000!IMPORTANT
+    BACKGROUND-COLOR:#000!important
 }
 .btn_grey_white_innerfade>span{
-    BACKGROUND-COLOR:NONE!IMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND-COLOR:NONE!important;
+    COLOR:#FFF!important
 }
 .discussions_game_browseoption{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .discussions_game_footer{
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    BACKGROUND-COLOR:#dedede!important
 }
 .discussions_game_header{
-    BACKGROUND:#dedede!IMPORTANT
+    BACKGROUND:#dedede!important
 }
 .discussions_link_icon{
-    BACKGROUND-IMAGE:NONE!IMPORTANT
+    BACKGROUND-IMAGE:NONE!important
 }
 .triangle-toggle{
     border-color:transparent transparent transparent VAR(--ACCENT)!important
 }
 .content-hover-section{
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 #search_box input{
     color:VAR(--ACCENT)!Important;
-    BACKGROUND:#e8e8e8!IMPORTANT
+    BACKGROUND:#e8e8e8!important
 }
 #global_header{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER-BOTTOM:1PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BORDER-BOTTOM:1PX SOLID #d6d1d1!important
 }
 .right_col #contact_support_container{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .weblink a{
-    BACKGROUND:VAR(--ACCENT)!IMPORTANT;
-    color:#FFF!IMPORTANT;
-    FONT-WEIGHT:100!IMPORTANT;
-    BORDER-RADIUS:0!IMPORTANT;
-    PADDING:4PX!IMPORTANT
+    BACKGROUND:VAR(--ACCENT)!important;
+    color:#FFF!important;
+    FONT-WEIGHT:100!important;
+    BORDER-RADIUS:0!important;
+    PADDING:4PX!important
 }
 H2{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .btn_black{
     background:VAR(--ACCENT)!Important
@@ -2587,29 +2597,29 @@ H2{
     background:#000!important
 }
 .steam_discussions_moderationdisclaimer{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .discussions_forumlist_header{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .forum_list_ctn .forum_list_right{
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    BACKGROUND-COLOR:#dedede!important
 }
 .steam_discussions_intro{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .steam_discussions_intro b{
-    GONY-WEIGHT:BOLD!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    GONY-WEIGHT:BOLD!important;
+    COLOR:VAR(--ACCENT)!important
 }
 .grouppage_content_area h2,a.large_title,h2.large_title{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 #TagSuggest.blur{
     outline:0!important
 }
 .Broadcast_Card.apphub_Card{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .filter_ctn.inventory_filters #filter_control{
     color:VAR(--ACCENT)!Important
@@ -2618,8 +2628,8 @@ H2{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .DialogInput_Wrapper>input.DialogInput{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BORDER:1PX SOLID #b8b8b8!important
 }
 #market_advancedsearch_dialog .market_search_sidebar_search_box{
     border:1px solid #b8b8b8!important;
@@ -2630,8 +2640,8 @@ H2{
     opacity:0!important
 }
 .managefriends_DimBackground_2N55H{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .market_search_sidebar_contents{
     background:#dedede!important
@@ -2643,28 +2653,28 @@ H2{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .market_listing_table_header,.market_listing_table_message{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background-color:#ececec!important
 }
 .searchAppImage{
     opacity:0!Important
 }
 .friends_nav a.active{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .community_home_search_divider{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     BACKGROUND-COLOR:#d6d1d1!important
 }
 .block_header .header_inline{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 #detailStats td a{
-    FONT-WEIGHT:500!IMPORTANT;
+    FONT-WEIGHT:500!important;
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 BODY.V6{
-    BACKGROUND:#dedede!IMPORTANT
+    BACKGROUND:#dedede!important
 }
 .wishlist_row .tag:hover{
     background:#000!important
@@ -2724,13 +2734,13 @@ body.v6 .game_page_background{
 .search_result_row{
     border-radius:6PX!important;
     border:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .search_result_row,.search_result_row:hover{
     background:VAR(--BASE1)!important
 }
 .search_result_row:hover{
-    background-color:#ececec!IMPORTANT
+    background-color:#ececec!important
 }
 .slider_ctn .slider_left:hover,.slider_ctn .slider_right:hover,.slider .handle:hover{
     background:none!important;
@@ -2746,8 +2756,8 @@ body.v6 h2.pageheader{
     text-shadow:none!important
 }
 .community_recommendation_app>.right_col{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    border:0!IMPORTANT;
+    BACKGROUND:VAR(--BASE1)!important;
+    border:0!important;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 h2{
@@ -2780,22 +2790,22 @@ h2{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .game_purchase_discount_countdown{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:BOLD!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:BOLD!important
 }
 .forum_topic{
     background-color:VAR(--BASE1)!important;
-    BORDER-RADIUS:0!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BORDER-RADIUS:0!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .forum_topic_op{
     color:#74afc2!important
 }
 .discussions_forum_row{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .discussions_forum_row.unread .discussions_forumlist_topiccount,.discussions_forum_row.unread .discussions_forumlist_lastpost{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .forum_topic_lastpost{
     color:VAR(--ACCENT)!important
@@ -2813,15 +2823,15 @@ h2{
     color:VAR(--ACCENT)!important
 }
 .store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span{
-    COLOR:#000!IMPORTANT
+    COLOR:#000!important
 }
 body{
     background:#dedede!important;
     color:VAR(--ACCENT)!important
 }
 .btnv6_blue_hoverfade>span{
-    BORDER-RADIUS:0!IMPORTANT;
-    BORDER:0!IMPORTANT
+    BORDER-RADIUS:0!important;
+    BORDER:0!important
 }
 body.v6 .store_nav .popup_menu .hr,body.v6 #footer_nav .popup_menu .hr{
     background-color:#d6d6d6!important
@@ -2855,20 +2865,20 @@ a.pulldown_desktop{
     color:VAR(--ACCENT)!Important
 }
 .rightcol.game_meta_data .block.recommendation_noinfo{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .profile_count_link_total{
     color:VAR(--ACCENT)!Important
 }
 .creator .responsive_page_template_content .popup_menu .popup_menu_item,.curator .responsive_page_template_content .popup_menu .popup_menu_item,.footer_content .popup_menu .popup_menu_item,.search_area .popup_body .match,.search_area .popup_body .match .match_name,.store_nav .popup_menu .popup_menu_item{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .cart_item_price .price{
     color:VAR(--ACCENT)!important
 }
 .cart_row{
     background-color:VAR(--BASE1)!Important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .store_main_capsule,.store_main_capsule:hover{
     background-image:none!IMportant
@@ -2878,39 +2888,39 @@ a.pulldown_desktop{
     background:VAR(--BASE1)!important
 }
 .agegate_birthday_selector{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     BORDER-RADIUS:6px!iMPORTANT;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 #app_agegate select{
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT;
-    OUTLINE:0!IMPORTANT;
-    PADDING-BOTTOM:0PX!IMPORTANT;
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important;
+    OUTLINE:0!important;
+    PADDING-BOTTOM:0PX!important;
     BORDER-RADIUS:0!iMPORTANT;
     color:VAR(--ACCENT)!important;
     background-color:#d6d6d6!important
 }
 .game_review_summary.positive{
-    COLOR:#1181d2!IMPORTANT
+    COLOR:#1181d2!important
 }
 .community_recommendation_app>.right_col>.paging_thumbs>.num_reviews_desc{
-    COLOR:#1181d2!IMPORTANT
+    COLOR:#1181d2!important
 }
 .review_box .view_more a{
-    BACKGROUND:#d6d6d6!IMPORTANT
+    BACKGROUND:#d6d6d6!important
 }
 .community_recommendations_block>.review_box .view_more a{
-    BACKGROUND:NONE!IMPORTANT;
-    PADDING:4PX!IMPORTANT
+    BACKGROUND:NONE!important;
+    PADDING:4PX!important
 }
 .community_recommendation_app>.right_col>.paging_thumbs>.community_recommendation_arrow{
     BORDER-RADIUS:0!iMPORTANT;
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND-COLOR:VAR(--ACCENT)!important;
+    COLOR:#FFF!important
 }
 .store_main_capsule .reason .main strong{
-    COLOR:VAR(--GREEN)!IMPORTANT;
+    COLOR:VAR(--GREEN)!important;
 }
 .game_area_purchase_game p.package_contents,.game_area_offsite_purchase p.package_contents{
     color:VAR(--ACCENT)!important
@@ -2924,17 +2934,17 @@ input#store_nav_search_term::SELECTION{
     BACKGROUND:#d5d5d5!iMPORTANT
 }
 .agegate_text_container .note{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 #app_agegate select option{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND-COLOR:#dedede!important
 }
 .btn_green_white_innerfade>span{
-    COLOR:#FFF!IMPORTANT
+    COLOR:#FFF!important
 }
 h3{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .store_main_capsule .reason .main .tags>span,.tab_preview .tags>a{
     background-color:#797979!important;
@@ -2954,24 +2964,24 @@ h3{
     color:VAR(--ACCENT)!important
 }
 div.sortselect_options{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    COLOR:VAR(--ACCENT)!important;
     BORDER:0!iMPORTANT;
     BORDER-BOTTOM:1PX SOLID #b8b8b8!iMPORTANT
 }
 .checkout_content_box h3.tab_header{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 div.sortselect #sortselect_activesort{
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    BACKGROUND:#d6d6d6!IMPORTANT
+    BACKGROUND:#d6d6d6!important
 }
 .queue_ignore_menu_option{
     backgoround:#dedede!important
 }
 .recommended_grid .special{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .cart_recommendations_ctn p{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -2986,44 +2996,44 @@ div.sortselect #sortselect_activesort{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .cart_notice_section{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .dailydeal_ctn .dailydeal_desc{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .queue_ignore_menu_option_label>.option_title{
     color:VAR(--ACCENT)!important
 }
 .btn_medium>span,input.btn_medium:hover{
-    BACKGROUND:#1181d2!IMPORTANT
+    BACKGROUND:#1181d2!important
 }
 .game_area_description ul{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .game_area_purchase_game_dropdown_description{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 span.vr_supported,span.vr_required{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .paged_items_paging_pagelink,.paged_items_paging_controls .commentthread_pagelink{
     color:VAR(--ACCENT)!Important
 }
 .cart_digital_notice_content{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .cart_status_message{
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--ACCENT)!important
 }
 .cart_status_message_arrow{
-    BACKGROUND-IMAGE:NONE!IMPORTANT
+    BACKGROUND-IMAGE:NONE!important
 }
 .cart_total_row#cart_estimated_total_text{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .cart_digital_notice h4{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .dailydeal_countdown.ttip{
     background:#1181d2!important;
@@ -3031,16 +3041,16 @@ span.vr_supported,span.vr_required{
 }
 .cart_digital_notice{
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .store_header_btn_green a{
-    BACKGROUND:VAR(--GREEN)!IMPORTANT
+    BACKGROUND:VAR(--GREEN)!important
 }
 .game_area_sys_req ul li strong{
-    FONT-WEIGHT:BOLD!IMPORTANT
+    FONT-WEIGHT:BOLD!important
 }
 .review_box .noReviewsYetSub{
-    color:VAR(--ACCENT)!IMPORTANT
+    color:VAR(--ACCENT)!important
 }
 .review_box .noReviewsYetTitle{
     color:VAR(--ACCENT)!important
@@ -3053,7 +3063,7 @@ span.vr_supported,span.vr_required{
     color:VAR(--ACCENT)!important
 }
 .review_box .vote_info,.recommendation_row .vote_info{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 #app_agegate .preferences{
     color:VAR(--ACCENT)!important
@@ -3064,7 +3074,7 @@ body.v6 #footer_nav .pulldown{
 }
 .review_box.short .shortcol{
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .user_reviews_filter_score{
     color:VAR(--ACCENT)!important
@@ -3089,7 +3099,7 @@ div.bb_h1,.bb_wysiwyg h1{
     text-shadow:none!important
 }
 .error_ctn{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .newsPostBlock .body li{
     color:VAR(--ACCENT)!important
@@ -3104,7 +3114,7 @@ div.bb_h1,.bb_wysiwyg h1{
     color:VAR(--ACCENT)!important
 }
 p.sectionText{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .item_market_action_button_green>span,.item_market_action_button_green .item_market_action_button_preload{
     background-image:none!important;
@@ -3137,7 +3147,7 @@ p.sectionText{
     color:VAR(--ACCENT)!important
 }
 .game_button>span{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     border-radius:0!important;
     background:VAR(--BASE1)!important;
     border:0!important
@@ -3155,7 +3165,7 @@ p.sectionText{
     border:0!important;
     border-radius:0!important;
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .market_listing_row:hover{
     border-right:2px solid #d6d1d1!important
@@ -3177,13 +3187,13 @@ a.market_listing_row_link,a.market_listing_row_link:hover,a.market_listing_row_l
     background-color:#dedede!important
 }
 #BG_top{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 #BG_top>.user_info{
     border-radius:0!important;
     border:0!important;
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .market_tab_well_tab_active>span{
     background:VAR(--ACCENT)!important;
@@ -3214,7 +3224,7 @@ a.market_listing_row_link,a.market_listing_row_link:hover,a.market_listing_row_l
     color:VAR(--ACCENT)!important
 }
 .friends_nav h4{
-    BACKGROUND:NONE!IMPORTANT;
+    BACKGROUND:NONE!important;
     color:VAR(--ACCENT)!important;
     font-weight:bold!important
 }
@@ -3288,8 +3298,8 @@ a.market_listing_row_link,a.market_listing_row_link:hover,a.market_listing_row_l
     color:VAR(--ACCENT)!important
 }
 .help_issue_details,.help_notinlibrary_details,.help_missingrefund_details,.help_cannot_launch_game_details,.help_cannot_install_game_details,.help_before_contacting_steam_support_details{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    COLOR:VAR(--ACCENT)!important;
     box-shadow:1px 1px 2px #d6d1d1!important
 }
 .block a.linkbar{
@@ -3313,17 +3323,17 @@ h2 span.note a,h2 span.note a,h2 span.note a:visited{
     color:#fff!important
 }
 .btn_green_steamui>span{
-    BORDER-RADIUS:0!IMPORTANT;
+    BORDER-RADIUS:0!important;
     background:#78be6d!important;
     color:VAR(--ACCENT)!important;
     border:1px solid #b8b8b8!important
 }
 #game_highlights a{
     background:NONE!important;
-    PADDING-TOP:3PX!IMPORTANT;
-    PADDING-LEFT:3PX!IMPORTANT;
-    PADDING-RIGHT:3PX!IMPORTANT;
-    PADDING-BOTTOM:3PX!IMPORTANT
+    PADDING-TOP:3PX!important;
+    PADDING-LEFT:3PX!important;
+    PADDING-RIGHT:3PX!important;
+    PADDING-BOTTOM:3PX!important
 }
 .slider_ctn.store_autoslider .handle{
     border-radius:0!important
@@ -3365,19 +3375,19 @@ a.gutter_item{
     background:VAR(--ACCENT)!important
 }
 .discount_block .discount_original_price:HOVER{
-    COLOR:#FFF!IMPORTANT
+    COLOR:#FFF!important
 }
 .discount_block .discount_original_price{
     color:#fff!important
 }
 .tab_item_name{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .tab_item_name:hover{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .spotlight_block .spotlight_content>h2,.spotlight_body{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .btn_profile_action{
     background-color:VAR(--ACCENT)!important;
@@ -3390,11 +3400,11 @@ a.gutter_item{
     color:VAR(--ACCENT)!important
 }
 .recently_updated .store_capsule .recently_updated_announcement_link{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .store_header_btn_gray a{
     BACKGROUND:VAR(--BASE1)!iMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 h1{
     color:VAR(--ACCENT)!important
@@ -3412,7 +3422,7 @@ body.v6 .deep_dive_key_tags{
     color:VAR(--ACCENT)!important
 }
 .user_reviews_steam_labs_desc>a>span{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .home_content.single .review_text{
     color:VAR(--ACCENT)!important
@@ -3454,11 +3464,11 @@ body.v6 .deep_dive_key_tags{
     color:#fff!important
 }
 .user_reviews_summary_bar .game_review_summary{
-    TEXT-SHADOW:NONE!IMPORTANT
+    TEXT-SHADOW:NONE!important
 }
 blockquote.bb_blockquote,.bb_wysiwyg blockquote{
-    BACKGROUND:#ececec!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:#ececec!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 div.bb_code,.bb_wysiwyg pre,blockquote.bb_blockquote,.bb_wysiwyg blockquote{
     border-radius:var(--border1)!important;
@@ -3475,7 +3485,7 @@ div.bb_code,.bb_wysiwyg pre,blockquote.bb_blockquote,.bb_wysiwyg blockquote{
 }
 #review_histograms_container{
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .user_reviews_filter_menu .title{
     BACKGROUND-IMAGE:NONE!iMPORTANT;
@@ -3501,7 +3511,7 @@ body.v6 h2{
     color:VAR(--ACCENT)!important
 }
 .agegate_birthday_desc{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .store_capsule{
     background:VAR(--BASE1)!important
@@ -3516,19 +3526,19 @@ body.v6 h2{
     color:VAR(--ACCENT)!important
 }
 .agegate_content_descriptors_notes{
-    FONT-WEIGHT:BOLD!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    FONT-WEIGHT:BOLD!important;
+    COLOR:VAR(--ACCENT)!important
 }
 .agegate_content_descriptors_notes p{
     color:VAR(--ACCENT)!important
 }
 .game_area_purchase_game,.game_area_offsite_purchase{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:VAR(--ACCENT)!important;
     border:0!important;
     BORDER-RADIUS:VAR(--BORDER1)!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX VAR(--SHADOW)!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX VAR(--SHADOW)!important
 }
 .user_reviews_sub_header{
     color:VAR(--ACCENT)!important
@@ -3566,77 +3576,77 @@ a{
     color:#fff!important
 }
 .hover_body{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .hover_body_block{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .topicstats_label{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .topicstats_value{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .dynamiclink_content{
     TEXT-SHADOW:NONE!iMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .apphub_MostPopularLink{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .apphub_SectionFilterLabel{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .apphub_SectionFilter{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 div.filterselect{
-    BACKGROUND:#d6d6d6!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BORDER-BOTTOM:#b8b8b8!IMPORTANT
+    BACKGROUND:#d6d6d6!important;
+    COLOR:VAR(--ACCENT)!important;
+    BORDER-BOTTOM:#b8b8b8!important
 }
 .apphub_UserReviewCardContent .vote_header .hours{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .sale_capsule .discount_block_inline .discount_prices{
-    BACKGROUND:#d6d6d6!IMPORTANT
+    BACKGROUND:#d6d6d6!important
 }
 .dynamiclink_author span{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important
 }
 .dynamiclink_name{
-    BORDER-BOTTOM:1PX SOLID #d6d1d1!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:BOLD!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #d6d1d1!important;
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:BOLD!important
 }
 .account_table tr:nth-child(odd){
-    BACKGROUND:#dedede!IMPORTANT
+    BACKGROUND:#dedede!important
 }
 .btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{
-    BACKGROUND:VAR(--ACCENT)!IMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND:VAR(--ACCENT)!important;
+    COLOR:#FFF!important
 }
 .apphub_CardMetaData .review_award_aggregated,.apphub_UserReviewCardContent .review_award_aggregated{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 input[type=text],input[type=password],input[type=number],select{
-    OUTLINE:NONE!IMPORTANT;
-    BACKGROUND-COLOR:#e8e8e8!IMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    OUTLINE:NONE!important;
+    BACKGROUND-COLOR:#e8e8e8!important;
+    BORDER:1PX SOLID #b8b8b8!important
 }
 #live_stream_featured .title{
     color:VAR(--ACCENT)!important
 }
 .account_table tr{
-    BORDER-BOTTOM:#d6d1d1!IMPORTANT
+    BORDER-BOTTOM:#d6d1d1!important
 }
 .account_table tr:nth-child(even){
     BACKGROUND-COLOR:VAR(--BASE1)!important;
 }
 .apphub_CardContentMain .apphub_CardTextContent .date_posted{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 div.filterselect_options div.option:hover{
     BACKGROUND-COLOR:#d6d6d6!important;
@@ -3645,7 +3655,7 @@ div.filterselect_options div.option:hover{
     background:#dcdcdc!important
 }
 .apphub_UserReviewCardContent{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
 }
 .apphub_UserReviewCardContent .found_helpful{
@@ -3665,7 +3675,7 @@ div.filterselect_options div.option:hover{
 .apphub_ProgressBarBG{
     background-color:#d6d6d6!important;
     border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
 }
 .community_home_subtitle{
     color:VAR(--ACCENT)!important
@@ -3738,36 +3748,36 @@ body.v6 .discount_prices>div{
     margin:2px!important
 }
 body.v6 .comingsoon_capsules>a{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .comingsoon_capsules>a>div.info{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .creator_announcement_container{
-    BORDER-LEFT:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-LEFT:1PX SOLID #d6d1d1!important
 }
 body.v6.comingsoon .comingsoon_headercaps>a{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .paged_items_paging{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .page_content.steam_curator_header_text .header_area span{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .curatorlist_Title_1MhFd,.curatorlist_Blurb_rrcHS{
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    TEXT-SHADOW:NONE!IMPORTANT
+    TEXT-SHADOW:NONE!important
 }
 .game_rating_area{
     border-radius:var(--border0)!important;
-    margin-bottom:15px!important
+    margin-bottom:15px!important;
     background-color:VAR(--BASE1)!important;
 }
 #package_header_container{
     border-radius:var(--border0)!important;
-    margin-bottom:4px!important
+    margin-bottom:4px!important;
     background:VAR(--BASE1)!important;
     box-shadow:1px 1px 2px #d6d1d1!important;
 }
@@ -3775,18 +3785,18 @@ body.v6.comingsoon .comingsoon_headercaps>a{
     display:none!important
 }
 body.v6 .creator_home p{
-    COLOR:VAR(--ACCENT)!iMPORTANT
+    COLOR:VAR(--ACCENT)!important;
 }
 .blotter_day_header_date{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     left:245px!important
 }
 body.v6 .section_title_ctn p{
-    COLOR:VAR(--ACCENT)!iMPORTANT
+    COLOR:VAR(--ACCENT)!important;
 }
 .blotter_workshopitem.guide{
     background-image:none!important;
-    background-color:var(--darkergrey)!important
+    background-color:var(--ACCENT)!important
 }
 .blotter_workshopitem{
     background-image:none!important
@@ -3823,12 +3833,12 @@ body.v6 .section_title_ctn p{
     border-radius:var(--border50)!important
 }
 .discount_block.discount_block_spotlight .bundle_base_discount{
-    color:var(--darkergrey)!important;
+    color:var(--ACCENT)!important;
     border-radius:var(--border4)!important;
     margin-right:5px!important
 }
 .discount_block.no_discount.daily_deal_discount .bundle_base_discount{
-    color:var(--darkergrey)!important;
+    color:var(--ACCENT)!important;
     border-radius:var(--border4)!important;
     margin-right:5px!important
 }
@@ -3862,9 +3872,9 @@ body.v6 .section_title_ctn p{
     border-radius:var(--border0)!important
 }
 #dlc_footer #dlc_show_all_link{
-    BACKGROUND:#d6d6d6!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BORDER-BOTTOM:#b8b8b8!IMPORTANT;
+    BACKGROUND:#d6d6d6!important;
+    COLOR:VAR(--ACCENT)!important;
+    BORDER-BOTTOM:#b8b8b8!important;
     border-radius:var(--border0)!important
 }
 #dlc_footer #dlc_show_all_link:hover{
@@ -3880,7 +3890,7 @@ select.gray_bevel{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .customization_controls select{
-    BACKGROUND:#d6d6d6!IMPORTANT
+    BACKGROUND:#d6d6d6!important
 }
 .page_content_ctn.dlc_associated_franchise{
     background:var(--darkgrey)!important
@@ -3920,7 +3930,7 @@ body.v6 .page_content.browse_reviews{
     background-color:transparent!important
 }
 .apphub_CardContentDiscussionType{
-    BORDER-TOP:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-TOP:1PX SOLID #d6d1d1!important
 }
 .capsule.header img{
     border-radius:var(--border0)!important
@@ -3959,7 +3969,7 @@ _discount.no_discount .bundle_base_discount{
     border-radius:var(--border0)!important
 }
 .searchbox_news{
-    border:1px solid var(--black)!important;
+    border:1px solid var(--BLACK)!important;
     background-color:#5398c300!important;
     border-radius:var(--border0)!important
 }
@@ -3989,7 +3999,7 @@ body.recommendgame #review_create{
     border-radius:var(--border0)!important
 }
 .mainLoginPanel{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 body.v6.summer2018_home .gutter_header a:hover .home_page_gutter_giftcard{
     background:VAR(--ACCENT)!important
@@ -4042,10 +4052,10 @@ body.v6.infinite_scrolling #footer.small_footer{
     background:#dedede!important
 }
 body.v6 #footer{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 .curator_buttons_ctn{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 body.flat_page #footer{
     background:#dedede!important
@@ -4073,7 +4083,7 @@ div#global_actions .user_avatar{
     border-radius:var(--border4)!important
 }
 body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 .global_header_toggle_button.green,.global_header_toggle_button.has_notifications{
     background-color:var(--lightgrey)!important;
@@ -4091,7 +4101,7 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
     border-radius:var(--border5)!important
 }
 #supernav .submenuitem{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .friends_container{
     background:var(--darkgrey)!important;
@@ -4115,27 +4125,27 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
     background-color:var(--lightgrey)!important
 }
 .accountTable>thead>tr{
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--ACCENT)!important
 }
 .parental_settings_followsteps{
-    COLOR:#585588!IMPORTANT
+    COLOR:#585588!important
 }
 .parental_settings_instructions{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important
 }
 .parental_settings_box{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .accountTable>tbody>tr:nth-child(even){
-    BACKGROUND-COLOR:#dedede!IMPORTANT
+    BACKGROUND-COLOR:#dedede!important
 }
 .accountTable th{
-    COLOR:#FFF!IMPORTANT
+    COLOR:#FFF!important
 }
 .accountTable>tbody>tr:nth-child(odd){
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .popup_block_new .popup_body{
     border:1px solid #d6d1d1!important;
@@ -4157,14 +4167,14 @@ div#global_header .submenuitem{
     background:var(--blue)!important;
     border-radius:var(--border0)!important;
     padding:4px!important;
-    color:var(--black)!important
+    color:var(--BLACK)!important
 }
 .hero_capsule{
     border-radius:var(--border0)!important
 }
 .hero_data{
     border-radius:var(--border0)!important;
-    background:var(--darkergrey)!important
+    background:var(--ACCENT)!important
 }
 .hero_capsule .ds_flag{
     left:2px!important
@@ -4324,12 +4334,12 @@ div.store_header_btn{
     border-radius:var(--border0)!important
 }
 .spotlight_content{
-    border:0!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    border:0!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background:VAR(--BASE1)!important
 }
 .home_area_spotlight.underlined_links{
-    background-color:var(--bedarkgrey)!important;
+    background-color:var(--ACCENT)!important;
     height:390px!important;
     border-radius:var(--border0)!important
 }
@@ -4361,12 +4371,12 @@ div.store_header_btn{
     border-radius:0!important
 }
 .arrow.left{
-    background:var(--bedarkgrey)!important;
+    background:var(--ACCENT)!important;
     border-top-left-radius:var(--border0)!important;
     border-bottom-left-radius:var(--border0)!important
 }
 .arrow.right{
-    background:var(--bedarkgrey)!important;
+    background:var(--ACCENT)!important;
     border-top-right-radius:var(--border0)!important;
     border-bottom-right-radius:var(--border0)!important
 }
@@ -4381,7 +4391,7 @@ div.store_header_btn{
     background-color:VAR(--BASE1)!important;
 }
 .discount_block_large .discount_prices{
-    background:var(--black)!important
+    background:var(--BLACK)!important
 }
 .hover_details_block,.hover_details_block_full{
     background-color:var(--darkgrey)!important
@@ -4389,7 +4399,7 @@ div.store_header_btn{
 .friends_recently_purchased .friends_container{
     BORDER:0!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .friends_recently_purchased .store_capsule{
     background-image:none!important;
@@ -4403,14 +4413,14 @@ div.store_header_btn{
     background:0 0!important
 }
 .help_app_header{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
+    BACKGROUND:VAR(--BASE1)!important
 }
 .help_app_header .game_name a{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .tab_item .release_date{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .big_button{
     width:224px!Important;
@@ -4436,7 +4446,7 @@ div.store_header_btn{
     background-color:VAR(--ACCENT)!Important
 }
 .curator_page .actions{
-    BACKGROUND:NONE!IMPORTANT;
+    BACKGROUND:NONE!important;
     border-radius:var(--border0)!important
 }
 a.follow_button.btn_green_white_innerfade.btn_medium{
@@ -4449,7 +4459,7 @@ a.following_button.btn_green_white_innerfade.btn_medium{
     border-radius:var(--border0)!important
 }
 .home_rightcol{
-    BACKGROUND:TRANSPARENT!IMPORTANT;
+    BACKGROUND:TRANSPARENT!important;
     border-radius:var(--border0)!important
 }
 .tab_item{
@@ -4462,7 +4472,7 @@ img.tab_item_cap_img{
 }
 .tab_review_summary{
     border:0!important;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
     border-radius:0!important
 }
 .tab_preview .screenshot{
@@ -4495,7 +4505,7 @@ img.member_tile{
 }
 .apphub_Card.interactable{
     border-radius:var(--border0)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .apphub_Card.interactable:hover{
     border:1px solid transparent!important
@@ -4510,15 +4520,15 @@ img.member_tile{
     border-radius:var(--border0)!important
 }
 .community_home_app_shortcuts_list_header{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     FONT-WEIGHT:BOLD!iMPORTANT
 }
 .community_home_search_box{
-    BORDER:1PX SOLID #b6b6b6!IMPORTANT;
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT;
+    BORDER:1PX SOLID #b6b6b6!important;
+    BACKGROUND-COLOR:#d6d6d6!important;
     border:0!important;
     border-radius:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .community_home_shortcut_content{
     border-radius:var(--border0)!important
@@ -4528,8 +4538,8 @@ img.member_tile{
     border-radius:10PX!important
 }
 .community_home_app_shortcuts .community_home_shortcut_content{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
     border-radius:0!important
 }
 .apphub_CardContentType{
@@ -4562,24 +4572,24 @@ img.member_tile{
     background-color:#dedede!important
 }
 .color_recommended{
-    COLOR:#1181d2!IMPORTANT
+    COLOR:#1181d2!important
 }
 .navigation_bar>.curators_searchbox{
-    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    BACKGROUND-COLOR:#e8e8e8!IMPORTANT
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!important;
+    COLOR:VAR(--ACCENT)!important;
+    BORDER:1PX SOLID #b8b8b8!important;
+    BACKGROUND-COLOR:#e8e8e8!important
 }
 .community_home_header .appHubShortcut a:hover{
-    COLOR:#000!IMPORTANT;
+    COLOR:#000!important;
     TEXT-DECORATION:NONE!iMPORTANT
 }
 .tag_browse_tag:hover{
     color:#000!important
 }
 .curator_recommendation_capsule .carousel_container.paging_capsules .curator_page .profile{
-    BACKGROUND:NONE!IMPORTANT;
-    BORDER-BOTTOM:1PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND:NONE!important;
+    BORDER-BOTTOM:1PX SOLID #d6d1d1!important
 }
 .home_content.single .capsule{
     width:291px!Important
@@ -4594,7 +4604,7 @@ img.member_tile{
 }
 .curator_page{
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .giant_curator_capsule img{
     border-radius:var(--border0)!important
@@ -4674,7 +4684,7 @@ a.home_marketing_message{
     margin-top:.5vh!important
 }
 .curator_page .socialmedia{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .curator_page .socialmedia img{
     width:21px!important;
@@ -4728,7 +4738,7 @@ a.home_marketing_message{
     border-radius:0!important
 }
 .recently_updated .store_capsule .recently_updated_desc{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     border-top:0!important;
     border-radius:var(--border0)!important
 }
@@ -4744,7 +4754,7 @@ a.home_marketing_message{
 .home_tab.active .tab_content{
     border:0!important;
     border-top-left-radius:var(--border0)!important;
-    background-color:var(--bedarkgrey)!important;
+    background-color:var(--ACCENT)!important;
     color:#fff!important;
     border-radius:0!important
 }
@@ -4755,7 +4765,7 @@ a.home_marketing_message{
     color:VAR(--ACCENT)!important
 }
 .tab_item.focus .discount_block .discount_final_price{
-    BACKGROUND-COLOR:#ececec!IMPORTANT
+    BACKGROUND-COLOR:#ececec!important
 }
 #tab_preview_container{
     border-radius:6px!important;
@@ -4768,10 +4778,10 @@ body.v6 .home_rightcol .tab_preview h2{
     color:VAR(--ACCENT)!important
 }
 .tab_preview .tags>a{
-    background-color:var(--bedarkgrey)!important
+    background-color:var(--ACCENT)!important
 }
 .home_content .ds_flag{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .store_capsule{
     background-color:VAR(--BASE1)!important;
@@ -4811,10 +4821,10 @@ body.v6 .home_rightcol .tab_preview h2{
     background:0 0!important
 }
 .queue_btn_ignore_menu>.queue_ignore_menu_arrow{
-    BACKGROUND:NONE!IMPORTANT
+    BACKGROUND:NONE!important
 }
 .queue_btn_ignore_menu:hover .queue_ignore_menu_flyout,.queue_ignore_menu_flyout:hover{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .responsive_page_content{
     overflow-x:hidden!important
@@ -4828,7 +4838,7 @@ body.v6.newonsteam .newonsteam_headercaps>a{
 }
 .tabarea .tab.active .tab_content{
     COLOR:#FFF!iMPORTANT;
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 .tabarea .tab .tab_content{
     color:VAR(--ACCENT)!important;
@@ -4846,13 +4856,13 @@ body.v6.newonsteam .newonsteam_headercaps>a{
 }
 .quadscreenshot_carousel .main{
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .contenthub_page .tabarea .tab.active .tab_content:hover{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 .tabarea .tab.active{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 .tabarea .tab{
     border-radius:var(--border0)!important
@@ -4868,7 +4878,7 @@ body.v6.newonsteam .newonsteam_headercaps>a{
     background:0 0!important
 }
 #term{
-    OUTLINE:NONE!IMPORTANT;
+    OUTLINE:NONE!important;
     background-color:#e8e8e8!important;
     border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     border:1px solid #b8b8b8!important
@@ -4885,10 +4895,10 @@ body.v6.newonsteam .newonsteam_headercaps>a{
     border:4px!important
 }
 .curator_list_ctn{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 .tabarea_v7 .tab.active{
-    background:var(--bedarkgrey)!important;
+    background:var(--ACCENT)!important;
     color:VAR(--ACCENT)!important
 }
 .curators_searchbox{
@@ -4897,7 +4907,7 @@ body.v6.newonsteam .newonsteam_headercaps>a{
 }
 body.v6{
     color:#1181d2!important;
-    background-color:var(--bedarkgrey)!important
+    background-color:var(--ACCENT)!important
 }
 .steam_curator_recommended_game_names{
     max-width:367px!important
@@ -4906,7 +4916,7 @@ body.v6{
     background-image:none!important
 }
 .block_content.block_content_inner.dark{
-    background-color:var(--bedarkgrey)!important
+    background-color:var(--ACCENT)!important
 }
 .chartdiv{
     background-color:VAR(--BASE1)!important
@@ -4931,10 +4941,10 @@ body.v6 div#footer,body.v6 div#global_header,body.v6 div#main,body.v6 div.page_a
     background:var(--darkgrey)!important
 }
 body.v6 div#global_header{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 body.v6 div#global_header .content{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 .community_home_search_apps{
     border-radius:var(--border2)!important;
@@ -4948,8 +4958,8 @@ body.v6 div#global_header .content{
 }
 .community_home_shortcut_content{
     background-COLOR:VAR(--BASE1)!important;
-    BORDER:0!IMPORTANT;
-    BOX-SHADOW:#d6d1d1!IMPORTANT
+    BORDER:0!important;
+    BOX-SHADOW:#d6d1d1!important
 }
 .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,.apphub_sectionTab.active>span{
     border-radius:var(--border0)!important;
@@ -5015,39 +5025,39 @@ body.v6 div#global_header .content{
     background:var(--darkgrey)!important
 }
 .apphub_NoMoreContent{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .fraud_warning_box{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER:0!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BORDER:0!important
 }
 .context_name{
     height:25px!important;
-    FONT-SIZE:17PX!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    FONT-SIZE:17PX!important;
+    COLOR:VAR(--ACCENT)!important
 }
 #contextselect_options .context_name:hover{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT;
+    BACKGROUND-COLOR:#d6d6d6!important;
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 #contextselect_options .context_name{
-    BORDER-BOTTOM:0!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    BORDER-BOTTOM:0!important;
+    COLOR:VAR(--ACCENT)!important
 }
 body.apphub_blue{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BORDER:1PX SOLID #b8b8b8!important
 }
 div.filterselect_options{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BORDER:1PX SOLID #d6d1d1!important;
+    COLOR:VAR(--ACCENT)!important
 }
 .popup_block .popup_body{
     background:VAR(--BASE1)!important
 }
 .apphub_CardContentGuideDesc{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .btn_profile_action .btn_medium .img{
     transform:rotate(180deg) scaleX(1)!important
@@ -5055,16 +5065,16 @@ div.filterselect_options{
 #profile_action_dropdown{
     top:-5px!important;
     left:720px!important;
-    background:var(--darkergrey)!important;
+    background:var(--ACCENT)!important;
     border-radius:var(--border0)!important
 }
 div#game_select_suggestions_ctn{
     background:var(--realblack)!important
 }
 .apphub_Card{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:#d6d1d1!IMPORTANT
+    BOX-SHADOW:#d6d1d1!important
 }
 #preferences_last_saved{
     color:VAR(--ACCENT)!important
@@ -5084,7 +5094,7 @@ div#game_select_suggestions_ctn{
 }
 .apphub_CardContentGuideTitle{
     background-color:VAR(--BASE1)!important;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 input.community_home_search_app_input{
     font-size:15px!important;
@@ -5098,10 +5108,10 @@ input.community_home_search_app_input{
     border-top:1px solid #d6d1d1!important
 }
 .community_home_search_title{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .community_home_search_players{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
     background:#e8e8e8!important
 }
 input.community_home_search_players_input{
@@ -5150,7 +5160,7 @@ body.flat_page:not(.iframe){
     background:0 0!important
 }
 #comments{
-    BORDER-TOP:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-TOP:1PX SOLID #d6d1d1!important
 }
 .detailBox{
     background:0 0!important
@@ -5160,10 +5170,10 @@ body.flat_page:not(.iframe){
 }
 .workshop_item_header{
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .sectionTab.active>span{
-    background:var(--bedarkgrey)!important
+    background:var(--ACCENT)!important
 }
 .sectionTab.active{
     background:0 0!important
@@ -5189,8 +5199,8 @@ body.flat_page:not(.iframe){
     padding-top:10px!important
 }
 #contextselect{
-    BORDER:0!IMPORTANT;
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT;
+    BORDER:0!important;
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important;
     background-color:#d6d6d6!important;
     background-image:none!important
 }
@@ -5209,7 +5219,7 @@ body.flat_page:not(.iframe){
 }
 .rightSectionTopTitle{
     FONT-WEIGHT:BOLD!iMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .miniprofile_arrow.left{
     display:none!important
@@ -5226,7 +5236,7 @@ body.flat_page:not(.iframe){
     background-image:none!important
 }
 .discussionSearchTextContainer{
-    WIDTH:253PX!IMPORTANT;
+    WIDTH:253PX!important;
     background-image:none!important
 }
 .discussionSearchTextContainer{
@@ -5237,12 +5247,12 @@ body.flat_page:not(.iframe){
     height:28px!important
 }
 .discussionSearchTextSubmitImg{
-    OPACITY:0!IMPORTANT;
+    OPACITY:0!important;
     top:5px!important;
     left:266px!important
 }
 .discussions_forumlist_linkoverlay img{
-    BORDER:0!IMPORTANT
+    BORDER:0!important
 }
 .discussions_header{
     border-bottom:5px solid transparent!important
@@ -5250,7 +5260,7 @@ body.flat_page:not(.iframe){
 a.recent_game_discussion{
     border-radius:0!important;
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 a.recent_game_discussion:hover{
     border-radius:0!important;
@@ -5259,11 +5269,11 @@ a.recent_game_discussion:hover{
 .discussions_forum_row{
     border-radius:0!important;
     background-color:VAR(--BASE1)!important;
-    BORDER:0!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BORDER:0!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .discussions_forum_row:hover{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     border-radius:0!important;
     background-color:VAR(--BASE1)!important
 }
@@ -5271,13 +5281,13 @@ a.recent_game_discussion:hover{
     border-top:0!important
 }
 a.recent_game_discussion.quasi_official_group{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 a.recent_game_discussion.quasi_official_group:hover{
     background:VAR(--BASE1)!important
 }
 .community_tooltip{
-    background:var(--darkergrey)!important;
+    background:var(--ACCENT)!important;
     color:VAR(--ACCENT)!important
 }
 .discussion_tab_content_area h2.discussion_primary_header{
@@ -5287,17 +5297,17 @@ a.recent_game_discussion.quasi_official_group:hover{
     font-size:25px!important
 }
 .forum_op .date{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .forum_comment_action_menu{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BORDER:1PX SOLID #d6d1d1!important
 }
 .profile_header .persona_name{
     color:VAR(--ACCENT)!Important
 }
 a.hoverunderline:hover{
-    TEXT-DECORATION:NONE!IMPORTANT
+    TEXT-DECORATION:NONE!important
 }
 a.forum_comment_action{
     opacity:60%!important;
@@ -5308,10 +5318,10 @@ a.forum_comment_action:HOVER{
     BACKGROUND-COLOR:#d6d6d6!iMPORTANT
 }
 .group_breadcrumbs{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .forum_paging{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     background:#dedede!important;
     border-radius:var(--border0)!important
 }
@@ -5351,7 +5361,7 @@ div#headerSearch.friend_activity_header_search{
     border-left:0!important
 }
 .econ_tag_filter_category>select{
-    OUTLINE:NONE!IMPORTANT
+    OUTLINE:NONE!important
 }
 .blotter_appselect{
     border-radius:var(--border0)!important;
@@ -5378,7 +5388,7 @@ div#headerSearch.friend_activity_header_search{
     border:1PX SOLID #b8b8b8!important
 }
 .forumtopic_comments .commentthread_comment{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background-color:VAR(--BASE1)!important;
     margin-bottom:2px!important;
     padding:12px 8px 20px 60px!important;
@@ -5397,19 +5407,19 @@ div#headerSearch.friend_activity_header_search{
     background-position:top left!important;
     border:0!important;
     border-radius:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .blotter_block{
     position:relative!important;
     background:VAR(--BASE1)!important;
     border-radius:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .dynamiclink_box{
     border:0!important;
     background:none!important;
     background-color:#ececec!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .profile_header_bg_texture{
     background-color:VAR(--BASE1)!important;
@@ -5420,7 +5430,7 @@ div#headerSearch.friend_activity_header_search{
     min-height:200px!important;
     padding-bottom:15px!important;
     border:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .profile_header_bg{
     background-image:none!important;
@@ -5494,7 +5504,7 @@ div#headerSearch.friend_activity_header_search{
     ACCENT-space:nowrap!important
 }
 .persona,a.persona,.persona a,.friend_status_offline,.friend_status_offline div,.friend_status_offline a{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .btn_profile_action.btn_medium{
     margin-right:10px!important;
@@ -5528,23 +5538,23 @@ div#headerSearch.friend_activity_header_search{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .showcase_stat .label{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .showcase_content_bg{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .friendBlock.persona.offline{
     BACKGROUND-COLOR:VAR(--BASE1)!iMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .achievement_progress_bar_ctn .progress_bar{
-    BACKGROUND:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND:VAR(--ACCENT)!important;
+    BACKGROUND-COLOR:VAR(--ACCENT)!important
 }
 .profile_rightcol{
-    BORDER:0!IMPORTANT;
-    BACKGROUND:NONE!IMPORTANT;
+    BORDER:0!important;
+    BACKGROUND:NONE!important;
     width:268px!important;
     float:right!important
 }
@@ -5605,7 +5615,7 @@ div#headerSearch.friend_activity_header_search{
     background-image:none!important
 }
 .profile_header_content{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     padding-top:0!important
 }
 .workshop_showcase_details_content{
@@ -5638,7 +5648,7 @@ div#headerSearch.friend_activity_header_search{
     background:var(--grey)!important
 }
 .help_wizard_button>span{
-    BORDER:0!IMPORTANT
+    BORDER:0!important
 }
 .about_box_wide{
     border:0!important;
@@ -5651,8 +5661,8 @@ div#headerSearch.friend_activity_header_search{
     border-radius:var(--border0)!important
 }
 .help_game_guides_box{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .help_text_block{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -5673,22 +5683,22 @@ div#headerSearch.friend_activity_header_search{
 .help_wizard_button{
     background:#d6d6d6!important;
     border:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .help_wizard_button_large>span{
     margin:10px 14px 10px 14px!important
 }
 .help_wizard_arrow_right{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER:1PX SOLID #b8b8b8!important
 }
 .help_search_result:hover{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .help_app_header_divider{
-    BACKGROUND-COLOR:#d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:#d6d1d1!important
 }
 #help_search_support_input{
-    OUTLINE:NONE!IMPORTANT;
+    OUTLINE:NONE!important;
     font-style:normal!important;
     color:VAR(--ACCENT)!important;
     border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
@@ -5696,14 +5706,14 @@ div#headerSearch.friend_activity_header_search{
     border:1px solid #b8b8b8!important
 }
 .help_purchase_detail_box{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     background-COLOR:VAR(--BASE1)!important
 }
 .profile_small_header_bg{
     background-image:none!important
 }
 .friendPlayerLevel .friendPlayerLevelNum{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .games_list_tabs{
     border-radius:var(--border0)!important
@@ -5717,7 +5727,7 @@ div#headerSearch.friend_activity_header_search{
 .filter_ctn.inventory_filters #filter_control{
     border-radius:var(--border0)!important;
     background:var(--black-ish)!important;
-    border:1px solid var(--black)!important
+    border:1px solid var(--BLACK)!important
 }
 .friends_header_bg{
     background:0 0!important
@@ -5747,8 +5757,8 @@ div#headerSearch.friend_activity_header_search{
     border-radius:var(--border0)!important
 }
 .review_recent_events{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .profile_friends.title_bar,.profile_groups.title_bar{
     margin-top:4px!important;
@@ -5791,9 +5801,9 @@ div#headerSearch.friend_activity_header_search{
     background-color:var(--darkgrey)!important
 }
 .friend_reviews .review_box{
-    border:0!IMPORTANT;
+    border:0!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .review_box.short{
     background:var(--thegrey)!important
@@ -5817,8 +5827,8 @@ div#headerSearch.friend_activity_header_search{
     background:0 0!important
 }
 .coplayGroup{
-    BORDER-COLOR:#d6d1d1!IMPORTANT;
-    BORDER-BOTTOM:1PX SOILD #d6d1d1!IMPORTANT
+    BORDER-COLOR:#d6d1d1!important;
+    BORDER-BOTTOM:1PX SOILD #d6d1d1!important
 }
 .discovery_queue_customize_ctn{
     color:VAR(--ACCENT)!Important;
@@ -5854,8 +5864,8 @@ div#headerSearch.friend_activity_header_search{
 }
 .search_results_none{
     border-radius:0!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 #search_results.profile_friends.search_results{
     margin-top:0!important
@@ -5869,26 +5879,26 @@ body.v6 .discount_block{
 }
 .profile_friends.responsive_friendblocks{
     border-radius:0!important;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .invite_section_ctn.invite_link{
     background-image:none!important
 }
 .home_category_title b{
-    TEXT-SHADOW:NONE!IMPORTANT
+    TEXT-SHADOW:NONE!important
 }
 .formRowTitle{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .formRowFields{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 input[type=text],input[type=password],select{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER:1PX SOLID #b8b8b8!important
 }
 .home_category_subtitle{
-    TEXT-SHADOW:NONE!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    TEXT-SHADOW:NONE!important;
+    COLOR:VAR(--ACCENT)!important
 }
 .invite_section_ctn .header_row{
     border-top-left-radius:var(--border0)!important;
@@ -5905,7 +5915,7 @@ input[type=text],input[type=password],select{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .apphub_CardContentNewsDesc{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .apphub_CardContentNewsTitle{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -5915,15 +5925,15 @@ input[type=text],input[type=password],select{
     background-color:var(--darkgrey)!important
 }
 .sale_capsule_image_hover{
-    border:1px solid var(--darkergrey)!important;
+    border:1px solid var(--ACCENT)!important;
     border-radius:var(--border0)!important
 }
 .gameListRow.followed{
     border-radius:var(--border0)!important
 }
 .home_category_title{
-    TEXT-SHADOW:NONE!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    TEXT-SHADOW:NONE!important;
+    COLOR:VAR(--ACCENT)!important
 }
 .home_category_ctn .home_category_title_ctn{
     border-radius:var(--border0)!important
@@ -5935,23 +5945,23 @@ input[type=text],input[type=password],select{
     background:var(--darkgrey)!important
 }
 body.v6 h2 .header_inline{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .home_tag_category_title,.home_tag_category_title b{
-    TEXT-SHADOW:NONE!IMPORTANT;
+    TEXT-SHADOW:NONE!important;
     COLOR:VAR(--ACCENT)!important
 }
 .home_discounts_ctn .home_discount_line{
     height:0!important
 }
 .apphub_HeaderBottom{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 0PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 0PX #d6d1d1!important
 }
 .apphub_StoreInfoHeader{
-    BORDER-TOP:0!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BORDER-TOP:0!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .ds_flag{
     COLOR:#FFF!iMPORTANT
@@ -5983,11 +5993,11 @@ body.v6 h2 .header_inline{
 }
 .gameListRow{
     border-radius:0!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .home_discovery_queue_ctn .home_title_ctn,.home_discovery_queue_ctn .home_subtitle_ctn{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 
 .gameListRow {
@@ -6007,21 +6017,21 @@ body.v6 h2 .header_inline{
 }
 .popup_block2 .popup_body2{
     border-radius:0!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BORDER:1PX SOLID #d6d1d1!important
 }
 .pullup_item{
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT;
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important;
     border-radius:6px!important;
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important;
+    COLOR:VAR(--ACCENT)!important
 }
 .game_language_options tr{
     border-bottom:1px solid #d6d6d6!important
 }
 #footerLogo{
-    OPACITY:60%!IMPORTANT;
-    FILTER:BRIGHTNESS(0)!IMPORTANT
+    OPACITY:60%!important;
+    FILTER:BRIGHTNESS(0)!important
 }
 .game_language_options th{
     color:VAR(--ACCENT)!important
@@ -6074,7 +6084,7 @@ body.v6 .wishlist_header h2{
     border:0!important
 }
 .hero_stat .label{
-    COLOR:#FFF!IMPORTANT
+    COLOR:#FFF!important
 }
 a.communitylink_achievement.communitylink_achivement_plusmore:hover{
     background:#000!important
@@ -6083,7 +6093,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover{
     color:VAR(--ACCENT)!important
 }
 body.v6 .newonsteam_capsules>a{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .wishlist_row{
     color:VAR(--ACCENT)!important;
@@ -6117,8 +6127,8 @@ body.v6 .newonsteam_capsules>a{
     border-radius:var(--border0)!important
 }
 .discount_block .discount_prices{
-    BORDER:1PX SOLID #b6b6b6!IMPORTANT;
-    background:#d6d6d6!IMPORTANT!important;
+    BORDER:1PX SOLID #b6b6b6!important;
+    background:#d6d6d6!important!important;
     border-radius:10PX!important;
     vertical-align:0!important
 }
@@ -6129,24 +6139,24 @@ body.v6 .newonsteam_capsules>a{
 #rightContents .box{
     border-radius:0!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .cart_tab_off{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .newonsteam_capsules>a>div.info{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
+    COLOR:VAR(--ACCENT)!important
 }
 .game_area_purchase_game b, .game_area_offsite_purchase b {
-    COLOR:VAR(--GREEN)!IMPORTANT;
+    COLOR:VAR(--GREEN)!important;
 }
 .review_list h1{
     border-bottom:none!important
 }
 .review_box .header{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     border-top-left-radius:var(--border0)!important;
     border-top-right-radius:var(--border0)!important;
     border-bottom:0!important;
@@ -6158,7 +6168,7 @@ body.v6 .newonsteam_capsules>a{
 a.activetrigger,a.trigger{
     border-radius:var(--border0)!important;
     background:0 0!important;
-    background-color:var(--black)!important
+    background-color:var(--BLACK)!important
 }
 .dselect_container a,.dselect_container a:active,.dselect_container a:hover,.dselect_container a:visited{
     border-bottom-left-radius:var(--border0)!important;
@@ -6166,8 +6176,8 @@ a.activetrigger,a.trigger{
 }
 .block_content.block_content_inner.dark{
     border-radius:0!important;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .popup_body.popup_menu.shadow_content{
     border-radius:var(--border0)!important;
@@ -6195,7 +6205,7 @@ a.activetrigger,a.trigger{
     border-radius:var(--border0)!important
 }
 .home_area_spotlight.underlined_links{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background-color:VAR(--BASE1)!important
 }
 .favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{
@@ -6273,7 +6283,7 @@ a.activetrigger,a.trigger{
 .commentthread_entry_quotebox{
     background-color:#e8e8e8!important;
     border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
     margin-bottom:-2px!important
 }
 .commentthread_footer,.commentthread_header{
@@ -6314,7 +6324,7 @@ input[type=number],input[type=password],input[type=text],select{
     margin-left:5px!important
 }
 .search_row{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background-color:VAR(--BASE1)!important;
     border-radius:var(--border0)!important
 }
@@ -6326,11 +6336,11 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{
     background:var(--darkgrey)!important
 }
 .search_match_info{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
     border-radius:var(--border0)!important
 }
 .partnereventwebrowembed_LatestUpdateIcon_mq3RO svg{
-    FILL:VAR(--ACCENT)!IMPORTANT
+    FILL:VAR(--ACCENT)!important
 }
 .search_group_avatar_holder img{
     border-radius:var(--border0)!important
@@ -6365,11 +6375,11 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{
     line-height:32px!important
 }
 .game_purchase_action .game_purchase_price{
-    BORDER-RADIUS:0!IMPORTANT;
-    BORDER:0!IMPORTANT;
+    BORDER-RADIUS:0!important;
+    BORDER:0!important;
     background-color:VAR(--BASE1)!important;
     color:VAR(--ACCENT)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .highlight_movie{
     border-radius:var(--border0)!important;
@@ -6386,7 +6396,7 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{
     background-color:transparent!important
 }
 #review_create p{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .bluefade{
     BACKGROUND-IMAGE:NONE!iMPORTANT
@@ -6398,18 +6408,18 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{
     BORDER-RADIUS:0!iMPORTANT
 }
 .ratingBar{
-    BORDER-TOP:0!IMPORTANT;
+    BORDER-TOP:0!important;
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .review_rate_bar{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BORDER-TOP:1PX SOLID #d6d1d1!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BORDER-TOP:1PX SOLID #d6d1d1!important
 }
 .review_app_actions{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .ratingSummary{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -6421,31 +6431,31 @@ img.game_header_image_full{
 }
 body.v6 .game_area_already_owned.page_content{
     background:VAR(--GREEN)!important;
-    COLOR:#FFF!IMPORTANT;
+    COLOR:#FFF!important;
     border-radius:var(--border0)!important
 }
 .game_area_play_stats{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
+    BACKGROUND:VAR(--BASE1)!important;
     border-radius:var(--border0)!important
 }
 .review_area_content{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .review_developer_response_text{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .games_list_tab,a.games_list_tab{
     BACKGROUND-COLOR:TRANSPARENT!iMPORTANT
 }
 .user_reviews_filter_display_as select{
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT;
-    OUTLINE:0!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:#d6d6d6!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important;
+    OUTLINE:0!important;
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND:#d6d6d6!important
 }
 .user_reviews_filter_display_as{
-    BORDER-LEFT:NONE!IMPORTANT
+    BORDER-LEFT:NONE!important
 }
 #recommendation_success .review_box .thumb{
     border-radius:var(--border0)!important
@@ -6454,15 +6464,15 @@ body.v6 .game_area_already_owned.page_content{
     border-top:0!important
 }
 .review_developer_response{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BORDER:1PX SOLID #d6d1d1!important
 }
 .review_developer_response_container.multiple_listing.store{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .user_reviews_summary_bar .summary_section{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .game_area_purchase_game_wrapper .game_area_purchase_game{
     border-radius:var(--border0)!important
@@ -6506,14 +6516,14 @@ body.v6 .game_area_already_owned.page_content{
     border-radius:var(--border0)!important
 }
 .ds_flag.ds_completetheset{
-    BACKGROUND:#1181d2!IMPORTANT;
+    BACKGROUND:#1181d2!important;
     border-radius:var(--border0)!important
 }
 .review_box .posted{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .review_box .postedDate{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .game_description_column h2,.recommendation_bodytext h2{
     background-image:none!important
@@ -6560,11 +6570,11 @@ body.v6 .game_area_already_owned.page_content{
     border-radius:var(--border0)!important
 }
 .review_box .short_header .persona_name{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:BOLD!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:BOLD!important
 }
 .review_box a.vote_header{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     border:0!important;
     background:#ececec!important;
     border-radius:var(--BORDER1)!important;
@@ -6592,7 +6602,7 @@ body.v6 .game_area_already_owned.page_content{
     border-radius:var(--border0)!important
 }
 .review_box .persona_name,.recommendation_row .persona_name{
-    FONT-WEIGHT:BOLD!IMPORTANT
+    FONT-WEIGHT:BOLD!important
 }
 .sysreq_tab:hover{
     background-color:var(--grey)!important;
@@ -6606,15 +6616,15 @@ body.v6 #footer .rule{
     border-radius:var(--border0)!important
 }
 .rightcol.game_meta_data .block{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     border:0!important;
     background:VAR(--BASE1)!important;
     border-radius:0!important
 }
 .rightcol.game_meta_data .block.heading{
-    BORDER:0!IMPORTANT;
-    BORDER-BOTTOM:0!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    BORDER:0!important;
+    BORDER-BOTTOM:0!important;
+    COLOR:VAR(--ACCENT)!important;
     border-radius:0!important
 }
 .short_header{
@@ -6672,7 +6682,7 @@ body.v6 #footer .rule{
     border-radius:0PX!important
 }
 .sale_page_release_date{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .game_page_autocollapse_readmore{
     background:VAR(--ACCENT)!important;
@@ -6704,10 +6714,10 @@ body.v6 #footer .rule{
     border-radius:var(--border0)!important
 }
 .no_curators_followed{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     background:VAR(--BASE1)!important;
     border-radius:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .review_ctn{
     border-top:0!important
@@ -6717,42 +6727,42 @@ body.v6 #footer .rule{
     box-shadow:1px 1px 2px #d6d1d1!important
 }
 .promo_item_list .item .info .percent{
-    BACKGROUND-COLOR:#78be6d!IMPORTANT
+    BACKGROUND-COLOR:#78be6d!important
 }
 .slider_ctn.store_autoslider{
     background:0 0!important;
     border-radius:var(--border0)!important
 }
 .user_reviews_date_range_explanation,.user_reviews_offtopic_activity_explanation,.user_reviews_playtime_filter_explanation{
-    BORDER-BOTTOM:1PX SOLID #dcdcdc!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #dcdcdc!important
 }
 .user_reviews_filter_menu:hover{
-    BACKGROUND-COLOR:TRANSPARENT!IMPORTANT
+    BACKGROUND-COLOR:TRANSPARENT!important
 }
 .app_report_dialog_reason,.app_embed_dialog_description{
-    BACKGROUND-COLOR:#e8e8e8!IMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    BACKGROUND-COLOR:#e8e8e8!important;
+    BORDER:1PX SOLID #b8b8b8!important;
+    COLOR:VAR(--ACCENT)!important
 }
 .user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout,.user_reviews_filter_menu_flyout:hover{
-    BORDER-RADIUS:0!IMPORTANT;
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BORDER-RADIUS:0!important;
+    BORDER:1PX SOLID #d6d1d1!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 .highlight_ctn .slider .handle,.highlight_ctn .slider_ctn .slider_left,.highlight_ctn .slider_ctn .slider_right{
     background-color:rgba(0,0,0,.4)!important;
     border-radius:var(--border0)!important
 }
 .game_area_details_specs{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
+    BACKGROUND-COLOR:#d6d6d6!important;
     border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important
 }
 .reviews_info_ctn{
-    BORDER-BOTTOM:1PX SOLID #dcdcdc!IMPORTANT
+    BORDER-BOTTOM:1PX SOLID #dcdcdc!important
 }
 #review_histogram_recent_section{
-    BACKGROUND:TRANSPARENT!IMPORTANT
+    BACKGROUND:TRANSPARENT!important
 }
 .game_area_details_specs a.name{
     color:VAR(--ACCENT)!important;
@@ -6813,13 +6823,13 @@ body.v6 #footer .rule{
     border-radius:var(--border0)!important
 }
 .ds_flag.ds_owned_flag{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background-COLOR:#ececec!important;
     border-radius:0!important
 }
 .ds_flag.ds_wishlist_flag{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     border-radius:0!important;
     border:1px solid #d6d1d1!important;
     BACKGROUND-COLOR:#ececec!iMPORTANT
@@ -6832,8 +6842,8 @@ body.v6 #footer .rule{
     border-radius:var(--border0)!important
 }
 div.early_access_header{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
+    BACKGROUND:VAR(--BASE1)!important;
     border:0!important;
     border-radius:var(--border0)!important
 }
@@ -6878,7 +6888,7 @@ h2 span.note:hover{
     background:0 0!important
 }
 .early_access_review{
-    COLOR:#FFF!IMPORTANT;
+    COLOR:#FFF!important;
     border:0!important;
     background-color:var(--BLUE)!important;
     border-radius:var(--border0)!important
@@ -6897,7 +6907,7 @@ h2 span.note:hover{
     background-image:none!important
 }
 .user_reviews_filter_menu_flyout{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     border-top-right-radius:var(--border0)!important;
     border-bottom-left-radius:var(--border0)!important;
     border-bottom-right-radius:var(--border0)!important
@@ -6924,7 +6934,7 @@ h2 span.note:hover{
     border-radius:var(--border0)!important
 }
 .block.recommendation_reasons,.block.recommendation_reasons p{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .broadcast_embeddable_bordered_container_3zXpF{
     background:transparent!important
@@ -6939,21 +6949,21 @@ h2 span.note:hover{
     border-radius:var(--border0)!important
 }
 .glance_ctn .user_reviews{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .bundle_label{
-    COLOR:#1181d2!IMPORTANT
+    COLOR:#1181d2!important
 }
 .referring_curator .blurb{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .rightcol .review_box.partial .content .gradient{
     background:0 0!important;
     border-radius:var(--border0)!important
 }
 a.communitylink_achievement.communitylink_achivement_plusmore{
-    WIDTH:20PX!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT;
+    WIDTH:20PX!important;
+    BACKGROUND-COLOR:VAR(--ACCENT)!important;
     border-radius:0!important
 }
 .communitylink_achievement{
@@ -6967,7 +6977,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore{
     border-radius:var(--border5)!important
 }
 .review_box.partial .view_more a{
-    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background:VAR(--ACCENT)!important;
     color:#fff!important;
     padding-top:3px!important;
@@ -7007,8 +7017,8 @@ div.early_access_announcements .post .more{
     border-radius:var(--border0)!important
 }
 .referring_curator{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     border-radius:var(--border0)!important
 }
 div.early_access_announcements .post .more:hover{
@@ -7024,24 +7034,24 @@ div.early_access_announcements .post .more:hover{
     border-radius:var(--border0)!important;
     padding:4px!important;
     border:1px var(--littlegrey)!important;
-    color:var(--black)!important;
+    color:var(--BLACK)!important;
     background:var(--blue-ish)!important
 }
 .btnv6_lightblue_blue>span{
     border-radius:var(--border0)!important;
     border:1px var(--littlegrey)!important;
-    color:var(--black)!important;
+    color:var(--BLACK)!important;
     background:var(--blue-ish)!important
 }
 .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
     text-decoration:none!important;
-    color:var(--black)!important;
+    color:var(--BLACK)!important;
     border:1px var(--littlegrey)!important;
     background:var(--blue)!important
 }
 .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{
     background:var(--blue)!important;
-    color:var(--black)!important;
+    color:var(--BLACK)!important;
     border:1px var(--littlegrey)!important;
     border-radius:var(--border0)!important
 }
@@ -7114,7 +7124,7 @@ div.early_access_announcements .post .more:hover{
     border-radius:var(--border0)!important
 }
 .forum_topic_overlay:hover{
-    background:var(--darkergrey)63!important
+    background:var(--ACCENT)63!important
 }
 .btn_blue_white_innerfade{
     border-radius:var(--border0)!important;
@@ -7149,7 +7159,7 @@ div.early_access_announcements .post .more:hover{
     border-radius:var(--border0)!important
 }
 .notice_box_content{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .notice_box_content_blue_box{
     border-radius:var(--border0)!important
@@ -7169,7 +7179,7 @@ a.group_tab{
     color:VAR(--ACCENT)!important
 }
 a.group_tab:hover{
-    COLOR:#000!IMPORTANT;
+    COLOR:#000!important;
     background:TRANSPARENT!important;
     border-radius:var(--border0)!important
 }
@@ -7186,7 +7196,7 @@ a.group_tab:hover{
 .rightbox{
     border-radius:0!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .joinchat_bg{
     position:relative;
@@ -7221,7 +7231,7 @@ a.group_tab:hover{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 span.bb_link_host{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .group_overview_announcement_readmore{
     border-top:0!important
@@ -7230,25 +7240,25 @@ span.bb_link_host{
     border-radius:var(--border0)!important
 }
 .member_block{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background-color:VAR(--BASE1)!important;
     border-radius:var(--border0)!important
 }
 .member_block:hover{
-    background-color:var(--darkergrey)!important;
+    background-color:var(--ACCENT)!important;
     border-radius:var(--border0)!important
 }
 .member_block .rank_icon{
     background-color:transparent!important
 }
 .group_paging{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     border-radius:var(--border0)!important
 }
 .announcement{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     border-radius:var(--border0)!important
 }
 a.readmore_link{
@@ -7259,12 +7269,12 @@ a.readmore_link{
     background-color:var(--grey)!important
 }
 .announcement_control_container{
-    BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;
+    BACKGROUND-COLOR:TRANSPARENT!important;
     border-radius:var(--border0)!important
 }
 .forum_topic_pinned_notice{
-    COLOR:#FFF!IMPORTANT;
-    BACKGROUND-COLORVAR(--GREEN)!IMPORTANT;
+    COLOR:#FFF!important;
+    BACKGROUND-COLORVAR(--GREEN)!important;
     border-radius:var(--border0)!important
 }
 .forum_paging_summary{
@@ -7294,16 +7304,16 @@ a.readmore_link{
     border-radius:var(--border0)!important
 }
 .btn_addtocart .btn_addtocart_content{
-    BACKGROUND:VAR(--GREEN)!IMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND:VAR(--GREEN)!important;
+    COLOR:#FFF!important
 }
 #widget .btn_addtocart .btn_addtocart_content{
-    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
-    COLOR:#FFF!IMPORTANT;
-    BACKGROUND:#78be6d!IMPORTANT
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!important;
+    COLOR:#FFF!important;
+    BACKGROUND:#78be6d!important
 }
 #widget .btn_addtocart .btn_addtocart_content:hover{
-    BACKGROUND:VAR(--GREEN)!IMPORTANT
+    BACKGROUND:VAR(--GREEN)!important
 }
 .btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
     text-decoration:none!important;
@@ -7348,11 +7358,11 @@ a.readmore_link{
     border-radius:var(--border0)!important
 }
 .commentnotification_date{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .commentnotification.unread .commentnotification_date{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important
 }
 .commentnotification.unread .commentnotification_title{
     TEXT-SHADOW:NONE!iMPORTANT
@@ -7373,8 +7383,8 @@ a.readmore_link{
     background-image:none!important
 }
 .commentnotification_newposts{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important
 }
 .commentnotifications_header_commentcount{
     color:VAR(--ACCENT)!important
@@ -7383,7 +7393,7 @@ a.readmore_link{
     BACKGROUND:NONE!iMPORTANT
 }
 .forum_list .rightbox_list_option.selected{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .curator_summary_box{
     border-radius:var(--border0)!important
@@ -7392,10 +7402,10 @@ a.readmore_link{
     border-radius:var(--border0)!important
 }
 .friends_launch_area{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .profile_add_friends_title{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 #profileFriendSearchInputBox{
     FONT-STYLE:NORMAL!iMPORTANT
@@ -7406,11 +7416,11 @@ a.readmore_link{
     box-shadow:1px 1px 2px #d6d1d1!important
 }
 .commentnotifications_header_rule{
-    BACKGROUND-COLOR:#d6d1d1!IMPORTANT;
+    BACKGROUND-COLOR:#d6d1d1!important;
     BORDER:0!iMPORTANT
 }
 #widget{
-    BORDER-COLOR:#b6b6b6!IMPORTANT;
+    BORDER-COLOR:#b6b6b6!important;
     border:0!important;
     background:#d6d6d6!important;
     border-radius:10PX!important
@@ -7433,7 +7443,7 @@ a.readmore_link{
     background:#dedede!important
 }
 .group_content_header{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .group_content_header .group_content_header_viewmore{
     border-radius:var(--border0)!important;
@@ -7473,23 +7483,23 @@ img#blotter_nofriends_block{
 }
 #footer{
     border-radius:0!important;
-    BORDER-TOP:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-TOP:1PX SOLID #d6d1d1!important
 }
 #friendactivity_right_column .box{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     background:VAR(--BASE1)!important;
     border-radius:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .blotter_eventsblock{
     border-radius:0!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .friends_add_block{
     border-radius:0!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .profile_options_divider{
     height:0!important;
@@ -7536,7 +7546,7 @@ img#blotter_nofriends_block{
 .blotter_author_block{
     border-bottom:0!important;
     border-radius:0!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .blotter_screenshot>.blotter_author_block{
     border-radius:var(--border0)!important
@@ -7545,7 +7555,7 @@ img#blotter_nofriends_block{
     margin-top:0!important
 }
 .blotter_group_announcement_content{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
     background:VAR(--BASE1)!important
 }
 span.bb_spoiler{
@@ -7579,7 +7589,7 @@ span.bb_spoiler{
     background-color:VAR(--BASE1)!important;
     border-radius:0!important;
     border:0!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .view_inventory_page.inventory_msg_ctn{
     BORDER:0!iMPORTANT;
@@ -7592,21 +7602,21 @@ span.bb_spoiler{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .booster_creator_page select{
-    BORDER-BOTTOM:1PX SOLID #b8b8b8!IMPORTANT;
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:#d6d6d6!IMPORTANT;
+    BORDER-BOTTOM:1PX SOLID #b8b8b8!important;
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND:#d6d6d6!important;
     OUTLINE:NONE!iMPORTANT
 }
 .booster_creator_area{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .booster_creator_goostatus{
-    BORDER-TOP:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-TOP:1PX SOLID #d6d1d1!important
 }
 .trade_item_box .item,.market_dialog_contents .item{
     BORDER-RADIUS:0!iMPORTANT;
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     box-shadow:1px 1px 2px #d6d1d1!important;
 }
 .rightSectionHolder{
@@ -7617,7 +7627,7 @@ span.bb_spoiler{
     border:0!important;
     BORDER-RADIUS:0!iMPORTANT;
     BACKGROUND-COLOR:VAR(--BASE1)!iMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .games_list_tab.active{
     margin-left:1px!important;
@@ -7645,12 +7655,12 @@ span.bb_spoiler{
 }
 .inventory_iteminfo{
     BORDER:0!important;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
 }
 .filter_tag_options{
-    BORDER:0!iMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BORDER:0!important;
+    BACKGROUND-COLOR:VAR(--APPDETAILSPANEL)!important;
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .view_inventory_page .inventory_page_right{
     border-radius:var(--border0)!important
@@ -7664,8 +7674,8 @@ span.bb_spoiler{
     background-color:var(--thegrey)!important
 }
 .item_market_actions{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
     border-bottom-left-radius:var(--border0)!important;
     border-bottom-right-radius:var(--border0)!important
 }
@@ -7692,20 +7702,20 @@ span.bb_spoiler{
     border-radius:0!important;
     background:VAR(--BASE1)!important;
     BORDER:0!iMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .badge_title{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .badge_task_tooltip{
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BORDER:1PX SOLID #d6d1d1!important;
+    BACKGROUND:VAR(--BASE1)!important
 }
 .badge_info_title{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .gamecard_details .badge_info{
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER:1PX SOLID #d6d1d1!important
 }
 .badge_detail_tasks{
     BACKGROUND-IMAGE:NONE!iMPORTANT
@@ -7726,48 +7736,48 @@ span.bb_spoiler{
 .profile_xp_block{
     border:0!important;
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     BORDER-RADIUS:0!iMPORTANT
 }
 .profile_xp_block_remaining_bar_progress{
-    BACKGROUND:#d6d6d6!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--ACCENT)!IMPORTANT;
+    BACKGROUND:#d6d6d6!important;
+    BACKGROUND-COLOR:VAR(--ACCENT)!important;
     border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background-image:none!important
 }
 .profile_xp_block_remaining_bar{
-    BORDER:0!IMPORTANT;
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BORDER:0!important;
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .main_content_ctn{
     border:0!important
 }
 .browseAppsTitle .highlight{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .browseOption.notSelected a{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .profile_xp_block_level,.profile_xp_block_xp{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 div.sharedfiles_filterselect_options{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER:1PX SOLID #b8b8b8!important
 }
 #sharedfiles_view{
     background:#d6d6d6!important;
     border-bottom:#b8b8b8!important
 }
 div.sharedfiles_filterselect{
-    BACKGROUND:#d6d6d6!IMPORTANT
+    BACKGROUND:#d6d6d6!important
 }
 #sharedfiles_privacy{
     OUTLINE:NONE!imPORTANT
 }
 #ScreenshotManagementControls{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important
 }
 div.sharedfiles_filterselect:hover{
     border-color:#8d8d8d!important
@@ -7778,20 +7788,20 @@ div.sharedfiles_filterselect:hover{
 }
 div#sharedfiles_filterselect_app_filterable{
     BORDER:0!iMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
     BACKGROUND-COLOR:VAR(--BASE1)!iMPORTANT
 }
 div#sharedfiles_filterselect_app_filterable div.option:hover{
-    BACKGROUND-COLOR:#d6d6d6!IMPORTANT
+    BACKGROUND-COLOR:#d6d6d6!important
 }
 .games_list_tab_row_separator{
-    BACKGROUND-COLOR:#d6d1d1!IMPORTANT;
+    BACKGROUND-COLOR:#d6d1d1!important;
     border-top:0!important
 }
 .browseApps{
     background-color:VAR(--BASE1)!important;
     border-radius:0!important;
-    BOX-SHADOW:1px 1px 2px #d6d1d1!IMPORTANT
+    BOX-SHADOW:1px 1px 2px #d6d1d1!important
 }
 .browseAppsTitleContainer{
     border-radius:0!important;
@@ -7801,17 +7811,17 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
 .searchApps{
     border-radius:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background:#e8e8e8!important;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER:1PX SOLID #b8b8b8!important
 }
 .workshopAppsRow{
     border-bottom:0!important;
     background:0 0!important
 }
 .primary_panel{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     background:VAR(--BASE1)!important;
     border-radius:0!important;
-    BOX-SHADOW:#d6d1d1!IMPORTANT
+    BOX-SHADOW:#d6d1d1!important
 }
 .avatar_workshop_overlay{
     background:0 0!important
@@ -7889,7 +7899,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
 }
 .tradeoffer_items_ctn{
     border:0 solid!important;
-    background-color:var(--darkergrey)!important
+    background-color:var(--ACCENT)!important
 }
 .tradeoffer_items_rule{
     background:0 0!important
@@ -7906,7 +7916,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
 }
 .rightcol_controls{
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     BORDER-RADIUS:0!iMPORTANT
 }
 .rightcol_controls_rule{
@@ -7918,7 +7928,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
     background-color:var(--darkgrey)!important
 }
 .maincontent #topSummaryBoxContent{
-    background-color:var(--bedarkgrey)!important;
+    background-color:var(--ACCENT)!important;
     padding:10px 10px 20px 20px!important;
     margin:0 0 20px 0!important;
     border-radius:var(--border0)!important
@@ -7957,7 +7967,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
 #headerContent{
     margin:20px 0!important;
     padding:15px 20px!important;
-    background-color:var(--bedarkgrey)!important;
+    background-color:var(--ACCENT)!important;
     border-radius:var(--border0)!important
 }
 #compareAvatar{
@@ -8083,11 +8093,11 @@ body.v6.winter_sale_home h2.winter{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .rightcol_minor_text{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .subforum_select_area,.forum_newtopic_infomessage{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .newmodal{
     background:#dedede!important;
@@ -8119,18 +8129,18 @@ body.v6.winter_sale_home h2.winter{
     background:0 0!important
 }
 input.gray_bevel,textarea.gray_bevel,.gray_bevel,.commentthread_comment_edit_textarea_ctn{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    BACKGROUND-COLOR:#e8e8e8!IMPORTANT
+    BORDER:1PX SOLID #b8b8b8!important;
+    BACKGROUND-COLOR:#e8e8e8!important
 }
 input.gray_bevel,textarea.gray_bevel,.gray_bevel,.commentthread_comment_edit_textarea_ctn::SELECTION{
-    BACKGROUND:#d5d5d5!IMPORTANT
+    BACKGROUND:#d5d5d5!important
 }
 .slider_ctn .handle{
     BORDER-RADIUS:0!iMPORTANT
 }
 .forum_newtopic_box,.forum_formarea_box{
     BACKGROUND-COLOR:VAR(--BASE1)!iMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .carousel_items.store_capsule_container>*>*{
     border-radius:var(--border0)!important
@@ -8149,7 +8159,7 @@ div.profile_page.has_profile_background{
 .profile_friends .friend_block_v2{
     width:280px!important;
     background:var(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #D6D1D1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
     border-radius:6PX!important
 }
 .profile_friends .friend_block_v2:hover{
@@ -8157,17 +8167,17 @@ div.profile_page.has_profile_background{
     border-radius:var(--border5)!important
 }
 .friend_block_v2.in-game:hover {
-    BACKGROUND:VAR(--BASE3)!IMPORTANT;
+    BACKGROUND:VAR(--BASE3)!important;
     BORDER-RADIUS:6PX!iMPORTANT;
 }
 
 .profile_friends .friend_block_v2:hover {
-    BACKGROUND:VAR(--BASE3)!IMPORTANT;
+    BACKGROUND:VAR(--BASE3)!important;
     BORDER-RADIUS:6PX!iMPORTANT;
 }
 
 .friend_block_v2 .friend_small_text {
-    COLOR:VAR(--GREEN)!IMPORTANT;
+    COLOR:VAR(--GREEN)!important;
 }
 
 .friend_block_v2 .player_avatar{
@@ -8181,7 +8191,7 @@ div.profile_page.has_profile_background{
     margin-bottom:0!important
 }
 .queue_overflow_ctn{
-    BACKGROUND:#dedede!IMPORTANT;
+    BACKGROUND:#dedede!important;
     margin-top:-20px!important
 }
 .ellipsis{
@@ -8189,14 +8199,14 @@ div.profile_page.has_profile_background{
 }
 div.bb_h3,.bb_wysiwyg h3{
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    FONT-WEIGHT:500!important
 }
 .two_column .nav_item{
     MARGIN-BOTTOM:4PX!iMPORTANT;
     BORDER-RADIUS:0!iMPORTANT;
-    BORDER:0!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BORDER:0!important;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .grouppage_membertiles_overlay{
     top:0!important;
@@ -8263,7 +8273,7 @@ div.bb_h3,.bb_wysiwyg h3{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .current_player_workshop_title{
-    PADDING-LEFT:6PX!IMPORTANT;
+    PADDING-LEFT:6PX!important;
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .game_area_description_bodylabel{
@@ -8280,8 +8290,8 @@ div.bb_h3,.bb_wysiwyg h3{
     background-image:none!important
 }
 body.v6{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND:#dedede!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND:#dedede!important
 }
 body.v6 h2 a{
     color:VAR(--ACCENT)!important
@@ -8293,33 +8303,33 @@ body.v6 #footer #footer_text a{
     color:VAR(--ACCENT)!important
 }
 #contextselect .context_name{
-    PADDING-RIGHT:13PX!IMPORTANT
+    PADDING-RIGHT:13PX!important
 }
 #contextselect,#contextselect_options_contexts{
     WIDTH:160PX!iMPORTANT
 }
 .help_lowlight_text{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .help_highlight_text{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important
 }
 .help_page_title{
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .community_home_app_shortcuts .community_home_shortcut_content{
-    BORDER:0!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BORDER:0!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 a,.whiteLink{
     color:VAR(--ACCENT)!important
 }
 .commentthread_footer{
-    BORDER-TOP:1PX SOLID #d6d1d1!IMPORTANT
+    BORDER-TOP:1PX SOLID #d6d1d1!important
 }
 .store_nav .tab:hover>span,.store_nav .tab:hover,.store_nav .tab.focus>span,.store_nav .tab.focus{
-    BACKGROUND-COLOR:TRANSPARENT!IMPORTANT;
+    BACKGROUND-COLOR:TRANSPARENT!important;
     color:#000!important
 }
 .sectionTab:hover{
@@ -8328,46 +8338,46 @@ a,.whiteLink{
     color:VAR(--ACCENT)!important
 }
 .blotter_screenshot_title{
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
+    FONT-WEIGHT:500!important;
 }
 .discount_block .discount_pct,.discount_pct{
     border-radius:6!important;
-    BACKGROUND:VAR(--GREEN)!IMPORTANT;
-    COLOR:#FFF!IMPORTANT
+    BACKGROUND:VAR(--GREEN)!important;
+    COLOR:#FFF!important
 }
 .btn_medium>span,input.btn_medium{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
-    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!important;
     background:#d6d6d6!Important
 }
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active){
     border-radius:0!Important;
     border:1px solid #b8b8b8!important;
-    BACKGROUND:#d6d6d6!IMPORTANT;
+    BACKGROUND:#d6d6d6!important;
     color:VAR(--ACCENT)!important
 }
 .eventrow_OtherEvents_TextTitle_2jc1D{
     COLOR:VAR(--ACCENT)!iMPORTANT;
-    FONT-WEIGHT:500!IMPORTANT
+    FONT-WEIGHT:500!important
 }
 .discount_block>.discount_prices{
     BORDER-RADIUS:0!iMPORTANT;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BORDER:0!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BORDER:0!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .carousel_container.spotlight .carousel_items>* .store_capsule{
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     BACKGROUND:VAR(--BASE1)!iMPORTANT
 }
 body.v6 .store_nav .popup_block_new .popup_body,body.v6 #footer_nav .popup_block_new .popup_body{
     border-radius:0 0 10px 10px!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important
 }
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{
-    BORDER-COLOR:#8d8d8d!IMPORTANT;
-    BACKGROUND:#d6d6d6!IMPORTANT;
+    BORDER-COLOR:#8d8d8d!important;
+    BACKGROUND:#d6d6d6!important;
     color:VAR(--ACCENT)!important
 }
 .block.recommendation_reasons .similar_recent_apps_container>a{
@@ -8377,10 +8387,10 @@ body.v6 .store_nav .popup_block_new .popup_body,body.v6 #footer_nav .popup_block
     color:VAR(--ACCENT)!important
 }
 .tag_browse_description{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .shared_game_rating p.descriptorText{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .glance_ctn .release_date .date,.glance_ctn .responsive_reviewdesc{
     COLOR:VAR(--ACCENT)!iMPORTANT
@@ -8389,82 +8399,82 @@ body.v6 .store_nav .popup_block_new .popup_body,body.v6 #footer_nav .popup_block
     BACKGROUND:NONE!iMPORTANT
 }
 .queue_btn_ignore_menu .btn_medium>span{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER:1PX SOLID #b8b8b8!important
 }
 .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_HorizontalDescription_2hPZw{
     COLOR:VAR(--ACCENT)!iMPORTANT;
     FONT-WEIGHT:500!iMPORTANT
 }
 .eventrow_OtherEvents_TextCtn_3-EtN{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND:VAR(--BASE1)!important;
     COLOR:VAR(--ACCENT)!iMPORTANT
 }
 .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS .eventrow_HorizontalTitle_B9-wl{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .supernav_content{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
+    BORDER:1PX SOLID #b8b8b8!important;
     background:VAR(--BASE1)!important
 }
 #language_dropdown{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BORDER:1PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BORDER:1PX SOLID #d6d1d1!important
 }
 #language_dropdown_button:hover,#language_dropdown_button:focus{
-    COLOR:#000!IMPORTANT
+    COLOR:#000!important
 }
 #language_dropdown{
     BACKGROUND-IMAGE:NONE!iMPORTANT
 }
 .sidesection #searchwords{
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT
+    BORDER:1PX SOLID #b8b8b8!important
 }
 .btnv6_grey_black{
     background:#d6d6d6!important;
     color:VAR(--ACCENT)!important;
-    BOX-SHADOW:#d6d1d1!IMPORTANT
+    BOX-SHADOW:#d6d1d1!important
 }
 #iteminfo0 .item_desc_content,#iteminfo1 .item_desc_content{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 .btn_grey_black{
     color:#fff!important;
     border-radius:var(--border0)!important
 }
 input.discussionSearchText{
-    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!IMPORTANT;
-    BORDER:1PX SOLID #b8b8b8!IMPORTANT;
+    BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!important;
+    BORDER:1PX SOLID #b8b8b8!important;
     position:static!important;
     padding:4px!important
 }
 input.discussionSearchText::SELECTION{
-    COLOR:VAR(--ACCENT)!IMPORTANT
+    COLOR:VAR(--ACCENT)!important
 }
 .group_tab.active>span{
     background:VAR(--ACCENT)!important
 }
 .profile_friends.title_bar,.profile_groups.title_bar{
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important;
     background-color:VAR(--BASE1)!Important
 }
 .member_block:hover{
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
-    BORDER-RIGHT:2PX SOLID #d6d1d1!IMPORTANT
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
+    BORDER-RIGHT:2PX SOLID #d6d1d1!important
 }
 .game_hover_box{
     color:VAR(--ACCENT)!important;
-    BACKGROUND-COLOR:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND-COLOR:VAR(--BASE1)!important;
     background:VAR(--BASE1)!important;
     border-radius:0!important;
     border:1px solid #d6d1d1!important
 }
 .game_hover_box p,.game_hover_box{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
+    BACKGROUND:VAR(--BASE1)!important;
     color:VAR(--ACCENT)!important
 }
 .forum_topic_op{
@@ -8492,39 +8502,39 @@ input.discussionSearchText::SELECTION{
 }
 
 .persona.in-game, a.persona.in-game, .persona.in-game.a {
-    COLOR:VAR(--GREEN)!IMPORTANT;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX VAR(--DIVIDER1)!IMPORTANT;
+    COLOR:VAR(--GREEN)!important;
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX VAR(--DIVIDER1)!important;
     BORDER-RADIUS:6PX!iMPORTANT;
 }
 
 .persona.online, a.persona.online, .persona.online a, .friend_status_online, .friend_status_online div, .friend_status_online a {
-    COLOR:VAR(--BLUE)!IMPORTANT;
+    COLOR:VAR(--BLUE)!important;
 }
 
 .tab_item{
     border-radius:6px!Important;
     border:0!important;
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 
 .friends_search_text_box, .groups_search_text_box {
-    COLOR:VAR(--ACCENT)!IMPORTANT;
-    BACKGROUND-COLOR:VAR(--TEXTENTRY)!IMPORTANT;
+    COLOR:VAR(--ACCENT)!important;
+    BACKGROUND-COLOR:VAR(--TEXTENTRY)!important;
     BORDER-RADIUS:VAR (--TEXTENTRYBORDERROUNDED)!iMPORTANT;
-    BORDER:1PX SOLID VAR(--BUTTONBORDER)!IMPORTANT;
+    BORDER:1PX SOLID VAR(--BUTTONBORDER)!important;
 }
 
 #store_nav_area .store_nav_bg,.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg{
     border-radius:6px!important;
-    BORDER:0!IMPORTANT;
+    BORDER:0!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!IMPORTANT
+    BOX-SHADOW:1PX 1PX 2PX #d6d1d1!important
 }
 
 .package_totals_row.highlight, .package_totals_row.highlight .price {
-    color:var(--BLUE)!IMPORTANT;
+    color:var(--BLUE)!important;
 }
 
 
@@ -8534,10 +8544,10 @@ input.discussionSearchText::SELECTION{
 }
 
 .review_box{
-    BACKGROUND:VAR(--BASE1)!IMPORTANT;
-    BORDER-RADIUS:6PX!IMPORTANT;
-    BORDER:0!IMPORTANT;
-    BOX-SHADOW:1PX 1PX 2PX var(--divider1)!IMPORTANT
+    BACKGROUND:VAR(--BASE1)!important;
+    BORDER-RADIUS:6PX!important;
+    BORDER:0!important;
+    BOX-SHADOW:1PX 1PX 2PX var(--divider1)!important
 }
 
 .block .block_header {
