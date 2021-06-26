@@ -610,6 +610,11 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.Stop.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
+  background: var(--CONTEXTMENUINSTALLBUTTONHOVER)!important;
+}
+
+
 .appactivityday_PartnerEventType_1ujzu {
   color: var(--ACCENT) !important;
 }
