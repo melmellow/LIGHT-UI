@@ -4989,6 +4989,17 @@ body.v6 div#global_header .content{
     background-color:var(--TEXTENTRY)!important;
     border:VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER)!important;
 }
+
+.community_home_search_apps:hover{
+    BORDER-COLOR: VAR(--TEXTENTRYBORDERHOVER)!important;
+    background-color:var(--TEXTENTRYBACKGROUNDHOVER)!important;
+}
+
+.community_home_search_apps:focus-within{
+    BORDER-COLOR: VAR(--TEXTENTRYBORDERSELECTED)!important;
+    background-color:var(--TEXTENTRYBACKGROUNDSELECTED)!important;
+}
+
 .community_home_search_players{
     BORDER:var(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER)!important;
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
@@ -4998,6 +5009,11 @@ body.v6 div#global_header .content{
 .community_home_search_players:hover{
     BORDER-COLOR: VAR(--TEXTENTRYBORDERHOVER)!important;
     background-color:var(--TEXTENTRYBACKGROUNDHOVER)!important;
+}
+
+.community_home_search_players:focus-within{
+    BORDER-COLOR: VAR(--TEXTENTRYBORDERSELECTED)!important;
+    background-color:var(--TEXTENTRYBACKGROUNDSELECTED)!important;
 }
 
 .community_home_shortcut_content{
