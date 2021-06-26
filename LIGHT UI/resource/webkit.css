@@ -2757,6 +2757,7 @@ body.v6 .game_page_background{
 }
 #term{
     transition: all 0.18s ease-in-out !important;
+    outline:0!important;
     color:VAR(--ACCENT)!important;
     border:VAR(--TEXTENTRYBORDERWIDTH) solid VAR(--TEXTENTRYBORDER)!important;
     border-radius:VAR(--TEXTENTRYBORDERROUNDED)!important;
@@ -4919,12 +4920,7 @@ body.v6.newonsteam .newonsteam_headercaps>a{
 .page_header_ctn.search{
     background:0 0!important
 }
-#term{
-    OUTLINE:NONE!important;
-    background-color:var(--TEXTENTRY)!important;
-    border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
-    border:1px solid #b8b8b8!important
-}
+
 .searchbar{
     background:var(--BASE2)!important
 }
@@ -4994,8 +4990,8 @@ body.v6 div#global_header .content{
     border:VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER)!important
 }
 .community_home_search_players{
-    border-radius:var(--border2)!important;
-    border:0!important;
+    BORDER:var(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER)!important;
+    border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     background-color:var(--TEXTENTRY)!important
 }
 .community_home_shortcut_content{
@@ -5150,12 +5146,10 @@ input.community_home_search_app_input{
     border-top:1px solid var(--SHADOW)!important
 }
 .community_home_search_title{
+    display:none!important;
     COLOR:VAR(--ACCENT)!important
 }
-.community_home_search_players{
-    BORDER:1PX SOLID #b8b8b8!important;
-    background:var(--TEXTENTRY)!important
-}
+
 input.community_home_search_players_input{
     font-style:normal!important;
     font-size:15px!important;
