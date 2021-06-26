@@ -610,6 +610,11 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.throbber_LoadingWrapper_2wAKy.throbber_noString_1Sy0p {
+  filter:var(--LOADINGFILT)!important;
+  opacity:var(--LOADINGOP)!important;
+}
+
 .Stop.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
   background: var(--CONTEXTMENUINSTALLBUTTONHOVER)!important;
 }
