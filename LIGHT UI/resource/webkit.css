@@ -2756,11 +2756,23 @@ body.v6 .game_page_background{
     background-color:var(--BASE2)!important;
 }
 #term{
+    transition: all 0.18s ease-in-out !important;
     color:VAR(--ACCENT)!important;
     border:VAR(--TEXTENTRYBORDERWIDTH) solid VAR(--TEXTENTRYBORDER)!important;
     border-radius:VAR(--TEXTENTRYBORDERROUNDED)!important;
     background-color:VAR(--TEXTENTRY)!important;
 }
+
+#term:hover {
+    border-color: VAR(--TEXTENTRYBORDERHOVER)!important;
+    background-color:VAR(--TEXTENTRYBACKGROUNDHOVER)!important;
+}
+
+#term:focus-within {
+    border-color: VAR(--TEXTENTRYBORDERSELECTED)!important;
+    background-color:VAR(--TEXTENTRYBACKGROUNDSELECTED)!important;
+}
+
 .search_result_row{
     border-radius:6PX!important;
     border:0!important;
@@ -6455,7 +6467,7 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{
     COLOR:VAR(--ACCENT)!important
 }
 img.game_header_image_full{
-    border-radius:0!important;
+    border-radius:var(--BORDERRADIUS)!important;
     width:324px!important;
     margin-left:-5px!important
 }
