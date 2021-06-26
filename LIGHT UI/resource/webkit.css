@@ -4985,6 +4985,7 @@ body.v6 div#global_header .content{
     background:var(--ACCENT)!important;
 }
 .community_home_search_apps{
+    transition: all 0.18s ease-in-out !important;
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     background-color:var(--TEXTENTRY)!important;
     border:VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER)!important;
@@ -5001,6 +5002,7 @@ body.v6 div#global_header .content{
 }
 
 .community_home_search_players{
+    transition: all 0.18s ease-in-out !important;
     BORDER:var(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER)!important;
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     background-color:var(--TEXTENTRY)!important;
