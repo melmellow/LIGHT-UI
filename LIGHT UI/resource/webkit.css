@@ -15,6 +15,7 @@
     --BLACK:#000;
     --WHITE:#FFF;
     --RECENTGAME:VAR(--BASE1);
+    --USERINFO:VAR(--BASE1);
     --PROGRESSBARBORDERROUNDED:10px;
     --PROGRESSBAR:VAR(--ACCENT);
     --PROGRESSBARBACKGROUND:VAR(--BUTTON2);
@@ -973,7 +974,7 @@ a.linkbar>img{
     padding:0!important;
     width:100%!important;
     height:100%!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--AVATARBORDERRADIUS)!important;
 }
 .grouppage_header_name{
     box-shadow:0 0 2px var(--SHADOW)!important;
@@ -2545,6 +2546,7 @@ select{
     color:VAR(--ACCENT)!important;
 }
 .market_tab_well_tabs{
+    border-radius:var(--BORDERRADIUS)!important;
     background:VAR(--PANEL)!important;
     BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
@@ -2670,10 +2672,16 @@ H2{
 .managefriends_CopyContainer_1HjkZ .managefriends_Link_18Sc0{
     COLOR:VAR(--ACCENT)!important;
 }
-.market_listing_table_header,.market_listing_table_message{
+.market_listing_table_message{
     BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
     background-color:var(--BASE3)!important;
 }
+
+.market_listing_table_header {
+    display:none!important;
+}
+
+
 .searchAppImage{
     opacity:0!important;
 }
@@ -3219,9 +3227,9 @@ a.market_listing_row_link,a.market_listing_row_link:hover,a.market_listing_row_l
     BACKGROUND:VAR(--BASE1)!important;
 }
 #BG_top>.user_info{
-    border-radius:0!important;
+    border-radius:VAR(--BORDERRADIUS)!important;
     border:0!important;
-    background-color:VAR(--BASE1)!important;
+    background-color:VAR(--USERINFO)!important;
     BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .market_tab_well_tab_active>span{
@@ -5526,8 +5534,13 @@ div#headerSearch.friend_activity_header_search{
     border-radius:var(--BORDERRADIUS)!important;
     background:-webkit-linear-gradient(top,rgba(106,106,106,1) 5%,rgba(85,85,85,1) 95%)!important;
     background:linear-gradient(to bottom,rgba(106,106,106,1) 5%,rgba(85,85,85,1) 95%)!important;
-    filter:none!important
+    filter:none!important;
 }
+
+.profile_header .playerAvatar.profile_header_size {
+    BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
+}
+
 .responsive .profile_header .playerAvatar.profile_header_size{
     max-width:40%!important;
     float:left!important;
@@ -5535,23 +5548,23 @@ div#headerSearch.friend_activity_header_search{
     position:relative!important;
     width:166px!important;
     height:166px!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .profile_header_badgeinfo{
-    float:right!important
+    float:right!important;
 }
 .profile_header_badgeinfo_badge_area{
-    width:268px!important
+    width:268px!important;
 }
 .profile_header_badge{
     border:0!important;
     border-radius:var(--BORDERRADIUS)!important;
     background-color:transparent!important;
     height:70px!important;
-    margin-bottom:13px!important
+    margin-bottom:13px!important;
 }
 .profile_header_actions{
-    ACCENT-space:nowrap!important
+    white-space:nowrap!important
 }
 .persona,a.persona,.persona a,.friend_status_offline,.friend_status_offline div,.friend_status_offline a{
     COLOR:VAR(--ACCENT)!important
@@ -5561,42 +5574,42 @@ div#headerSearch.friend_activity_header_search{
     border-radius:25px!important;
     text-align:center!important;
     background:var(--BASE2)!important;
-    border:0!important
+    border:0!important;
 }
 .btn_profile_action.btn_medium:hover{
     margin-right:10px!important;
     border-radius:25px!important;
     text-align:center!important;
-    background:var(--blue)!important;
-    border:0!important
+    background:var(--BLUE)!important;
+    border:0!important;
 }
 .groupadmin_content .rightbox_content_header{
     border-top-left-radius:var(--BORDERRADIUS)!important;
-    border-top-right-radius:var(--BORDERRADIUS)!important
+    border-top-right-radius:var(--BORDERRADIUS)!important;
 }
 .profile_background_current{
     border-radius:var(--BORDERRADIUS)!important;
     border-top:0!important;
     border-right:0!important;
     border-left:0!important;
-    border-bottom:0!important
+    border-bottom:0!important;
 }
 .btn_profile_action>span{
-    background:transparent!important
+    background:transparent!important;
 }
 .showcase_stat .value{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .showcase_stat .label{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .showcase_content_bg{
     BACKGROUND-COLOR:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .friendBlock.persona.offline{
     BACKGROUND-COLOR:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .achievement_progress_bar_ctn .progress_bar{
     BACKGROUND:VAR(--PROGRESSBAR)!important;
@@ -5605,10 +5618,10 @@ div#headerSearch.friend_activity_header_search{
     BORDER:0!important;
     BACKGROUND:NONE!important;
     width:268px!important;
-    float:right!important
+    float:right!important;
 }
 .profile_friend_links.profile_count_link_preview_ctn.responsive_groupfriends_element{
-    margin-bottom:40px!important
+    margin-bottom:40px!important;
 }
 .profile_count_link.ellipsis{
     font-size:14px!important;
@@ -5616,7 +5629,7 @@ div#headerSearch.friend_activity_header_search{
     min-height:29px!important;
     overflow:hidden!important;
     text-overflow:ellipsis!important;
-    ACCENT-space:nowrap!important
+    white-space:nowrap!important;
 }
 .profile_in_common.responsive_hidden{
     margin-bottom:6px!important
@@ -5632,9 +5645,9 @@ div#headerSearch.friend_activity_header_search{
     font-size:11px!important;
     line-height:13px!important;
     overflow:hidden!important;
-    ACCENT-space:nowrap!important;
+    white-space:nowrap!important;
     text-overflow:ellipsis!important;
-    position:relative!important
+    position:relative!important;
 }
 .friendBlock.persona.online{
     color:var(--BLUE)!important;
@@ -5644,9 +5657,9 @@ div#headerSearch.friend_activity_header_search{
     font-size:11px!important;
     line-height:13px!important;
     overflow:hidden!important;
-    ACCENT-space:nowrap!important;
+    white-space:nowrap!important;
     text-overflow:ellipsis!important;
-    position:relative!important
+    position:relative!important;
 }
 .friendBlock.persona.offline{
     color:var(--OFFLINE)!important;
@@ -5656,55 +5669,55 @@ div#headerSearch.friend_activity_header_search{
     font-size:11px!important;
     line-height:13px!important;
     overflow:hidden!important;
-    ACCENT-space:nowrap!important;
+    white-space:nowrap!important;
     text-overflow:ellipsis!important;
-    position:relative!important
+    position:relative!important;
 }
 .workshop_showcase_details_row{
-    background-image:none!important
+    background-image:none!important;
 }
 .profile_header_content{
     COLOR:VAR(--ACCENT)!important;
-    padding-top:0!important
+    padding-top:0!important;
 }
 .workshop_showcase_details_content{
-    background-color:transparent!important
+    background-color:transparent!important;
 }
 #about_header_area{
     background-image:none!important;
-    background:var(--BASE2)!important
+    background:var(--BASE2)!important;
 }
 .currentServers{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .blotter_screenshot_image{
-    background-color:var(--lightblack)!important
+    background-color:var(--lightblack)!important;
 }
 .about_boxes_box_top{
     background:0 0!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .about_boxes_box_bottom{
     background:0 0!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .about_boxes_box_mid{
     background:var(--BASE2)!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .about_install_ctn{
     border-radius:var(--BORDERRADIUS)!important;
     background:var(--ACCENT)!important;
 }
 .help_wizard_button>span{
-    BORDER:0!important
+    BORDER:0!important;
 }
 .about_box_wide{
     border:0!important;
     border-radius:var(--BORDERRADIUS)!important;
     background:var(--BASE2)!important;
     padding:5px 5px 15px 5px!important;
-    margin:0!important
+    margin:0!important;
 }
 .about_box_wide.linux{
     border-radius:var(--BORDERRADIUS)!important;
@@ -5727,7 +5740,7 @@ div#headerSearch.friend_activity_header_search{
 }
 .about_boxes_box_content_ctn{
     padding-bottom:4px!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .help_wizard_button{
     background:var(--BUTTON2)!important;
@@ -6321,11 +6334,22 @@ a.activetrigger,a.trigger{
     background-color:transparent!important
 }
 .profile_comment_area .commentthread_entry_quotebox{
-    border-bottom:0!important;
-    border:1PX SOLID var(--BUTTONBORDER)!important;
+    border:1PX SOLID var(--TEXTENTRYBORDER)!important;
     background-color:var(--TEXTENTRY)!important;
-    border-radius:var(--TEXTENTRYBORDERROUNDED)!important
+    border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
 }
+
+
+.profile_comment_area .commentthread_entry_quotebox:hover{
+    border:1PX SOLID var(--TEXTENTRYBORDERHOVER)!important;
+    background-color:var(--TEXTENTRYBACKGROUNDHOVER)!important;
+}
+
+.profile_comment_area .commentthread_entry_quotebox:FOCUS-WITHIN{
+    border:1PX SOLID var(--TEXTENTRYBORDERSELECTED)!important;
+    background-color:var(--TEXTENTRYBACKGROUNDSELECTED)!important;
+}
+
 .commentthread_entry_quotebox{
     background-color:var(--TEXTENTRY)!important;
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
@@ -7854,8 +7878,20 @@ div#sharedfiles_filterselect_app_filterable div.option:hover{
 .searchApps{
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     background:var(--TEXTENTRY)!important;
-    BORDER:1PX SOLID var(--BUTTONBORDER)!important
+    BORDER:VAR(--TEXTENTRYBORDERWIDTH) SOLID var(--BUTTONBORDER)!important;
 }
+
+.searchApps:hover{
+    background:var(--TEXTENTRYBACKGROUNDHOVER)!important;
+    BORDER:1PX SOLID var(--BUTTONBORDERHOVER)!important;
+}
+
+.searchApps:focus-within{
+    background:var(--TEXTENTRYBACKGROUNDHOVER)!important;
+    BORDER:1PX SOLID var(--BUTTONBORDERSELECTED)!important;
+}
+
+
 .workshopAppsRow{
     border-bottom:0!important;
     background:0 0!important;
