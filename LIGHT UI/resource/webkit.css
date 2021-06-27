@@ -1,5 +1,5 @@
 :root {
-    --ACCOUNTNAMEDISPLAY:NONE;
+  --ACCOUNTNAMEDISPLAY: NONE;
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
   --BASE3: #ececec;
@@ -15,6 +15,11 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
+  --BORDERRADIUS: 4px;
+  --DROPDOWN: VAR(--BUTTON2);
+  --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
+  --DROPDOWNROUNDED: 0;
+  --BIRTHDAYSELECTOR: VAR(--BASE1);
   --RECENTGAME: VAR(--BASE1);
   --USERINFO: VAR(--BASE1);
   --PROGRESSBARBORDERROUNDED: 10px;
@@ -25,7 +30,6 @@
   --SCROLLBARBORDERRADIUS: 0;
   --SCROLLBAR: VAR(--ACCENT);
   --SCROLLBARHOVER: VAR(--BLACK);
-  --BORDERRADIUS: 4px;
   --DIVIDER1: var(--BUTTON2);
   --grey: VAR(--ACCENT);
   --lightgrey: VAR(--ACCENT);
@@ -46,8 +50,12 @@
   --blur: blur(10px);
 }
 
+body.v6 #footer .footer_content {
+  display: none !important;
+}
+
 .youraccount_pageheader {
-    display:var(--ACCOUNTNAMEHEADERDISPLAY)!important;
+  display: var(--ACCOUNTNAMEHEADERDISPLAY) !important;
 }
 
 .store_nav .popup_menu .popup_menu_item {
@@ -1207,11 +1215,11 @@ a.linkbar > img {
   border-radius: 6px !important;
 }
 /* body::-webkit-scrollbar-thumb:window-inactive{
-    background-clip:padding-box!important;
-    -webkit-box-shadow:none!important;
-    background:VAR(--SCROLLBAR)!important;
-    border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
-} */
+      background-clip:padding-box!important;
+      -webkit-box-shadow:none!important;
+      background:VAR(--SCROLLBAR)!important;
+      border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
+  } */
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
@@ -2910,6 +2918,7 @@ H2 {
   color: VAR(--ACCENT) !important;
 }
 .discussions_forumlist_header {
+  display: none !important;
   color: VAR(--ACCENT) !important;
 }
 .forum_list_ctn .forum_list_right {
@@ -3242,17 +3251,17 @@ a.pulldown_desktop {
 }
 .agegate_birthday_selector {
   border: 0 !important;
-  border-radius: 6px !important;
-  background: VAR(--BASE1) !important;
+  border-radius: var(--BORDERRADIUS) !important;
+  background: VAR(--BIRTHDAYSELECTOR) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 #app_agegate select {
-  border-bottom: 1px SOLID var(--BUTTONBORDER) !important;
+  border-bottom: 1px SOLID var(--DROPDOWNBOTTOMBORDER) !important;
   outline: 0 !important;
   padding-bottom: 0px !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--DROPDOWNROUNDED) !important;
   color: VAR(--ACCENT) !important;
-  background-color: var(--BUTTON2) !important;
+  background-color: var(--DROPDOWN) !important;
 }
 .game_review_summary.positive {
   color: #1181d2 !important;
@@ -3939,6 +3948,7 @@ body.v6 h2 {
   color: VAR(--ACCENT) !important;
 }
 .agegate_content_descriptors_notes {
+  display: none !important;
   font-weight: BOLD !important;
   color: VAR(--ACCENT) !important;
 }
@@ -5790,6 +5800,7 @@ a.recent_game_discussion.quasi_official_group:hover {
   color: VAR(--ACCENT) !important;
 }
 .discussion_tab_content_area h2.discussion_primary_header {
+  display: NONE !important;
   font-size: 40px !important;
 }
 .discussion_tab_content_area h2 {
