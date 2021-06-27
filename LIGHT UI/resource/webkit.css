@@ -53,6 +53,14 @@
   --blur: blur(10px);
 }
 
+.index_UsePointsIconContainer_2CP5z {
+  display: none !important;
+}
+
+.page_ParallaxBackground_1vgF7 {
+  background-image: unset !important;
+}
+
 body.profile_page #footer {
   display: none !important;
 }
@@ -531,8 +539,9 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 .index_AwardBadgeContainer_2SDnX {
-  background-color: VAR(--BASE1) !important;
-  box-shadow: 0 0 2px var(--SHADOW) !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
+  background-color: VAR(--PANEL) !important;
+  box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 .index_ConvertionSectionTextContainer_xaO4v .index_PointsConvertion_5F9Az span {
   color: var(--BLACK) !important;
@@ -589,6 +598,7 @@ div.filterselect_options div.option {
   border-top: 1px solid var(--SHADOW) !important;
 }
 .loyaltyprimarynav_NavItem_BVtL0 {
+  display: none !important;
   color: var(--BLACK) !important;
   font-weight: bold !important;
 }
