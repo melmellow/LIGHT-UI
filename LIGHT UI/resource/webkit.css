@@ -17,6 +17,12 @@
   --WHITE: #fff;
   --BORDERRADIUS: 4px;
   --GROUPIMAGEBORDERRADIUS: 50px;
+  --APPHUBINFOHEADER:VAR(--BASE1);
+  --PROFILEXPBACKGROUND: VAR(--BASE1);
+  --REVIEWBOX: VAR(--BASE3);
+  --FRIENDREVIEW: VAR(--BASE1);
+  --REVIEWHISTOGRAM: VAR(--BASE1);
+  --STORENAVBAR: VAR(--BASE1);
   --DROPDOWN: VAR(--BUTTON2);
   --DROPDOWNHOVER: VAR(--DROPDOWN);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
@@ -51,6 +57,14 @@
   --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --blur: blur(10px);
+}
+
+.apphub_AllContentText {
+  display: none !important;
+}
+
+.profile_xp_block_right {
+  display: NONE !important;
 }
 
 .index_UsePointsIconContainer_2CP5z {
@@ -1018,8 +1032,7 @@ div.filterselect #filterselect_arrow {
   filter: BRIGHTNESS(50%) !important;
 }
 .apphub_HubDivider {
-  filter: BRIGHTNESS(0) !important;
-  opacity: 0.1 !important;
+  background-image: unset !important;
 }
 .curator_cluster_expanded.carousel_container .curator_page .socialmedia img {
   filter: BRIGHTNESS(50%) !important;
@@ -1246,11 +1259,11 @@ a.linkbar > img {
   border-radius: 6px !important;
 }
 /* body::-webkit-scrollbar-thumb:window-inactive{
-              background-clip:padding-box!important;
-              -webkit-box-shadow:none!important;
-              background:VAR(--SCROLLBAR)!important;
-              border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
-          } */
+            background-clip:padding-box!important;
+            -webkit-box-shadow:none!important;
+            background:VAR(--SCROLLBAR)!important;
+            border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
+        } */
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
@@ -3722,6 +3735,7 @@ a.persona.in-game,
   color: VAR(--ACCENT) !important;
 }
 .breadcrumbs {
+  display: none !important;
   color: VAR(--ACCENT) !important;
 }
 .game_language_options td {
@@ -3941,7 +3955,7 @@ blockquote.bb_blockquote,
   display: flex !important;
 }
 #review_histograms_container {
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--REVIEWHISTOGRAM) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 .user_reviews_filter_menu .title {
@@ -3996,7 +4010,7 @@ body.v6 h2 {
   font-weight: VAR(--ACCENT) !important;
   border: 0 !important;
   border-radius: var(--BORDERRADIUS) !important;
-  background: VAR(--BASE1) !important;
+  background: VAR(--PANEL) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 .user_reviews_sub_header {
@@ -4667,7 +4681,7 @@ div#global_header .submenuitem {
 }
 #store_nav_area .store_nav_bg,
 .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
-  background: VAR(--BASE1) !important;
+  background: VAR(--STORENAVBAR) !important;
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px solid var(--SHADOW) !important;
 }
@@ -6408,7 +6422,7 @@ a.games_list_tab.first_tab {
 }
 .friend_reviews .review_box {
   border: 0 !important;
-  background: VAR(--BASE1) !important;
+  background: VAR(--FRIENDREVIEW) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 .review_box.short {
@@ -6570,8 +6584,9 @@ body.v6 h2 .header_inline {
 }
 .apphub_StoreInfoHeader {
   border-top: 0 !important;
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--APPHUBINFOHEADER) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 .ds_flag {
   color: var(--WHITE) !important;
@@ -7215,7 +7230,7 @@ a.games_list_tab {
 .review_box a.vote_header {
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
   border: 0 !important;
-  background: var(--BASE3) !important;
+  background: var(--REVIEWBOX) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .review_box {
@@ -7539,10 +7554,6 @@ h2 span.note:hover {
   border: 0 !important;
   background-color: var(--BLUE) !important;
   border-radius: var(--BORDERRADIUS) !important;
-}
-#review_histograms_container {
-  border-top-left-radius: var(--BORDERRADIUS) !important;
-  border-top-right-radius: var(--BORDERRADIUS) !important;
 }
 .review_histogram_section .user_reviews_summary_bar {
   border-bottom: 10px !important;
@@ -8399,7 +8410,6 @@ a.games_list_tab.first_tab {
   background-color: NONE !important;
 }
 .badge_row_inner {
-  background-color: VAR(--BASE1) !important;
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
   border: 0 !important;
@@ -8436,14 +8446,14 @@ a.games_list_tab.first_tab {
 }
 .profile_xp_block {
   border: 0 !important;
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--PROFILEXPBACKGROUND) !important;
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 .profile_xp_block_remaining_bar_progress {
-  background: var(--BUTTON2) !important;
-  background-color: VAR(--ACCENT) !important;
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
+  background: var(--PROGRESSBARBACKGROUND) !important;
+  background-color: VAR(--PROGRESSBAR) !important;
+  border-radius: var(--PROGRESSBARBORDERROUNDED) !important;
   background-image: none !important;
 }
 .profile_xp_block_remaining_bar {
@@ -9317,14 +9327,6 @@ a.persona.online,
 .groups_search_text_box:focus-within {
   background-color: VAR(--TEXTENTRYBACKGROUNDSELECTED) !important;
   border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
-}
-
-#store_nav_area .store_nav_bg,
-.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
-  border-radius: 6px !important;
-  border: 0 !important;
-  background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 
 .package_totals_row.highlight,
