@@ -18,6 +18,8 @@
   --BORDERRADIUS: 4px;
   --GROUPIMAGEBORDERRADIUS: 50px;
   --DROPDOWN: VAR(--BUTTON2);
+  --DROPDOWNHOVER: VAR(--DROPDOWN);
+  --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
   --DROPDOWNROUNDED: 0;
   --BIRTHDAYSELECTOR: VAR(--BASE1);
@@ -1226,11 +1228,11 @@ a.linkbar > img {
   border-radius: 6px !important;
 }
 /* body::-webkit-scrollbar-thumb:window-inactive{
-          background-clip:padding-box!important;
-          -webkit-box-shadow:none!important;
-          background:VAR(--SCROLLBAR)!important;
-          border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
-      } */
+              background-clip:padding-box!important;
+              -webkit-box-shadow:none!important;
+              background:VAR(--SCROLLBAR)!important;
+              border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
+          } */
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
@@ -6606,11 +6608,18 @@ body.v6 h2 .header_inline {
   border: 1px SOLID var(--SHADOW) !important;
 }
 .pullup_item {
-  border-bottom: 1px SOLID var(--BUTTONBORDER) !important;
-  border-radius: 6px !important;
-  background-color: var(--BUTTON2) !important;
+  border-bottom: 1px SOLID var(--DROPDOWNBOTTOMBORDER) !important;
+  border-radius: VAR(--DROPDOWNROUNDED) !important;
+  background-color: var(--DROPDOWN) !important;
   color: VAR(--ACCENT) !important;
 }
+
+.pullup_item:hover {
+  border-bottom: 1px SOLID var(--DROPDOWNBORDERHOVER) !important;
+  background-color: var(--DROPDOWNHOVER) !important;
+  color: VAR(--ACCENT) !important;
+}
+
 .game_language_options tr {
   border-bottom: 1px solid var(--BUTTON2) !important;
 }
@@ -9373,7 +9382,8 @@ a.persona,
 
 .group_block {
   transition: all 0.18s ease-in-out !important;
-  border-radius: 6px !important;
+  background: var(--PANEL) !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 
