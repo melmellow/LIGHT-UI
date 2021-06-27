@@ -873,6 +873,7 @@ body.clientNews .post_pmbutton {
   opacity: 60% !important;
 }
 .apphub_CardContentPlayVideoIcon {
+  transform: SCALE(0.08) !important;
   filter: BRIGHTNESS(2) !important;
 }
 .recommended_creators_ctn
@@ -2541,6 +2542,7 @@ label.send_choice_txt {
   background-color: VAR(--ACCENT) !important;
 }
 .help_intro_text {
+  display: none !important;
   color: VAR(--ACCENT) !important;
 }
 .profile_count_link a .count_link_label {
@@ -5015,7 +5017,7 @@ img.member_tile {
 .community_home_app_shortcuts .community_home_shortcut_content {
   border: 1px SOLID var(--BUTTONBORDER) !important;
   background-color: VAR(--BASE1) !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 .apphub_CardContentType {
   border-radius: var(--BORDERRADIUS) !important;
@@ -6258,8 +6260,19 @@ a.persona,
   color: VAR(--ACCENT) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
   background: var(--TEXTENTRY) !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  border: var(--TEXTENTRYBORDERWIDTH) solid var(--BUTTONBORDER) !important;
 }
+
+#help_search_support_input:hover {
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
+  background-color: var(--TEXTENTRYBACKGROUNDHOVER) !important;
+}
+
+#help_search_support_input:focus-within {
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
+  background-color: var(--TEXTENTRYBACKGROUNDSELECTED) !important;
+}
+
 .help_purchase_detail_box {
   color: VAR(--ACCENT) !important;
   background-color: VAR(--BASE1) !important;
@@ -8469,12 +8482,12 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {
 
 .searchApps:hover {
   background: var(--TEXTENTRYBACKGROUNDHOVER) !important;
-  border: 1px SOLID var(--BUTTONBORDERHOVER) !important;
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
 }
 
 .searchApps:focus-within {
   background: var(--TEXTENTRYBACKGROUNDHOVER) !important;
-  border: 1px SOLID var(--BUTTONBORDERSELECTED) !important;
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
 }
 
 .workshopAppsRow {
