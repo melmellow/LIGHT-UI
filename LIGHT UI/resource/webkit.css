@@ -14,6 +14,10 @@
     --trans:transparent;
     --BLACK:#000;
     --WHITE:#FFF;
+    --MARKETLISTING:VAR(--BASE1);
+    --SCROLLBARBORDERRADIUS:0;
+    --SCROLLBAR:VAR(--ACCENT);
+    --SCROLLBARHOVER:VAR(--BLACK);
     --BORDERRADIUS:4px;
     --DIVIDER1:var(--BUTTON2);
     --grey:VAR(--ACCENT);
@@ -1017,20 +1021,24 @@ a.linkbar>img{
     background:VAR(--BASE1)!important;
     border-radius:6px!important;
 }
-body::-webkit-scrollbar-thumb:window-inactive{
+/* body::-webkit-scrollbar-thumb:window-inactive{
     background-clip:padding-box!important;
     -webkit-box-shadow:none!important;
-    background:VAR(--ACCENT)!important;
-    border-radius:0!important
-}
+    background:VAR(--SCROLLBAR)!important;
+    border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
+} */
 body::-webkit-scrollbar-thumb{
     background-clip:padding-box!important;
     -webkit-box-shadow:none!important;
-    background-color:VAR(--ACCENT)!important;
-    border:5px SOLID VAR(--ACCENT)!important;
-    border-radius:0!important;
-    width:100%!important
+    background-color:VAR(--SCROLLBAR)!important;
+    border-radius:VAR(--SCROLLBARBORDERRADIUS)!important;
+    width:100%!important;
 }
+
+body::-webkit-scrollbar-thumb:hover{
+    background:VAR(--SCROLLBARHOVER)!important;
+}
+
 body::-webkit-scrollbar-track{
     -webkit-box-shadow:none!important;
 }
@@ -3181,289 +3189,289 @@ p.sectionText{
 }
 .market_listing_row{
     border:0!important;
-    border-radius:0!important;
-    background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    border-radius:VAR(--BORDERRADIUS)!important;
+    background-color:VAR(--MARKETLISTING)!important;
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .market_listing_row:hover{
     border-right:2px solid var(--SHADOW)!important
 }
 a.market_listing_row_link,a.market_listing_row_link:hover,a.market_listing_row_link:active,a.market_listing_row_link:visited{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .my_market_header_count{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .my_market_header_active{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .market_title_text{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .market_header_logo{
     background-image:none!important;
-    background-color:var(--BASE2)!important
+    background-color:var(--BASE2)!important;
 }
 #BG_top{
-    BACKGROUND:VAR(--BASE1)!important
+    BACKGROUND:VAR(--BASE1)!important;
 }
 #BG_top>.user_info{
     border-radius:0!important;
     border:0!important;
     background-color:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .market_tab_well_tab_active>span{
     background:VAR(--ACCENT)!important;
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .market_subtitle_text{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .market_header_bg{
-    background-color:var(--BASE2)!important
+    background-color:var(--BASE2)!important;
 }
 .profile_badges_header_title{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 #ScreenshotManagementToggle{
-    background:NONE!important
+    background:NONE!important;
 }
 .imgWall_BackToTop:hover .imgWall_BackToTopButton{
-    background:var(--BASE2)!important
+    background:var(--BASE2)!important;
 }
 .imgWall_BackToTop .imgWall_BackToTopButton{
-    background:var(--BASE2)!important
+    background:var(--BASE2)!important;
 }
 .favoritesRadioText{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .ScreenshotManagementLabel{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .friends_nav h4{
     BACKGROUND:NONE!important;
     color:VAR(--ACCENT)!important;
-    font-weight:bold!important
+    font-weight:bold!important;
 }
 .count{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .friends_search_text_box,.groups_search_text_box{
     background-color:var(--BUTTON2)!important;
-    border:1px solid #b6b6b6!important
+    border:1px solid #b6b6b6!important;
 }
 .playerAvatar.profile_header_size.in-game{
-    background:VAR(--GREEN)!important
+    background:VAR(--GREEN)!important;
 }
 .persona.in-game,a.persona.in-game,.persona.in-game a,.friend_status_in-game,.friend_status_in-game div,.friend_status_in-game a{
-    colorVAR(--GREEN)!important
+    color:VAR(--GREEN)!important;
 }
 .profile_friends .state_block{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .help_game_refund_box{
     background-color:VAR(--BASE1)!important;
     color:VAR(--ACCENT)!important;
-    box-shadow:1px 1px 2px var(--SHADOW)!important
+    box-shadow:1px 1px 2px var(--SHADOW)!important;
 }
 .review_box .num_reviews a,.review_box .num_owned_games a{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .review_box .persona_name a,.persona_name a{
     color:VAR(--ACCENT)!important;
-    box-shadow:1px 1px 2px var(--SHADOW)!important
+    box-shadow:1px 1px 2px var(--SHADOW)!important;
 }
 .subSectionTitle{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .guideTopDescription{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .workshopItemTitle{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .help_official_box{
-    background:VAR(--BASE1)!important
+    background:VAR(--BASE1)!important;
 }
 .guideAuthors{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .help_game_request_refund_button{
     background-color:VAR(--ACCENT)!important;
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .help_game_guides_box .guide a:hover{
-    background:var(--BUTTON2)!important
+    background:var(--BUTTON2)!important;
 }
 .sysreq_tab:hover,.discselect_tab:hover{
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .all_languages:hover{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .partnereventwebrowembed_SectionButton_3n8sw{
     border:none!important;
-    background:VAR(--ACCENT)!important
+    background:VAR(--ACCENT)!important;
 }
 .breadcrumbs a{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .breadcrumbs{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .game_language_options td{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .help_issue_details,.help_notinlibrary_details,.help_missingrefund_details,.help_cannot_launch_game_details,.help_cannot_install_game_details,.help_before_contacting_steam_support_details{
     BACKGROUND-COLOR:VAR(--BASE1)!important;
     COLOR:VAR(--ACCENT)!important;
-    box-shadow:1px 1px 2px var(--SHADOW)!important
+    box-shadow:1px 1px 2px var(--SHADOW)!important;
 }
 .block a.linkbar{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .btn_green_steamui{
-    text-shadow:none!important
+    text-shadow:none!important;
 }
 h2 span.note a,h2 span.note a:hover,h2 span.note a:visited{
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 h2 span.note a,h2 span.note a,h2 span.note a:visited{
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .game_area_dlc_row.even,.game_area_dlc_row.odd{
     background-color:VAR(--ACCENT)!important;
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{
     background:VAR(--GREEN)!important;
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .btn_green_steamui>span{
     BORDER-RADIUS:0!important;
     background:#78be6d!important;
     color:VAR(--ACCENT)!important;
-    border:1px solid var(--BUTTONBORDER)!important
+    border:1px solid var(--BUTTONBORDER)!important;
 }
 #game_highlights a{
     background:NONE!important;
     PADDING-TOP:3PX!important;
     PADDING-LEFT:3PX!important;
     PADDING-RIGHT:3PX!important;
-    PADDING-BOTTOM:3PX!important
+    PADDING-BOTTOM:3PX!important;
 }
 .slider_ctn.store_autoslider .handle{
-    border-radius:0!important
+    border-radius:0!important;
 }
 .slider_ctn.store_autoslider .handle:hover{
-    background-color:VAR(--ACCENT)!important
+    background-color:VAR(--ACCENT)!important;
 }
 .sysreq_tab.active,.discselect_tab.active{
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .sysreq_tab,.discselect_tab{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .slider_ctn .slider_left,.slider_ctn .slider_right{
     cursor:normal!important;
     opacity:0!important;
-    background-color:VAR(--ACCENT)!important
+    background-color:VAR(--ACCENT)!important;
 }
 .tab_preview.focus{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .home_marketing_message,.home_marketing_message{
-    background:VAR(--BASE1)!important
+    background:VAR(--BASE1)!important;
 }
 .tab_preview{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .store_main_capsule,.store_main_capsule:focus{
-    background-color:var(--BASE2)!important
+    background-color:var(--BASE2)!important;
 }
 .tab_controls,.tab_see_more{
-    background:none!important
+    background:none!important;
 }
 a.gutter_item{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .tab_filter_control.checked,.tab_filter_control_row.checked{
-    background:VAR(--ACCENT)!important
+    background:VAR(--ACCENT)!important;
 }
 .discount_block .discount_original_price:HOVER{
-    COLOR:var(--WHITE)!important
+    COLOR:var(--WHITE)!important;
 }
 .discount_block .discount_original_price{
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .tab_item_name{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .tab_item_name:hover{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .spotlight_block .spotlight_content>h2,.spotlight_body{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .btn_profile_action{
     background-color:VAR(--ACCENT)!important;
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .blotter_group_announcement_header{
-    background:VAR(--BASE1)!important
+    background:VAR(--BASE1)!important;
 }
 .community_home_header .appHubShortcut,.community_home_header .appHubShortcut a,.community_home_header .appHubShortcut a:visited{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .recently_updated .store_capsule .recently_updated_announcement_link{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .store_header_btn_gray a{
     BACKGROUND:VAR(--BASE1)!important;
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 h1{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 body.v6 .deep_dive_key_tags{
-    border-top:1px solid var(--SHADOW)!important
+    border-top:1px solid var(--SHADOW)!important;
 }
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active){
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .blotter_appselect_activeoption{
-    color:var(--WHITE)!important
+    color:var(--WHITE)!important;
 }
 .friend_activity_header h1{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .user_reviews_steam_labs_desc>a>span{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .home_content.single .review_text{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .tab_preview .tags>a{
-    background-color:var(--BLACK)!important
+    background-color:var(--BLACK)!important;
 }
 .details_block{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 #game_area_metascore .metacritic{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .details_block a{
     color:VAR(--ACCENT)!important;
-    font-weight:450!important
+    font-weight:450!important;
 }
 .home_tab .tab_content{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .tab_filter_control,.tab_filter_control_row{
     color:VAR(--ACCENT)!important;
-    font-weight:bold
+    font-weight:bold!important;
 }
 .gutter_header{
     color:VAR(--ACCENT)!important;
@@ -5405,8 +5413,19 @@ div#headerSearch.friend_activity_header_search{
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     color:VAR(--ACCENT)!important;
     background-color:var(--TEXTENTRY)!important;
-    border:1px solid var(--BUTTONBORDER)!important
+    border:var(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER)!important
 }
+
+#findItemsSearchBox:hover{
+    background-color:var(--TEXTENTRYBACKGROUNDHOVER)!important;
+    border-color: var(--TEXTENTRYBORDERHOVER)!important;
+}
+
+#findItemsSearchBox:focus-within{
+    background-color:var(--TEXTENTRYBACKGROUNDSELECTED)!important;
+    border-color: var(--TEXTENTRYBORDERSELECTED)!important;
+}
+
 .blotter_daily_rollup{
     background-color:var(--BASE1)!important
 }
