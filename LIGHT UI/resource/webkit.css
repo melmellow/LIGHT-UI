@@ -1,5 +1,5 @@
 :root {
-  --ACCOUNTNAMEDISPLAY: NONE;
+  --ACCOUNTNAMEHEADERDISPLAY: NONE;
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
   --BASE3: #ececec;
@@ -16,6 +16,7 @@
   --BLACK: #000;
   --WHITE: #fff;
   --BORDERRADIUS: 4px;
+  --GROUPIMAGEBORDERRADIUS: 50px;
   --DROPDOWN: VAR(--BUTTON2);
   --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
   --DROPDOWNROUNDED: 0;
@@ -50,11 +51,20 @@
   --blur: blur(10px);
 }
 
+.profile_friends.title,
+.profile_groups.title {
+  display: NONE !important;
+}
+
+#status {
+  color: var(--ACCENT) !important;
+}
+
 body.v6 #footer .footer_content {
   display: none !important;
 }
 
-.youraccount_pageheader {
+body.v6 h2.pageheader.youraccount_pageheader {
   display: var(--ACCOUNTNAMEHEADERDISPLAY) !important;
 }
 
@@ -6255,6 +6265,7 @@ a.persona,
   background-color: var(--SHADOW) !important;
 }
 #help_search_support_input {
+  transition: all 0.18s ease-in-out !important;
   outline: NONE !important;
   font-style: normal !important;
   color: VAR(--ACCENT) !important;
@@ -6342,7 +6353,6 @@ a.games_list_tab.first_tab {
 }
 .friends_search_text_box,
 .groups_search_text_box {
-  background-color: var(--grey) !important;
   border-radius: var(--BORDERRADIUS) !important;
   border: 0 !important;
 }
@@ -6431,7 +6441,7 @@ input.btn_small_thin {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .group_block_medium img {
-  border-radius: 0 !important;
+  border-radius: var(--GROUPIMAGEBORDERRADIUS) !important;
 }
 .profile_group_avatar img {
   border-radius: var(--BORDERRADIUS) !important;
@@ -9183,8 +9193,7 @@ input.discussionSearchText::selection {
 }
 .profile_friends.title_bar,
 .profile_groups.title_bar {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
-  background-color: VAR(--BASE1) !important;
+  background-color: transparent !important;
 }
 .member_block:hover {
   background-color: VAR(--BASE1) !important;
@@ -9208,8 +9217,19 @@ input.discussionSearchText::selection {
 .app_tag_form_ctn .gray_bevel.for_text_input {
   background-color: VAR(--TEXTENTRY) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--BUTTONBORDER) !important;
 }
+
+.app_tag_form_ctn .gray_bevel.for_text_input:hover {
+  background-color: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.app_tag_form_ctn .gray_bevel.for_text_input:focus-within {
+  background-color: VAR(--TEXTENTRYBACKGROUNDSELECTED) !important;
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
+}
+
 #ig_bottom .sidebar .panel,
 #ig_bottom .sidebar .detailPanel {
   background: VAR(--BASE1) !important;
@@ -9254,10 +9274,23 @@ a.persona.online,
 
 .friends_search_text_box,
 .groups_search_text_box {
+  transition: all 0.18s ease-in-out !important;
   color: VAR(--ACCENT) !important;
   background-color: VAR(--TEXTENTRY) !important;
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
-  border: 1px SOLID VAR(--BUTTONBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
+}
+
+.friends_search_text_box,
+.groups_search_text_box:hover {
+  background-color: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
+  border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.friends_search_text_box,
+.groups_search_text_box:focus-within {
+  background-color: VAR(--TEXTENTRYBACKGROUNDSELECTED) !important;
+  border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
 }
 
 #store_nav_area .store_nav_bg,
@@ -9344,4 +9377,8 @@ a.persona,
 
 .group_block {
   border-radius: 6px !important;
+}
+
+.group_block:hover {
+  background:var(--PANEL3) !important;
 }
