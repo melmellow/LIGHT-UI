@@ -53,6 +53,10 @@
   --blur: blur(10px);
 }
 
+body.profile_page #footer {
+  display: none !important;
+}
+
 .profile_friends.title,
 .profile_groups.title {
   display: NONE !important;
@@ -60,6 +64,10 @@
 
 #status {
   color: var(--ACCENT) !important;
+}
+
+body.v6 h2.pageheader {
+  display: VAR(--ACCOUNTNAMEHEADERDISPLAY) !important;
 }
 
 body.v6 #footer .footer_content {
@@ -2730,10 +2738,13 @@ a {
   box-shadow: 1px 1px 2px var(--SHADOW) !important;
 }
 .explore_rightcol_count {
+  font-family: segoe ui !important;
+  font-size: 34px !important;
+  font-weight: 400 !important;
   color: VAR(--ACCENT) !important;
 }
 .faq_question {
-  font-weight: bold !important;
+  font-weight: 400 !important;
   color: VAR(--ACCENT) !important;
 }
 .early_access_review {
