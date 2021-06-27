@@ -4463,26 +4463,26 @@ div.store_header_btn{
     border-radius:0!important;
     background-image:none!important;
     background:var(--BUTTON2)!important;
-    border:1px solid var(--BUTTONBORDER)
+    border:1px solid var(--BUTTONBORDER)!important;
 }
 .big_button:hover{
     color:VAR(--ACCENT)!important;
     border-radius:0!important;
     background:var(--BUTTON2)!important;
-    border-color:#8d8d8d!important
+    border-color:#8d8d8d!important;
 }
 .carousel_items.curator_featured_tags{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .curator_page.focus{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .ds_options:hover>div{
-    background-color:VAR(--ACCENT)!important
+    background-color:VAR(--ACCENT)!important;
 }
 .curator_page .actions{
     BACKGROUND:NONE!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 a.follow_button.btn_green_white_innerfade.btn_medium{
     color:var(--green)!important;
@@ -4491,86 +4491,86 @@ a.follow_button.btn_green_white_innerfade.btn_medium{
 a.following_button.btn_green_white_innerfade.btn_medium{
     text-decoration:none!important;
     color:var(--green)!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .home_rightcol{
     BACKGROUND:TRANSPARENT!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .tab_item{
     transition:border-width .3s ease-in-out!important;
     margin:5px!important;
-    border-radius:0!important
+    border-radius:0!important;
 }
 img.tab_item_cap_img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .tab_review_summary{
     border:0!important;
     BACKGROUND-COLOR:VAR(--BASE1)!important;
-    border-radius:0!important
+    border-radius:0!important;
 }
 .tab_preview .screenshot{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .tab_preview{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .carousel_items.store_capsule_container{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .screenshot_container{
-    display:none!important
+    display:none!important;
 }
 .newsPostBlock .headline .date{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .share{
     color:VAR(--ACCENT)!important;
     background:VAR(--BASE1)!important;
     box-shadow:1px 1px 2px var(--SHADOW)!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .newshr{
-    background-image:none!important
+    background-image:none!important;
 }
 img.member_tile{
     border-radius:var(--BORDERRADIUS)!important;
-    padding:10px!important
+    padding:10px!important;
 }
 .apphub_Card.interactable{
     border-radius:var(--BORDERRADIUS)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .apphub_Card.interactable:hover{
-    border:1px solid transparent!important
+    border:1px solid transparent!important;
 }
 .apphub_Card.interactable:hover .apphub_CardContentAuthorBlock{
-    background-color:transparent!important
+    background-color:transparent!important;
 }
 .apphub_CardContentAuthorBlock{
-    border-top:0!important
+    border-top:0!important;
 }
 .appHubNewsIconHolder{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .community_home_app_shortcuts_list_header{
     COLOR:VAR(--ACCENT)!important;
-    FONT-WEIGHT:BOLD!important
+    FONT-WEIGHT:BOLD!important;
 }
 .community_home_search_box{
     BORDER:1PX SOLID #b6b6b6!important;
     BACKGROUND-COLOR:var(--BUTTON2)!important;
     border:0!important;
     border-radius:0!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .community_home_shortcut_content{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .community_home_app_shortcuts{
     border:0!important;
-    border-radius:10PX!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .community_home_app_shortcuts .community_home_shortcut_content{
     BORDER:1PX SOLID var(--BUTTONBORDER)!important;
@@ -6064,221 +6064,221 @@ body.v6 h2 .header_inline{
 }
 
 .gameListRowLogo img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .apphub_AllContentText{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .gray_bevel.for_text_input{
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     background-color:var(--TEXTENTRY)!important;
-    border:0!important
+    border:0!important;
 }
 .popup_block2 .popup_body2{
     border-radius:0!important;
     BACKGROUND:VAR(--BASE1)!important;
-    BORDER:1PX SOLID var(--SHADOW)!important
+    BORDER:1PX SOLID var(--SHADOW)!important;
 }
 .pullup_item{
     BORDER-BOTTOM:1PX SOLID var(--BUTTONBORDER)!important;
     border-radius:6px!important;
     BACKGROUND-COLOR:var(--BUTTON2)!important;
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .game_language_options tr{
-    border-bottom:1px solid var(--BUTTON2)!important
+    border-bottom:1px solid var(--BUTTON2)!important;
 }
 #footerLogo{
     OPACITY:60%!important;
-    FILTER:BRIGHTNESS(0)!important
+    FILTER:BRIGHTNESS(0)!important;
 }
 .game_language_options th{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .sort_options{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .popup_body2 h5{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .range_input{
-    BACKGROUND-COLOR:TRANSPARENT!important
+    BACKGROUND-COLOR:TRANSPARENT!important;
 }
 input.searchAppsInput{
-    FONT-STYLE:NORMAL!important
+    FONT-STYLE:NORMAL!important;
 }
 .shadow_content{
     border-radius:var(--BORDERRADIUS)!important;
-    margin:0!important
+    margin:0!important;
 }
 .popup_menu2 a.popup_menu_item2{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .filter_section{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .wishlist .controls div{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .dropdown_container{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .dropdown_container .item{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .wishlist_header img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 body.v6 .wishlist_header h2{
-    margin-top:2px!important
+    margin-top:2px!important;
 }
 #wishlist_search{
     border:1px solid #b6b6b6!important;
     color:VAR(--ACCENT)!important;
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     background-color:var(--BUTTON2)!important;
-    border:0!important
+    border:0!important;
 }
 #wishlist_search:hover{
-    border:0!important
+    border:0!important;
 }
 .hero_stat .label{
-    COLOR:var(--WHITE)!important
+    COLOR:var(--WHITE)!important;
 }
 a.communitylink_achievement.communitylink_achivement_plusmore:hover{
-    background:var(--BLACK)!important
+    background:var(--BLACK)!important;
 }
 .block .block_title{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 body.v6 .newonsteam_capsules>a{
-    BACKGROUND:VAR(--BASE1)!important
+    BACKGROUND:VAR(--BASE1)!important;
 }
 .wishlist_row{
     color:VAR(--ACCENT)!important;
     border-radius:var(--BORDERRADIUS)!important;
-    background-color:var(--BUTTON2)!important
+    background-color:var(--BUTTON2)!important;
 }
 .wishlist_row .tag{
     color:var(--WHITE)!important;
     border-radius:var(--BORDERRADIUS)!important;
-    background:#797979!important
+    background:#797979!important;
 }
 .wishlist_row .capsule img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .wishlist_row .purchase_area{
     border-radius:var(--BORDERRADIUS)!important;
-    background-color:rgba(0,0,0,0)!important
+    background-color:rgba(0,0,0,0)!important;
 }
 .discount_block{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .steamawards_app_banner_ctn{
     border:1px solid var(--BASE2)!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .discount_block.no_discount .discount_prices{
     border-radius:var(--BORDERRADIUS)!important;
-    background:0 0!important
+    background:0 0!important;
 }
 .discount_block_large .discount_prices{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .discount_block .discount_prices{
     BORDER:1PX SOLID #b6b6b6!important;
-    background:var(--BUTTON2)!important!important;
+    background:var(--BUTTON2)!important;
     border-radius:10PX!important;
-    vertical-align:0!important
+    vertical-align:0!important;
 }
 .btn_medium>span,input.btn_medium{
     padding:0 15px!important;
-    line-height:var(--TEXTENTRYBORDERROUNDED)!important
+    line-height:var(--TEXTENTRYBORDERROUNDED)!important;
 }
 #rightContents .box{
     border-radius:0!important;
     background:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .cart_tab_off{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .newonsteam_capsules>a>div.info{
     BACKGROUND:VAR(--BASE1)!important;
     BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .game_area_purchase_game b, .game_area_offsite_purchase b {
     COLOR:VAR(--GREEN)!important;
 }
 .review_list h1{
-    border-bottom:none!important
+    border-bottom:none!important;
 }
 .review_box .header{
     COLOR:VAR(--ACCENT)!important;
     border-top-left-radius:var(--BORDERRADIUS)!important;
     border-top-right-radius:var(--BORDERRADIUS)!important;
     border-bottom:0!important;
-    background:VAR(--BASE1)!important
+    background:VAR(--BASE1)!important;
 }
 .review_box .leftcol img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 a.activetrigger,a.trigger{
     border-radius:var(--BORDERRADIUS)!important;
     background:0 0!important;
-    background-color:var(--BLACK)!important
+    background-color:var(--BLACK)!important;
 }
 .dselect_container a,.dselect_container a:active,.dselect_container a:hover,.dselect_container a:visited{
     border-bottom-left-radius:var(--BORDERRADIUS)!important;
-    border-bottom-right-radius:var(--BORDERRADIUS)!important
+    border-bottom-right-radius:var(--BORDERRADIUS)!important;
 }
 .block_content.block_content_inner.dark{
     border-radius:0!important;
     BACKGROUND-COLOR:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .popup_body.popup_menu.shadow_content{
     border-radius:var(--BORDERRADIUS)!important;
-    z-index:200!important
+    z-index:200!important;
 }
 #profile_action_dropdown .popup_menu_item{
     padding:0 12px!important;
-    line-height:26px!important
+    line-height:26px!important;
 }
 .profile_customization{
     border-radius:var(--BORDERRADIUS)!important;
     background-image:none!important;
-    background-color:transparent!important
+    background-color:transparent!important;
 }
 .workshop_showcase_item img.workshop_showcase_item_image{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .guide_showcase_appinfo .workshop_showcase_app img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .favoritegroup_showcase_group .favoritegroup_avatar img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .game_info .game_info_cap img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .home_area_spotlight.underlined_links{
     BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
-    background-color:VAR(--BASE1)!important
+    background-color:VAR(--BASE1)!important;
 }
 .favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{
     background-color:transparent!important;
     border-radius:var(--BORDERRADIUS)!important;
-    border-top:0!important
+    border-top:0!important;
 }
 .game_info_achievements_badge .game_info_badge_border{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .game_info_badge_border{
     border:0!important;
     border-radius:var(--BORDERRADIUS)!important;
-    background-color:rgba(0,0,0,0)!important
+    background-color:rgba(0,0,0,0)!important;
 }
 .achievement_progress_bar_ctn{
     background:var(--PROGRESSBARBACKGROUND)!important;
@@ -6287,51 +6287,51 @@ a.activetrigger,a.trigger{
     border-radius:var(--PROGRESSBARBORDERROUNDED)!important;
 }
 .game_info_achievement,.game_info_achievement img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .game_info_achievement{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .game_info_stats_rule{
     border-top:0!important;
     background-color:rgba(0,0,0,0)!important;
-    height:0!important
+    height:0!important;
 }
 .screenshot_showcase_screenshot{
     border-radius:var(--BORDERRADIUS)!important;
-    border:1px transparent solid!important
+    border:1px transparent solid!important;
 }
 .showcase_content_bg:last-child{
-    border-radius:4px!important
+    border-radius:4px!important;
 }
 .showcase_gamecollector_game img.game_capsule{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .commentthread_header,.profile_leftcol_header{
     border-bottom:0!important;
     border-radius:var(--BORDERRADIUS)!important;
-    background-color:transparent!important
+    background-color:transparent!important;
 }
 .commentthread_subscribe_checkbox{
     border:1PX SOLID var(--BUTTONBORDER)!important;
     border-radius:var(--BORDERRADIUS)!important;
     background:var(--BUTTON2)!important;
-    margin-bottom:2px!important
+    margin-bottom:2px!important;
 }
 .profile_comment_area .commentthread_footer{
-    border-top:0!important
+    border-top:0!important;
 }
 .profile_comment_area .commentthread_comment_container{
-    border-bottom:0!important
+    border-bottom:0!important;
 }
 .commentthread_textarea{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .profile_comment_area .commentthread_textarea{
-    background-color:var(--TEXTENTRY)!important
+    background-color:var(--TEXTENTRY)!important;
 }
 .profile_comment_area .commentthread_header,.profile_leftcol_header{
-    background-color:transparent!important
+    background-color:transparent!important;
 }
 .profile_comment_area .commentthread_entry_quotebox{
     border:1PX SOLID var(--TEXTENTRYBORDER)!important;
@@ -6354,52 +6354,52 @@ a.activetrigger,a.trigger{
     background-color:var(--TEXTENTRY)!important;
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     BORDER:1PX SOLID var(--BUTTONBORDER)!important;
-    margin-bottom:-2px!important
+    margin-bottom:-2px!important;
 }
 .commentthread_footer,.commentthread_header{
     margin-bottom:0!important;
-    padding-bottom:0!important
+    padding-bottom:0!important;
 }
 .invite_row{
     border-radius:0!important;
     background:VAR(--BASE1)!important;
-    box-shadow:1px 1px 2px var(--SHADOW)!important
+    box-shadow:1px 1px 2px var(--SHADOW)!important;
 }
 .invite_block_name{
-    margin-top:10px!important
+    margin-top:10px!important;
 }
 span.invite_action_txt{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .event_title{
-    font-weight:400!important
+    font-weight:400!important;
 }
 .partnereventwebrowembed_LatestUpdateButton_1TRFt{
     BACKGROUND:VAR(--ACCENT)!important;
-    BORDER:0!important
+    BORDER:0!important;
 }
 .community_search_text_box{
     background:var(--TEXTENTRY)!important;
     border:1px solid var(--BUTTONBORDER)!important;
     border-radius:var(--TEXTENTRYBORDERROUNDED)!important;
     color:VAR(--ACCENT)!important;
-    FONT-STYLE:NORMAL!important
+    FONT-STYLE:NORMAL!important;
 }
 input[type=number],input[type=password],input[type=text],select{
     border:2px solid transparent!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 #search_players_form input[type=submit]{
     margin-top:5px!important;
-    margin-left:5px!important
+    margin-left:5px!important;
 }
 .search_row{
     BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
     background-color:VAR(--BASE1)!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 body.flat_page{
-    background:var(--BASE2)!important
+    background:var(--BASE2)!important;
 }
 body.flat_page #footer_spacer,body.headerless_page #footer_spacer{
     border-radius:var(--BORDERRADIUS)!important;
@@ -6407,19 +6407,19 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{
 }
 .search_match_info{
     BACKGROUND-COLOR:VAR(--BASE1)!important;
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .partnereventwebrowembed_LatestUpdateIcon_mq3RO svg{
-    FILL:VAR(--ACCENT)!important
+    FILL:VAR(--ACCENT)!important;
 }
 .search_group_avatar_holder img{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .grouppage_content_area .community_search_container>h2{
-    color:VAR(--ACCENT)!important
+    color:VAR(--ACCENT)!important;
 }
 .recentAchievementsImg{
-    border-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important;
 }
 .game_purchase_action_bg{
     height:35px!important;
@@ -6427,62 +6427,62 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{
     padding:1px 1px 0 0!important;
     border:0PX!important;
     border-radius:2px!important;
-    -moz-border-radius:var(--BORDERRADIUS)!important
+    -moz-border-radius:var(--BORDERRADIUS)!important;
 }
 .game_purchase_action_bg>*{
-    margin-left:1px!important
+    margin-left:1px!important;
 }
 
 .game_purchase_discount{
-    height:36px!important
+    height:36px!important;
 }
 .game_purchase_discount .bundle_base_discount,.game_purchase_discount .discount_pct{
     border-radius:var(--BORDERRADIUS)!important;
     height:36px!important;
-    line-height:32px!important
+    line-height:32px!important;
 }
 .game_purchase_action .game_purchase_price{
     BORDER-RADIUS:0!important;
     BORDER:0!important;
     background-color:VAR(--BASE1)!important;
     color:VAR(--ACCENT)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .highlight_movie{
     border-radius:var(--BORDERRADIUS)!important;
-    background-color:transparent!important
+    background-color:transparent!important;
 }
 .highlight_player_item img{
-    bordebody.v6r-radius:var(--BORDERRADIUS)!important
+    border-radius:var(--BORDERRADIUS)!important
 }
 .highlight_strip_item img{
     border-radius:var(--BORDERRADIUS)!important;
-    background-color:transparent!important
+    background-color:transparent!important;
 }
 .highlight_strip_item{
-    background-color:transparent!important
+    background-color:transparent!important;
 }
 #review_create p{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .bluefade{
-    BACKGROUND-IMAGE:NONE!important
+    BACKGROUND-IMAGE:NONE!important;
 }
 .playTime{
-    COLOR:VAR(--ACCENT)!important
+    COLOR:VAR(--ACCENT)!important;
 }
 .gameLogoHolder_default img{
-    BORDER-RADIUS:0!important
+    BORDER-RADIUS:0!important;
 }
 .ratingBar{
     BORDER-TOP:0!important;
     COLOR:VAR(--ACCENT)!important;
     BACKGROUND-COLOR:VAR(--BASE1)!important;
-    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
+    BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important;
 }
 .review_rate_bar{
     COLOR:VAR(--ACCENT)!important;
-    BORDER-TOP:1PX SOLID var(--SHADOW)!important
+    BORDER-TOP:1PX SOLID var(--SHADOW)!important;
 }
 .review_app_actions{
     BACKGROUND-COLOR:VAR(--BASE1)!important;
@@ -6920,9 +6920,7 @@ div.early_access_header{
 div.early_access_banner{
     border-radius:var(--BORDERRADIUS)!important
 }
-#app_reviews_playtime_slider .ui-widget-header{
-    BACK
-}
+
 h2 span.note{
     background:VAR(--ACCENT)!important;
     color:var(--WHITE)!important;
@@ -7341,7 +7339,7 @@ a.readmore_link{
 }
 .forum_topic_pinned_notice{
     COLOR:var(--WHITE)!important;
-    BACKGROUND-COLORVAR(--GREEN)!important;
+    BACKGROUND-COLOR:VAR(--GREEN)!important;
     border-radius:var(--BORDERRADIUS)!important
 }
 .forum_paging_summary{
