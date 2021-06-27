@@ -1,4 +1,5 @@
 :root {
+    --ACCOUNTNAMEDISPLAY:NONE;
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
   --BASE3: #ececec;
@@ -43,6 +44,10 @@
   --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --blur: blur(10px);
+}
+
+.youraccount_pageheader {
+    display:var(--ACCOUNTNAMEHEADERDISPLAY)!important;
 }
 
 .store_nav .popup_menu .popup_menu_item {
@@ -1202,11 +1207,11 @@ a.linkbar > img {
   border-radius: 6px !important;
 }
 /* body::-webkit-scrollbar-thumb:window-inactive{
-      background-clip:padding-box!important;
-      -webkit-box-shadow:none!important;
-      background:VAR(--SCROLLBAR)!important;
-      border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
-  } */
+    background-clip:padding-box!important;
+    -webkit-box-shadow:none!important;
+    background:VAR(--SCROLLBAR)!important;
+    border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
+} */
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
@@ -3281,6 +3286,7 @@ a.pulldown_desktop {
   color: VAR(--ACCENT) !important;
 }
 input#store_nav_search_term {
+  color: VAR(--ACCENT) !important;
   background: TRANSPARENT !important;
   font-size: 6em !important;
   font-weight: 400 !important;
