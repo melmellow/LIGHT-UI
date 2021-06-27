@@ -1226,11 +1226,11 @@ a.linkbar > img {
   border-radius: 6px !important;
 }
 /* body::-webkit-scrollbar-thumb:window-inactive{
-      background-clip:padding-box!important;
-      -webkit-box-shadow:none!important;
-      background:VAR(--SCROLLBAR)!important;
-      border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
-  } */
+          background-clip:padding-box!important;
+          -webkit-box-shadow:none!important;
+          background:VAR(--SCROLLBAR)!important;
+          border-radius:VAR(--SCROLLBARBORDERRADIUS!important;
+      } */
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
@@ -6896,11 +6896,7 @@ a.trigger {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
-.invite_row {
-  border-radius: 0 !important;
-  background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
-}
+
 .invite_block_name {
   margin-top: 10px !important;
 }
@@ -9376,9 +9372,11 @@ a.persona,
 }
 
 .group_block {
+  transition: all 0.18s ease-in-out !important;
   border-radius: 6px !important;
+  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
 }
 
 .group_block:hover {
-  background:var(--PANEL3) !important;
+  background: var(--PANEL3) !important;
 }
