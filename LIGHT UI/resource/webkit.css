@@ -14,6 +14,10 @@
     --trans:transparent;
     --BLACK:#000;
     --WHITE:#FFF;
+    --RECENTGAME:VAR(--BASE1);
+    --PROGRESSBARBORDERROUNDED:10px;
+    --PROGRESSBAR:VAR(--ACCENT);
+    --PROGRESSBARBACKGROUND:VAR(--BUTTON2);
     --MARKETLISTING:VAR(--BASE1);
     --MARKETLISTINGHOVER:VAR(--BASE3);
     --SCROLLBARBORDERRADIUS:0;
@@ -984,7 +988,7 @@ a.linkbar>img{
     top:30%!important
 }
 .recent_game{
-    background-color:VAR(--BASE1)!important;
+    background-color:VAR(--RECENTGAME)!important;
     backdrop-filter:blur(10px)!important;
     BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
 }
@@ -5595,8 +5599,7 @@ div#headerSearch.friend_activity_header_search{
     BOX-SHADOW:1PX 1PX 2PX var(--SHADOW)!important
 }
 .achievement_progress_bar_ctn .progress_bar{
-    BACKGROUND:VAR(--ACCENT)!important;
-    BACKGROUND-COLOR:VAR(--ACCENT)!important
+    BACKGROUND:VAR(--PROGRESSBAR)!important;
 }
 .profile_rightcol{
     BORDER:0!important;
@@ -6265,10 +6268,10 @@ a.activetrigger,a.trigger{
     background-color:rgba(0,0,0,0)!important
 }
 .achievement_progress_bar_ctn{
-    background:var(--BUTTON2)!important;
+    background:var(--PROGRESSBARBACKGROUND)!important;
     padding:0!important;
     border:0!important;
-    border-radius:var(--TEXTENTRYBORDERROUNDED)!important
+    border-radius:var(--PROGRESSBARBORDERROUNDED)!important;
 }
 .game_info_achievement,.game_info_achievement img{
     border-radius:var(--BORDERRADIUS)!important
