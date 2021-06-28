@@ -4712,7 +4712,7 @@ A {
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_Label_3O48L {
   color: transparent !important;
-  filter: brightness(0) !important;
+  filter: VAR(--FILT) !important;
 }
 
 .gamelistdropdown_Bar_1ZS_x
