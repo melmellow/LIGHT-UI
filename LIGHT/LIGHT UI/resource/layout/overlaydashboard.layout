@@ -1,0 +1,36 @@
+"Resource/layout/overlaydashboard.layout" {
+
+	include "colors.styles"
+
+	styles {
+		overlaymain {
+			render {
+				0="image_scale( x0, y0 + 234, x1, y0 + 240, graphics/material/shadow_horiz2 )"
+			}
+			render_bg {
+				0="fill( x0, y0, x1, y0 + 234, OVERLAYBAR )"
+				1="fill( x0, y0 + 234, x1, y0 + 235, OVERLAYBARBORDER )"
+				2="fill( x0, y0 + 235, x1, y1, OVERLAYBACKGROUND)"
+			}
+		}
+
+		topbar {
+			font-family=condensed
+			font-size=54
+			font-weight=600
+			font-style=uppercase
+			textcolor = OVERLAYGAMENAME
+			//game name
+		}
+		
+		
+	}
+
+	layout {
+		region { name=overlay height=240 width=max margin-left=50 margin-right=50 }
+			place { control=gamename region=overlay align=left y=30 }
+			place { control=TaskbarPanel region=overlay width=200 height=max align=right}
+
+		place { control=TopFadePanel,PowerMeterDim,BottomFadePanel,HotkeyLabel,HotkeyExplain height=0 width=0 }
+	}
+}

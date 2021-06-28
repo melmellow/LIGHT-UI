@@ -1,0 +1,52 @@
+"resource/layout/subpaneloptionscloud.layout"
+{
+	controls
+	{
+		EnableCloudCheck 
+		{ 
+			controlname=button
+			labeltext="#Steam_EnableCloud"			
+			wrap=1
+		}
+		
+		EnableScreenshotsCheck
+		{
+			controlname=button
+			labeltext="#Steam_EnableCloudScreenshots"
+			wrap=1
+		}
+		
+		SteamCloudInfo
+		{
+			controlname=label
+			labeltext="#Steam_CloudInfo"
+			wrap=1
+			//margin-bottom=8
+		}			
+	}
+	
+	colors
+	{
+
+	}	
+	
+	styles
+	{
+		CSubPanelOptionsCloud
+		{
+			//render_bg
+			//{
+		    //		0="image(x0+1,y0+8,x1,y1, graphics/metro/labels/settings/steamcloud)"
+			//}
+		}
+	}
+	
+	layout
+	{
+		region { name=box margin-left=0 margin-right=0 }
+
+		//Internet Connection
+		place { control="SteamCloudInfo" width=0 height=0 }
+		place { region=box control="EnableCloudCheck,EnableScreenshotsCheck" width=max y=0 dir=down }
+	}
+}

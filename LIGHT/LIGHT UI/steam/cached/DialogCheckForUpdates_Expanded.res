@@ -1,0 +1,15 @@
+"steam/cached/DialogCheckForUpdates_Expanded.res"
+{
+	styles
+	{
+		CDialogCheckForUpdates
+		{
+			bgcolor=BASE2
+			render_bg{}
+		}
+		Label
+		{
+			padding-top=10
+		}
+	}
+}

@@ -1,0 +1,61 @@
+"resource/layout/uistatuspanel.layout"
+{
+	controls
+	{
+		StatusDownloading { controlname=URLLabel style="StatusLabel" labelText="" URLText="steam://open/downloads" }
+		StatusPaused{ controlname=URLLabel style="StatusLabelDim" labelText="" URLText="steam://open/downloads" } 
+		StatusComplete { controlname=URLLabel style="StatusLabelDim" labelText="" URLText="steam://open/downloads" }
+		StatusProgressbar	{ controlname="ProgressBar" style="SlimProgressBar" barinset=0 continuous=1 } 
+	}
+
+	styles
+	{
+		StatusLabel
+		{
+			inset-left=7
+			bgcolor="NONE"
+			image="icons/downloads"
+		}
+		StatusLabel:hover
+		{
+			bgcolor = ACTIONBUTTONHOVER
+			render {}
+			image="icons/downloads_h"
+		}
+			StatusLabel:selected
+		{
+			render {}
+			image="icons/downloads_h"
+		}
+		StatusLabelDim
+		{
+			textcolor="none"
+			bgcolor="none"
+			render_bg
+			{
+				1="fill(x0,y0,x1,y0+2,NAVBARPROGRESSBARPAUSED)"
+			}
+		}
+		StatusLabelDim:hover
+		{
+			bgcolor="none"
+		}
+		SlimProgressBar
+		{
+			bgcolor="none"
+			render_bg{}
+			render{}
+		}
+	}
+
+	layout
+	{
+		region { name="action" height=12 align=bottom }
+
+		place { control="StatusPaused" y=39 align=center margin-left=7 margin-right=7 }
+		place { region=action control="StatusComplete" height=1 align=top-center margin-left=7 margin-right=7 margin-top=-3 }
+
+		place { control="StatusDownloading" height=39 width=27 }
+		place { control=StatusProgressbar height=1 width=max align=bottom }
+	}
+}

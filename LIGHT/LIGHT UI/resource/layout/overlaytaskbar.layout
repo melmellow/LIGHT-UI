@@ -1,0 +1,13 @@
+"Resource/layout/overlaytaskbar.layout" {
+
+	styles { 
+	
+
+	}
+
+	layout {
+		place { control=TaskbarPanel height=max width=max }
+		place { control=SettingsButton,WebBrowserButton,MusicPlayerButton spacing=6 height=20 y=93 align=right dir=down }
+		place { control=SteamLogo,FriendPanel,view_friends,online_friends height=0 width=0 }
+	}
+}

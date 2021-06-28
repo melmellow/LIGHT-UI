@@ -1,0 +1,431 @@
+"controls.styles"
+{
+
+	controls 
+	{
+		"ManageSecurityButton" 
+		{
+			bgcolor=BASE1
+		}
+	}
+	
+	
+	layout
+	{
+			place {control="ComboBoxButton" width=max}
+			place {control="scrollbarbutton.right" width=0 height=0}
+			place {control="scrollbarbutton.left" width=0 height=0}
+	}
+	
+	styles
+	{
+	
+		
+		
+		Button
+		{
+			bgcolor=BUTTON
+			font-family=basefont
+			textcolor=ACCENT
+				render {
+				1="fill(x0,y0,x1,y0+1, BUTTONBORDER)"  // top
+				2="fill(x0,y1-1,x1,y1, BUTTONBORDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BUTTONBORDER)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BUTTONBORDER)"  // right
+			}
+		}
+		Button:hover
+		{
+			
+			bgcolor=BUTTONHOVER
+			textcolor=ACCENT
+					render {
+				1="fill(x0,y0,x1,y0+1, BUTTONHOVERBORDER)"  // top
+				2="fill(x0,y1-1,x1,y1, BUTTONHOVERBORDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BUTTONHOVERBORDER)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BUTTONHOVERBORDER)"  // right
+			}
+		}
+		Button:active
+		{
+				render {
+				1="fill(x0,y0,x1,y0+1, BUTTONPRESSEDBORDER)"  // top
+				2="fill(x0,y1-1,x1,y1, BUTTONPRESSEDBORDER)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BUTTONPRESSEDBORDER)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BUTTONPRESSEDBORDER)"  // right
+			}
+		}
+		Button:disabled
+		{
+			textcolor="195 195 195 255"
+			bgcolor="207 207 207 255"
+		}
+		ToggleButton:selected
+		{
+			bgcolor=focus
+		}
+
+	
+		//Text Boxes
+		TextEntry
+		{
+			font-family=basefont
+			bgcolor = TEXTENTRY
+			textcolor = ACCENT
+			shadowtextcolor = ACCENT
+			selectedtextcolor = ACCENT
+			selectedbgcolor = TEXTENTRYHIGHLIGHT
+			inset-left=2
+		}
+
+		TextEntry:empty
+		{
+			textcolor="none"
+				bgcolor = TEXTENTRY
+		}
+
+		//Chat Emoticon Button
+		CEmoticonButton
+		{
+			bgcolor=TextEntry
+			render_bg{}
+			image="graphics/metro/icons/chat/emoticons"
+			padding-left=5
+		}
+		CEmoticonButton:hover
+		{
+			bgcolor="TextEntry"
+			render_bg
+			{
+				0="fill(x0,y0,x1,y1,white05)"
+			}
+		}
+		CEmoticonButton:selected
+		{
+			bgcolor=Focus
+			render_bg{}
+		}
+
+		EmoticonMenuItemStyle
+		{
+			inset-left=-6
+			textcolor=White45
+			bgcolor=none
+			render_bg{}
+		}
+		EmoticonMenuItemStyle:hover
+		{
+			textcolor=ACCENT
+		}
+
+		RadioButton
+		{
+			textcolor = ACCENT 
+			font-family=basefont
+			font-weight=400
+			bgcolor="none"
+			render_bg {}
+			image="ICONS/radio_d"
+		}
+		RadioButton:hover
+		{
+			render_bg {}
+			image="ICONS/radio_h"
+		}
+		RadioButton:selected
+		{
+			render_bg {}
+			image="ICONS/radio_s"
+		}
+		
+		RadioButton:selected:hover
+		{
+			render_bg {}
+			image="ICONS/radio_sh"
+		}
+		RadioButtonList
+		{
+			inset="-2 0 0 0"
+			bgcolor="ClientBG"
+			render_bg
+			{
+				// lines around
+				1="fill( x0, y0, x1, y0+1, White10 )"  // top
+				2="fill( x0, y1-1, x1, y1, White10 )"  // bottom
+				3="fill( x0-1, y0, x0, y1, White10 )"  // left
+				4="fill( x1, y0, x1+1, y1, White10 )"  // right
+			}
+		}
+		
+		CheckButton
+		{
+			textcolor = ACCENT
+			font-family=basefont
+			font-weight=400
+			image=ICONS/check_d
+		}
+		CheckButton:hover
+		{
+			image=ICONS/check_h
+		}
+		CheckButton:selected
+		{
+			image=ICONS/check_s
+		}
+		CheckButton:selected:hover
+		{
+			image=ICONS/check_sh
+		}
+		CheckButton:disabled
+		{
+			textcolor = DISABLEDTEXT
+			bgcolor="none"
+			image=ICONS/check_d
+		}
+		CheckButton:selected:disabled
+		{
+			textcolor="White24"
+			bgcolor="none"
+			image=ICONS/check_s
+		}
+
+		CheckButtonList
+		{
+			inset="0 1 1 1"
+			textcolor = ACCENT
+			bgcolor="none"
+			render_bg
+			{
+				// lines around
+				1="fill( x0, y0, x1, y0+1, White10 )"  // top
+				2="fill( x0, y1-1, x1, y1, White10 )"  // bottom
+				3="fill( x0, y0+1, x0+1, y1-1, White10 )"  // left
+				4="fill( x1-1, y0+1, x1, y1-1, White10 )"  // right
+			}
+		}
+		CheckButtonList:scrollbar
+		{
+			inset="1 1 1 1"
+			textcolor = ACCENT
+			bgcolor="none"
+			render_bg {}
+			render {}
+		}
+		"CheckbuttonList CheckButton"
+		{
+			textcolor=ACCENT
+		}
+
+		ComboBox
+		{
+			inset="3 -1"
+			textcolor=ACCENT
+			selectedtextcolor="ACCENT"
+			font-family=basefont
+			bgcolor=DROPDOWN
+			render
+			{
+				2="fill(x0,y1-1,x1,y1,DROPDOWNBORDER)"  // bottom
+			}
+		}
+		ComboBox:hover
+		{
+			render
+			{
+				2="fill(x0,y1-1,x1,y1,DROPDOWNHOVERBORDER)"  // bottom
+			}
+		}
+		ComboBox:disabled
+		{
+			textcolor=DISABLEDTEXT
+			render_bg
+			{
+				2="fill(x0,y1-1,x1,y1,DROPDOWNHOVERBORDER)"  // bottom
+			}
+		}
+		ComboBox:focus
+		{
+			selectedbgcolor="211 211 211 255"
+			TEXTCOLOR=ACCENT
+		}
+
+		ComboBoxButton
+		{
+			bgcolor="none"
+			image="graphics/icon_down"
+			width=max
+			padding-left=2
+			render{
+			1="fill(x0,y0,x1,y0+1, "none")"  // top
+				3="fill(x0,y0+1,x0+1,y1-1, "none")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "none")"  // right
+				2="fill(x0,y1-1,x1,y1, "none")"  // bottom
+				}
+		}
+		ComboBoxButton:hover
+		{
+			
+		}
+
+		PageTab
+		{
+			textcolor=ACCENT
+			font-family=semibold
+			bgcolor="none"
+			render_bg {}
+		}
+		PageTab:hover
+		{
+			textcolor = BLACK
+			bgcolor="none"
+		}
+		PageTab:selected
+		{
+			textcolor = NAVBUTTONSELECTED
+			bgcolor = "NONE"
+			render_bg
+			{
+				1="fill(x0+1,y0,x1-1,y1-1,whitebase)"
+				2="fill(x0+1, y1-1, x1-1, y1, NAVBUTTONACTIVEBORDER)"
+			}
+			render{}
+		}
+
+		"PageDragFrame PageTab"
+		{
+			font-style=""
+			font-size=14
+		}
+
+		ScrollBarButton.up
+		{
+			height=0
+			width=0
+			inset-left=0
+			bgcolor="none"
+			render_bg{}
+			//image=graphics/up_arrow
+			//padding-left=-1
+			//padding-bottom=2
+					render {
+				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
+				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, "NONE")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "NONE")"  // right
+			}
+		}
+		ScrollBarButton.up:hover
+		{
+			//render_bg{}
+			//image=graphics/up_arrow_h
+		}
+
+		ScrollBarButton.down
+		{
+			inset-left=0
+			bgcolor="none"
+			render_bg{}
+			//image=graphics/down_arrow
+			//padding-left=-1
+			//padding-top=3
+					render {
+				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
+				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, "NONE")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "NONE")"  // right
+			}
+		}
+		ScrollBarButton.down:hover
+		{
+			//render_bg{}
+			//image=graphics/down_arrow_h
+		}
+
+		ScrollBarButton.left
+		{
+			bgcolor="none"
+					render {
+				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
+				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, "NONE")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "NONE")"  // right
+			}
+			WIDTH=0
+			HEIGHT=0
+			//render_bg{}
+			//image=graphics/left_arrow
+		}
+		ScrollBarButton.left:hover
+		{
+			//render_bg{}
+			//image=graphics/left_arrow_h
+		}
+
+		ScrollBarButton.right
+		{
+			bgcolor="none"
+						render {
+				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
+				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, "NONE")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "NONE")"  // right
+			}
+			WIDTH=0
+			HEIGHT=0
+			//render_bg{}
+			//image=graphics/right_arrow
+		}
+		ScrollBarButton.right:hover
+		{
+			//render_bg{}
+			//image=graphics/right_arrow_h
+		}
+
+		ScrollBarHandle  //vertical scrollbar thumb
+		{
+			bgcolor=SCROLLBAR
+		}
+		"ScrollBarHandle:hover"
+		{
+			bgcolor=SCROLLBARHOVER
+			render_bg
+			{
+				0="fill( x0, y0, x1, y1, white05 )"
+			}
+		}
+		"ScrollBarHandle:selected"
+		{
+			bgcolor=scroll_a
+		}
+
+		"SliderHoriz"  //horizontal scrollbar thumb
+		{
+			bgcolor = SCROLLBAR
+		}
+		"SliderHoriz:hover"
+		{
+			bgcolor = SCROLLBARHOVER
+			render_bg
+			{
+				0="fill( x0, y0, x1, y1, white05 )"
+			}
+		}
+		"SliderHoriz:selected"
+		{
+			bgcolor = SCROLLBARPRESSED
+		}
+
+		ScrollBarSlider // gutter
+		{
+			bgcolor="none"
+			render_bg{}
+			render{}
+		}
+		ScrollBarSliderHoriz // gutter
+		{
+			bgcolor="none"
+			render_bg{}
+			render{}
+		}
+	}
+}

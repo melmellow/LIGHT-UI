@@ -1,0 +1,83 @@
+"resource/layout/accountbutton.layout"
+{
+	styles
+	{
+		AccountPersonaStyleOffline
+		{
+			bgcolor="228 228 228 255"
+			textcolor=offlineNick
+			font-style=uppercase
+			padding-right=8
+			padding-left=12
+		}
+
+		AccountPersonaStyleOnline
+		{
+			bgcolor="228 228 228 255"
+			textcolor=onlineNick
+			font-style=uppercase
+			padding-right=8
+			padding-left=12
+		}
+
+		AccountPersonaStyleInGame
+		{
+			bgcolor="228 228 228 255"
+			textcolor=ingameNick
+			font-style=uppercase
+			padding-right=8
+			padding-left=12
+		}
+
+		AccountDropDownStyleOffline
+		{
+			bgcolor="228 228 228 255"
+		}
+
+		AccountDropDownStyleOnline
+		{
+			bgcolor="228 228 228 255"
+		}
+
+		AccountDropDownStyleInGame
+		{
+			bgcolor="228 228 228 255"
+		}
+
+		AccountBalanceStyle
+		{
+			textcolor=textCash
+			font-weight=bold
+			bgcolor="228 228 228 255"
+			padding-right=30
+			padding-left=44
+			padding-down=3
+		}
+
+		AccountMenuButtonStyle
+		{
+			bgcolor=none
+		}
+		AccountMenuButtonStyle:hover
+		{
+			bgcolor="214 214 214 64"
+
+		}
+		AccountMenuButtonStyle:active
+		{
+			bgcolor="214 214 214 64"
+		}
+	}
+
+	layout
+	{
+		place { control="account_menu_button" align=right height=39 width=100 } // span over everything
+		place { control="account_balance" align=right end-right="account_avatar" height=39 }
+		place { control="account_persona" align=left height=-999 width=0}
+		place { control="account_avatar" align=left end-right="account_persona" margin-top=4 height=-999 width=0 }
+		
+
+		//hidden
+		place { control="account_drop_down" margin-left=-999 }
+	}
+}

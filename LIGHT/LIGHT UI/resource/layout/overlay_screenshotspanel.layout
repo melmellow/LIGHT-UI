@@ -1,0 +1,45 @@
+"resource/layout/overlay_screenshotspanel.layout"
+{
+	controls
+	{
+		TitleText { controlname="label" labeltext="#Overlay_Screenshots_Panel_Title" style=detailsboxtitle width=0}
+		InstructionText { controlname="label" labeltext="#Overlay_Screenshots_Press_Hotkey"  style=highlight width=0}
+		ViewScreenshots { controlname="Button" labeltext="#Overlay_View_Screenshots" command="viewscreenshots" width=0}
+		SetShortcut { controlname="Button" command="setshortcut" }
+	}
+	styles
+	{
+		Button
+		{
+			inset-left=0
+			bgcolor="none"
+			image=ICONS/screenshot
+			render{
+			0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, "NONE" )"
+				0="fill( x1 - 1, y0 + 1, x1 - 2, y0 + 2, "NONE")"
+				0="fill( x0 + 1, y1 - 1, x0 + 2, y1 - 2, "NONE")"
+				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, "NONE")"
+			}
+		}
+		Button:hover
+		{
+			image=ICONS/screenshot_h	
+		}
+		Button:active
+		{
+			//image=graphics/metro/overlay/icons/screenshots_p		
+		}
+	}
+	layout
+	{
+		//Left
+		place { controls=ViewScreenshots x=16 y=1 width=36 height=36 }
+
+		//Right
+		place { control="TitleText" x=68 y=11 margin-left=-999}
+		place { control="InstructionText" x=68 y=37 margin-left=-999 }
+
+		//Hidden
+		place { control=SetShortcut margin-left=-999 }
+	}
+}

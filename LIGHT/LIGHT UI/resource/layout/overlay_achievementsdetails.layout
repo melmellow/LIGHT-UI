@@ -1,0 +1,29 @@
+"Resource/layout/overlay_achievementsdetails.layout" {
+
+	styles {
+		detailsbox { }
+
+		button {
+			image="ICONS/OVERLAY ACHIEVEMENTS"
+			//minimum-height=0 
+			//padding-right=0 padding-left=0
+			BGCOLOR = NONE
+			render { 
+					0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, "NONE" )"
+				0="fill( x1 - 1, y0 + 1, x1 - 2, y0 + 2, "NONE" )"
+				0="fill( x0 + 1, y1 - 1, x0 + 2, y1 - 2, "NONE" )"
+				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, "NONE" )"
+			}
+		}
+
+		button:hover {
+			IMAGE="ICONS/OVERLAY ACHIEVEMENTS_H"
+		}
+	}
+
+	layout {
+		place { control=ViewAchievementsButton height=20 }
+
+		place { control=*achievement,TitleText,progressbackground,progressbarimage,ProgressTextEarned height=0 width=0 }
+	}
+}

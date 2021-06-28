@@ -408,7 +408,7 @@
   --SHOWCASEDIVIDERHOVER: VAR(--BUTTON2);
   --SHOWCASEDIVIDERHOVERBR: 50px;
   --SHOWCASEDIVIDERHOVERBORDER: VAR(--BUTTONBORDER);
-  --REVIEWHEADER:VAR(--BLUE);
+  --REVIEWHEADER: VAR(--BLUE);
   --REVIEWHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --APPDETAILSACTIVEDROPDOWNFILTERICONDISPLAY: none;
   --APPPORTRAITDOWNLOADBARDISPLAY: NONE;
@@ -610,15 +610,21 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.comment_thread_ActivityCommentThread_39nna
+  .comment_thread_Comment_515RL
+  .comment_thread_CommentHeader_25wbo
+  .comment_thread_CommentTime_2310B {
+  color: VAR(--ACCENT) !important;
+}
+
 .throbber_LoadingWrapper_2wAKy.throbber_noString_1Sy0p {
-  filter:var(--LOADINGFILT)!important;
-  opacity:var(--LOADINGOP)!important;
+  filter: var(--LOADINGFILT) !important;
+  opacity: var(--LOADINGOP) !important;
 }
 
 .Stop.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
-  background: var(--CONTEXTMENUINSTALLBUTTONHOVER)!important;
+  background: var(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
 }
-
 
 .appactivityday_PartnerEventType_1ujzu {
   color: var(--ACCENT) !important;
@@ -4765,7 +4771,7 @@ A {
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-    transform: .21s ease-in-out,opacity .21s ease-in-out!important;
+  transform: 0.21s ease-in-out, opacity 0.21s ease-in-out !important;
 }
 
 .gamelistsearchbar_Container_20QAC

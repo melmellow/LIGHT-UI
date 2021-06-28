@@ -1,0 +1,144 @@
+"resource/layout/htmlfindbar.layout"
+{
+	controls
+	{
+		FindEntry { controlname=TextEntry default=1 unicode=1 tabposition=1 style="FindEntry" }
+		FindCount { controlname=Label labeltext="#vgui_HTMLSearchMatch" }
+		Close { controlname=Button command="Close" style="CloseButtonSm" }
+		Next { controlname=Button command="next" style="NextButtonSm" }
+		Previous { controlname=Button command="previous" style="PrevButtonSm" }
+		SearchThisPage { controlname=Label labeltext="#vgui_HTMLSearchThisPage" style="" }
+	}
+
+	styles
+	{
+		Label
+		{
+			textcolor=ACCENT
+		}
+
+		FindEntry
+		{
+			inset-left=0
+			inset-top=-2
+			font-family=basefont
+			font-weight=300
+			textcolor=ACCENT
+			bgcolor= TEXTENTRY
+			shadowtextcolor=ACCENT
+			render
+			{
+				1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDER)"		// Top
+				2="fill( x0+1, y1-1, x1, y1, TEXTENTRYBORDER )"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1, TEXTENTRYBORDER )"		// Left
+				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDER )"	// Right
+			}
+		}
+
+
+				FindEntry:hover
+		{
+		
+			render
+			{
+				1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDERHOVER)"		// Top
+				2="fill( x0+1, y1-1, x1, y1, TEXTENTRYBORDERHOVER)"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1, TEXTENTRYBORDERHOVER)"		// Left
+				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDERHOVER)"	// Right
+			}
+		}
+
+					FindEntry:ACTIVE
+		{
+		
+			render
+			{
+				1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDERSELECTED)"		// Top
+				2="fill( x0+1, y1-1, x1, y1, TEXTENTRYBORDERSELECTED)"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1, TEXTENTRYBORDERSELECTED)"		// Left
+				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDERSELECTED)"	// Right
+			}
+		}
+
+		NextButtonSm
+		{
+			inset="-5 0 0 0"
+			render_bg{}
+			bgcolor="none"
+			image="icons/forward"
+			padding-left=12
+						render {
+				1="fill(x0,y0,x1,y0+1,"none")"  // top
+				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1,"none")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "none")"  // right
+			}
+		}
+		NextButtonSm:hover
+		{
+			image="icons/forward_h"
+		}
+		NextButtonSm:active
+		{
+			image="icons/forward_p"
+		}
+		NextButtonSm:disabled
+		{
+			image="icons/forward_d"
+		}
+
+		PrevButtonSm
+		{
+			inset="-5 0 0 0"
+			render_bg{}
+			bgcolor="none"
+			image="icons/back"
+			padding-left=12
+						render {
+				1="fill(x0,y0,x1,y0+1,"none")"  // top
+				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1,"none")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "none")"  // right
+			}
+		}
+		PrevButtonSm:hover
+		{
+			image="icons/back_h"
+		}
+		PrevButtonSm:active
+		{
+			image="icons/back_p"
+		}
+		PrevButtonSm:disabled
+		{
+			image="icons/back_d"
+		}
+
+		CloseButtonSm
+		{
+			bgcolor="none"
+			inset="9 3 0 0"
+			image="icons/caption/close"
+						render {
+				1="fill(x0,y0,x1,y0+1,"none")"  // top
+				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1,"none")"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, "none")"  // right
+			}
+		}
+		CloseButtonSm:hover
+		{
+			bgcolor="214 214 214 255"
+			render_bg{}
+		}
+	}
+	layout
+	{
+    place { control="Previous,Next" align=left x=1 y=1 height=38 width=40 }
+    place { control="FindEntry" start=Next width=max height=max MARGIN-LEFT=8 margin-right=140 MARGIN-TOP=4 MARGIN-BOTTOM=3 }
+    place { control="FindCount" align=right width=70 height=40 margin-right=56}
+    place { control="Close" align=right y=1 width=40 height=38 margin-right=1 }
+    // Hidden
+    place { control="SearchThisPage" width=1 } //Search//Icon
+	}
+}
