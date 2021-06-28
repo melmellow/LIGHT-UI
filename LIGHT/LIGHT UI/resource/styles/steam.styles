@@ -1118,8 +1118,8 @@ steam.styles
 		{
 			bgcolor="none"
 			render_bg{}
-			padding-right=7
-			padding-left=1
+			padding-right=1
+			padding-left=3
 			image="ICONS/section_closed.tga"
 			render{
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
