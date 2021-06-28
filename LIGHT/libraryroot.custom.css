@@ -610,6 +610,12 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appdetailscommunityfeed_Controls_3lh8a
+  .appdetailscommunityfeed_Control_1GfHt
+  .appdetailscommunityfeed_Count_NlL1t {
+  color: VAR(--ACCENT) !important;
+}
+
 .comment_thread_ActivityCommentThread_39nna
   .comment_thread_Comment_515RL
   .comment_thread_CommentHeader_25wbo
