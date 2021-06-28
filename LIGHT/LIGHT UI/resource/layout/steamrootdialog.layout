@@ -285,7 +285,7 @@
 		{
 			bgcolor = ACTIONBUTTONHOVER
 			render_bg={}
-			image="graphics/games"
+			image="ICONS/bigpic_h"
 		}
 		FullscreenButton:active
 		{
