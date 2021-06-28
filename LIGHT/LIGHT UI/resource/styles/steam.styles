@@ -46,11 +46,21 @@ steam.styles
 				3="fill( x0, y0+1, x0+1, y1-1, "none")"	// Left
 				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDER)"	// Right
 			}
-	
-
-
-
 		}
+
+
+		URLBarSecure:hover
+		{
+			textcolor = ACCENT
+			RENDER {
+						5="fill( x0, y0, x1, y0+1, TEXTENTRYBORDERHOVER )"		// Top
+				6="fill( x0, y1-1, x1, y1, TEXTENTRYBORDERHOVER)"		// Bottom
+				7="fill( x0, y0+1, x0+1, y1-1, "none")"	// Left
+				8="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDERHOVER)"	// Right
+			}
+		}
+
+
 		URLBarBrokenSecure
 		{
 			textcolor=NotSecureURL

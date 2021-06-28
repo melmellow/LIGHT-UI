@@ -78,6 +78,17 @@
 			inset-left=2
 		}
 
+
+		TextEntry:hover
+		{
+				RENDER {
+						1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDERHOVER )"		// Top
+				2="fill( x0, y1-1, x1, y1, TEXTENTRYBORDERHOVER)"		// Bottom
+				3="fill( x0, y0+1, x0+1, y1-1, TEXTENTRYBORDERHOVER)"	// Left
+				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDERHOVER)"	// Right
+			}
+		}
+
 		TextEntry:empty
 		{
 			textcolor="none"
