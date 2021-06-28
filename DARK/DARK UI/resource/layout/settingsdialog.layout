@@ -28,7 +28,7 @@
 		"SettingsList"
 		{
 				render {
-				0="image_scale( x0 + 182, y0, x0 + 184, y1, graphics/material/shadow_vert2)"
+				0="fill( x0 + 182, y0, x0 + 184, y1, SETTINGSSIDEBARBORDER)"
 			    }
 			font-family=basefont
 			inset-top=60
