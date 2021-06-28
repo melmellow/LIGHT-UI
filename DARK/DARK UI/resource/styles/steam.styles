@@ -1310,7 +1310,7 @@ steam.styles
 		}
 		BackButton:active
 		{
-			bgcolor="228 228 228 255"
+			bgcolor="none"
 			image="icons/back_p"
 		}
 		BackButton:disabled
@@ -1440,7 +1440,7 @@ steam.styles
 		}
 		ForwardButton:active
 		{
-			bgcolor=white04
+			bgcolor="none"
 			image="icons/forward_p"
 		}
 		ForwardButton:disabled
