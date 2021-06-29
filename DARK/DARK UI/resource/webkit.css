@@ -6052,10 +6052,21 @@ div#headerSearch.friend_activity_header_search {
   background-color: var(--BASE1) !important;
 }
 .blotter_comment_thread .commentthread_entry_quotebox {
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
+  border-radius: var(--COMMENTTHREADTEXTENTRYBR) !important;
   background-color: var(--TEXTENTRY) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID var(--TEXTENTRY) !important;
 }
+
+.blotter_comment_thread .commentthread_entry_quotebox:hover {
+  background-color: var(--TEXTENTRYBACKGROUNDHOVER) !important;
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.blotter_comment_thread .commentthread_entry_quotebox:focus-within {
+  background-color: var(--TEXTENTRYBACKGROUNDSELECTED) !important;
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
+}
+
 .forumtopic_comments .commentthread_comment {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
