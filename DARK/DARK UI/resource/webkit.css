@@ -1,5 +1,5 @@
 :root {
-  --FILT: BRIGHTNESS(0);
+  --FILT: BRIGHTNESS(2);
   --ACCOUNTNAMEHEADERDISPLAY: NONE;
   --BASE1: #1f1f1f;
   --BASE2: #0e0e0e;
@@ -58,6 +58,14 @@
   --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --blur: blur(10px);
+}
+
+.styles_PageHomeTopTitle_3DDgg,
+.styles_PageHomeTopSubTitle_rSOht {
+  color: VAR(--ACCENT) !important;
+  background-clip: unset !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
 }
 
 .apphub_AllContentText {
@@ -603,6 +611,7 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 .loyaltyprimarynav_SecondaryNavItem_2mFH5 {
+  padding: 4px 14px !important;
   background-image: none !important;
 }
 .loyaltyprimarynav_SecondaryNavItem_2mFH5:hover {
