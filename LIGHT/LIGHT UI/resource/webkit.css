@@ -6,6 +6,7 @@
   --BASE3: #ececec;
   --ACCENT: #585858;
   --BUTTON2: #d6d6d6;
+  --BOXSHADOW: 1px 1px 2px;
   --SHADOW: #d6d1d1;
   --BLUE: #1181d2;
   --GREEN: #54a448;
@@ -60,9 +61,13 @@
   --blur: blur(10px);
 }
 
+.index_HeaderText_1xjPB {
+  color: var(--ACCENT) !important;
+}
+
 .styles_PageHomeTopTitle_3DDgg,
 .styles_PageHomeTopSubTitle_rSOht {
-  background:transparent!important;
+  background: transparent !important;
   color: VAR(--ACCENT) !important;
   background-clip: unset !important;
   -webkit-background-clip: unset !important;
@@ -129,7 +134,7 @@ body.v6 h2.pageheader.youraccount_pageheader {
 }
 
 a.newitem {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: var(--BASE3) !important;
 }
 
@@ -160,7 +165,7 @@ body.clientNews .extImg {
 .account_recovery_box {
   color: var(--ACCENT) !important;
   background-color: var(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW);
+  box-shadow: var(--BOXSHADOW) var(--SHADOW);
 }
 
 .parental_settings_subinstructions {
@@ -194,7 +199,7 @@ body.clientNews .extImg {
 
 .report_txt_ctn {
   background: var(--BASE3) !important;
-  box-shadow: 1px 1px 2px var(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER1) !important;
 }
 
 .action_btn_ctn img {
@@ -230,13 +235,13 @@ body.clientNews .extImg {
 
 .mediaTop {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER1) !important;
 }
 
 .visibilityNotification {
   background-color: VAR(--BASE1) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   color: var(--ACCENT) !important;
   font-weight: BOLD !important;
 }
@@ -333,7 +338,7 @@ body.clientNews .extImg {
 }
 .market_listing_iteminfo {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 #largeiteminfo_clienthover {
   background: VAR(--BASE1) !important;
@@ -419,7 +424,7 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 .rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 
 #noteworthy_tab.tab.flyout_tab a.pulldown_desktop,
@@ -565,7 +570,7 @@ div.filterselect_options div.option {
 .index_AwardBadgeContainer_2SDnX {
   border-radius: VAR(--BORDERRADIUS) !important;
   background-color: VAR(--PANEL) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .index_ConvertionSectionTextContainer_xaO4v .index_PointsConvertion_5F9Az span {
   color: var(--BLACK) !important;
@@ -574,8 +579,9 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 .index_ConvertionSectionTextContainer_xaO4v {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 .globals_ShellHeader_3M7bf {
   background-color: none !important;
@@ -612,7 +618,7 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 .loyaltyprimarynav_SecondaryNavItem_2mFH5 {
-  padding:4px 14px!important;
+  padding: 4px 14px !important;
   background-image: none !important;
 }
 .loyaltyprimarynav_SecondaryNavItem_2mFH5:hover {
@@ -649,7 +655,7 @@ div.filterselect_options div.option {
   background: VAR(--BASE1) !important;
 }
 .itembox_ItemBox_2EUBP {
-  border-radius:var(--BORDERRADIUS)!important;
+  border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--BASE1) !important;
 }
 .banner_Banner_ECzA2 .banner_Link_185F6 {
@@ -809,7 +815,7 @@ div.filterselect_options div.option {
 }
 .eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl)
   .eventcalendartile_Tile_3xvUZ {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
 .eventcalendartile_TileContainer_1E3An
@@ -846,7 +852,7 @@ div.filterselect_options div.option {
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: 0 !important;
 }
 .eventcalendartile_TileContainer_1E3An
@@ -873,7 +879,7 @@ div.filterselect_options div.option {
 .curatorfeedsuggestrow_FeedSuggestContainer_1420T {
   background-image: NONE !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .curatorfeedbrowse_CuratorInfoIcon_3Y0jF
   .curatorfeedbrowse_CuratorInfoActionCtn_2y3rS
@@ -1234,7 +1240,7 @@ a.linkbar > img {
 .recent_game {
   background-color: VAR(--RECENTGAME) !important;
   backdrop-filter: blur(10px) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .profile_content.has_profile_background {
   z-index: 0 !important;
@@ -1264,7 +1270,7 @@ a.linkbar > img {
   border-radius: 6 !important;
   border: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
 }
 .carousel_container.maincap .carousel_items:active {
   background: VAR(--BASE1) !important;
@@ -1368,7 +1374,7 @@ body::-webkit-scrollbar {
 .inventory_load_error {
   border: 0 !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .btn {
   background: VAR(--ACCENT) !important;
@@ -1469,7 +1475,7 @@ body::-webkit-scrollbar {
 .microtrailers_flavor_container {
   background-image: none !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 span.experiment-name {
   color: VAR(--ACCENT) !important;
@@ -1484,7 +1490,7 @@ span.experiment-name {
 .capsule {
   background-image: none !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 body.clientNews .post_title {
   color: VAR(--ACCENT) !important;
@@ -1508,7 +1514,7 @@ h3 {
 .image_block,
 .bottom_block {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .image_block .text,
 .bottom_block .text {
@@ -1539,7 +1545,7 @@ h3 {
 }
 .apphub_ContentGuides .workshopItemCollection {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .workshopItemCollection .workshopItemShortDesc {
   color: VAR(--ACCENT) !important;
@@ -1610,7 +1616,7 @@ input.inputTagsFilter + label {
 .workshop_item_row {
   background: VAR(--BASE1) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .workshop_browse_tab.active {
   border-bottom: 2px solid VAR(--ACCENT) !important;
@@ -1696,7 +1702,7 @@ a.store_header_btn_content {
 }
 .Curators_loading {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .curators_for_app_filter_menu_flyout {
   color: VAR(--ACCENT) !important;
@@ -1729,12 +1735,12 @@ a.store_header_btn_content {
 }
 .grouped_searchresults_forumname {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   margin-bottom: 4px !important;
 }
 .discussion_search_pagingcontrols {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .forum_pagesize_options {
   color: VAR(--ACCENT) !important;
@@ -1765,7 +1771,7 @@ a.store_header_btn_content {
   background-color: var(--BUTTON2) !important;
 }
 .workshopItemSubscription {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
 }
 .workshopItemSubscription:hover {
@@ -1776,13 +1782,13 @@ a.store_header_btn_content {
   background-color: TRANSPARENT !important;
 }
 .workshopBrowsePagingWithBG {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
 }
 body.v6 .page_desc {
   border: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .queue_ctn .queue_reason_description {
   color: VAR(--ACCENT) !important;
@@ -1796,7 +1802,7 @@ body.v6 .page_desc {
 }
 .block {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .item_desc_content.app753.context1 .item_desc_descriptors {
   color: VAR(--ACCENT) !important;
@@ -1816,7 +1822,7 @@ body.v6 .page_desc {
 }
 .dlc_page_purchase_dlc {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .game_name {
   color: VAR(--ACCENT) !important;
@@ -1849,7 +1855,7 @@ body.v6 .page_desc {
 .home_block_footer {
   color: VAR(--ACCENT) !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .home_specials_grid .special:hover {
   background: VAR(--BASE1) !important;
@@ -1858,7 +1864,7 @@ body.v6 .page_desc {
 }
 .home_specials_grid .special {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .block .block_content_inner p {
   color: VAR(--ACCENT) !important;
@@ -1873,7 +1879,7 @@ body.v6 .page_desc {
 .package_totals_area {
   color: VAR(--ACCENT) !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_settings_container p.info {
   color: VAR(--ACCENT) !important;
@@ -1890,11 +1896,11 @@ body.v6 .page_desc {
 .follow_controls,
 .ignore_controls.ignored {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .socialmedia_accounts > * {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .curator_details {
   text-shadow: NONE !important;
@@ -1924,7 +1930,7 @@ body.v6 .page_desc {
 }
 .friendBlock.persona.online {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .commentthread_subscribe_hint .commentthread_subscribe_hint_q {
   color: VAR(--ACCENT) !important;
@@ -1943,7 +1949,7 @@ body.v6 .page_desc {
 .review_comments_disabled {
   background: VAR(--BASE1) !important;
   color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .user_reviews_count {
   color: VAR(--ACCENT) !important;
@@ -1962,14 +1968,14 @@ body.v6 .page_desc {
 }
 .mature_content_filtered {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .contenthub_subtitle {
   color: VAR(--ACCENT) !important;
 }
 .friendactivity_tab_row {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .page_desc {
   border-top: 1px solid var(--SHADOW) !important;
@@ -2008,7 +2014,7 @@ body.v6 h2.morelike_section_divider {
 }
 .similar_grid_item {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .recommendation_highlight.morelikethis_border {
   background-image: NONE !important;
@@ -2043,14 +2049,14 @@ body.v6 h2.morelike_section_divider {
 .inventory_history_pagingrow {
   color: VAR(--ACCENT) !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .inventory_history_message {
   color: VAR(--ACCENT) !important;
 }
 .inventory_history_message.inventory_history_message_blue {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .right_controls_large_block div.secondary {
   color: var(--BLACK) !important;
@@ -2058,7 +2064,7 @@ body.v6 h2.morelike_section_divider {
 }
 .tradeoffer_welcome_ctn {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .market_headertip {
   color: VAR(--ACCENT) !important;
@@ -2066,7 +2072,7 @@ body.v6 h2.morelike_section_divider {
 }
 .market_headertip_container {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .inventory_iteminfo {
   background-color: VAR(--BASE1) !important;
@@ -2097,7 +2103,7 @@ div.sortselect_options div.option:hover {
 }
 .review_box .vote_header {
   background: var(--BASE3) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .review_box .vote_header .hours {
   color: VAR(--ACCENT) !important;
@@ -2109,7 +2115,7 @@ div.sortselect_options div.option:hover {
 #rightContents .panel {
   border: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .menu_ico {
   opacity: 60% !important;
@@ -2164,7 +2170,7 @@ div.sortselect_options div.option:hover {
   background-color: var(--TEXTENTRY) !important;
 }
 .review_events_preferences_radio_btns {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_preferences .gray_bevel input,
 .account_preferences .gray_bevel textarea {
@@ -2185,14 +2191,14 @@ div.sortselect_options div.option:hover {
 }
 .deauthorize_box {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .twofactor_settings_radiobtn_header {
   color: VAR(--ACCENT) !important;
 }
 .twofactor_box {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_table th {
   background-color: VAR(--ACCENT) !important;
@@ -2200,7 +2206,7 @@ div.sortselect_options div.option:hover {
 .account_change_country_content {
   color: VAR(--ACCENT) !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .checkout_main .dselect_container a,
 .checkout_main .dselect_container a:hover,
@@ -2218,11 +2224,11 @@ div.sortselect_options div.option:hover {
   background: VAR(--ACCENT) !important;
 }
 body.checkout .block .block_content {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 #payment_info_tab .checkout_content .payment_info_form_area {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .addfunds_footer {
   color: VAR(--ACCENT) !important;
@@ -2245,11 +2251,11 @@ body.checkout .block .block_content {
 }
 .managefriends_Background_1xwi0 {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .phone_box {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 td.wht_wallet_balance.wallet_entry_highlight {
   color: var(--BLACK) !important;
@@ -2338,7 +2344,7 @@ td.wht_date {
 }
 .dq_settings_checkrow {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .review_anomalous_events_icon {
   color: VAR(--ACCENT) !important;
@@ -2356,7 +2362,7 @@ td.wht_date {
 }
 .account_settings_container {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .wallet_history_click_hint {
   color: VAR(--ACCENT) !important;
@@ -2366,11 +2372,11 @@ td.wht_date {
   background: VAR(--ACCENT) !important;
 }
 .account_setting_block {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_setting_block_short {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_manage_link {
   font-weight: 500 !important;
@@ -2388,7 +2394,7 @@ td.wht_date {
 }
 .account_header_line {
   background-color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_setting_block {
   background: VAR(--BASE1) !important;
@@ -2535,17 +2541,17 @@ label.send_choice_txt {
 }
 #sidebar_community_help {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .dark_bg,
 #content .pagetext {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .accountInfoBlock .block_content {
   background: VAR(--BASE1) !important;
   color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .checkout_content_box input[type="text"],
 .checkout_content_box input[type="password"],
@@ -2562,7 +2568,7 @@ label.send_choice_txt {
 }
 .email_pref_ctn.individual_pref {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .redeem_wallet_code_upsell_header,
 .registerkey_instructions_header {
@@ -2612,7 +2618,7 @@ label.send_choice_txt {
 .profile_customization_header {
   color: VAR(--ACCENT) !important;
   background: VAR(--PANEL) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 body.v6 .store_nav .popup_menu_subheader,
 body.v6 #footer_nav .popup_menu_subheader {
@@ -2643,7 +2649,7 @@ body.v6 #footer_nav .popup_menu_subheader {
 }
 .recommendation_row {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .persona.online,
 a.persona.online,
@@ -2671,7 +2677,7 @@ h4 {
 }
 .recommendation_highlight {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 #detailStats td b {
   font-size: 12px !important;
@@ -2703,7 +2709,7 @@ a {
 }
 .creatorhome .curator_featured > div {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .autocollapse_enabled .search_collapse_block .block_header {
   background: VAR(--ACCENT) !important;
@@ -2711,7 +2717,7 @@ a {
 .browse_tag_games,
 .browse_tag_game_total {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .dailydeal_ctn {
   border: 1px solid var(--SHADOW) !important;
@@ -2770,7 +2776,7 @@ a {
 }
 .explore_rightcol_box {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .explore_rightcol_count {
   font-family: segoe ui !important;
@@ -2802,7 +2808,7 @@ a {
 .creatorhome .browse_content .recommendation {
   margin-bottom: 4px !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .curator_review_date {
   color: VAR(--ACCENT) !important;
@@ -2879,7 +2885,7 @@ select {
   border-radius: 0 !important;
   border: 0 !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .market_listing_num_listings_qty {
   color: var(--BLACK) !important;
@@ -2905,7 +2911,7 @@ select {
 .market_tab_well_tabs {
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--PANEL) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .market_advancedsearch_appname {
   color: VAR(--ACCENT) !important;
@@ -2944,7 +2950,7 @@ a.commentthread_author_developer {
 }
 .content-hover-section {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 #search_box input {
   color: VAR(--ACCENT) !important;
@@ -2956,7 +2962,7 @@ a.commentthread_author_developer {
 }
 .right_col #contact_support_container {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .weblink a {
   background: VAR(--ACCENT) !important;
@@ -3000,7 +3006,7 @@ h2.large_title {
   outline: 0 !important;
 }
 .Broadcast_Card.apphub_Card {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .filter_ctn.inventory_filters #filter_control {
   color: VAR(--ACCENT) !important;
@@ -3022,7 +3028,7 @@ h2.large_title {
 }
 .managefriends_DimBackground_2N55H {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .market_search_sidebar_contents {
   background: var(--BASE2) !important;
@@ -3035,7 +3041,7 @@ h2.large_title {
   color: VAR(--ACCENT) !important;
 }
 .market_listing_table_message {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: var(--BASE3) !important;
 }
 
@@ -3134,7 +3140,7 @@ body.v6 .game_page_background {
 .search_result_row {
   border-radius: 6px !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .search_result_row,
 .search_result_row:hover {
@@ -3161,7 +3167,7 @@ body.v6 h2.pageheader {
 .community_recommendation_app > .right_col {
   background: VAR(--BASE1) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 h2 {
   font-weight: 500 !important;
@@ -3180,7 +3186,7 @@ h2 {
 #live_streams_carousel .carousel_items .store_capsule {
   border-radius: 0 !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .highlight_ctn .slider_ctn .slider_left,
 .highlight_ctn .slider_ctn .slider_right,
@@ -3205,7 +3211,7 @@ h2 {
 .forum_topic {
   background-color: VAR(--BASE1) !important;
   border-radius: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 
 .discussions_forum_row {
@@ -3298,7 +3304,7 @@ a.pulldown_desktop {
 }
 .cart_row {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .store_main_capsule,
 .store_main_capsule:hover {
@@ -3313,7 +3319,7 @@ a.pulldown_desktop {
   border: 0 !important;
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--BIRTHDAYSELECTOR) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 #app_agegate select {
   border-bottom: 1px SOLID var(--DROPDOWNBOTTOMBORDER) !important;
@@ -3413,7 +3419,7 @@ div.sortselect #sortselect_activesort {
 }
 .recommended_grid .special {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .cart_recommendations_ctn p {
   color: VAR(--ACCENT) !important;
@@ -3429,7 +3435,7 @@ div.sortselect #sortselect_activesort {
 }
 .cart_notice_section {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .dailydeal_ctn .dailydeal_desc {
   color: VAR(--ACCENT) !important;
@@ -3476,7 +3482,7 @@ span.vr_required {
 }
 .cart_digital_notice {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .store_header_btn_green a {
   background: VAR(--GREEN) !important;
@@ -3492,7 +3498,7 @@ span.vr_required {
 }
 .game_area_comingsoon .content {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .game_area_comingsoon {
   color: VAR(--ACCENT) !important;
@@ -3510,7 +3516,7 @@ body.v6 #footer_nav .pulldown {
 }
 .review_box.short .shortcol {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .user_reviews_filter_score {
   color: VAR(--ACCENT) !important;
@@ -3588,7 +3594,7 @@ p.sectionText {
   color: VAR(--ACCENT) !important;
 }
 .game_button > span {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
   border: 0 !important;
@@ -3608,7 +3614,7 @@ p.sectionText {
   border: 0 !important;
   border-radius: VAR(--BORDERRADIUS) !important;
   background-color: VAR(--MARKETLISTING) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .market_listing_row:hover {
   background: VAR(--MARKETLISTINGHOVER) !important;
@@ -3639,7 +3645,7 @@ a.market_listing_row_link:visited {
   border-radius: VAR(--BORDERRADIUS) !important;
   border: 0 !important;
   background-color: VAR(--USERINFO) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .market_tab_well_tab_active > span {
   background: VAR(--ACCENT) !important;
@@ -3699,7 +3705,7 @@ a.persona.in-game,
 .help_game_refund_box {
   background-color: VAR(--BASE1) !important;
   color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .review_box .num_reviews a,
 .review_box .num_owned_games a {
@@ -3708,7 +3714,7 @@ a.persona.in-game,
 .review_box .persona_name a,
 .persona_name a {
   color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .subSectionTitle {
   color: VAR(--ACCENT) !important;
@@ -3761,7 +3767,7 @@ a.persona.in-game,
 .help_before_contacting_steam_support_details {
   background-color: VAR(--BASE1) !important;
   color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .block a.linkbar {
   color: VAR(--ACCENT) !important;
@@ -3948,7 +3954,7 @@ body.v6 .deep_dive_key_tags {
 blockquote.bb_blockquote,
 .bb_wysiwyg blockquote {
   background: var(--BASE3) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 div.bb_code,
 .bb_wysiwyg pre,
@@ -3968,7 +3974,7 @@ blockquote.bb_blockquote,
 }
 #review_histograms_container {
   background-color: VAR(--REVIEWHISTOGRAM) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .user_reviews_filter_menu .title {
   background-image: NONE !important;
@@ -4023,14 +4029,14 @@ body.v6 h2 {
   border: 0 !important;
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--PANEL) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 .user_reviews_sub_header {
   color: VAR(--ACCENT) !important;
 }
 
 .review_box {
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
 .review_box .content {
@@ -4086,7 +4092,7 @@ a {
 }
 .apphub_SectionFilter {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 div.filterselect {
   background: var(--BUTTON2) !important;
@@ -4148,7 +4154,7 @@ div.filterselect_options div.option:hover {
 }
 .apphub_UserReviewCardContent {
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .apphub_UserReviewCardContent .found_helpful {
   border-bottom: 1px SOLID var(--SHADOW) !important;
@@ -4240,7 +4246,7 @@ body.v6 .discount_prices > div {
   margin: 2px !important;
 }
 body.v6 .comingsoon_capsules > a {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .comingsoon_capsules > a > div.info {
   color: VAR(--ACCENT) !important;
@@ -4253,7 +4259,7 @@ body.v6.comingsoon .comingsoon_headercaps > a {
 }
 .paged_items_paging {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .page_content.steam_curator_header_text .header_area span {
   color: VAR(--ACCENT) !important;
@@ -4272,7 +4278,7 @@ body.v6.comingsoon .comingsoon_headercaps > a {
   border-radius: var(--BORDERRADIUS) !important;
   margin-bottom: 4px !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .blotter_day_header_divider {
   display: none !important;
@@ -4496,7 +4502,7 @@ body.recommendgame #review_create {
   border-radius: 0 !important;
 }
 .recommended_creators_ctn .store_capsule {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-image: none !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -4644,7 +4650,7 @@ body.v6 .supernav_content {
 }
 .parental_settings_box {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .accountTable > tbody > tr:nth-child(even) {
   background-color: var(--BASE2) !important;
@@ -4870,7 +4876,7 @@ div.store_header_btn {
 }
 .spotlight_content {
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
 .home_area_spotlight.underlined_links {
@@ -4921,7 +4927,7 @@ div.store_header_btn {
 }
 .store_capsule .discount_block {
   border-radius: 6px !important;
-  box-shadow: 1px 1px 2px var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
   border: 0 !important;
   background-color: VAR(--BASE1) !important;
 }
@@ -4935,7 +4941,7 @@ div.store_header_btn {
 .friends_recently_purchased .friends_container {
   border: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .friends_recently_purchased .store_capsule {
   background-image: none !important;
@@ -4949,7 +4955,7 @@ div.store_header_btn {
   background: 0 0 !important;
 }
 .help_app_header {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
 .help_app_header .game_name a {
@@ -5029,7 +5035,7 @@ img.tab_item_cap_img {
 .share {
   color: VAR(--ACCENT) !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .newshr {
@@ -5041,7 +5047,7 @@ img.member_tile {
 }
 .apphub_Card.interactable {
   border-radius: var(--BORDERRADIUS) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .apphub_Card.interactable:hover {
   border: 1px solid transparent !important;
@@ -5064,7 +5070,7 @@ img.member_tile {
   background-color: var(--BUTTON2) !important;
   border: 0 !important;
   border-radius: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .community_home_shortcut_content {
   border-radius: var(--BORDERRADIUS) !important;
@@ -5144,7 +5150,7 @@ img.member_tile {
 }
 .curator_page {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .giant_curator_capsule img {
   border-radius: var(--BORDERRADIUS) !important;
@@ -5181,7 +5187,7 @@ a.home_marketing_message {
   color: VAR(--ACCENT) !important;
   border-radius: 6px !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
 }
 .home_content.single_buttonbar {
   background: var(--BASE2) !important;
@@ -5316,7 +5322,7 @@ a.home_marketing_message {
   border-radius: 6px !important;
   top: 15px !important;
   background: var(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER1) !important;
   margin-top: 64px !important;
 }
 body.v6 .home_rightcol .tab_preview h2 {
@@ -5405,7 +5411,7 @@ body.v6.newonsteam .newonsteam_headercaps > a {
 }
 .quadscreenshot_carousel .main {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .contenthub_page .tabarea .tab.active .tab_content:hover {
   background: var(--ACCENT) !important;
@@ -5740,7 +5746,7 @@ body.flat_page:not(.iframe) {
 }
 .workshop_item_header {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .sectionTab.active > span {
   background: var(--ACCENT) !important;
@@ -5830,7 +5836,7 @@ a.sectionTab {
 a.recent_game_discussion {
   border-radius: 0 !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 a.recent_game_discussion:hover {
   border-radius: 0 !important;
@@ -5840,7 +5846,7 @@ a.recent_game_discussion:hover {
   border-radius: 0 !important;
   background-color: VAR(--BASE1) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .discussions_forum_row:hover {
   border: 0 !important;
@@ -5971,7 +5977,7 @@ div#headerSearch.friend_activity_header_search {
   border: 1px SOLID var(--BUTTONBORDER) !important;
 }
 .forumtopic_comments .commentthread_comment {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
   margin-bottom: 2px !important;
   padding: 12px 8px 20px 60px !important;
@@ -5990,19 +5996,19 @@ div#headerSearch.friend_activity_header_search {
   background-position: top left !important;
   border: 0 !important;
   border-radius: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .blotter_block {
   position: relative !important;
   background: VAR(--PANEL) !important;
   border-radius: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .dynamiclink_box {
   border: 0 !important;
   background: none !important;
   background-color: var(--BASE3) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .profile_header_bg_texture {
   background-color: VAR(--PANEL) !important;
@@ -6013,7 +6019,7 @@ div#headerSearch.friend_activity_header_search {
   min-height: 200px !important;
   padding-bottom: 15px !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .profile_header_bg {
   background-image: none !important;
@@ -6159,11 +6165,11 @@ a.persona,
 }
 .showcase_content_bg {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .friendBlock.persona.offline {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .achievement_progress_bar_ctn .progress_bar {
   background: VAR(--PROGRESSBAR) !important;
@@ -6278,7 +6284,7 @@ a.persona,
 }
 .help_game_guides_box {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .help_text_block {
   color: VAR(--ACCENT) !important;
@@ -6299,7 +6305,7 @@ a.persona,
 .help_wizard_button {
   background: var(--BUTTON2) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .help_wizard_button_large > span {
   margin: 10px 14px 10px 14px !important;
@@ -6388,7 +6394,7 @@ a.games_list_tab.first_tab {
 }
 .review_recent_events {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .profile_friends.title_bar,
 .profile_groups.title_bar {
@@ -6435,7 +6441,7 @@ a.games_list_tab.first_tab {
 .friend_reviews .review_box {
   border: 0 !important;
   background: VAR(--FRIENDREVIEW) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .review_box.short {
   background: var(--BUTTON2) !important;
@@ -6498,7 +6504,7 @@ input.btn_small_thin {
 .search_results_none {
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 #search_results.profile_friends.search_results {
   margin-top: 0 !important;
@@ -6597,7 +6603,7 @@ body.v6 h2 .header_inline {
 .apphub_StoreInfoHeader {
   border-top: 0 !important;
   background-color: VAR(--APPHUBINFOHEADER) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .ds_flag {
@@ -6628,7 +6634,7 @@ body.v6 h2 .header_inline {
 .gameListRow {
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .home_discovery_queue_ctn .home_title_ctn,
 .home_discovery_queue_ctn .home_subtitle_ctn {
@@ -6782,14 +6788,14 @@ input.btn_medium {
 #rightContents .box {
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .cart_tab_off {
   color: VAR(--ACCENT) !important;
 }
 .newonsteam_capsules > a > div.info {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   color: VAR(--ACCENT) !important;
 }
 .game_area_purchase_game b,
@@ -6825,7 +6831,7 @@ a.trigger {
 .block_content.block_content_inner.dark {
   border-radius: 0 !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .popup_body.popup_menu.shadow_content {
   border-radius: var(--BORDERRADIUS) !important;
@@ -6853,7 +6859,7 @@ a.trigger {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .home_area_spotlight.underlined_links {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
 }
 .favoritegame_showcase .game_info_stats,
@@ -6986,7 +6992,7 @@ select {
   margin-left: 5px !important;
 }
 .search_row {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -7040,7 +7046,7 @@ body.headerless_page #footer_spacer {
   border: 0 !important;
   background-color: VAR(--BASE1) !important;
   color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .highlight_movie {
   border-radius: var(--BORDERRADIUS) !important;
@@ -7072,7 +7078,7 @@ body.headerless_page #footer_spacer {
   border-top: 0 !important;
   color: VAR(--ACCENT) !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .review_rate_bar {
   color: VAR(--ACCENT) !important;
@@ -7080,7 +7086,7 @@ body.headerless_page #footer_spacer {
 }
 .review_app_actions {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .ratingSummary {
   color: VAR(--ACCENT) !important;
@@ -7096,7 +7102,7 @@ body.v6 .game_area_already_owned.page_content {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .game_area_play_stats {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -7132,7 +7138,7 @@ a.games_list_tab {
 }
 .review_developer_response_container.multiple_listing.store {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .user_reviews_summary_bar .summary_section {
   color: VAR(--ACCENT) !important;
@@ -7240,7 +7246,7 @@ a.games_list_tab {
   font-weight: BOLD !important;
 }
 .review_box a.vote_header {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border: 0 !important;
   background: var(--REVIEWBOX) !important;
   border-radius: var(--BORDERRADIUS) !important;
@@ -7284,7 +7290,7 @@ body.v6 #footer .rule {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .rightcol.game_meta_data .block {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border: 0 !important;
   background: VAR(--BASE1) !important;
   border-radius: 0 !important;
@@ -7385,7 +7391,7 @@ body.v6 #footer .rule {
   border: 0 !important;
   background: VAR(--BASE1) !important;
   border-radius: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .review_ctn {
   border-top: 0 !important;
@@ -7394,7 +7400,7 @@ body.v6 #footer .rule {
 .group_comments .commentthread_comment:not(.hidden_post):hover,
 .profile_comment_area .commentthread_comment:not(.hidden_post):hover {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .promo_item_list .item .info .percent {
   background-color: #78be6d !important;
@@ -7500,7 +7506,7 @@ body.v6 #footer .rule {
 }
 .ds_flag.ds_owned_flag {
   color: VAR(--ACCENT) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: var(--BASE3) !important;
   border-radius: 0 !important;
 }
@@ -7518,7 +7524,7 @@ body.v6 #footer .rule {
   border-radius: var(--BORDERRADIUS) !important;
 }
 div.early_access_header {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
   border: 0 !important;
   border-radius: var(--BORDERRADIUS) !important;
@@ -7586,7 +7592,7 @@ h2 span.note:hover {
   background-color: VAR(--BASE1) !important;
   border-bottom-left-radius: var(--BORDERRADIUS) !important;
   border-bottom-right-radius: var(--BORDERRADIUS) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .user_reviews_filter_menu {
   border-left: 0 !important;
@@ -7691,7 +7697,7 @@ div.early_access_announcements .post .more {
 }
 .referring_curator {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 div.early_access_announcements .post .more:hover {
@@ -7902,7 +7908,7 @@ a.group_tab:hover {
 .rightbox {
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .joinchat_bg {
   position: relative;
@@ -7946,7 +7952,7 @@ span.bb_link_host {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .member_block {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -7959,12 +7965,12 @@ span.bb_link_host {
 }
 .group_paging {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .announcement {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 a.readmore_link {
@@ -7996,7 +8002,7 @@ a.pagebtn {
 }
 .forum_newtopic_header {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   color: VAR(--ACCENT) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -8090,7 +8096,7 @@ input.btn_small:hover {
 .commentnotification {
   background-image: none !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .commentnotifications_header_content b {
   color: VAR(--ACCENT) !important;
@@ -8129,7 +8135,7 @@ input.btn_small:hover {
 .commentnotifications_header {
   background-image: none !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .commentnotifications_header_rule {
   background-color: var(--SHADOW) !important;
@@ -8168,7 +8174,7 @@ input.btn_small:hover {
   color: VAR(--ACCENT) !important;
 }
 .forumtopic_answer.answer_ctn {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border: 0 !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -8207,17 +8213,17 @@ img#blotter_nofriends_block {
   border: 0 !important;
   background: VAR(--BASE1) !important;
   border-radius: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .blotter_eventsblock {
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .friends_add_block {
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .profile_options_divider {
   height: 0 !important;
@@ -8287,7 +8293,7 @@ span.bb_spoiler {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .primary_panel_border.panel_margin_none {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .avatarIcon_48 img {
   border-radius: var(--BORDERRADIUS) !important;
@@ -8308,7 +8314,7 @@ span.bb_spoiler {
   background-color: VAR(--BASE1) !important;
   border-radius: 0 !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .view_inventory_page.inventory_msg_ctn {
   border: 0 !important;
@@ -8328,7 +8334,7 @@ span.bb_spoiler {
 }
 .booster_creator_area {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .booster_creator_goostatus {
   border-top: 1px SOLID var(--SHADOW) !important;
@@ -8337,7 +8343,7 @@ span.bb_spoiler {
 .market_dialog_contents .item {
   border-radius: 0 !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .rightSectionHolder {
   background: 0 0 !important;
@@ -8347,7 +8353,7 @@ span.bb_spoiler {
   border: 0 !important;
   border-radius: 0 !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .games_list_tab.active {
   margin-left: 1px !important;
@@ -8382,7 +8388,7 @@ a.games_list_tab.first_tab {
 .filter_tag_options {
   border: 0 !important;
   background-color: VAR(--APPDETAILSPANEL) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .view_inventory_page .inventory_page_right {
   border-radius: var(--BORDERRADIUS) !important;
@@ -8397,7 +8403,7 @@ a.games_list_tab.first_tab {
   background-color: var(--BUTTON2) !important;
 }
 .item_market_actions {
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-color: VAR(--BASE1) !important;
   border-bottom-left-radius: var(--BORDERRADIUS) !important;
   border-bottom-right-radius: var(--BORDERRADIUS) !important;
@@ -8425,7 +8431,7 @@ a.games_list_tab.first_tab {
   border-radius: 0 !important;
   background: VAR(--BASE1) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .badge_title {
   color: VAR(--ACCENT) !important;
@@ -8459,7 +8465,7 @@ a.games_list_tab.first_tab {
 .profile_xp_block {
   border: 0 !important;
   background-color: VAR(--PROFILEXPBACKGROUND) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
 .profile_xp_block_remaining_bar_progress {
@@ -8525,7 +8531,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {
 .browseApps {
   background-color: VAR(--BASE1) !important;
   border-radius: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .browseAppsTitleContainer {
   border-radius: 0 !important;
@@ -8620,7 +8626,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {
   background: VAR(--BASE1) !important;
   margin-top: 5px !important;
   border-radius: var(--BORDERRADIUS) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 #MessageContent {
   margin-top: 5px !important;
@@ -8654,7 +8660,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {
 }
 .rightcol_controls {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: 0 !important;
 }
 .rightcol_controls_rule {
@@ -8679,7 +8685,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {
   padding: 20px 0 0 0 !important;
 }
 .achieveTxtHolder {
-  box-shadow: 1px 1px 2px var(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER1) !important;
   background-color: VAR(--BASE1) !important;
   padding: 0 10px !important;
   border-radius: 6px !important;
@@ -8735,7 +8741,7 @@ h2.pageheader {
 }
 .notification_paging {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   color: VAR(--ACCENT) !important;
 }
 .achievementProgressBar .progress {
@@ -8845,7 +8851,7 @@ body.v6.winter_sale_home h2.winter {
 .subforum_select_area,
 .forum_newtopic_infomessage {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .newmodal {
   background: var(--BASE2) !important;
@@ -8895,7 +8901,7 @@ textarea.gray_bevel,
 .forum_newtopic_box,
 .forum_formarea_box {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .carousel_items.store_capsule_container > * > * {
   border-radius: var(--BORDERRADIUS) !important;
@@ -8914,7 +8920,7 @@ div.profile_page.has_profile_background {
 .profile_friends .friend_block_v2 {
   width: 280px !important;
   background: var(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: 6px !important;
 }
 .profile_friends .friend_block_v2:hover {
@@ -8962,7 +8968,7 @@ div.bb_h3,
   border-radius: 0 !important;
   border: 0 !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .grouppage_membertiles_overlay {
   top: 0 !important;
@@ -9077,7 +9083,7 @@ body.v6 #footer #footer_text a {
 }
 .community_home_app_shortcuts .community_home_shortcut_content {
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 a,
 .whiteLink {
@@ -9128,7 +9134,7 @@ input.btn_medium {
   border-radius: 0 !important;
   background-color: VAR(--BASE1) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .carousel_container.spotlight .carousel_items > * .store_capsule {
   border: 0 !important;
@@ -9169,7 +9175,7 @@ body.v6 #footer_nav .popup_block_new .popup_body {
 }
 .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .eventrow_OtherEvents_EventCtn_1MwNf.eventrow_HorizontalEvent_1ruRS
   .eventrow_HorizontalDescription_2hPZw {
@@ -9210,7 +9216,7 @@ body.v6 #footer_nav .popup_block_new .popup_body {
 #iteminfo0 .item_desc_content,
 #iteminfo1 .item_desc_content {
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .btn_grey_black {
   color: var(--WHITE) !important;
@@ -9281,7 +9287,7 @@ input.discussionSearchText::selection {
 #ig_bottom .sidebar .panel,
 #ig_bottom .sidebar .detailPanel {
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER1) !important;
 }
 .commentthread_comment_text {
   color: VAR(--ACCENT) !important;
@@ -9300,7 +9306,7 @@ a.persona.in-game,
 .persona.in-game.a {
   color: VAR(--GREEN) !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px VAR(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER1) !important;
   border-radius: 6px !important;
 }
 
@@ -9317,7 +9323,7 @@ a.persona.online,
   border-radius: 6px !important;
   border: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 
 .friends_search_text_box,
@@ -9355,7 +9361,7 @@ a.persona.online,
   background: VAR(--BASE1) !important;
   border-radius: 6px !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
 }
 
 .block .block_header {
@@ -9364,7 +9370,7 @@ a.persona.online,
 
 .carousel_container.spotlight .carousel_items > * .store_capsule.daily_deal {
   border-radius: 6px !important;
-  box-shadow: 1px 1px 2px var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
 }
 
 .btn_medium > span,
@@ -9419,7 +9425,7 @@ a.persona,
   transition: all 0.18s ease-in-out !important;
   background: var(--PANEL) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
 .group_block:hover {
