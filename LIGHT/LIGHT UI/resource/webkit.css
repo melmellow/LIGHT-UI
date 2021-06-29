@@ -6597,8 +6597,9 @@ body.v6 h2 .header_inline {
   height: 0 !important;
 }
 .apphub_HeaderBottom {
+  border-radius: VAR(--BORDERRADIUS) !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 1px 0px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .apphub_StoreInfoHeader {
   border-top: 0 !important;
