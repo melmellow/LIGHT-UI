@@ -8154,6 +8154,7 @@ input.btn_small:hover {
   color: VAR(--ACCENT) !important;
 }
 .grouppage_logo {
+  border-radius:var(--GROUPIMAGEBORDERRADIUS)!important;
   background-image: none !important;
 }
 .commentnotification_newposts {
