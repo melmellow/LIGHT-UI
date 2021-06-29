@@ -2406,6 +2406,7 @@ td.wht_date {
   border-bottom: 1px SOLID var(--SHADOW) !important;
 }
 .youraccount_steamid {
+  DISPLAY:NONE!important;
   color: VAR(--ACCENT) !important;
 }
 .dq_settings_checkrow {
