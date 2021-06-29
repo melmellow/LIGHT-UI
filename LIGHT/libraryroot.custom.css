@@ -251,6 +251,8 @@
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --SELECTEDLISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
+  --LISTITEMRIGHTBORDERWIDTH: 0;
+  --LISTITEMRIGHTBORDER: TRANSPARENT;
   --CONTEXTMENUBORDER: VAR(--DIVIDER);
   --CONTEXTMENUSHADOW: "NONE";
   --CONTEXTMENU: VAR(--BASE3);
@@ -4527,6 +4529,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
 .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
   background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
+  border-right: var(--LISTITEMRIGHTBORDERWIDTH) SOLID VAR(--LISTITEMRIGHTBORDER) !important;
 }
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z:hover,
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
