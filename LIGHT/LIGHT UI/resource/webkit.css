@@ -2911,6 +2911,7 @@ div.early_access_header .heading {
 }
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {
   border-radius: var(--COMMENTTHREADTEXTENTRYBR) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
   background-color: var(--TEXTENTRY) !important;
 }
 

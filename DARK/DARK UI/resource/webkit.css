@@ -2912,6 +2912,7 @@ div.early_access_header .heading {
 }
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {
   border-radius: var(--COMMENTTHREADTEXTENTRYBR) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
   background-color: var(--TEXTENTRY) !important;
 }
 
@@ -6002,11 +6003,7 @@ a.forum_comment_action:hover {
   background-color: var(--ACCENT) !important;
   border: 0 !important;
 }
-.blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
-  background-color: var(--TEXTENTRY) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
-}
+
 div#headerSearch.friend_activity_header_search {
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
   background-color: var(--TEXTENTRY) !important;
