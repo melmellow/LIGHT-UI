@@ -18,10 +18,12 @@
   --BLACK: #000;
   --WHITE: #fff;
   --MOREACHIEVEMENTSBG: TRANSPARENT;
-  --ACCOUNTHEADER:VAR(--ACCENT);
+  --ACCOUNTHEADER: VAR(--ACCENT);
   --SIDEBARBORDER: VAR(--BASE2);
   --SIDEBAR: VAR(--BASE1);
   --BORDERRADIUS: 4px;
+  --BORDERRADIUS2: 0 0 4px 4px;
+  --BORDERRADIUS3: 4px 4px 0 0;
   --GROUPIMAGEBORDERRADIUS: 50px;
   --APPHUBINFOHEADER: VAR(--BASE1);
   --PROFILEXPBACKGROUND: VAR(--BASE1);
@@ -2434,9 +2436,7 @@ td.wht_date {
   color: var(--WHITE) !important;
   background: VAR(--ACCENT) !important;
 }
-.account_setting_block {
-  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-}
+
 .account_setting_block_short {
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
@@ -2456,11 +2456,14 @@ td.wht_date {
   border-top: var(--SHADOW) !important;
 }
 .account_header_line {
+  border-radius: VAR(--BORDERRADIUS3) !important;
   background-color: VAR(--ACCOUNTHEADER) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_setting_block {
   background: VAR(--BASE1) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  border-radius: VAR(--BORDERRADIUS2) !important;
 }
 .save_preferences_desc {
   color: VAR(--ACCENT) !important;
