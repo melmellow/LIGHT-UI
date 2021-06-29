@@ -2911,9 +2911,22 @@ div.early_access_header .heading {
   background: VAR(--BASE1) !important;
 }
 .blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
-  background-color: var(--BUTTON2) !important;
+  border-radius: var(--COMMENTTHREADTEXTENTRYBR) !important;
+  background-color: var(--TEXTENTRY) !important;
 }
+
+.blotter_status_entry .commentthread_entry .commentthread_entry_quotebox:hover {
+  background-color: var(--TEXTENTRYBACKGROUNDHOVER) !important;
+  border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.blotter_status_entry
+  .commentthread_entry
+  .commentthread_entry_quotebox:focus-within {
+  background-color: var(--TEXTENTRYBACKGROUNDSELECTED) !important;
+  border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
+}
+
 #searchSubmitImg {
   opacity: 0 !important;
 }
