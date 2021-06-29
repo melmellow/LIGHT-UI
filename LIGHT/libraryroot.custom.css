@@ -138,6 +138,7 @@
   --NEGATIVEREVIEWICON: VAR(--WHITE);
   --MISSINGGAMEART: #d4d4d4;
   --INFOPANEL: VAR(--MISSINGGAMEART);
+  --MOREINFOICONFILT: CONTRAST(2);
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
   --BBACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLUE);
@@ -2737,7 +2738,7 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
 }
 .appdetailsplaysection_MenuButton_3qDWQ
   .appdetailsplaysection_DotDotDot_zvLq1:hover {
-  filter: brightness(0) !important;
+  filter: VAR(--MOREINFOICONFILT) !important;
 }
 
 .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
