@@ -17,6 +17,8 @@
   --trans: transparent;
   --BLACK: #fff;
   --WHITE: #000;
+  --SIDEBAR: VAR(--BASE1);
+  --SIDEBARBORDER: RGB(0, 0, 0);
   --BORDERRADIUS: 4px;
   --GROUPIMAGEBORDERRADIUS: 50px;
   --APPHUBINFOHEADER: VAR(--BASE1);
@@ -784,8 +786,8 @@ div.filterselect_options div.option {
   border-bottom: 1px solid #b6b6b6 !important;
 }
 .eventcalendar_SidebarContainer_15YLD {
-  border-right: 1px SOLID #bebebe !important;
-  background-color: VAR(--BASE1) !important;
+  border-right: 1px SOLID VAR(--SIDEBARBORDER) !important;
+  background-color: VAR(--SIDEBAR) !important;
 }
 .eventcalendar_SidebarContainer_15YLD
   .eventcalendar_CollapseButton_1RCio
@@ -829,6 +831,7 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 .legalfooter_LegalFooter_2XzXR {
+  DISPLAY:NONE!important;
   border-top: 1px SOLID var(--SHADOW) !important;
 }
 .eventcalendar_EventCalendarContainer_1e3Wb
@@ -851,9 +854,9 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ {
-  background: VAR(--BASE1) !important;
+  background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 .eventcalendartile_TileContainer_1E3An
   .eventcalendartile_TileTextCategoryType_1LkWX {
@@ -3016,8 +3019,17 @@ h2.large_title {
 }
 .DialogInput_Wrapper > input.DialogInput {
   color: VAR(--ACCENT) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: var(--TEXTENTRYBORDERWIDTH) SOLID var(--TEXTENTRYBORDER) !important;
 }
+
+.DialogInput_Wrapper > input.DialogInput:hover {
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.DialogInput_Wrapper > input.DialogInput:focus-within {
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
+}
+
 #market_advancedsearch_dialog .market_search_sidebar_search_box {
   border: 1px solid var(--BUTTONBORDER) !important;
   color: VAR(--ACCENT) !important;
@@ -6321,8 +6333,8 @@ a.persona,
 }
 #help_search_support_input {
   transition: all 0.18s ease-in-out !important;
-  HEIGHT:37PX!important;
-  font-size:18px!important;
+  height: 37px !important;
+  font-size: 18px !important;
   outline: NONE !important;
   font-style: normal !important;
   color: VAR(--ACCENT) !important;
