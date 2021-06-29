@@ -6054,7 +6054,7 @@ div#headerSearch.friend_activity_header_search {
 .blotter_comment_thread .commentthread_entry_quotebox {
   border-radius: var(--COMMENTTHREADTEXTENTRYBR) !important;
   background-color: var(--TEXTENTRY) !important;
-  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID var(--TEXTENTRY) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID var(--TEXTENTRYBORDER) !important;
 }
 
 .blotter_comment_thread .commentthread_entry_quotebox:hover {
