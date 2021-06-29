@@ -401,7 +401,7 @@ body.clientNews .extImg {
   background: VAR(--BASE1) !important;
 }
 .help_app_header img {
-  border-radius: 0 !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 .referringSteamCurator {
   color: VAR(--ACCENT) !important;
@@ -952,6 +952,12 @@ body.clientNews .post_pmbutton {
   filter: var(--FILT) !important;
   opacity: 60% !important;
 }
+
+.live_stream_play_icon {
+  transform: SCALE(0.08) !important;
+  filter: BRIGHTNESS(2) !important;
+}
+
 .apphub_CardContentPlayVideoIcon {
   transform: SCALE(0.08) !important;
   filter: BRIGHTNESS(2) !important;
@@ -2794,8 +2800,9 @@ a {
   background: var(--BASE2) !important;
 }
 .explore_rightcol_box {
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
 }
 .explore_rightcol_count {
   font-family: segoe ui !important;
@@ -3212,7 +3219,7 @@ h2 {
   background-color: VAR(--BLUE) !important;
 }
 #live_streams_carousel .carousel_items .store_capsule {
-  border-radius: 0 !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   border: 0 !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -4729,7 +4736,7 @@ div#global_header .submenuitem {
 .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
   background: VAR(--STORENAVBAR) !important;
   border-radius: var(--BORDERRADIUS) !important;
-  border: 1px solid var(--SHADOW) !important;
+  border: 1px solid var(--PANELBORDER) !important;
 }
 .navigation_bar > a.selected {
   background: VAR(--ACCENT) !important;
@@ -4984,7 +4991,9 @@ div.store_header_btn {
 }
 .help_app_header {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  background: VAR(--BASE1) !important;
+  background: VAR(--PANEL) !important;
+  border: 1px solid var(--PANELBORDER) !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 .help_app_header .game_name a {
   color: VAR(--ACCENT) !important;
@@ -5032,11 +5041,7 @@ a.following_button.btn_green_white_innerfade.btn_medium {
   background: TRANSPARENT !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
-.tab_item {
-  transition: border-width 0.3s ease-in-out !important;
-  margin: 5px !important;
-  border-radius: 0 !important;
-}
+
 img.tab_item_cap_img {
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -9351,9 +9356,11 @@ a.persona.online,
 }
 
 .tab_item {
-  border-radius: 6px !important;
+  transition: border-width 0.3s ease-in-out !important;
+  margin: 5px !important;
+  border-radius: var(--BORDERRADIUS) !important;
   border: 0 !important;
-  background: VAR(--BASE1) !important;
+  background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 
