@@ -48,6 +48,7 @@
   --ACTIVESCREENSHOTBORDERWIDTH: 2px;
   --SEARCHBARBACKGROUND: VAR(--BASE1);
   --TEXTENTRY: #e8e8e8;
+  --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --SCROLLTOTOPSIDEBAR: var(--ACCENT);
   --SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS: 30px;
@@ -176,7 +177,7 @@
   --COMMUNITYFEEDBORDERROUNDED4: 4px; /*top right*/
   --APPDETAILSPANEL: VAR(--BASE1);
   --APPDETAILSPANELHOVER: VAR(--BASE3);
-  --APPDETAILSPANELBORDER: unset;
+  --APPDETAILSPANELBORDER: VAR(--SHADOW);
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
   --ADVANCEDSEARCHBUTTONBACKGROUNDSELECTED: VAR(--BASE3);
   --ADVANCEDSEARCHBUTTONSELECTEDBORDER: VAR(--DIVIDER);
@@ -1596,7 +1597,7 @@ div.NarrowRightPanel
 .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Loading_2ZOgN
   .appdetailstradingcardssection_CardContainer_2DUDv {
   background-color: var(--TRADINGCARD) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
 .appproperties_AppProperties_1FyBL
@@ -1723,13 +1724,13 @@ a:-webkit-any-link {
 
 .appdetailsspotlight_NewDLCImage_2ze8W {
   background: VAR(--NEWLYADDEDDLCAPPIMAGEBACKGROUND) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 
 .appdetailsspotlight_NewDLCContainer_3Exow {
   background: var(--NEWLYADDEDDLC) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 
@@ -1754,7 +1755,7 @@ a:-webkit-any-link {
 
 .salepreviewwidgets_CapsuleBottomBar_3lmdE {
   background-color: var(--BASE4) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
 .salepreviewwidgets_StoreSaleWidgetTitle_2ekpT {
@@ -1776,13 +1777,13 @@ a:-webkit-any-link {
 .eventbbcodeparser_AppSummaryWidgetCtn_3DfY9 {
   background-image: none !important;
   background-color: var(--APPEVENTPAGEAPPSUMMARY) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 
 .youtubeembed_DynamicLinkBox_1IGUR {
   background: var(--YOUTUBELINKBOX) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
 
@@ -2364,7 +2365,7 @@ img {
   .appdetailssoundtrack_Content_22Q27
   .appdetailssoundtrack_RightColumn_1s3Ep {
   background: VAR(--APPDETAILSPANEL) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
   flex: unset !important;
@@ -2991,7 +2992,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .appdetailsprimarylinkssection_Link_1b6LY:hover {
   border-radius: var(--LSHOVERBORDERRADIUS) !important;
   background-color: VAR(--LSBACKGROUNDHOVER) !important;
-  box-shadow: 1px 1px 2px var(--LSHOVERSHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--LSHOVERSHADOW) !important;
 }
 .online .personanameandstatus_playerName_nOdcT {
   color: var(--ONLINE) !important;
@@ -3006,7 +3007,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 
 .allcollections_Collection_3IWn- {
   background: var(--BASE1) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: var(--COLLECTIONSBORDERRADIUS) !important;
 }
 
@@ -3053,7 +3054,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .allcollections_Collection_3IWn-.allcollections_NewCollection_2_dwx {
   border: VAR(--NEWCOLLECTIONBORDERWIDTH) SOLID var(--NEWCOLLECTIONBORDER) !important;
   background: var(--NEWCOLLECTIONBACKGROUND) !important;
-  box-shadow: 1px 1px 2px VAR(--NEWCOLLECTIONSHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--NEWCOLLECTIONSHADOW) !important;
 }
 .allcollections_Collection_3IWn-:hover {
   background: VAR(--NEWCOLLECTIONBACKGROUNDHOVER) !important;
@@ -3266,7 +3267,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 .appdetailscommunityfeed_InappropriateOverlay_aX5_K {
   color: var(--ACCENT) !important;
   background-color: var(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .appdetailsachievementssection_Featured_1j_gj.appdetailsachievementssection_RemainderContainer_lZ2c4
   .appdetailsachievementssection_Desc_2gLHb {
@@ -3308,7 +3309,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
 }
 .appdetailsactivitysection_Loading_3UShz {
   background-color: var(--BASE1) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
   background-color: VAR(--BUTTON2) !important;
@@ -3687,7 +3688,7 @@ div.ShortRightPanel
 }
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
   border: 0 !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
@@ -4136,7 +4137,7 @@ div.NarrowRightPanel
   background: var(--APPDETAILSPANEL) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
   border: 1px SOLID var(--APPDETAILSPANELBORDER) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .collectionview_ContainerScroll_1vHgY {
   background-image: url(https://i.imgur.com/kdxXmTO.png) !important;
@@ -4167,7 +4168,7 @@ div.NarrowRightPanel
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
   background-color: VAR(--COMMUNITYFEEDCONTROLS) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
 
@@ -4175,7 +4176,7 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
   background: var(--APPDETAILSPANEL) !important;
   border: 0 !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-bottom-left-radius: var(--COMMUNITYFEEDBORDERROUNDED1) !important;
   border-bottom-right-radius: VAR(--COMMUNITYFEEDBORDERROUNDED2) !important;
 }
@@ -4200,7 +4201,7 @@ div.NarrowRightPanel
 }
 
 .appactivityday_PartnerEventUpdate_fmLfu:last-child {
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 
@@ -4219,7 +4220,7 @@ div.NarrowRightPanel
   background: var(--APPDETAILSPANEL) !important;
   background-image: none !important;
   border-radius: VAR(--BORDERRADIUS) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 
 .appactivityday_PartnerEventTextOnly_3QRf-:hover {
@@ -4228,7 +4229,7 @@ div.NarrowRightPanel
 
 .appactivityday_PartnerEvent_1AYE1 {
   background: var(--APPDETAILSPANEL) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
@@ -4406,7 +4407,8 @@ div.NarrowRightPanel
 .writereview_RatingContainer_2SAb6 {
   background-color: var(--RATINGCONTAINER) !important;
   border-radius: var(--BORDERRADIUS) !important;
-  box-shadow: 1px 1px 2px var(--SHADOW) !important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   padding: 10px !important;
 }
 .appdetailsspotlight_ReviewContainer_3LE-6 {
@@ -4481,7 +4483,7 @@ div.NarrowRightPanel
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px SOLID var(--APPDETAILSPANELBORDER) !important;
   background: var(--APPDETAILSPANEL) !important;
-  box-shadow: 2px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: VAR(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
@@ -4632,7 +4634,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .appgrid_ReadyToPlayBigButton_3wbWH {
   background: var(--READYTOPLAYBIGBUTTONBACKGROUND) !important;
   border-radius: VAR(--GAMEBOXARTBORDERROUNDED) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border: 0 !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay circle {
@@ -4648,7 +4650,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .discussionwidget_ShareContainer_3ctGq,
 .discussionwidget_DiscussContainer_16xC0 {
   background-color: VAR(--BASE3) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 .partnereventdisplay_LibraryEventBodyContainer_32mHv {
   background: var(--APPEVENTPAGE) !important;
@@ -5013,7 +5015,7 @@ A {
 .contextmenu_contextMenu_PP7LM {
   border-radius: VAR(--CONTEXTMENUBORDERRADIUS) !important;
   border: 1px SOLID VAR(--CONTEXTMENUBORDER) !important;
-  box-shadow: 1px 1px 2px VAR(--CONTEXTMENUSHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--CONTEXTMENUSHADOW) !important;
   background: var(--CONTEXTMENU) !important;
   transition: opacity 200ms;
 }
@@ -5137,7 +5139,7 @@ button.DialogButton::before {
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl.libraryhomeshowcases_Reordering_2Ho8z {
   background-color: var(--APPDETAILSPANEL) !important;
-  box-shadow: 1px 1px 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
   padding-left: 10px !important;
@@ -6126,7 +6128,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
   border: 1px solid var(--ADVANCEDSEARCHBORDER) !important;
-  box-shadow: 1px 1px 2px VAR(--ADVANCEDSEARCHSHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--ADVANCEDSEARCHSHADOW) !important;
   background: VAR(--ADVANCEDSEARCH) !important;
 }
 
