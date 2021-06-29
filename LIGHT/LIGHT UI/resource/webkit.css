@@ -1,4 +1,5 @@
 :root {
+  --FILT: BRIGHTNESS(0);
   --ACCOUNTNAMEHEADERDISPLAY: NONE;
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
@@ -17,7 +18,7 @@
   --WHITE: #fff;
   --BORDERRADIUS: 4px;
   --GROUPIMAGEBORDERRADIUS: 50px;
-  --APPHUBINFOHEADER:VAR(--BASE1);
+  --APPHUBINFOHEADER: VAR(--BASE1);
   --PROFILEXPBACKGROUND: VAR(--BASE1);
   --REVIEWBOX: VAR(--BASE3);
   --FRIENDREVIEW: VAR(--BASE1);
@@ -143,7 +144,7 @@ a.newitem {
 }
 
 body.clientNews .extImg {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60.5%;
 }
 
@@ -188,7 +189,7 @@ body.clientNews .extImg {
 }
 
 .action_btn_ctn img {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 
@@ -414,7 +415,7 @@ div.filterselect_options div.option {
 
 #noteworthy_tab.tab.flyout_tab a.pulldown_desktop,
 #genre_tab.tab.flyout_tab a.pulldown_desktop {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 
@@ -426,7 +427,7 @@ div.filterselect_options div.option {
   .rewarditem_Footer_1D-8s
   .rewarditem_ItemTypeContainer_3Jcrb
   .rewarditem_Icon_3ahcH {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .rewarditem_ItemWideContainer_26i5M
   .rewarditem_Item_CcuoO
@@ -446,7 +447,7 @@ div.filterselect_options div.option {
 .rewarditem_ItemWideContainer_26i5M
   .rewarditem_Item_CcuoO
   .rewarditem_ImageProfileShowcase_3iMI3 {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .ModalPosition_TopBar {
@@ -656,14 +657,14 @@ div.filterselect_options div.option {
   .rewarditem_Footer_1D-8s
   .rewarditem_ItemTypeContainer_3Jcrb
   .rewarditem_Icon_3ahcH {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .loyaltyprimarynav_SecondaryNavItem_2mFH5 .loyaltyprimarynav_Callout_YOdxt {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .banner_Banner_ECzA2 .banner_Image_28bFl {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .bundle_BundleFooter_zpf5C {
@@ -745,7 +746,7 @@ div.filterselect_options div.option {
 }
 .eventreminder_ReminderOptions_1Tp8K {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC
   .eventreminder_ReminderDefault_19p2Q,
@@ -774,7 +775,7 @@ div.filterselect_options div.option {
   .eventcalendar_DesktopButton_2vMIl,
 .eventcalendar_SidebarContainer_15YLD.eventcalendar_SidebarCollapsed_3x2Ig
   .eventcalendar_DesktopButton_2vMIl {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .eventcalendar_EventCalendarContainer_1e3Wb
   .eventcalendar_RowContainer_3yqpP
@@ -900,7 +901,7 @@ div.filterselect_options div.option {
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
 }
 .legalfooter_LegalFooter_2XzXR img {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 body.clientNews .header {
@@ -913,7 +914,7 @@ body.clientNews .post_pmbutton {
   color: var(--BLACK) !important;
 }
 .market_arrow_up {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .apphub_CardContentPlayVideoIcon {
@@ -928,85 +929,85 @@ body.clientNews .post_pmbutton {
   opacity: 1 !important;
 }
 p.reason.for:before {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .curators_for_app_filter_menu .title {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .apphub_WorkshopPiston {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .dotted_hr_uri,
 h2.stats:before,
 h2.stats:after {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .rateUpCount img {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 span.platform_img.streamingvideo {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 div.advanced_controls_toggle_icon {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .newmodal_close {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 #filter_clear_btn {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 img.category_icon {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .see_all_expander {
   border: 1px SOLID var(--BUTTONBORDER) !important;
   width: 20% !important;
   color: var(--WHITE) !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
   background-color: var(--BUTTON2) !important;
 }
 .game_language_options td span {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .ico18 {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .forumtopic_answer.answer_header img {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .curator_received {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 div.graph_toggle_icon {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .apphub_CardCommentCount {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 .broadcast_embeddable_viewer_bar_2Ygph
   .broadcast_embeddable_viewer_links_2EQpO {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 a.forum_comment_action img {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .commentnotification_icon {
   filter: BRIGHTNESS(50%) !important;
@@ -1017,7 +1018,7 @@ a.forum_comment_action img {
 .forum_topic_reply_count img,
 .forum_topic_award_count img {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .dselect_container a.trigger::after,
 .dselect_container a.activetrigger::after {
@@ -1025,7 +1026,7 @@ a.forum_comment_action img {
 }
 .commentthread_subscribe_check {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 div.filterselect .filterselect_arrow,
 div.filterselect #filterselect_arrow {
@@ -1038,18 +1039,18 @@ div.filterselect #filterselect_arrow {
   filter: BRIGHTNESS(50%) !important;
 }
 .right_controls_large_block_active_bg {
-  filer: BRIGHTNESS(0) !important;
+  filer: var(--FILT) !important;
   opacity: 0.1 !important;
 }
 .published_file_icon {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 div.sharedfiles_filterselect_options div.option:hover {
   background-color: var(--BUTTON2) !important;
 }
 #sharedfiles_filterselect_search_img {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 div.sharedfiles_filterselect div.sharedfiles_filterselect_activeoption {
   filter: BRIGHTNESS(50%) !important;
@@ -1060,90 +1061,90 @@ div.sortselect #sortselect_arrow {
 }
 body.v6 #footer #footer_logo_steam {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .profile_customization_edit_icon {
   filter: BRIGHTNESS(50%) !important;
 }
 .view_inventory_logo img {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .apphub_CardMetaData .review_award_aggregated > img,
 .apphub_UserReviewCardContent .review_award_aggregated > img {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .gutter_item .icon {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .cart_tab_left_on {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 #checkout_steam_logo img {
   filter: BRIGHTNESS(50%) !important;
 }
 .friends_nav a.icon_item .title {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .phone_header_description img {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .live_steam_viewers {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .review_box .vote_header .review_source {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .ico16 {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .broadcast_embeddable_viewer_count_1MrTW svg {
   filter: brightness(50%) !important;
 }
 span.platform_img.valveindex {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .review_box .vote_info .commentCount a {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 span.platform_img.music {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 span.platform_img.linux {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 span.platform_img.htcvive {
   filter: brightness(50%) !important;
 }
 span.platform_img.oculusrift {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 span.platform_img.windowsmr {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 span.platform_img.mac {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 span.platform_img.win {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 body.v6 #footer #footer_logo img {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 img {
   filter: grayscale(30%) !important;
@@ -1153,45 +1154,45 @@ a img {
 }
 .carousel_container .arrow > div {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 a.linkbar > img {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .apphub_UserReviewCardContent .review_award_aggregated > img {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .most_recommended .steam_curator_recommendation .steam_curator_for_app_img {
   filter: none !important;
 }
 .review_box .short_header .review_source {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .newmodal_background {
   opacity: 0.9 !important;
   backdrop-filter: var(--blur) !important;
 }
 .workshopAppsSort .browseOptionImage {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .commentnotification_browseoption.active .browseOptionImage {
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .browseOptionImage {
   opacity: 0.1 !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .broadcast_embeddable_bordered_corner_expanded_ahz31 {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .broadcast_embeddable_broadcast_settings_icon_37ugZ {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .broadcast_embeddable_bordered_corner_shrinked_L8sFY {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .showcase_content_bg {
   border-radius: 4px !important;
@@ -1234,16 +1235,16 @@ a.linkbar > img {
 }
 .text_filter_toggle_icon {
   opacity: 60% !important;
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
 }
 .apphub_CardRating.rateUp {
   opacity: 60% !important;
   color: VAR(--ACCENT) !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .apphub_CardMetaData .reward_btn_icon {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 [class*="libraryhome_WhatsNew"] {
   display: none !important;
@@ -2101,7 +2102,7 @@ div.sortselect_options div.option:hover {
 }
 .menu_ico {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .gray_bevel input,
 .gray_bevel textarea {
@@ -6661,7 +6662,7 @@ body.v6 h2 .header_inline {
 }
 #footerLogo {
   opacity: 60% !important;
-  filter: BRIGHTNESS(0) !important;
+  filter: var(--FILT) !important;
 }
 .game_language_options th {
   color: VAR(--ACCENT) !important;
@@ -9335,7 +9336,7 @@ a.persona.online,
 }
 
 .friendBlockStatusIcon {
-  filter: brightness(0) !important;
+  filter: var(--FILT) !important;
   opacity: 60% !important;
 }
 
