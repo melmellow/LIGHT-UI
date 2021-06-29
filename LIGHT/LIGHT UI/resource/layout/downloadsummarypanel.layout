@@ -184,7 +184,7 @@
 		}
 		bigtextlabel
 		{
-			textcolor=BLACK
+			textcolor= DOWNLOADSTATLABEL
 			font-family=semibold
 			font-style=uppercase
 			PADDING = 14
