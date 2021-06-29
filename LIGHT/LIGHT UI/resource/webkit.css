@@ -54,6 +54,7 @@
   --PANEL2: VAR(--BASE2);
   --PANEL3: VAR(--BASE3);
   --SEARCHRESULTHOVER: VAR(--BASE3);
+  --COMMENTTHREADTEXTENTRYBR: 0;
   --TEXTENTRYBORDERROUNDED: 30px;
   --TEXTENTRYBACKGROUNDHOVER: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERWIDTH: 2px;
@@ -62,6 +63,10 @@
   --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --blur: blur(10px);
+}
+
+body.flat_page.blue #footer {
+  display:none!important;
 }
 
 .showcase_bodylabel {
@@ -2159,8 +2164,19 @@ div.sortselect_options div.option:hover {
   color: VAR(--ACCENT) !important;
 }
 .group_comments .commentthread_entry_quotebox {
+  border-radius: var(--COMMENTTHREADTEXTENTRYBR) !important;
   background-color: var(--TEXTENTRY) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: var(--TEXTENTRYBORDERWIDTH) SOLID var(--TEXTENTRYBORDER) !important;
+}
+
+.group_comments .commentthread_entry_quotebox:hover {
+  background-color: var(--TEXTENTRYBACKGROUNDHOVER) !important;
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.group_comments .commentthread_entry_quotebox:focus-within {
+  background-color: var(--TEXTENTRYBACKGROUNDSELECTED) !important;
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
 }
 .app_tag_form_ctn .gray_bevel.for_text_input,
 .text_filter_custom_banned_words_form_ctn .gray_bevel.for_text_input,
@@ -7941,7 +7957,8 @@ a.group_tab:hover {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .rightbox {
-  border-radius: 0 !important;
+  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
+  border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
