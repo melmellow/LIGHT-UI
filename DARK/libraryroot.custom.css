@@ -269,6 +269,7 @@
   --CHECKMARKTOPMARGIN: -1px;
   --CHECKMARKLEFTMARGIN: -1px;
   --CHECKMARKSTROKEWIDTH: 40px; /*default is 40*/
+  --DROPDOWNBORDERWIDTH: 2px;
   --DROPDOWN: VAR(--BASE3);
   --DROPDOWNBORDER: NONE;
   --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
@@ -3670,8 +3671,8 @@ div.ShortRightPanel
 }
 
 .DialogDropDown._DialogInputContainer.Panel.Focusable {
-  border: 1px solid var(--DROPDOWNBORDER) !important;
-  border-bottom: 1px SOLID VAR(--DROPDOWNBOTTOMBORDER) !important;
+  border: var(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBORDER) !important;
+  border-bottom: VAR(--DROPDOWNBORDERWIDTH) SOLID VAR(--DROPDOWNBOTTOMBORDER) !important;
 }
 
 .DialogDropDown._DialogInputContainer.Panel.Focusable:hover {
@@ -3692,8 +3693,8 @@ div.ShortRightPanel
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
   font-size: 15px !important;
   background-color: var(--DROPDOWN) !important;
-  border-bottom: 1px solid VAR(--DROPDOWNBOTTOMBORDER) !important;
-  border: 1px solid var(--DROPDOWNBORDER) !important;
+  border-bottom: VAR(--DROPDOWNBORDERWIDTH) solid VAR(--DROPDOWNBOTTOMBORDER) !important;
+  border: VAR(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBORDER) !important;
   font-weight: 400 !important;
   padding: 3px !important;
   border-radius: VAR(--DROPDOWNROUNDED1) !important;
@@ -5048,7 +5049,7 @@ A {
 .dropdown_DialogDropDownMenu_30wJO._DialogInputContainer {
   user-select: none !important;
   background-color: var(--BASE1) !important;
-  border: 1px SOLID VAR(--SHELFDROPDOWNLISTMENUBORDER) !important;
+  border: VAR(--DROPDOWNBORDERWIDTH) SOLID VAR(--SHELFDROPDOWNLISTMENUBORDER) !important;
   box-shadow: 0 0 2px VAR(--SHADOW) !important;
   border-radius: VAR(--DROPDOWNBORDERROUNDED) !important;
   position: relative !important;
@@ -5372,13 +5373,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border-radius: var(--DROPDOWNROUNDED1) !important;
   background-color: var(--DROPDOWN) !important;
   color: var(--ACCENT) !important;
-  border: 1px solid var(--DROPDOWNBORDER) !important;
-  border-bottom: 1px solid var(--DROPDOWNBOTTOMBORDER) !important;
+  border: VAR(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBORDER) !important;
+  border-bottom: VAR(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBOTTOMBORDER) !important;
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
   background-color: var(--DROPDOWNHOVER) !important;
   color: var(--ACCENT) !important;
-  border-bottom: 1px solid var(--DROPDOWNBORDERHOVER) !important;
+  border-color: var(--DROPDOWNBORDERHOVER) !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_SearchInput_12vo5
