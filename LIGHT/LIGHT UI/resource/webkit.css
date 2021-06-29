@@ -62,6 +62,7 @@
 
 .styles_PageHomeTopTitle_3DDgg,
 .styles_PageHomeTopSubTitle_rSOht {
+  background:transparent!important;
   color: VAR(--ACCENT) !important;
   background-clip: unset !important;
   -webkit-background-clip: unset !important;
@@ -648,6 +649,7 @@ div.filterselect_options div.option {
   background: VAR(--BASE1) !important;
 }
 .itembox_ItemBox_2EUBP {
+  border-radius:var(--BORDERRADIUS)!important;
   background: VAR(--BASE1) !important;
 }
 .banner_Banner_ECzA2 .banner_Link_185F6 {
