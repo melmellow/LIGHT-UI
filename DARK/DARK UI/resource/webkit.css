@@ -18,6 +18,7 @@
   --BLACK: #fff;
   --WHITE: #000;
   --SIDEBAR: VAR(--BASE1);
+  --MOREACHIEVEMENTSBG: TRANSPARENT;
   --SIDEBARBORDER: RGB(0, 0, 0);
   --BORDERRADIUS: 4px;
   --GROUPIMAGEBORDERRADIUS: 50px;
@@ -66,8 +67,8 @@
 }
 
 .invite_row {
-  BACKGROUND:VAR(--PANEL)!important;
-  border-radius:var(--BORDERRADIUS)!important;
+  background: VAR(--PANEL) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
 .playerAvatar.online img,
@@ -1713,8 +1714,7 @@ input.inputTagsFilter + label {
 }
 .game_info_achievement.plus_more,
 .showcase_achievement.plus_more {
-  background-color: VAR(--ACCENT) !important;
-  border: 1px SOLID VAR(--ACCENT) !important;
+  background-color: VAR(--MOREACHIEVEMENTSBG) !important;
 }
 .groupstat {
   color: VAR(--ACCENT) !important;
@@ -9382,7 +9382,7 @@ a.persona.in-game,
   color: VAR(--GREEN) !important;
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) VAR(--DIVIDER1) !important;
-  border-radius: 6px !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 
 .persona.online,

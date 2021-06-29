@@ -17,6 +17,7 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
+  --MOREACHIEVEMENTSBG: TRANSPARENT;
   --SIDEBARBORDER: VAR(--BASE2);
   --SIDEBAR: VAR(--BASE1);
   --BORDERRADIUS: 4px;
@@ -1713,8 +1714,7 @@ input.inputTagsFilter + label {
 }
 .game_info_achievement.plus_more,
 .showcase_achievement.plus_more {
-  background-color: VAR(--ACCENT) !important;
-  border: 1px SOLID VAR(--ACCENT) !important;
+  background-color: VAR(--MOREACHIEVEMENTSBG) !important;
 }
 .groupstat {
   color: VAR(--ACCENT) !important;
@@ -9380,7 +9380,7 @@ a.persona.in-game,
   color: VAR(--GREEN) !important;
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) VAR(--DIVIDER1) !important;
-  border-radius: 6px !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 
 .persona.online,
