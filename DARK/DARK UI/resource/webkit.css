@@ -49,6 +49,7 @@
   --lightergrey: VAR(--ACCENT);
   --OFFLINE: VAR(--ACCENT);
   --AVATARBORDERRADIUS: 50px;
+  --PANELBORDER: TRANSPARENT;
   --PANEL: VAR(--BASE1);
   --PANEL2: VAR(--BASE2);
   --PANEL3: VAR(--BASE3);
@@ -831,7 +832,7 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 .legalfooter_LegalFooter_2XzXR {
-  DISPLAY:NONE!important;
+  display: NONE !important;
   border-top: 1px SOLID var(--SHADOW) !important;
 }
 .eventcalendar_EventCalendarContainer_1e3Wb
@@ -855,6 +856,7 @@ div.filterselect_options div.option {
 }
 .eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ {
   background: VAR(--PANEL) !important;
+  border: 1px solid var(--PANELBORDER) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
@@ -1492,8 +1494,9 @@ span.experiment-name {
 }
 .capsule {
   background-image: none !important;
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
 }
 body.clientNews .post_title {
   color: VAR(--ACCENT) !important;
@@ -2622,6 +2625,7 @@ label.send_choice_txt {
   color: VAR(--ACCENT) !important;
   background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  border: 1px solid var(--PANELBORDER) !important;
 }
 body.v6 .store_nav .popup_menu_subheader,
 body.v6 #footer_nav .popup_menu_subheader {
