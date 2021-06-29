@@ -17,6 +17,7 @@
   --trans: transparent;
   --BLACK: #fff;
   --WHITE: #000;
+  --ACCOUNTHEADER:VAR(--BASE1);
   --SIDEBAR: VAR(--BASE1);
   --MOREACHIEVEMENTSBG: TRANSPARENT;
   --SIDEBARBORDER: RGB(0, 0, 0);
@@ -2456,7 +2457,7 @@ td.wht_date {
   border-top: var(--SHADOW) !important;
 }
 .account_header_line {
-  background-color: VAR(--ACCENT) !important;
+  background-color: VAR(--ACCOUNTHEADER) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_setting_block {
@@ -6092,7 +6093,7 @@ div#headerSearch.friend_activity_header_search {
 .blotter_block {
   position: relative !important;
   background: VAR(--PANEL) !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .dynamiclink_box {
