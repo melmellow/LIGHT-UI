@@ -65,6 +65,26 @@
   --blur: blur(10px);
 }
 
+.invite_row {
+  BACKGROUND:VAR(--PANEL)!important;
+  border-radius:var(--BORDERRADIUS)!important;
+}
+
+.playerAvatar.online img,
+.friend_status_online .friend_block_avatar img,
+.appHubIconHolder.online img,
+.avatar_block_status_online img {
+  border-radius: var(--AVATARBORDERRADIUS) !important;
+}
+
+.playerAvatar.online,
+.friend_block_holder.friend_status_online .friend_block_avatar,
+.friend_activity.friend_status_online .friend_block_avatar,
+.appHubIconHolder.online,
+.avatar_block_status_online {
+  border-radius: var(--AVATARBORDERRADIUS) !important;
+}
+
 body.flat_page.blue #footer {
   display: none !important;
 }
@@ -6569,7 +6589,7 @@ body.v6 .discount_block {
   background: transparent !important;
 }
 .profile_friends.responsive_friendblocks {
-  border-radius: 0 !important;
+  border-radius: var(--BORDERRADIUS) !important;
   background-color: VAR(--BASE1) !important;
 }
 .invite_section_ctn.invite_link {
@@ -8156,7 +8176,7 @@ input.btn_small:hover {
   color: VAR(--ACCENT) !important;
 }
 .grouppage_logo {
-  BORDER-RADIUS:VAR(--GROUPIMAGEBORDERRADIUS)!important;
+  border-radius: VAR(--GROUPIMAGEBORDERRADIUS) !important;
   background-image: none !important;
 }
 .commentnotification_newposts {
@@ -9465,7 +9485,7 @@ a.persona,
 .friend_status_offline,
 .friend_status_offline div,
 .friend_status_offline a {
-  border-radius: 6px !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
 #report_txt_input {
