@@ -39,9 +39,9 @@
   --MARKETLISTING: VAR(--BASE1);
   --MARKETLISTINGHOVER: VAR(--BASE3);
   --SCROLLBARBORDERRADIUS: 0;
-  --SCROLLBAR: VAR(--ACCENT);
-  --SCROLLBARHOVER: VAR(--BLACK);
-  --DIVIDER1: var(--BUTTON2);
+  --SCROLLBAR: #494949;
+  --SCROLLBARHOVER: #767676;
+  --DIVIDER1: var(--BASE1);
   --grey: VAR(--ACCENT);
   --lightgrey: VAR(--ACCENT);
   --lightergrey: VAR(--ACCENT);
@@ -6321,6 +6321,8 @@ a.persona,
 }
 #help_search_support_input {
   transition: all 0.18s ease-in-out !important;
+  HEIGHT:37PX!important;
+  font-size:18px!important;
   outline: NONE !important;
   font-style: normal !important;
   color: VAR(--ACCENT) !important;

@@ -6321,6 +6321,8 @@ a.persona,
 }
 #help_search_support_input {
   transition: all 0.18s ease-in-out !important;
+  height: 37px !important;
+  font-size:18px!important;
   outline: NONE !important;
   font-style: normal !important;
   color: VAR(--ACCENT) !important;
