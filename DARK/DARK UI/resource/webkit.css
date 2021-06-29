@@ -64,6 +64,19 @@
   --blur: blur(10px);
 }
 
+.showcase_bodylabel {
+  color: var(--ACCENT) !important;
+}
+
+.profile_customization_block {
+  padding: 4px 10px 11px 10px !important;
+}
+
+body.profile_page.flat_page #footer_spacer {
+  height: 0 !important;
+  padding: 0 !important;
+}
+
 .index_HeaderText_1xjPB {
   color: var(--ACCENT) !important;
 }
@@ -1244,6 +1257,7 @@ a.linkbar > img {
 }
 .recent_game {
   background-color: VAR(--RECENTGAME) !important;
+  border: 1px solid var(--PANELBORDER) !important;
   backdrop-filter: blur(10px) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -1253,7 +1267,7 @@ a.linkbar > img {
   padding-top: 5px !important;
   background: VAR(--PANEL2) !important;
   backdrop-filter: var(--blur) !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 .text_filter_toggle_icon {
   opacity: 60% !important;
@@ -2623,9 +2637,7 @@ label.send_choice_txt {
 }
 .profile_customization_header {
   color: VAR(--ACCENT) !important;
-  background: VAR(--PANEL) !important;
-  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  border: 1px solid var(--PANELBORDER) !important;
+  background: TRANSPARENT !important;
 }
 body.v6 .store_nav .popup_menu_subheader,
 body.v6 #footer_nav .popup_menu_subheader {
