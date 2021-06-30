@@ -1268,11 +1268,6 @@ a.linkbar > img {
 .broadcast_embeddable_bordered_corner_shrinked_L8sFY {
   filter: var(--FILT) !important;
 }
-.showcase_content_bg {
-  border-radius: 4px !important;
-  backdrop-filter: blur(10px) !important;
-  background-color: rgba(0, 0, 0, 0.3) !important;
-}
 .playerAvatar.profile_header_size .playerAvatarAutoSizeInner img {
   background: 0 0 !important;
   filter: none !important;
@@ -6267,6 +6262,9 @@ a.persona,
   color: VAR(--ACCENT) !important;
 }
 .showcase_content_bg {
+  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
+  border-radius: var(--BORDERRADIUS) !important;
+  backdrop-filter: blur(10px) !important;
   background-color: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
