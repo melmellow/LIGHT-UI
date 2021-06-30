@@ -638,6 +638,8 @@ div.filterselect_options div.option {
   background: var(--BASE2) !important;
 }
 .banner_Banner_ECzA2 {
+  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
+  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
   background: VAR(--BASE1) !important;
 }
 .rewarditemsection_SectionSubtitle_1Cqzt {
@@ -3404,7 +3406,7 @@ a.pulldown_desktop {
   background: VAR(--BASE1) !important;
 }
 .agegate_birthday_selector {
-  border: 0 !important;
+  border: 1PX SOLID VAR(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--BIRTHDAYSELECTOR) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
