@@ -20,6 +20,8 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
+  --SEARCHFILTERROUNDED:var(--BORDERRADIUS);
+  --SEARCHFILTER:VAR(--BLUE);
   --TABITEM:VAR(--BASE1);
   --TABITEMBR:VAR(--BORDERRADIUS);
   --HOVERBOX: VAR(--BASE1);
@@ -2227,8 +2229,9 @@ div.sortselect_options div.option:hover {
   color: VAR(--ACCENT) !important;
 }
 .searchtag {
+  BORDER-RADIUS:VAR(--SEARCHFILTERROUNDED)!important;
   color: var(--WHITE) !important;
-  background: VAR(--ACCENT) !important;
+  background: VAR(--SEARCHFILTER) !important;
 }
 .search_result_row .col.search_released {
   color: VAR(--ACCENT) !important;
