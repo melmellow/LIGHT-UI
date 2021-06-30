@@ -8210,6 +8210,7 @@ input.btn_small:hover {
   background-color: var(--SHADOW) !important;
 }
 .commentnotification {
+  transition:all .10s ease-in-out!important;
   background-image: none !important;
   background-color: VAR(--COMMENTNOTIFICATION) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
