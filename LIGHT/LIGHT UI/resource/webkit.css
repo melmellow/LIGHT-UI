@@ -2431,6 +2431,7 @@ td.wht_date {
   color: VAR(--ACCENT) !important;
 }
 .account_settings_container {
+  BORDER-RADIUS:VAR(--BORDERRADIUS2)!important;
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -3231,7 +3232,7 @@ body.v6 .game_page_background {
 }
 
 .search_result_row {
-  border-radius: 6px !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   border: 0 !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -6541,7 +6542,7 @@ a.games_list_tab.first_tab {
   background-color: var(--BASE2) !important;
 }
 .friend_reviews .review_box {
-  border: 0 !important;
+  border: 1PX SOLID VAR(--PANELBORDER) !important;
   background: VAR(--FRIENDREVIEW) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -9073,9 +9074,13 @@ div.bb_h3,
   margin-bottom: 4px !important;
   border-radius: 0 !important;
   border: 0 !important;
-  background-color: VAR(--BASE1) !important;
-  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  background-color: transparent !important;
 }
+
+.two_column .nav_item:hover {
+  color:var(--BLACK)!important;
+}
+
 .grouppage_membertiles_overlay {
   top: 0 !important;
   padding-bottom: 12px !important;
