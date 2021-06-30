@@ -875,6 +875,12 @@ div.filterselect_options div.option {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
+
+.eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl)
+  .eventcalendartile_Tile_3xvUZ:hover {
+    background-color:var(--BASE3)!important;
+  }
+
 .eventcalendartile_TileContainer_1E3An
   .eventcalendartile_Tile_3xvUZ
   .eventcalendartile_EventName_1M8-P {
