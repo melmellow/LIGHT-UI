@@ -289,7 +289,8 @@
   --DISLIKETHUMBICON: VAR(--ACCENT);
   --DISLIKETHUMBICONHOVER: VAR(--BLACK);
   --FRIENDISPLAYING: VAR(--ACCENT);
-  --FRIENDISPLAYINGDISPLAY: unset;
+  --FRIENDISPLAYINGDISPLAY: none;
+  --GAMEICONLEFTMARGIN: -21px;
   --SCROLLTOTOPHOVER: VAR(--BLACK);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOPFONTWEIGHT: 400;
@@ -1775,7 +1776,7 @@ a:-webkit-any-link {
 }
 
 .eventbbcodeparser_AppSummaryWidgetCtn_3DfY9 {
-  border:1px solid var(--APPDETAILSPANELBORDER)!important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
   background-image: none !important;
   background-color: var(--APPEVENTPAGEAPPSUMMARY) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
@@ -4847,7 +4848,7 @@ A {
   .appfilterpane_FilterBucketBoxes_32e6r
   .appfilterpane_Row_1J53P
   .appfilterpane_Checkbox_2AOkQ:hover {
-  color: var(--BUTTONHOVER) !important;
+  color: var(--BLACK) !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
@@ -6125,6 +6126,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
   height: 22px;
   width: 22px;
+  margin-left: var(--GAMEICONLEFTMARGIN) !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY

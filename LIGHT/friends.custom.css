@@ -14,6 +14,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --REMOTEPLAY: VAR(--BLUE);
   --OFF: VAR(--BLUE);
   --ON: VAR(--GREEN);
   --DIVIDER: VAR(--SHADOW);
@@ -46,6 +47,10 @@
   --ACTIVECHATTAB: VAR(--BASE1);
   --INACTIVECHATTAB: VAR(--BASE1);
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER) !important;
+}
+
+.friendslist_RemotePlayInviteLinkSection_2XX49 .endslist_LinkRow_19621 {
+  background: VAR(--REOMTEPLAY) !important;
 }
 
 .CompactFriendsList

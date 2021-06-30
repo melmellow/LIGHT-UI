@@ -14,6 +14,7 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --REMOTEPLAY: VAR(--BLUE);
   --OFF: VAR(--BLUE);
   --ON: VAR(--GREEN);
   --DIVIDER: VAR(--SHADOW);
@@ -46,6 +47,10 @@
   --ACTIVECHATTAB: VAR(--BASE1);
   --INACTIVECHATTAB: VAR(--BASE1);
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER) !important;
+}
+
+.friendslist_RemotePlayInviteLinkSection_2XX49 .friendslist_LinkRow_19621 {
+  background: var(--REMOTEPLAY) !important;
 }
 
 .CompactFriendsList
@@ -1323,8 +1328,8 @@ button.DialogButton,
 /* Down */
 ::-webkit-scrollbar-button:vertical:increment {
   /*     background-image: url(https://i.imgur.com/MSeJirr.png)!important;
-    background-repeat: no-repeat!important;
-    background-position: 0px 0px!important; */
+	  background-repeat: no-repeat!important;
+	  background-position: 0px 0px!important; */
   width: 0 !important;
   height: 0 !important;
   background: VAR(--BASE2) !important;
@@ -1332,8 +1337,8 @@ button.DialogButton,
 /* Up */
 ::-webkit-scrollbar-button:vertical:decrement {
   /*    background-image: url(https://i.imgur.com/U6H0Z62.png)!important;
-    background-repeat: no-repeat!important;
-    background-position: 0px 0px!important; */
+	  background-repeat: no-repeat!important;
+	  background-position: 0px 0px!important; */
   width: 0 !important;
   height: 0 !important;
   background: VAR(--BASE2) !important;
@@ -1351,7 +1356,7 @@ button.DialogButton,
 }
 
 /* .multiChatDialog{
-border: 1px solid VAR(--DIVIDER)!important;} */
+  border: 1px solid VAR(--DIVIDER)!important;} */
 
 /* ======== Friend Panel Group ======== */
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
@@ -1614,7 +1619,7 @@ border: 1px solid VAR(--DIVIDER)!important;} */
 
 .chatHistoryScroll {
   /*     background-image: url(https://i.imgur.com/nlGfqx5.png)!important;
-    background-repeat: repeat-y; */
+	  background-repeat: repeat-y; */
   padding: 5px 0px 12px 1px !important;
 }
 .window_resize_grip {
@@ -2356,9 +2361,9 @@ html.web_chat_frame body {
 
 .compactView .socialListTab {
   /*  padding-bottom: 10px;
-	    background-image: url(https://i.imgur.com/kdxXmTO.png);
-    background-position: bottom;
-    background-repeat: repeat-x; */
+		  background-image: url(https://i.imgur.com/kdxXmTO.png);
+	  background-position: bottom;
+	  background-repeat: repeat-x; */
   height: 27px !important;
 }
 
@@ -2469,8 +2474,8 @@ html.web_chat_frame body {
 }
 
 /*Gray hover color for every title bar button
-.title-area-icon:hover{
-background: rgba(var(--white05))!important;}*/
+  .title-area-icon:hover{
+  background: rgba(var(--white05))!important;}*/
 
 .minimizeButton:hover,
 .maximizeButton:hover,
@@ -2597,9 +2602,9 @@ background: rgba(var(--white05))!important;}*/
 }
 
 /* .chattabs_CloseButton_SzByZ:hover{
-	background-color:#d5d5d5!important;
-	border-radius:100px!important;
-} */
+	  background-color:#d5d5d5!important;
+	  border-radius:100px!important;
+  } */
 
 .chatTabList .chattabs_ChatTab_1WfqA,
 .ChatTabsBackButton {

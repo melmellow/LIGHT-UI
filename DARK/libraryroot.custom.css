@@ -289,7 +289,7 @@
   --DISLIKETHUMBICON: VAR(--ACCENT);
   --DISLIKETHUMBICONHOVER: VAR(--BLACK);
   --FRIENDISPLAYING: VAR(--ACCENT);
-  --FRIENDISPLAYINGDISPLAY: unset;
+  --FRIENDISPLAYINGDISPLAY: none;
   --SCROLLTOTOPHOVER: RGB(0, 0, 0);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOPFONTWEIGHT: 400;
@@ -6125,6 +6125,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
   height: 22px;
   width: 22px;
+  margin-left: var(--GAMEICONLEFTMARGIN) !important;
 }
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
