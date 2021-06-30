@@ -1775,6 +1775,7 @@ a:-webkit-any-link {
 }
 
 .eventbbcodeparser_AppSummaryWidgetCtn_3DfY9 {
+  border:1px solid var(--APPDETAILSPANELBORDER)!important;
   background-image: none !important;
   background-color: var(--APPEVENTPAGEAPPSUMMARY) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
@@ -4650,6 +4651,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .discussionwidget_VoteContainer_3Kelh,
 .discussionwidget_ShareContainer_3ctGq,
 .discussionwidget_DiscussContainer_16xC0 {
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
   background-color: VAR(--BASE3) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
