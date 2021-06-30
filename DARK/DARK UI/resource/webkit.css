@@ -4131,6 +4131,7 @@ body.v6 h2 {
 }
 
 .review_box {
+  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
@@ -5501,6 +5502,7 @@ body.v6.newonsteam .newonsteam_headercaps > a {
   background-image: none !important;
 }
 .quadscreenshot_carousel .main {
+  border:1px solid var(--PANELBORDER)!important;
   background-color: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
