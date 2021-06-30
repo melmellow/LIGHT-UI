@@ -1,4 +1,7 @@
 :root {
+  --BORDERRADIUS: 4px;
+  --BORDERRADIUS2: 0 0 4px 4px;
+  --BORDERRADIUS3: 4px 4px 0 0;
   --FILT: BRIGHTNESS(2);
   --ACCOUNTNAMEHEADERDISPLAY: NONE;
   --BASE1: #1f1f1f;
@@ -17,15 +20,15 @@
   --trans: transparent;
   --BLACK: #fff;
   --WHITE: #000;
+  --TABITEM:VAR(--BASE1);
+  --TABITEMBR:VAR(--BORDERRADIUS);
+  --HOVERBOX:VAR(--BASE1);
   --MARKETTAB:VAR(--GREEN);
-  --MARKETACTIONBUTTON:VAR(--GREEN)
+  --MARKETACTIONBUTTON:VAR(--GREEN);
   --ACCOUNTHEADER: VAR(--BASE1);
   --SIDEBAR: VAR(--BASE1);
   --MOREACHIEVEMENTSBG: TRANSPARENT;
   --SIDEBARBORDER: RGB(0, 0, 0);
-  --BORDERRADIUS: 4px;
-  --BORDERRADIUS2: 0 0 4px 4px;
-  --BORDERRADIUS3: 4px 4px 0 0;
   --GROUPIMAGEBORDERRADIUS: 50px;
   --APPHUBINFOHEADER: VAR(--BASE1);
   --PROFILEXPBACKGROUND: VAR(--BASE1);
@@ -3204,6 +3207,7 @@ body.v6 .game_page_background {
   color: VAR(--ACCENT) !important;
 }
 .col.search_discount span {
+  border-radius:var(--BORDERRADIUS)!important;
   background-color: VAR(--GREEN) !important;
   color: var(--WHITE) !important;
 }
@@ -4884,12 +4888,9 @@ body.v6 .store_nav .popup_block_new .popup_body {
 .ds_options_tooltip > .option:hover {
   background-color: var(--BUTTON2) !important;
 }
-.game_hover_box .content {
-  background: var(--BASE2) !important;
-}
+
 .game_hover_box h4 {
   color: VAR(--ACCENT) !important;
-  border-radius: var(--BORDERRADIUS) !important;
 }
 .hover_screenshots .screenshot {
   border-radius: var(--BORDERRADIUS) !important;
@@ -8988,7 +8989,8 @@ body.v6.winter_sale_home h2.winter {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .hover_box {
-  background: var(--lightergrey) !important;
+  BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
+  background: var(--HOVERBOX) !important;
   color: var(--dakerwhite) !important;
 }
 .hover_arrow_inner {
@@ -9368,14 +9370,14 @@ input.discussionSearchText::selection {
 }
 .game_hover_box {
   color: VAR(--ACCENT) !important;
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--HOVERBOX) !important;
   background: VAR(--BASE1) !important;
-  border-radius: 0 !important;
+  border-radius: var(--BORDERRADIUS) !important;
   border: 1px solid var(--SHADOW) !important;
 }
 .game_hover_box p,
 .game_hover_box {
-  background: VAR(--BASE1) !important;
+  background: VAR(--HOVERBOX) !important;
   color: VAR(--ACCENT) !important;
 }
 .forum_topic_op {
@@ -9433,11 +9435,11 @@ a.persona.online,
 }
 
 .tab_item {
-  transition: border-width 0.3s ease-in-out !important;
+  transition: all 0.10s ease-in-out !important;
   margin: 5px !important;
-  border-radius: var(--BORDERRADIUS) !important;
+  border-radius: var(--TABITEMBR) !important;
   border: 0 !important;
-  background: VAR(--PANEL) !important;
+  background: VAR(--TABITEM) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 

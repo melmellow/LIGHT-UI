@@ -1,4 +1,7 @@
 :root {
+  --BORDERRADIUS: 4px;
+  --BORDERRADIUS2: 0 0 4px 4px;
+  --BORDERRADIUS3: 4px 4px 0 0;
   --FILT: BRIGHTNESS(0);
   --ACCOUNTNAMEHEADERDISPLAY: NONE;
   --BASE1: #e4e4e4;
@@ -17,15 +20,15 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
-  --MARKETACTIONBUTTON:VAR(--GREEN);
-  --MARKETTAB:VAR(--GREEN);
+  --TABITEM:VAR(--BASE1);
+  --TABITEMBR:VAR(--BORDERRADIUS);
+  --HOVERBOX: VAR(--BASE1);
+  --MARKETACTIONBUTTON: VAR(--GREEN);
+  --MARKETTAB: VAR(--GREEN);
   --MOREACHIEVEMENTSBG: TRANSPARENT;
   --ACCOUNTHEADER: VAR(--ACCENT);
   --SIDEBARBORDER: VAR(--BASE2);
   --SIDEBAR: VAR(--BASE1);
-  --BORDERRADIUS: 4px;
-  --BORDERRADIUS2: 0 0 4px 4px;
-  --BORDERRADIUS3: 4px 4px 0 0;
   --GROUPIMAGEBORDERRADIUS: 50px;
   --APPHUBINFOHEADER: VAR(--BASE1);
   --PROFILEXPBACKGROUND: VAR(--BASE1);
@@ -33,7 +36,7 @@
   --FRIENDREVIEW: VAR(--BASE1);
   --REVIEWHISTOGRAM: VAR(--BASE1);
   --STORENAVBAR: VAR(--BASE1);
-  --DROPDOWNBORDERWIDTH:2PX;
+  --DROPDOWNBORDERWIDTH: 2px;
   --DROPDOWN: VAR(--BUTTON2);
   --DROPDOWNHOVER: VAR(--DROPDOWN);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
@@ -641,8 +644,8 @@ div.filterselect_options div.option {
   background: var(--BASE2) !important;
 }
 .banner_Banner_ECzA2 {
-  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
-  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
 .rewarditemsection_SectionSubtitle_1Cqzt {
@@ -1717,8 +1720,8 @@ input.inputTagsFilter + label {
 }
 .game_info_achievement.plus_more,
 .showcase_achievement.plus_more {
-  color:var(--ACCENT)!important;
-  border:0!important;
+  color: var(--ACCENT) !important;
+  border: 0 !important;
   background-color: VAR(--MOREACHIEVEMENTSBG) !important;
 }
 .groupstat {
@@ -2407,7 +2410,7 @@ td.wht_date {
   border-bottom: 1px SOLID var(--SHADOW) !important;
 }
 .youraccount_steamid {
-  display:none!important;
+  display: none !important;
   color: VAR(--ACCENT) !important;
 }
 .dq_settings_checkrow {
@@ -2429,7 +2432,7 @@ td.wht_date {
   color: VAR(--ACCENT) !important;
 }
 .account_settings_container {
-  BORDER-RADIUS:VAR(--BORDERRADIUS2)!important;
+  border-radius: VAR(--BORDERRADIUS2) !important;
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -2995,7 +2998,7 @@ select {
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  border:1px solid var(--PANELBORDER)!important;
+  border: 1px solid var(--PANELBORDER) !important;
 }
 .market_advancedsearch_appname {
   color: VAR(--ACCENT) !important;
@@ -3201,6 +3204,7 @@ body.v6 .game_page_background {
   color: VAR(--ACCENT) !important;
 }
 .col.search_discount span {
+  border-radius: var(--BORDERRADIUS) !important;
   background-color: VAR(--GREEN) !important;
   color: var(--WHITE) !important;
 }
@@ -3408,7 +3412,7 @@ a.pulldown_desktop {
   background: VAR(--BASE1) !important;
 }
 .agegate_birthday_selector {
-  border: 1PX SOLID VAR(--PANELBORDER) !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--BIRTHDAYSELECTOR) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
@@ -4118,7 +4122,7 @@ body.v6 h2 {
 .game_area_offsite_purchase {
   color: VAR(--ACCENT) !important;
   font-weight: VAR(--ACCENT) !important;
-  border: 1PX SOLID VAR(--PANELBORDER)!important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
@@ -4128,7 +4132,7 @@ body.v6 h2 {
 }
 
 .review_box {
-  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
@@ -4795,7 +4799,7 @@ div#global_header .submenuitem {
   background: VAR(--STORENAVBAR) !important;
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px solid var(--PANELBORDER) !important;
-  BOX-SHADOW:VAR(--BOXSHADOW)VAR(--SHADOW)!important;
+  box-shadow: VAR(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 .navigation_bar > a.selected {
   background: VAR(--ACCENT) !important;
@@ -4882,12 +4886,9 @@ body.v6 .store_nav .popup_block_new .popup_body {
 .ds_options_tooltip > .option:hover {
   background-color: var(--BUTTON2) !important;
 }
-.game_hover_box .content {
-  background: var(--BASE2) !important;
-}
+
 .game_hover_box h4 {
   color: VAR(--ACCENT) !important;
-  border-radius: var(--BORDERRADIUS) !important;
 }
 .hover_screenshots .screenshot {
   border-radius: var(--BORDERRADIUS) !important;
@@ -5173,7 +5174,7 @@ img.member_tile {
   border: 1px SOLID var(--PANELBORDER) !important;
   background-color: VAR(--BASE1) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
-  BOX-SHADOW:VAR(--BOXSHADOW) VAR(--SHADOW)!important;
+  box-shadow: VAR(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 .apphub_CardContentType {
   /* border-radius: var(--BORDERRADIUS) !important; */
@@ -5501,7 +5502,7 @@ body.v6.newonsteam .newonsteam_headercaps > a {
   background-image: none !important;
 }
 .quadscreenshot_carousel .main {
-  border:1px solid var(--PANELBORDER)!important;
+  border: 1px solid var(--PANELBORDER) !important;
   background-color: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -5626,7 +5627,7 @@ body.v6 div#global_header .content {
 }
 
 .community_home_shortcut_content {
-  BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   background-color: VAR(--PANEL) !important;
   border: 1px solid var(--PANELBORDER) !important;
   box-shadow: VAR(--BOXSHADOW) var(--SHADOW) !important;
@@ -5773,7 +5774,7 @@ div#game_select_suggestions_ctn {
   color: VAR(--ACCENT) !important;
 }
 input.community_home_search_app_input {
-  COLOR:VAR(--ACCENT)!important;
+  color: VAR(--ACCENT) !important;
   font-size: 15px !important;
   font-style: normal !important;
   background-color: var(--TEXTENTRY) !important;
@@ -6100,7 +6101,7 @@ div#headerSearch.friend_activity_header_search {
 }
 .blotter_block {
   position: relative !important;
-  border:1px solid VAR(--PANELBORDER)!important;
+  border: 1px solid VAR(--PANELBORDER) !important;
   background: VAR(--PANEL) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
@@ -6265,7 +6266,7 @@ a.persona,
   color: VAR(--ACCENT) !important;
 }
 .showcase_content_bg {
-  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   backdrop-filter: blur(10px) !important;
   background-color: VAR(--BASE1) !important;
@@ -6545,7 +6546,7 @@ a.games_list_tab.first_tab {
   background-color: var(--BASE2) !important;
 }
 .friend_reviews .review_box {
-  border: 1PX SOLID VAR(--PANELBORDER) !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   background: VAR(--FRIENDREVIEW) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -7398,12 +7399,12 @@ body.v6 #footer .rule {
 }
 .rightcol.game_meta_data .block {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  border: 1PX SOLID VAR(--PANELBORDER) !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   background: VAR(--BASE1) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
 .rightcol.game_meta_data .block.heading {
-  display:none!important;
+  display: none !important;
   border: 0 !important;
   border-bottom: 0 !important;
   color: VAR(--ACCENT) !important;
@@ -8986,8 +8987,9 @@ body.v6.winter_sale_home h2.winter {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .hover_box {
-  background: var(--lightergrey) !important;
-  color: var(--dakerwhite) !important;
+  border-radius: var(--BORDERRADIUS) !important;
+  background: var(--HOVERBOX) !important;
+  color: var(--ACCENT) !important;
 }
 .hover_arrow_inner {
   background: 0 0 !important;
@@ -9081,7 +9083,7 @@ div.bb_h3,
 }
 
 .two_column .nav_item:hover {
-  color:var(--BLACK)!important;
+  color: var(--BLACK) !important;
 }
 
 .grouppage_membertiles_overlay {
@@ -9430,11 +9432,11 @@ a.persona.online,
 }
 
 .tab_item {
-  transition: border-width 0.3s ease-in-out !important;
+  transition: all 0.1s ease-in-out !important;
   margin: 5px !important;
-  border-radius: var(--BORDERRADIUS) !important;
+  border-radius: var(--TABITEMBR) !important;
   border: 0 !important;
-  background: VAR(--PANEL) !important;
+  background: VAR(--TABITEM) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 
