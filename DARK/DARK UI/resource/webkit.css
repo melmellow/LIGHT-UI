@@ -7396,11 +7396,12 @@ body.v6 #footer .rule {
 }
 .rightcol.game_meta_data .block {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  border: 0 !important;
+  border: 1PX SOLID var(--PANELBORDER) !important;
   background: VAR(--BASE1) !important;
-  border-radius: 0 !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 .rightcol.game_meta_data .block.heading {
+  DISPLAY:NONE!important;
   border: 0 !important;
   border-bottom: 0 !important;
   color: VAR(--ACCENT) !important;
