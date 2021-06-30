@@ -4228,6 +4228,7 @@ div.NarrowRightPanel
 }
 
 .appactivityday_PartnerEvent_1AYE1 {
+  border: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
   background: var(--APPDETAILSPANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
