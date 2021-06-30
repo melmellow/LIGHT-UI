@@ -37,6 +37,7 @@
   --DROPDOWNHOVER: VAR(--DROPDOWN);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
+  --DROPDOWNBORDERWIDTH:2PX;
   --DROPDOWNROUNDED: 0;
   --BIRTHDAYSELECTOR: VAR(--BASE1);
   --RECENTGAME: VAR(--BASE1);
@@ -1716,6 +1717,8 @@ input.inputTagsFilter + label {
 }
 .game_info_achievement.plus_more,
 .showcase_achievement.plus_more {
+  color:var(--ACCENT)!important;
+  border:0!important;
   background-color: VAR(--MOREACHIEVEMENTSBG) !important;
 }
 .groupstat {
@@ -6736,7 +6739,7 @@ body.v6 h2 .header_inline {
   height: 0 !important;
 }
 .gameListRow {
-  border-radius: 0 !important;
+  border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -6766,14 +6769,14 @@ body.v6 h2 .header_inline {
   border: 1px SOLID var(--SHADOW) !important;
 }
 .pullup_item {
-  border-bottom: 1px SOLID var(--DROPDOWNBOTTOMBORDER) !important;
+  border-bottom: VAR(--DROPDOWNBORDERWIDTH) var(--DROPDOWNBOTTOMBORDER) !important;
   border-radius: VAR(--DROPDOWNROUNDED) !important;
   background-color: var(--DROPDOWN) !important;
   color: VAR(--ACCENT) !important;
 }
 
 .pullup_item:hover {
-  border-bottom: 1px SOLID var(--DROPDOWNBORDERHOVER) !important;
+  border-color: var(--DROPDOWNBORDERHOVER) !important;
   background-color: var(--DROPDOWNHOVER) !important;
   color: VAR(--ACCENT) !important;
 }
@@ -7037,18 +7040,18 @@ a.trigger {
   background-color: transparent !important;
 }
 .profile_comment_area .commentthread_entry_quotebox {
-  border: 1px SOLID var(--TEXTENTRYBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID var(--TEXTENTRYBORDER) !important;
   background-color: var(--TEXTENTRY) !important;
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
+  border-radius: var(--COMMENTTHREADTEXTENTRYBR) !important;
 }
 
 .profile_comment_area .commentthread_entry_quotebox:hover {
-  border: 1px SOLID var(--TEXTENTRYBORDERHOVER) !important;
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
   background-color: var(--TEXTENTRYBACKGROUNDHOVER) !important;
 }
 
 .profile_comment_area .commentthread_entry_quotebox:focus-within {
-  border: 1px SOLID var(--TEXTENTRYBORDERSELECTED) !important;
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
   background-color: var(--TEXTENTRYBACKGROUNDSELECTED) !important;
 }
 
