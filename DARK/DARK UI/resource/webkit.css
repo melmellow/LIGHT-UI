@@ -1874,7 +1874,7 @@ body.v6 .page_desc {
   border: 0 !important;
 }
 .sortbox .dselect_container {
-  border-bottom: 1px SOLID var(--BUTTONBORDER) !important;
+  border-bottom: VAR(--DROPDOWNBORDERWIDTH) SOLID var(--DROPDOWNBOTTOMBORDER) !important;
 }
 .dlc_page_release_date {
   color: VAR(--ACCENT) !important;
@@ -3237,7 +3237,8 @@ body.v6 .game_page_background {
 }
 
 .search_result_row {
-  border-radius: VAR(--BORDERRADIUS) !important;
+  transition: all 0.18s ease-in-out !important;
+  border-radius: VAR(--TABITEMBR) !important;
   border: 0 !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
