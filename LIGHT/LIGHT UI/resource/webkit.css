@@ -6,7 +6,7 @@
   --BASE3: #ececec;
   --ACCENT: #585858;
   --BUTTON2: #d6d6d6;
-  --BOXSHADOW: 1px 1px 2px;
+  --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --BLUE: #1181d2;
   --GREEN: #54a448;
@@ -53,7 +53,7 @@
   --lightergrey: VAR(--ACCENT);
   --OFFLINE: VAR(--ACCENT);
   --AVATARBORDERRADIUS: 50px;
-  --PANELBORDER: TRANSPARENT;
+  --PANELBORDER: var(--SHADOW);
   --PANEL: VAR(--BASE1);
   --PANEL2: VAR(--BASE2);
   --PANEL3: VAR(--BASE3);
@@ -4790,6 +4790,7 @@ div#global_header .submenuitem {
   background: VAR(--STORENAVBAR) !important;
   border-radius: var(--BORDERRADIUS) !important;
   border: 1px solid var(--PANELBORDER) !important;
+  BOX-SHADOW:VAR(--BOXSHADOW)VAR(--SHADOW)!important;
 }
 .navigation_bar > a.selected {
   background: VAR(--ACCENT) !important;
@@ -5158,22 +5159,21 @@ img.member_tile {
   border-radius: 0 !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
-.community_home_shortcut_content {
-  border-radius: var(--BORDERRADIUS) !important;
-}
+
 .community_home_app_shortcuts {
   border: 0 !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .community_home_app_shortcuts .community_home_shortcut_content {
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: 1px SOLID var(--PANELBORDER) !important;
   background-color: VAR(--BASE1) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
+  BOX-SHADOW:VAR(--BOXSHADOW) VAR(--SHADOW)!important;
 }
 .apphub_CardContentType {
-  border-radius: var(--BORDERRADIUS) !important;
+  /* border-radius: var(--BORDERRADIUS) !important; */
   color: VAR(--ACCENT) !important;
-  box-shadow: 0 1px 2px var(--SHADOW) !important;
+  /* box-shadow: var(--BOXSHADOW) var(--SHADOW) !important; */
   background: VAR(--BASE1) !important;
 }
 .steam_curator_for_app_highlighted .steam_curator_for_app {
@@ -5620,9 +5620,10 @@ body.v6 div#global_header .content {
 }
 
 .community_home_shortcut_content {
+  BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
   background-color: VAR(--PANEL) !important;
-  border: 0 !important;
-  box-shadow: var(--SHADOW) !important;
+  border: 1px solid var(--PANELBORDER) !important;
+  box-shadow: VAR(--BOXSHADOW) var(--SHADOW) !important;
 }
 
 .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,
@@ -5766,6 +5767,7 @@ div#game_select_suggestions_ctn {
   color: VAR(--ACCENT) !important;
 }
 input.community_home_search_app_input {
+  COLOR:VAR(--ACCENT)!important;
   font-size: 15px !important;
   font-style: normal !important;
   background-color: var(--TEXTENTRY) !important;
@@ -5774,7 +5776,7 @@ input.community_home_search_app_input {
   display: none !important;
 }
 .apphub_Card.interactable:hover .apphub_CardContentAuthorBlock {
-  border-top: 1px solid var(--SHADOW) !important;
+  border-top: 0 !important;
 }
 .community_home_search_title {
   display: none !important;
@@ -6005,11 +6007,7 @@ a.forum_comment_action:hover {
   background-color: var(--ACCENT) !important;
   border: 0 !important;
 }
-.blotter_status_entry .commentthread_entry .commentthread_entry_quotebox {
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
-  background-color: var(--TEXTENTRY) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
-}
+
 div#headerSearch.friend_activity_header_search {
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
   background-color: var(--TEXTENTRY) !important;
@@ -9181,10 +9179,6 @@ body.v6 #footer #footer_text a {
 }
 .help_page_title {
   color: VAR(--ACCENT) !important;
-}
-.community_home_app_shortcuts .community_home_shortcut_content {
-  border: 0 !important;
-  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 a,
 .whiteLink {
