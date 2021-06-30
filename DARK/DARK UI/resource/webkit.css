@@ -4122,7 +4122,7 @@ body.v6 h2 {
 .game_area_offsite_purchase {
   color: VAR(--ACCENT) !important;
   font-weight: VAR(--ACCENT) !important;
-  border: 0 !important;
+  border: 1PX SOLID var(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
@@ -6102,6 +6102,7 @@ div#headerSearch.friend_activity_header_search {
 .blotter_block {
   position: relative !important;
   background: VAR(--PANEL) !important;
+  border:1px solid var(--PANELBORDER)!important;
   border-radius: VAR(--BORDERRADIUS) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
