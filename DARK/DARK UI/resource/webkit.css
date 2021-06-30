@@ -832,6 +832,11 @@ div.filterselect_options div.option {
   border-right: none !important;
   color: VAR(--ACCENT) !important;
 }
+
+.eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ .eventcalendartile_EventSubTitle_1JjUp {
+  color:var(--ACCENT)!important;
+}
+
 .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC,
 .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover,
 .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j {
@@ -872,6 +877,7 @@ div.filterselect_options div.option {
 }
 .eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl)
   .eventcalendartile_Tile_3xvUZ {
+    transition: all 0.18s ease-in-out !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
