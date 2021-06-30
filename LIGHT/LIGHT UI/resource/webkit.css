@@ -20,12 +20,12 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
-  --COMMENTNOTIFICATION:VAR(--BASE1);
-  --COMMENTNOTIFICATIONHOVER:VAR(--BASE3);
-  --SEARCHFILTERROUNDED:var(--BORDERRADIUS);
-  --SEARCHFILTER:VAR(--BLUE);
-  --TABITEM:VAR(--BASE1);
-  --TABITEMBR:VAR(--BORDERRADIUS);
+  --COMMENTNOTIFICATION: VAR(--BASE1);
+  --COMMENTNOTIFICATIONHOVER: VAR(--BASE3);
+  --SEARCHFILTERROUNDED: var(--BORDERRADIUS);
+  --SEARCHFILTER: VAR(--BLUE);
+  --TABITEM: VAR(--BASE1);
+  --TABITEMBR: VAR(--BORDERRADIUS);
   --HOVERBOX: VAR(--BASE1);
   --MARKETACTIONBUTTON: VAR(--GREEN);
   --MARKETTAB: VAR(--GREEN);
@@ -859,8 +859,10 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 
-.eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ .eventcalendartile_EventSubTitle_1JjUp {
-  color:var(--ACCENT)!important;
+.eventcalendartile_TileContainer_1E3An
+  .eventcalendartile_Tile_3xvUZ
+  .eventcalendartile_EventSubTitle_1JjUp {
+  color: var(--ACCENT) !important;
 }
 
 .eventcalendar_EventCalendarContainer_1e3Wb
@@ -877,15 +879,15 @@ div.filterselect_options div.option {
 }
 .eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl)
   .eventcalendartile_Tile_3xvUZ {
-    transition:all .18s ease-in-out!important;
+  transition: all 0.18s ease-in-out !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
 
 .eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl)
   .eventcalendartile_Tile_3xvUZ:hover {
-    background-color:var(--BASE3)!important;
-  }
+  background-color: var(--BASE3) !important;
+}
 
 .eventcalendartile_TileContainer_1E3An
   .eventcalendartile_Tile_3xvUZ
@@ -2243,7 +2245,7 @@ div.sortselect_options div.option:hover {
   color: VAR(--ACCENT) !important;
 }
 .searchtag {
-  BORDER-RADIUS:VAR(--SEARCHFILTERROUNDED)!important;
+  border-radius: VAR(--SEARCHFILTERROUNDED) !important;
   color: var(--WHITE) !important;
   background: VAR(--SEARCHFILTER) !important;
 }
@@ -6113,8 +6115,8 @@ div#headerSearch.friend_activity_header_search {
   background-image: none !important;
   background-repeat: no-repeat !important;
   background-position: top left !important;
-  border: 0 !important;
-  border-radius: 0 !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
+  border-radius: var(--BORDERRADIUS) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .blotter_block {
@@ -8137,13 +8139,18 @@ a.pagebtn {
 .forum_newtopic_box {
   border-radius: var(--BORDERRADIUS) !important;
 }
-.commentthread_comment_edit_textarea_ctn,
+
+input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {
+  BORDER-RADIUS:VAR(--COMMENTTHREADTEXTENTRYBR)!important;
+}
+
+/* .commentthread_comment_edit_textarea_ctn,
 .gray_bevel,
 input.gray_bevel,
 textarea.gray_bevel {
   border: 0 !important;
   border-radius: var(--BORDERRADIUS) !important;
-}
+} */
 .btn_grey_black > span {
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -8222,7 +8229,7 @@ input.btn_small:hover {
   background-color: var(--SHADOW) !important;
 }
 .commentnotification {
-  transition:all .10s ease-in-out!important;
+  transition: all 0.1s ease-in-out !important;
   background-image: none !important;
   background-color: VAR(--COMMENTNOTIFICATION) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
@@ -9017,8 +9024,24 @@ input.gray_bevel,
 textarea.gray_bevel,
 .gray_bevel,
 .commentthread_comment_edit_textarea_ctn {
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID var(--TEXTENTRYBORDER) !important;
   background-color: var(--TEXTENTRY) !important;
+}
+
+input.gray_bevel,
+textarea.gray_bevel,
+.gray_bevel,
+.commentthread_comment_edit_textarea_ctn:hover {
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
+  background-color: var(--TEXTENTRYBACKGROUNDHOVER) !important;
+}
+
+input.gray_bevel,
+textarea.gray_bevel,
+.gray_bevel,
+.commentthread_comment_edit_textarea_ctn:focus-within {
+  border-color: var(--TEXTENTRYBORDERSELECTED) !important;
+  background-color: var(--TEXTENTRYBACKGROUNDSELECTED) !important;
 }
 input.gray_bevel,
 textarea.gray_bevel,
