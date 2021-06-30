@@ -17,6 +17,8 @@
   --trans: transparent;
   --BLACK: #fff;
   --WHITE: #000;
+  --MARKETTAB:VAR(--GREEN);
+  --MARKETACTIONBUTTON:VAR(--GREEN)
   --ACCOUNTHEADER: VAR(--BASE1);
   --SIDEBAR: VAR(--BASE1);
   --MOREACHIEVEMENTSBG: TRANSPARENT;
@@ -2996,6 +2998,7 @@ select {
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
 }
 .market_advancedsearch_appname {
   color: VAR(--ACCENT) !important;
@@ -3656,7 +3659,7 @@ p.sectionText {
 .item_market_action_button_green > span,
 .item_market_action_button_green .item_market_action_button_preload {
   background-image: none !important;
-  background-color: VAR(--ACCENT) !important;
+  background-color: VAR(--MARKETACTIONBUTTON) !important;
 }
 .pick_and_sell_button .item_market_action_button_contents {
   color: var(--WHITE) !important;
@@ -3741,7 +3744,7 @@ a.market_listing_row_link:visited {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .market_tab_well_tab_active > span {
-  background: VAR(--ACCENT) !important;
+  background: VAR(--MARKETTAB) !important;
   color: var(--WHITE) !important;
 }
 .market_subtitle_text {
