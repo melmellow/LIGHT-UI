@@ -20,6 +20,8 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
+  --COMMENTNOTIFICATION:VAR(--BASE1);
+  --COMMENTNOTIFICATIONHOVER:VAR(--BASE3);
   --SEARCHFILTERROUNDED:var(--BORDERRADIUS);
   --SEARCHFILTER:VAR(--BLUE);
   --TABITEM:VAR(--BASE1);
@@ -1905,7 +1907,7 @@ body.v6 .page_desc {
   background-color: var(--BUTTON2) !important;
 }
 .commentnotification:hover {
-  border-right: 2px SOLID var(--SHADOW) !important;
+  background-color: VAR(--COMMENTNOTIFICATIONHOVER) !important;
 }
 .joinchat_bg .joinchat_button {
   background: #1181d2 !important;
@@ -8209,7 +8211,7 @@ input.btn_small:hover {
 }
 .commentnotification {
   background-image: none !important;
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--COMMENTNOTIFICATION) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .commentnotifications_header_content b {

@@ -20,13 +20,15 @@
   --trans: transparent;
   --BLACK: #fff;
   --WHITE: #000;
-  --SEARCHFILTERROUNDED:VAR(--BORDERRADIUS);
-  --SEARCHFILTER:VAR(--BLUE);
-  --TABITEM:VAR(--BASE1);
-  --TABITEMBR:VAR(--BORDERRADIUS);
-  --HOVERBOX:VAR(--BASE1);
-  --MARKETTAB:VAR(--GREEN);
-  --MARKETACTIONBUTTON:VAR(--GREEN);
+  --COMMENTNOTIFICATION: VAR(--BASE1);
+  --COMMENTNOTIFICATIONHOVER: VAR(--BASE3);
+  --SEARCHFILTERROUNDED: VAR(--BORDERRADIUS);
+  --SEARCHFILTER: VAR(--BLUE);
+  --TABITEM: VAR(--BASE1);
+  --TABITEMBR: VAR(--BORDERRADIUS);
+  --HOVERBOX: VAR(--BASE1);
+  --MARKETTAB: VAR(--GREEN);
+  --MARKETACTIONBUTTON: VAR(--GREEN);
   --ACCOUNTHEADER: VAR(--BASE1);
   --SIDEBAR: VAR(--BASE1);
   --MOREACHIEVEMENTSBG: TRANSPARENT;
@@ -42,7 +44,7 @@
   --DROPDOWNHOVER: VAR(--DROPDOWN);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
-  --DROPDOWNBORDERWIDTH:2PX;
+  --DROPDOWNBORDERWIDTH: 2px;
   --DROPDOWNROUNDED: 0;
   --BIRTHDAYSELECTOR: VAR(--BASE1);
   --RECENTGAME: VAR(--BASE1);
@@ -646,8 +648,8 @@ div.filterselect_options div.option {
   background: var(--BASE2) !important;
 }
 .banner_Banner_ECzA2 {
-  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
-  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
 .rewarditemsection_SectionSubtitle_1Cqzt {
@@ -1722,8 +1724,8 @@ input.inputTagsFilter + label {
 }
 .game_info_achievement.plus_more,
 .showcase_achievement.plus_more {
-  color:var(--ACCENT)!important;
-  border:0!important;
+  color: var(--ACCENT) !important;
+  border: 0 !important;
   background-color: VAR(--MOREACHIEVEMENTSBG) !important;
 }
 .groupstat {
@@ -1905,7 +1907,7 @@ body.v6 .page_desc {
   background-color: var(--BUTTON2) !important;
 }
 .commentnotification:hover {
-  border-right: 2px SOLID var(--SHADOW) !important;
+  background-color: VAR(--COMMENTNOTIFICATIONHOVER) !important;
 }
 .joinchat_bg .joinchat_button {
   background: #1181d2 !important;
@@ -2231,7 +2233,7 @@ div.sortselect_options div.option:hover {
 }
 .searchtag {
   color: var(--WHITE) !important;
-  BORDER-RADIUS:VAR(--SEARCHFILTERROUNDED)!important;
+  border-radius: VAR(--SEARCHFILTERROUNDED) !important;
   background: VAR(--SEARCHFILTER) !important;
 }
 .search_result_row .col.search_released {
@@ -2436,7 +2438,7 @@ td.wht_date {
   color: VAR(--ACCENT) !important;
 }
 .account_settings_container {
-  BORDER-RADIUS:VAR(--BORDERRADIUS2)!important;
+  border-radius: VAR(--BORDERRADIUS2) !important;
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -3003,7 +3005,7 @@ select {
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
 }
 .market_advancedsearch_appname {
   color: VAR(--ACCENT) !important;
@@ -3210,7 +3212,7 @@ body.v6 .game_page_background {
   color: VAR(--ACCENT) !important;
 }
 .col.search_discount span {
-  border-radius:var(--BORDERRADIUS)!important;
+  border-radius: var(--BORDERRADIUS) !important;
   background-color: VAR(--GREEN) !important;
   color: var(--WHITE) !important;
 }
@@ -3419,7 +3421,7 @@ a.pulldown_desktop {
   background: VAR(--BASE1) !important;
 }
 .agegate_birthday_selector {
-  border: 1PX SOLID var(--PANELBORDER) !important;
+  border: 1px SOLID var(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--BIRTHDAYSELECTOR) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
@@ -4129,7 +4131,7 @@ body.v6 h2 {
 .game_area_offsite_purchase {
   color: VAR(--ACCENT) !important;
   font-weight: VAR(--ACCENT) !important;
-  border: 1PX SOLID var(--PANELBORDER) !important;
+  border: 1px SOLID var(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
@@ -4139,7 +4141,7 @@ body.v6 h2 {
 }
 
 .review_box {
-  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
@@ -5179,7 +5181,7 @@ img.member_tile {
   border: 1px SOLID var(--PANELBORDER) !important;
   background-color: VAR(--BASE1) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
-  BOX-SHADOW:VAR(--BOXSHADOW) VAR(--SHADOW)!important;
+  box-shadow: VAR(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 .apphub_CardContentType {
   /* border-radius: var(--BORDERRADIUS) !important; */
@@ -5507,7 +5509,7 @@ body.v6.newonsteam .newonsteam_headercaps > a {
   background-image: none !important;
 }
 .quadscreenshot_carousel .main {
-  border:1px solid var(--PANELBORDER)!important;
+  border: 1px solid var(--PANELBORDER) !important;
   background-color: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -5632,7 +5634,7 @@ body.v6 div#global_header .content {
 }
 
 .community_home_shortcut_content {
-  BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   background-color: VAR(--PANEL) !important;
   border: 1px solid var(--PANELBORDER) !important;
   box-shadow: VAR(--BOXSHADOW) var(--SHADOW) !important;
@@ -6108,7 +6110,7 @@ div#headerSearch.friend_activity_header_search {
 .blotter_block {
   position: relative !important;
   background: VAR(--PANEL) !important;
-  border:1px solid var(--PANELBORDER)!important;
+  border: 1px solid var(--PANELBORDER) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -6272,7 +6274,7 @@ a.persona,
   color: VAR(--ACCENT) !important;
 }
 .showcase_content_bg {
-  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   backdrop-filter: blur(10px) !important;
   background-color: VAR(--BASE1) !important;
@@ -6552,7 +6554,7 @@ a.games_list_tab.first_tab {
   background-color: var(--BASE2) !important;
 }
 .friend_reviews .review_box {
-  border: 1PX SOLID VAR(--PANELBORDER) !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   background: VAR(--FRIENDREVIEW) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -7405,12 +7407,12 @@ body.v6 #footer .rule {
 }
 .rightcol.game_meta_data .block {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  border: 1PX SOLID var(--PANELBORDER) !important;
+  border: 1px SOLID var(--PANELBORDER) !important;
   background: VAR(--BASE1) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
 .rightcol.game_meta_data .block.heading {
-  DISPLAY:NONE!important;
+  display: NONE !important;
   border: 0 !important;
   border-bottom: 0 !important;
   color: VAR(--ACCENT) !important;
@@ -8211,7 +8213,7 @@ input.btn_small:hover {
 }
 .commentnotification {
   background-image: none !important;
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--COMMENTNOTIFICATION) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .commentnotifications_header_content b {
@@ -8993,7 +8995,7 @@ body.v6.winter_sale_home h2.winter {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .hover_box {
-  BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   background: var(--HOVERBOX) !important;
   color: var(--dakerwhite) !important;
 }
@@ -9089,7 +9091,7 @@ div.bb_h3,
 }
 
 .two_column .nav_item:hover {
-  color:var(--BLACK)!important;
+  color: var(--BLACK) !important;
 }
 
 .grouppage_membertiles_overlay {
@@ -9439,7 +9441,7 @@ a.persona.online,
 }
 
 .tab_item {
-  transition: all 0.10s ease-in-out !important;
+  transition: all 0.1s ease-in-out !important;
   margin: 5px !important;
   border-radius: var(--TABITEMBR) !important;
   border: 0 !important;
