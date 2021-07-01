@@ -257,18 +257,18 @@ steam.styles
 
 		downarrow
 		{
-			image="ICONS/ADVANCEDSEARCH"
+			image="ICONS/down_arrow"
 			
 		}
 		downarrow:hover
 		{
-			image="ICONS/ADVANCEDSEARCH_H"
+			image="ICONS/down_arrow_h"
 		
 		}
 
 			downarrow:selected
 		{
-			image="ICONS/ADVANCEDSEARCH_H"
+			image="ICONS/down_arrow_s"
 		
 		}
 
@@ -764,10 +764,6 @@ steam.styles
 		ListPanelDragger
 		{
 			bgcolor="none"
-			render
-			{
-				1="fill( x0, y0, x0+1, y1, DIVIDER )"
-			}
 		}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
