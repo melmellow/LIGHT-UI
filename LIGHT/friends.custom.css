@@ -14,6 +14,10 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --CHECKBOX: TRANSPARENT;
+  --CHECKBOXBORDERRADIUS: 4px;
+  --CHECKBOXBORDER: #b3b3b3;
+  --CHECKBOXBORDERHOVER: VAR(--ACCENT);
   --REMOTEPLAY: VAR(--BLUE);
   --OFF: VAR(--BLUE);
   --ON: VAR(--GREEN);
@@ -28,13 +32,15 @@
   --ADVANCEDSEARCH: VAR(--BASE1);
   --GAMELISTBORDER: VAR(--DIVIDER1);
   --READYTOPLAYACTIVE: VAR(--BLUE);
-  --SIDEBAR: VAR(--BASE1);
+  --SETTINGSSIDEBAR: VAR(--BASE1);
   --SIDEBARBORDER: VAR(--SHADOW);
   --SIDEBARBORDER2: VAR(--SHADOW);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON);
   --CONTEXTMENU: VAR(--BASE3);
   --CONTEXTMENUBORDER: VAR(--SHADOW);
-  --CHECKMARK: VAR(--ACCENT);
+  --CHECKMARK: VAR(--BASE1);
+  --CHECKMARKPADDING: 2px;
+  --CHECKMARKBACKGROUND: var(--BLUE);
   --TEXTENTRYBORDERROUNDED: 30px;
   --SCROLLBAR: VAR(--ACCENT);
   --SCROLLBARHOVER: VAR(--BLACK);
@@ -48,6 +54,10 @@
   --ACTIVECHATTAB: VAR(--BASE1);
   --INACTIVECHATTAB: VAR(--BASE1);
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER) !important;
+}
+
+.DialogOnOffToggle._DialogInputContainer {
+  padding-left: 0 !important;
 }
 
 .friendslist_RemotePlayInviteLinkSection_2XX49 .endslist_LinkRow_19621 {
@@ -955,7 +965,7 @@ span.mention {
 /* ============================= */
 
 .DialogContent {
-  padding-right: 4px !important;
+  padding: 12px 14px !important;
 }
 
 button.DialogButton:not(.Off) {
@@ -1007,13 +1017,26 @@ button.DialogButton:disabled:hover {
 }
 
 .DialogCheckbox:hover {
-  border-color: var(--ACCENT) !important;
-  background: #d6d6d6 !important;
+  border-color: var(--CHECKBOXBORDERHOVER) !important;
 }
 
 .DialogCheckbox {
-  border: 1px solid #b6b6b6 !important;
-  background: #d6d6d6 !important;
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid var(--CHECKBOXBORDER) !important;
+  background: VAR(--CHECKBOX) !important;
+  border-radius: VAR(--CHECKBOXBORDERRADIUS) !important;
+}
+
+.DialogCheckbox .SVGIcon_DialogCheck {
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+}
+
+.DialogCheckbox.Active .SVGIcon_DialogCheck {
+  padding: var(--CHECKMARKPADDING) !important;
+  background: VAR(--CHECKMARKBACKGROUND) !important;
+  border-radius: var(--CHECKBOXBORDERRADIUS) !important;
 }
 
 .DialogCheckbox path {
@@ -1210,18 +1233,19 @@ button.DialogButton,
 }
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_3fNNR {
-  background: var(--sidebar) !important;
+  background: var(--SETTINGSSIDEBAR) !important;
   padding-left: 0px !important;
-  min-width: 205px !important;
+  max-width: 150px !important;
 }
 .pagedsettings_PagedSettingsDialog_Title_2bZnn {
   display: none !important;
 }
 
 .DialogHeader {
+  font-weight: 300 !important;
   color: rgb(var(--white)) !important;
-  font-size: 18px !important;
-  text-transform: none !important;
+  font-size: 24px !important;
+  text-transform: UPPERCASE !important;
   letter-spacing: 0px !important;
 }
 
@@ -1229,8 +1253,8 @@ button.DialogButton,
   color: var(--ACCENT) !important;
   text-transform: none !important;
   font-size: 14px !important;
-  margin-bottom: 3px !important;
-  padding: 5px 19px !important;
+  margin-bottom: 0 !important;
+  padding: 5px 17px 5px !important;
   padding-right: 1 !important;
   cursor: initial !important;
 }
@@ -1261,7 +1285,7 @@ button.DialogButton,
 }
 
 .pagedsettings_PagedSettingsDialog_PageListItem_14LgX:not(.pagedsettings_Active_3cnaw):hover {
-  color: #969696 !important;
+  color: var(--ACCENT) !important;
 }
 
 .ModalPosition_TopBar {
