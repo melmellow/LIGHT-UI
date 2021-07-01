@@ -42,7 +42,8 @@
   --SCROLLTOBOTTOM: var(--ACCENT);
   --SCROLLTOBOTTOMTEXT: VAR(--WHITE);
   --SCROLLTOBOTTOMBORDERRADIUS: 4px 4px 0 0;
-  --CHATAVATARBORDER: NONE;
+  --CHATAVATARBORDER: VAR(--ACCENT);
+  --CHATAVATARBORDERWIDTH: 2px;
   --CHATAVATARBORDERRADIUS: 50px;
   --ACTIVECHATTAB: VAR(--BASE1);
   --INACTIVECHATTAB: VAR(--BASE1);
@@ -2428,7 +2429,8 @@ html.web_chat_frame body {
 .currentUserAvatar .avatarHolder {
   width: 32px !important;
   height: 32px !important;
-  border-radius: 50px !important;
+  border: VAR(--CHATAVATARBORDERWIDTH) SOLID VAR(--CHATAVATARBORDER) !important;
+  border-radius: VAR(--CHATAVATARBORDERRADIUS) !important;
 }
 
 .chattabs_ChatTabRow_OdWLp .friend .personanameandstatus_statusAndName_9U-hi {
