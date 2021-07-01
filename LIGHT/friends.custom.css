@@ -19,7 +19,7 @@
   --CHECKBOXBORDER: #b3b3b3;
   --BUTTON2TEXT: VAR(--ACCENT);
   --BUTTON2: VAR(--BUTTON);
-  --BUTTON2HOVER:VAR(--BUTTON);
+  --BUTTON2HOVER: VAR(--BUTTON);
   --BUTTON2BORDERRADIUS: 0;
   --BUTTON2BORDERWIDTH: 1px;
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
@@ -46,6 +46,9 @@
   --CHECKMARK: VAR(--BASE1);
   --CHECKMARKPADDING: 2px;
   --CHECKMARKBACKGROUND: var(--BLUE);
+  --TEXTENTRYBACKGROUNDHOVER: VAR(--TEXTENTRY);
+  --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
+  --TEXTENTRYBORDERWIDTH: 2px;
   --TEXTENTRYBORDERROUNDED: 30px;
   --SCROLLBAR: VAR(--ACCENT);
   --SCROLLBARHOVER: VAR(--BLACK);
@@ -1521,23 +1524,25 @@ border: 1px solid VAR(--DIVIDER)!important;} */
   margin-top: 11px !important;
 }
 
-/* chat window message entry box */
 .chatentry_chatEntryControls_2O_X7 {
   background-color: transparent !important;
   padding-right: 0px !important;
   color: rgb(var(--white)) !important;
 }
-/*the box where you type*/
+
 .chatentry_chatTextarea_3e__5 {
-  border: 1px SOLID #b8b8b8 !important;
-  border-radius: 30px !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
+  border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
   margin: 0 !important;
   font-size: 16px !important;
   background-color: VAR(--TEXTENTRY) !important;
-  /*   border-top:VAR(--DIVIDER)!important; */
   height: 34px !important;
-  /* 	   padding: 5px 5px 5px 5px!important; */
-  color: rgb(var(--white)) !important;
+  color: VAR(--ACCENT) !important;
+}
+
+.chatentry_chatTextarea_3e__5:hover {
+  background: VAR(--TEXTENTRYBACKGROUNDHOVER);
+  border-color: var(--TEXTENTRYBORDERHOVER);
 }
 
 .chatentry_chatTextarea_3e__5::selection {

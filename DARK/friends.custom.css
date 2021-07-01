@@ -14,8 +14,8 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
-  --BUTTON2BORDERRADIUS:0;
-  --BUTTON2BORDERWIDTH:1PX;
+  --BUTTON2BORDERRADIUS: 0;
+  --BUTTON2BORDERWIDTH: 1px;
   --BUTTON2: VAR(--BUTTON);
   --BUTTON2TEXT: VAR(--ACCENT);
   --BUTTON2HOVER: VAR(--BUTTON);
@@ -47,6 +47,9 @@
   --CHECKMARKPADDING: 2px;
   --CHECKMARKBACKGROUND: VAR(--BLUE);
   --TEXTENTRYBORDERROUNDED: 30px;
+  --TEXTENTRYBORDERWIDTH:2PX;
+  --TEXTENTRYBACKGROUNDHOVER: VAR(--TEXTENTRY);
+  --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --SCROLLBAR: VAR(--ACCENT);
   --SCROLLBARHOVER: VAR(--BLACK);
   --SCROLLBARBORDERRADIUS: 0;
@@ -65,8 +68,8 @@
   padding-left: 0 !important;
 }
 
-.friendslist_RemotePlayInviteLinkSection_2XX49 .friendslist_LinkRow_19621 {
-  background: var(--REMOTEPLAY) !important;
+.friendslist_RemotePlayInviteLinkSection_2XX49 .endslist_LinkRow_19621 {
+  background: VAR(--REOMTEPLAY) !important;
 }
 
 .CompactFriendsList
@@ -1052,7 +1055,7 @@ button.DialogButton:disabled:hover {
 }
 
 .DialogCheckbox path {
-  padding: var(--CHECKMARKPADDING) !important;
+  padding: VAR(--CHEKCMARKPADDING) !important;
   stroke: VAR(--CHECKMARK) !important;
 }
 
@@ -1246,7 +1249,7 @@ button.DialogButton,
 }
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_3fNNR {
-  background: var(--sidebar) !important;
+  background: var(--SETTINGSSIDEBAR) !important;
   padding-left: 0px !important;
   max-width: 150px !important;
 }
@@ -1257,7 +1260,7 @@ button.DialogButton,
 .DialogHeader {
   font-weight: 300 !important;
   color: rgb(var(--white)) !important;
-  font-size: 18px !important;
+  font-size: 24px !important;
   text-transform: UPPERCASE !important;
   letter-spacing: 0px !important;
 }
@@ -1266,8 +1269,8 @@ button.DialogButton,
   color: var(--ACCENT) !important;
   text-transform: none !important;
   font-size: 14px !important;
-  margin-bottom: 3px !important;
-  padding: 5px 19px !important;
+  margin-bottom: 0 !important;
+  padding: 5px 17px 5px !important;
   padding-right: 1 !important;
   cursor: initial !important;
 }
@@ -1298,7 +1301,7 @@ button.DialogButton,
 }
 
 .pagedsettings_PagedSettingsDialog_PageListItem_14LgX:not(.pagedsettings_Active_3cnaw):hover {
-  color: #969696 !important;
+  color: var(--ACCENT) !important;
 }
 
 .ModalPosition_TopBar {
@@ -1368,8 +1371,8 @@ button.DialogButton,
 /* Down */
 ::-webkit-scrollbar-button:vertical:increment {
   /*     background-image: url(https://i.imgur.com/MSeJirr.png)!important;
-	  background-repeat: no-repeat!important;
-	  background-position: 0px 0px!important; */
+    background-repeat: no-repeat!important;
+    background-position: 0px 0px!important; */
   width: 0 !important;
   height: 0 !important;
   background: VAR(--BASE2) !important;
@@ -1377,8 +1380,8 @@ button.DialogButton,
 /* Up */
 ::-webkit-scrollbar-button:vertical:decrement {
   /*    background-image: url(https://i.imgur.com/U6H0Z62.png)!important;
-	  background-repeat: no-repeat!important;
-	  background-position: 0px 0px!important; */
+    background-repeat: no-repeat!important;
+    background-position: 0px 0px!important; */
   width: 0 !important;
   height: 0 !important;
   background: VAR(--BASE2) !important;
@@ -1396,7 +1399,7 @@ button.DialogButton,
 }
 
 /* .multiChatDialog{
-  border: 1px solid VAR(--DIVIDER)!important;} */
+border: 1px solid VAR(--DIVIDER)!important;} */
 
 /* ======== Friend Panel Group ======== */
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
@@ -1521,23 +1524,25 @@ button.DialogButton,
   margin-top: 11px !important;
 }
 
-/* chat window message entry box */
 .chatentry_chatEntryControls_2O_X7 {
   background-color: transparent !important;
   padding-right: 0px !important;
   color: rgb(var(--white)) !important;
 }
-/*the box where you type*/
+
 .chatentry_chatTextarea_3e__5 {
-  border: 1px SOLID #b8b8b8 !important;
-  border-radius: 30px !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
+  border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
   margin: 0 !important;
   font-size: 16px !important;
   background-color: VAR(--TEXTENTRY) !important;
-  /*   border-top:VAR(--DIVIDER)!important; */
   height: 34px !important;
-  /* 	   padding: 5px 5px 5px 5px!important; */
-  color: rgb(var(--white)) !important;
+  color: VAR(--ACCENT) !important;
+}
+
+.chatentry_chatTextarea_3e__5:hover {
+  background: VAR(--TEXTENTRYBACKGROUNDHOVER);
+  border-color: var(--TEXTENTRYBORDERHOVER);
 }
 
 .chatentry_chatTextarea_3e__5::selection {
@@ -1659,7 +1664,7 @@ button.DialogButton,
 
 .chatHistoryScroll {
   /*     background-image: url(https://i.imgur.com/nlGfqx5.png)!important;
-	  background-repeat: repeat-y; */
+    background-repeat: repeat-y; */
   padding: 5px 0px 12px 1px !important;
 }
 .window_resize_grip {
@@ -1978,7 +1983,7 @@ html.contextmenu_ContextMenuPopup_1exss .contextmenu_contextMenuContents_1yyTu {
 .msg a:hover,
 .bbcode_ChatMessageSteamStore_Name_2-b92:hover,
 .BBCodeTitle:hover {
-  color: VAR(--ACCENT) !important;
+  color: var(--ACCENT) !important;
   border-bottom: none !important;
   filter: brightness(0.9) !important;
 }
@@ -2095,7 +2100,7 @@ html.client_chat_frame .chatWindow .chatEntry {
 
 button.DialogButton {
   width: AUTO !important;
-  border-radius: VAR(--BUTTON2BORDERRADIUS);
+  border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
   color: VAR(--BUTTON2TEXT) !important;
   background: var(--BUTTON2) !important;
   border: VAR(--BUTTON2BORDERWIDTH) solid VAR(--BUTTONBORDER);
@@ -2379,6 +2384,10 @@ html.web_chat_frame body {
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
 }
 
+.DialogToggle_Description {
+  display: none !important;
+}
+
 .chatDialogs {
   background: VAR(--BASE2) !important;
 }
@@ -2397,10 +2406,6 @@ html.web_chat_frame body {
   border-radius: var(--CHATAVATARBORDERRADIUS) !important;
 }
 
-.DialogToggle_Description {
-  display: none !important;
-}
-
 .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
   -webkit-mask: none !important;
 }
@@ -2411,6 +2416,10 @@ html.web_chat_frame body {
 }
 
 .compactView .socialListTab {
+  /*  padding-bottom: 10px;
+	    background-image: url(https://i.imgur.com/kdxXmTO.png);
+    background-position: bottom;
+    background-repeat: repeat-x; */
   height: 27px !important;
 }
 
@@ -2522,8 +2531,8 @@ html.web_chat_frame body {
 }
 
 /*Gray hover color for every title bar button
-  .title-area-icon:hover{
-  background: rgba(var(--white05))!important;}*/
+.title-area-icon:hover{
+background: rgba(var(--white05))!important;}*/
 
 .minimizeButton:hover,
 .maximizeButton:hover,
@@ -2650,9 +2659,9 @@ html.web_chat_frame body {
 }
 
 /* .chattabs_CloseButton_SzByZ:hover{
-	  background-color:#d5d5d5!important;
-	  border-radius:100px!important;
-  } */
+	background-color:#d5d5d5!important;
+	border-radius:100px!important;
+} */
 
 .chatTabList .chattabs_ChatTab_1WfqA,
 .ChatTabsBackButton {
