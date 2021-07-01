@@ -8,7 +8,20 @@
 			inset-top=-1
 		}
 		ListPanelCheckBox
-		{
+		{	
+			image="ICONS/DIALOGCHECK_d"
+			padding-left=4
+		}
+
+		ListPanelCheckBox:hover
+		{	
+			image="ICONS/DIALOGCHECK_h"
+			padding-left=4
+		}
+
+		ListPanelCheckBox:selected
+		{	
+			image="ICONS/DIALOGCHECK_s"
 			padding-left=4
 		}
 	}
