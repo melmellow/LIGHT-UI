@@ -14,6 +14,11 @@
   --WHITE: #fff;
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
+  --BUTTON2BORDERRADIUS:0;
+  --BUTTON2BORDERWIDTH:1PX;
+  --BUTTON2: VAR(--BUTTON);
+  --BUTTON2TEXT: VAR(--ACCENT);
+  --BUTTON2HOVER: VAR(--BUTTON);
   --CHECKBOXBORDERRADIUS: 4px;
   --CHECKBOX: TRANSPARENT;
   --CHECKBOXBORDER: #b3b3b3;
@@ -965,7 +970,7 @@ span.mention {
 /* ============================= */
 
 .DialogContent {
-  padding-right: 4px !important;
+  padding: 22px 14px !important;
 }
 
 button.DialogButton:not(.Off) {
@@ -1008,8 +1013,8 @@ button.DialogButton:not(.Off) {
   background: #d6d6d6 !important;
 }
 button.DialogButton:hover {
-  background: #d6d6d6 !important;
-  border-color: #8d8d8d !important;
+  background: VAR(--BUTTON2HOVER) !important;
+  border-color: VAR(--BUTTONBORDERHOVER) !important;
 }
 button.DialogButton:disabled,
 button.DialogButton:disabled:hover {
@@ -1028,18 +1033,26 @@ button.DialogButton:disabled:hover {
   border-radius: VAR(--CHECKBOXBORDERRADIUS) !important;
 }
 
+.DialogCheckbox .SVGIcon_DialogCheck path {
+  transform-origin: center !important;
+  transform: scale(0.9) !important;
+}
+
 .DialogCheckbox .SVGIcon_DialogCheck {
-  margin-top: 0 !important;
-  margin-left: 0 !important;
+  height: 18px !important;
+  width: 18px !important;
+  margin-top: -1px !important;
+  margin-left: -1px !important;
 }
 
 .DialogCheckbox.Active .SVGIcon_DialogCheck {
-  padding: var(--CHECKMARKPADDING) !important;
   background: VAR(--CHECKMARKBACKGROUND) !important;
+  border: 1px solid var(--CHECKMARKBACKGROUND) !important;
   border-radius: var(--CHECKBOXBORDERRADIUS) !important;
 }
 
 .DialogCheckbox path {
+  padding: var(--CHECKMARKPADDING) !important;
   stroke: VAR(--CHECKMARK) !important;
 }
 
@@ -1295,8 +1308,10 @@ button.DialogButton,
   background: #c3c3c3 !important;
 }
 .FriendsSettingsNotificationRow {
+  margin-bottom: 0 !important;
   background-color: transparent !important;
-  color: rgb(140, 140, 140) !important;
+  color: var(--ACCENT) !important;
+  padding-left: 0 !important;
 }
 
 .MemberListColumn {
@@ -2079,10 +2094,11 @@ html.client_chat_frame .chatWindow .chatEntry {
 }
 
 button.DialogButton {
-  width: 99% !important;
-  color: rgb(var(--white)) !important;
-  background: #d6d6d6 !important;
-  border: 1px solid #b8b8b8;
+  width: AUTO !important;
+  border-radius: VAR(--BUTTON2BORDERRADIUS);
+  color: VAR(--BUTTON2TEXT) !important;
+  background: var(--BUTTON2) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) solid VAR(--BUTTONBORDER);
 }
 
 .chatRoomVoiceChannel {
@@ -2371,8 +2387,18 @@ html.web_chat_frame body {
   margin-top: 6px !important;
 }
 
+.DialogLabel,
+.DialogLabelStrong,
+._DialogInputContainer {
+  color: var(--ACCENT) !important;
+}
+
 .voiceSelfHeader .friend .avatarHolder .avatar {
-  border-radius: 50px !important;
+  border-radius: var(--CHATAVATARBORDERRADIUS) !important;
+}
+
+.DialogToggle_Description {
+  display: none !important;
 }
 
 .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
@@ -2385,10 +2411,6 @@ html.web_chat_frame body {
 }
 
 .compactView .socialListTab {
-  /*  padding-bottom: 10px;
-		  background-image: url(https://i.imgur.com/kdxXmTO.png);
-	  background-position: bottom;
-	  background-repeat: repeat-x; */
   height: 27px !important;
 }
 
