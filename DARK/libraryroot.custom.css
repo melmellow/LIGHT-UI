@@ -28,6 +28,7 @@
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
   --BUTTONBORDERHOVER: #a5a5a5;
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
+  --BUTTON2BORDERWIDTH: 1px;
   --BUTTON2: #333333;
   --BUTTON2HOVER: VAR(--BUTTON2);
   --BUTTON2TEXT: VAR(--ACCENT);
@@ -535,7 +536,7 @@
   transition: filter 0.3s ease-in-out !important;
   width: 37px !important;
   color: transparent !important;
-  background-image: url(https://i.imgur.com/FEJKk6E.png) !important;
+  background-image: url(https://i.imgur.com/AAFscfG.png) !important;
   background-size: 20px !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -550,7 +551,7 @@
 /*-------------------------- INFO ICON --------------------------*/
 
 .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
-  background-image: URL(https://i.imgur.com/E2PFaFj.png) !important;
+  background-image: URL(https://i.imgur.com/2vWZ3Iq.png) !important;
   background-size: 18px !important;
   background-repeat: NO-REPEAT !important;
   background-position: CENTER !important;
@@ -926,7 +927,7 @@ div.NarrowRightPanel
 .salepreviewwidgets_BundleShowButton_2Vu78
   .salepreviewwidgets_ShowContentsButton_-VlK4 {
   background: VAR(--BUTTON2) !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  border: var(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
   color: var(--ACCENT) !important;
 }
@@ -1447,7 +1448,7 @@ div.NarrowRightPanel
 .appdetailsheader_InCollection_1HS4t {
   display: none !important;
   background: var(--BUTTON2) !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
   color: var(--ACCENT) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
   padding: 4px !important;
@@ -1470,7 +1471,7 @@ div.NarrowRightPanel
   margin-left: 38px !important;
   background: var(--BUTTON2) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
-  border: 1px SOLID VAR(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) SOLID VAR(--BUTTONBORDER) !important;
   color: var(--BUTTON2TEXT) !important;
   text-transform: UPPERCASE !important;
 }
@@ -1501,7 +1502,7 @@ div.NarrowRightPanel
   .collectionview_Header_2rqTS
   .collectionview_DynamicCollectionLabelAndButton_8JUfQ {
   background: var(--BUTTON2) !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
 }
 
@@ -2138,7 +2139,7 @@ img {
 .appdetailscommunityfeed_LoadContentButton_2RSxE {
   color: VAR(--ACCENT) !important;
   background-color: var(--BUTTON2) !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
 }
 
@@ -3159,7 +3160,7 @@ button.DialogButton {
   padding-right: 6px !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
   background: var(--BUTTON2) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) SOLID var(--BUTTONBORDER) !important;
   color: var(--BUTTON2TEXT) !important;
   font-weight: var(--BUTTON2FONTWEIGHT) !important;
 }
@@ -3186,7 +3187,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Bot
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh {
   background-color: var(--BUTTON2) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) SOLID var(--BUTTONBORDER) !important;
   color: var(--BUTTON2TEXT) !important;
   width: auto !important;
   font-weight: var(--BUTTON2FONTWEIGHT) !important;
@@ -4208,7 +4209,7 @@ div.NarrowRightPanel
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
   background: VAR(--APPDETAILSPANEL) !important;
-  border: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
+  /* border: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important; */
   border-radius: var(--BORDERRADIUS) !important;
 }
 
@@ -4278,7 +4279,7 @@ div.NarrowRightPanel
 .writereview_ReviewThumbButton_1kCN0 {
   color: var(--ACCENT) !important;
   background: VAR(--BUTTON2) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) SOLID var(--BUTTONBORDER) !important;
 }
 .appactivityday_ReviewText_3ZTUR {
   color: var(--ACCENT) !important;
@@ -4470,7 +4471,7 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
   background: var(--BUTTON2) !important;
-  border: 1px SOLID VAR(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) SOLID VAR(--BUTTONBORDER) !important;
 }
 .partnereventshared_Button_1ABCO.partnereventshared_Icon_1dDpS:hover {
   border-color: var(--BUTTONBORDERHOVER) !important;
@@ -4689,12 +4690,12 @@ A {
   padding-right: 12px !important;
   border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
   background: var(--BUTTON2) !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a.libraryhomeshowcases_Disabled_1MNhU {
   background-color: VAR(--BUTTON2) !important;
-  border: 1px SOLID var(--BUTTONBORDER) !important;
+  border: VAR(--BUTTON2BORDERWIDTH) SOLID var(--BUTTONBORDER) !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg {
   opacity: 0 !important;
@@ -4847,7 +4848,7 @@ A {
   .appfilterpane_FilterBucketBoxes_32e6r
   .appfilterpane_Row_1J53P
   .appfilterpane_Checkbox_2AOkQ:hover {
-  color: var(--BUTTONHOVER) !important;
+  color: var(--BLACK) !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
