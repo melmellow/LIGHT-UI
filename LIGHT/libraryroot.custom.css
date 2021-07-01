@@ -28,7 +28,7 @@
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
   --BUTTONBORDERHOVER: #8d8d8d;
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
-  --BUTTON2BORDERWIDTH: 1PX;
+  --BUTTON2BORDERWIDTH: 1px;
   --BUTTON2: #d6d6d6;
   --BUTTON2HOVER: VAR(--BUTTON2);
   --BUTTON2TEXT: VAR(--ACCENT);
@@ -130,6 +130,7 @@
   --CONTEXTMENUBORDERRADIUS: 4px;
   --ADVANCEDSEARCHBORDERRADIUS: var(--BORDERRADIUS);
   --ACHIEVEMENTTITLEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --POSTGAMESUMMARYFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --REVIEWICONBACKGROUNDBORDERRADIUS: VAR(--BORDERRADIUS);
   --POSITIVEREVIEWICONBACKGROUND: VAR(--BLUE);
   --POSITIVEREVIEWICONBACKGROUNDBORDER: none;
@@ -2138,6 +2139,7 @@ img {
 }
 
 .appdetailscommunityfeed_LoadContentButton_2RSxE {
+  padding: 4px 10px !important;
   color: VAR(--ACCENT) !important;
   background-color: var(--BUTTON2) !important;
   border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
@@ -4431,6 +4433,7 @@ div.NarrowRightPanel
   background: var(--BASE2) !important;
 }
 .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
+  font-weight: var(--POSTGAMESUMMARYFONTWEIGHT) !important;
   color: var(--ACCENT) !important;
 }
 .libraryhomeshowcases_EmptyMessage_mzPGH

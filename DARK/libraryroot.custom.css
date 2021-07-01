@@ -361,6 +361,7 @@
   --BORDERRADIUS: 4px;
   --BUTTON1BORDERRADIUS: 0;
   --BUTTON2BORDERRADIUS: 0;
+  --POSTGAMESUMMARYFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMEGROUPNAMEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATICONFILTER: VAR(--FILT);
@@ -2137,6 +2138,7 @@ img {
 }
 
 .appdetailscommunityfeed_LoadContentButton_2RSxE {
+  padding: 4px 10px !important;
   color: VAR(--ACCENT) !important;
   background-color: var(--BUTTON2) !important;
   border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
@@ -4430,6 +4432,7 @@ div.NarrowRightPanel
   background: var(--BASE2) !important;
 }
 .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
+  font-weight: VAR(--POSTGAMESUMMARYFONTWEIGHT) !important;
   color: var(--ACCENT) !important;
 }
 .libraryhomeshowcases_EmptyMessage_mzPGH
