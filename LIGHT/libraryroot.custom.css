@@ -618,6 +618,30 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.sharescreenshotupload_RadioButtonGroup_1BSXp {
+  background: VAR(--APPDETAILSPANEL) !important;
+  border: 1px SOLID var(--APPDETAILSPANELBORDER)!important;
+  border-radius: var(--BORDERRADIUS) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
+}
+
+.sharescreenshotupload_CaptionTextArea_qFjVw {
+  PADDING:7PX!important;
+  background: var(--TEXTENTRY) !important;
+  border: var(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
+  border-radius: var(--DIALOGTEXTENTRYBORDERROUNDED) !important;
+}
+
+.sharescreenshotupload_CaptionTextArea_qFjVw:hover {
+  background: var(--TEXTENTRYBACKGROUNDHOVER) !important;
+  border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
+}
+
+.sharescreenshotupload_CaptionTextArea_qFjVw:focus-within {
+  background: var(--TEXTENTRYBACKGROUNDSELECTED) !important;
+  border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
+}
+
 .appdetailscommunityfeed_Controls_3lh8a
   .appdetailscommunityfeed_Control_1GfHt
   .appdetailscommunityfeed_Count_NlL1t {
@@ -2627,7 +2651,7 @@ button.DialogButton:hover {
   border: 1px solid var(--BUTTONBORDERHOVER) !important;
 }
 .DialogOnOffToggle_Control .Active {
-  background: var(--ACCENT) !important;
+  background: var(--BLACK) !important;
 }
 .ModalPosition_TopBar {
   height: 0 !important;
@@ -5928,7 +5952,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
   font-weight: VAR(--DROPDOWNITEMSFONTWEIGHT) !important;
-  MARGIN-LEFT:0!important;
+  margin-left: 0 !important;
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ
