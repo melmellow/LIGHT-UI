@@ -127,13 +127,13 @@
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/down_arrow"
+			image="GRAPHICS/ICON_DOWN"
 		}
 		ComboBoxButton:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/down_arrow_p"
+			image="GRAPHICS/ICON_DOWN"
 		}
 		ScreenshotLoadingThrobber
 		{
