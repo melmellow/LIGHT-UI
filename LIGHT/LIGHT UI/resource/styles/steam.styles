@@ -27,6 +27,24 @@ steam.styles
 	
 	styles
 	{
+
+			textentry:hover {
+			render {
+				0="fill(x0,y0,x1,y0+1, TEXTENTRYBORDERHOVER)"  // top
+				1="fill(x0,y1-1,x1,y1, TEXTENTRYBORDERHOVER)"  // bottom
+				2="fill(x0,y0+1,x0+1,y1-1,TEXTENTRYBORDERHOVER)"  // left
+				3="fill(x1-1,y0+1,x1,y1-1,TEXTENTRYBORDERHOVER)"  // right
+				}
+		}
+
+		textentry:focus {
+			render {
+				0="fill(x0,y0,x1,y0+1, TEXTENTRYBORDERSELECTED)"  // top
+				1="fill(x0,y1-1,x1,y1, TEXTENTRYBORDERSELECTED)"  // bottom
+				2="fill(x0,y0+1,x0+1,y1-1,TEXTENTRYBORDERSELECTED)"  // left
+				3="fill(x1-1,y0+1,x1,y1-1,TEXTENTRYBORDERSELECTED)"  // right
+				}
+		}
 		fileopendialog {
 			bgcolor=BASE2
 		}

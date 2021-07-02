@@ -258,10 +258,10 @@
 		}
 		ComboBox:disabled
 		{
-			textcolor=DISABLEDTEXT
+			textcolor= "183 183 183 255"
 			render_bg
 			{
-				2="fill(x0,y1-1,x1,y1,DROPDOWNHOVERBORDER)"  // bottom
+				2="fill(x0,y1-1,x1,y1,DROPDOWNBORDER)"  // bottom
 			}
 		}
 		ComboBox:focus
