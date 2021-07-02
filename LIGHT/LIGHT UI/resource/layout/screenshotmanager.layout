@@ -41,8 +41,8 @@
 		multi_img_delete { controlname="Button" labeltext="#Overlay_Delete" command="askdeletescreenshot" visible=0 }
 		multi_img_upload { controlname="Button" labeltext="#Overlay_Publish" command="askpublishscreenshot" visible=0 }
 
-		instr_no_selection_title { controlname="Label" labeltext="#steam_screenshots_no_selection_title" style="NoSelectionTitle" wrap=1 }
-		instr_no_selection { controlname="Label" labeltext="#steam_screenshots_no_selection_instructions" style="NoSelectionInstructions" wrap=1 }
+		instr_no_selection_title { controlname="Label" labeltext="#steam_screenshots_no_selection_title" style="NoSelectionTitle" wrap=1}
+		instr_no_selection { controlname="Label" labeltext="#steam_screenshots_no_selection_instructions" style="NoSelectionInstructions" wrap=1}
 
 		null_placer { controlname="Panel" visible=1 } // Used to bottom-right align things.
 	}
@@ -149,12 +149,13 @@
 		}
 		NoSelectionTitle
 		{
-			textcolor=ACCENT
+			textcolor="NONE"
 			font-family=light
 			font-weight=300
 		}
 		NoSelectionInstructions
 		{
+			TEXTCPLOR="NONE"
 			font-family=basefont
 		}
 	}
@@ -196,7 +197,7 @@
 		place { control="multi_img_storage_remaining,multi_img_storage_remaining_info" region=details y=220 align="top-center" spacing=5 }
 		place { control="multi_img_delete,multi_img_upload" region=details y=260 align="top-center" spacing=8 }
 		place { control="file_not_loaded_label" region="details" y=140 align="top-center" }
-		place { control="instr_no_selection_title,instr_no_selection" region="details" y=0 width=max margin-left=15 margin-right=15 dir=down spacing=6 }
+		place { control="instr_no_selection_title,instr_no_selection" region="details" x=9999}
 
 		//Hidden
 		place { control=selectorlabel width=1 align=right }
