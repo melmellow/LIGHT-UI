@@ -28,6 +28,8 @@ steam.styles
 	styles
 	{
 
+		account_menu_label { font-family=medium font-size=16 font-weight=500 textcolor=FRIENDONLINE font-style=regular }
+
 			textentry:hover {
 			render {
 				0="fill(x0,y0,x1,y0+1, TEXTENTRYBORDERHOVER)"  // top
