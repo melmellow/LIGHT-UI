@@ -18,10 +18,10 @@ Steam will have to restart to apply the theme
 * run steamfriendspatcher and it will apply the theme
 
 # CREDITS
+* METRO SKIN <3
+* AIR SKIN <3
 * phantomgamers for making steamfriendspatcher <3
 * AikoMidori for contributing on the webkit and chat ui <3
-* METRO SKIN for the navbar <3
-* AIR SKIN for the overlay <3
 
 Its not perfect yet but I will keep working on it <3
 
