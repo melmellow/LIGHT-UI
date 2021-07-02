@@ -5928,6 +5928,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
   font-weight: VAR(--DROPDOWNITEMSFONTWEIGHT) !important;
+  MARGIN-LEFT:0!important;
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ
