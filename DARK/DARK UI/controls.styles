@@ -57,8 +57,8 @@
 		}
 		Button:disabled
 		{
-			textcolor="195 195 195 255"
-			bgcolor="207 207 207 255"
+			textcolor="BUTTONDISABLEDTEXT"
+			bgcolor="BUTTONDISABLED"
 		}
 		ToggleButton:selected
 		{
