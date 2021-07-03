@@ -42,6 +42,11 @@
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
   --BLUE2: #285d83;
+  --INACTIVETOGGLE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
+  --INACTIVETOGGLETEXT: VAR(--BUTTONBORDER);
+  --INACTIVETOGGLETEXTHOVER: VAR(--ACCENT);
+  --INACTIVETOGGLEHOVER: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
+  --ACTIVETOGGLE: VAR(--BLUE);
   --LETTERSPACING: 1px;
   --WHITE: #ffffff;
   --CAPTION: VAR(--ACCENT);
@@ -2600,6 +2605,12 @@ img {
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
   fill: var(--ACCENT) !important;
 }
+
+.DialogOnOffToggle_Option.Active {
+  background: var(--ACTIVETOGGLE) !important;
+  color: var(--WHITE) !important;
+}
+
 .appproperties_AppProperties_1FyBL
   .appproperties_Page_1SvWY
   .appproperties_DlcGrid_3sXdO
@@ -2649,6 +2660,17 @@ img {
 button.DialogButton:hover {
   border: 1px solid var(--BUTTONBORDERHOVER) !important;
 }
+
+.DialogOnOffToggle_Control {
+  background: VAR(--INACTIVETOGGLE) !important;
+  color: VAR(--INACTIVETOGGLETEXT) !important;
+}
+
+.DialogOnOffToggle_Option:hover:not(.Active) {
+  background: VAR(--INACTIVETOGGLEHOVER) !important;
+  color: var(--INACTIVETOGGLETEXTHOVER) !important;
+}
+
 .DialogOnOffToggle_Control .Active {
   background: var(--BLACK) !important;
 }

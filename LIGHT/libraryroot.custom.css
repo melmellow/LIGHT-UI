@@ -42,6 +42,11 @@
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
   --BLUE2: #285d83;
+  --INACTIVETOGGLE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
+  --INACTIVETOGGLETEXT: VAR(--BUTTONBORDER);
+  --INACTIVETOGGLETEXTHOVER: VAR(--ACCENT);
+  --INACTIVETOGGLEHOVER: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
+  --ACTIVETOGGLE: VAR(--BLUE);
   --LETTERSPACING: 1px;
   --WHITE: VAR(--BASE1);
   --CAPTION: VAR(--ACCENT);
@@ -620,13 +625,13 @@
 
 .sharescreenshotupload_RadioButtonGroup_1BSXp {
   background: VAR(--APPDETAILSPANEL) !important;
-  border: 1px SOLID var(--APPDETAILSPANELBORDER)!important;
+  border: 1px SOLID var(--APPDETAILSPANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
 .sharescreenshotupload_CaptionTextArea_qFjVw {
-  PADDING:7PX!important;
+  padding: 7px !important;
   background: var(--TEXTENTRY) !important;
   border: var(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
   border-radius: var(--DIALOGTEXTENTRYBORDERROUNDED) !important;
@@ -2656,6 +2661,22 @@ button.DialogButton:hover {
 .ModalPosition_TopBar {
   height: 0 !important;
 }
+
+.DialogOnOffToggle_Control {
+  background: VAR(--INACTIVETOGGLE) !important;
+  color: var(--INACTIVETOGGLETEXT) !important;
+}
+
+.DialogOnOffToggle_Option:hover:not(.Active) {
+  background: VAR(--INACTIVETOGGLEHOVER) !important;
+  color: var(--INACTIVETOGGLETEXTHOVER) !important;
+}
+
+.DialogOnOffToggle_Option.Active {
+  background: var(--ACTIVETOGGLE) !important;
+  color: var(--WHITE) !important;
+}
+
 SVGIcon_Button {
   fill: var(--ACCENT) !important;
 }
