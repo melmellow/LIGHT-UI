@@ -364,6 +364,7 @@
   --DIALOGTEXTENTRYBORDERROUNDED: 0;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
+  --PANELCONTENTBR: 4px;
   --BUTTON1BORDERRADIUS: 0;
   --BUTTON2BORDERRADIUS: 0;
   --POSTGAMESUMMARYFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -622,6 +623,13 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appactivityday_ScreenshotCarousel_1pdQd
+  .appactivityday_CarouselThumbs_1tRKR
+  .appactivityday_CarouselThumb_1Lot-
+  img {
+  border-radius: var(--ACTIVESCREENSHOTBR) !important;
+}
+
 .sharescreenshotupload_RadioButtonGroup_1BSXp {
   background: VAR(--APPDETAILSPANEL) !important;
   border: 1px SOLID var(--APPDETAILSPANELBORDER) !important;
@@ -783,7 +791,7 @@ div.NarrowRightPanel
 .appactivityday_ScreenshotCarousel_1pdQd
   .appactivityday_ActiveScreenshot_290Dq
   img {
-  border-radius: var(--BORDERRADIUS) !important;
+  border-radius: var(--PANELCONTENTBR) !important;
 }
 
 .title-area .title-bar-actions {
@@ -818,7 +826,7 @@ div.NarrowRightPanel
 }
 
 .appactivityday_PartnerEventMediumImage_Image_VytJz {
-  border-radius: var(--BORDERRADIUS) !important;
+  border-radius: var(--PANELCONTENTBR) !important;
 }
 
 .ModalPosition_Content
