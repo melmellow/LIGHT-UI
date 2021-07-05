@@ -1,8 +1,7 @@
 "Steam/cached/overlaywebbrowser.layout" {
 
-	styles {
-		HTML { inset="0 0 0 0" }
-	}
+
+
 
 	layout {
 		region { name=header height=50 width=max }
