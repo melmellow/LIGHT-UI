@@ -630,6 +630,11 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appdetailsadditionalcontentsection_AdditionalItem_11iUU:hover
+  .appdetailsadditionalcontentsection_Image_3ikOg {
+  filter: unset !important;
+}
+
 .collectionview_Container_2q70u
   .collectionview_Header_2rqTS
   .collectionview_DynamicCollectionLabelAndButton_8JUfQ {
