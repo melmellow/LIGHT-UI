@@ -31,6 +31,7 @@
   --BUTTON2BORDERWIDTH: 1px;
   --BUTTON2: #d6d6d6;
   --BUTTON2PRIMARY: VAR(--BLUE);
+  --BUTTON2PRIMARYBORDER: VAR(--BLUE);
   --BUTTON2PRIMARYTEXT: VAR(--WHITE);
   --BUTTON2PRIMARYHOVER: VAR(--BLUE2);
   --BUTTON2PRIMARYBORDERHOVER: VAR(--BLUE2);
@@ -634,7 +635,7 @@
   .collectionview_DynamicCollectionLabelAndButton_8JUfQ {
   position: absolute !important;
   right: 0 !important;
-  margin-right:14px!important;
+  margin-right: 14px !important;
 }
 
 .appactivityday_ScreenshotCarousel_1pdQd
@@ -5220,6 +5221,7 @@ button.DialogButton::before {
 }
 button.DialogButton.Primary {
   width: auto !important;
+  border-color: var(--BUTTON2PRIMARYBORDER) !important;
   color: VAR(--BUTTON2PRIMARYTEXT) !important;
   border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
   background: VAR(--BUTTON2PRIMARY) !important;
