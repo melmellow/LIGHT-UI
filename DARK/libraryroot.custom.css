@@ -627,6 +627,14 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.collectionview_Container_2q70u
+  .collectionview_Header_2rqTS
+  .collectionview_DynamicCollectionLabelAndButton_8JUfQ {
+  position: absolute !important;
+  right: 0 !important;
+  margin-right: 14px !important;
+}
+
 .appactivityday_ScreenshotCarousel_1pdQd
   .appactivityday_CarouselThumbs_1tRKR
   .appactivityday_CarouselThumb_1Lot-
