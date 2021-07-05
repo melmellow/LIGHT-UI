@@ -4875,6 +4875,11 @@ A {
   border-radius: VAR(--SEARCHFILTERROUNDED) !important;
   border: VAR(--SEARCHFILTERBORDERWIDTH) solid var(--SEARCHFILTERBORDER) !important;
 }
+
+.pageablecontainer_PageableCloseButton_Y6Tq4 {
+  transition:all 0.18s ease-in-out!important;
+}
+
 .DialogCheckbox {
   border: 1px SOLID VAR(--CHECKBOXBORDER) !important;
   background-color: var(--CHECKBOX) !important;

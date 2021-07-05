@@ -4264,6 +4264,11 @@ div.NarrowRightPanel
   color: var(--ACCENT) !important;
   background: NONE !important;
 }
+
+.pageablecontainer_PageableCloseButton_Y6Tq4 {
+  transition:all 0.18s ease-in-out!important;
+}
+
 .pageablecontainer_PageableCloseButton_Y6Tq4 svg line {
   stroke: var(--ACCENT) !important;
 }
