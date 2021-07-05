@@ -4485,6 +4485,8 @@ div.NarrowRightPanel
   padding: 10px !important;
 }
 .appdetailsspotlight_ReviewContainer_3LE-6 {
+  padding-left:0!important;
+  padding-right:0!important;
   background-color: var(--BASE2) !important;
   border-radius: 10px !important;
   border: 1px SOLID var(--BASE2) !important;
