@@ -789,6 +789,10 @@ div.NarrowRightPanel
   fill: VAR(--BLUE) !important;
 }
 
+.appdetailstradingcardssection_Badge_RPcyJ {
+  margin-top: 6px !important;
+}
+
 .appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
   border: 2px dashed var(--ACCENT) !important;
 }
