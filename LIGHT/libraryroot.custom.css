@@ -3454,6 +3454,7 @@ div.ShortRightPanel
   stroke: VAR(--ACCENT) !important;
 }
 .appgrid_AppGridSectionLabel_2hvQb {
+  margin-right:6px!important;
   letter-spacing: var(--LETTERSPACING) !important;
   color: VAR(--ACCENT) !important;
   font-weight: VAR(--APPGRIDSECTIONLABELFONTWEIGHT) !important;
@@ -5057,6 +5058,8 @@ A {
 }
 
 .appgrid_AppGridSectionHeader_3bWIS {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
   margin-top: 10px !important;
   position: initial !important;
 }
