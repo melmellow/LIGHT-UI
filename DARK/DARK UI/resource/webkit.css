@@ -82,6 +82,18 @@
   --blur: blur(10px);
 }
 
+.help_divider {
+  margin: unset !important;
+}
+
+#help_search_support_form {
+  margin-top: -40px !important;
+}
+
+.help_faq_text {
+  color: var(--ACCENT) !important;
+}
+
 .no_vac_bans_header {
   color: var(--GREEN) !important;
 }
