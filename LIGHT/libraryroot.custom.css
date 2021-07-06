@@ -49,6 +49,7 @@
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
   --BLUE2: #285d83;
+  --REMOVECOLLECTIONXSTROKE:#9E9E9E;
   --INACTIVETOGGLE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --INACTIVETOGGLETEXT: VAR(--BUTTONBORDER);
   --INACTIVETOGGLETEXTHOVER: VAR(--ACCENT);
@@ -633,6 +634,18 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.gamelistcollectionmenu_CollectionDeleteContainer_nYduu
+  .gamelistcollectionmenu_CollectionDeleteIconOutline_143lq
+  svg
+  line,
+.gamelistcollectionmenu_CollectionDeleteContainer_nYduu
+  .gamelistcollectionmenu_CollectionDeleteIcon_f9Kxl
+  svg
+  line {
+  stroke: VAR(--REMOVECOLLECTIONXSTROKE) !important;
+  STROKE-LINECAP:SQUARE!important;
+}
 
 .appdetailscommunityfeed_AppOverviewRow_1I55h.appdetailscommunityfeed_AutoRow_290KS
   .appdetailscommunityfeed_Large_9U5OL {
