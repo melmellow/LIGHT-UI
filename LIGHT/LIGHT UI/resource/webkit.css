@@ -20,6 +20,9 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
+  --BUTTON2BORDERHOVER:VAR(--BUTTONBORDERHOVER);
+  --BUTTON2BORDERRADIUS: 0;
+  --BUTTON2TEXTHOVER: VAR(--ACCENT);
   --COMMENTNOTIFICATION: VAR(--BASE1);
   --COMMENTNOTIFICATIONHOVER: VAR(--BASE3);
   --SEARCHFILTERROUNDED: var(--BORDERRADIUS);
@@ -80,11 +83,11 @@
 }
 
 .no_vac_bans_header {
-  color:var(--GREEN)!important;
+  color: var(--GREEN) !important;
 }
 
 .vac_title {
-  DISPLAY:NONE!important;
+  display: NONE !important;
 }
 
 .invite_row {
@@ -2472,7 +2475,8 @@ td.wht_date {
 }
 
 .account_setting_block_short {
-  background: VAR(--BASE1) !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
+  background: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .account_manage_link {
@@ -3891,7 +3895,7 @@ a.persona.in-game,
 .help_before_contacting_steam_support_details {
   background-color: VAR(--PANEL) !important;
   color: VAR(--ACCENT) !important;
-  BORDER:1PX SOLID VAR(--PANELBORDER);
+  border: 1px SOLID VAR(--PANELBORDER);
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .block a.linkbar {
@@ -8149,8 +8153,11 @@ a.pagebtn {
   border-radius: var(--BORDERRADIUS) !important;
 }
 
-input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {
-  BORDER-RADIUS:VAR(--COMMENTTHREADTEXTENTRYBR)!important;
+input.gray_bevel,
+textarea.gray_bevel,
+.gray_bevel,
+.commentthread_comment_edit_textarea_ctn {
+  border-radius: VAR(--COMMENTTHREADTEXTENTRYBR) !important;
 }
 
 /* .commentthread_comment_edit_textarea_ctn,
@@ -9127,14 +9134,20 @@ div.bb_h3,
   font-weight: 500 !important;
 }
 .two_column .nav_item {
+  padding: 4px !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+  text-align: center !important;
   margin-bottom: 4px !important;
-  border-radius: 0 !important;
-  border: 0 !important;
-  background-color: transparent !important;
+  margin-right: 4px !important;
+  border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
+  border: 1px SOLID VAR(--BUTTONBORDER) !important;
+  background: var(--BUTTON2) !important;
 }
 
 .two_column .nav_item:hover {
-  color: var(--BLACK) !important;
+  border-color: VAR(--BUTTON2BORDERHOVER) !important;
+  color: var(--BUTTON2TEXTHOVER) !important;
 }
 
 .grouppage_membertiles_overlay {
