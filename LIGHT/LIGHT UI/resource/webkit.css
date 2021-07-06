@@ -20,7 +20,7 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
-  --BUTTON2BORDERHOVER:VAR(--BUTTONBORDERHOVER);
+  --BUTTON2BORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --BUTTON2BORDERRADIUS: 0;
   --BUTTON2TEXTHOVER: VAR(--ACCENT);
   --COMMENTNOTIFICATION: VAR(--BASE1);
@@ -83,15 +83,15 @@
 }
 
 .help_divider {
-  margin:unset!important;
+  margin: 0 !important;
 }
 
 #help_search_support_form {
-  margin-top:-40px!important;
+  margin-top: -40px !important;
 }
 
 .help_faq_text {
-  color:var(--ACCENT)!important;
+  color: var(--ACCENT) !important;
 }
 
 .no_vac_bans_header {

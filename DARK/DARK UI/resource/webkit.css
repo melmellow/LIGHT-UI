@@ -83,7 +83,7 @@
 }
 
 .help_divider {
-  margin: unset !important;
+  margin: 0 !important;
 }
 
 #help_search_support_form {
