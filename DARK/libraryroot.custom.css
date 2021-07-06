@@ -182,6 +182,7 @@
   --HIDDENACHIEVEMENTBG: RGB(0, 0, 0);
   --HIDDENACHIEVEMENTQMARK: VAR(--WHITE);
   --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
+  --COMMUNITYFEEDCONTROLSBORDER: VAR(--SHADOW);
   --COMMUNITYFEEDBORDERROUNDED1: 4px; /*bottom left*/
   --COMMUNITYFEEDBORDERROUNDED2: 4px; /*bottom right*/
   --COMMUNITYFEEDBORDERROUNDED3: 4px; /*top left*/
@@ -627,6 +628,21 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.appdetailscommunityfeed_AppOverviewRow_1I55h.appdetailscommunityfeed_AutoRow_290KS
+  .appdetailscommunityfeed_Large_9U5OL {
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+}
+
+.appdetailscommunityfeed_AppOverviewRow_1I55h.appdetailscommunityfeed_AutoRow_290KS
+  .appdetailscommunityfeed_VideoAspect_2oSH- {
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+}
+
+.appdetailscommunityfeed_AppOverviewRow_1I55h.appdetailscommunityfeed_AutoRow_290KS
+  .appdetailscommunityfeed_Small_1dUfy {
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+}
 
 .libraryhomeshowcases_Reordering_2Ho8z .libraryhomeshowcases_Showcase_V7RuD {
   padding: 0 !important;
@@ -3453,7 +3469,7 @@ div.ShortRightPanel
   stroke: VAR(--ACCENT) !important;
 }
 .appgrid_AppGridSectionLabel_2hvQb {
-  margin-right:6px!important;
+  margin-right: 6px !important;
   letter-spacing: var(--LETTERSPACING) !important;
   color: VAR(--ACCENT) !important;
   font-weight: VAR(--APPGRIDSECTIONLABELFONTWEIGHT) !important;
@@ -4252,7 +4268,7 @@ div.NarrowRightPanel
 }
 .appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
   background-color: VAR(--COMMUNITYFEEDCONTROLS) !important;
-  border: 0 !important;
+  border: 1px SOLID var(--COMMUNITYFEEDCONTROLSBORDER) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
