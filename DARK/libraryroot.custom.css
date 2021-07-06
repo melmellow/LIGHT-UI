@@ -432,7 +432,7 @@
   --APPPORTRAITDOWNLOADBARDISPLAY: NONE;
   --SHAREDAPPDETAILHEADERDISPLAY: unset;
   --SHAREDAPPDETAILHEADERFILT: VAR(--FILT);
-  --SHAREDAPPDETAILHEADEROP: 59%;
+  --SHAREDAPPDETAILHEADEROP: 0;
   --SHAREDAPPDETAILHEADERLETTERSPACING: 0;
   --SHAREDAPPDETAILHEADERFONTSIZE: 8px;
 
@@ -4755,7 +4755,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
-  margin-top:1px !important;
+  margin-top: 1px !important;
   margin-left: 1px !important;
 }
 
