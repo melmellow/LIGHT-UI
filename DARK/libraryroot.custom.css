@@ -1,6 +1,8 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
+  --COLLECTIONGRIDROWGAP: 10px;
+  --COLLECTIONGRIDCOLUMNGAP: 10px;
   --gridrowgap: 2px;
   --gridcolumngap: 2px;
   --COLLECTIONSGRIDSPACING: 4px 4px;
@@ -2308,7 +2310,7 @@ img {
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW {
-  padding: 10px 14px !important;
+  padding: 10px 10px !important;
   border-top: 1px solid var(--DETAILSPANELTOPBORDER) !important;
 }
 
@@ -3231,7 +3233,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 
 .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K {
-  padding-top: 5px !important;
+  gap: var(--COLLECTIONGRIDROWGAP) VAR(--COLLECTIONGRIDCOLUMNGAP) !important;
+  padding-top: 0 !important;
 }
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
@@ -4620,7 +4623,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
 }
 .libraryhome_LibraryHome_3Sb2o {
-  padding: 10px 14px !important;
+  padding: 10px 10px !important;
   background: var(--BASE2) !important;
 }
 .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
@@ -5423,7 +5426,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border-radius: 0 !important;
   color: var(--ACCENT) !important;
   font-weight: 400 !important;
-  padding: 10px 14px !important;
+  padding: 10px 10px !important;
 }
 .appgrid_CollectionOptionsRightJustified_3t1pL
   .appgrid_ShowingReadyToPlay_38IOu {
@@ -5525,7 +5528,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 
 .allcollections_ScrollContainer_u1xD3 {
-  padding: 10px 14px !important;
+  padding: 10px 10px !important;
   border-top: 1px SOLID VAR(--DETAILSPANELTOPBORDER) !important;
   background: var(--BASE2) !important;
 }
