@@ -217,7 +217,7 @@
   --BUTTON1BORDER: NONE;
   --BUTTON1HOVER: VAR(--BLACK);
   --BUTTONHOVER: VAR(--BLACK);
-  --GAMESTATEDASH: VAR(--ACCENT);
+  --GAMESTATEDASH: VAR(--BLACK);
   --RUNNINGGAMENAMECOLOR: VAR(--BLACK);
   --RUNNINGGAMESTATECOLOR: VAR(--BLACK);
   --UPDATINGGAMENAMECOLOR: VAR(--BLACK);
@@ -629,6 +629,10 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.libraryhomeshowcases_Reordering_2Ho8z .libraryhomeshowcases_Showcase_V7RuD {
+  padding: 0 !important;
+}
 
 .appdetailsadditionalcontentsection_AdditionalItem_11iUU:hover
   .appdetailsadditionalcontentsection_Image_3ikOg {
@@ -4747,6 +4751,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
+  margin-top:1px !important;
   margin-left: 1px !important;
 }
 
