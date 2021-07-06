@@ -79,6 +79,14 @@
   --blur: blur(10px);
 }
 
+.no_vac_bans_header {
+  color:var(--GREEN)!important;
+}
+
+.vac_title {
+  DISPLAY:NONE!important;
+}
+
 .invite_row {
   background: VAR(--PANEL) !important;
   border-radius: var(--BORDERRADIUS) !important;
@@ -3881,8 +3889,9 @@ a.persona.in-game,
 .help_cannot_launch_game_details,
 .help_cannot_install_game_details,
 .help_before_contacting_steam_support_details {
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--PANEL) !important;
   color: VAR(--ACCENT) !important;
+  BORDER:1PX SOLID VAR(--PANELBORDER);
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .block a.linkbar {

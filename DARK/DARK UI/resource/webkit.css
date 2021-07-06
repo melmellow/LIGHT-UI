@@ -79,6 +79,14 @@
   --blur: blur(10px);
 }
 
+.no_vac_bans_header {
+  color: var(--GREEN) !important;
+}
+
+.vac_title {
+  display: NONE !important;
+}
+
 .invite_row {
   background: VAR(--PANEL) !important;
   border-radius: var(--BORDERRADIUS) !important;
@@ -833,8 +841,10 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
 }
 
-.eventcalendartile_TileContainer_1E3An .eventcalendartile_Tile_3xvUZ .eventcalendartile_EventSubTitle_1JjUp {
-  color:var(--ACCENT)!important;
+.eventcalendartile_TileContainer_1E3An
+  .eventcalendartile_Tile_3xvUZ
+  .eventcalendartile_EventSubTitle_1JjUp {
+  color: var(--ACCENT) !important;
 }
 
 .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC,
@@ -877,15 +887,15 @@ div.filterselect_options div.option {
 }
 .eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl)
   .eventcalendartile_Tile_3xvUZ {
-    transition: all 0.18s ease-in-out !important;
+  transition: all 0.18s ease-in-out !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
 }
 
 .eventcalendartile_TileContainer_1E3An.eventcalendartile_EnableHovers_2BniJ:not(.eventcalendartile_EventType12_2X_hM):not(.eventcalendartile_EventType14_2mVdt):not(.eventcalendartile_TileVideoIcon_aK0jl)
   .eventcalendartile_Tile_3xvUZ:hover {
-    background-color:var(--BASE3)!important;
-  }
+  background-color: var(--BASE3) !important;
+}
 
 .eventcalendartile_TileContainer_1E3An
   .eventcalendartile_Tile_3xvUZ
@@ -3882,8 +3892,9 @@ a.persona.in-game,
 .help_cannot_launch_game_details,
 .help_cannot_install_game_details,
 .help_before_contacting_steam_support_details {
-  background-color: VAR(--BASE1) !important;
+  background-color: VAR(--PANEL) !important;
   color: VAR(--ACCENT) !important;
+  border: 1px SOLID VAR(--PANELBORDER);
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .block a.linkbar {
@@ -6115,7 +6126,7 @@ div#headerSearch.friend_activity_header_search {
   background-image: none !important;
   background-repeat: no-repeat !important;
   background-position: top left !important;
-  border: 1PX SOLID VAR(--PANELBORDER) !important;
+  border: 1px SOLID VAR(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
@@ -8224,7 +8235,7 @@ input.btn_small:hover {
   background-color: var(--SHADOW) !important;
 }
 .commentnotification {
-  TRANSITION:all .10s ease-in-out!important;
+  transition: all 0.1s ease-in-out !important;
   background-image: none !important;
   background-color: VAR(--COMMENTNOTIFICATION) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
@@ -9016,8 +9027,11 @@ body.v6.winter_sale_home h2.winter {
   background: 0 0 !important;
 }
 
-input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {
-  BORDER-RADIUS:VAR(--COMMENTTHREADTEXTENTRYBR)!important;
+input.gray_bevel,
+textarea.gray_bevel,
+.gray_bevel,
+.commentthread_comment_edit_textarea_ctn {
+  border-radius: VAR(--COMMENTTHREADTEXTENTRYBR) !important;
 }
 
 input.gray_bevel,
