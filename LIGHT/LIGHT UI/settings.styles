@@ -32,7 +32,7 @@
 			ListPanel.SelectedTextColor     ACCENT
 			ListPanel.SelectedBgColor     Focus
 			ListPanel.SelectedOutOfFocusgColor   Focus
-			ListPanel.DisabledTextColor     White45
+			ListPanel.DisabledTextColor     LISTPANELDISABLEDTEXT
 			ListPanel.DisabledSelectedTextColor   ClientBG
 			ListPanel.EmptyListInfoTextColor    Label
 			ListPanel.PerPixelScrolling     1
