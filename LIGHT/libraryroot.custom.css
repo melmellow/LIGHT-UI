@@ -374,8 +374,9 @@
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
   --PANELCONTENTBR: 4px;
-  --BUTTON1BORDERRADIUS: 0;
-  --BUTTON2BORDERRADIUS: 0;
+  --BUTTON1BORDERRADIUS: 4px;
+  --BUTTON2PRIMARYBORDERRADIUS: 4px;
+  --BUTTON2BORDERRADIUS: 4px;
   --GAMEGROUPNAMEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATICONFILTER: VAR(--FILT);
@@ -1276,7 +1277,7 @@ div.NarrowRightPanel
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
-  .DialogTextInputBase:focus {
+  .DialogTextInputBase:focus-within {
   border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
 }
 
@@ -5263,7 +5264,7 @@ button.DialogButton.Primary {
   width: auto !important;
   border-color: var(--BUTTON2PRIMARYBORDER) !important;
   color: VAR(--BUTTON2PRIMARYTEXT) !important;
-  border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
+  border-radius: VAR(--BUTTON2PRIMARYBORDERRADIUS) !important;
   background: VAR(--BUTTON2PRIMARY) !important;
 }
 button.DialogButton.Primary:hover {
@@ -5365,11 +5366,21 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
   .DialogTextInputBase {
-  height: 10px !important;
+  height: 8px !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
 }
+
+.appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi
+  .DialogInput_Wrapper
+  .DialogTextInputBase:hover {
+  border-color: var(--TEXTENTRYBORDERHOVER) !important;
+  background: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
+}
+
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchButton_1TxHd
@@ -6131,7 +6142,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi.appfilterpane_SearchResultsBox_MIMuV
   .appfilterpane_FilterBucketBoxes_32e6r {
-  top: 37px !important;
+  top: 36px !important;
 }
 
 .appportrait_LibraryItemBox_WYgDg:active,
