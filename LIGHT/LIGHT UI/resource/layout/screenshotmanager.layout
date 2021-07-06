@@ -161,7 +161,7 @@
 	}
 	layout
 	{
-		region { name="selectorbar" x=1 y=1 width=max height=39 margin-left=16 margin-top=6 margin-bottom=6 margin-right=80 }
+		region { name="selectorbar" x=1 y=1 width=600 height=39 margin-left=16 margin-top=6 margin-bottom=6 margin-right=80 }
 		region { name="details" align=right margin-right=8 margin-top=44 margin-bottom=8 margin-left=358 height=max }
 		region { name="list" margin-left=16 margin-right=16 margin-top=44 margin-bottom=50 width=max }
 
