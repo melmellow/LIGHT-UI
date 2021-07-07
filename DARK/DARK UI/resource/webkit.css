@@ -1758,6 +1758,10 @@ input.inputTagsFilter + label {
 }
 .blotter_gamepurchase_content .plus_block {
   background: VAR(--BASE1) !important;
+  RIGHT:10PX!important;
+  bottom:-6px!important;
+  border-top-left-radius:var(--BORDERRADIUS)!important;
+  font-size:18px!important;
 }
 .game_info_achievement.plus_more,
 .showcase_achievement.plus_more {
