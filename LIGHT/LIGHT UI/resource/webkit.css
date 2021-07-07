@@ -65,7 +65,7 @@
   --lightgrey: VAR(--ACCENT);
   --lightergrey: VAR(--ACCENT);
   --OFFLINE: VAR(--ACCENT);
-  --AVATARBORDERRADIUS: 50px;
+  --AVATARBORDERRADIUS: 100px;
   --PANELBORDER: var(--SHADOW);
   --PANEL: VAR(--BASE1);
   --PANEL2: VAR(--BASE2);
@@ -6245,7 +6245,7 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .profile_header .playerAvatar.profile_header_size {
-  border-radius: VAR(--BORDERRADIUS) !important;
+  border-radius: VAR(--AVATARBORDERRADIUS) !important;
 }
 
 .responsive .profile_header .playerAvatar.profile_header_size {
