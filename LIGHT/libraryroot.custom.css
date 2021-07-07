@@ -49,7 +49,7 @@
   --GREEN2: #49ee51;
   --BLUE: #1181d2;
   --BLUE2: #285d83;
-  --REMOVECOLLECTIONXSTROKE:#9E9E9E;
+  --REMOVECOLLECTIONXSTROKE: #9e9e9e;
   --INACTIVETOGGLE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --INACTIVETOGGLETEXT: VAR(--BUTTONBORDER);
   --INACTIVETOGGLETEXTHOVER: VAR(--ACCENT);
@@ -62,7 +62,7 @@
   --ACTIVESCREENSHOTBR: 0;
   --ACTIVESCREENSHOTBORDERWIDTH: 2px;
   --SEARCHBARBACKGROUND: VAR(--BASE1);
-  --TEXTENTRY: #e8e8e8;
+  --TEXTENTRY: transparent;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --SCROLLTOTOPSIDEBAR: var(--ACCENT);
@@ -635,6 +635,10 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.gamelistentry_AppIconDownloading_2kzMb svg circle {
+  display: NONE !important;
+}
+
 .gamelistcollectionmenu_CollectionDeleteContainer_nYduu
   .gamelistcollectionmenu_CollectionDeleteIconOutline_143lq
   svg
@@ -644,7 +648,7 @@
   svg
   line {
   stroke: VAR(--REMOVECOLLECTIONXSTROKE) !important;
-  STROKE-LINECAP:SQUARE!important;
+  stroke-linecap: SQUARE !important;
 }
 
 .appdetailscommunityfeed_AppOverviewRow_1I55h.appdetailscommunityfeed_AutoRow_290KS
