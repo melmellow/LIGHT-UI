@@ -19,7 +19,7 @@
   --FILT: BRIGHTNESS(0);
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
-  --BASE3: #E8E8E8;
+  --BASE3: #e8e8e8;
   --BASE4: #ececec;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
@@ -61,8 +61,7 @@
   --ACTIVESCREENSHOTBORDER: VAR(--BLUE);
   --ACTIVESCREENSHOTBR: 0;
   --ACTIVESCREENSHOTBORDERWIDTH: 2px;
-  --SEARCHBARBACKGROUND: VAR(--BASE1);
-  --TEXTENTRY: #E8E8E8;
+  --TEXTENTRY: #e8e8e8;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --SCROLLTOTOPSIDEBAR: var(--ACCENT);
@@ -1518,8 +1517,7 @@ div.NarrowRightPanel
 }
 
 .gamelistsearchbar_Container_20QAC {
-  background: var(--SEARCHBARBACKGROUND) !important;
-  padding-bottom: 6px !important;
+  padding: 4px !important;
 }
 
 .gamelistsearchbar_Container_20QAC .DialogInput_ClearAction svg line,
@@ -1764,10 +1762,10 @@ a:-webkit-any-link {
   .gamelistsearchbar_SearchInput_12vo5
   .DialogTextInputBase {
   padding: 0 !important;
-  padding-top: 3px !important;
+  padding-top: 2px !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
-  padding-bottom: 3px !important;
+  padding-bottom: 2px !important;
   padding-left: 16px !important;
   padding-right: 24px !important;
   color: var(--ACCENT) !important;
@@ -5149,7 +5147,7 @@ A {
 }
 
 .contextmenu_contextMenu_PP7LM {
-  box-shadow:var(--BOXSHADOW)VAR(--SHADOW)!important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: VAR(--CONTEXTMENUBORDERRADIUS) !important;
   border: 1px SOLID VAR(--CONTEXTMENUBORDER) !important;
   box-shadow: var(--BOXSHADOW) VAR(--CONTEXTMENUSHADOW) !important;
@@ -6279,7 +6277,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
   border: 1px solid var(--ADVANCEDSEARCHBORDER) !important;
-  BOX-SHADOW:VAR(--BOXSHADOW)VAR(--SHADOW)!important;
+  box-shadow: VAR(--BOXSHADOW) VAR(--SHADOW) !important;
   box-shadow: var(--BOXSHADOW) VAR(--ADVANCEDSEARCHSHADOW) !important;
   background: VAR(--ADVANCEDSEARCH) !important;
 }

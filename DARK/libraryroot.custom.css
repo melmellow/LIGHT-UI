@@ -60,7 +60,6 @@
   --CAPTION: VAR(--ACCENT);
   --ACTIVESCREENSHOTBORDER: VAR(--BLUE);
   --ACTIVESCREENSHOTBORDERWIDTH: 2px;
-  --SEARCHBARBACKGROUND: VAR(--BASE1);
   --TEXTENTRY: #131313;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: TRANSPARENT;
@@ -1516,8 +1515,7 @@ div.NarrowRightPanel
 }
 
 .gamelistsearchbar_Container_20QAC {
-  background: var(--SEARCHBARBACKGROUND) !important;
-  padding-bottom: 6px !important;
+  padding: 4px !important;
 }
 
 .gamelistsearchbar_Container_20QAC .DialogInput_ClearAction svg line,
@@ -1762,10 +1760,10 @@ a:-webkit-any-link {
   .gamelistsearchbar_SearchInput_12vo5
   .DialogTextInputBase {
   padding: 0 !important;
-  padding-top: 3px !important;
+  padding-top: 2px !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
-  padding-bottom: 3px !important;
+  padding-bottom: 2px !important;
   padding-left: 16px !important;
   padding-right: 24px !important;
   color: var(--ACCENT) !important;
