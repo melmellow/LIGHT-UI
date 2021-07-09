@@ -426,7 +426,7 @@
   --CHECKMARKHEIGHT: 14px; /*DEFAULT IS 14PX*/
   --CHECKMARKWIDTH: 14px; /*DEFAULT IS 14PX*/
   --DESCRIPTIONBG: VAR(--BASE1);
-  --GAMESTATICONDISPLAY: none; /*default is unset*/
+  --GAMESTATICONDISPLAY: unset; /*default is unset*/
   --SHOWCASEDIVIDERHOVER: VAR(--BUTTON2);
   --SHOWCASEDIVIDERHOVERBR: 50px;
   --SHOWCASEDIVIDERHOVERBORDER: VAR(--BUTTONBORDER);
@@ -869,6 +869,7 @@ div.NarrowRightPanel
 
 .appdetailssection_AppDetailsSection_2r4TK {
   font-family: segoe UI !important;
+  margin-bottom: 8px !important;
 }
 
 .appdetailsprimarylinkssection_LinkInner_7k4qm
