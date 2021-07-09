@@ -370,6 +370,7 @@
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --DIALOGTEXTENTRYBORDERROUNDED: 0;
+  --STATUSTEXTENTRYBORDERROUNDED: 4px;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
   --PANELCONTENTBR: 4px;
@@ -5669,9 +5670,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   font-weight: 500 !important;
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
-  height: 26px !important;
   color: var(--ACCENT) !important;
-  border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
+  border-radius: var(--STATUSTEXTENTRYBORDERROUNDED) !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
   transition: all 0.18s ease-in-out;
