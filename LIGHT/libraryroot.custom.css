@@ -635,6 +635,11 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- .libraryhomeshowcases_DropDownItems_lYnGt {
+  padding:3px 12px!important;
+  margin-left:0!important;
+}
+
 .gamelistentry_AppIconDownloading_2kzMb svg circle {
   display: NONE !important;
 }
@@ -5064,7 +5069,8 @@ A {
   color: var(--ACCENT) !important;
 }
 .libraryhomeshowcases_OptionsRule_2U_Y7 {
-  border-top: 1px solid var(--DIVIDER) !important;
+  margin-top:0!important;
+  border-top: 1px solid transparent !important;
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   .libraryhomeshowcases_DropDownItems_lYnGt:hover {
