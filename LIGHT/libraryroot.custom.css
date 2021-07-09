@@ -5679,6 +5679,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   font-weight: 500 !important;
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
+  min-height:26px!important;
   color: var(--ACCENT) !important;
   border-radius: var(--STATUSTEXTENTRYBORDERROUNDED) !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
