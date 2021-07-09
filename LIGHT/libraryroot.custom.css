@@ -373,7 +373,8 @@
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --DIALOGTEXTENTRYBORDERROUNDED: 0;
-  --STATUSTEXTENTRYBORDERROUNDED:4PX;
+  --STATUSTEXTENTRYBORDERROUNDED: 30px;
+  --STATUSTEXTENTRYBORDERROUNDEDSELECTED:4px;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
   --PANELCONTENTBR: 4px;
@@ -635,9 +636,10 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- .libraryhomeshowcases_DropDownItems_lYnGt {
-  padding:3px 12px!important;
-  margin-left:0!important;
+.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
+  .libraryhomeshowcases_DropDownItems_lYnGt {
+  padding: 3px 12px !important;
+  margin-left: 0 !important;
 }
 
 .gamelistentry_AppIconDownloading_2kzMb svg circle {
@@ -5069,7 +5071,7 @@ A {
   color: var(--ACCENT) !important;
 }
 .libraryhomeshowcases_OptionsRule_2U_Y7 {
-  margin-top:0!important;
+  margin-top: 0 !important;
   border-top: 1px solid transparent !important;
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
@@ -5702,6 +5704,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_PostTextEntryArea_1JlC2:focus {
   border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
+  border-radius: var(--STATUSTEXTENTRYBORDERROUNDEDSELECTED) !important;
 }
 
 .posttextentry_PostTextEntry_3x31A
