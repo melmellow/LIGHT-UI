@@ -1360,7 +1360,8 @@ div.NarrowRightPanel
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-  top: -40px !important;
+  top: -37px !important;
+  left: 41px !important;
 }
 
 .appportrait_FriendsBar_3dncO.appportrait_SummaryView_1To_Q {
@@ -4075,7 +4076,7 @@ div.NarrowRightPanel
   background-color: var(--ADVANCEDSEARCHPANE) !important;
   opacity: VAR(--ADVANCEDSEARCHPANEOP) !important;
   left: -15px !important;
-  top: 38px !important;
+  top: 35px !important;
   border-top: 1px solid var(--DIVIDER) !important;
   border-bottom: 1px solid var(--DIVIDER) !important;
   height: 30px !important;
