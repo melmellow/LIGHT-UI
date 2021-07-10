@@ -6327,7 +6327,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
-  left: 21px !important;
+  left: 22px !important;
   top: 2px !important;
 }
 
@@ -6336,6 +6336,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   width: 22px;
   margin-left: var(--GAMEICONLEFTMARGIN) !important;
   position: unset !important;
+}
+
+.gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
+  filter: brightness(0.7) !important;
 }
 
 .gamelistsearchbar_Container_20QAC

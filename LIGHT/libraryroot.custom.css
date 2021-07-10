@@ -309,7 +309,7 @@
   --FRIENDISPLAYING: VAR(--ACCENT);
   --FRIENDISPLAYINGDISPLAY: none;
   --GAMEICONLEFTMARGIN: -21px;
-  --GAMEICONDOWNLOADCIRCLE:VAR(--BLUE);
+  --GAMEICONDOWNLOADCIRCLE:VAR(--GREEN);
   --SCROLLTOTOPHOVER: VAR(--BLACK);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOPFONTWEIGHT: 400;
@@ -6329,7 +6329,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
-  left: 21px !important;
+  filter:brightness(.7)!important;
+}
+
+.gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
+  left: 22px !important;
   top: 2px !important;
   pointer-events:none!important;
 }
