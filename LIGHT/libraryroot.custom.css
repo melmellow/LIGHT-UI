@@ -20,7 +20,7 @@
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
   --BASE3: #ececec;
-  --BASE4: #ececec;
+  --BASE4: #f3f3f3;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDER2: #b6b6b6;
@@ -6219,7 +6219,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi.appfilterpane_SearchResultsBox_MIMuV
   .appfilterpane_FilterBucketBoxes_32e6r {
-  top: 36px !important;
+  top: 38px !important;
 }
 
 .appportrait_LibraryItemBox_WYgDg:active,
