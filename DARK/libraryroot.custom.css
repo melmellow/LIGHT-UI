@@ -386,6 +386,7 @@
   --GAMESTATICONFILTER: VAR(--FILT);
   --COMMUNITYFEEDICONFILTER: VAR(--FILT);
   --SHOWCASEPAGEBUTTONICONFILTER: VAR(--FILT);
+  --SHOWCASEPAGEBUTTONICONOPACITY: VAR(--OP);
   --APPFEATUREICONTITLESECTIONOP: 1;
   --APPFEATUREICONTITLESECTIONBACKGROUND: NONE;
   --APPFEATUREICONTITLESECTIONBORDER: NONE;
@@ -635,6 +636,11 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_PageButtons_29NTO {
+  margin-top: 3px !important;
+}
 
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
   .libraryhomeshowcases_DropDownItems_lYnGt {
@@ -3689,7 +3695,27 @@ div.ShortRightPanel
   .libraryhomeshowcases_PageButtons_29NTO
   .libraryhomeshowcases_PageRight_2kWWy {
   filter: VAR(--SHOWCASEPAGEBUTTONICONFILTER) !important;
+  opacity: var(--SHOWCASEPAGEBUTTONICONOPACITY) !important;
 }
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_PageButtons_29NTO
+  .libraryhomeshowcases_PageLeft_3uMa3,
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_PageButtons_29NTO
+  .libraryhomeshowcases_PageRight_2kWWy:hover {
+  opacity: 1 !important;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_PageButtons_29NTO
+  .libraryhomeshowcases_PageLeft_3uMa3.libraryhomeshowcases_Disabled_1MNhU,
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_PageButtons_29NTO
+  .libraryhomeshowcases_PageRight_2kWWy.libraryhomeshowcases_Disabled_1MNhU {
+  opacity: 0.2 !important;
+}
+
 .appdetailsreviewsection_ReviewIcon_1izIE {
   border-radius: VAR(--REVIEWICONBACKGROUNDBORDERRADIUS) !important;
   border: 1px SOLID VAR(--REVIEWICONBACKGROUNDBORDER) !important;
