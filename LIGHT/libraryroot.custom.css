@@ -159,8 +159,8 @@
   --MOREINFOICONQMARK: VAR(--WHITE);
   --BBACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLUE);
   --READYTOPLAYBIGBUTTONBACKGROUND: VAR(--BASE1);
-  --READYTOPLAYBIGBUTTONBORDERWIDTH:1PX;
-  --READYTOPLAYBIGBUTTONBORDER:var(--APPDETAILSPANELBORDER);
+  --READYTOPLAYBIGBUTTONBORDERWIDTH: 1px;
+  --READYTOPLAYBIGBUTTONBORDER: var(--APPDETAILSPANELBORDER);
   --READYTOPLAYBIGBUTTONBACKGROUNDHOVER: VAR(--BASE3);
   --READYTOPLAYBIGBUTTON: VAR(--BLUE);
   --REMOVEFROMFAVORITESHOVER: VAR(--FILT);
@@ -382,13 +382,13 @@
   --PANELCONTENTBR: 4px;
   --BUTTON1BORDERRADIUS: 4px;
   --BUTTON2PRIMARYBORDERRADIUS: 4px;
-  --BUTTON2BORDERRADIUS: 4px;
+  --BUTTON2BORDERRADIUS: 0;
   --GAMEGROUPNAMEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATICONFILTER: VAR(--FILT);
   --COMMUNITYFEEDICONFILTER: VAR(--FILT);
   --SHOWCASEPAGEBUTTONICONFILTER: VAR(--FILT);
-  --SHOWCASEPAGEBUTTONICONOPACITY:VAR(--OP);
+  --SHOWCASEPAGEBUTTONICONOPACITY: VAR(--OP);
   --APPFEATUREICONTITLESECTIONOP: 1;
   --APPFEATUREICONTITLESECTIONBACKGROUND: NONE;
   --APPFEATUREICONTITLESECTIONBORDER: NONE;
@@ -639,8 +639,15 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
-.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO {
-  margin-top:3px!important;
+.libraryhomeshowcases_AddShowcaseRow_3SkuN
+  .libraryhomeshowcases_AddShowcase_2aw5a {
+  margin-left: 3px !important;
+  margin-right: 0 !important;
+}
+
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_PageButtons_29NTO {
+  margin-top: 3px !important;
 }
 
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
@@ -3695,7 +3702,7 @@ div.ShortRightPanel
   .libraryhomeshowcases_PageButtons_29NTO
   .libraryhomeshowcases_PageRight_2kWWy {
   filter: VAR(--SHOWCASEPAGEBUTTONICONFILTER) !important;
-  opacity:var(--SHOWCASEPAGEBUTTONICONOPACITY)!important;
+  opacity: var(--SHOWCASEPAGEBUTTONICONOPACITY) !important;
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl
@@ -3704,11 +3711,16 @@ div.ShortRightPanel
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_PageButtons_29NTO
   .libraryhomeshowcases_PageRight_2kWWy:hover {
-  opacity:1!important;
+  opacity: 1 !important;
 }
 
-.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO .libraryhomeshowcases_PageLeft_3uMa3.libraryhomeshowcases_Disabled_1MNhU, .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO .libraryhomeshowcases_PageRight_2kWWy.libraryhomeshowcases_Disabled_1MNhU {
-  OPACITY:.2!important;
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_PageButtons_29NTO
+  .libraryhomeshowcases_PageLeft_3uMa3.libraryhomeshowcases_Disabled_1MNhU,
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+  .libraryhomeshowcases_PageButtons_29NTO
+  .libraryhomeshowcases_PageRight_2kWWy.libraryhomeshowcases_Disabled_1MNhU {
+  opacity: 0.2 !important;
 }
 
 .appdetailsreviewsection_ReviewIcon_1izIE {
@@ -4789,7 +4801,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   color: var(--ACCENT) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH {
-  width:unset!important;
+  width: unset !important;
   background: var(--READYTOPLAYBIGBUTTONBACKGROUND) !important;
   border-radius: VAR(--GAMEBOXARTBORDERROUNDED) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;

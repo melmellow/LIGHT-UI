@@ -377,9 +377,9 @@
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
   --PANELCONTENTBR: 4px;
-  --BUTTON1BORDERRADIUS: 4px;
+  --BUTTON1BORDERRADIUS: 0;
   --BUTTON2PRIMARYBORDERRADIUS: 4px;
-  --BUTTON2BORDERRADIUS: 4px;
+  --BUTTON2BORDERRADIUS: 0;
   --POSTGAMESUMMARYFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMEGROUPNAMEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -636,6 +636,12 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN
+  .libraryhomeshowcases_AddShowcase_2aw5a {
+  margin-left: 3px !important;
+  margin-right: 0 !important;
+}
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_PageButtons_29NTO {
