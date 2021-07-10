@@ -157,6 +157,8 @@
   --MOREINFOICONQMARK: VAR(--WHITE);
   --BBACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLUE);
   --READYTOPLAYBIGBUTTONBACKGROUND: VAR(--BASE1);
+  --READYTOPLAYBIGBUTTONBORDERWIDTH: 1px;
+  --READYTOPLAYBIGBUTTONBORDER: var(--APPDETAILSPANELBORDER);
   --READYTOPLAYBIGBUTTONBACKGROUNDHOVER: VAR(--BASE3);
   --READYTOPLAYBIGBUTTON: VAR(--BLUE);
   --REMOVEFROMFAVORITESHOVER: VAR(--FILT);
@@ -4771,10 +4773,12 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   color: var(--ACCENT) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH {
+  width: unset !important;
   background: var(--READYTOPLAYBIGBUTTONBACKGROUND) !important;
   border-radius: VAR(--GAMEBOXARTBORDERROUNDED) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
-  border: 0 !important;
+  border: var(--READYTOPLAYBIGBUTTONBORDERWIDTH) SOLID
+    VAR(--READYTOPLAYBIGBUTTONBORDER) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay circle {
   stroke: var(--READYTOPLAYBIGBUTTON) !important;

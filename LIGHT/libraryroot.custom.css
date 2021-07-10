@@ -19,7 +19,7 @@
   --FILT: BRIGHTNESS(0);
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
-  --BASE3: #e8e8e8;
+  --BASE3: #ececec;
   --BASE4: #ececec;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
@@ -118,9 +118,9 @@
   --COLLECTIONNAMEEDITBACKGROUNDHOVER: VAR(--BUTTON2);
   --NEWCOLLECTIONBACKGROUND: VAR(--BASE1);
   --NEWCOLLECTIONBACKGROUNDHOVER: VAR(--BASE3);
-  --NEWCOLLECTIONBORDER: NONE;
+  --NEWCOLLECTIONBORDER: var(--APPDETAILSPANELBORDER);
   --NEWCOLLECTIONBORDERHOVER: TRANSPARENT;
-  --NEWCOLLECTIONBORDERWIDTH: 0;
+  --NEWCOLLECTIONBORDERWIDTH: 1px;
   --NEWCOLLECTIONSHADOW: VAR(--SHADOW);
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
   --NEWCOLLECTIONTARGETBORDER: VAR(--BLUE);
@@ -159,6 +159,8 @@
   --MOREINFOICONQMARK: VAR(--WHITE);
   --BBACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLUE);
   --READYTOPLAYBIGBUTTONBACKGROUND: VAR(--BASE1);
+  --READYTOPLAYBIGBUTTONBORDERWIDTH:1PX;
+  --READYTOPLAYBIGBUTTONBORDER:var(--APPDETAILSPANELBORDER);
   --READYTOPLAYBIGBUTTONBACKGROUNDHOVER: VAR(--BASE3);
   --READYTOPLAYBIGBUTTON: VAR(--BLUE);
   --REMOVEFROMFAVORITESHOVER: VAR(--FILT);
@@ -1363,7 +1365,7 @@ div.NarrowRightPanel
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
   top: -37px !important;
-  left:41px!important;
+  left: 41px !important;
 }
 
 .appportrait_FriendsBar_3dncO.appportrait_SummaryView_1To_Q {
@@ -4767,10 +4769,12 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   color: var(--ACCENT) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH {
+  width:unset!important;
   background: var(--READYTOPLAYBIGBUTTONBACKGROUND) !important;
   border-radius: VAR(--GAMEBOXARTBORDERROUNDED) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
-  border: 0 !important;
+  border: var(--READYTOPLAYBIGBUTTONBORDERWIDTH) SOLID
+    VAR(--READYTOPLAYBIGBUTTONBORDER) !important;
 }
 .appgrid_ReadyToPlayBigButton_3wbWH .SVGIcon_ReadyToPlay circle {
   stroke: var(--READYTOPLAYBIGBUTTON) !important;
