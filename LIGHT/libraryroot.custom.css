@@ -269,7 +269,7 @@
   --GAMEGROUPNAMECOLOR: VAR(--ACCENT);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
-  --SELECTEDLISTITEMBACKGROUNDHOVER:VAR(--BUTTON2);
+  --SELECTEDLISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --LISTITEMRIGHTBORDERWIDTH: 0;
   --LISTITEMRIGHTBORDER: TRANSPARENT;
   --CONTEXTMENUBORDER: VAR(--DIVIDER);
@@ -308,8 +308,10 @@
   --DISLIKETHUMBICONHOVER: VAR(--BLACK);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --FRIENDISPLAYINGDISPLAY: none;
+  --GAMEICONHEIGHT:22PX;
+  --GAMEICONWIDTH:22PX;
   --GAMEICONLEFTMARGIN: -21px;
-  --GAMEICONDOWNLOADCIRCLE:VAR(--GREEN);
+  --GAMEICONDOWNLOADCIRCLE: VAR(--GREEN);
   --SCROLLTOTOPHOVER: VAR(--BLACK);
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOPFONTWEIGHT: 400;
@@ -4711,7 +4713,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelistentry_Selected_1UBpA
   .gamelistentry_Container_2-O4Z
   .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
-  background-color:var(--SELECTEDLISTITEMBACKGROUNDHOVER) !important;
+  background-color: var(--SELECTEDLISTITEMBACKGROUNDHOVER) !important;
 }
 
 .appportrait_FriendsBar_3dncO .appportrait_SummaryLeader_2SZ70 {
@@ -6322,28 +6324,28 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   width: 14px !important;
 }
 .gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
-  height: 22px;
-  width: 22px;
+  height: VAR(--GAMEICONHEIGHT) !important;
+  width: VAR(--GAMEICONWIDTH) !important;
   margin-left: var(--GAMEICONLEFTMARGIN) !important;
-  pointer-events:none!important;
+  pointer-events: none !important;
 }
 
 .gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
-  filter:brightness(.7)!important;
+  filter: brightness(0.7) !important;
 }
 
 .gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
-  left: 22px !important;
+  left: VAR(--GAMEICONHEIGHT) !important;
   top: 2px !important;
-  pointer-events:none!important;
+  pointer-events: none !important;
 }
 
 .gamelistentry_AppIconDownloading_2kzMb {
-  height: 22px;
-  width: 22px;
+  height: VAR(--GAMEICONHEIGHT) !important;
+  width: VAR(--GAMEICONWIDTH) !important;
   margin-left: var(--GAMEICONLEFTMARGIN) !important;
   position: unset !important;
-  pointer-events:none!important;
+  pointer-events: none !important;
 }
 
 .gamelistsearchbar_Container_20QAC
