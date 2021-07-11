@@ -86,7 +86,7 @@
 		}
 		publishcaption
 		{
-			textcolor=white75
+			textcolor=ACCENT
 			render_bg
 			{
 				0="image(x1-21,y0+1,x1,y1,steam/cached/icon_cloud_synced)"
