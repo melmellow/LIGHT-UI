@@ -314,6 +314,7 @@
 		}
 		CScreenshotUploadDialog
 		{
+			bgcolor = BASE2
 			render_bg
 			{
 				1="fill( x0, y1-36, x1, y1-35, frameBorder )"
