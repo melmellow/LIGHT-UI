@@ -378,6 +378,7 @@
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --DIALOGTEXTENTRYBORDERROUNDED: 30px;
+  --SHARESCREENSHOTTEXTENTRYBORDERROUNDED:4PX;
   --STATUSTEXTENTRYBORDERROUNDED: 30px;
   --STATUSTEXTENTRYBORDERROUNDEDSELECTED: 4px;
   --TEXTENTRYBORDERROUNDED: 30px;
@@ -738,10 +739,11 @@
 }
 
 .sharescreenshotupload_CaptionTextArea_qFjVw {
+  COLOR:VAR(--ACCENT)!important;
   padding: 7px !important;
   background: var(--TEXTENTRY) !important;
   border: var(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
-  border-radius: var(--DIALOGTEXTENTRYBORDERROUNDED) !important;
+  border-radius: var(--SHARESCREENSHOTTEXTENTRYBORDERROUNDED) !important;
 }
 
 .sharescreenshotupload_CaptionTextArea_qFjVw:hover {
