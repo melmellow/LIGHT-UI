@@ -527,10 +527,6 @@
   padding-right: 0 !important;
 }
 
-.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo {
-  margin-right: 2px !important;
-}
-
 /*-------------------------- 0 u 0 COMPACT SIDEBAR 0 u 0 -------------------------- */
 
 /*-------------------------- WORKSHOP ICON --------------------------*/
@@ -643,6 +639,11 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_ViewFiltersBar_36r2a {
+  margin-right: 1px !important;
+  margin-left: 3px !important;
+}
 
 .appdetailsoverview_Container_27RcN
   .appdetailsoverview_Spotlights_11kuV

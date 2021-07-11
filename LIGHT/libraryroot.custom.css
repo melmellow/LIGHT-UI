@@ -528,10 +528,6 @@
   padding-right: 0 !important;
 }
 
-.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo {
-  margin-right: 2px !important;
-}
-
 /*-------------------------- 0 u 0 COMPACT SIDEBAR 0 u 0 -------------------------- */
 
 /*-------------------------- WORKSHOP ICON --------------------------*/
@@ -644,6 +640,11 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_ViewFiltersBar_36r2a {
+  margin-right: 1px !important;
+  margin-left: 3px !important;
+}
 
 .appdetailsoverview_Container_27RcN
   .appdetailsoverview_Spotlights_11kuV
@@ -1653,7 +1654,7 @@ div.NarrowRightPanel
   .collectionview_DynamicCollectionSubHeader_1sK_7
   .collectionview_RightSideButtons_3vDj4
   .collectionview_FreezeButton_1qkt4 {
-    transition: all 0.18s ease-in-out !important;
+  transition: all 0.18s ease-in-out !important;
   background: var(--BUTTON2) !important;
   border: 1px solid var(--BUTTONBORDER) !important;
   border-radius: var(--BUTTONBORDERRADIUS) !important;
@@ -3884,8 +3885,8 @@ div.ShortRightPanel
   border: VAR(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBORDER) !important;
   font-weight: 400 !important;
   padding: 3px !important;
-  padding-left:4px!important;
-  padding-right:4px!important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
   border-radius: VAR(--DROPDOWNROUNDED1) !important;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer:hover {
@@ -5040,7 +5041,7 @@ A {
   .appfilterpane_FilterBucketBoxes_32e6r
   .appfilterpane_Row_1J53P
   .appfilterpane_Checkbox_2AOkQ:hover {
-    transition: all 0.18s ease-in-out !important;
+  transition: all 0.18s ease-in-out !important;
   color: var(--BLACK) !important;
 }
 .gamelistdropdown_Bar_1ZS_x
