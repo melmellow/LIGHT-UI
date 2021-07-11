@@ -26,7 +26,7 @@
   --BUTTONBORDER2: #b6b6b6;
   --CHECKBOX: TRANSPARENT;
   --CHECKBOXBORDER: VAR(--WHITE);
-  --CHECKBOXBORDERRADIUS: 0;
+  --CHECKBOXBORDERRADIUS: 4px;
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
   --BUTTONBORDERHOVER: #a5a5a5;
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
@@ -564,7 +564,7 @@
   transition: filter 0.3s ease-in-out !important;
   width: 37px !important;
   color: transparent !important;
-  background-image: url(https://i.imgur.com/AAFscfG.png) !important;
+  background-image: url(https://i.imgur.com/FEJKk6E.png) !important;
   background-size: 20px !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -579,7 +579,7 @@
 /*-------------------------- INFO ICON --------------------------*/
 
 .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
-  background-image: URL(https://i.imgur.com/2vWZ3Iq.png) !important;
+  background-image: URL(https://i.imgur.com/E2PFaFj.png) !important;
   background-size: 18px !important;
   background-repeat: NO-REPEAT !important;
   background-position: CENTER !important;
@@ -2792,9 +2792,6 @@ button.DialogButton:hover {
   color: var(--INACTIVETOGGLETEXTHOVER) !important;
 }
 
-.DialogOnOffToggle_Control .Active {
-  background: var(--BLACK) !important;
-}
 .ModalPosition_TopBar {
   height: 0 !important;
 }
@@ -5741,6 +5738,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--TEXTENTRY) !important;
   transition: all 0.18s ease-in-out;
+  padding: 0 !important;
   padding-left: 6px !important;
   padding-right: 6px !important;
 }
