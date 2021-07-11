@@ -640,6 +640,20 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_ShortcutChange_2MgqW {
+  margin-top: 7px !important;
+}
+
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_ShortcutRow_3_JQe
+  .appproperties_Icon_1UxV1
+  .appproperties_AssetImage_3tFB_:hover {
+  transform: unset !important;
+}
+
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_ViewFiltersBar_36r2a {
   margin-right: 1px !important;
   margin-left: 3px !important;
