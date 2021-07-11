@@ -55,6 +55,7 @@
   --INACTIVETOGGLETEXTHOVER: VAR(--ACCENT);
   --INACTIVETOGGLEHOVER: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --ACTIVETOGGLE: VAR(--BLUE);
+  --ACTIVETOGGLEHOVER: VAR(--BLUE2);
   --LETTERSPACING: 1px;
   --WHITE: VAR(--BASE1);
   --CAPTION: VAR(--ACCENT);
@@ -194,6 +195,7 @@
   --COMMUNITYFEEDBORDERROUNDED3: 4px; /*top left*/
   --COMMUNITYFEEDBORDERROUNDED4: 4px; /*top right*/
   --APPDETAILSPANEL: VAR(--BASE1);
+  --APPDETAILSPANEL2:VAR(--BASE3);
   --APPDETAILSPANELHOVER: VAR(--BASE3);
   --APPDETAILSPANELBORDER: VAR(--SHADOW);
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
@@ -2792,6 +2794,10 @@ button.DialogButton:hover {
   color: var(--WHITE) !important;
 }
 
+.DialogOnOffToggle_Option.Active:hover {
+  background: var(--ACTIVETOGGLEHOVER) !important;
+}
+
 SVGIcon_Button {
   fill: var(--ACCENT) !important;
 }
@@ -4834,7 +4840,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .discussionwidget_ShareContainer_3ctGq,
 .discussionwidget_DiscussContainer_16xC0 {
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
-  background-color: VAR(--BASE3) !important;
+  background-color: VAR(--APPDETAILSPANEL2) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 .partnereventdisplay_LibraryEventBodyContainer_32mHv {
