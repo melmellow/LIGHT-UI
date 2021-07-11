@@ -8,9 +8,9 @@
 	{
 		region { name=box margin-left=0 margin-right=0 }
 
-		place { region=box control="LanguageCombo" width=310 }
-		place { region=box control="FavoriteWindowCombo" width=310 }
-		place { region=box control="SkinCombo" width=310 }
+		place { region=box control="LanguageCombo" height=24 width=310 }
+		place { region=box control="FavoriteWindowCombo" height=24 width=310 }
+		place { region=box control="SkinCombo" height=24 width=310 }
 		place { control="TranslationLabel" width=0 height=0}
 		place { region=box control="LabelLanguageCombo,LanguageCombo" y=0 margin-top=16 height=24 dir=down }
 		place { start=LanguageCombo control="Label2,FavoriteWindowCombo" y=8 height=24 dir=down }

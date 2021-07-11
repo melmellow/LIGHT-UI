@@ -276,6 +276,7 @@
 			image="graphics/icon_down"
 			width=max
 			padding-left=2
+			padding-bottom=1
 			render{
 			1="fill(x0,y0,x1,y0+1, "none")"  // top
 				3="fill(x0,y0+1,x0+1,y1-1, "none")"  // left
