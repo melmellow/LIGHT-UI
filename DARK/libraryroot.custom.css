@@ -2767,7 +2767,7 @@ img {
   background: var(--SETTINGSSIDEBAR) !important;
   min-width: 140px !important;
   max-width: 140px !important;
-  border-right: 1px SOLID var(--SIDEBARBORDER) !important;
+  border-right: 2px SOLID var(--SIDEBARBORDER) !important;
   padding-left: 0 !important;
 }
 button.DialogButton:hover {
@@ -3600,10 +3600,6 @@ div.ShortRightPanel
   padding: 0 !important;
 }
 
-.writereview_OptionsContainer_lNPFw {
-  padding: 14px !important;
-}
-
 .writereview_OptionsContainer_lNPFw .writereview_OptionButton_2gJ9F {
   padding: 0 !important;
   outline: 0 !important;
@@ -3618,8 +3614,11 @@ div.ShortRightPanel
   border-right: 1px solid var(--DIVIDER) !important;
 }
 .writereview_OptionsContainer_lNPFw {
-  background-color: var(--BASE1) !important;
-  border: 1px SOLID var(--DIVIDER) !important;
+  padding: 14px !important;
+  background-color: var(--APPDETAILSPANEL) !important;
+  border: 1px SOLID var(--APPDETAILSPANELBORDER) !important;
+  box-shadow: VAR(--BOXSHADOW) VAR(--SHADOW) !important;
+  border-radius: var(--BORDERRADIUS) !important;
 }
 
 .writereview_ThumbIcon_2Jkk-.writereview_Up_2DXZF {
