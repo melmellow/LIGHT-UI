@@ -641,6 +641,16 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appdetailsoverview_Container_27RcN
+  .appdetailsoverview_Spotlights_11kuV
+  > div:last-child {
+  margin-bottom: 2px !important;
+}
+
+.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+  padding-bottom: 0 !important;
+}
+
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_TopGapSmall_2evqi {
