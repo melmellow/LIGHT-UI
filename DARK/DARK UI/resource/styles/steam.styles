@@ -611,7 +611,7 @@ steam.styles
 //======This is the GameList from left======//
 		"CGamesListPanel"
 		{	
-			PADDING-LEFT=4
+			PADDING-LEFT=22
 			bgcolor = BASE1
 			render_bg {}
 					render{
