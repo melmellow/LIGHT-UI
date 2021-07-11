@@ -722,7 +722,7 @@
   .collectionview_DynamicCollectionLabelAndButton_8JUfQ {
   position: absolute !important;
   right: 0 !important;
-  margin-right: 14px !important;
+  margin-right: 13px !important;
 }
 
 .appactivityday_ScreenshotCarousel_1pdQd
@@ -1639,14 +1639,10 @@ div.NarrowRightPanel
   text-decoration: none !important;
 }
 
-.appfilterpane_Container_170Np
-  .appfilterpane_FilterArea_1ennW.appfilterpane_WideFormat_3BoPG {
-  grid-template-columns: repeat(8, 1fr) !important;
-}
-
 .collectionview_Container_2q70u
   .collectionview_Header_2rqTS
   .collectionview_DynamicCollectionLabelAndButton_8JUfQ {
+  transition: all 0.18s ease-in-out !important;
   background: var(--BUTTON2) !important;
   border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
   border-radius: var(--BUTTON2BORDERRADIUS) !important;
@@ -1656,6 +1652,7 @@ div.NarrowRightPanel
   .collectionview_DynamicCollectionSubHeader_1sK_7
   .collectionview_RightSideButtons_3vDj4
   .collectionview_FreezeButton_1qkt4 {
+  transition: all 0.18s ease-in-out !important;
   background: var(--BUTTON2) !important;
   border: 1px solid var(--BUTTONBORDER) !important;
   border-radius: var(--BUTTONBORDERRADIUS) !important;
