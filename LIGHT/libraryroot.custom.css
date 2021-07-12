@@ -5319,7 +5319,7 @@ A {
   user-select: none !important;
   background-color: var(--BASE1) !important;
   border: VAR(--DROPDOWNBORDERWIDTH) SOLID VAR(--SHELFDROPDOWNLISTMENUBORDER) !important;
-  box-shadow: 0 0 2px VAR(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: VAR(--DROPDOWNBORDERROUNDED) !important;
   position: relative !important;
   width: fit-content !important;
