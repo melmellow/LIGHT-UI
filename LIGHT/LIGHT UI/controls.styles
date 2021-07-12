@@ -246,14 +246,14 @@
 			bgcolor=DROPDOWN
 			render
 			{
-				2="fill(x0,y1-1,x1,y1,DROPDOWNBORDER)"  // bottom
+				2="fill(x0,y1-1,x1,y1+1,DROPDOWNBORDER)"  // bottom
 			}
 		}
 		ComboBox:hover
 		{
 			render
 			{
-				2="fill(x0,y1-1,x1,y1,DROPDOWNHOVERBORDER)"  // bottom
+				2="fill(x0,y1-1,x1,y1+1,DROPDOWNHOVERBORDER)"  // bottom
 			}
 		}
 		ComboBox:disabled
