@@ -3065,7 +3065,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .savecollectiondialog_TwoOptionsContainer_33bWW {
   background-color: var(--TWOOPTIONSCONTAINER) !important;
   border: 1px solid var(--TWOOPTIONSCONTAINERBORDER) !important;
-  BOX-SHADOW:VAR(--BOXSHADOW) VAR(--SHADOW)!important;
+  box-shadow: VAR(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
 .savecollectiondialog_Description_3uOEr {
@@ -6365,7 +6365,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelistdropdown_DropDown_EDl_m {
   width: fit-content !important;
-  margin-left: 61px !important;
+  margin-left: 60px !important;
   margin-top: 2px !important;
 }
 
