@@ -3063,6 +3063,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .savecollectiondialog_TwoOptionsContainer_33bWW {
   background-color: var(--TWOOPTIONSCONTAINER) !important;
   border: 1px solid var(--TWOOPTIONSCONTAINERBORDER) !important;
+  box-shadow: VAR(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
 .savecollectiondialog_Description_3uOEr {
