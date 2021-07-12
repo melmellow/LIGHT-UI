@@ -1,116 +1,23 @@
-"Steam/Cached/LaunchOptionsDialog.res"
-{
-	"LaunchOptionsDialog"
-	{
-		"ControlName"		"CLaunchOptionsDialog"
-		"fieldName"		"LaunchOptionsDialog"
-		"xpos"		"209"
-		"ypos"		"528"
-		"wide"		"373"
-		"tall"		"177"
-		"AutoResize"		"0"
-		"PinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"paintbackground"		"1"
-		"settitlebarvisible"		"1"
-		"title"		"#Steam_GameLaunchOptions_Title"
-	}
-	"LaunchButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"LaunchButton"
-		"xpos"		"170"
-		"ypos"		"144"
-		"wide"		"96"
-		"tall"		"24"
-		"AutoResize"		"0"
-		"PinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"2"
-		"paintbackground"		"1"
-		"labelText"		"#Steam_Launch"
-		"textAlignment"		"west"
-		"wrap"		"0"
-		"Default"		"1"
-	}
-	"RadioButton0"
-	{
-		"ControlName"		"RadioButton"
-		"fieldName"		"RadioButton0"
-		"xpos"		"18"
-		"ypos"		"64"
-		"wide"		"320"
-		"tall"		"24"
-		"AutoResize"		"0"
-		"PinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"1"
-		"paintbackground"		"1"
-		"textAlignment"		"west"
-		"wrap"		"0"
-		"Default"		"0"
-		"SubTabPosition"		"1"
-	}
-	"RadioButton1"
-	{
-		"ControlName"		"RadioButton"
-		"fieldName"		"RadioButton1"
-		"xpos"		"18"
-		"ypos"		"94"
-		"wide"		"320"
-		"tall"		"24"
-		"AutoResize"		"0"
-		"PinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"1"
-		"paintbackground"		"1"
-		"textAlignment"		"west"
-		"wrap"		"0"
-		"Default"		"0"
-		"SubTabPosition"		"2"
-	}
-	"ImagePanel1"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ImagePanel1"
-		"xpos"		"8"
-		"ypos"		"47"
-		"zpos"		"-1"
-		"wide"		"357"
-		"tall"		"90"
-		"AutoResize"		"3"
-		"PinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"paintbackground"		"1"
-		"fillcolor"		"Blank"
-		"gradientVertical"		"0"
-		"scaleImage"		"0"
-	}
-	"Button1"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"Button1"
-		"xpos"		"273"
-		"ypos"		"144"
-		"wide"		"94"
-		"tall"		"24"
-		"AutoResize"		"0"
-		"PinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"3"
-		"paintbackground"		"1"
-		"labelText"		"#vgui_cancel"
-		"textAlignment"		"west"
-		"wrap"		"0"
-		"Command"		"Close"
-		"Default"		"0"
+Steam/Cached/LaunchOptionsDialog.res {
+
+	layout {
+		region { name=header height=50 width=max }
+			place [!$OSX] { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place [$OSX] { control=frame_close,frame_minimize,frame_maximize height=22 width=22 y=13 align=left margin-left=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
+
+		//region { name=body height=max width=max y=50 margin-bottom=50 }
+		//region { name=box height=max width=max region=body margin-left=26 margin-right=26 }
+
+		//!! regions are bugging out and making the controls invisible, hard coded styles instead
+
+			place { control=RadioButton0 width=max y=50 margin-left=26 margin-right=26 }
+			place { control=RadioButton1 start=RadioButton0 dir=down width=max margin-left=26 margin-right=26 }
+
+		//region { name=buttons align=bottom height=50 }
+			place { control=LaunchButton,Button1 align=bottom width=80 spacing=10 x=240 margin-bottom=16 }
+
+		place { control=ImagePanel1 height=0 width=0 margin-left=-9999 }
+		place [!$OSX] { control=frame_minimize height=0 width=0 margin-left=-9999 }
 	}
 }
