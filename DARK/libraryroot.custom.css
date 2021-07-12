@@ -13,7 +13,7 @@
   --GAMEIMAGEACTIVEFILTER: BRIGHTNESS(1.3);
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
-  --GAMEIMAGEMAXHEIGHT: 300px; /*DEFAULT IS 320px*/
+  --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: CONTRAST(2);
@@ -528,6 +528,22 @@
 }
 
 /*-------------------------- 0 u 0 COMPACT SIDEBAR 0 u 0 -------------------------- */
+
+/*-------------------------- SCROLL TO TOP SIDEBAR ICON -------------------------- */
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
+  width: 28px !important;
+  height: 28px !important;
+  margin-top: 2px !important;
+  margin-left: 3px !important;
+  background-image: url(https://i.imgur.com/MwFziFD.png) !important;
+  background-position: center !important;
+  border-radius: VAR(--SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS) !important;
+  border: NONE !important;
+  background-color: TRANSPARENT !important;
+}
+
+/*-------------------------- SCROLL TO TOP SIDEBAR ICON -------------------------- */
 
 /*-------------------------- WORKSHOP ICON --------------------------*/
 
@@ -3197,11 +3213,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .offline .personanameandstatus_playerName_nOdcT {
   color: var(--ACCENT) !important;
 }
-.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
-  border-radius: VAR(--SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS) !important;
-  border: NONE !important;
-  background-color: TRANSPARENT !important;
-}
+
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow,
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow polyline {
   background-color: var(--SCROLLTOTOPSIDEBARBACKGROUNDHOVER) !important;

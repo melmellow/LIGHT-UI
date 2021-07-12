@@ -13,7 +13,7 @@
   --GAMEIMAGEACTIVEFILTER: BRIGHTNESS(1.3);
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
-  --GAMEIMAGEMAXHEIGHT: 300px; /*DEFAULT IS 320px*/
+  --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
@@ -65,13 +65,13 @@
   --TEXTENTRY: #e8e8e8;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
-  --SCROLLTOTOPSIDEBAR: var(--ACCENT);
+  --SCROLLTOTOPSIDEBAR: transparent;
   --SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS: 30px;
-  --SCROLLTOTOPSIDEBARBACKGROUNDHOVER: VAR(--BUTTON2);
+  --SCROLLTOTOPSIDEBARBACKGROUNDHOVER: VAR(--TEXTENTRYHIGHLIGHT);
   --SCROLLTOTOPSIDEBARBACKGROUNDSELECTED: VAR(
     --GAMENAMERIGHTCLICKBACKGROUNDHOVER
   );
-  --SCROLLTOTOPSIDEBARHOVER: VAR(--ACCENT);
+  --SCROLLTOTOPSIDEBARHOVER: transparent;
   --SCROLLTOTOPSIDEBARSTROKEWIDTH: 20px;
   --NEWEMOTICONINDICATORSHADOW: radial-gradient(
     ellipse farthest-corner at 50% 50%,
@@ -530,6 +530,22 @@
 
 /*-------------------------- 0 u 0 COMPACT SIDEBAR 0 u 0 -------------------------- */
 
+/*-------------------------- SCROLL TO TOP SIDEBAR ICON -------------------------- */
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
+  width: 28px !important;
+  height: 28px !important;
+  margin-top: 2px !important;
+  margin-left: 3px !important;
+  background-image: url(https://i.imgur.com/7sdRRO6.png) !important;
+  background-position: center !important;
+  border-radius: VAR(--SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS) !important;
+  border: NONE !important;
+  background-color: TRANSPARENT !important;
+}
+
+/*-------------------------- SCROLL TO TOP SIDEBAR ICON -------------------------- */
+
 /*-------------------------- WORKSHOP ICON --------------------------*/
 
 .appproperties_AppProperties_1FyBL
@@ -641,12 +657,18 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
-.appproperties_AppProperties_1FyBL .DialogBody .appproperties_ShortcutChange_2MgqW {
-  margin-top:7px!important;
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_ShortcutChange_2MgqW {
+  margin-top: 7px !important;
 }
 
-.appproperties_AppProperties_1FyBL .DialogBody .appproperties_ShortcutRow_3_JQe .appproperties_Icon_1UxV1 .appproperties_AssetImage_3tFB_:hover {
-  transform:unset!important;
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_ShortcutRow_3_JQe
+  .appproperties_Icon_1UxV1
+  .appproperties_AssetImage_3tFB_:hover {
+  transform: unset !important;
 }
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_ViewFiltersBar_36r2a {
@@ -3194,11 +3216,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .offline .personanameandstatus_playerName_nOdcT {
   color: var(--ACCENT) !important;
 }
-.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
-  border-radius: VAR(--SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS) !important;
-  border: NONE !important;
-  background-color: TRANSPARENT !important;
-}
+
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow,
 .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow polyline {
   background-color: var(--SCROLLTOTOPSIDEBARBACKGROUNDHOVER) !important;
