@@ -452,6 +452,7 @@
   --SHAREDAPPDETAILHEADEROP: 0;
   --SHAREDAPPDETAILHEADERLETTERSPACING: 0;
   --SHAREDAPPDETAILHEADERFONTSIZE: 8px;
+  --RECENTGAMEDATEDISPLAY:NONE;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -656,6 +657,15 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.libraryhomerecentgames_RecentGame_1esfE .libraryhomerecentgames_EmptyDate_33gR3 {
+  display: var(--RECENTGAMEDATEDISPLAY) !important;
+}
+
+.libraryhomerecentgames_RecentGame_1esfE
+  .libraryhomerecentgames_AddedDate_1ANYF {
+  display: var(--RECENTGAMEDATEDISPLAY) !important;
+}
 
 .appportrait_HoversEnabled_54PuC
   .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2
