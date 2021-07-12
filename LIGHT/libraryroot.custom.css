@@ -657,6 +657,14 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg .appportrait_LibraryItemActionButton_3AjoL:hover:not(.appportrait_Disabled_1aml4):not(.appportrait_Play_1_Bo2) svg {
+  TRANSFORM:scale(.9)!important;
+}
+
+.appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg .appportrait_LibraryItemActionButton_3AjoL:hover:not(.appportrait_Disabled_1aml4) {
+  transform:unset!important;
+}
+
 .appproperties_AppProperties_1FyBL
   .DialogBody
   .appproperties_ShortcutChange_2MgqW {
