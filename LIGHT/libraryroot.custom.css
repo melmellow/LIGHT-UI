@@ -662,7 +662,7 @@
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a {
   min-height:18px!important;
-  padding-left:0!important;
+  padding-left:6px!important;
   padding-right:6px!important;
 }
 
@@ -4960,9 +4960,7 @@ A {
   border: VAR(--BUTTON2BORDERWIDTH) SOLID var(--BUTTONBORDER) !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg {
-  opacity: 0 !important;
-  width: 0 !important;
-  height: 0 !important;
+  display:none!important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg line,
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg circle {
