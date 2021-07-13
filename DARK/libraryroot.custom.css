@@ -1421,6 +1421,7 @@ div.NarrowRightPanel
   .DialogInput_Wrapper
   .DialogTextInputBase:focus-within {
   border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
+  background: VAR(--TEXTENTRYBACKGROUNDSELECTED) !important;
 }
 
 .gamelistsearchbar_Container_20QAC
