@@ -823,7 +823,7 @@
 .sharescreenshotupload_CaptionTextArea_qFjVw {
   color: VAR(--ACCENT) !important;
   padding: 7px !important;
-  background: var(--TEXTENTRY) !important;
+  background: var(--TEXTENTRY2) !important;
   border: var(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
   border-radius: var(--SHARESCREENSHOTTEXTENTRYBORDERROUNDED) !important;
 }

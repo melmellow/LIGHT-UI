@@ -63,8 +63,8 @@
   --ACTIVESCREENSHOTBR: 0;
   --ACTIVESCREENSHOTBORDERWIDTH: 2px;
   --TEXTENTRY: var(--BASE2);
-  --TEXTENTRY2:var(--MISSINGGAMEART);
-  --TEXTENTRY3:#e4e4e4;
+  --TEXTENTRY2: var(--MISSINGGAMEART);
+  --TEXTENTRY3: #e4e4e4;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --SCROLLTOTOPSIDEBAR: transparent;
@@ -658,14 +658,16 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
-.libraryhomeshowcases_DoneReorderingRow_1dy2s .libraryhomeshowcases_DoneReordering_MXh6n {
-  margin-bottom:9px!important;
+.libraryhomeshowcases_DoneReorderingRow_1dy2s
+  .libraryhomeshowcases_DoneReordering_MXh6n {
+  margin-bottom: 9px !important;
 }
 
-.libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a {
-  min-height:18px!important;
-  padding-left:6px!important;
-  padding-right:6px!important;
+.libraryhomeshowcases_AddShowcaseRow_3SkuN
+  .libraryhomeshowcases_AddShowcase_2aw5a {
+  min-height: 18px !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
 }
 
 .libraryhomerecentgames_RecentGame_1esfE
@@ -821,7 +823,7 @@
 .sharescreenshotupload_CaptionTextArea_qFjVw {
   color: VAR(--ACCENT) !important;
   padding: 7px !important;
-  background: var(--TEXTENTRY) !important;
+  background: var(--TEXTENTRY2) !important;
   border: var(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
   border-radius: var(--SHARESCREENSHOTTEXTENTRYBORDERROUNDED) !important;
 }
@@ -1421,7 +1423,7 @@ div.NarrowRightPanel
   .DialogInput_Wrapper
   .DialogTextInputBase:focus-within {
   border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
-  BACKGROUND:VAR(--TEXTENTRYBACKGROUNDSELECTED)!important;
+  background: VAR(--TEXTENTRYBACKGROUNDSELECTED) !important;
 }
 
 .gamelistsearchbar_Container_20QAC
@@ -4963,7 +4965,7 @@ A {
   border: VAR(--BUTTON2BORDERWIDTH) SOLID var(--BUTTONBORDER) !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg {
-  display:none!important;
+  display: none !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg line,
 .libraryhomeshowcases_AddShowcaseRow_3SkuN svg circle {
