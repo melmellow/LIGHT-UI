@@ -48,6 +48,6 @@
 		place { control="sheet" start=settingslist x=16 y=40 region=body width=max height=max }
 
 		region { name=bottom align=bottom height=44 margin=8 }
-		place { control="okbutton,cancelbutton" region=bottom align=right spacing=8 width=84 height=28 }
+		place { control="okbutton,cancelbutton" region=bottom textAlignment="center" align=right spacing=8 width=84 height=28 }
 	}
 }
