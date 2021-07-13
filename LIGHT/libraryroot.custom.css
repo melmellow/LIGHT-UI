@@ -65,6 +65,7 @@
   --TEXTENTRY: var(--BASE2);
   --TEXTENTRY2: var(--MISSINGGAMEART);
   --TEXTENTRY3: #e4e4e4;
+  --TEXTENTRYREVIEWBR:4PX;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --SCROLLTOTOPSIDEBAR: transparent;
@@ -126,7 +127,7 @@
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
   --NEWCOLLECTIONTARGETBORDER: VAR(--BLUE);
   --SHOWALLCOLLECTIONSFONTWEIGHT: 600;
-  --RATINGCONTAINER: VAR(--BASE1);
+  --RATINGCONTAINER: VAR(--BASE4);
   --DYNAMICCOLLECTIONICON: VAR(--ACCENT);
   --APPPORTRAITHOVERCARDOPACITY: 0;
   --APPPORTRAITHOVERBACKGROUND: VAR(--BASE1);
@@ -432,7 +433,8 @@
   --CIRCLECOLLAPSERHEIGHT: 10px; /*DEFAULT IS 20PX*/
   --TWOOPTIONSCONTAINER: VAR(--BASE1);
   --TWOOPTIONSCONTAINERBORDER: VAR(--DIVIDER);
-  --DIALOGCONTENT: VAR(--BASE2);
+  --DIALOGCONTENT: VAR(--BASE3);
+  --SETTINGSDIALOGCONTENT:VAR(--BASE2);
   --APPPORTRAITZOOM: VAR(--ACCENT);
   --APPPORTRAITZOOMBORDER: VAR(--WHITE);
   --TEXTENTRYFONTWEIGHT: 400;
@@ -657,6 +659,20 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.ModalDialogPopup .DialogContentTransition>.DialogContent {
+  background:var(--SETTINGSDIALOGCONTENT)!important;
+}
+
+.ModalOverlayBackground {
+  background:transparent!important;
+}
+
+.FullModalOverlay .ModalPosition_Content {
+  border-radius: VAR(--BORDERRADIUS) !important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
+}
 
 .libraryhomeshowcases_DoneReorderingRow_1dy2s
   .libraryhomeshowcases_DoneReordering_MXh6n {
@@ -5085,6 +5101,7 @@ A {
   color: var(--ACCENT) !important;
 }
 .writereview_ReviewTextArea_392iE {
+  BORDER-RADIUS:VAR(--TEXTENTRYREVIEWBR)!important;
   color: var(--ACCENT) !important;
   background-color: var(--TEXTENTRY) !important;
   width: calc(100% - 8px);

@@ -64,6 +64,7 @@
   --TEXTENTRY: VAR(--BASE2);
   --TEXTENTRY2: var(--MISSINGGAMEART);
   --TEXTENTRY3: #e8e8e8;
+  --TEXTENTRYREVIEWBR: 4px;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: TRANSPARENT;
   --SCROLLTOTOPSIDEBAR: TRANSPARENT;
@@ -433,7 +434,8 @@
   --CIRCLECOLLAPSERHEIGHT: 10px; /*DEFAULT IS 20PX*/
   --TWOOPTIONSCONTAINER: VAR(--BASE1);
   --TWOOPTIONSCONTAINERBORDER: VAR(--DIVIDER);
-  --DIALOGCONTENT: VAR(--BASE2);
+  --DIALOGCONTENT: VAR(--BASE3);
+  --SETTINGSDIALOGCONTENT: VAR(--BASE2);
   --APPPORTRAITZOOM: VAR(--ACCENT);
   --APPPORTRAITZOOMBORDER: VAR(--WHITE);
   --TEXTENTRYFONTWEIGHT: 400;
@@ -658,6 +660,20 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.ModalDialogPopup .DialogContentTransition > .DialogContent {
+  background: var(--SETTINGSDIALOGCONTENT) !important;
+}
+
+.ModalOverlayBackground {
+  background: transparent !important;
+}
+
+.FullModalOverlay .ModalPosition_Content {
+  border-radius: VAR(--BORDERRADIUS) !important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
+}
 
 .libraryhomeshowcases_DoneReorderingRow_1dy2s
   .libraryhomeshowcases_DoneReordering_MXh6n {
@@ -5083,6 +5099,7 @@ A {
   color: var(--ACCENT) !important;
 }
 .writereview_ReviewTextArea_392iE {
+  border-radius: VAR(--TEXTENTRYREVIEWBR) !important;
   color: var(--ACCENT) !important;
   background-color: var(--TEXTENTRY) !important;
   width: calc(100% - 8px);
