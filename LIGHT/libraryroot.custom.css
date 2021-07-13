@@ -656,6 +656,14 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_CurrentDisplay {
+  height:16px!important;
+}
+
+.libraryhomeshowcases_DoneReorderingRow_1dy2s .libraryhomeshowcases_DoneReordering_MXh6n {
+  margin-bottom:9px!important;
+}
+
 .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a {
   min-height:18px!important;
   padding-left:0!important;
