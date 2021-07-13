@@ -657,6 +657,12 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.libraryhomeshowcases_AddShowcaseRow_3SkuN
+  .libraryhomeshowcases_AddShowcase_2aw5a {
+  padding-left: 0 !important;
+  padding-right: 6px !important;
+}
+
 .libraryhomerecentgames_RecentGame_1esfE
   .libraryhomerecentgames_EmptyDate_33gR3 {
   display: var(--RECENTGAMEDATEDISPLAY) !important;
@@ -4943,7 +4949,6 @@ A {
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
-  padding-right: 12px !important;
   border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
   background: var(--BUTTON2) !important;
   border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
