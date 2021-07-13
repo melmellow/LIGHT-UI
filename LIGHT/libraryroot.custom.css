@@ -63,6 +63,8 @@
   --ACTIVESCREENSHOTBR: 0;
   --ACTIVESCREENSHOTBORDERWIDTH: 2px;
   --TEXTENTRY: var(--BASE2);
+  --TEXTENTRY2:var(--MISSINGGAMEART);
+  --TEXTENTRY3:#E8E8E8;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --SCROLLTOTOPSIDEBAR: transparent;
@@ -5535,7 +5537,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .DialogTextInputBase {
   height: 18px !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
-  background: var(--TEXTENTRY) !important;
+  background: var(--TEXTENTRY3) !important;
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
 }
 
@@ -5813,7 +5815,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
   border-radius: var(--STATUSTEXTENTRYBORDERROUNDED) !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
-  background: var(--TEXTENTRY) !important;
+  background: var(--TEXTENTRY2) !important;
   transition: all 0.18s ease-in-out;
   padding: 0 !important;
   padding-left: 6px !important;
