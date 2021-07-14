@@ -1,6 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
+  --GAMEIMAGESHINE:UNSET;
   --SIDEBARMINWIDTH: 256px;
   --COLLECTIONGRIDROWGAP: 10px;
   --COLLECTIONGRIDCOLUMNGAP: 10px;
@@ -661,6 +662,10 @@
 }
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
+
+.appportrait_LibraryItemBoxShine_MyNb5 {
+  background:var(--GAMEIMAGESHINE)!important;
+}
 
 .ModalDialogPopup .DialogContentTransition > .DialogContent {
   background: var(--SETTINGSDIALOGCONTENT) !important;
