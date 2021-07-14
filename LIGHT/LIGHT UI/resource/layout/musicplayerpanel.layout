@@ -31,46 +31,106 @@
 	{
 		CurrentAlbumImageStyle	{}
 
-		RepeatButtonStyle {	bgcolor="none" render_bg={} image=graphics/music_repeat_default	inset="0" padding="0" }
+		RepeatButtonStyle {	render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_repeat_default	inset="0" padding="0" }
 		RepeatButtonStyle:hover	{ bgcolor="none" render_bg={} image=graphics/music_repeat_hover	inset="0" padding="0" }
 		RepeatButtonStyle:selected { bgcolor="none" render_bg={} image=graphics/music_repeat_enabled }
 		RepeatButtonStyle:selected:hover { bgcolor="none" render_bg={} image=graphics/music_repeat_enabled_hover }
 
-		RepeatOnceButtonStyle { bgcolor="none" render_bg={} image=graphics/music_repeat_default	inset="0" padding="0" }
+		RepeatOnceButtonStyle { render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_repeat_default	inset="0" padding="0" }
 		RepeatOnceButtonStyle:hover { bgcolor="none" render_bg={} image=graphics/music_repeat_hover	inset="0" padding="0" }
 		RepeatOnceButtonStyle:selected { bgcolor="none" render_bg={} image=graphics/music_repeat1_enabled }
 		RepeatOnceButtonStyle:selected:hover { bgcolor="none" render_bg={} image=graphics/music_repeat1_enabled_hover }
 
-		ShuffleButtonStyle { bgcolor="none" render_bg={} image=graphics/music_shuffle_default }
+		ShuffleButtonStyle { render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_shuffle_default }
 		ShuffleButtonStyle:hover { bgcolor="none" render_bg={} image=graphics/music_shuffle_hover }
 		ShuffleButtonStyle:selected	{ bgcolor="none" render_bg={} image=graphics/music_shuffle_enabled }
 		ShuffleButtonStyle:selected:hover { bgcolor="none" render_bg={} image=graphics/music_shuffle_enabled_hover }
 
-		PreviousButtonStyle	{ bgcolor="none" render_bg={} image=graphics/music_trackback_default }
+		PreviousButtonStyle	{ render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_trackback_default }
 		PreviousButtonStyle:hover { bgcolor="none" render_bg={} image=graphics/music_trackback_hover }
 
-		NextButtonStyle	{ bgcolor="none" render_bg={} image=graphics/music_trackfwd_default	}
+		NextButtonStyle	{ render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_trackfwd_default	}
 		NextButtonStyle:hover {	bgcolor="none" render_bg={} image=graphics/music_trackfwd_hover }
 
-		PlayButtonStyle	{ bgcolor="none" render_bg={0="image_scale(x0,y0,x1,y1,graphics/music_play_default)"} }
+		PlayButtonStyle	{ 			render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={0="image_scale(x0,y0,x1,y1,graphics/music_play_default)"} }
 		PlayButtonStyle:hover {	bgcolor="none" render_bg={0="image_scale(x0,y0,x1,y1,graphics/music_play_hover)"} }
 
-		PauseButtonStyle {	bgcolor="none" render_bg={0="image_scale(x0,y0,x1,y1,graphics/music_pause_default)"} }
+		PauseButtonStyle {	render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={0="image_scale(x0,y0,x1,y1,graphics/music_pause_default)"} }
 		PauseButtonStyle:hover { bgcolor="none" render_bg={0="image_scale(x0,y0,x1,y1,graphics/music_pause_hover)"} }
 
-		VolumeButtonStyle {	bgcolor="none" render_bg={} image=graphics/music_volume_default }
+		VolumeButtonStyle {	render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_volume_default }
 		VolumeButtonStyle:hover { bgcolor="none" render_bg={} image=graphics/music_volume_hover }
 
-		VolumeButtonActiveStyle { bgcolor="none" render_bg={} image=graphics/music_volume_default }
+		VolumeButtonActiveStyle { render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_volume_default }
 		VolumeButtonActiveStyle:hover {	bgcolor="none" render_bg={} image=graphics/music_volume_hover }
 
-		MuteVolumeButtonStyle {	bgcolor="none" render_bg={} image=graphics/music_volume_mute_default	}
+		MuteVolumeButtonStyle {	render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_volume_mute_default	}
 		MuteVolumeButtonStyle:hover { bgcolor="none" render_bg={} image=graphics/music_volume_mute_hover }
 
-		MuteVolumeButtonActiveStyle { bgcolor="none" render_bg={} image=graphics/music_volume_mute_default }
+		MuteVolumeButtonActiveStyle { render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_volume_mute_default }
 		MuteVolumeButtonActiveStyle:hover {	bgcolor="none" render_bg={} image=graphics/music_volume_mute_hover }
 
-		BrowseButtonStyle {	bgcolor="none" render_bg={} image=graphics/music_browse_default }
+		BrowseButtonStyle {	render {
+				1="fill(x0,y0,x1,y0+1, NONE)"  // top
+				2="fill(x0,y1-1,x1,y1, NONE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, NONE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, NONE)"  // right
+			}bgcolor="none" render_bg={} image=graphics/music_browse_default }
 		BrowseButtonStyle:hover { bgcolor="none" render_bg={} image=graphics/music_browse_hover }
 
 		StatusStyle	{ render_bg={} font-family=basefont textcolor="White75" font-size=16 }
