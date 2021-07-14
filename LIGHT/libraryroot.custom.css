@@ -1,6 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
+  --SIDEBARMINWIDTH: 256px;
   --COLLECTIONGRIDROWGAP: 10px;
   --COLLECTIONGRIDCOLUMNGAP: 10px;
   --gridrowgap: 2px;
@@ -65,7 +66,7 @@
   --TEXTENTRY: var(--BASE2);
   --TEXTENTRY2: var(--MISSINGGAMEART);
   --TEXTENTRY3: #e4e4e4;
-  --TEXTENTRYREVIEWBR:4PX;
+  --TEXTENTRYREVIEWBR: 4px;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --SCROLLTOTOPSIDEBAR: transparent;
@@ -293,7 +294,7 @@
   --CHECKMARKSTROKEWIDTH: 40px; /*default is 40*/
   --DROPDOWNBORDERWIDTH: 2px;
   --DROPDOWN: var(--BUTTON2);
-  --DROPDOWNBORDER: NONE;
+  --DROPDOWNBORDER: none;
   --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
   --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --DROPDOWNHOVER: VAR(--BUTTON2);
@@ -434,7 +435,7 @@
   --TWOOPTIONSCONTAINER: VAR(--BASE4);
   --TWOOPTIONSCONTAINERBORDER: VAR(--DIVIDER);
   --DIALOGCONTENT: VAR(--BASE3);
-  --SETTINGSDIALOGCONTENT:VAR(--BASE2);
+  --SETTINGSDIALOGCONTENT: VAR(--BASE2);
   --APPPORTRAITZOOM: VAR(--ACCENT);
   --APPPORTRAITZOOMBORDER: VAR(--WHITE);
   --TEXTENTRYFONTWEIGHT: 400;
@@ -660,18 +661,18 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
-.ModalDialogPopup .DialogContentTransition>.DialogContent {
-  background:var(--SETTINGSDIALOGCONTENT)!important;
+.ModalDialogPopup .DialogContentTransition > .DialogContent {
+  background: var(--SETTINGSDIALOGCONTENT) !important;
 }
 
 .ModalOverlayBackground {
-  background:transparent!important;
+  background: transparent !important;
 }
 
 .FullModalOverlay .ModalPosition_Content {
   border-radius: VAR(--BORDERRADIUS) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
-  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
+  box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
 .libraryhomeshowcases_DoneReorderingRow_1dy2s
@@ -5101,7 +5102,7 @@ A {
   color: var(--ACCENT) !important;
 }
 .writereview_ReviewTextArea_392iE {
-  BORDER-RADIUS:VAR(--TEXTENTRYREVIEWBR)!important;
+  border-radius: VAR(--TEXTENTRYREVIEWBR) !important;
   color: var(--ACCENT) !important;
   background-color: var(--TEXTENTRY) !important;
   width: calc(100% - 8px);
@@ -6475,6 +6476,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .library_LeftListSizableContainer_9sPoV {
+  min-width: var(--SIDEBARMINWIDTH) !important;
   background: var(--SIDEBAR) !important;
 }
 

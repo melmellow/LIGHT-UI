@@ -1,6 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
+  --SIDEBARMINWIDTH: 256px;
   --COLLECTIONGRIDROWGAP: 10px;
   --COLLECTIONGRIDCOLUMNGAP: 10px;
   --gridrowgap: 2px;
@@ -6470,6 +6471,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .library_LeftListSizableContainer_9sPoV {
+  min-width: var(--SIDEBARMINWIDTH) !important;
   background: var(--SIDEBAR) !important;
 }
 
