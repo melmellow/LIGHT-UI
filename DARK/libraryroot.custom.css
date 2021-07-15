@@ -1,7 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
-  --GAMEIMAGESHINE:UNSET;
+  --GAMEIMAGESHINE: unset;
   --SIDEBARMINWIDTH: 256px;
   --COLLECTIONGRIDROWGAP: 10px;
   --COLLECTIONGRIDCOLUMNGAP: 10px;
@@ -185,8 +185,8 @@
   --LOADINGFILT: BRIGHTNESS(2);
   --LOADINGOP: VAR(--OP);
   --LOADINGDOT: VAR(--ACCENT);
-  --AVATARBORDER: VAR(--ACCENT);
-  --AVATARBORDERWIDTH: 2px;
+  --AVATARBORDER: VAR(--SHADOW);
+  --AVATARBORDERWIDTH: 1px;
   --ACHIEVEMENTBORDERRADIUS: VAR(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBORDERRADIUS: var(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBG: RGB(0, 0, 0);
@@ -664,7 +664,7 @@
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
 .appportrait_LibraryItemBoxShine_MyNb5 {
-  background:var(--GAMEIMAGESHINE)!important;
+  background: var(--GAMEIMAGESHINE) !important;
 }
 
 .ModalDialogPopup .DialogContentTransition > .DialogContent {
