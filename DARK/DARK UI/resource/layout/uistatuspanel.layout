@@ -1,61 +1,40 @@
-"resource/layout/uistatuspanel.layout"
-{
-	controls
-	{
-		StatusDownloading { controlname=URLLabel style="StatusLabel" labelText="" URLText="steam://open/downloads" }
-		StatusPaused{ controlname=URLLabel style="StatusLabelDim" labelText="" URLText="steam://open/downloads" } 
-		StatusComplete { controlname=URLLabel style="StatusLabelDim" labelText="" URLText="steam://open/downloads" }
-		StatusProgressbar	{ controlname="ProgressBar" style="SlimProgressBar" barinset=0 continuous=1 } 
-	}
+"Resource/layout/uistatuspanel.layout" {
 
-	styles
-	{
-		StatusLabel
-		{
-			inset-left=7
-			bgcolor="NONE"
-			image="icons/downloads"
-		}
-		StatusLabel:hover
-		{
-			bgcolor = ACTIONBUTTONHOVER
-			render {}
-			image="icons/downloads_h"
-		}
-			StatusLabel:selected
-		{
-			render {}
-			image="icons/downloads_h"
-		}
-		StatusLabelDim
-		{
-			textcolor="none"
-			bgcolor="none"
-			render_bg
-			{
-				1="fill(x0,y0,x1,y0+2,NAVBARPROGRESSBARPAUSED)"
+	styles {
+		CUIStatusPanel { }
+
+		SlimProgressBar {
+			textcolor=none
+			bgcolor=none
+			render_bg {
+				0="image( x0 + 8, y0 - 28, x1, y1, ICONS/downloads_h)"
 			}
 		}
-		StatusLabelDim:hover
-		{
-			bgcolor="none"
+
+		StatusLabel {
+			textcolor=none
+			render_bg {
+				0="image( x0 + 8, y0 + 12, x1, y1, ICONS/downloads)"
+			}
 		}
-		SlimProgressBar
-		{
-			bgcolor="none"
-			render_bg{}
-			render{}
+
+		StatusLabel:hover {
+			render_bg {
+				0="image( x0 + 8, y0 + 12, x1, y1, ICONS/downloads_h)" 
+			}
 		}
+
+		StatusLabelDim { textcolor=none }
 	}
 
-	layout
-	{
-		region { name="action" height=12 align=bottom }
+	layout {
+		//0 height with render offset -y since the progressbar has higher zpos the other items
+		//it does, however make the icon light up when a download is currently in progress
+		place { control=StatusProgressbar align=bottom width=max height=0 }
 
-		place { control="StatusPaused" y=39 align=center margin-left=7 margin-right=7 }
-		place { region=action control="StatusComplete" height=1 align=top-center margin-left=7 margin-right=7 margin-top=-3 }
+		//this is the clickable link and is the faded state of the icon
+		place { control=StatusDownloading width=max height=max }
 
-		place { control="StatusDownloading" height=39 width=27 }
-		place { control=StatusProgressbar height=0 width=max align=bottom }
+		place { control=StatusComplete,StatusPaused height=0 width=0 }
 	}
 }
