@@ -2770,7 +2770,7 @@ img {
   .DialogBody
   .appproperties_DlcGrid_3sXdO
   .appproperties_DlcHeader_1SKB0 {
-  background: transparent !important;
+  background: VAR(--BASE2) !important;
 }
 .appproperties_AppProperties_1FyBL
   .DialogBody
