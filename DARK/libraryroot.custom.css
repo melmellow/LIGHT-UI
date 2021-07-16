@@ -461,6 +461,7 @@
   --SHAREDAPPDETAILHEADERFONTSIZE: 8px;
   --RECENTGAMEDATEDISPLAY: NONE;
   --EMPTYRECENTGAMEDATEHEIGHT: 0;
+  --ADDSHELFBACKGROUNDHOVER: VAR(--BASE3);
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -1564,6 +1565,7 @@ div.NarrowRightPanel
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a:hover {
+  background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
   background-image: URL(https://i.imgur.com/XadeuqH.png) !important;
   background-position: CENTER !important;
   background-repeat: no-repeat !important;
