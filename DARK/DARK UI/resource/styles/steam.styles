@@ -1015,8 +1015,7 @@ steam.styles
 			render_bg{}
 			render
 			{
-				1="fill(x0+1,y0,x1-1,y1-1,white05)"
-				2="fill(x0+1, y1-1, x1-1, y1, focus)"
+				1="fill(x0+1, y1-1, x1-1, y1, NAVBUTTONACTIVEBORDER)"
 			}
 		}
 
@@ -1031,12 +1030,16 @@ steam.styles
 				3="fill( x0-1, y0, x0, y1, NONE )"  // left
 				4="fill( x1, y0, x1+1, y1, NONE )"  // right
 			}
-			image="ICONS/CLOSETAB"
+				render_bg {
+				0="image( x0 + 5, y0 + 4, x1, y1, ICONS/TABCLOSE )"
+			}
 		}
 
 		TabCloseButton:hover
 		{
-				image="ICONS/CLOSETAB_H"
+					render_bg {
+					0="image( x0 + 5, y0 + 4, x1, y1, ICONS/TABCLOSE_H )"
+			}
 		}
 
 		TabCloseButton:active
