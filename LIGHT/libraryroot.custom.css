@@ -383,7 +383,7 @@
   --TEXTENTRYBACKGROUNDSELECTED: var(--BASE3);
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
-  --DIALOGHEADERFONTWEIGHT:100;
+  --DIALOGHEADERFONTWEIGHT: 100;
   --DIALOGTEXTENTRYBORDERROUNDED: 30px;
   --SHARESCREENSHOTTEXTENTRYBORDERROUNDED: 4px;
   --STATUSTEXTENTRYBORDERROUNDED: 30px;
@@ -459,6 +459,7 @@
   --SHAREDAPPDETAILHEADERLETTERSPACING: 0;
   --SHAREDAPPDETAILHEADERFONTSIZE: 8px;
   --RECENTGAMEDATEDISPLAY: NONE;
+  --EMPTYRECENTGAMEDATEHEIGHT: 0;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -701,7 +702,7 @@
 
 .libraryhomerecentgames_RecentGame_1esfE
   .libraryhomerecentgames_EmptyDate_33gR3 {
-  display: var(--RECENTGAMEDATEDISPLAY) !important;
+  height: var(--EMPTYRECENTGAMEDATEHEIGHT) !important;
 }
 
 .libraryhomerecentgames_RecentGame_1esfE
@@ -2955,7 +2956,7 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
   background: var(--BASE2) !important;
 }
 .DialogHeader {
-  FONT-WEIGHT:VAR(--DIALOGHEADERFONTWEIGHT)!important;
+  font-weight: VAR(--DIALOGHEADERFONTWEIGHT) !important;
   text-transform: unset !important;
   color: var(--ACCENT) !important;
   font-size: 24px !important;
@@ -6165,7 +6166,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .libraryhomeshowcases_Showcase_V7RuD
   .libraryhomeshowcases_ChildrenContainer_1VMQW {
-  height: 188px !important;
+  height: 173px !important;
 }
 
 .libraryhomerecentgames_RecentGame_1esfE

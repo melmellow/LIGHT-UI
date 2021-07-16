@@ -384,7 +384,7 @@
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --DIALOGTEXTENTRYBORDERROUNDED: 30px;
-  --DIALOGHEADERFONTWEIGHT:100;
+  --DIALOGHEADERFONTWEIGHT: 100;
   --SHARESCREENSHOTTEXTENTRYBORDERROUNDED: 4px;
   --STATUSTEXTENTRYBORDERROUNDED: 30px;
   --STATUSTEXTENTRYBORDERROUNDEDSELECTED: 4px;
@@ -460,6 +460,7 @@
   --SHAREDAPPDETAILHEADERLETTERSPACING: 0;
   --SHAREDAPPDETAILHEADERFONTSIZE: 8px;
   --RECENTGAMEDATEDISPLAY: NONE;
+  --EMPTYRECENTGAMEDATEHEIGHT: 0;
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -697,7 +698,7 @@
 
 .libraryhomerecentgames_RecentGame_1esfE
   .libraryhomerecentgames_EmptyDate_33gR3 {
-  display: var(--RECENTGAMEDATEDISPLAY) !important;
+  height: var(--EMPTYRECENTGAMEDATEHEIGHT) !important;
 }
 
 .libraryhomerecentgames_RecentGame_1esfE
@@ -6158,7 +6159,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .libraryhomeshowcases_Showcase_V7RuD
   .libraryhomeshowcases_ChildrenContainer_1VMQW {
-  height: 188px !important;
+  height: 173px !important;
 }
 
 .libraryhomerecentgames_RecentGame_1esfE
