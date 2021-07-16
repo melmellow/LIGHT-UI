@@ -666,6 +666,10 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.writereview_FormContainer_sK8bm .writereview_ReviewSettingsRow_11okU > span {
+  line-height: 40px !important;
+}
+
 .appportrait_LibraryItemBoxShine_MyNb5 {
   background: var(--GAMEIMAGESHINE) !important;
 }

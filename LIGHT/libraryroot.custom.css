@@ -665,6 +665,10 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.writereview_FormContainer_sK8bm .writereview_ReviewSettingsRow_11okU>span {
+  LINE-HEIGHT:40PX!important;
+}
+
 .libraryhomeshowcases_DropTarget_3oXyq .libraryhomeshowcases_Showcase_V7RuD {
   background: VAR(--BASE5) !important;
   border: 2px solid var(--BLUE) !important;
