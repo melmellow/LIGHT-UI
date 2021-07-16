@@ -3280,6 +3280,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 }
 
 .allcollections_Collection_3IWn- {
+  border: 0 !important;
   background: var(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: var(--COLLECTIONSBORDERRADIUS) !important;
