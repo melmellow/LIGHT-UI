@@ -23,7 +23,7 @@
   --BASE2: #dedede;
   --BASE3: #eaeaea;
   --BASE4: #efefef;
-  --BASE5: #D8D8D8;
+  --BASE5: #d1d1d1;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDER2: #b6b6b6;
@@ -1668,8 +1668,7 @@ div.NarrowRightPanel
 }
 
 .collectionview_Container_2q70u.collectionview_DropTarget_dTH3e {
-  background: none !important;
-  border: 0 !important;
+  background: VAR(--BASE5) !important;
 }
 
 .gamelistsearchbar_Container_20QAC {

@@ -1663,8 +1663,7 @@ div.NarrowRightPanel
 }
 
 .collectionview_Container_2q70u.collectionview_DropTarget_dTH3e {
-  background: none !important;
-  border: 0 !important;
+  background: VAR(--BASE5) !important;
 }
 
 .gamelistsearchbar_Container_20QAC {
