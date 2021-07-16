@@ -899,7 +899,7 @@ steam.styles
 		MenuSeparator
 		{
 			inset-left=-2
-			textcolor="Dividers"
+			textcolor="DIVIDER"
 			bgcolor="none"
 		}
 
