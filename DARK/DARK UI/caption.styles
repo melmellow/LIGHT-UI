@@ -5,7 +5,7 @@
 		//Default Style
 		FrameMinimizeButton [$WIN32||$WINDOWS||$LINUX]
 		{
-			inset="9 19 0 0"
+			inset="9 18 0 0"
 			render_bg{}
 			image="icons/caption/minimize"
 		}
