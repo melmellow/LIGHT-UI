@@ -1299,8 +1299,8 @@ div.NarrowRightPanel
 }
 
 .DialogCheckbox .SVGIcon_DialogCheck {
-  margin-top: -2px !important;
-  margin-left: -2px !important;
+  margin-top: -1px !important;
+  margin-left: -1px !important;
   height: var(--CHEKCMARKHEIGHT) !important;
   width: var(--CHECKMARKWIDTH) !important;
 }
