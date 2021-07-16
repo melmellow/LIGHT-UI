@@ -1,7 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
-  --GAMEIMAGESHINE:UNSET;
+  --GAMEIMAGESHINE: unset;
   --SIDEBARMINWIDTH: 256px;
   --COLLECTIONGRIDROWGAP: 10px;
   --COLLECTIONGRIDCOLUMNGAP: 10px;
@@ -23,6 +23,7 @@
   --BASE2: #dedede;
   --BASE3: #eaeaea;
   --BASE4: #efefef;
+  --BASE5: #D8D8D8;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDER2: #b6b6b6;
@@ -65,7 +66,7 @@
   --ACTIVESCREENSHOTBR: 0;
   --ACTIVESCREENSHOTBORDERWIDTH: 2px;
   --TEXTENTRY: var(--BASE2);
-  --TEXTENTRY2: var(--MISSINGGAMEART);
+  --TEXTENTRY2: var(--BASE5);
   --TEXTENTRY3: #e4e4e4;
   --TEXTENTRYREVIEWBR: 4px;
   --BOXSHADOW: 0 1px 2px;
@@ -156,8 +157,8 @@
   --REVIEWICONBACKGROUNDBORDER: VAR(--WHITE);
   --POSITIVEREVIEWICON: VAR(--WHITE);
   --NEGATIVEREVIEWICON: VAR(--WHITE);
-  --MISSINGGAMEART: #d8d8d8;
-  --INFOPANEL: VAR(--MISSINGGAMEART);
+  --MISSINGGAMEART: VAR(--BASE5);
+  --INFOPANEL: VAR(--BASE5);
   --MOREINFOICONFILT: VAR(--FILT);
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
@@ -662,8 +663,13 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.libraryhomeshowcases_DropTarget_3oXyq .libraryhomeshowcases_Showcase_V7RuD {
+  background: VAR(--BASE5) !important;
+  border: 2px solid var(--BLUE) !important;
+}
+
 .appportrait_LibraryItemBoxShine_MyNb5 {
-  background:var(--GAMEIMAGESHINE)!important;
+  background: var(--GAMEIMAGESHINE) !important;
 }
 
 .ModalDialogPopup .DialogContentTransition > .DialogContent {
