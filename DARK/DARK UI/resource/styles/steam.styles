@@ -1566,7 +1566,7 @@ steam.styles
 		}
 		ReloadButton:hover
 		{
-			bgcolor="NONE"
+			bgcolor=white05
 			image=ICONS/REFRESH_H
 			render
 			{
@@ -1592,7 +1592,7 @@ steam.styles
 		{
 			inset-left=8
 			bgcolor="none"
-			image=graphics/metro/urlbar/stop_p
+			image=ICONS/STOP
 									render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1604,6 +1604,7 @@ steam.styles
 		StopButton:hover
 		{
 			bgcolor=white05
+			image=ICONS/STOP_H
 									render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
