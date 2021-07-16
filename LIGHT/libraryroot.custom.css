@@ -665,8 +665,8 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
-.writereview_FormContainer_sK8bm .writereview_ReviewSettingsRow_11okU>span {
-  LINE-HEIGHT:40PX!important;
+.writereview_FormContainer_sK8bm .writereview_ReviewSettingsRow_11okU > span {
+  line-height: 40px !important;
 }
 
 .libraryhomeshowcases_DropTarget_3oXyq .libraryhomeshowcases_Showcase_V7RuD {
@@ -781,7 +781,7 @@
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
-  margin-left: 3px !important;
+  margin-left: 49% !important;
   margin-right: 0 !important;
 }
 
@@ -1569,7 +1569,9 @@ div.NarrowRightPanel
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a:hover {
-  border-color: var(--BUTTONBORDERHOVER) !important;
+  BACKGROUND-IMAGE:URL(https://i.imgur.com/XadeuqH.png) !important;
+  BACKGROUND-POSITION:CENTER!important;
+  background-repeat:no-repeat!important;
 }
 
 .appactivityday_CommentsGroup_1-KuQ
@@ -3290,7 +3292,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   background: var(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: var(--COLLECTIONSBORDERRADIUS) !important;
-  border:0!important;
+  border: 0 !important;
 }
 
 .allcollections_Collection_3IWn-
@@ -4988,11 +4990,22 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 A {
   color: var(--ACCENT) !important;
 }
+
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
-  border-radius: VAR(--BUTTON2BORDERRADIUS) !important;
-  background: var(--BUTTON2) !important;
-  border: VAR(--BUTTON2BORDERWIDTH) solid var(--BUTTONBORDER) !important;
+  padding: 4px 14px !important;
+}
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN
+  .libraryhomeshowcases_AddShowcase_2aw5a {
+  background-image: url(https://i.imgur.com/uNig7fK.png) !important;
+  background-repeat: no-repeat!important;
+  background-position: center !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  border-radius: 100px !important;
+  background-color: var(--BASE1) !important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a.libraryhomeshowcases_Disabled_1MNhU {
