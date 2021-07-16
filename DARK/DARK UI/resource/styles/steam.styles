@@ -27,6 +27,9 @@ steam.styles
 	
 	styles
 	{
+				ReloadButton { minimum-height=0 padding-left=0 padding-right=0 render_bg { } image="ICONS/refresh" }
+
+		ReloadButton:hover { render_bg { } image="ICONS/refresh_H" }
 
 		account_menu_label { font-family=medium font-size=16 font-weight=500 textcolor=FRIENDONLINE font-style=regular }
 
@@ -1018,6 +1021,7 @@ steam.styles
 				1="fill(x0+1, y1-1, x1-1, y1, NAVBUTTONACTIVEBORDER)"
 			}
 		}
+		
 
 		TabCloseButton
 		{
