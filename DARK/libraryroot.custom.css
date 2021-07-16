@@ -384,6 +384,7 @@
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --DIALOGTEXTENTRYBORDERROUNDED: 30px;
+  --DIALOGHEADERFONTWEIGHT:100;
   --SHARESCREENSHOTTEXTENTRYBORDERROUNDED: 4px;
   --STATUSTEXTENTRYBORDERROUNDED: 30px;
   --STATUSTEXTENTRYBORDERROUNDEDSELECTED: 4px;
@@ -2947,6 +2948,7 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
   background: var(--BASE2) !important;
 }
 .DialogHeader {
+  font-weight: VAR(--DIALOGHEADERFONTWEIGHT) !important;
   text-transform: unset !important;
   color: var(--ACCENT) !important;
   font-size: 24px !important;
