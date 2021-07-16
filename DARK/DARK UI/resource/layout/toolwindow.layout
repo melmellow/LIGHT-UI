@@ -27,14 +27,20 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+8,y0+8,x1,y1,graphics/new_tab)"
+				0="image(x0+8,y0+8,x1,y1,ICONS/NEWTAB)"
+			}
+			RENDER {
+				0="fill( x0, y0 + 1, x0 + 1, y1 - 1, NONE )"
+				1="fill( x1, y0 + 1, x1 - 1, y1 - 1, NONE )"
+				2="fill( x0 + 1, y0, x1 - 1, y0 + 1, NONE )"
+				3="fill( x0 + 1, y1 - 1, x1 - 1, y1, NONE )"
 			}
 		}
 		Button:hover
 		{
 			render_bg
 			{
-				0="image(x0+8,y0+8,x1,y1,graphics/new_tab_hover)"
+				0="image(x0+8,y0+8,x1,y1,ICONS/NEWTAB_H)"
 			}
 		}
 
