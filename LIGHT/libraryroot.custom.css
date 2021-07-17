@@ -380,6 +380,7 @@
   --DROPDOWNROUNDED2: 0;
   --DROPDOWNROUNDED3: 0;
   --TEXTENTRYBACKGROUNDHOVER: VAR(--TEXTENTRY);
+  --TEXTENTRY2BACKGROUNDHOVER: VAR(--BASE1);
   --TEXTENTRYBORDERWIDTH: 2px;
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER);
   --TEXTENTRYBACKGROUNDSELECTED: var(--BASE3);
@@ -674,6 +675,7 @@
 
 .appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
   display: var(--DISPLAYAPPDETAILS) !important;
+  margin-left: 3px !important;
 }
 
 .appdetailscommunityfeed_AppOverviewRow_1I55h.appdetailscommunityfeed_OneTall_3Q3kE {
@@ -5896,7 +5898,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_PostTextEntryArea_1JlC2:hover {
   border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
-  background-color: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
+  background-color: VAR(--TEXTENTRY2BACKGROUNDHOVER) !important;
 }
 
 .posttextentry_PostTextEntry_3x31A
