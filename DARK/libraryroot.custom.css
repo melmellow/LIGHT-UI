@@ -656,6 +656,30 @@
 
 /*-------------------------- INFO PANEL TOP BORDER --------------------------*/
 
+/*-------------------------- ADD SHELF ICON --------------------------*/
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN
+  .libraryhomeshowcases_AddShowcase_2aw5a {
+  background-image: url(https://i.imgur.com/uNig7fK.png) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  border-radius: 100px !important;
+  background-color: var(--BASE1) !important;
+  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
+}
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN
+  .libraryhomeshowcases_AddShowcase_2aw5a:hover {
+  background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
+  background-image: URL(https://i.imgur.com/XadeuqH.png) !important;
+  background-position: CENTER !important;
+  background-repeat: no-repeat !important;
+}
+
+/*-------------------------- ADD SHELF ICON --------------------------*/
+
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl:hover
@@ -1577,14 +1601,6 @@ div.NarrowRightPanel
   .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover
   svg {
   fill: VAR(--ACTIVEDROPDOWNFILTERICONHOVER) !important;
-}
-
-.libraryhomeshowcases_AddShowcaseRow_3SkuN
-  .libraryhomeshowcases_AddShowcase_2aw5a:hover {
-  background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
-  background-image: URL(https://i.imgur.com/XadeuqH.png) !important;
-  background-position: CENTER !important;
-  background-repeat: no-repeat !important;
 }
 
 .appactivityday_CommentsGroup_1-KuQ
@@ -5016,17 +5032,6 @@ A {
   padding: 4px 14px !important;
 }
 
-.libraryhomeshowcases_AddShowcaseRow_3SkuN
-  .libraryhomeshowcases_AddShowcase_2aw5a {
-  background-image: url(https://i.imgur.com/uNig7fK.png) !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  font-size: 0 !important;
-  color: transparent !important;
-  border-radius: 100px !important;
-  background-color: var(--BASE1) !important;
-  border: 1px solid var(--APPDETAILSPANELBORDER) !important;
-}
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a.libraryhomeshowcases_Disabled_1MNhU {
   background-color: VAR(--BUTTON2) !important;
