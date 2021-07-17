@@ -2146,7 +2146,7 @@ a:-webkit-any-link {
   .appproperties_SteamInputLink_fy_T9 {
   text-decoration: none !important;
   text-transform: uppercase !important;
-  font-weight: bold !important;
+  font-weight: VAR(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 
 .Resume.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
