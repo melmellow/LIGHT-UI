@@ -1276,7 +1276,7 @@ steam.styles
 
 		URLLabel:Hover
 		{
-			textcolor=BLACK
+			textcolor=URLHOVER
 		}
 
 		URLLabelSimple
