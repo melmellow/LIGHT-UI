@@ -725,6 +725,7 @@
 
 .ModalOverlayBackground {
   background: transparent !important;
+  backdrop-filter: blur(5px) brightness(0.65) saturate(0.7)!important;
 }
 
 .FullModalOverlay .ModalPosition_Content {
@@ -2829,7 +2830,7 @@ img {
   color: var(--ACCENT) !important;
 }
 .ModalPosition_Content {
-  font-weight: 400 !important;
+  font-weight: var(--DIALOGHEADERFONTWEIGHT) !important;
   color: var(--ACCENT) !important;
 }
 .sharedialog_ShareButton_1FFkd {
