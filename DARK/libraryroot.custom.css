@@ -1,6 +1,6 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
-  --DISPLAYCOMMUNITYCONTENT: unset; /*DEFAULT IS UNSET*/
+  --DISPLAYCOMMUNITYCONTENT: GRID; /*DEFAULT IS "GRID" */
   --DISPLAYAPPDETAILS: flex; /*DEFAULT IS FLEX, set to "contents" when disabling community content*/
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
   --GAMEIMAGESHINE: unset;

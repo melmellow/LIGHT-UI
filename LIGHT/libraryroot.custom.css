@@ -1,6 +1,6 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
-  --DISPLAYCOMMUNITYCONTENT: unset; /*DEFAULT IS UNSET*/
+  --DISPLAYCOMMUNITYCONTENT: GRID; /*DEFAULT IS "GRID" */
   --DISPLAYAPPDETAILS: FLEX; /*DEFAULT IS FLEX, set to "contents" when disabling community content*/
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
   --GAMEIMAGESHINE: unset;
@@ -669,7 +669,7 @@
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
 .throbber_throbber_center_wrapper_3IYPz {
-  display:var(--DISPLAYCOMMUNITYCONTENT)!important;
+  display: var(--DISPLAYCOMMUNITYCONTENT) !important;
 }
 
 .appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
