@@ -1706,6 +1706,8 @@ div.NarrowRightPanel
 
 .gamelistsearchbar_Container_20QAC {
   padding: 4px !important;
+  padding-right:6px!important;
+  padding-left:7px!important;
 }
 
 .gamelistsearchbar_Container_20QAC .DialogInput_ClearAction svg line,
