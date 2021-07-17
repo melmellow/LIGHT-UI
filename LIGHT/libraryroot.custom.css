@@ -1371,11 +1371,6 @@ div.NarrowRightPanel
   filter: brightness(0) !important;
 }
 
-.BroadcastVideoWatchState,
-.BroadcastVideoUserInputNeeded {
-  filter: brightness(0) !important;
-}
-
 .videoControlButton.buttonPlayPause:hover {
   background-color: NONE !important;
 }
