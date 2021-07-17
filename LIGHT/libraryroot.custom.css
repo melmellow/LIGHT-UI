@@ -725,7 +725,7 @@
 
 .ModalOverlayBackground {
   background: transparent !important;
-  backdrop-filter: blur(5px) brightness(0.65) saturate(0.7)!important;
+  backdrop-filter: blur(5px) brightness(0.65) saturate(0.7) !important;
 }
 
 .FullModalOverlay .ModalPosition_Content {
@@ -2190,6 +2190,7 @@ button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ.Dia
 }
 
 .DialogInput_Wrapper > input.DialogInput {
+  background-color: var(--TEXTENTRY2) !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   border-radius: var(--DIALOGTEXTENTRYBORDERROUNDED) !important;
   font-weight: var(--TEXTENTRYFONTWEIGHT) !important;
