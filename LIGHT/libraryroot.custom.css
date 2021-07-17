@@ -37,6 +37,8 @@
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
   --BUTTON2BORDERWIDTH: 1px;
   --BUTTON2: #d6d6d6;
+  --CAPTIONBACKGROUNDHOVER:VAR(--BUTTON2);
+  --CAPTIONHOVER:var(--ACCENT);
   --BUTTON2PRIMARY: VAR(--BLUE);
   --BUTTON2PRIMARYBORDER: VAR(--BLUE);
   --BUTTON2PRIMARYTEXT: VAR(--WHITE);
@@ -1058,7 +1060,13 @@ div.NarrowRightPanel
   border-radius: var(--PANELCONTENTBR) !important;
 }
 
+.title-bar-actions:hover {
+  background: var(--CAPTIONBACKGROUNDHOVER);
+}
+
 .title-area .title-bar-actions {
+  width:40px!important;
+  max-height:40px!important;
   right: 0 !important;
 }
 
@@ -3187,6 +3195,15 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {
   background-color: var(--RATINGICONBACKGROUNDHOVER) !important;
   border-radius: 30px !important;
+}
+
+.title-area-icon:hover .SVGIcon_Button rect, .title-area-icon:hover .SVGIcon_Button line, .title-area-icon:hover .SVGIcon_Button polyline {
+  stroke:var(--CAPTIONHOVER)!important;
+}
+
+.title-area-icon {
+  MARGIN-TOP:10PX!important;
+  margin-right:3px!important;
 }
 
 .title-area-icon .SVGIcon_X_Line {

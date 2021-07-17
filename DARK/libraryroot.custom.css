@@ -465,6 +465,8 @@
   --RECENTGAMEDATEDISPLAY: NONE;
   --EMPTYRECENTGAMEDATEHEIGHT: 0;
   --ADDSHELFBACKGROUNDHOVER: VAR(--BASE3);
+  --CAPTIONBACKGROUNDHOVER:VAR(--BUTTON2);
+  --CAPTIONHOVER:VAR(--ACCENT);
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -947,6 +949,15 @@
   color: var(--BLUE) !important;
 }
 
+.title-area-icon:hover .SVGIcon_Button rect, .title-area-icon:hover .SVGIcon_Button line, .title-area-icon:hover .SVGIcon_Button polyline {
+  stroke:var(--CAPTIONHOVER)!important;
+}
+
+.title-area-icon {
+  margin-top:10px!important;
+  margin-right:3px!important;
+}
+
 .appactivityday_ScreenshotCarousel_1pdQd
   .appactivityday_ActiveScreenshot_290Dq
   .appactivityday_TimeStamp_3ljAd {
@@ -1053,7 +1064,13 @@ div.NarrowRightPanel
   border-radius: var(--PANELCONTENTBR) !important;
 }
 
+.title-bar-actions:hover {
+  background: var(--CAPTIONBACKGROUNDHOVER);
+}
+
 .title-area .title-bar-actions {
+  width:40px!important;
+  max-height:40px!important;
   right: 0 !important;
 }
 
