@@ -20,8 +20,8 @@ Steam will have to restart to apply the theme
 # CREDITS
 * METRO SKIN <3
 * AIR SKIN <3
-* phantomgamers for making steamfriendspatcher <3
-* AikoMidori for contributing on the webkit and chat ui <3
+* phantomgamers <3
+* AikoMidori <3
 
 Its not perfect yet but I will keep working on it <3
 
