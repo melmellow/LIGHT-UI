@@ -3427,7 +3427,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
   display: var(--DISPLAYCOMMUNITYCONTENT) !important;
-  margin-bottom: 30px !important;
+  margin-bottom: 0 !important;
 }
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3
@@ -4699,7 +4699,7 @@ div.NarrowRightPanel
 }
 
 .comment_thread_RatingBar_1yWgP {
-  margin-right: 7px !important;
+  margin-right: 16px !important;
 }
 
 .online .steamavatar_avatarStatus_3xUpb {
