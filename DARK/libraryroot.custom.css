@@ -20,7 +20,7 @@
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
   --OP: 63%;
   --OP2: 60.5%;
-  --FILT: CONTRAST(2);
+  --FILT: CONTRAST(5);
   --BASE1: #1b1b1b;
   --BASE2: #212121;
   --BASE3: #151515;
@@ -590,7 +590,7 @@
   transition: filter 0.3s ease-in-out !important;
   width: 37px !important;
   color: transparent !important;
-  background-image: url(https://i.imgur.com/FEJKk6E.png) !important;
+  background-image: url(https://i.imgur.com/Aiv7HJI.png) !important;
   background-size: 20px !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
