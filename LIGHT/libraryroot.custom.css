@@ -668,6 +668,10 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.throbber_throbber_center_wrapper_3IYPz {
+  display:var(--DISPLAYCOMMUNITYCONTENT)!important;
+}
+
 .appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
   display: var(--DISPLAYAPPDETAILS) !important;
 }
