@@ -205,10 +205,10 @@
 		inbox_button_active:hover
 		{
 			textcolor=ACCENT
-			bgcolor = BUTTON
+			bgcolor = "NONE"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,icons/notifications_h)"
+				0="image(x0+8,y0+12,x1,y1,icons/notifications_active_h)"
 				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
 			}
 			render {}
@@ -216,10 +216,10 @@
 		inbox_button_active:selected
 		{
 			textcolor=ACCENT
-			bgcolor=white10
+			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,icons/notifications)"
+				0="image(x0+8,y0+12,x1,y1,icons/notifications_active_selected)"
 				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
 			}
 			render {}
