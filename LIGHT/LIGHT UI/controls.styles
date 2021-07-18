@@ -13,8 +13,7 @@
 	layout
 	{
 			place {control="ComboBoxButton" width=max disabled=1}
-			place {control="scrollbarbutton.right" width=0 height=0}
-			place {control="scrollbarbutton.left" width=0 height=0}
+			
 	}
 	
 	styles
@@ -342,12 +341,14 @@
 
 		ScrollBarButton.down
 		{
+			INSET="0 4 0 0"
 			inset-left=0
 			bgcolor="none"
 			render_bg{}
 			image=ICONS/SCROLLDOWN
-			//padding-left=-1
-			//padding-top=3
+			padding-left=-1
+			//padding-right=1
+			padding-bottom=2
 					render {
 				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
 				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
@@ -408,10 +409,6 @@
 		"ScrollBarHandle:hover"
 		{
 			bgcolor=SCROLLBARHOVER
-			render_bg
-			{
-				0="fill( x0, y0, x1, y1, white05 )"
-			}
 		}
 		"ScrollBarHandle:selected"
 		{
@@ -433,7 +430,7 @@
 
 		ScrollBarSlider // gutter
 		{
-			bgcolor="none"
+			bgcolor=BUTTON
 			render_bg{}
 			render{}
 		}
