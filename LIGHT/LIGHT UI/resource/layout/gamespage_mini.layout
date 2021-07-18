@@ -25,14 +25,23 @@
 	{
 		NavLabel2
 		{
+			INSET="4 0 0 0"
 			textcolor="none"
-			bgcolor = BASE1
+			bgcolor = BUTTON
+			//IMAGE="ICONS/MENU"
+			render {
+				0="fill( x0, y1-1, x1, y1+1, DROPDOWNBORDER)"
+			}
 			
 		}
 		NavLabel2:hover
 		{
 			textcolor="none"
-			bgcolor=ACTIONBUTTONHOVER
+			bgcolor=BUTTON
+			//IMAGE="ICONS/sm_down_arrow"
+				render {
+				0="fill( x0, y1-1, x1, y1+1, DROPDOWNBORDERHOVER)"
+			}
 		}
 		NavLabel2:selected
 		{
@@ -62,7 +71,7 @@
 
 		//Header
 		region { name=top align=top y=40 height=40 x=0 margin-right=0 }
-		place { control="library_filters" region=top start=library_search height=24 width=38 }
+		place { control="library_filters" region=top start=library_search MARGIN-LEFT=4 MARGIN-RIGHT=4 height=24 width=38 }
 		place { control="MenuBar" height=38 width=38 x=1 y=1 }
 
 		//Search
