@@ -351,12 +351,9 @@ steam.styles
 		}
 		"ComboBox MenuItem:hover"
 		{
-			textcolor="ACCENT"
+			textcolor=COMBOMENUITEMHOVER
 			bgcolor="none"
-			render_bg
-			{
-				0="fill( x0+1, y0, x1-1, y1, white12 )"
-			}
+		
 		}
 
 		Divider
