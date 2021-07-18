@@ -6,20 +6,10 @@
 		button {
 			minimum-height=0 //reset for button height
 			padding-right=0 padding-left=0
-			IMAGE="ICONS/HUB"
-			BGCOLOR="NONE"
-			render {
-				0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, "NONE" )"
-				0="fill( x1 - 1, y0 + 1, x1 - 2, y0 + 2, "NONE")"
-				0="fill( x0 + 1, y1 - 1, x0 + 2, y1 - 2, "NONE")"
-				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, "NONE")"
-			}
 			render_bg { }
 		}
 
-		button:hover { 
-			IMAGE="ICONS/HUB_H"
-		}
+		button:hover { textcolor=A2TextFocusHover }
 	}
 
 	layout {
