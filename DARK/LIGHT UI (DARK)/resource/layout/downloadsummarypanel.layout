@@ -135,7 +135,7 @@
 
 			render_bg{
 				1="fill(x0,y0,x0+3,y0+1, BASE2)"  // CORNER
-				2="fill(x0,y0+1,x0+2,y0+2, BASE2)"  // CORNER
+				2="fill(x0,y0+1,x0+1,y0+2, BASE2)"  // CORNER
 				3="fill(x0,y0+2,x0+1,y0+3, BASE2)"  // CORNER
 				4="fill(x0,y0+27,x0+3,y0+28, BASE2)"  // CORNER
 				5="fill(x0,y0+26,x0+2,y0+27, BASE2)"  // CORNER
@@ -148,12 +148,13 @@
 			
 			render {
 					1="fill(x0+3,y0,x1,y0+1, DIVIDER)"  // top
-					2="fill(x0+2,y0+1,x0+3,y0+2, DIVIDER)"  // corner
-					3="fill(x0+1,y0+2,x0+2,y0+3, DIVIDER)"  // corner
-					4="fill(x0+2,y0+26,x0+3,y0+27, DIVIDER)"  // corner
-					5="fill(x0+1,y0+25,x0+2,y0+26, DIVIDER)"  // corner
-				6="fill(x0+3,y1-1,x1,y1, DIVIDER)"  // bottom
-				7="fill(x0,y0+3,x0+1,y1-3, DIVIDER)"  // left
+					2="fill(x0+1,y0+1,x0+2,y0+3, DIVIDER)"  // corner
+					3="fill(x0+2,y0+1,x0+3,y0+2, DIVIDER)"  // corner
+					5="fill(x0+2,y0+26,x0+3,y0+27, DIVIDER)"  // corner
+					6="fill(x0+1,y0+25,x0+2,y0+27, DIVIDER)"  // corner
+				
+				8="fill(x0+3,y1-1,x1,y1, DIVIDER)"  // bottom
+				9="fill(x0,y0+3,x0+1,y1-3, DIVIDER)"  // left
 			}
 		}
 		throttleValue
@@ -199,10 +200,10 @@
 					1="fill(x0,y0,x1-3,y0+1, DIVIDER)"  // top
 					2="fill(x0,y1-1,x1-3,y1, DIVIDER)"  // bottom
 					3="fill(x1-1,y0+3,x1,y1-3, DIVIDER)"  // right
-					4="fill(x1-2,y0+2,x1-1,y0+3, DIVIDER)"  // corner
+					4="fill(x1-2,y0+1,x1-1,y0+3, DIVIDER)"  // corner
 					5="fill(x1-3,y0+1,x1-2,y0+2, DIVIDER)"  // corner
-					6="fill(x0+63,y0+25,x0+64,y0+26, DIVIDER)"  // corner
-					7="fill(x0+62,y0+26,x0+63,y0+27, DIVIDER)"  // corner
+					6="fill(x1-2,y1-3,x1-1,y1-1, DIVIDER)"  // corner
+					7="fill(x1-3,y1-2,x1-2,y1-1, DIVIDER)"  // corner
 			}
 		}
 		bigtextlabel
@@ -230,10 +231,10 @@
 			
 				render {
 					1="fill(x0+3,y0,x1,y0+1, DIVIDER)"  // top
-					2="fill(x0+2,y0+1,x0+3,y0+2, DIVIDER)"  // corner
-					3="fill(x0+1,y0+2,x0+2,y0+3, DIVIDER)"  // corner
+					2="fill(x0+1,y0+1,x0+2,y0+3, DIVIDER)"  // corner
+					3="fill(x0+2,y0+1,x0+3,y0+2, DIVIDER)"  // corner
 					4="fill(x0+2,y0+26,x0+3,y0+27, DIVIDER)"  // corner
-					5="fill(x0+1,y0+25,x0+2,y0+26, DIVIDER)"  // corner
+					5="fill(x0+1,y0+25,x0+2,y0+27, DIVIDER)"  // corner
 				6="fill(x0+3,y1-1,x1,y1, DIVIDER)"  // bottom
 				7="fill(x0,y0+3,x0+1,y1-3, DIVIDER)"  // left
 			}
