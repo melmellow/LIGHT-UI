@@ -39,9 +39,6 @@
 			textcolor="none"
 			bgcolor=BUTTON
 			//IMAGE="ICONS/sm_down_arrow"
-				render {
-				0="fill( x0, y1-1, x1, y1+1, DROPDOWNBORDERHOVER)"
-			}
 		}
 		NavLabel2:selected
 		{
