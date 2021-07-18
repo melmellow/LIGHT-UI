@@ -181,6 +181,9 @@
 		}
 		bigtextNonUpper
 		{
+
+			//ROUNDED CORNERS POG
+
 			textcolor=ACCENT
 			bgcolor = APPDOWNLOADSTATLABELBG
 			render_bg {
@@ -208,7 +211,12 @@
 		}
 		bigtextlabel
 		{
+
+			//ROUNDED CORNERS POG
+
 			textcolor= DOWNLOADSTATLABEL
+
+				
 
 				render_bg{
 				1="fill(x0,y0,x0+3,y0+1, BASE2)"  // CORNER
