@@ -334,6 +334,7 @@
   --ADVANCEDSEARCHSHADOW: NONE;
   --SETTINGSSIDEBAR: VAR(--BASE1);
   --SIDEBAR: VAR(--BASE1);
+  --SIDEBARBORDERWIDTH: 2px;
   --SIDEBARBORDER: #292e2e;
   --DIVIDER: VAR(--BASE1);
   --SEARCHFILTERBORDER: VAR(--DIVIDER);
@@ -5738,6 +5739,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--CAPTION) !important;
 }
 .library_LibraryWindowDivider_276E6 {
+  width: var(--SIDEBARBORDERWIDTH) !important;
   background: VAR(--SIDEBARBORDER) !important;
 }
 
