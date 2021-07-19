@@ -299,6 +299,7 @@
   --CHECKMARKLEFTMARGIN: -1px;
   --CHECKMARKSTROKEWIDTH: 40px; /*default is 40*/
   --DROPDOWNBORDERWIDTH: 2px;
+  --SHELFDROPDOWN: VAR(--DROPDOWN);
   --DROPDOWN: VAR(--BASE3);
   --DROPDOWNBORDER: NONE;
   --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
@@ -4045,7 +4046,7 @@ div.ShortRightPanel
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer {
   font-size: 15px !important;
-  background-color: var(--DROPDOWN) !important;
+  background-color: var(--SHELFDROPDOWN) !important;
   border-bottom: VAR(--DROPDOWNBORDERWIDTH) solid VAR(--DROPDOWNBOTTOMBORDER) !important;
   border: VAR(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBORDER) !important;
   font-weight: 400 !important;
@@ -6262,7 +6263,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   ._DialogInputContainer
   .DialogDropDown_CurrentDisplay {
   font-weight: 400 !important;
-  background-color: var(--DROPDOWN) !important;
+  background-color: var(--SHELFDROPDOWN) !important;
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl
   .libraryhomeshowcases_Collapser_3sz4L
@@ -6344,7 +6345,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow {
-  background-color: var(--DROPDOWN) !important;
+  background-color: var(--SHELFDROPDOWN) !important;
   border-radius: VAR(--DROPDOWNROUNDED2) !important;
   top: 0 !important;
 }
