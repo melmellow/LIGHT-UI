@@ -330,6 +330,7 @@
   --SCROLLTOTOPFONTWEIGHT: 400;
   --SCROLLTOTOP: VAR(--ACCENT);
   --SCROLLTOTOPBORDER: VAR(--WHITE);
+  --FILTERLABEL:VAR(--ACCENT);
   --FILTERBUCKETLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --APPGRIDSECTIONLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --ADVANCEDSEARCH: VAR(--BASE3);
@@ -5681,7 +5682,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
   width: 29px !important;
   background-color: transparent !important;
-  color: var(--ACCENT) !important;
+  color: var(--FILTERLABEL) !important;
 }
 .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
   color: var(--ACCENT) !important;
