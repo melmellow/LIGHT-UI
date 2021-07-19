@@ -286,6 +286,7 @@
   --LISTITEMRIGHTBORDER: TRANSPARENT;
   --CONTEXTMENUBORDER: VAR(--DIVIDER);
   --CONTEXTMENUSHADOW: "NONE";
+  --CONTEXTMENUTEXT: VAR(--ACCENT);
   --CONTEXTMENU: VAR(--BASE3);
   --CONTEXTMENUPLAYBUTTON: NONE;
   --CONTEXTMENUACTIONBUTTONTEXT: VAR(--ACCENT);
@@ -326,6 +327,7 @@
   --GAMEICONLEFTMARGIN: -21px;
   --GAMEICONDOWNLOADCIRCLE: VAR(--GREEN);
   --SCROLLTOTOPHOVER: VAR(--BLACK);
+  --SCROLLTOTOPHOVERFILTER: NONE;
   --SCROLLTOTOPTEXT: VAR(--WHITE);
   --SCROLLTOTOPFONTWEIGHT: 400;
   --SCROLLTOTOP: VAR(--ACCENT);
@@ -4395,7 +4397,7 @@ div.NarrowRightPanel
 }
 
 .smartscrollcontainer_ScrollToTopButton_1J21t:hover.smartscrollcontainer_Visible_28ZR8 {
-  filter: NONE !important;
+  filter: VAR(--SCROLLTOTOPHOVERFILTER) !important;
 }
 
 .appactionbutton_ButtonChild_3cI5T {
@@ -5408,7 +5410,7 @@ A {
 }
 .contextmenu_contextMenuItem_1n7Wl {
   border: 0 !important;
-  color: var(--ACCENT) !important;
+  color: var(--CONTEXTMENUTEXT) !important;
 }
 .libraryhomeshowcases_CollectionDropDown_1YdRd
   .libraryhomeshowcases_CountDisplay_2qm05 {
