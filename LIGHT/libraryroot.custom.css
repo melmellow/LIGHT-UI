@@ -4311,12 +4311,12 @@ div.NarrowRightPanel
   .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
   background-color: var(--ADVANCEDSEARCHPANE) !important;
   opacity: VAR(--ADVANCEDSEARCHPANEOP) !important;
-  left: -15px !important;
+  left: -16px !important;
   top: 34px !important;
   border-top: 1px solid var(--DIVIDER) !important;
   border-bottom: 1px solid var(--DIVIDER) !important;
   height: 30px !important;
-  width: 15px !important;
+  width: 16px !important;
 }
 
 .appactionbutton_Green_3cI5T
