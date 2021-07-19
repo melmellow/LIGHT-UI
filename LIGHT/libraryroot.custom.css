@@ -330,7 +330,8 @@
   --SCROLLTOTOPFONTWEIGHT: 400;
   --SCROLLTOTOP: VAR(--ACCENT);
   --SCROLLTOTOPBORDER: VAR(--WHITE);
-  --FILTERLABEL:VAR(--ACCENT);
+  --FILTERLABEL: VAR(--ACCENT);
+  --FILTERLABELHOVER: VAR(--BLACK);
   --FILTERBUCKETLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --APPGRIDSECTIONLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --ADVANCEDSEARCH: VAR(--BASE3);
@@ -5219,7 +5220,7 @@ A {
   .appfilterpane_Row_1J53P
   .appfilterpane_Checkbox_2AOkQ:hover {
   transition: all 0.18s ease-in-out !important;
-  color: var(--BLACK) !important;
+  color: var(--FILTERLABELHOVER) !important;
 }
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_Filters_1PgAo
