@@ -1,4 +1,5 @@
 
+[![paypal](https://i.imgur.com/tMwVyo0.png)](https://www.paypal.com/donate?hosted_button_id=3ZF6GWCRZEVUC)
 
 # PREVIEW
 ![LIGHT UI THUMBNAIL](https://media.giphy.com/media/NWDpqe7kyPP35OvBp7/giphy.gif)
