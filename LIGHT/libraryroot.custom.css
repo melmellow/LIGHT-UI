@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --ACTIVEHOURSHOVER: VAR(--BLACK);
   --DOWNLOADSITEMSTATUSFONTWEIGHT: 500;
   --DOWNLOADNAMEFONTWEIGHT: 500;
   --DOWNLOADSPLAYBUTTONBG: transparent;
@@ -38,7 +39,7 @@
   --DOWNLOADSECTIONTITLE: VAR(--ACCENT);
   --DOWNLOADITEM: VAR(--BASE1);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
-  --DOWNLOADSECTIONTITLEFONTWEIGHT: unset;
+  --DOWNLOADSECTIONTITLEFONTWEIGHT: 400;
   --DOWNLOADGRAPHLEGENDDISPLAY: NONE;
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --DOWNLOADSTAT: VAR(--BLACK);
@@ -531,6 +532,20 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_StatsPanel_2IXt5 {
+  padding-left: 0 !important;
+  padding-right: 11px !important;
+}
+
+.downloads_AutoUpdateHours_117rQ {
+  margin-right: 0 !important;
+  color: VAR(--ACTIVEHOURS) !important;
+}
+
+.downloads_AutoUpdateHours_117rQ:hover {
+  color: var(--ACTIVEHOURSHOVER) !important;
+}
+
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj {
   color: var(--DOWNLOADSVALUE) !important;
 }
@@ -559,10 +574,6 @@
 .downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ svg {
   width: 18px !important;
   height: 18px !important;
-}
-
-.downloads_AutoUpdateHours_117rQ {
-  color: VAR(--ACTIVEHOURS) !important;
 }
 
 .downloads_SectionItemStatus_1Sygg {
@@ -617,11 +628,12 @@
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Top_2AHEf {
+  align-items: flex-end !important;
   flex-direction: column !important;
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
-  margin-right:5px!important;
+  margin-right: 5px !important;
   float: right !important;
   color: VAR(--DOWNLOADSFIGURE) !important;
   font-weight: var(--DOWNLOADSFIGUREFONTWEIGHT) !important;
@@ -630,8 +642,10 @@
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
   font-family: segoe ui !important;
-  font-size:12px!important;
-  width: 40% !important;
+  font-size: 12px !important;
+  max-width: 160px !important;
+  min-width: 160px !important;
+  /* width: 40% !important; */
   padding: 4px !important;
   padding-left: 9px !important;
   text-align: left !important;
