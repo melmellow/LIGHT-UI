@@ -590,11 +590,9 @@
 }
 
 .downloads_SectionTitle_qq2xI {
-  font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
-}
-
-.downloads_SectionTitle_qq2xI {
   font-family: SEGOE UI !important;
+  font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
+  FONT-SIZE:14PX!important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/

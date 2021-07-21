@@ -579,7 +579,9 @@
 }
 
 .downloads_SectionTitle_qq2xI {
+  font-family: SEGOE UI !important;
   font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
+  font-size: 14px !important;
 }
 
 .downloads_SectionTitle_qq2xI
@@ -589,10 +591,6 @@
   .downloads_TitleAndCount_ROxNr
   .downloads_Title_TK9wv {
   color: VAR(--DOWNLOADSECTIONTITLE) !important;
-}
-
-.downloads_SectionTitle_qq2xI {
-  font-family: SEGOE UI !important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
