@@ -19,7 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DOWNLOADSITEMSTATUSFONTWEIGHT:500;
+  --DOWNLOADSITEMSTATUSFONTWEIGHT: 500;
   --DOWNLOADNAMEFONTWEIGHT: 500;
   --DOWNLOADSPLAYBUTTONBG: transparent;
   --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
@@ -566,7 +566,7 @@
 }
 
 .downloads_SectionItemStatus_1Sygg {
-  font-weight:var(--DOWNLOADSITEMSTATUSFONTWEIGHT)!important;
+  font-weight: var(--DOWNLOADSITEMSTATUSFONTWEIGHT) !important;
   color: VAR(--DOWNLOADSITEMSTATUS) !important;
 }
 
@@ -616,7 +616,13 @@
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
 }
 
+.downloads_StatsPanel_2IXt5 .downloads_Top_2AHEf {
+  flex-direction: column !important;
+}
+
 .downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
+  margin-right:5px!important;
+  float: right !important;
   color: VAR(--DOWNLOADSFIGURE) !important;
   font-weight: var(--DOWNLOADSFIGUREFONTWEIGHT) !important;
   text-align: center !important;
@@ -624,7 +630,11 @@
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
   font-family: segoe ui !important;
-  text-align: CENTER !important;
+  font-size:12px!important;
+  width: 40% !important;
+  padding: 4px !important;
+  padding-left: 9px !important;
+  text-align: left !important;
   border-radius: var(--DOWNLOADSTATBR) !important;
   border: 1px solid var(--DOWNLOADSTATBORDER) !important;
   color: VAR(--DOWNLOADSTAT) !important;

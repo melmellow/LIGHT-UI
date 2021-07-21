@@ -614,15 +614,25 @@
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
 }
 
+.downloads_StatsPanel_2IXt5 .downloads_Top_2AHEf {
+  flex-direction: column !important;
+}
+
 .downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
+  margin-right: 5px !important;
+  float: right !important;
   color: VAR(--DOWNLOADSFIGURE) !important;
   font-weight: var(--DOWNLOADSFIGUREFONTWEIGHT) !important;
   text-align: center !important;
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
+  width: 40% !important;
+  font-size: 12px !important;
   font-family: segoe ui !important;
-  text-align: CENTER !important;
+  padding: 4px !important;
+  padding-left: 9px !important;
+  text-align: left !important;
   border-radius: VAR(--DOWNLOADSTATBR) !important;
   color: VAR(--DOWNLOADSTAT) !important;
   border: 1px solid var(--DOWNLOADSTATBORDER) !important;
