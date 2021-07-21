@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSITEMSTATUS: VAR(--ACCENT);
   --DOWNLOADITEMBORDER: VAR(--APPDETAILSPANELBORDER);
   --DOWNLOADNAME: VAR(--ACCENT);
   --DOWNLOADSECTIONTITLE: VAR(--ACCENT);
@@ -516,6 +517,10 @@
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_SectionItemStatus_1Sygg {
+  color: VAR(--DOWNLOADSITEMSTATUS) !important;
+}
 
 .downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
   color: VAR(--DOWNLOADSDRAGHANDLE) !important;
