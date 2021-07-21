@@ -20,6 +20,7 @@
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
   --DOWNLOADSPAGEBG: VAR(--BASE2);
+  --DOWNLOADSFIGURE:VAR(--ACCENT);
   --NETGRAPH: VAR(--BUTTON2);
   --NETDOWNLOADLEGEND: VAR(--BLUE);
   --DISKDOWNLOADLEGEND: VAR(--GREEN);
@@ -525,6 +526,10 @@
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_Disk_HifZB {
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
+}
+
+.downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
+  color: VAR(--DOWNLOADSFIGURE) !important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/

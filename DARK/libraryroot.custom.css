@@ -23,6 +23,7 @@
   --NETGRAPH: VAR(--BUTTON2);
   --NETDOWNLOADLEGEND: VAR(--BLUE);
   --DISKDOWNLOADLEGEND: VAR(--GREEN);
+  --DOWNLOADSFIGURE: VAR(--ACCENT);
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: CONTRAST(5);
@@ -526,6 +527,10 @@
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_Disk_HifZB {
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
+}
+
+.downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
+  color: VAR(--DOWNLOADSFIGURE) !important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
