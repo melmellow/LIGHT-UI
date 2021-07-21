@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSECTIONTITLE: VAR(--ACCENT);
   --DOWNLOADITEM: VAR(--BASE1);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: unset;
@@ -556,6 +557,15 @@
 
 .downloads_DownloadGraphLegend_3_GZ_ {
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
+}
+
+.downloads_SectionTitle_qq2xI
+  .downloads_TitleAndCount_ROxNr
+  .downloads_Title_TK9wv,
+.downloads_SectionJumpBar_mw7VZ
+  .downloads_TitleAndCount_ROxNr
+  .downloads_Title_TK9wv {
+  color: VAR(--DOWNLOADSECTIONTITLE) !important;
 }
 
 .downloads_SectionTitle_qq2xI {
