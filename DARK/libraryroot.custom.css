@@ -19,6 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
+  --DISKGRAPHSTROKEWIDTH: 1px;
   --ACTIVEHOURS: VAR(--ACCENT);
   --DOWNLOADSECTIONCOUNT: VAR(--ACCENT);
   --DOWNLOADSFIGUREFONTWEIGHT: unset;
@@ -523,6 +525,17 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItemStatus_1Sygg
+  .downloads_State_2ns4w
+  .downloads_InProgress_3Wavc {
+  color: VAR(--DOWNLOADPAUSEDLABEL) !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
 .downloads_AutoUpdateHours_117rQ {
   color: VAR(--ACTIVEHOURS) !important;
 }
@@ -557,6 +570,7 @@
 
 .downloads_DownloadGraph_1ashw .downloads_GraphLine_affyz {
   stroke: VAR(--DISKGRAPH) !important;
+  stroke-width: var(--DISKGRAPHSTROKEWIDTH) !important;
 }
 
 .downloads_DownloadGraph_1ashw .downloads_GraphBar_33npA {
