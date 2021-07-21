@@ -19,7 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DOWNLOADPAUSEDLABEL:VAR(--ACCENT);
+  --DOWNLOADSPLAYBUTTONBG:transparent;
+  --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
   --DISKGRAPHSTROKEWIDTH: 1px;
   --ACTIVEHOURS: VAR(--ACCENT);
   --DOWNLOADSECTIONCOUNT: VAR(--ACCENT);
@@ -527,6 +528,21 @@
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_SectionItemButtons_31Ig9.downloads_SectionItemButtons_31Ig9
+  .downloads_PlayWrapper_1f5xq {
+  background-color: VAR(--DOWNLOADSPLAYBUTTONBG) !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:active,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover {
+  background: NONE !important;
+  border: 0 !important;
+  height: 18px !important;
+}
 
 .downloads_SectionItemStatus_1Sygg
   .downloads_State_2ns4w
