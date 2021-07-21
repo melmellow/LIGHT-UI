@@ -19,6 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADNAMEFONTWEIGHT: 500;
+  --DOWNLOADSVALUE: VAR(--ACCENT);
   --DOWNLOADSPLAYBUTTONBG: transparent;
   --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
   --DISKGRAPHSTROKEWIDTH: 1px;
@@ -526,6 +528,10 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj {
+  color: var(--DOWNLOADSVALUE) !important;
+}
+
 .downloads_SectionItemButtons_31Ig9.downloads_SectionItemButtons_31Ig9
   .downloads_PlayWrapper_1f5xq {
   background-color: VAR(--DOWNLOADSPLAYBUTTONBG) !important;
@@ -565,6 +571,7 @@
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+  font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
   font-size: 13px !important;
   color: VAR(--DOWNLOADNAME) !important;
   text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
