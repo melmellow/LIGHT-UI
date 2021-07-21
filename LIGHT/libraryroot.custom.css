@@ -19,6 +19,9 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSTATBR:4PX;
+  --DOWNLOADSTATBORDER:VAR(--SHADOW);
+  --DOWNLOADSTATBG: VAR(--BASE1);
   --DOWNLOADSITEMSTATUS: VAR(--ACCENT);
   --DOWNLOADSDRAGHANDLE: VAR(--ACCENT);
   --DOWNLOADITEMBORDER: VAR(--APPDETAILSPANELBORDER);
@@ -529,7 +532,7 @@
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
-  FONT-SIZE:13PX!important;
+  font-size: 13px !important;
   color: VAR(--DOWNLOADNAME) !important;
   text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
 }
@@ -573,7 +576,12 @@
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
+  font-family: segoe ui !important;
+  TEXT-ALIGN:CENTER!important;
+  border-radius:var(--DOWNLOADSTATBR)!important;
+  border: 1px solid var(--DOWNLOADSTATBORDER) !important;
   color: VAR(--DOWNLOADSTAT) !important;
+  background: var(--DOWNLOADSTATBG) !important;
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ {
@@ -592,7 +600,7 @@
 .downloads_SectionTitle_qq2xI {
   font-family: SEGOE UI !important;
   font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
-  FONT-SIZE:14PX!important;
+  font-size: 14px !important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/

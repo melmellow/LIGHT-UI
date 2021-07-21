@@ -19,6 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSTATBR:4PX;
+  --DOWNLOADSTATBORDER: VAR(--SHADOW);
   --DOWNLOADSITEMSTATUS: VAR(--ACCENT);
   --DOWNLOADITEMBORDER: VAR(--APPDETAILSPANELBORDER);
   --DOWNLOADNAME: VAR(--ACCENT);
@@ -571,7 +573,12 @@
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
+  font-family: segoe ui !important;
+  text-align: CENTER !important;
+  border-radius: VAR(--DOWNLOADSTATBR) !important;
   color: VAR(--DOWNLOADSTAT) !important;
+  border: 1px solid var(--DOWNLOADSTATBORDER) !important;
+  background: var(--DOWNLOADSTATBG) !important;
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ {
