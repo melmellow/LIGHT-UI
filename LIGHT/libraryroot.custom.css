@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSECTIONTITLEFONTWEIGHT:unset;
   --DOWNLOADGRAPHLEGENDDISPLAY: NONE;
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --DOWNLOADSTAT: VAR(--BLACK);
@@ -540,6 +541,14 @@
 
 .downloads_DownloadGraphLegend_3_GZ_ {
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
+}
+
+.downloads_SectionTitle_qq2xI {
+  font-weight:var(--DOWNLOADSECTIONTITLEFONTWEIGHT)!important;
+}
+
+.downloads_SectionTitle_qq2xI {
+  font-family: SEGOE UI !important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
