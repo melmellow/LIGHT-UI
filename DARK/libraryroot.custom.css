@@ -591,10 +591,6 @@
   background: var(--DOWNLOADSPAGEBG) !important;
 }
 
-.downloads_DownloadsPage_1bq4x .Focusable {
-  margin-bottom: 2px !important;
-}
-
 .downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
   color: var(--DOWNLOADSTARTTIME) !important;
 }
