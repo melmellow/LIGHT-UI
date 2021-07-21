@@ -517,6 +517,10 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
+  color: VAR(--DOWNLOADSDRAGHANDLE) !important;
+}
+
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
   color: VAR(--DOWNLOADNAME) !important;
   text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
