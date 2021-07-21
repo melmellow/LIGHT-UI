@@ -527,6 +527,7 @@
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+  font-size: 13px !important;
   color: VAR(--DOWNLOADNAME) !important;
   text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
 }
