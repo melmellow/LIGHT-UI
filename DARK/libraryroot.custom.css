@@ -29,6 +29,7 @@
   --DOWNLOADNAMEFONTWEIGHT: 500;
   --DOWNLOADSVALUE: VAR(--ACCENT);
   --DOWNLOADSPLAYBUTTONBG: transparent;
+  --DOWNLOADSPLAYBUTTONHOVERFILTER: VAR(--FILT);
   --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
   --DISKGRAPHSTROKEWIDTH: 1px;
   --ACTIVEHOURS: VAR(--ACCENT);
@@ -613,6 +614,10 @@
 .downloads_SectionItemButtons_31Ig9.downloads_SectionItemButtons_31Ig9
   .downloads_PlayWrapper_1f5xq {
   background-color: VAR(--DOWNLOADSPLAYBUTTONBG) !important;
+}
+
+.downloads_PlayWrapper_1f5xq.Focusable:hover {
+  filter: VAR(--DOWNLOADSPLAYBUTTONHOVERFILTER) !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR,
