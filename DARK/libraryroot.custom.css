@@ -19,7 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DOWNLOADSTATBR:4PX;
+  --DOWNLOADSFIGUREFONTWEIGHT: unset;
+  --DOWNLOADSTATBR: 4px;
   --DOWNLOADSTATBORDER: VAR(--SHADOW);
   --DOWNLOADSITEMSTATUS: VAR(--ACCENT);
   --DOWNLOADITEMBORDER: VAR(--APPDETAILSPANELBORDER);
@@ -570,6 +571,8 @@
 
 .downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
   color: VAR(--DOWNLOADSFIGURE) !important;
+  font-weight: var(--DOWNLOADSFIGUREFONTWEIGHT) !important;
+  text-align: center !important;
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
