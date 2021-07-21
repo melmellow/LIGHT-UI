@@ -19,7 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DOWNLOADSECTIONCOUNT:VAR(--ACCENT);
+  --ACTIVEHOURS:VAR(--ACCENT);
+  --DOWNLOADSECTIONCOUNT: VAR(--ACCENT);
   --DOWNLOADSFIGUREFONTWEIGHT: 300;
   --DOWNLOADSTATBR: 4px;
   --DOWNLOADSTATBORDER: VAR(--SHADOW);
@@ -524,6 +525,10 @@
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_AutoUpdateHours_117rQ {
+  color: VAR(--ACTIVEHOURS) !important;
+}
 
 .downloads_SectionItemStatus_1Sygg {
   color: VAR(--DOWNLOADSITEMSTATUS) !important;
