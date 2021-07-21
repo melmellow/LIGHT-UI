@@ -19,8 +19,9 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DOWNLOADNAMETEXTCASE:UPPERCASE;
-  --DOWNLOADNAME:VAR(--ACCENT);
+  --DOWNLOADITEMBORDER:VAR(--APPDETAILSPANELBORDER);
+  --DOWNLOADNAMETEXTCASE: UPPERCASE;
+  --DOWNLOADNAME: VAR(--ACCENT);
   --DOWNLOADSECTIONTITLE: VAR(--ACCENT);
   --DOWNLOADITEM: VAR(--BASE1);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
@@ -519,11 +520,13 @@
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
   color: VAR(--DOWNLOADNAME) !important;
-  TEXT-TRANSFORM:VAR(--DOWNLOADNAMETEXTCASE)!important;
+  text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
 }
 
 .downloads_SectionItem_1VNuY {
   background-color: VAR(--DOWNLOADITEM) !important;
+  border-top: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
+  border-bottom: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
 }
 
 .downloads_DownloadGraph_1ashw .downloads_GraphLine_affyz {
