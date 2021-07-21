@@ -19,9 +19,13 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSTARTTIME: VAR(--ACCENT);
+  --PROGRESSDETAILS: VAR(--ACCENT);
+  --PROGRESSDETAILSFONTWEIGHT:300;
+  --DOWNLOADING: VAR(--BLUE);
   --ACTIVEHOURSHOVER: VAR(--BLACK);
-  --DOWNLOADSITEMSTATUSFONTWEIGHT: 500;
-  --DOWNLOADNAMEFONTWEIGHT: 500;
+  --DOWNLOADSITEMSTATUSFONTWEIGHT: 400;
+  --DOWNLOADNAMEFONTWEIGHT: 400;
   --DOWNLOADSPLAYBUTTONBG: transparent;
   --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
   --DISKGRAPHSTROKEWIDTH: 1px;
@@ -532,7 +536,18 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
+  color: var(--DOWNLOADSTARTTIME) !important;
+}
+
+.downloads_SectionItemStatus_1Sygg
+  .downloads_State_2ns4w.downloads_Downloading_33BlY {
+  color: var(--DOWNLOADING) !important;
+  FONT-FAMILY:SEGOE UI!important;
+}
+
 .downloads_StatsPanel_2IXt5 {
+  flex: 0 0 30% !important;
   padding-left: 0 !important;
   padding-right: 11px !important;
 }
@@ -544,6 +559,11 @@
 
 .downloads_AutoUpdateHours_117rQ:hover {
   color: var(--ACTIVEHOURSHOVER) !important;
+}
+
+.downloads_ProgressDetails_sv3ZH {
+  color: VAR(--PROGRESSDETAILS) !important;
+  font-weight:var(--PROGRESSDETAILSFONTWEIGHT)!important;
 }
 
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj {
@@ -593,6 +613,7 @@
 }
 
 .downloads_SectionItem_1VNuY {
+  padding: 8px !important;
   background-color: VAR(--DOWNLOADITEM) !important;
   border-top: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
   border-bottom: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
