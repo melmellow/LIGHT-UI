@@ -19,6 +19,9 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSPAGEBG: VAR(--BASE2);
+  --NETGRAPH: VAR(--BUTTON2);
+  --NETDOWNLOADLEGEND:VAR(--BLUE);
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
@@ -500,6 +503,26 @@
   INVERT(2)
   */
 }
+
+/*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_GraphAndStats_3ZsSz {
+  background: var(--DOWNLOADSPAGEBG) !important;
+}
+
+.downloads_DownloadGraph_1ashw .downloads_GraphBar_33npA {
+  fill: VAR(--NETGRAPH) !important;
+}
+
+.downloads_DownloadGraph_1ashw .downloads_Gradient_FZSi1 {
+  background-image: unset !important;
+}
+
+.downloads_DownloadGraphLegend_3_GZ_ .downloads_Network_2mLZn svg {
+  color: var(--NETDOWNLOADLEGEND) !important;
+}
+
+/*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 /* -------------------------- jonius7 -------------------------- */
 
