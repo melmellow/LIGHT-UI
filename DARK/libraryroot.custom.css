@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADNAME: VAR(--ACCENT);
   --DOWNLOADSECTIONTITLE: VAR(--ACCENT);
   --DOWNLOADITEM: VAR(--BASE1);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
@@ -514,6 +515,10 @@
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+  color: VAR(--DOWNLOADNAME) !important;
+}
 
 .downloads_SectionItem_1VNuY {
   background-color: VAR(--DOWNLOADITEM) !important;
