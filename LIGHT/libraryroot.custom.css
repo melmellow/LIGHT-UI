@@ -703,6 +703,17 @@
 
 /*-------------------------- SHOWCASE HEADER --------------------------*/
 
+.spotlight_MajorEventImageBackgroundBlur_3sVs6 {
+  right: 7px !important;
+  bottom: 2px !important;
+  width: 98% !important;
+  height: 98% !important;
+}
+
+.spotlight_MajorEventContainer_dVJB2 .spotlight_MajorEventImage_25fL1 {
+  transform: scale(0) !important;
+}
+
 .throbber_throbber_center_wrapper_3IYPz {
   display: var(--DISPLAYCOMMUNITYCONTENT) !important;
 }
