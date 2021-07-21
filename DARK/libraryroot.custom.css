@@ -43,6 +43,7 @@
   --DOWNLOADNAME: VAR(--ACCENT);
   --DOWNLOADSECTIONTITLE: VAR(--ACCENT);
   --DOWNLOADITEM: VAR(--BASE1);
+  --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 400;
   --DOWNLOADGRAPHLEGENDDISPLAY: NONE;
@@ -537,6 +538,17 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
+  opacity: 0 !important;
+}
+
+.downloads_SectionItem_1VNuY:hover,
+.downloads_SectionItem_1VNuY:hover.downloads_Dragging_3-SbB,
+.downloads_SectionItem_1VNuY:hover .downloads_DragHandle_14DhZ {
+  transition: all 0.18s ease-in-out !important;
+  opacity: 1 !important;
+}
+
 .downloads_SectionItem_1VNuY
   .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V:hover {
   filter: var(--REMOVEFROMQUEUEHOVERFILTER) !important;
@@ -668,6 +680,11 @@
   background-color: VAR(--DOWNLOADITEM) !important;
   border-top: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
   border-bottom: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
+}
+
+.downloads_SectionItem_1VNuY:hover,
+.downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
+  background-color: var(--DOWNLOADITEMHOVER) !important;
 }
 
 .downloads_ItemLists_1ugNi {
