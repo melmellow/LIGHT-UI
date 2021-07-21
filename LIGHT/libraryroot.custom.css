@@ -19,8 +19,10 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADGRAPHLEGENDDISPLAY: NONE;
   --DOWNLOADSPAGEBG: VAR(--BASE2);
-  --DOWNLOADSFIGURE:VAR(--ACCENT);
+  --DOWNLOADSTAT: VAR(--BLACK);
+  --DOWNLOADSFIGURE: VAR(--ACCENT);
   --NETGRAPH: VAR(--BUTTON2);
   --NETDOWNLOADLEGEND: VAR(--BLUE);
   --DISKDOWNLOADLEGEND: VAR(--GREEN);
@@ -530,6 +532,14 @@
 
 .downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
   color: VAR(--DOWNLOADSFIGURE) !important;
+}
+
+.downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
+  color: VAR(--DOWNLOADSTAT) !important;
+}
+
+.downloads_DownloadGraphLegend_3_GZ_ {
+  display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
