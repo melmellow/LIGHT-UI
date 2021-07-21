@@ -19,7 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DOWNLOADSFIGUREFONTWEIGHT: unset;
+  --DOWNLOADSECTIONCOUNT:VAR(--ACCENT);
+  --DOWNLOADSFIGUREFONTWEIGHT: 300;
   --DOWNLOADSTATBR: 4px;
   --DOWNLOADSTATBORDER: VAR(--SHADOW);
   --DOWNLOADSTATBG: VAR(--BASE1);
@@ -598,6 +599,10 @@
   .downloads_TitleAndCount_ROxNr
   .downloads_Title_TK9wv {
   color: VAR(--DOWNLOADSECTIONTITLE) !important;
+}
+
+.downloads_SectionTitle_qq2xI .downloads_Count_1CGnw {
+  color: var(--DOWNLOADSECTIONCOUNT) !important;
 }
 
 .downloads_SectionTitle_qq2xI {
