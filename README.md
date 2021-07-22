@@ -8,6 +8,9 @@
 
 ![LIGHT UI](https://media.giphy.com/media/0Ar6OuLLCNriyjYN3F/giphy.gif)
 
+![LIGHT UI DOWNLOADS PAGE](https://media.giphy.com/media/nGa9UjUHHWQpgnWccu/giphy.gif)
+
+
 # INSTRUCTIONS
 * Move LIGHT UI folder to steam/skins/
 
