@@ -545,6 +545,10 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionJumpBar_mw7VZ.downloads_Show_2S18z {
+  display: none !important;
+}
+
 .downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr,
 .downloads_SectionJumpBar_mw7VZ .downloads_TitleAndCount_ROxNr {
   height: 0 !important;
