@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DROPOPTIONBORDER: VAR(--BLUE);
   --LEGENDTEXT: VAR(--ACCENT);
   --ADDTOQUEUE: VAR(--ACCENT);
   --REMOVEFROMQUEUEHOVERFILTER: var(--FILT);
@@ -541,6 +542,10 @@
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
+  border: 2px DASHED VAR(--DROPOPTIONBORDER) !important;
+}
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendText_2ZXcc {
   color: var(--LEGENDTEXT) !important;
