@@ -33,6 +33,6 @@ Steam will have to restart to apply the theme
 
 Its not perfect yet but I will keep working on it <3
 
-thanks for the support <3
+thanks so much for the support <3
 
 screw the default UI!
