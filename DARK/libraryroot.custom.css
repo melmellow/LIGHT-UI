@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --LEGENDTEXT: VAR(--ACCENT);
   --ADDTOQUEUE: VAR(--ACCENT);
   --REMOVEFROMQUEUEHOVERFILTER: var(--FILT);
   --PROGRESS: VAR(--ACCENT);
@@ -47,12 +48,12 @@
   --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 400;
-  --DOWNLOADGRAPHLEGENDDISPLAY: NONE;
+  --DOWNLOADGRAPHLEGENDDISPLAY: unset;
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --NETGRAPH: VAR(--BUTTON2);
   --DISKGRAPH: VAR(--GREEN);
-  --NETDOWNLOADLEGEND: VAR(--BLUE);
-  --DISKDOWNLOADLEGEND: VAR(--GREEN);
+  --NETDOWNLOADLEGEND: VAR(--BUTTON2);
+  --DISKDOWNLOADLEGEND: VAR(--ACCENT);
   --DOWNLOADSFIGURE: VAR(--ACCENT);
   --OP: 63%;
   --OP2: 60.5%;
@@ -539,6 +540,10 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendText_2ZXcc {
+  color: var(--LEGENDTEXT) !important;
+}
+
 .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
   width: 60px !important;
 }
@@ -763,6 +768,10 @@
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ {
+  position: ABSOLUTE !important;
+  right: 0 !important;
+  margin-right: 200px !important;
+  margin-top: 8px !important;
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
 }
 
