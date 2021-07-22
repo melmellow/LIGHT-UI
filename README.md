@@ -25,7 +25,7 @@ Steam will have to restart to apply the theme
 * AIR SKIN <3
 * phantomgamers <3
 * jonius7 <3
-* RedSigma
+* RedSigma <3
 * AikoMidori <3
 
 Its not perfect yet but I will keep working on it <3
