@@ -19,7 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DROPOPTIONBORDER:VAR(--BLUE);
+  --DROPOPTIONBORDER: VAR(--BLUE);
   --LEGENDTEXT: VAR(--ACCENT);
   --ADDTOQUEUE: VAR(--ACCENT);
   --REMOVEFROMQUEUEHOVERFILTER: var(--FILT);
@@ -51,7 +51,7 @@
   --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 500;
-  --DOWNLOADGRAPHLEGENDDISPLAY: unset;
+  --DOWNLOADGRAPHLEGENDDISPLAY: none;
   --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --DOWNLOADSTAT: VAR(--BLACK);
@@ -546,7 +546,7 @@
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
-  BORDER:2PX DASHED VAR(--DROPOPTIONBORDER)!important;
+  border: 2px DASHED VAR(--DROPOPTIONBORDER) !important;
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendText_2ZXcc {
@@ -622,7 +622,7 @@
 }
 
 .downloads_StatsPanel_2IXt5 {
-  flex: 0 0 30% !important;
+  flex: 0 !important;
   padding-left: 0 !important;
   padding-right: 11px !important;
 }
@@ -712,6 +712,10 @@
 .downloads_SectionItem_1VNuY:hover .downloads_DragHandle_14DhZ {
   transition: all 0.18s ease-in-out !important;
   opacity: 1 !important;
+}
+
+.downloads_DownloadGraph_1ashw {
+  margin-right:10px!important;
 }
 
 .downloads_DownloadGraph_1ashw .downloads_GraphLine_affyz {

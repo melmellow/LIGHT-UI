@@ -49,7 +49,7 @@
   --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 400;
-  --DOWNLOADGRAPHLEGENDDISPLAY: unset;
+  --DOWNLOADGRAPHLEGENDDISPLAY: none;
   --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --NETGRAPH: VAR(--BUTTON2);
@@ -543,6 +543,10 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_DownloadGraph_1ashw {
+  margin-right: 10px !important;
+}
+
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
   border: 2px DASHED VAR(--DROPOPTIONBORDER) !important;
 }
@@ -640,7 +644,7 @@
 }
 
 .downloads_StatsPanel_2IXt5 {
-  flex: 0 0 30% !important;
+  flex: 0 !important;
   padding-left: 0 !important;
   padding-right: 11px !important;
 }
