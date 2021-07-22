@@ -39,7 +39,7 @@
   --DISKGRAPHSTROKEWIDTH: 1px;
   --ACTIVEHOURS: VAR(--ACCENT);
   --DOWNLOADSECTIONCOUNT: transparent;
-  --DOWNLOADSFIGUREFONTWEIGHT: 300;
+  --DOWNLOADSFIGUREFONTWEIGHT: 400;
   --DOWNLOADSTATBR: 4px;
   --DOWNLOADSTATBORDER: VAR(--SHADOW);
   --DOWNLOADSITEMSTATUS: VAR(--ACCENT);
@@ -768,6 +768,8 @@
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
+  font-family: segoe ui !important;
+  line-height: 21px !important;
   margin-right: 5px !important;
   float: right !important;
   color: VAR(--DOWNLOADSFIGURE) !important;
