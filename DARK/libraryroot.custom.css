@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --ADDTOQUEUE: VAR(--ACCENT);
   --REMOVEFROMQUEUEHOVERFILTER: var(--FILT);
   --PROGRESS: VAR(--ACCENT);
   --DOWNLOADSTARTTIME: VAR(--ACCENT);
@@ -537,6 +538,10 @@
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_SectionItem_1VNuY .downloads_AddToQueueButton_jA04n {
+  color: var(--ADDTOQUEUE) !important;
+}
 
 .downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
   opacity: 0 !important;
