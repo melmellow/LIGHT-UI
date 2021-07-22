@@ -539,6 +539,22 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
+  width: 60px !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_AppPortrait_2pjdg {
+  padding-right: 12px !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5 {
+  padding-left: 0 !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
+  justify-content: flex-end !important;
+}
+
 .downloads_SectionItem_1VNuY .downloads_AddToQueueButton_jA04n {
   color: var(--ADDTOQUEUE) !important;
 }
