@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSITEMSTATUSLETTERSPACING: 0;
   --DROPOPTIONBORDER: VAR(--BLUE);
   --LEGENDTEXT: VAR(--ACCENT);
   --ADDTOQUEUE: VAR(--ACCENT);
@@ -595,6 +596,10 @@
 .downloads_SectionItem_1VNuY
   .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V:hover {
   filter: var(--REMOVEFROMQUEUEHOVERFILTER) !important;
+}
+
+.downloads_SectionItemStatus_1Sygg {
+  letter-spacing: var(--DOWNLOADSITEMSTATUSLETTERSPACING) !important;
 }
 
 .downloads_SectionItemStatus_1Sygg .downloads_Progress_FuJLs {

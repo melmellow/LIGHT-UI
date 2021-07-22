@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSITEMSTATUSLETTERSPACING:0;
   --DROPOPTIONBORDER: VAR(--BLUE);
   --LEGENDTEXT: VAR(--ACCENT);
   --ADDTOQUEUE: VAR(--ACCENT);
@@ -667,6 +668,10 @@
   background: NONE !important;
   border: 0 !important;
   height: 18px !important;
+}
+
+.downloads_SectionItemStatus_1Sygg {
+  letter-spacing:var(--DOWNLOADSITEMSTATUSLETTERSPACING)!important;
 }
 
 .downloads_SectionItemStatus_1Sygg
