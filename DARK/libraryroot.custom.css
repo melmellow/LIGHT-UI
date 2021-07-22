@@ -49,12 +49,13 @@
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 400;
   --DOWNLOADGRAPHLEGENDDISPLAY: unset;
-  --DOWNLOADGRAPHLEGENDBG:VAR(--BASE2);
+  --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --NETGRAPH: VAR(--BUTTON2);
   --DISKGRAPH: VAR(--GREEN);
   --NETDOWNLOADLEGEND: VAR(--BUTTON2);
   --DISKDOWNLOADLEGEND: VAR(--ACCENT);
+  --DISKDOWNLOADLEGENDHEIGHT: 1px;
   --DOWNLOADSFIGURE: VAR(--ACCENT);
   --OP: 63%;
   --OP2: 60.5%;
@@ -769,9 +770,12 @@
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ {
-  position: ABSOLUTE !important;
   background: var(--DOWNLOADGRAPHLEGENDBG) !important;
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
+}
+
+.downloads_DownloadGraphLegend_3_GZ_ .downloads_Disk_HifZB {
+  height: var(--DISKDOWNLOADLEGENDHEIGHT) !important;
 }
 
 .downloads_SectionTitle_qq2xI {
