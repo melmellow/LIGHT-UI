@@ -544,6 +544,7 @@
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 .downloads_DownloadGraph_1ashw {
+  margin-left: 205px !important;
   margin-right: 10px !important;
 }
 
@@ -645,8 +646,8 @@
 
 .downloads_StatsPanel_2IXt5 {
   flex: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 11px !important;
+  position: absolute !important;
+  padding-left: 11px !important;
 }
 
 .downloads_AutoUpdateHours_117rQ {
