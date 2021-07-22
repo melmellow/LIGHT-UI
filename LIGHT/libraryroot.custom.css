@@ -51,6 +51,7 @@
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 500;
   --DOWNLOADGRAPHLEGENDDISPLAY: unset;
+  --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --DOWNLOADSTAT: VAR(--BLACK);
   --DOWNLOADSFIGURE: VAR(--ACCENT);
@@ -771,9 +772,7 @@
 
 .downloads_DownloadGraphLegend_3_GZ_ {
   position: ABSOLUTE !important;
-  right: 0 !important;
-  margin-right: 200px !important;
-  margin-top: 8px !important;
+  background: var(--DOWNLOADGRAPHLEGENDBG) !important;
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
 }
 
