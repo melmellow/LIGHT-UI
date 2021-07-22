@@ -36,7 +36,7 @@
   --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
   --DISKGRAPHSTROKEWIDTH: 1px;
   --ACTIVEHOURS: VAR(--ACCENT);
-  --DOWNLOADSECTIONCOUNT: VAR(--ACCENT);
+  --DOWNLOADSECTIONCOUNT: transparent;
   --DOWNLOADSFIGUREFONTWEIGHT: 300;
   --DOWNLOADSTATBR: 4px;
   --DOWNLOADSTATBORDER: VAR(--SHADOW);
@@ -46,7 +46,7 @@
   --DOWNLOADITEMBORDER: VAR(--APPDETAILSPANELBORDER);
   --DOWNLOADNAMETEXTCASE: UPPERCASE;
   --DOWNLOADNAME: VAR(--ACCENT);
-  --DOWNLOADSECTIONTITLE: VAR(--ACCENT);
+  --DOWNLOADSECTIONTITLE: transparent;
   --DOWNLOADITEM: VAR(--BASE1);
   --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
@@ -545,6 +545,11 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr,
+.downloads_SectionJumpBar_mw7VZ .downloads_TitleAndCount_ROxNr {
+  height: 0 !important;
+}
+
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
   border: 2px DASHED VAR(--DROPOPTIONBORDER) !important;
 }
@@ -623,8 +628,8 @@
 
 .downloads_StatsPanel_2IXt5 {
   flex: 0 !important;
-  position:absolute!important;
-  padding-left:11px!important;
+  position: absolute !important;
+  padding-left: 11px !important;
 }
 
 .downloads_AutoUpdateHours_117rQ {
@@ -767,6 +772,7 @@
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
+  margin-bottom:2px!important;
   font-family: segoe ui !important;
   font-size: 12px !important;
   max-width: 168px !important;
@@ -804,6 +810,7 @@
 }
 
 .downloads_SectionTitle_qq2xI {
+  display: none !important;
   line-height: 18px !important;
   padding: 0 14px !important;
   font-family: SEGOE UI semibold !important;
