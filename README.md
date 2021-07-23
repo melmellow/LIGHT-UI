@@ -6,9 +6,11 @@
 
 ![LIGHT UI](https://media.giphy.com/media/0Ar6OuLLCNriyjYN3F/giphy.gif)
 
+![LIGHT UI DOWNLOADS PAGE](https://media.giphy.com/media/DCuD7Vpz15mIFyYWvJ/giphy.gif)
+
 ![LIGHT UI DESKTOP](https://media.giphy.com/media/mjXCOXMe4YJjQoC5GZ/giphy.gif)
 
-![LIGHT UI DOWNLOADS PAGE](https://media.giphy.com/media/DCuD7Vpz15mIFyYWvJ/giphy.gif)
+
 
 
 # INSTRUCTIONS
