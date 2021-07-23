@@ -548,10 +548,6 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
-.downloads_SectionItem_1VNuY {
-  MARGIN-BOTTOM:4PX!important;
-}
-
 .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
   height: 2px !important;
   background-color: transparent !important;
@@ -652,7 +648,7 @@
 }
 
 .downloads_StatsPanel_2IXt5 {
-  PADDING-RIGHT:0!important;
+  padding-right: 0 !important;
   flex: 0 !important;
   position: absolute !important;
   padding-left: 11px !important;
@@ -738,6 +734,8 @@
 
 .downloads_SectionItem_1VNuY {
   padding: 8px !important;
+  padding-bottom:7px!important;
+  margin-bottom:4px!important;
   background-color: VAR(--DOWNLOADITEM) !important;
   border-top: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
   border-bottom: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
