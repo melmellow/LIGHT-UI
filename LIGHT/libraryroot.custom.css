@@ -53,7 +53,7 @@
   --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 500;
-  --DOWNLOADGRAPHLEGENDDISPLAY: none;
+  --DOWNLOADGRAPHLEGENDDISPLAY: unset;
   --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --DOWNLOADSTAT: VAR(--BLACK);
@@ -549,8 +549,8 @@
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
-  height:2px!important;
-  background-color:transparent!important;
+  height: 2px !important;
+  background-color: transparent !important;
   position: absolute !important;
   left: 0 !important;
   bottom: 0 !important;
@@ -574,6 +574,7 @@
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendText_2ZXcc {
+  font-size: 0 !important;
   color: var(--LEGENDTEXT) !important;
 }
 
@@ -781,10 +782,16 @@
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_Network_2mLZn svg {
-  color: var(--NETDOWNLOADLEGEND) !important;
+  color: transparent !important;
+  border-left: 2px solid var(--NETDOWNLOADLEGEND) !important;
+  height: 94px !important;
+  margin-top: 74px !important;
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_Disk_HifZB {
+  height: 30px;
+  margin-top: 76px;
+  width: 2px;
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
 }
 
@@ -820,12 +827,9 @@
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ {
+  margin-left: 4px !important;
   background: var(--DOWNLOADGRAPHLEGENDBG) !important;
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
-}
-
-.downloads_DownloadGraphLegend_3_GZ_ .downloads_Disk_HifZB {
-  height: var(--DISKDOWNLOADLEGENDHEIGHT) !important;
 }
 
 .downloads_SectionTitle_qq2xI
