@@ -546,6 +546,14 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
+  height: 2px !important;
+  background-color: transparent !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+}
+
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_Active_IbePL {
   color: var(--DOWNLOADEDVALUE) !important;
 }
@@ -650,10 +658,12 @@
 }
 
 .downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
+  display: NONE !important;
   color: var(--DOWNLOADSTARTTIME) !important;
 }
 
 .downloads_ProgressDetails_sv3ZH {
+  white-space: nowrap !important;
   color: VAR(--PROGRESSDETAILS) !important;
   font-weight: VAR(--PROGRESSDETAILSFONTWEIGHT) !important;
 }
@@ -714,6 +724,9 @@
 }
 
 .downloads_SectionItemStatus_1Sygg {
+  flex-basis: 100% !important;
+  max-height: 100% !important;
+  max-width: 100% !important;
   font-weight: var(--DOWNLOADSITEMSTATUSFONTWEIGHT) !important;
   color: VAR(--DOWNLOADSITEMSTATUS) !important;
 }
@@ -723,6 +736,7 @@
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+  white-space: nowrap !important;
   font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
   font-size: 13px !important;
   color: VAR(--DOWNLOADNAME) !important;

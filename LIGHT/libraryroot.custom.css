@@ -19,8 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DOWNLOADEDVALUE:VAR(--BLUE);
-  --DOWNLOADSITEMSTATUSLETTERSPACING:0;
+  --DOWNLOADEDVALUE: VAR(--BLUE);
+  --DOWNLOADSITEMSTATUSLETTERSPACING: 0;
   --DROPOPTIONBORDER: VAR(--BLUE);
   --LEGENDTEXT: VAR(--ACCENT);
   --ADDTOQUEUE: VAR(--ACCENT);
@@ -197,7 +197,7 @@
   --DROPDOWNBORDERROUNDED: var(--BORDERRADIUS);
   --CONTEXTMENUBORDERRADIUS: 4px;
   --ADVANCEDSEARCHBORDERRADIUS: var(--BORDERRADIUS);
-  --MAJOREVENTHEADERFONTWEIGHT:VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
+  --MAJOREVENTHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --ACHIEVEMENTTITLEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --POSTGAMESUMMARYFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --REVIEWICONBACKGROUNDBORDERRADIUS: VAR(--BORDERRADIUS);
@@ -548,12 +548,20 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
+  height:2px!important;
+  background-color:transparent!important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+}
+
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_Active_IbePL {
-  color:var(--DOWNLOADEDVALUE)!important;
+  color: var(--DOWNLOADEDVALUE) !important;
 }
 
 .downloads_SectionJumpBar_mw7VZ.downloads_Show_2S18z {
-  display:none!important;
+  display: none !important;
 }
 
 .downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr,
@@ -628,6 +636,7 @@
 }
 
 .downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
+  display: NONE !important;
   color: var(--DOWNLOADSTARTTIME) !important;
 }
 
@@ -653,6 +662,7 @@
 }
 
 .downloads_ProgressDetails_sv3ZH {
+  white-space: nowrap !important;
   color: VAR(--PROGRESSDETAILS) !important;
   font-weight: var(--PROGRESSDETAILSFONTWEIGHT) !important;
 }
@@ -681,7 +691,7 @@
 }
 
 .downloads_SectionItemStatus_1Sygg {
-  letter-spacing:var(--DOWNLOADSITEMSTATUSLETTERSPACING)!important;
+  letter-spacing: var(--DOWNLOADSITEMSTATUSLETTERSPACING) !important;
 }
 
 .downloads_SectionItemStatus_1Sygg
@@ -700,6 +710,10 @@
 }
 
 .downloads_SectionItemStatus_1Sygg {
+  flex-basis: 100% !important;
+  max-height: 100% !important;
+  max-width: 100% !important;
+
   font-weight: var(--DOWNLOADSITEMSTATUSFONTWEIGHT) !important;
   color: VAR(--DOWNLOADSITEMSTATUS) !important;
 }
@@ -709,6 +723,7 @@
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+  white-space: nowrap !important;
   font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
   font-size: 13px !important;
   color: VAR(--DOWNLOADNAME) !important;
@@ -779,8 +794,8 @@
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
-  font-family:segoe ui!important;
-  line-height:21px!important;
+  font-family: segoe ui !important;
+  line-height: 21px !important;
   margin-right: 5px !important;
   float: right !important;
   color: VAR(--DOWNLOADSFIGURE) !important;
@@ -789,7 +804,7 @@
 }
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
-  margin-bottom:2px!important;
+  margin-bottom: 2px !important;
   font-family: segoe ui !important;
   font-size: 12px !important;
   max-width: 168px !important;
