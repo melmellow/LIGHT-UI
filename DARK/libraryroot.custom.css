@@ -23,7 +23,6 @@
   --DOWNLOADEDVALUE: VAR(--BLUE);
   --DOWNLOADSITEMSTATUSLETTERSPACING: 0;
   --DROPOPTIONBORDER: VAR(--BLUE);
-  --LEGENDTEXT: VAR(--ACCENT);
   --ADDTOQUEUE: VAR(--ACCENT);
   --REMOVEFROMQUEUEHOVERFILTER: var(--FILT);
   --PROGRESS: VAR(--ACCENT);
@@ -579,7 +578,6 @@
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendText_2ZXcc {
   font-size: 0 !important;
-  color: var(--LEGENDTEXT) !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {

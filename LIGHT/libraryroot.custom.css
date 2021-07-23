@@ -63,7 +63,6 @@
   --DISKGRAPH: VAR(--ACCENT);
   --NETDOWNLOADLEGEND: #a7a7a7;
   --DISKDOWNLOADLEGEND: VAR(--ACCENT);
-  --DISKDOWNLOADLEGENDHEIGHT: 1px;
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
@@ -576,7 +575,6 @@
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_LegendText_2ZXcc {
   font-size: 0 !important;
-  color: var(--LEGENDTEXT) !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
@@ -698,8 +696,8 @@
   width: 20px !important;
 }
 
-button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
-.downloads_SectionItem_1VNuY .downloads_AddToQueueButton_jA04n {
+button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
+.downloads_SectionItem_1VNuY:hover .downloads_AddToQueueButton_jA04n:hover {
   color: var(--DOWNLOADSBUTTONHOVER) !important;
   border-color: var(--DOWNLOADSBUTTONHOVER) !important;
 }
