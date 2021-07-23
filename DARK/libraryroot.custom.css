@@ -546,6 +546,11 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItem_1VNuY
+  .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V {
+  margin-left: 0 !important;
+}
+
 .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
   height: 2px !important;
   background-color: transparent !important;
@@ -581,6 +586,7 @@
 }
 
 .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
+  margin-right: -14px !important;
   width: auto !important;
   margin-left: 20px !important;
 }
@@ -615,10 +621,6 @@
 .downloads_SectionItem_1VNuY
   .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V:hover {
   filter: var(--REMOVEFROMQUEUEHOVERFILTER) !important;
-}
-
-.downloads_SectionItemStatus_1Sygg {
-  letter-spacing: var(--DOWNLOADSITEMSTATUSLETTERSPACING) !important;
 }
 
 .downloads_SectionItemStatus_1Sygg .downloads_Progress_FuJLs {
@@ -664,6 +666,7 @@
 }
 
 .downloads_ProgressDetails_sv3ZH {
+  font-family: segoe ui !important;
   white-space: nowrap !important;
   color: VAR(--PROGRESSDETAILS) !important;
   font-weight: VAR(--PROGRESSDETAILSFONTWEIGHT) !important;
@@ -725,6 +728,7 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active,
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover,
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover {
+  margin-right: 16px !important;
   background: NONE !important;
   padding: 0 !important;
   padding: 3px !important;
@@ -749,6 +753,8 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
   flex-basis: 100% !important;
   max-height: 100% !important;
   max-width: 100% !important;
+  font-family: segoe ui !important;
+  letter-spacing: var(--DOWNLOADSITEMSTATUSLETTERSPACING) !important;
   font-weight: var(--DOWNLOADSITEMSTATUSFONTWEIGHT) !important;
   color: VAR(--DOWNLOADSITEMSTATUS) !important;
 }
@@ -758,6 +764,7 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+  font-family: segoe ui !important;
   white-space: nowrap !important;
   font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
   font-size: 13px !important;
