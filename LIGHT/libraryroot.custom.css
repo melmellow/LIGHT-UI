@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADSBUTTONHOVER: var(--BLACK);
   --DOWNLOADEDVALUE: VAR(--BLUE);
   --DOWNLOADSITEMSTATUSLETTERSPACING: 0;
   --DROPOPTIONBORDER: VAR(--BLUE);
@@ -28,7 +29,7 @@
   --PROGRESS: VAR(--ACCENT);
   --DOWNLOADSTARTTIME: VAR(--ACCENT);
   --PROGRESSDETAILS: VAR(--ACCENT);
-  --PROGRESSDETAILSFONTWEIGHT: 300;
+  --PROGRESSDETAILSFONTWEIGHT: 400;
   --DOWNLOADING: VAR(--BLUE);
   --ACTIVEHOURSHOVER: VAR(--BLACK);
   --DOWNLOADSITEMSTATUSFONTWEIGHT: 400;
@@ -580,7 +581,7 @@
 
 .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
   width: auto !important;
-  margin-left:20px!important;
+  margin-left: 20px !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_AppPortrait_2pjdg {
@@ -597,6 +598,10 @@
 
 .downloads_SectionItem_1VNuY .downloads_AddToQueueButton_jA04n {
   color: var(--ADDTOQUEUE) !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_AddToQueueButton_jA04n:hover {
+  color: var(--DOWNLOADSBUTTONHOVER) !important;
 }
 
 .downloads_SectionItem_1VNuY
@@ -656,6 +661,7 @@
 }
 
 .downloads_AutoUpdateHours_117rQ {
+  display: none !important;
   margin-right: 0 !important;
   color: VAR(--ACTIVEHOURS) !important;
 }
@@ -679,8 +685,23 @@
   background-color: VAR(--DOWNLOADSPLAYBUTTONBG) !important;
 }
 
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR svg {
+  width: 20px !important;
+}
+
 .downloads_PlayWrapper_1f5xq.Focusable:hover {
   filter: VAR(--DOWNLOADSPLAYBUTTONHOVERFILTER) !important;
+}
+
+.downloads_SectionItem_1VNuY
+  .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V {
+  width: 20px !important;
+}
+
+button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
+.downloads_SectionItem_1VNuY .downloads_AddToQueueButton_jA04n {
+  color: var(--DOWNLOADSBUTTONHOVER) !important;
+  border-color: var(--DOWNLOADSBUTTONHOVER) !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR,
@@ -689,7 +710,10 @@
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover,
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover {
   background: NONE !important;
-  border: 0 !important;
+  padding: 0 !important;
+  padding: 3px !important;
+  border: 2px solid var(--ACCENT) !important;
+  border-radius: 50px !important;
   height: 18px !important;
 }
 
@@ -735,8 +759,8 @@
 
 .downloads_SectionItem_1VNuY {
   padding: 8px !important;
-  padding-bottom:7px!important;
-  margin-bottom:4px!important;
+  padding-bottom: 7px !important;
+  margin-bottom: 4px !important;
   background-color: VAR(--DOWNLOADITEM) !important;
   border-top: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
   border-bottom: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
@@ -850,7 +874,7 @@
 }
 
 .downloads_SectionTitle_qq2xI {
-  display: none !important;
+  /* display: none !important; */
   line-height: 18px !important;
   padding: 0 14px !important;
   font-family: SEGOE UI semibold !important;
