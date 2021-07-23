@@ -546,6 +546,10 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItem_1VNuY {
+  margin-bottom: 4px !important;
+}
+
 .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
   height: 2px !important;
   background-color: transparent !important;
