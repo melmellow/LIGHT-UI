@@ -648,6 +648,7 @@
 }
 
 .downloads_StatsPanel_2IXt5 {
+  PADDING-RIGHT:0!important;
   flex: 0 !important;
   position: absolute !important;
   padding-left: 11px !important;
@@ -751,7 +752,7 @@
 }
 
 .downloads_DownloadGraph_1ashw {
-  margin-left: 205px !important;
+  margin-left: 165px !important;
   margin-right: 10px !important;
 }
 
