@@ -582,7 +582,8 @@
 }
 
 .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
-  width: 84px !important;
+  width: auto !important;
+  margin-left: 20px !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_AppPortrait_2pjdg {
