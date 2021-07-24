@@ -2430,6 +2430,7 @@ a:-webkit-any-link {
 
 .appdetailsspotlight_NewDLCContainer_3Exow {
   background: var(--NEWLYADDEDDLC) !important;
+  border: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
