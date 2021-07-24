@@ -667,7 +667,6 @@
 
 .downloads_ProgressDetails_sv3ZH {
   font-family: segoe ui !important;
-  white-space: nowrap !important;
   color: VAR(--PROGRESSDETAILS) !important;
   font-weight: VAR(--PROGRESSDETAILSFONTWEIGHT) !important;
 }
@@ -750,9 +749,6 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloads_SectionItemStatus_1Sygg {
-  flex-basis: 100% !important;
-  max-height: 100% !important;
-  max-width: 100% !important;
   font-family: segoe ui !important;
   letter-spacing: var(--DOWNLOADSITEMSTATUSLETTERSPACING) !important;
   font-weight: var(--DOWNLOADSITEMSTATUSFONTWEIGHT) !important;
@@ -765,7 +761,6 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
   font-family: segoe ui !important;
-  white-space: nowrap !important;
   font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
   font-size: 13px !important;
   color: VAR(--DOWNLOADNAME) !important;
