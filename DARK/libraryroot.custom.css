@@ -383,6 +383,7 @@
   --SIDEBAR: VAR(--BASE1);
   --SIDEBARBORDERWIDTH: 2px;
   --SIDEBARBORDER: #292e2e;
+  --SIDEBARBORDERHOVER: #292e2e;
   --DIVIDER: VAR(--BASE1);
   --SEARCHFILTERBORDER: VAR(--DIVIDER);
   --SEARCHFILTERBORDERWIDTH: 0;
@@ -835,9 +836,7 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 
 .downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
   margin-bottom: 2px !important;
-  max-width: 168px !important;
-  min-width: 168px !important;
-  /* width: 40% !important; */
+  width: 168px !important;
   font-size: 12px !important;
   font-family: segoe ui !important;
   padding: 4px !important;
@@ -6151,7 +6150,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 
 .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_:hover {
-  background-color: NONE !important;
+  background-color: var(--SIDEBARBORDERHOVER) !important;
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
   padding: 0 8px !important;
