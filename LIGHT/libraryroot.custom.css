@@ -61,7 +61,7 @@
   --DOWNLOADSFIGURE: VAR(--ACCENT);
   --NETGRAPH: var(--BUTTON2);
   --DISKGRAPH: VAR(--ACCENT);
-  --NETDOWNLOADLEGEND: #a7a7a7;
+  --NETDOWNLOADLEGEND: var(--NETGRAPH);
   --DISKDOWNLOADLEGEND: VAR(--ACCENT);
   --OP: 63%;
   --OP2: 60.5%;
@@ -661,7 +661,7 @@
   padding-right: 0 !important;
   flex: 0 !important;
   position: absolute !important;
-  padding-left: 11px !important;
+  padding-left: 13px !important;
 }
 
 .downloads_AutoUpdateHours_117rQ {
@@ -810,15 +810,16 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_Network_2mLZn svg {
   color: transparent !important;
-  border-left: 2px solid var(--NETDOWNLOADLEGEND) !important;
-  height: 94px !important;
+  border-left: 4px solid var(--NETDOWNLOADLEGEND) !important;
+  height: 88px !important;
   margin-top: 74px !important;
 }
 
 .downloads_DownloadGraphLegend_3_GZ_ .downloads_Disk_HifZB {
-  height: 30px;
-  margin-top: 76px;
-  width: 2px;
+  height: 24px;
+  margin-top: 79px;
+  width: 4px;
+  BORDER-RADIUS:50PX!important;
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
 }
 
