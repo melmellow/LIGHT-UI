@@ -624,16 +624,27 @@
   filter: var(--REMOVEFROMQUEUEHOVERFILTER) !important;
 }
 
+.downloads_Section_3Mbhn {
+  padding-bottom: 0 !important;
+}
+
 .downloads_SectionItemStatus_1Sygg .downloads_Progress_FuJLs {
   color: var(--PROGRESS) !important;
+}
+
+.downloads_EmptyTransfers_1zv2D {
+  display: none !important;
 }
 
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5 {
   background-image: url(https://i.imgur.com/cI5LKhE.png) !important;
   margin: 0 !important;
   padding: 0 !important;
-  margin-top: -14px !important;
-  margin-right: -14px !important;
+  margin-top: -5px !important;
+  margin-right: -13px !important;
+  padding: 7px !important;
+  padding-bottom: 6px !important;
+  font-size: 0 !important;
   background-size: 20px !important;
   min-width: 20px !important;
   border: 0 !important;
