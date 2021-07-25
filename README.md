@@ -1,4 +1,4 @@
-# PREVIEW - [![paypal](https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=#1181d2)](https://www.paypal.com/donate?hosted_button_id=3ZF6GWCRZEVUC)
+# PREVIEW - [![paypal](https://i.imgur.com/STidKfu.png)](https://www.paypal.com/donate?hosted_button_id=3ZF6GWCRZEVUC)
 ![LIGHT UI THUMBNAIL](https://media.giphy.com/media/NWDpqe7kyPP35OvBp7/giphy.gif)
 
 ![LIGHT UI](https://media.giphy.com/media/0Ar6OuLLCNriyjYN3F/giphy.gif)
