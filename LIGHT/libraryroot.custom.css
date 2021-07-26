@@ -625,7 +625,7 @@
   margin-top: -5px !important;
   margin-right: -13px !important;
   padding: 7px !important;
-  padding-bottom:6px!important;
+  padding-bottom: 6px !important;
   font-size: 0 !important;
   background-size: 20px !important;
   min-width: 20px !important;
@@ -1156,6 +1156,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
   min-height: 18px !important;
+    min-width:0!important;
   padding-left: 6px !important;
   padding-right: 6px !important;
 }
@@ -5464,6 +5465,7 @@ A {
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
   padding: 4px 14px !important;
+  flex: 0 !important;
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN

@@ -1144,6 +1144,7 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
   min-height: 18px !important;
+  min-width: 0 !important;
   padding-left: 6px !important;
   padding-right: 6px !important;
 }
@@ -5454,6 +5455,7 @@ A {
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
   padding: 4px 14px !important;
+  flex: 0 !important;
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
