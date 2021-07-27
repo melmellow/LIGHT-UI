@@ -742,11 +742,12 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
   margin-right: 16px !important;
   background: NONE !important;
   padding: 0 !important;
-  padding: 3px !important;
+  padding: 5px !important;
   border: 2px solid var(--ACCENT) !important;
   border-radius: 50px !important;
   border: 0 !important;
-  height: 18px !important;
+  height: 14px !important;
+  width: 14px !important;
 }
 
 .downloads_SectionItemStatus_1Sygg
