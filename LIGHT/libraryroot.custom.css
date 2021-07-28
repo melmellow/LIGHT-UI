@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --NOINTERNETCONNECTION:VAR(--RED);
   --DOWNLOADSBUTTONHOVER: var(--BLACK);
   --DOWNLOADEDVALUE: VAR(--BLUE);
   --DOWNLOADSITEMSTATUSLETTERSPACING: 0;
@@ -548,6 +549,10 @@
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_SectionItemStatus_1Sygg .downloads_State_2ns4w.downloads_Error_1ia3W {
+  color:var(--NOINTERNETCONNECTION)!important;
+}
 
 .downloads_SectionItem_1VNuY
   .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V {
