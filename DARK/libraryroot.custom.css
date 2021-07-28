@@ -1097,6 +1097,19 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 
 /*-------------------------- SHOWCASE HEADER DRAG HANDLE --------------------------*/
 
+.library_ContextMenuAction_Z5iAX.Download,
+.library_ContextMenuAction_Z5iAX.Update,
+.library_ContextMenuAction_Z5iAX.PreLoad,
+.library_ContextMenuAction_Z5iAX.Resume,
+.library_ContextMenuAction_Z5iAX.Pause,
+.library_ContextMenuAction_Z5iAX.BorrowApp,
+.library_ContextMenuAction_Z5iAX.Stop,
+.library_ContextMenuAction_Z5iAX.Cancel,
+.library_ContextMenuAction_Z5iAX.Install,
+.library_ContextMenuAction_Z5iAX.PurchaseApp:hover {
+  background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
+}
+
 .spotlight_MajorEventImageBackgroundBlur_3sVs6 {
   right: 7px !important;
   bottom: 2px !important;
