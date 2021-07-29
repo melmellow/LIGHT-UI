@@ -19,6 +19,9 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DRIVEUSAGEGAMES: VAR(--BLUE);
+  --INSTALLFOLDERTXT: VAR(--ACCENT);
+  --INSTALLFOLDER: var(--APPDETAILSPANEL);
   --NOINTERNETCONNECTION: VAR(--RED);
   --DOWNLOADSBUTTONHOVER: VAR(--BLACK);
   --DOWNLOADEDVALUE: VAR(--BLUE);
@@ -545,6 +548,37 @@
   INVERT(2)
   */
 }
+
+/*-------------------------- LIBRARY MANAGER --------------------------*/
+
+.contentmanagement_InstallFolder_12aBP {
+  background: var(--INSTALLFOLDER) !important;
+  color: var(--INSTALLFOLDERTXT) !important;
+}
+
+.ModalDialogPopup .ModalDialogBody {
+  user-select: NONE !important;
+  padding: 20px !important;
+}
+
+.contentmanagement_DriveUsageIndicator_1EubJ {
+  height: 8px !important;
+}
+
+.contentmanagement_DriveUsageDot_2jcmN {
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.contentmanagement_DriveUsageGames_22KCi {
+  background-color: var(--DRIVEUSAGEGAMES) !important;
+}
+
+.contentmanagement_AppPortrait_3-6_b {
+  margin-right: 8px !important;
+}
+
+/*-------------------------- LIBRARY MANAGER --------------------------*/
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 

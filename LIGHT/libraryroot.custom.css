@@ -19,7 +19,10 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --NOINTERNETCONNECTION:VAR(--RED);
+  --DRIVEUSAGEGAMES:VAR(--BLUE);
+  --INSTALLFOLDERTXT:VAR(--ACCENT);
+  --INSTALLFOLDER: VAR(--APPDETAILSPANEL);
+  --NOINTERNETCONNECTION: VAR(--RED);
   --DOWNLOADSBUTTONHOVER: var(--BLACK);
   --DOWNLOADEDVALUE: VAR(--BLUE);
   --DOWNLOADSITEMSTATUSLETTERSPACING: 0;
@@ -548,10 +551,44 @@
   */
 }
 
+/*-------------------------- LIBRARY MANAGER --------------------------*/
+
+.contentmanagement_InstallFolder_12aBP {
+  background: var(--INSTALLFOLDER) !important;
+  color:var(--INSTALLFOLDERTXT)!important;
+}
+
+.ModalDialogPopup .ModalDialogBody {
+  user-select: NONE !important;
+  PADDING:20PX!important;
+}
+
+.contentmanagement_DriveUsageIndicator_1EubJ {
+  height:8px!important;
+}
+
+.contentmanagement_DriveUsageDot_2jcmN {
+  HEIGHT:10PX!important;
+  width:10px!important;
+}
+
+
+.contentmanagement_DriveUsageGames_22KCi {
+  background-color:var(--DRIVEUSAGEGAMES)!important;
+}
+
+.contentmanagement_AppPortrait_3-6_b {
+  margin-right:8px!important;
+}
+
+
+/*-------------------------- LIBRARY MANAGER --------------------------*/
+
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
-.downloads_SectionItemStatus_1Sygg .downloads_State_2ns4w.downloads_Error_1ia3W {
-  color:var(--NOINTERNETCONNECTION)!important;
+.downloads_SectionItemStatus_1Sygg
+  .downloads_State_2ns4w.downloads_Error_1ia3W {
+  color: var(--NOINTERNETCONNECTION) !important;
 }
 
 .downloads_SectionItem_1VNuY
@@ -1100,11 +1137,19 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   background-position: center !important;
 }
 
-
 /*-------------------------- SHOWCASE HEADER DRAG HANDLE --------------------------*/
 
-.library_ContextMenuAction_Z5iAX.Download, .library_ContextMenuAction_Z5iAX.Update, .library_ContextMenuAction_Z5iAX.PreLoad, .library_ContextMenuAction_Z5iAX.Resume, .library_ContextMenuAction_Z5iAX.Pause, .library_ContextMenuAction_Z5iAX.BorrowApp, .library_ContextMenuAction_Z5iAX.Stop, .library_ContextMenuAction_Z5iAX.Cancel, .library_ContextMenuAction_Z5iAX.Install, .library_ContextMenuAction_Z5iAX.PurchaseApp:HOVER {
-  BACKGROUND:VAR(--CONTEXTMENUINSTALLBUTTONHOVER)!important;
+.library_ContextMenuAction_Z5iAX.Download,
+.library_ContextMenuAction_Z5iAX.Update,
+.library_ContextMenuAction_Z5iAX.PreLoad,
+.library_ContextMenuAction_Z5iAX.Resume,
+.library_ContextMenuAction_Z5iAX.Pause,
+.library_ContextMenuAction_Z5iAX.BorrowApp,
+.library_ContextMenuAction_Z5iAX.Stop,
+.library_ContextMenuAction_Z5iAX.Cancel,
+.library_ContextMenuAction_Z5iAX.Install,
+.library_ContextMenuAction_Z5iAX.PurchaseApp:hover {
+  background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
 }
 
 .spotlight_MajorEventImageBackgroundBlur_3sVs6 {
