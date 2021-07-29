@@ -69,6 +69,7 @@
   --OFFLINE: VAR(--ACCENT);
   --AVATARBORDERRADIUS: 100px;
   --PANELBORDER: TRANSPARENT;
+  --TABITEMBORDER:TRANSPARENT;
   --PANEL: VAR(--BASE1);
   --PANEL2: VAR(--BASE2);
   --PANEL3: VAR(--BASE3);
@@ -9540,7 +9541,7 @@ a.persona.online,
   transition: all 0.1s ease-in-out !important;
   margin: 5px !important;
   border-radius: var(--TABITEMBR) !important;
-  border: 0 !important;
+  border: 1PX SOLID VAR(--TABITEMBORDER) !important;
   background: VAR(--TABITEM) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
