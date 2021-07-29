@@ -582,6 +582,7 @@
 }
 
 .ModalDialogPopup .ModalDialogBody {
+  font-family:segoe ui!important;
   user-select: NONE !important;
   padding: 20px !important;
 }
