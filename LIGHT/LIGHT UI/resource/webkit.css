@@ -20,6 +20,8 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
+  --PAYMENTMETHOD:VAR(--ACCENT);
+  --PAYMENTMETHODBOX:VAR(--BASE3);
   --BUTTON2BORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --BUTTON2BORDERRADIUS: 0;
   --BUTTON2TEXTHOVER: VAR(--ACCENT);
@@ -80,6 +82,21 @@
   --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --blur: blur(10px);
+}
+
+.payment_method_box {
+  background:var(--PAYMENTMETHODBOX)!important;
+  BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+  border: 1PX SOLID var(--PANELBORDER)!important;
+}
+
+.account_setting_sub_block .cached_payment_method_description {
+  COLOR:VAR(--PAYMENTMETHOD)!important;
+}
+
+.cached_payment_method_exists {
+  COLOR:VAR(--PAYMENTMETHOD)!important;
 }
 
 .miniprofile_hover_inner.shadow_content {
