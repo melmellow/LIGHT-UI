@@ -19,6 +19,10 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --INSTALLFOLDERBORDER: VAR(--ACCENT);
+  --INSTALLFOLDERTXTSELECTED: var(--BLUE);
+  --INSTALLFOLDERBR: VAR(--BORDERRADIUS);
+  --INSTALLFOLDERBORDERSELECTED: VAR(--BLUE);
   --DRIVEUSAGEGAMES: VAR(--BLUE);
   --INSTALLFOLDERTXT: VAR(--ACCENT);
   --INSTALLFOLDER: var(--APPDETAILSPANEL);
@@ -552,8 +556,19 @@
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
 .contentmanagement_InstallFolder_12aBP {
+  display: FLEX !important;
+  padding: 4px !important;
+  width: auto !important;
+  height: 22px !important;
+  border: 2px solid var(--INSTALLFOLDERBORDER) !important;
   background: var(--INSTALLFOLDER) !important;
   color: var(--INSTALLFOLDERTXT) !important;
+  border-radius: var(--INSTALLFOLDERBR) !important;
+}
+
+.contentmanagement_IsSelected_3VQeL {
+  border: 2px solid var(--INSTALLFOLDERBORDERSELECTED) !important;
+  color: VAR(--INSTALLFOLDERTXTSELECTED) !important;
 }
 
 .ModalDialogPopup .ModalDialogBody {

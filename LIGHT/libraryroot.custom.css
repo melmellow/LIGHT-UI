@@ -19,8 +19,12 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DRIVEUSAGEGAMES:VAR(--BLUE);
-  --INSTALLFOLDERTXT:VAR(--ACCENT);
+  --INSTALLFOLDERBORDER:VAR(--ACCENT);
+  --INSTALLFOLDERTXTSELECTED: var(--BLUE);
+  --INSTALLFOLDERBR: VAR(--BORDERRADIUS);
+  --INSTALLFOLDERBORDERSELECTED: VAR(--BLUE);
+  --DRIVEUSAGEGAMES: VAR(--BLUE);
+  --INSTALLFOLDERTXT: VAR(--ACCENT);
   --INSTALLFOLDER: VAR(--APPDETAILSPANEL);
   --NOINTERNETCONNECTION: VAR(--RED);
   --DOWNLOADSBUTTONHOVER: var(--BLACK);
@@ -554,33 +558,42 @@
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
 .contentmanagement_InstallFolder_12aBP {
+  display: FLEX !important;
+  padding: 4px !important;
+  width: auto !important;
+  height: 22px !important;
+  border: 2px solid var(--INSTALLFOLDERBORDER) !important;
   background: var(--INSTALLFOLDER) !important;
-  color:var(--INSTALLFOLDERTXT)!important;
+  color: var(--INSTALLFOLDERTXT) !important;
+  border-radius: var(--INSTALLFOLDERBR) !important;
+}
+
+.contentmanagement_IsSelected_3VQeL {
+  border: 2px solid var(--INSTALLFOLDERBORDERSELECTED) !important;
+  color: VAR(--INSTALLFOLDERTXTSELECTED) !important;
 }
 
 .ModalDialogPopup .ModalDialogBody {
   user-select: NONE !important;
-  PADDING:20PX!important;
+  padding: 20px !important;
 }
 
 .contentmanagement_DriveUsageIndicator_1EubJ {
-  height:8px!important;
+  height: 8px !important;
 }
 
 .contentmanagement_DriveUsageDot_2jcmN {
-  HEIGHT:10PX!important;
-  width:10px!important;
+  height: 10px !important;
+  width: 10px !important;
 }
 
-
 .contentmanagement_DriveUsageGames_22KCi {
-  background-color:var(--DRIVEUSAGEGAMES)!important;
+  background-color: var(--DRIVEUSAGEGAMES) !important;
 }
 
 .contentmanagement_AppPortrait_3-6_b {
-  margin-right:8px!important;
+  margin-right: 8px !important;
 }
-
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
