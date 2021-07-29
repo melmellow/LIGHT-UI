@@ -19,7 +19,9 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --INSTALLFOLDERBORDER:VAR(--ACCENT);
+  --INSTALLFOLDERTXTHOVER:VAR(--BLACK);
+  --INSTALLFOLDERBORDERHOVER: VAR(--BLACK) !important;
+  --INSTALLFOLDERBORDER: VAR(--ACCENT);
   --INSTALLFOLDERTXTSELECTED: var(--BLUE);
   --INSTALLFOLDERBR: VAR(--BORDERRADIUS);
   --INSTALLFOLDERBORDERSELECTED: VAR(--BLUE);
@@ -558,16 +560,15 @@
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
 .contentmanagement_AppUsageContainer_hxhx4 {
-  padding-top:8px!important;
+  padding-top: 8px !important;
 }
-
 
 .contentmanagement_InstallFolder_12aBP {
   display: FLEX !important;
-  MARGIN-BOTTOM:8PX!important;
+  margin-bottom: 8px !important;
   padding: 4px !important;
-  padding-left:8px!important;
-  padding-right:8px!important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
   width: auto !important;
   height: 22px !important;
   border: 2px solid var(--INSTALLFOLDERBORDER) !important;
@@ -576,13 +577,23 @@
   border-radius: var(--INSTALLFOLDERBR) !important;
 }
 
+.contentmanagement_InstallFolder_12aBP:hover {
+  border-color: VAR(--INSTALLFOLDERBORDERHOVER) !important;
+  color: var(--INSTALLFOLDERTXTHOVER) !important;
+}
+
 .contentmanagement_IsSelected_3VQeL {
   border: 2px solid var(--INSTALLFOLDERBORDERSELECTED) !important;
   color: VAR(--INSTALLFOLDERTXTSELECTED) !important;
 }
 
+.contentmanagement_IsSelected_3VQeL:hover {
+  border-color: var(--INSTALLFOLDERBORDERSELECTED) !important;
+  color:var(--INSTALLFOLDERTXTSELECTED)!important;
+}
+
 .ModalDialogPopup .ModalDialogBody {
-  font-family:segoe ui!important;
+  font-family: segoe ui !important;
   user-select: NONE !important;
   padding: 20px !important;
 }

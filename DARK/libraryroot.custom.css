@@ -19,6 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --INSTALLFOLDERTXTHOVER: VAR(--BLACK);
+  --INSTALLFOLDERBORDERHOVER: VAR(--BLACK) !important;
   --INSTALLFOLDERBORDER: VAR(--ACCENT);
   --INSTALLFOLDERTXTSELECTED: var(--BLUE);
   --INSTALLFOLDERBR: VAR(--BORDERRADIUS);
@@ -573,9 +575,19 @@
   border-radius: var(--INSTALLFOLDERBR) !important;
 }
 
+.contentmanagement_InstallFolder_12aBP:hover {
+  border-color: VAR(--INSTALLFOLDERBORDERHOVER) !important;
+  color: var(--INSTALLFOLDERTXTHOVER) !important;
+}
+
 .contentmanagement_IsSelected_3VQeL {
   border: 2px solid var(--INSTALLFOLDERBORDERSELECTED) !important;
   color: VAR(--INSTALLFOLDERTXTSELECTED) !important;
+}
+
+.contentmanagement_IsSelected_3VQeL:hover {
+  border-color: var(--INSTALLFOLDERBORDERSELECTED) !important;
+  color:var(--INSTALLFOLDERTXTSELECTED)!important;
 }
 
 .ModalDialogPopup .ModalDialogBody {
