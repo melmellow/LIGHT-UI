@@ -19,6 +19,8 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --CMINSTALLFOLDERHOVER:VAR(--BLACK);
+  --CMINSTALLFOLDER: VAR(--ACCENT);
   --CMACTIVETABBR: 8px 8px 0 0;
   --ADDFOLDER: VAR(--ACCENT);
   --DRIVESETTINGSHOVER: VAR(--BLACK);
@@ -585,10 +587,25 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_LibraryInventory_299aN::-webkit-scrollbar-thumb {
+  background: var(--SCROLLBAR) !important;
+  opacity: var(--SCROLLBAROP) !important;
+  border-radius: VAR(--SCROLLBARBORDERRADIUS) !important;
+  width: var(--SCROLLBARWIDTH) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_LibraryInventory_299aN::-webkit-scrollbar-thumb:hover {
+  background: var(--SCROLLBARHOVER) !important;
+  opacity: var(--SCROLLBARHOVEROP) !important;
+  width: var(--SCROLLBARHOVERWIDTH) !important;
+}
+
 .contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveName_1rihl,
 .contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveSize_5bG9I,
 .contentmanagement_InstallFolder_12aBP:hover svg {
-  color: var(--ACCENT) !important;
+  color: var(--CMINSTALLFOLDERHOVER) !important;
 }
 
 .PopupFullWindow
@@ -601,7 +618,8 @@
   color: var(--ADDFOLDER) !important;
 }
 
-.contentmanagement_DriveSettingsButton_1WKUO:hover {
+.contentmanagement_DriveSettingsButton_1WKUO:hover,
+.contentmanagement_DriveSettingsButton_1WKUO:focus {
   color: var(--DRIVESETTINGSHOVER) !important;
 }
 
@@ -612,14 +630,13 @@
 .contentmanagement_DriveSettingsButton_1WKUO svg {
   height: 20px !important;
   width: 20px !important;
-  color: var(--DRIVESETTINGS) !important;
 }
 
 .contentmanagement_IsSelected_3VQeL {
   border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
   border-left: 1px solid var(--APPDETAILSPANELBORDER) !important;
   border-right: 1px solid var(--APPDETAILSPANELBORDER) !important;
-  border-radius: var(--CMACTIVETABBR) !important +;
+  border-radius: var(--CMACTIVETABBR) !important;
 }
 
 .contentmanagement_DriveSize_5bG9I {
@@ -644,6 +661,7 @@
 }
 
 .contentmanagement_DriveSettingsButton_1WKUO {
+  color: VAR(--DRIVESETTINGS) !important;
   background-color: var(--DRIVESETTINGSBG) !important;
 }
 
@@ -705,6 +723,7 @@
 .contentmanagement_AppsGrid_2n6FN
   .contentmanagement_AppBodyRight_3vHX3
   .contentmanagement_AppSize_mohK9 {
+  font-family: segoe ui !important;
   color: var(--CMAPPSIZE) !important;
   font-weight: VAR(--CMAPPSIZEFW) !important;
 }
@@ -727,7 +746,16 @@
   font-weight: var(--STORAGEMANAGERFONTWEIGHT) !important;
 }
 
+.contentmanagement_DriveName_1rihl {
+  color: var(--CMINSTALLFOLDER) !important;
+}
+
+.contentmanagement_DriveSize_5bG9I {
+  color: VAR(--CMINSTALLFOLDER) !important;
+}
+
 .contentmanagement_InstallFolder_12aBP {
+  color: var(--CMINSTALLFOLDER) !important;
   padding: 10px 14px 10px 14px !important;
 }
 

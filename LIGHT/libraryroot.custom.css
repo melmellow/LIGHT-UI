@@ -19,9 +19,11 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --CMACTIVETABBR:8PX 8PX 0 0;
-  --ADDFOLDER:VAR(--ACCENT);
-  --DRIVESETTINGSHOVER:VAR(--BLACK);
+  --CMINSTALLFOLDERHOVER:VAR(--BLACK);
+  --CMINSTALLFOLDER:VAR(--ACCENT);
+  --CMACTIVETABBR: 8px 8px 0 0;
+  --ADDFOLDER: VAR(--ACCENT);
+  --DRIVESETTINGSHOVER: VAR(--BLACK);
   --DRIVEUSAGETEXTFW: 400;
   --DRIVESETTINGS: VAR(--ACCENT);
   --DRIVESETTINGSBG: TRANSPARENT;
@@ -586,16 +588,35 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
-.contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveName_1rihl, .contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveSize_5bG9I, .contentmanagement_InstallFolder_12aBP:hover svg {
-  color:var(--ACCENT)!important;
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_LibraryInventory_299aN::-webkit-scrollbar-thumb {
+  background: var(--SCROLLBAR) !important;
+  opacity: var(--SCROLLBAROP) !important;
+  border-radius: VAR(--SCROLLBARBORDERRADIUS) !important;
+  width: var(--SCROLLBARWIDTH) !important;
 }
 
-.PopupFullWindow .ModalPosition_Content>div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
-  user-select:none!important;
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_LibraryInventory_299aN::-webkit-scrollbar-thumb:hover {
+  background: var(--SCROLLBARHOVER) !important;
+  opacity: var(--SCROLLBARHOVEROP) !important;
+  width: var(--SCROLLBARHOVERWIDTH) !important;
+}
+
+.contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveName_1rihl,
+.contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveSize_5bG9I,
+.contentmanagement_InstallFolder_12aBP:hover svg {
+  color: var(--CMINSTALLFOLDERHOVER) !important;
+}
+
+.PopupFullWindow
+  .ModalPosition_Content
+  > div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
+  user-select: none !important;
 }
 
 .contentmanagement_AddFolder_3C0_9 {
-  color:var(--ADDFOLDER)!important;
+  color: var(--ADDFOLDER) !important;
 }
 
 .contentmanagement_DriveUsageGames_22KCi {
@@ -605,10 +626,10 @@
 .contentmanagement_DriveSettingsButton_1WKUO svg {
   height: 20px !important;
   width: 20px !important;
-  color: var(--DRIVESETTINGS) !important;
 }
 
-.contentmanagement_DriveSettingsButton_1WKUO:hover {
+.contentmanagement_DriveSettingsButton_1WKUO:hover,
+.contentmanagement_DriveSettingsButton_1WKUO:focus {
   color: var(--DRIVESETTINGSHOVER) !important;
 }
 
@@ -620,8 +641,8 @@
 }
 
 .contentmanagement_DriveSize_5bG9I {
-  line-height:21px!important;
-  font-family:segoe ui!important;
+  line-height: 21px !important;
+  font-family: segoe ui !important;
   font-weight: var(--DRIVESIZEFONTWEIGHT) !important;
   white-space: nowrap !important;
 }
@@ -668,6 +689,7 @@
 .contentmanagement_AppsGrid_2n6FN
   .contentmanagement_AppBodyRight_3vHX3
   .contentmanagement_AppSize_mohK9 {
+  font-family: segoe ui !important;
   color: var(--CMAPPSIZE) !important;
   font-weight: VAR(--CMAPPSIZEFW) !important;
 }
@@ -703,6 +725,7 @@
 }
 
 .contentmanagement_DriveSettingsButton_1WKUO {
+  color: VAR(--DRIVESETTINGS) !important;
   background-color: var(--DRIVESETTINGSBG) !important;
 }
 
@@ -726,12 +749,21 @@
   height: 20px !important;
 }
 
+.contentmanagement_DriveName_1rihl {
+  color:var(--CMINSTALLFOLDER)!important;
+}
+
+.contentmanagement_DriveSize_5bG9I {
+  COLOR:VAR(--CMINSTALLFOLDER)!important;
+}
+
 .contentmanagement_InstallFolder_12aBP {
+  color: var(--CMINSTALLFOLDER) !important;
   padding: 10px 14px 10px 14px !important;
 }
 
 .contentmanagement_DriveName_1rihl {
-  font-family:segoe ui!important;
+  font-family: segoe ui !important;
   line-height: 21px !important;
   margin-right: 4px !important;
   text-transform: uppercase !important;
