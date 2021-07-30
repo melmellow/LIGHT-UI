@@ -567,8 +567,37 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.contentmanagement_IsSelected_3VQeL {
+  border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  border-left: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  border-right: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  border-radius: 4px 4px 0 0 !important;
+}
+
+.contentmanagement_DriveSize_5bG9I {
+  white-space: nowrap !important;
+}
+
+.contentmanagement_IsSelected_3VQeL {
+  background: var(--BASE1) !important;
+}
+
+.contentmanagement_FolderInfo_2ylO_ {
+  flex-direction: row !important;
+}
+
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I,
+.contentmanagement_IsSelected_3VQeL svg {
+  color: var(--ACCENT) !important;
+}
+
 .contentmanagement_ContentManagement_3wk64 {
   background: VAR(--CONTENTMANAGEMENT) !important;
+}
+
+.contentmanagement_Title_3IvzT {
+  color: VAR(--ACCENT) !important;
 }
 
 .contentmanagement_AppActionBar_35T-O {
@@ -585,7 +614,21 @@
   font-weight: var(--DIALOGHEADERFONTWEIGHT) !important;
 }
 
+.contentmanagement_DriveName_1rihl {
+  text-transform: uppercase !important;
+  font-size:12px!important;
+}
+
+.contentmanagement_InstallFolder_12aBP .contentmanagement_FolderInfo_2ylO_ svg {
+  display: none !important;
+}
+
+.boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0.boxcarousel_OnLastPage_1X10h {
+  margin-bottom: -1px !important;
+}
+
 .contentmanagement_LibraryContent_ybEU2 {
+  border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
   background: var(--BASE1) !important;
 }
 
