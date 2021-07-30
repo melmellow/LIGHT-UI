@@ -19,7 +19,11 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DOWNLOADGRAPHBUTTONHOVER:VAR(--BLACK);
+  --CONTENTMANAGEMENT:VAR(--BASE2);
+  --DRIVEUSAGETEXT: VAR(--BLACK);
+  --APPACTIONBAR: VAR(--BASE3);
+  --DRIVEUSAGENUMBER: VAR(--ACCENT);
+  --DOWNLOADGRAPHBUTTONHOVER: VAR(--BLACK);
   --DOWNLOADGRAPHBUTTONBORDER: VAR(--APPDETAILSPANELBORDER);
   --DOWNLOADGRAPHBUTTONBR: 50px;
   --DOWNLOADGRAPHBUTTON: VAR(--APPDETAILSPANEL);
@@ -562,69 +566,37 @@
   */
 }
 
-h1 {
-  font-weight: 200 !important;
-  margin-left: 20px !important;
-}
-
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
-.contentmanagement_AppUsageContainer_hxhx4 {
-  padding-top: 8px !important;
-  margin-left: 20px !important;
+.contentmanagement_AppActionBar_35T-O {
+  background-color: var(--APPACTIONBAR) !important;
 }
 
-.contentmanagement_InstallFolder_12aBP {
-  display: FLEX !important;
-  margin-bottom: 8px !important;
-  margin-left: 20px !important;
-  margin-right: -12px !important;
-  padding: 4px !important;
-  padding-left: 8px !important;
-  padding-right: 8px !important;
-  width: auto !important;
-  height: 22px !important;
-  border: 2px solid var(--INSTALLFOLDERBORDER) !important;
-  background: var(--INSTALLFOLDER) !important;
-  color: var(--INSTALLFOLDERTXT) !important;
-  border-radius: var(--INSTALLFOLDERBR) !important;
+.contentmanagement_Description_3SvU2 {
+  display: none !important;
 }
 
-.contentmanagement_InstallFolder_12aBP:hover {
-  border-color: VAR(--INSTALLFOLDERBORDERHOVER) !important;
-  color: var(--INSTALLFOLDERTXTHOVER) !important;
+.contentmanagement_Title_3IvzT {
+  font-family: SEGOE UI !important;
+  text-transform: unset !important;
+  font-weight: var(--DIALOGHEADERFONTWEIGHT) !important;
 }
 
-.contentmanagement_IsSelected_3VQeL {
-  border: 2px solid var(--INSTALLFOLDERBORDERSELECTED) !important;
-  color: VAR(--INSTALLFOLDERTXTSELECTED) !important;
+.contentmanagement_LibraryContent_ybEU2 {
+  background: var(--BASE1) !important;
 }
 
-.contentmanagement_IsSelected_3VQeL:hover {
-  border-color: var(--INSTALLFOLDERBORDERSELECTED) !important;
-  color: var(--INSTALLFOLDERTXTSELECTED) !important;
+.contentmanagement_ContentManagement_3wk64 {
+  background: VAR(--CONTENTMANAGEMENT) !important;
 }
 
-.ModalDialogPopup .ModalDialogBody {
-  font-family: segoe ui !important;
-  user-select: NONE !important;
+.contentmanagement_DriveUsageNumber_181OY {
+  color: var(--DRIVEUSAGENUMBER) !important;
 }
 
-.contentmanagement_DriveUsageIndicator_1EubJ {
-  height: 8px !important;
-}
-
-.contentmanagement_DriveUsageDot_2jcmN {
-  height: 10px !important;
-  width: 10px !important;
-}
-
-.contentmanagement_DriveUsageGames_22KCi {
-  background-color: var(--DRIVEUSAGEGAMES) !important;
-}
-
-.contentmanagement_AppPortrait_3-6_b {
-  margin-right: 8px !important;
+.contentmanagement_DriveUsageText_1DFCG,
+.contentmanagement_DriveUsageNumber_181OY {
+  color: VAR(--DRIVEUSAGETEXT) !important;
 }
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
@@ -632,11 +604,11 @@ h1 {
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
-  background:var(--BASE5)!important;
+  background: var(--BASE5) !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_RemoveFromQueue_2xR-V {
-  OPACITY:1!important;
+  opacity: 1 !important;
 }
 
 .downloads_Active_IbePL .downloads_SectionList_OINnO {
