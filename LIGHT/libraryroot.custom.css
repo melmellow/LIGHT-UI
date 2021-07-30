@@ -19,9 +19,13 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --CMAPPUSAGETEXT:VAR(--ACCENT);
-  --CMAPPUSAGETEXTFW:400;
-  --CMAPPUSAGEVALUEFW:400;
+  --DRIVESETTINGS:VAR(--ACCENT);
+  --DRIVESETTINGSBG: TRANSPARENT;
+  --CMAPPSIZEFW: 400;
+  --CMAPPSIZE: VAR(--ACCENT);
+  --CMAPPUSAGETEXT: VAR(--ACCENT);
+  --CMAPPUSAGETEXTFW: 400;
+  --CMAPPUSAGEVALUEFW: 400;
   --CMAPPUSAGEVALUE: VAR(--ACCENT);
   --CMAPPNAME: VAR(--ACCENT);
   --CMAPPHOVER: VAR(--BASE3);
@@ -578,6 +582,12 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.contentmanagement_DriveSettingsButton_1WKUO svg {
+  HEIGHT:20PX!important;
+  width:20px!important;
+  color:var(--DRIVESETTINGS)!important;
+}
+
 .contentmanagement_IsSelected_3VQeL {
   border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
   border-left: 1px solid var(--APPDETAILSPANELBORDER) !important;
@@ -604,8 +614,11 @@
   color: var(--ACCENT) !important;
 }
 
-.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce svg {
-  DISPLAY:NONE!important;
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  svg {
+  display: NONE !important;
 }
 
 .contentmanagement_AppActionBar_35T-O {
@@ -617,9 +630,20 @@
   display: none !important;
 }
 
-.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageText_1G9v2 {
-  COLOR:VAR(--CMAPPUSAGETEXT)!important;
-  font-weight:var(--CMAPPUSAGETEXTFW)!important;
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppUsageText_1G9v2 {
+  color: VAR(--CMAPPUSAGETEXT) !important;
+  font-weight: var(--CMAPPUSAGETEXTFW) !important;
+  margin-left: 0 !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyRight_3vHX3
+  .contentmanagement_AppSize_mohK9 {
+  color: var(--CMAPPSIZE) !important;
+  font-weight: VAR(--CMAPPSIZEFW) !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
@@ -652,10 +676,15 @@
   color: var(--CMAPPHEADERVALUE);
 }
 
+.contentmanagement_DriveSettingsButton_1WKUO {
+  background-color: var(--DRIVESETTINGSBG) !important;
+}
+
 .contentmanagement_AppsGrid_2n6FN
   .contentmanagement_AppHeader_3_uaa
   .contentmanagement_Rule_2iZ4o {
   background-color: VAR(--DIVIDER) !important;
+  height: 1px !important;
 }
 
 .contentmanagement_Title_3IvzT {

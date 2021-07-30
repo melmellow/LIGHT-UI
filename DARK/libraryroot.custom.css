@@ -19,6 +19,10 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DRIVESETTINGS: VAR(--ACCENT);
+  --DRIVESETTINGSBG: TRANSPARENT;
+  --CMAPPSIZEFW: 400;
+  --CMAPPSIZE: VAR(--ACCENT);
   --CMAPPUSAGETEXT: VAR(--ACCENT);
   --CMAPPUSAGETEXTFW: 400;
   --CMAPPUSAGEVALUEFW: 400;
@@ -577,6 +581,12 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.contentmanagement_DriveSettingsButton_1WKUO svg {
+  height: 20px !important;
+  width: 20px !important;
+  color: var(--DRIVESETTINGS) !important;
+}
+
 .contentmanagement_IsSelected_3VQeL {
   border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
   border-left: 1px solid var(--APPDETAILSPANELBORDER) !important;
@@ -603,6 +613,10 @@
   color: var(--ACCENT) !important;
 }
 
+.contentmanagement_DriveSettingsButton_1WKUO {
+  background-color: var(--DRIVESETTINGSBG) !important;
+}
+
 .contentmanagement_ContentManagement_3wk64 {
   background: VAR(--CONTENTMANAGEMENT) !important;
 }
@@ -611,6 +625,7 @@
   .contentmanagement_AppHeader_3_uaa
   .contentmanagement_Rule_2iZ4o {
   background-color: VAR(--DIVIDER) !important;
+  height: 1px !important;
 }
 
 .contentmanagement_AppActionBar_35T-O {
@@ -639,6 +654,7 @@
   .contentmanagement_AppUsageText_1G9v2 {
   color: VAR(--CMAPPUSAGETEXT) !important;
   font-weight: var(--CMAPPUSAGETEXTFW) !important;
+  margin-left: 0 !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
@@ -654,6 +670,13 @@
   .contentmanagement_AppInfo__g4ce
   svg {
   display: NONE !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyRight_3vHX3
+  .contentmanagement_AppSize_mohK9 {
+  color: var(--CMAPPSIZE) !important;
+  font-weight: VAR(--CMAPPSIZEFW) !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
