@@ -587,6 +587,10 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
+  -webkit-mask-image: unset !important;
+}
+
 .contentmanagement_AppsGrid_2n6FN
   .contentmanagement_LibraryInventory_299aN::-webkit-scrollbar-thumb {
   background: var(--SCROLLBAR) !important;
