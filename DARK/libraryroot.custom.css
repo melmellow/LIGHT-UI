@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADITEMBR: VAR(--BORDERRADIUS);
   --GRAPHANDSTATSBG: VAR(--BASE2);
   --INSTALLFOLDERTXTHOVER: VAR(--BLACK);
   --INSTALLFOLDERBORDERHOVER: VAR(--BLACK) !important;
@@ -879,14 +880,23 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
   text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
 }
 
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL,
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
+  color: VAR(--NETGRAPH) !important;
+  fill: currentColor !important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
+  color: transparent !important;
+}
+
 .downloads_SectionItem_1VNuY {
-  width: 100% !important;
+  border-radius: var(--DOWNLOADITEMBR) !important;
   padding: 8px !important;
   padding-bottom: 7px !important;
   margin-bottom: 4px !important;
   background-color: VAR(--DOWNLOADITEM) !important;
-  border-top: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
-  border-bottom: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
+  border: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
 }
 
 .downloads_SectionItem_1VNuY:hover,
@@ -901,10 +911,6 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 .downloadgraph_GraphAndStats_3KDkL {
   height: 140px !important;
   background-color: var(--GRAPHANDSTATSBG) !important;
-}
-
-.downloads_SectionList_OINnO {
-  margin-left: 0 !important;
 }
 
 .downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {

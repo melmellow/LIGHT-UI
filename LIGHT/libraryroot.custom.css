@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --DOWNLOADITEMBR: VAR(--BORDERRADIUS);
   --GRAPHANDSTATSBG: VAR(--BASE2);
   --INSTALLFOLDERTXTHOVER: VAR(--BLACK);
   --INSTALLFOLDERBORDERHOVER: VAR(--BLACK) !important;
@@ -627,11 +628,11 @@ h1 {
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 .downloads_Active_IbePL .downloads_SectionList_OINnO {
-  border:0!important;
+  border: 0 !important;
 }
 
 .downloads_TopBar_SEmVp {
-  display:none!important;
+  display: none !important;
 }
 
 .downloadgraph_HeroAndLogo_3mZ2r {
@@ -858,6 +859,16 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   color: VAR(--DOWNLOADSDRAGHANDLE) !important;
 }
 
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL,
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
+  color: VAR(--NETGRAPH) !important;
+  fill: currentColor !important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
+  color:transparent!important;
+}
+
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
   font-family: segoe ui !important;
   font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
@@ -866,16 +877,13 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
 }
 
-
-
 .downloads_SectionItem_1VNuY {
-  width:100%!important;
+  border-radius: var(--DOWNLOADITEMBR) !important;
   padding: 8px !important;
   padding-bottom: 7px !important;
   margin-bottom: 4px !important;
   background-color: VAR(--DOWNLOADITEM) !important;
-  border-top: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
-  border-bottom: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
+  border: 1px SOLID VAR(--DOWNLOADITEMBORDER) !important;
 }
 
 .downloads_SectionItem_1VNuY:hover,
@@ -891,7 +899,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloadgraph_DownloadGraph_1BxZD {
-  TRANSFORM:SCALEX(-1)!important;
+  transform: SCALEX(-1) !important;
   margin-left: 200px !important;
   margin-right: 10px !important;
 }
@@ -909,25 +917,22 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   color: var(--PROGRESS) !important;
 }
 
-.downloads_SectionList_OINnO {
-  margin-left:0!important;
-}
-
 .downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
-  display:none!important;
+  display: none !important;
 }
 
-.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
-  background:transparent!important;
-  border:0!important;
-}
-
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC {
-  fill: VAR(--NETGRAPH) !important;
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
+  background: transparent !important;
+  border: 0 !important;
 }
 
 .downloadgraph_GraphAndStats_3KDkL {
-  height:140px!important;
+  height: 140px !important;
   background-color: var(--GRAPHANDSTATSBG) !important;
 }
 
@@ -953,13 +958,13 @@ div.MediumWindow
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskGraph_2-AUy {
-  top:7px!important;
+  top: 7px !important;
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stats_3RfkF {
   flex-direction: column !important;
   position: absolute !important;
-  top:7px!important;
+  top: 7px !important;
   left: 0 !important;
 }
 
