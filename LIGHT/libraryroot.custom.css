@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --GRAPHANDSTATSBG: VAR(--BASE2);
   --INSTALLFOLDERTXTHOVER: VAR(--BLACK);
   --INSTALLFOLDERBORDERHOVER: VAR(--BLACK) !important;
   --INSTALLFOLDERBORDER: VAR(--ACCENT);
@@ -559,7 +560,7 @@
 
 h1 {
   font-weight: 200 !important;
-  margin-left:20px!important;
+  margin-left: 20px !important;
 }
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
@@ -572,8 +573,8 @@ h1 {
 .contentmanagement_InstallFolder_12aBP {
   display: FLEX !important;
   margin-bottom: 8px !important;
-  margin-left:20px!important;
-  margin-right:-12px!important;
+  margin-left: 20px !important;
+  margin-right: -12px !important;
   padding: 4px !important;
   padding-left: 8px !important;
   padding-right: 8px !important;
@@ -625,6 +626,14 @@ h1 {
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloadgraph_HeroAndLogo_3mZ2r {
+  display: none !important;
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Status_3BdWq {
+  display: none !important;
+}
 
 .downloads_SectionItemStatus_1Sygg
   .downloads_State_2ns4w.downloads_Error_1ia3W {
@@ -877,7 +886,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   margin-right: 10px !important;
 }
 
-.downloads_DownloadGraph_1ashw .downloads_GraphLine_affyz {
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
   stroke: VAR(--DISKGRAPH) !important;
   stroke-width: var(--DISKGRAPHSTROKEWIDTH) !important;
 }
@@ -890,16 +899,31 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   color: var(--PROGRESS) !important;
 }
 
-.downloads_GraphAndStats_3ZsSz {
-  padding-bottom: 10px !important;
-  background: var(--DOWNLOADSPAGEBG) !important;
+.downloads_SectionList_OINnO {
+  margin-left:0!important;
 }
 
-.downloads_DownloadGraph_1ashw .downloads_GraphBar_33npA {
+.downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
+  display:none!important;
+}
+
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
+  background:transparent!important;
+  border:0!important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC {
   fill: VAR(--NETGRAPH) !important;
 }
 
-.downloads_DownloadGraph_1ashw .downloads_Gradient_FZSi1 {
+.downloadgraph_GraphAndStats_3KDkL {
+  padding-bottom: 10px !important;
+  background-color: var(--GRAPHANDSTATSBG) !important;
+}
+
+div.MediumWindow
+  .downloadgraph_DownloadGraph_1BxZD
+  .downloadgraph_Gradient_RfMM3 {
   background-image: unset !important;
 }
 
@@ -918,12 +942,13 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
 }
 
-.downloads_StatsPanel_2IXt5 .downloads_Top_2AHEf {
-  align-items: flex-end !important;
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stats_3RfkF {
   flex-direction: column !important;
+  position: absolute !important;
+  left: 0 !important;
 }
 
-.downloads_StatsPanel_2IXt5 .downloads_Figure_1Ooma {
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
   font-family: segoe ui !important;
   line-height: 21px !important;
   margin-right: 5px !important;
@@ -933,8 +958,9 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   text-align: center !important;
 }
 
-.downloads_StatsPanel_2IXt5 .downloads_Stat_wiA4X {
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
   margin-bottom: 2px !important;
+  margin-left: 10px !important;
   font-family: segoe ui !important;
   font-size: 12px !important;
   width: 168px !important;
