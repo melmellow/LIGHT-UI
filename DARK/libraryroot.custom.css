@@ -625,6 +625,14 @@ h1 {
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_TopBar_SEmVp {
+  display: none !important;
+}
+
+.downloads_Active_IbePL .downloads_SectionList_OINnO {
+  border: 0 !important;
+}
+
 .downloadgraph_HeroAndLogo_3mZ2r {
   display: none !important;
 }
@@ -664,8 +672,9 @@ h1 {
   height: 0 !important;
 }
 
-.downloads_DownloadGraph_1ashw {
-  margin-left: 165px !important;
+.downloadgraph_DownloadGraph_1BxZD {
+  transform: SCALEX(-1) !important;
+  margin-left: 200px !important;
   margin-right: 10px !important;
 }
 
@@ -678,7 +687,6 @@ h1 {
 }
 
 .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI {
-  margin-right: -10px !important;
   width: auto !important;
   margin-left: 20px !important;
 }
@@ -872,6 +880,7 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloads_SectionItem_1VNuY {
+  width: 100% !important;
   padding: 8px !important;
   padding-bottom: 7px !important;
   margin-bottom: 4px !important;
