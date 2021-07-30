@@ -19,6 +19,12 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --CMAPPNAME: VAR(--ACCENT);
+  --CMAPPHOVER: VAR(--BASE3);
+  --CMAPPHEADER: VAR(--ACCENT);
+  --CMAPPHEADERVALUE: VAR(--ACCENT);
+  --STORAGEMANAGERFONTWEIGHT: 400;
+  --DRIVESIZEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --CONTENTMANAGEMENT: VAR(--BASE2);
   --DRIVEUSAGETEXT: VAR(--BLACK);
   --APPACTIONBAR: VAR(--BASE3);
@@ -575,6 +581,7 @@
 }
 
 .contentmanagement_DriveSize_5bG9I {
+  font-weight: var(--DRIVESIZEFONTWEIGHT) !important;
   white-space: nowrap !important;
 }
 
@@ -596,11 +603,14 @@
   background: VAR(--CONTENTMANAGEMENT) !important;
 }
 
-.contentmanagement_Title_3IvzT {
-  color: VAR(--ACCENT) !important;
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppHeader_3_uaa
+  .contentmanagement_Rule_2iZ4o {
+  background-color: VAR(--DIVIDER) !important;
 }
 
 .contentmanagement_AppActionBar_35T-O {
+  border-top: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
   background-color: var(--APPACTIONBAR) !important;
 }
 
@@ -608,10 +618,43 @@
   display: none !important;
 }
 
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
+  background-color: var(--CMAPPHOVER) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppName_YxhO6 {
+  color: VAR(--CMAPPNAME) !important;
+  font-family: SEGOE UI !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
+  color: VAR(--CMAPPHEADER) !important;
+  font-family: SEGOE UI !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppHeader_3_uaa
+  .contentmanagement_AppHeaderValue_3X3BB {
+  color: var(--CMAPPHEADERVALUE);
+}
+
 .contentmanagement_Title_3IvzT {
+  color: VAR(--ACCENT) !important;
   font-family: SEGOE UI !important;
   text-transform: unset !important;
-  font-weight: var(--DIALOGHEADERFONTWEIGHT) !important;
+  font-weight: var(--STORAGEMANAGERFONTWEIGHT) !important;
+}
+
+.contentmanagement_InstallFolder_12aBP {
+  padding: 10px 14px 10px 14px !important;
+}
+
+.contentmanagement_InstallFolder_12aBP svg {
+  margin-right: 9px !important;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .contentmanagement_DriveName_1rihl {
