@@ -612,20 +612,22 @@
 }
 
 .contentmanagement_DriveName_1rihl {
-  text-transform: uppercase !important;
-  font-size: 12px !important;
+  line-height:22px!important;
+  margin-right:4px!important;
+  text-transform:uppercase!important;
+  font-size:12px!important;
 }
 
 .contentmanagement_InstallFolder_12aBP .contentmanagement_FolderInfo_2ylO_ svg {
-  display: none !important;
+  display:none!important;
 }
 
 .boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0.boxcarousel_OnLastPage_1X10h {
-  margin-bottom: -1px !important;
+  margin-bottom:-1px!important;
 }
 
 .contentmanagement_LibraryContent_ybEU2 {
-  border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
+  border-top:1px solid var(--APPDETAILSPANELBORDER)!important;
   background: var(--BASE1) !important;
 }
 

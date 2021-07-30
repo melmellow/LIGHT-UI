@@ -615,8 +615,10 @@
 }
 
 .contentmanagement_DriveName_1rihl {
+  line-height: 22px !important;
+  margin-right: 4px !important;
   text-transform: uppercase !important;
-  font-size:12px!important;
+  font-size: 12px !important;
 }
 
 .contentmanagement_InstallFolder_12aBP .contentmanagement_FolderInfo_2ylO_ svg {
