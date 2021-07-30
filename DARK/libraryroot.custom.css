@@ -19,6 +19,10 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --CMAPPUSAGETEXT: VAR(--ACCENT);
+  --CMAPPUSAGETEXTFW: 400;
+  --CMAPPUSAGEVALUEFW: 400;
+  --CMAPPUSAGEVALUE: VAR(--ACCENT);
   --CMAPPNAME: VAR(--ACCENT);
   --CMAPPHOVER: VAR(--BASE3);
   --CMAPPHEADER: VAR(--ACCENT);
@@ -627,6 +631,29 @@
   .contentmanagement_AppName_YxhO6 {
   color: VAR(--CMAPPNAME) !important;
   font-family: SEGOE UI !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppUsageText_1G9v2 {
+  color: VAR(--CMAPPUSAGETEXT) !important;
+  font-weight: var(--CMAPPUSAGETEXTFW) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppUsageValue_2B8dj {
+  color: var(--CMAPPUSAGEVALUE) !important;
+  font-weight: VAR(--CMAPPUSAGEVALUEFW) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  svg {
+  display: NONE !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {

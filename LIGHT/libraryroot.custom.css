@@ -19,10 +19,14 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --CMAPPNAME:VAR(--ACCENT);
-  --CMAPPHOVER:VAR(--BASE3);
-  --CMAPPHEADER:VAR(--ACCENT);
-  --CMAPPHEADERVALUE:VAR(--ACCENT);
+  --CMAPPUSAGETEXT:VAR(--ACCENT);
+  --CMAPPUSAGETEXTFW:400;
+  --CMAPPUSAGEVALUEFW:400;
+  --CMAPPUSAGEVALUE: VAR(--ACCENT);
+  --CMAPPNAME: VAR(--ACCENT);
+  --CMAPPHOVER: VAR(--BASE3);
+  --CMAPPHEADER: VAR(--ACCENT);
+  --CMAPPHEADERVALUE: VAR(--ACCENT);
   --STORAGEMANAGERFONTWEIGHT: 400;
   --DRIVESIZEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --CONTENTMANAGEMENT: VAR(--BASE2);
@@ -600,6 +604,10 @@
   color: var(--ACCENT) !important;
 }
 
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce svg {
+  DISPLAY:NONE!important;
+}
+
 .contentmanagement_AppActionBar_35T-O {
   border-top: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
   background-color: var(--APPACTIONBAR) !important;
@@ -609,18 +617,33 @@
   display: none !important;
 }
 
-.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
-  background-color:var(--CMAPPHOVER)!important;
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageText_1G9v2 {
+  COLOR:VAR(--CMAPPUSAGETEXT)!important;
+  font-weight:var(--CMAPPUSAGETEXTFW)!important;
 }
 
-.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppName_YxhO6 {
-  COLOR:VAR(--CMAPPNAME)!important;
-  FONT-FAMILY:SEGOE UI!important;
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppUsageValue_2B8dj {
+  color: var(--CMAPPUSAGEVALUE) !important;
+  font-weight: VAR(--CMAPPUSAGEVALUEFW) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
+  background-color: var(--CMAPPHOVER) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppName_YxhO6 {
+  color: VAR(--CMAPPNAME) !important;
+  font-family: SEGOE UI !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
-  COLOR:VAR(--CMAPPHEADER)!important;
-  FONT-FAMILY:SEGOE UI!important;
+  color: VAR(--CMAPPHEADER) !important;
+  font-family: SEGOE UI !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
