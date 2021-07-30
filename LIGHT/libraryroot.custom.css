@@ -866,7 +866,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
-  color:transparent!important;
+  color: transparent !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
@@ -942,6 +942,13 @@ div.MediumWindow
   background-image: unset !important;
 }
 
+.downloadgraph_DownloadGraphLegend_hGZq4 {
+  position: absolute !important;
+  left: 4px !important;
+  top: 7px !important;
+  flex-direction:column!important;
+}
+
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
   color: transparent !important;
   border-left: 4px solid var(--NETDOWNLOADLEGEND) !important;
@@ -994,6 +1001,8 @@ div.MediumWindow
 }
 
 .downloadgraph_StatsPanel_3mdnp {
+  position: ABSOLUTE !important;
+  padding-left: 4px !important;
   margin-left: 4px !important;
   background: var(--DOWNLOADGRAPHLEGENDBG) !important;
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;

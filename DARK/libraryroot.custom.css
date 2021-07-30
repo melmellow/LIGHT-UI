@@ -993,7 +993,16 @@ div.MediumWindow
   background: var(--DOWNLOADSTATBG) !important;
 }
 
+.downloadgraph_DownloadGraphLegend_hGZq4 {
+  position: absolute !important;
+  left: 4px !important;
+  top: 7px !important;
+  flex-direction: column !important;
+}
+
 .downloadgraph_StatsPanel_3mdnp {
+  position: absolute !important;
+  padding-left: 4px !important;
   margin-left: 4px !important;
   background: var(--DOWNLOADGRAPHLEGENDBG) !important;
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
