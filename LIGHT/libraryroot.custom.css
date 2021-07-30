@@ -19,7 +19,10 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --DRIVESETTINGS:VAR(--ACCENT);
+  --ADDFOLDER:VAR(--ACCENT);
+  --DRIVESETTINGSHOVER:VAR(--BLACK);
+  --DRIVEUSAGETEXTFW: 400;
+  --DRIVESETTINGS: VAR(--ACCENT);
   --DRIVESETTINGSBG: TRANSPARENT;
   --CMAPPSIZEFW: 400;
   --CMAPPSIZE: VAR(--ACCENT);
@@ -34,7 +37,7 @@
   --STORAGEMANAGERFONTWEIGHT: 400;
   --DRIVESIZEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --CONTENTMANAGEMENT: VAR(--BASE2);
-  --DRIVEUSAGETEXT: VAR(--BLACK);
+  --DRIVEUSAGETEXT: VAR(--ACCENT);
   --APPACTIONBAR: VAR(--BASE3);
   --DRIVEUSAGENUMBER: VAR(--ACCENT);
   --DOWNLOADGRAPHBUTTONHOVER: VAR(--BLACK);
@@ -582,10 +585,26 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.PopupFullWindow .ModalPosition_Content>div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
+  user-select:none!important;
+}
+
+.contentmanagement_AddFolder_3C0_9 {
+  color:var(--ADDFOLDER)!important;
+}
+
+.contentmanagement_DriveUsageGames_22KCi {
+  background: VAR(--DRIVEUSAGEGAMES) !important;
+}
+
 .contentmanagement_DriveSettingsButton_1WKUO svg {
-  HEIGHT:20PX!important;
-  width:20px!important;
-  color:var(--DRIVESETTINGS)!important;
+  height: 20px !important;
+  width: 20px !important;
+  color: var(--DRIVESETTINGS) !important;
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO:hover {
+  color: var(--DRIVESETTINGSHOVER) !important;
 }
 
 .contentmanagement_IsSelected_3VQeL {
@@ -735,6 +754,7 @@
 .contentmanagement_DriveUsageText_1DFCG,
 .contentmanagement_DriveUsageNumber_181OY {
   color: VAR(--DRIVEUSAGETEXT) !important;
+  font-weight: var(--DRIVEUSAGETEXTFW) !important;
 }
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
