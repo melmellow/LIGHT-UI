@@ -19,6 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
+  --CMACTIVETABBR: 8px 8px 0 0;
   --ADDFOLDER: VAR(--ACCENT);
   --DRIVESETTINGSHOVER: VAR(--BLACK);
   --DRIVEUSAGETEXTFW: 400;
@@ -584,6 +585,12 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveName_1rihl,
+.contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveSize_5bG9I,
+.contentmanagement_InstallFolder_12aBP:hover svg {
+  color: var(--ACCENT) !important;
+}
+
 .PopupFullWindow
   .ModalPosition_Content
   > div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
@@ -612,10 +619,12 @@
   border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
   border-left: 1px solid var(--APPDETAILSPANELBORDER) !important;
   border-right: 1px solid var(--APPDETAILSPANELBORDER) !important;
-  border-radius: 4px 4px 0 0 !important;
+  border-radius: var(--CMACTIVETABBR) !important +;
 }
 
 .contentmanagement_DriveSize_5bG9I {
+  line-height: 21px !important;
+  font-family: segoe ui !important;
   font-weight: var(--DRIVESIZEFONTWEIGHT) !important;
   white-space: nowrap !important;
 }
@@ -729,6 +738,7 @@
 }
 
 .contentmanagement_DriveName_1rihl {
+  font-family: segoe ui !important;
   line-height: 22px !important;
   margin-right: 4px !important;
   text-transform: uppercase !important;
