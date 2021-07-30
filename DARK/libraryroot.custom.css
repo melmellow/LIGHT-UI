@@ -936,7 +936,7 @@ div.MediumWindow
   background-image: unset !important;
 }
 
-.downloads_DownloadGraphLegend_3_GZ_ .downloads_Network_2mLZn svg {
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
   color: transparent !important;
   border-left: 4px solid var(--NETDOWNLOADLEGEND) !important;
   height: 88px !important;
@@ -951,9 +951,14 @@ div.MediumWindow
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
 }
 
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskGraph_2-AUy {
+  top: 7px !important;
+}
+
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stats_3RfkF {
   flex-direction: column !important;
   position: absolute !important;
+  top: 7px !important;
   left: 0 !important;
 }
 
@@ -982,7 +987,7 @@ div.MediumWindow
   background: var(--DOWNLOADSTATBG) !important;
 }
 
-.downloads_DownloadGraphLegend_3_GZ_ {
+.downloadgraph_StatsPanel_3mdnp {
   margin-left: 4px !important;
   background: var(--DOWNLOADGRAPHLEGENDBG) !important;
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
