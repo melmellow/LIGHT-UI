@@ -612,7 +612,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
   -webkit-mask-image: unset !important;
-  --negative-margin: 40px !important;
+  /* --negative-margin: 40px !important; */
 }
 
 .contentmanagement_AppsGrid_2n6FN
