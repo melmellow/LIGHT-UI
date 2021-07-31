@@ -822,7 +822,7 @@
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w {
-  MARGIN-TOP:0!important;
+  margin-top: 0 !important;
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
@@ -1113,7 +1113,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 
 .downloadgraph_DownloadGraph_1BxZD {
   transform: SCALEX(-1) !important;
-  margin-left: 207px !important;
+  margin-left: 204px !important;
   margin-right: 7px !important;
 }
 
@@ -1197,7 +1197,7 @@ div.MediumWindow
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
   font-family: segoe ui !important;
   line-height: 17px !important;
-  margin-right: 5px !important;
+  margin-right: 2px !important;
   float: right !important;
   color: VAR(--DOWNLOADSFIGURE) !important;
   font-weight: var(--DOWNLOADSFIGUREFONTWEIGHT) !important;
@@ -1209,7 +1209,7 @@ div.MediumWindow
   margin-left: 13px !important;
   font-family: segoe ui !important;
   font-size: 12px !important;
-  width: 168px !important;
+  width: 165px !important;
   padding: 5px !important;
   padding-left: 9px !important;
   text-align: left !important;

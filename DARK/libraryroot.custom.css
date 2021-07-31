@@ -881,7 +881,7 @@
 
 .downloadgraph_DownloadGraph_1BxZD {
   transform: SCALEX(-1) !important;
-  margin-left: 207px !important;
+  margin-left: 204px !important;
   margin-right: 7px !important;
 }
 
@@ -1190,7 +1190,7 @@ div.MediumWindow
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
   font-family: segoe ui !important;
   line-height: 17px !important;
-  margin-right: 5px !important;
+  margin-right: 2px !important;
   float: right !important;
   color: VAR(--DOWNLOADSFIGURE) !important;
   font-weight: var(--DOWNLOADSFIGUREFONTWEIGHT) !important;
@@ -1200,7 +1200,7 @@ div.MediumWindow
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
   margin-bottom: 2px !important;
   margin-left: 13px !important;
-  width: 168px !important;
+  width: 165px !important;
   font-size: 12px !important;
   font-family: segoe ui !important;
   padding: 5px !important;
