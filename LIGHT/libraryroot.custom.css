@@ -19,7 +19,7 @@
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
-  --CMINSTALLFOLDERHOVER: VAR(--BLACK);
+  --CMINSTALLFOLDERHOVER: VAR(--ACCENT);
   --CMINSTALLFOLDER: VAR(--ACCENT);
   --CMACTIVETABBR: 8px 8px 0 0;
   --ADDFOLDER: VAR(--ACCENT);
@@ -29,6 +29,7 @@
   --DRIVESETTINGSBG: TRANSPARENT;
   --CMAPPSIZEFW: 400;
   --CMAPPSIZE: VAR(--ACCENT);
+  --CMAPPSIZEHOVER: VAR(--BLACK);
   --CMAPPUSAGETEXT: VAR(--ACCENT);
   --CMAPPUSAGETEXTFW: 400;
   --CMAPPUSAGEVALUEFW: 400;
@@ -588,8 +589,13 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppSize_mohK9:hover {
+  color: VAR(--CMAPPSIZEHOVER) !important;
+}
+
 .boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
-  -webkit-mask-image:unset!important;
+  -webkit-mask-image: unset !important;
+  --negative-margin:40px!important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
@@ -638,7 +644,7 @@
 }
 
 .contentmanagement_IsSelected_3VQeL {
-  cursor:unset!important;
+  cursor: unset !important;
   border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
   border-left: 1px solid var(--APPDETAILSPANELBORDER) !important;
   border-right: 1px solid var(--APPDETAILSPANELBORDER) !important;
@@ -763,7 +769,7 @@
 }
 
 .contentmanagement_InstallFolder_12aBP {
-  cursor:unset!important;
+  cursor: unset !important;
   color: var(--CMINSTALLFOLDER) !important;
   padding: 10px 14px 10px 14px !important;
 }
