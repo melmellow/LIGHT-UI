@@ -591,8 +591,15 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
-.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_Rule_2iZ4o {
-  flex-grow:0!important;
+button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary {
+  padding: 0 !important;
+  min-width: 100px !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppHeader_3_uaa
+  .contentmanagement_Rule_2iZ4o {
+  flex-grow: 0 !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_LibraryInventory_299aN {
@@ -826,8 +833,9 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
-.downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp {
-  width:100%!important;
+.downloads_SectionItemStatus_1Sygg
+  .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp {
+  width: 100% !important;
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w {
