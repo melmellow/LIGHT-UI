@@ -826,6 +826,10 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp {
+  width:100%!important;
+}
+
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w {
   margin-top: 0 !important;
 }
