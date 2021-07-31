@@ -821,6 +821,10 @@
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w {
+  MARGIN-TOP:0!important;
+}
+
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
   background: var(--BASE5) !important;
 }
@@ -1147,7 +1151,7 @@ button.downloadgraph_Button_3Tfp8.DialogButton._DialogLayout.Secondary:hover {
 }
 
 .downloadgraph_GraphAndStats_3KDkL {
-  height: 140px !important;
+  height: 132px !important;
   background-color: var(--GRAPHANDSTATSBG) !important;
 }
 
@@ -1167,13 +1171,13 @@ div.MediumWindow
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
   color: transparent !important;
   border-left: 4px solid var(--NETDOWNLOADLEGEND) !important;
-  height: 88px !important;
-  margin-top: 74px !important;
+  height: 84px !important;
+  margin-top: 68px !important;
 }
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
   height: 24px;
-  margin-top: 79px;
+  margin-top: 72px;
   width: 4px;
   border-radius: 50px !important;
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
@@ -1192,7 +1196,7 @@ div.MediumWindow
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
   font-family: segoe ui !important;
-  line-height: 21px !important;
+  line-height: 17px !important;
   margin-right: 5px !important;
   float: right !important;
   color: VAR(--DOWNLOADSFIGURE) !important;
@@ -1206,7 +1210,7 @@ div.MediumWindow
   font-family: segoe ui !important;
   font-size: 12px !important;
   width: 168px !important;
-  padding: 4px !important;
+  padding: 5px !important;
   padding-left: 9px !important;
   text-align: left !important;
   border-radius: var(--DOWNLOADSTATBR) !important;
