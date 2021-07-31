@@ -590,6 +590,12 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppHeader_3_uaa
+  .contentmanagement_Rule_2iZ4o {
+  flex-grow: 0 !important;
+}
+
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_LibraryInventory_299aN {
   overflow-x: unset !important;
 }
@@ -747,6 +753,7 @@
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
+  padding-right: 12px !important;
   color: VAR(--CMAPPHEADER) !important;
   text-transform: var(--CMAPPHEADERTEXTCASE) !important;
   font-family: SEGOE UI !important;
@@ -6028,7 +6035,7 @@ A {
 
 .appgrid_SortingDropDownContainer_1ZpBQ {
   margin-left: 0 !important;
-  min-width: 218px !important;
+  /* min-width: 218px !important; */
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ > div {
