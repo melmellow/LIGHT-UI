@@ -37,6 +37,7 @@
   --CMAPPNAME: VAR(--ACCENT);
   --CMAPPHOVER: VAR(--BASE3);
   --CMAPPHEADER: VAR(--ACCENT);
+  --CMAPPHEADERTEXTCASE: UPPERCASE;
   --CMAPPHEADERVALUE: VAR(--ACCENT);
   --STORAGEMANAGERFONTWEIGHT: 400;
   --DRIVESIZEFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -698,6 +699,7 @@
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
   background-color: var(--CMAPPHOVER) !important;
+  BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
@@ -741,6 +743,7 @@
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
   color: VAR(--CMAPPHEADER) !important;
+  text-transform: var(--CMAPPHEADERTEXTCASE) !important;
   font-family: SEGOE UI !important;
 }
 
