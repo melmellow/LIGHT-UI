@@ -72,6 +72,7 @@
   --PROGRESSDETAILS: VAR(--ACCENT);
   --PROGRESSDETAILSFONTWEIGHT: 400;
   --DOWNLOADING: VAR(--BLUE);
+  --UPDATING: VAR(--BLUE);
   --ACTIVEHOURSHOVER: VAR(--BLACK);
   --DOWNLOADSITEMSTATUSFONTWEIGHT: 300;
   --DOWNLOADNAMEFONTWEIGHT: 500;
@@ -987,6 +988,13 @@
 .downloads_SectionItemStatus_1Sygg
   .downloads_State_2ns4w.downloads_Downloading_33BlY {
   color: var(--DOWNLOADING) !important;
+  font-family: SEGOE UI !important;
+}
+
+.downloads_SectionItemStatus_1Sygg
+  .downloads_SectionItemStatusLine_17xMw
+  .downloads_State_2ns4w {
+  color: var(--UPDATING) !important;
   font-family: SEGOE UI !important;
 }
 

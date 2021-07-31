@@ -72,6 +72,7 @@
   --PROGRESSDETAILS: VAR(--ACCENT);
   --PROGRESSDETAILSFONTWEIGHT: 400;
   --DOWNLOADING: VAR(--BLUE);
+  --UPDATING: VAR(--BLUE);
   --ACTIVEHOURSHOVER: VAR(--BLACK);
   --DOWNLOADSITEMSTATUSFONTWEIGHT: 400;
   --DOWNLOADNAMEFONTWEIGHT: 400;
@@ -968,6 +969,13 @@
   font-family: SEGOE UI !important;
 }
 
+.downloads_SectionItemStatus_1Sygg
+  .downloads_SectionItemStatusLine_17xMw
+  .downloads_State_2ns4w {
+  color: var(--UPDATING) !important;
+  font-family: SEGOE UI !important;
+}
+
 .downloads_StatsPanel_2IXt5 {
   padding-right: 0 !important;
   flex: 0 !important;
@@ -1441,8 +1449,12 @@ div.MediumWindow
 
 /*-------------------------- SHOWCASE HEADER DRAG HANDLE --------------------------*/
 
-.LibraryDisplaySizeSmall .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU {
-  margin-bottom:4px!important;
+.LibraryDisplaySizeSmall
+  .allcollections_ScrollContainer_u1xD3
+  .allcollections_Grid_Ma65K
+  .allcollections_NewCollection_2_dwx
+  .allcollections_BigPlus_g0-tU {
+  margin-bottom: 4px !important;
 }
 
 .library_ContextMenuAction_Z5iAX.Download,
