@@ -9,7 +9,7 @@
 			render_bg { }
 		}
 
-		button:hover { textcolor=A2TextFocusHover }
+		button:hover { textcolor=ACCENT }
 	}
 
 	layout {
