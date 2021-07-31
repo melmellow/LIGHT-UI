@@ -1440,6 +1440,14 @@ div.MediumWindow
 
 /*-------------------------- SHOWCASE HEADER DRAG HANDLE --------------------------*/
 
+.LibraryDisplaySizeSmall
+  .allcollections_ScrollContainer_u1xD3
+  .allcollections_Grid_Ma65K
+  .allcollections_NewCollection_2_dwx
+  .allcollections_BigPlus_g0-tU {
+  margin-bottom: 4px !important;
+}
+
 .library_ContextMenuAction_Z5iAX.Download,
 .library_ContextMenuAction_Z5iAX.Update,
 .library_ContextMenuAction_Z5iAX.PreLoad,

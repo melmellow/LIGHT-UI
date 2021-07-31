@@ -591,7 +591,7 @@
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_LibraryInventory_299aN {
-  overflow-x:unset!important;
+  overflow-x: unset !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppSize_mohK9:hover {
@@ -1440,6 +1440,10 @@ div.MediumWindow
 }
 
 /*-------------------------- SHOWCASE HEADER DRAG HANDLE --------------------------*/
+
+.LibraryDisplaySizeSmall .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU {
+  margin-bottom:4px!important;
+}
 
 .library_ContextMenuAction_Z5iAX.Download,
 .library_ContextMenuAction_Z5iAX.Update,
@@ -6018,7 +6022,7 @@ A {
 
 .appgrid_SortingDropDownContainer_1ZpBQ {
   margin-left: 0 !important;
-  min-width:unset!important;
+  min-width: unset !important;
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ > div {
