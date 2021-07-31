@@ -589,6 +589,10 @@
 
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_LibraryInventory_299aN {
+  overflow-x: unset !important;
+}
+
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppSize_mohK9:hover {
   color: VAR(--CMAPPSIZEHOVER) !important;
 }
@@ -699,7 +703,7 @@
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
   background-color: var(--CMAPPHOVER) !important;
-  BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
