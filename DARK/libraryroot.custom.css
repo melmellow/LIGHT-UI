@@ -1,5 +1,9 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
+
+  --SwapColumns: right;
+  --FriendsDLCScreenshotsColumnWidth: 33%; 
+
   --DISPLAYCOMMUNITYCONTENT: GRID; /*DEFAULT IS "GRID" */
   --DISPLAYAPPDETAILS: flex; /*DEFAULT IS FLEX, set to "contents" when disabling community content*/
   --DISPLAYLIBRARYPANEL: FLEX;
@@ -1268,6 +1272,13 @@ div.MediumWindow
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 /* -------------------------- jonius7 -------------------------- */
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+  width: var(--FriendsDLCScreenshotsColumnWidth);
+  margin-left: 0;
+  margin-right: 10px;
+  float: var(--SwapColumns);
+}
 
 .cssgrid_CSSGrid_3vHkm.libraryhomeshowcases_ShowcaseGrid_3DJLG,
 .appgrid_YourCollection_11p6F {
