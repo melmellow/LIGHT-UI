@@ -90,6 +90,7 @@
   --DOWNLOADSFIGUREFONTWEIGHT: 400;
   --DOWNLOADSTATBR: 4px;
   --DOWNLOADSTATBORDER: VAR(--SHADOW);
+  --DOWNLOADSTATBG: VAR(--BASE1);
   --DOWNLOADSITEMSTATUS: VAR(--ACCENT);
   --DOWNLOADITEMBORDER: VAR(--APPDETAILSPANELBORDER);
   --DOWNLOADNAME: VAR(--ACCENT);
@@ -98,7 +99,7 @@
   --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 400;
-  --DOWNLOADGRAPHLEGENDDISPLAY: none;
+  --DOWNLOADGRAPHLEGENDDISPLAY: unset;
   --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --NETGRAPH: VAR(--BUTTON2);
@@ -853,12 +854,12 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   opacity: 1 !important;
 }
 
-.downloads_TopBar_SEmVp {
-  display: none !important;
-}
-
 .downloads_Active_IbePL .downloads_SectionList_OINnO {
   border: 0 !important;
+}
+
+.downloads_TopBar_SEmVp {
+  display: none !important;
 }
 
 .downloadgraph_HeroAndLogo_3mZ2r {
@@ -900,12 +901,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   height: 0 !important;
 }
 
-.downloadgraph_DownloadGraph_1BxZD {
-  transform: SCALEX(-1) !important;
-  margin-left: 204px !important;
-  margin-right: 7px !important;
-}
-
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
   border: 2px DASHED VAR(--DROPOPTIONBORDER) !important;
 }
@@ -935,28 +930,13 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color: var(--ADDTOQUEUE) !important;
 }
 
-.downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
-  opacity: 0 !important;
-}
-
-.downloads_SectionItem_1VNuY:hover,
-.downloads_SectionItem_1VNuY:hover.downloads_Dragging_3-SbB,
-.downloads_SectionItem_1VNuY:hover .downloads_DragHandle_14DhZ {
-  transition: all 0.18s ease-in-out !important;
-  opacity: 1 !important;
+.downloads_SectionItem_1VNuY .downloads_AddToQueueButton_jA04n:hover {
+  color: var(--DOWNLOADSBUTTONHOVER) !important;
 }
 
 .downloads_SectionItem_1VNuY
   .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V:hover {
   filter: var(--REMOVEFROMQUEUEHOVERFILTER) !important;
-}
-
-.downloads_Section_3Mbhn {
-  padding-bottom: 0 !important;
-}
-
-.downloads_SectionItemStatus_1Sygg .downloads_Progress_FuJLs {
-  color: var(--PROGRESS) !important;
 }
 
 .downloads_EmptyTransfers_1zv2D {
@@ -991,6 +971,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   margin-top: 0 !important;
 }
 
+.downloads_Section_3Mbhn {
+  padding-bottom: 0 !important;
+}
+
 .downloads_SectionList_OINnO {
   padding-top: 0 !important;
 }
@@ -1002,12 +986,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
   display: NONE !important;
   color: var(--DOWNLOADSTARTTIME) !important;
-}
-
-.downloads_ProgressDetails_sv3ZH {
-  font-family: segoe ui !important;
-  color: VAR(--PROGRESSDETAILS) !important;
-  font-weight: VAR(--PROGRESSDETAILSFONTWEIGHT) !important;
 }
 
 .downloads_SectionItemStatus_1Sygg
@@ -1040,17 +1018,23 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color: var(--ACTIVEHOURSHOVER) !important;
 }
 
-.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj {
-  color: var(--DOWNLOADSVALUE) !important;
+.downloads_ProgressDetails_sv3ZH {
+  font-family: segoe ui !important;
+  color: VAR(--PROGRESSDETAILS) !important;
+  font-weight: var(--PROGRESSDETAILSFONTWEIGHT) !important;
 }
 
-.downloads_SectionItem_1VNuY .downloads_Button_3oavR svg {
-  width: 20px !important;
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj {
+  color: var(--DOWNLOADSVALUE) !important;
 }
 
 .downloads_SectionItemButtons_31Ig9.downloads_SectionItemButtons_31Ig9
   .downloads_PlayWrapper_1f5xq {
   background-color: VAR(--DOWNLOADSPLAYBUTTONBG) !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR svg {
+  width: 20px !important;
 }
 
 .downloads_PlayWrapper_1f5xq.Focusable:hover {
@@ -1062,8 +1046,8 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   width: 20px !important;
 }
 
-button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
-.downloads_SectionItem_1VNuY .downloads_AddToQueueButton_jA04n {
+button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
+.downloads_SectionItem_1VNuY:hover .downloads_AddToQueueButton_jA04n:hover {
   color: var(--DOWNLOADSBUTTONHOVER) !important;
   border-color: var(--DOWNLOADSBUTTONHOVER) !important;
 }
@@ -1079,7 +1063,6 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
   padding: 5px !important;
   border: 2px solid var(--ACCENT) !important;
   border-radius: 50px !important;
-  border: 0 !important;
   height: 14px !important;
   width: 14px !important;
 }
@@ -1088,6 +1071,10 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
   .downloads_State_2ns4w
   .downloads_InProgress_3Wavc {
   color: VAR(--DOWNLOADPAUSEDLABEL) !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
+  opacity: 0 !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ svg {
@@ -1106,14 +1093,6 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
   color: VAR(--DOWNLOADSDRAGHANDLE) !important;
 }
 
-.downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
-  font-family: segoe ui !important;
-  font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
-  font-size: 13px !important;
-  color: VAR(--DOWNLOADNAME) !important;
-  text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
-}
-
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL,
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
   color: VAR(--NETGRAPH) !important;
@@ -1122,6 +1101,14 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
   color: transparent !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+  font-family: segoe ui !important;
+  font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
+  font-size: 13px !important;
+  color: VAR(--DOWNLOADNAME) !important;
+  text-transform: VAR(--DOWNLOADNAMETEXTCASE) !important;
 }
 
 .downloads_SectionItem_1VNuY {
@@ -1138,13 +1125,30 @@ button.downloads_Button_3oavR.DialogButton._DialogLayout.Secondary:hover,
   background-color: var(--DOWNLOADITEMHOVER) !important;
 }
 
+.downloads_SectionItem_1VNuY:hover,
+.downloads_SectionItem_1VNuY:hover.downloads_Dragging_3-SbB,
+.downloads_SectionItem_1VNuY:hover .downloads_DragHandle_14DhZ {
+  transition: all 0.18s ease-in-out !important;
+  opacity: 1 !important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD {
+  transform: SCALEX(-1) !important;
+  margin-left: 204px !important;
+  margin-right: 7px !important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
+  stroke: VAR(--DISKGRAPH) !important;
+  stroke-width: var(--DISKGRAPHSTROKEWIDTH) !important;
+}
+
 .downloads_ItemLists_1ugNi {
   background: VAR(--DOWNLOADSITEMLIST) !important;
 }
 
-.downloadgraph_GraphAndStats_3KDkL {
-  height: 132px !important;
-  background-color: var(--GRAPHANDSTATSBG) !important;
+.downloads_SectionItemStatus_1Sygg .downloads_Progress_FuJLs {
+  color: var(--PROGRESS) !important;
 }
 
 .downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
@@ -1167,19 +1171,22 @@ button.downloadgraph_Button_3Tfp8.DialogButton._DialogLayout.Secondary:hover {
   color: var(--DOWNLOADGRAPHBUTTONHOVER) !important;
 }
 
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
-  stroke: VAR(--DISKGRAPH) !important;
-  stroke-width: var(--DISKGRAPHSTROKEWIDTH) !important;
-}
-
-.downloads_DownloadGraph_1ashw .downloads_GraphBar_33npA {
-  fill: VAR(--NETGRAPH) !important;
+.downloadgraph_GraphAndStats_3KDkL {
+  height: 132px !important;
+  background-color: var(--GRAPHANDSTATSBG) !important;
 }
 
 div.MediumWindow
   .downloadgraph_DownloadGraph_1BxZD
   .downloadgraph_Gradient_RfMM3 {
   background-image: unset !important;
+}
+
+.downloadgraph_DownloadGraphLegend_hGZq4 {
+  position: absolute !important;
+  left: 4px !important;
+  top: 7px !important;
+  flex-direction: column !important;
 }
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
@@ -1221,39 +1228,24 @@ div.MediumWindow
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
   margin-bottom: 2px !important;
   margin-left: 13px !important;
-  width: 165px !important;
-  font-size: 12px !important;
   font-family: segoe ui !important;
+  font-size: 12px !important;
+  width: 165px !important;
   padding: 5px !important;
   padding-left: 9px !important;
   text-align: left !important;
-  border-radius: VAR(--DOWNLOADSTATBR) !important;
-  color: VAR(--DOWNLOADSTAT) !important;
+  border-radius: var(--DOWNLOADSTATBR) !important;
   border: 1px solid var(--DOWNLOADSTATBORDER) !important;
+  color: VAR(--DOWNLOADSTAT) !important;
   background: var(--DOWNLOADSTATBG) !important;
 }
 
-.downloadgraph_DownloadGraphLegend_hGZq4 {
-  position: absolute !important;
-  left: 4px !important;
-  top: 7px !important;
-  flex-direction: column !important;
-}
-
 .downloadgraph_StatsPanel_3mdnp {
-  position: absolute !important;
+  position: ABSOLUTE !important;
   padding-left: 4px !important;
   margin-left: 4px !important;
   background: var(--DOWNLOADGRAPHLEGENDBG) !important;
   display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
-}
-
-.downloads_SectionTitle_qq2xI {
-  line-height: 18px !important;
-  padding: 0 14px !important;
-  font-family: SEGOE UI semibold !important;
-  font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
-  font-size: 12px !important;
 }
 
 .downloads_SectionTitle_qq2xI
@@ -1269,28 +1261,13 @@ div.MediumWindow
   color: var(--DOWNLOADSECTIONCOUNT) !important;
 }
 
-/*-------------------------- DOWNLOADS PAGE --------------------------*/
-
-/* -------------------------- jonius7 -------------------------- */
-
-.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
-  width: var(--FriendsDLCScreenshotsColumnWidth);
-  margin-left: 0;
-  margin-right: 10px;
-  float: var(--SwapColumns);
-}
-
-.cssgrid_CSSGrid_3vHkm.libraryhomeshowcases_ShowcaseGrid_3DJLG,
-.appgrid_YourCollection_11p6F {
-  gap: var(--gridrowgap) var(--gridcolumngap) !important;
-  padding-left: 1px !important;
-  padding-right: 1px !important;
-}
-
-.appportrait_Draggable_1pwP4
-  > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
-  opacity: var(--UNINSTALLEDGAMEIMAGEOPACITY) !important;
-  filter: VAR(--UNINSTALLEDGAMEIMAGEFILTER) !important;
+.downloads_SectionTitle_qq2xI {
+  /* display: none !important; */
+  line-height: 18px !important;
+  padding: 0 14px !important;
+  font-family: SEGOE UI semibold !important;
+  font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
+  font-size: 12px !important;
 }
 
 /* -------------------------- jonius7 -------------------------- */
