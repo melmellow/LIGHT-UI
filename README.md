@@ -2,6 +2,8 @@
 
 ![LIGHT UI](https://i.imgur.com/YabnX7y.png)
 
+![LIGHT UI](https://i.imgur.com/7Em6kqJ.png)
+
 ![LIGHT UI](https://media.giphy.com/media/0Ar6OuLLCNriyjYN3F/giphy.gif)
 
 ![LIGHT UI DOWNLOADS PAGE](https://media.giphy.com/media/DCuD7Vpz15mIFyYWvJ/giphy.gif)
