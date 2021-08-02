@@ -85,7 +85,6 @@
   --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
   --DISKGRAPHSTROKEWIDTH: 1px;
   --ACTIVEHOURS: VAR(--ACCENT);
-  --DOWNLOADSECTIONCOUNT: transparent;
   --DOWNLOADSFIGUREFONTWEIGHT: 400;
   --DOWNLOADSTATBR: 4px;
   --DOWNLOADSTATBORDER: VAR(--SHADOW);
@@ -95,12 +94,10 @@
   --DOWNLOADITEMBORDER: VAR(--APPDETAILSPANELBORDER);
   --DOWNLOADNAMETEXTCASE: UPPERCASE;
   --DOWNLOADNAME: VAR(--ACCENT);
-  --DOWNLOADSECTIONTITLE: transparent;
   --DOWNLOADITEM: VAR(--BASE1);
   --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 500;
-  --DOWNLOADGRAPHLEGENDDISPLAY: unset;
   --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --DOWNLOADSTAT: VAR(--BLACK);
@@ -1249,7 +1246,6 @@ div.MediumWindow
   padding-left: 4px !important;
   margin-left: 4px !important;
   background: var(--DOWNLOADGRAPHLEGENDBG) !important;
-  display: var(--DOWNLOADGRAPHLEGENDDISPLAY) !important;
 }
 
 .downloads_SectionTitle_qq2xI
@@ -1258,11 +1254,11 @@ div.MediumWindow
 .downloads_SectionJumpBar_mw7VZ
   .downloads_TitleAndCount_ROxNr
   .downloads_Title_TK9wv {
-  color: VAR(--DOWNLOADSECTIONTITLE) !important;
+  color: transparent !important;
 }
 
 .downloads_SectionTitle_qq2xI .downloads_Count_1CGnw {
-  color: var(--DOWNLOADSECTIONCOUNT) !important;
+  color: transparent !important;
 }
 
 .downloads_SectionTitle_qq2xI {
