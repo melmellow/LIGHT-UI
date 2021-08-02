@@ -99,6 +99,7 @@
   --DOWNLOADSECTIONTITLEFONTWEIGHT: 400;
   --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
+  --DOWNLOADSTAT: WHITE;
   --NETGRAPH: VAR(--BUTTON2);
   --DISKGRAPH: VAR(--GREEN);
   --NETDOWNLOADLEGEND: VAR(--BUTTON2);
@@ -1269,6 +1270,28 @@ div.MediumWindow
   font-family: SEGOE UI semibold !important;
   font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
   font-size: 12px !important;
+}
+
+/* -------------------------- jonius7 -------------------------- */
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+  width: var(--FriendsDLCScreenshotsColumnWidth);
+  margin-left: 0;
+  margin-right: 10px;
+  float: var(--SwapColumns);
+}
+
+.cssgrid_CSSGrid_3vHkm.libraryhomeshowcases_ShowcaseGrid_3DJLG,
+.appgrid_YourCollection_11p6F {
+  gap: var(--gridrowgap) var(--gridcolumngap) !important;
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+}
+
+.appportrait_Draggable_1pwP4
+  > .appportrait_LibraryItemBox_WYgDg:nth-last-of-type(2) {
+  opacity: var(--UNINSTALLEDGAMEIMAGEOPACITY) !important;
+  filter: VAR(--UNINSTALLEDGAMEIMAGEFILTER) !important;
 }
 
 /* -------------------------- jonius7 -------------------------- */
@@ -4255,11 +4278,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .infoicon_MoreInfoIcon_34I5H {
   background-color: var(--MOREINFOICON) !important;
   color: var(--MOREINFOICONQMARK) !important;
-}
-
-.allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K {
-  gap: var(--COLLECTIONGRIDROWGAP) VAR(--COLLECTIONGRIDCOLUMNGAP) !important;
-  padding-top: 0 !important;
 }
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
