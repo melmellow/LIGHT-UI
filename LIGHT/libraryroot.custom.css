@@ -837,6 +837,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_ProgressDetails_sv3ZH {
+  margin-right:0!important;
+}
+
 .downloads_SectionItemStatus_1Sygg
   .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp {
   width: 100% !important;
