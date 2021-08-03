@@ -28,7 +28,7 @@
   --CMACTIVETABBR: 8px 8px 0 0;
   --ADDFOLDER: VAR(--ACCENT);
   --DRIVESETTINGSHOVER: VAR(--BLACK);
-  --DRIVEUSAGETEXTFW: 400;
+  --DRIVEUSAGETEXTFW: 500;
   --DRIVESETTINGS: VAR(--ACCENT);
   --DRIVESETTINGSBG: TRANSPARENT;
   --CMAPPSIZEFW: 400;
@@ -589,7 +589,15 @@
   */
 }
 
-/*-------------------------- LIBRARY MANAGER --------------------------*/
+/*-------------------------- STORAGE MANAGER --------------------------*/
+
+.contentmanagement_DriveUsageText_1DFCG, .contentmanagement_DriveUsageNumber_181OY {
+  font-family:segoe ui!important;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppInfoItem_1L9a0 {
+  font-family:segoe ui!important;
+}
 
 button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary {
   padding: 0 !important;
