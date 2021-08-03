@@ -906,6 +906,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
+  border-radius:var(--DOWNLOADITEMBR)!important;
   border: 2px DASHED VAR(--DROPOPTIONBORDER) !important;
 }
 
