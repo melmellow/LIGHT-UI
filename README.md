@@ -1,11 +1,18 @@
 # PREVIEW - [![paypal](https://i.imgur.com/STidKfu.png)](https://www.paypal.com/donate?hosted_button_id=3ZF6GWCRZEVUC)
-![LIGHT UI THUMBNAIL](https://media.giphy.com/media/NWDpqe7kyPP35OvBp7/giphy.gif)
+
+![LIGHT UI](https://i.imgur.com/YabnX7y.png)
+
+![LIGHT UI](https://i.imgur.com/QxdaBEX.png)
+
+![LIGHT UI](https://i.imgur.com/7Em6kqJ.png)
+
+![LIGHT UI](https://i.imgur.com/iTTOT3q.png)
+
+![LIGHT UI](https://i.imgur.com/VMD2aZt.png)
+
+![LIGHT UI](https://i.imgur.com/0bjNL3o.png)
 
 ![LIGHT UI](https://media.giphy.com/media/0Ar6OuLLCNriyjYN3F/giphy.gif)
-
-![LIGHT UI DOWNLOADS PAGE](https://media.giphy.com/media/DCuD7Vpz15mIFyYWvJ/giphy.gif)
-
-![LIGHT UI DESKTOP](https://media.giphy.com/media/mjXCOXMe4YJjQoC5GZ/giphy.gif)
 
 
 
