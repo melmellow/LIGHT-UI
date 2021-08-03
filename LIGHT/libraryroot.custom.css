@@ -1505,6 +1505,10 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.libraryhomeshowcases_DropOption_1HgDL .libraryhomeshowcases_Showcase_V7RuD {
+  border:2px dashed var(--BLUE)!important;
+}
+
 .LibraryDisplaySizeSmall
   .allcollections_ScrollContainer_u1xD3
   .allcollections_Grid_Ma65K
