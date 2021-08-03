@@ -72,7 +72,6 @@
   --ADDTOQUEUE: VAR(--ACCENT);
   --REMOVEFROMQUEUEHOVERFILTER: var(--FILT);
   --PROGRESS: VAR(--ACCENT);
-  --DOWNLOADSTARTTIME: VAR(--ACCENT);
   --PROGRESSDETAILS: VAR(--ACCENT);
   --PROGRESSDETAILSFONTWEIGHT: 400;
   --DOWNLOADING: VAR(--BLUE);
@@ -833,6 +832,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+  margin-bottom:0!important;
+}
 
 .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_ProgressDetails_sv3ZH {
   margin-right:0!important;
