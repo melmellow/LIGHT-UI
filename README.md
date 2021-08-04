@@ -4,11 +4,15 @@
 
 ![LIGHT UI](https://i.imgur.com/QxdaBEX.png)
 
+![LIGHT UI](https://i.imgur.com/Mp39wfp.png)
+
 ![LIGHT UI](https://i.imgur.com/7Em6kqJ.png)
 
 ![LIGHT UI](https://i.imgur.com/iTTOT3q.png)
 
 ![LIGHT UI](https://i.imgur.com/VMD2aZt.png)
+
+![LIGHT UI](https://i.imgur.com/pxdiXhC.png)
 
 ![LIGHT UI](https://i.imgur.com/0bjNL3o.png)
 
