@@ -1,8 +1,7 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
-
   --SwapColumns: right;
-  --FriendsDLCScreenshotsColumnWidth: 33%; 
+  --FriendsDLCScreenshotsColumnWidth: 33%;
 
   --DISPLAYCOMMUNITYCONTENT: GRID; /*DEFAULT IS "GRID" */
   --DISPLAYAPPDETAILS: FLEX; /*DEFAULT IS FLEX, set to "contents" when disabling community content*/
@@ -591,12 +590,16 @@
 
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
-.contentmanagement_DriveUsageText_1DFCG, .contentmanagement_DriveUsageNumber_181OY {
-  font-family:segoe ui!important;
+.contentmanagement_DriveUsageText_1DFCG,
+.contentmanagement_DriveUsageNumber_181OY {
+  font-family: segoe ui !important;
 }
 
-.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppInfoItem_1L9a0 {
-  font-family:segoe ui!important;
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppInfoItem_1L9a0 {
+  font-family: segoe ui !important;
 }
 
 button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary {
@@ -842,11 +845,13 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
-  margin-bottom:0!important;
+  margin-bottom: 0 !important;
 }
 
-.downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_ProgressDetails_sv3ZH {
-  margin-right:0!important;
+.downloads_SectionItem_1VNuY
+  .downloads_DetailsAndType_Bku7J
+  .downloads_ProgressDetails_sv3ZH {
+  margin-right: 0 !important;
 }
 
 .downloads_SectionItemStatus_1Sygg
@@ -914,7 +919,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
-  border-radius:var(--DOWNLOADITEMBR)!important;
+  border-radius: var(--DOWNLOADITEMBR) !important;
   border: 2px DASHED VAR(--DROPOPTIONBORDER) !important;
 }
 
@@ -1165,7 +1170,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
-  BACKGROUND-COLOR:VAR(--DIVIDER)!important;
+  background-color: VAR(--DIVIDER) !important;
   /* display: none !important; */
 }
 
@@ -1262,7 +1267,7 @@ div.MediumWindow
 }
 
 .downloads_ContentTypes_1IKba .downloads_Icon_-OgRz {
-  DISPLAY:NONE!important;
+  display: NONE !important;
 }
 
 .downloads_SectionTitle_qq2xI
@@ -1272,18 +1277,18 @@ div.MediumWindow
   .downloads_TitleAndCount_ROxNr
   .downloads_Title_TK9wv {
   color: var(--ACCENT) !important;
-  text-transform:uppercase!important;
-  FONT-WEIGHT:VAR(--INSTALLEDGAMENAMEFONTWEIGHT)!important;
+  text-transform: uppercase !important;
+  font-weight: VAR(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
 }
 
 .downloads_SectionTitle_qq2xI .downloads_Count_1CGnw {
-  display:none!important;
+  display: none !important;
 }
 
 .downloads_SectionTitle_qq2xI {
   /* display: none !important; */
   padding: 0 14px !important;
-  font-family: SEGOE UI!important;
+  font-family: SEGOE UI !important;
   font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
   font-size: 12px !important;
 }
@@ -1502,10 +1507,10 @@ div.MediumWindow
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
 .allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
-  MARGIN-BOTTOM:7PX!important;
-  background-image:url(https://i.imgur.com/uV1uBAo.png)!important;
-  background-size:20px!important;
-  background-position:center!important;
+  margin-bottom: 7px !important;
+  background-image: url(https://i.imgur.com/uV1uBAo.png) !important;
+  background-size: 20px !important;
+  background-position: center !important;
   color: transparent !important;
   opacity: 50% !important;
   transform: scale(3) !important;
@@ -1513,8 +1518,17 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.comment_thread_ReactionIcon_QL3Aa {
+  filter: var(--FILT) !important;
+  opacity: var(--OP) !important;
+}
+
+.comment_thread_ReactionIcon_QL3Aa:hover{
+  opacity:1!important;
+}
+
 .libraryhomeshowcases_DropOption_1HgDL .libraryhomeshowcases_Showcase_V7RuD {
-  border:2px dashed var(--BLUE)!important;
+  border: 2px dashed var(--BLUE) !important;
 }
 
 .LibraryDisplaySizeSmall
@@ -6921,6 +6935,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .appactivityday_VideoCarousel_dUAJi .appactivityday_VideoTitle_1d0ij {
   color: var(--ACCENT) !important;
+  margin:8px!important;
 }
 .appdetailsachievementssection_UnlockedLabelPercent_14kZV {
   color: var(--ACCENT) !important;
