@@ -844,6 +844,15 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
+  padding-bottom: 5px !important;
+}
+
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
   margin-bottom: 0 !important;
 }
@@ -1251,7 +1260,7 @@ div.MediumWindow
   font-size: 12px !important;
   width: 165px !important;
   padding: 5px !important;
-  PADDING-BOTTOM:6PX!important;
+  padding-bottom: 6px !important;
   padding-left: 9px !important;
   text-align: left !important;
   border-radius: var(--DOWNLOADSTATBR) !important;
@@ -1295,7 +1304,7 @@ div.MediumWindow
 }
 
 .downloadgraph_SettingsButton_lzk4z {
-  top:7px!important;
+  top: 7px !important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
@@ -1528,8 +1537,8 @@ div.MediumWindow
   opacity: var(--OP) !important;
 }
 
-.comment_thread_ReactionIcon_QL3Aa:hover{
-  opacity:1!important;
+.comment_thread_ReactionIcon_QL3Aa:hover {
+  opacity: 1 !important;
 }
 
 .libraryhomeshowcases_DropOption_1HgDL .libraryhomeshowcases_Showcase_V7RuD {
@@ -6940,7 +6949,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .appactivityday_VideoCarousel_dUAJi .appactivityday_VideoTitle_1d0ij {
   color: var(--ACCENT) !important;
-  margin:8px!important;
+  margin: 8px !important;
 }
 .appdetailsachievementssection_UnlockedLabelPercent_14kZV {
   color: var(--ACCENT) !important;
