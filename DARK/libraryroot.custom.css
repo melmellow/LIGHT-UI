@@ -50,7 +50,7 @@
   --DRIVEUSAGENUMBER: VAR(--ACCENT);
   --DOWNLOADGRAPHBUTTONHOVER: VAR(--BLACK);
   --DOWNLOADGRAPHBUTTONBORDER: VAR(--APPDETAILSPANELBORDER);
-  --DOWNLOADGRAPHBUTTONBR: 50px;
+  --DOWNLOADGRAPHBUTTONBR: VAR(--BORDERRADIUS);
   --DOWNLOADGRAPHBUTTON: VAR(--APPDETAILSPANEL);
   --DOWNLOADITEMBR: VAR(--BORDERRADIUS);
   --GRAPHANDSTATSBG: VAR(--BASE2);
@@ -1293,6 +1293,10 @@ div.MediumWindow
   font-family: SEGOE UI !important;
   font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
   font-size: 12px !important;
+}
+
+.downloadgraph_SettingsButton_lzk4z {
+  top: 7px !important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/

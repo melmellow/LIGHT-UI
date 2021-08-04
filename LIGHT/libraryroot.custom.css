@@ -50,7 +50,7 @@
   --DRIVEUSAGENUMBER: VAR(--ACCENT);
   --DOWNLOADGRAPHBUTTONHOVER: VAR(--BLACK);
   --DOWNLOADGRAPHBUTTONBORDER: VAR(--APPDETAILSPANELBORDER);
-  --DOWNLOADGRAPHBUTTONBR: 50px;
+  --DOWNLOADGRAPHBUTTONBR: var(--BORDERRADIUS);
   --DOWNLOADGRAPHBUTTON: VAR(--APPDETAILSPANEL);
   --DOWNLOADITEMBR: VAR(--BORDERRADIUS);
   --GRAPHANDSTATSBG: VAR(--BASE2);
@@ -1251,7 +1251,7 @@ div.MediumWindow
   font-size: 12px !important;
   width: 165px !important;
   padding: 5px !important;
-  padding-bottom: 6px !important;
+  PADDING-BOTTOM:6PX!important;
   padding-left: 9px !important;
   text-align: left !important;
   border-radius: var(--DOWNLOADSTATBR) !important;
@@ -1292,6 +1292,10 @@ div.MediumWindow
   font-family: SEGOE UI !important;
   font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
   font-size: 12px !important;
+}
+
+.downloadgraph_SettingsButton_lzk4z {
+  top:7px!important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
@@ -1524,8 +1528,8 @@ div.MediumWindow
   opacity: var(--OP) !important;
 }
 
-.comment_thread_ReactionIcon_QL3Aa:hover {
-  opacity: 1 !important;
+.comment_thread_ReactionIcon_QL3Aa:hover{
+  opacity:1!important;
 }
 
 .libraryhomeshowcases_DropOption_1HgDL .libraryhomeshowcases_Showcase_V7RuD {
@@ -6936,7 +6940,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .appactivityday_VideoCarousel_dUAJi .appactivityday_VideoTitle_1d0ij {
   color: var(--ACCENT) !important;
-  margin: 8px !important;
+  margin:8px!important;
 }
 .appdetailsachievementssection_UnlockedLabelPercent_14kZV {
   color: var(--ACCENT) !important;
