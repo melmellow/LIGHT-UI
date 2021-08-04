@@ -1191,7 +1191,7 @@ button.downloadgraph_Button_3Tfp8.DialogButton._DialogLayout.Secondary:hover {
 }
 
 .downloadgraph_GraphAndStats_3KDkL {
-  height: 132px !important;
+  height: 136px !important;
   background-color: var(--GRAPHANDSTATSBG) !important;
 }
 
@@ -1211,13 +1211,13 @@ div.MediumWindow
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
   color: transparent !important;
   border-left: 4px solid var(--NETDOWNLOADLEGEND) !important;
-  height: 84px !important;
-  margin-top: 68px !important;
+  height: 87px !important;
+  margin-top: 71px !important;
 }
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
-  height: 24px;
-  margin-top: 72px;
+  height: 25px;
+  margin-top: 75px;
   width: 4px;
   border-radius: 50px !important;
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
@@ -1251,6 +1251,7 @@ div.MediumWindow
   font-size: 12px !important;
   width: 165px !important;
   padding: 5px !important;
+  padding-bottom: 6px !important;
   padding-left: 9px !important;
   text-align: left !important;
   border-radius: var(--DOWNLOADSTATBR) !important;
@@ -1523,8 +1524,8 @@ div.MediumWindow
   opacity: var(--OP) !important;
 }
 
-.comment_thread_ReactionIcon_QL3Aa:hover{
-  opacity:1!important;
+.comment_thread_ReactionIcon_QL3Aa:hover {
+  opacity: 1 !important;
 }
 
 .libraryhomeshowcases_DropOption_1HgDL .libraryhomeshowcases_Showcase_V7RuD {
@@ -6935,7 +6936,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .appactivityday_VideoCarousel_dUAJi .appactivityday_VideoTitle_1d0ij {
   color: var(--ACCENT) !important;
-  margin:8px!important;
+  margin: 8px !important;
 }
 .appdetailsachievementssection_UnlockedLabelPercent_14kZV {
   color: var(--ACCENT) !important;
