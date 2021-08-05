@@ -845,6 +845,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
+  background-image: unset !important;
+}
+
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8,
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled,
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active,
