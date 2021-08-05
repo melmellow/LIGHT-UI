@@ -1308,13 +1308,12 @@ div.MediumWindow
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
-
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4
 /* -------------------------- jonius7 -------------------------- */
 
-.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+ {
   width: var(--FriendsDLCScreenshotsColumnWidth);
   margin-left: 0;
-  margin-right: 10px;
   float: var(--SwapColumns);
 }
 
