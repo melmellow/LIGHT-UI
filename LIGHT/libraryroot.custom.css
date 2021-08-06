@@ -150,7 +150,8 @@
   --INACTIVETOGGLEHOVER: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --ACTIVETOGGLE: VAR(--BLUE);
   --ACTIVETOGGLEHOVER: VAR(--BLUE2);
-  --LETTERSPACING: 1px;
+  --LETTERSPACING: .25px;
+  --SECTIONTITLELETTERSPACING:.25px;
   --WHITE: VAR(--BASE1);
   --CAPTION: VAR(--ACCENT);
   --ACTIVESCREENSHOTBORDER: VAR(--BLUE);
@@ -1300,6 +1301,7 @@ div.MediumWindow
 }
 
 .downloads_SectionTitle_qq2xI {
+  LETTER-SPACING:VAR(--SECTIONTITLELETTERSPACING)!important;
   /* display: none !important; */
   padding: 0 14px !important;
   font-family: SEGOE UI !important;
