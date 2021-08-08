@@ -1531,6 +1531,10 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.allcollections_Collection_3IWn- .allcollections_NavTimer_2Tnpa svg circle {
+  stroke: var(--BLUE) !important;
+}
+
 .comment_thread_ReactionIcon_QL3Aa {
   filter: var(--FILT) !important;
   opacity: var(--OP) !important;
