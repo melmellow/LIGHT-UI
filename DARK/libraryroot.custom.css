@@ -1428,7 +1428,7 @@ div.MediumWindow
 /*-------------------------- INFO ICON --------------------------*/
 
 .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
-  background-image: URL(https://i.imgur.com/E2PFaFj.png) !important;
+  background-image: url(https://i.imgur.com/E2PFaFj.png) !important;
   background-size: 18px !important;
   background-repeat: NO-REPEAT !important;
   background-position: CENTER !important;
@@ -1496,7 +1496,7 @@ div.MediumWindow
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a:hover {
   background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
-  background-image: URL(https://i.imgur.com/XadeuqH.png) !important;
+  background-image: url(https://i.imgur.com/XadeuqH.png) !important;
   background-position: CENTER !important;
   background-repeat: no-repeat !important;
 }

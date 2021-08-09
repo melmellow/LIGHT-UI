@@ -857,7 +857,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
-  BORDER-RADIUS:0!important;
+  border-radius: 0 !important;
   margin-bottom: 0 !important;
 }
 
@@ -1425,7 +1425,7 @@ div.MediumWindow
 /*-------------------------- INFO ICON --------------------------*/
 
 .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
-  background-image: URL(https://i.imgur.com/2vWZ3Iq.png) !important;
+  background-image: url(https://i.imgur.com/2vWZ3Iq.png) !important;
   background-size: 18px !important;
   background-repeat: NO-REPEAT !important;
   background-position: CENTER !important;
@@ -1493,7 +1493,7 @@ div.MediumWindow
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a:hover {
   background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
-  background-image: URL(https://i.imgur.com/XadeuqH.png) !important;
+  background-image: url(https://i.imgur.com/XadeuqH.png) !important;
   background-position: CENTER !important;
   background-repeat: no-repeat !important;
 }
@@ -1529,7 +1529,7 @@ div.MediumWindow
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
 .allcollections_Collection_3IWn- .allcollections_NavTimer_2Tnpa svg circle {
-  stroke:var(--BLUE)!important;
+  stroke: var(--BLUE) !important;
 }
 
 .comment_thread_ReactionIcon_QL3Aa {
