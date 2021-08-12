@@ -852,13 +852,14 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-size: 12px !important;
   font-family: segoe ui !important;
   color: var(--BLACK) !important;
+  /* padding: 0 4px 0 4px !important; */
+  background: var(--BASE2);
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Throttle_38T9T {
   margin-top: 104px !important;
   margin-left: 200px !important;
   border-radius: 50px !important;
-  background: var(--BASE2);
   z-index: 1;
 }
 
