@@ -844,6 +844,31 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
+  color: var(--ACCENT) !important;
+  font-weight: 100 !important;
+}
+
+.downloadgraph_Throttle_38T9T {
+  font-size: 12px !important;
+  font-family: segoe ui !important;
+  color: var(--BLACK) !important;
+}
+
+.downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
+  color: var(--ACCENT) !important;
+}
+
+.downloadgraph_Throttle_38T9T {
+  font-family: segoe ui !important;
+  color: var(--BLACK) !important;
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Throttle_38T9T {
+  margin-top: 10px !important;
+  margin-left: 200px !important;
+}
+
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
   background-image: unset !important;
 }
