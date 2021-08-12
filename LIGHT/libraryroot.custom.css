@@ -855,8 +855,11 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Throttle_38T9T {
-  margin-top: 10px !important;
+  margin-top: 104px !important;
   margin-left: 200px !important;
+  border-radius: 50px !important;
+  background: var(--BASE2);
+  z-index: 1;
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
