@@ -844,6 +844,12 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloadgraph_DownloadGraph_1BxZD
+  .downloadgraph_GraphBarWrapper_gpPxC:hover
+  .downloadgraph_DiskPoint_10Cul {
+  color: VAR(--ACCENT) !important;
+}
+
 .downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
   color: var(--ACCENT) !important;
   font-weight: 100 !important;

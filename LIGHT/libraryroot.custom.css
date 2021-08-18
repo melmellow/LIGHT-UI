@@ -843,6 +843,12 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloadgraph_DownloadGraph_1BxZD
+  .downloadgraph_GraphBarWrapper_gpPxC:hover
+  .downloadgraph_DiskPoint_10Cul {
+  color: VAR(--ACCENT) !important;
+}
+
 .downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
   color: var(--ACCENT) !important;
   font-weight: 100 !important;
@@ -1333,8 +1339,10 @@ div.MediumWindow
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
-.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4
-/* -------------------------- jonius7 -------------------------- */ {
+
+/* -------------------------- jonius7 -------------------------- */
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
   width: var(--FriendsDLCScreenshotsColumnWidth);
   margin-left: 0;
   float: var(--SwapColumns);
