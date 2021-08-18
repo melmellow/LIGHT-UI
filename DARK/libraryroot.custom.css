@@ -5297,6 +5297,7 @@ div.NarrowRightPanel
 
 .smartscrollcontainer_ScrollToTopButton_1J21t:hover.smartscrollcontainer_Visible_28ZR8 {
   filter: VAR(--SCROLLTOTOPHOVERFILTER) !important;
+  margin-bottom: 5px !important;
 }
 
 .appactionbutton_ButtonChild_3cI5T {
