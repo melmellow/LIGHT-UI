@@ -847,7 +847,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .downloadgraph_DownloadGraph_1BxZD
   .downloadgraph_GraphBarWrapper_gpPxC:hover
   .downloadgraph_DiskPoint_10Cul {
-  color: VAR(--ACCENT) !important;
+  color: VAR(--DISKGRAPH) !important;
 }
 
 .downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
@@ -872,7 +872,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Throttle_38T9T {
-  margin-top: 104px !important;
+  margin-top: 11px !important;
   margin-left: 200px !important;
   border-radius: 50px !important;
   z-index: 1;
