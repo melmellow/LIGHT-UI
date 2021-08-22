@@ -207,6 +207,8 @@
 					5="fill(x1-3,y0+1,x1-2,y0+2, DIVIDER)"  // corner
 					6="fill(x1-2,y1-3,x1-1,y1-1, DIVIDER)"  // corner
 					7="fill(x1-3,y1-2,x1-2,y1-1, DIVIDER)"  // corner
+					8="fill(x0+2,y0+12,x0+4,y0+14, DOWNLOADSTATLABEL)"  // COLON
+					9="fill(x0+2,y0+16,x0+4,y0+18, DOWNLOADSTATLABEL)"  // COLON
 			}
 		}
 		bigtextlabel
@@ -245,6 +247,7 @@
 					5="fill(x0+1,y0+25,x0+2,y0+27, DIVIDER)"  // corner
 				6="fill(x0+3,y1-1,x1,y1, DIVIDER)"  // bottom
 				7="fill(x0,y0+3,x0+1,y1-3, DIVIDER)"  // left
+				
 			}
 		}
 	
