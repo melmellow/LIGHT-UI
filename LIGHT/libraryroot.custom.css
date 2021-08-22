@@ -843,6 +843,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_ProgressDetails_sv3ZH:not(:last-child) {
+  margin-right:6px!important;
+}
+
 .downloadgraph_DownloadGraph_1BxZD
   .downloadgraph_GraphBarWrapper_gpPxC:hover
   .downloadgraph_DiskPoint_10Cul {
