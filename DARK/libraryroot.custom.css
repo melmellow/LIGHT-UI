@@ -909,6 +909,8 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w {
   margin-top: 0 !important;
+  float: left !important;
+  margin-right: 6px !important;
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
@@ -1293,11 +1295,12 @@ div.MediumWindow
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stat_5TdA4 {
+  white-space: nowrap !important;
   margin-bottom: 2px !important;
   margin-left: 13px !important;
   font-family: segoe ui !important;
   font-size: 12px !important;
-  width: 165px !important;
+  width: auto !important;
   padding: 5px !important;
   padding-bottom: 6px !important;
   padding-left: 9px !important;
