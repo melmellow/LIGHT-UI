@@ -843,6 +843,14 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloadgraph_Throttle_38T9T.downloadgraph_Empty_pHDI1 {
+  opacity: 0 !important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskPoint_10Cul {
+  stroke-width: 6px !important;
+}
+
 .downloads_SectionItem_1VNuY
   .downloads_DetailsAndType_Bku7J
   .downloads_ProgressDetails_sv3ZH:not(:last-child) {
@@ -858,6 +866,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
   color: var(--ACCENT) !important;
   font-weight: 100 !important;
+  margin-left: 2px !important;
 }
 
 .downloadgraph_Throttle_38T9T {
@@ -869,10 +878,13 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Throttle_38T9T {
-  margin-top: 11px !important;
+  margin-top: 7px !important;
   margin-left: 200px !important;
-  border-radius: 50px !important;
-  z-index: 1;
+  border-radius: VAR(--DOWNLOADSTATBR) !important;
+  padding: 3px 9px !important;
+  background: VAR(--DOWNLOADSTATBG) !important;
+  border: 1px solid var(--DOWNLOADSTATBORDER) !important;
+  z-index: 1 !important;
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
@@ -908,12 +920,12 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   margin-top: 0 !important;
   float: left !important;
   margin-right: 6px !important;
-  padding-right: 6px !important;
+  padding-right: 4px !important;
   background-image: url(https://i.imgur.com/kBxv3Ba.png),
     url(https://i.imgur.com/kBxv3Ba.png) !important;
   background-repeat: no-repeat !important;
   background-position: right !important;
-  background-position-y: 10px, 6px!important;
+  background-position-y: 11px, 7px !important;
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
