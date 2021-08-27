@@ -13,7 +13,7 @@
 	}
 
 	layout {
-		place { control=AllFriendsButton,ViewPlayersButton height=20 spacing=35 }
+		place { control=AllFriendsButton,ViewPlayersButton height=20 spacing=10 }
 
 		place { control=TitleText,TextThisManyFriends,grid height=0 width=0 }
 	}

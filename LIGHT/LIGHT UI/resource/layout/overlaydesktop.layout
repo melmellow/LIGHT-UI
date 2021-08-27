@@ -6,17 +6,30 @@
 
 	layout {
 		region { name=overlay height=max width=max margin-left=50 }
-			place { control=FriendsDetailPanel}
-			place { control=AchievementsDetailPanel}
-			place { control=CommunityHubDetailPanel}
-			place { control=ScreenshotsDetailPanel}
 			place {
-				control=FriendsDetailPanel,AchievementsDetailPanel,CommunityHubDetailPanel,ScreenshotsDetailPanel
+				//
+				control=FriendsDetailPanel,AchievementsDetailPanel
 				region=overlay
 				y=191
 				height=50
 				width=228
+				spacing=10
 				align=left
+			}
+
+			place {
+				control=CommunityHubDetailPanel
+				x=261
+				y=191
+				width=228
+				//spacing=10
+			}
+
+			place {
+				control=ScreenshotsDetailPanel
+				x=410
+				width=228
+				y=191
 			}
 
 			place { control=SessionText,ForeverText,Clock region=overlay y=87 height=30 dir=down x=6 }
