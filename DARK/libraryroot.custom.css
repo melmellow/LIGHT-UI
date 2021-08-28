@@ -844,6 +844,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_ProgressDetails_sv3ZH .downloads_Label_3a973 {
+  color: var(--BLUE) !important;
+}
+
 .downloads_PlayButton_sQZ70.downloads_Hide_2yMFW {
   display: none !important;
 }
