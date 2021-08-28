@@ -396,6 +396,7 @@
   --CHOOSEEMOTICONHOVER: VAR(--WHITE);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
   --DOWNLOADPROGRESSBAR: VAR(--BLUE);
+  --INACTIVEPROGRESSBAR: VAR(--ACCENT);
   --ACHIEVEMENTPROGRESSBAR: VAR(--BLUE);
   --PROGRESSBARBACKGROUND: VAR(--DROPDOWN);
   --LIKETHUMBICON: VAR(--ACCENT);
@@ -843,6 +844,12 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 /*-------------------------- LIBRARY MANAGER --------------------------*/
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+.downloads_SectionItemStatus_1Sygg
+  .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp
+  div {
+  background-color: var(--INACTIVEPROGRESSBAR) !important;
+}
 
 .downloads_ProgressDetails_sv3ZH .downloads_Label_3a973 {
   color: var(--BLUE) !important;

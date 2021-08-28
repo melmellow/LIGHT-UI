@@ -398,6 +398,7 @@
   --CHOOSEEMOTICONHOVER: VAR(--BLACK);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
   --DOWNLOADPROGRESSBAR: VAR(--BLUE);
+  --INACTIVEPROGRESSBAR: VAR(--ACCENT);
   --ACHIEVEMENTPROGRESSBAR: VAR(--BLUE);
   --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
   --LIKETHUMBICON: VAR(--ACCENT);
@@ -843,12 +844,18 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItemStatus_1Sygg
+  .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp
+  div {
+  background-color: var(--INACTIVEPROGRESSBAR) !important;
+}
+
 .downloads_ProgressDetails_sv3ZH .downloads_Label_3a973 {
-  color:var(--BLUE)!important;
+  color: var(--BLUE) !important;
 }
 
 .downloads_PlayButton_sQZ70.downloads_Hide_2yMFW {
-  display:none!important;
+  display: none !important;
 }
 
 .downloadgraph_Throttle_38T9T.downloadgraph_Empty_pHDI1 {
@@ -886,7 +893,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Throttle_38T9T {
-  pointer-events:none!important;
+  pointer-events: none !important;
   margin-top: 7px !important;
   margin-left: 200px !important;
   border-radius: VAR(--DOWNLOADSTATBR) !important;
@@ -1300,7 +1307,7 @@ div.MediumWindow
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskGraph_2-AUy {
   bottom: 7px !important;
-  height:56%!important;
+  height: 56% !important;
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stats_3RfkF {
