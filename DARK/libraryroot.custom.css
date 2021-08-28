@@ -883,6 +883,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Throttle_38T9T {
+  pointer-events: none !important;
   margin-top: 7px !important;
   margin-left: 200px !important;
   border-radius: VAR(--DOWNLOADSTATBR) !important;
@@ -1250,6 +1251,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover,
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover,
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
+  display: none !important;
   z-index: 1 !important;
   background: var(--DOWNLOADGRAPHBUTTON) !important;
   border-radius: VAR(--DOWNLOADGRAPHBUTTONBR) !important;
@@ -1294,6 +1296,7 @@ div.MediumWindow
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskGraph_2-AUy {
+  height: 56% !important;
   bottom: 7px !important;
 }
 
