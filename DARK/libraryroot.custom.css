@@ -844,6 +844,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_PlayButton_sQZ70.downloads_Hide_2yMFW {
+  display: none !important;
+}
+
 .downloadgraph_Throttle_38T9T.downloadgraph_Empty_pHDI1 {
   opacity: 0 !important;
 }
