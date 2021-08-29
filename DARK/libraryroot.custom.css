@@ -942,11 +942,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   float: left !important;
   margin-right: 6px !important;
   padding-right: 4px !important;
-  background-image: url(https://i.imgur.com/kBxv3Ba.png),
-    url(https://i.imgur.com/kBxv3Ba.png) !important;
-  background-repeat: no-repeat !important;
-  background-position: right !important;
-  background-position-y: 11px, 7px !important;
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w::after {
+  content:":"!important;
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
@@ -1258,6 +1257,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 
 .downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
   background-color: VAR(--DIVIDER) !important;
+  height: 1px !important;
   /* display: none !important; */
 }
 
@@ -3937,7 +3937,10 @@ SVGIcon_Button {
   border-radius: VAR(--SHELFACTIONBUTTONROUNDED) !important;
 }
 
-.LibraryDisplaySizeSmall .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2, .LibraryDisplaySizeMedium .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 {
+.LibraryDisplaySizeSmall
+  .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2,
+.LibraryDisplaySizeMedium
+  .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 {
   border-radius: VAR(--SHELFACTIONBUTTONROUNDED) !important;
 }
 
