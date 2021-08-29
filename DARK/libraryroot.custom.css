@@ -7182,9 +7182,13 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   opacity: 1 !important;
 }
 
-.libraryhomeshowcases_Showcase_V7RuD
+/* .libraryhomeshowcases_Showcase_V7RuD
   .libraryhomeshowcases_ChildrenContainer_1VMQW {
   height: 173px !important;
+} */
+
+.libraryhomerecentgames_RecentGames_1RLny {
+  height: unset !important;
 }
 
 .libraryhomerecentgames_RecentGame_1esfE
