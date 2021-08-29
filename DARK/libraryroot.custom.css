@@ -849,6 +849,11 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_AppPortrait_2pjdg:hover {
+  transform: scale(1.04) !important;
+  transition: transform 0.18s ease-in-out !important;
+}
+
 .downloads_SectionItemStatus_1Sygg
   .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp
   div {
