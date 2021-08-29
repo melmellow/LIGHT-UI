@@ -1610,6 +1610,12 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.gamelistdropdown_Bar_1ZS_x
+  .gamelistdropdown_MenuHeader_2PF_m
+  .gamelistdropdown_Arrow_15aGn {
+  margin-left: 8px !important;
+}
+
 .apppartnereventspage_EventTypeAndTimeRow_3bWTO.apppartnereventspage_WithReminder_1C5Dv {
   background-color: var(--APPDETAILSPANEL2) !important;
   border: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
