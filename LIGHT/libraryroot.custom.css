@@ -1232,7 +1232,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloadgraph_DownloadGraph_1BxZD {
-  z-index:unset!important;
+  z-index: unset !important;
   transform: SCALEX(-1) !important;
   margin-left: 204px !important;
   margin-right: 7px !important;
@@ -7199,6 +7199,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 } */
 
 .libraryhomerecentgames_RecentGames_1RLny {
+  height: unset !important;
+}
+
+.libraryhomeplaynext_PlayNextSuggestions_3iXvg {
   height: unset !important;
 }
 
