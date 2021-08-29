@@ -3930,6 +3930,10 @@ SVGIcon_Button {
   border-radius: VAR(--SHELFACTIONBUTTONROUNDED) !important;
 }
 
+.LibraryDisplaySizeSmall .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2, .LibraryDisplaySizeMedium .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 {
+  border-radius: VAR(--SHELFACTIONBUTTONROUNDED) !important;
+}
+
 .LibraryDisplaySizeLarge
   .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 {
   border-radius: VAR(--SHELFACTIONBUTTONROUNDED) !important;
