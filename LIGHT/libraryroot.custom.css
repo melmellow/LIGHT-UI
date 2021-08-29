@@ -1232,6 +1232,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloadgraph_DownloadGraph_1BxZD {
+  z-index:unset!important;
   transform: SCALEX(-1) !important;
   margin-left: 204px !important;
   margin-right: 7px !important;
