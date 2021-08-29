@@ -340,7 +340,7 @@
   --UNINSTALLEDGAMENAMECOLOR: VAR(--ACCENT);
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
   --QUICKINSTALLBORDERRADIUS: VAR(--BORDERRADIUS);
-  --QUICKINSTALLBOTTOMMARGIN: 71%; /*DEFAULT IS 2%*/
+  --QUICKINSTALLBOTTOMMARGIN: 3.5%; /*DEFAULT IS 2%*/
   --APPPORTRAITINSTALLBUTTON: VAR(--BASE1);
   --APPPORTRAITINSTALLBUTTONHOVER: RGB(0, 0, 0);
   --BROADCASTPLAYBUTTONWIDTH: 40px;
@@ -5156,7 +5156,8 @@ div.ShortRightPanel
 }
 .appportrait_LibraryItemBox_WYgDg .appportrait_UninstalledIcon_8YrRm {
   opacity: 1 !important;
-  bottom: VAR(--QUICKINSTALLBOTTOMMARGIN) !important;
+  top: VAR(--QUICKINSTALLBOTTOMMARGIN) !important;
+  bottom: unset !important;
   border-radius: VAR(--QUICKINSTALLBORDERRADIUS) !important;
 }
 .appportrait_PortraitMessage_3gwMk.appportrait_SubMessage_3DR9f {
