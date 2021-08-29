@@ -591,6 +591,10 @@
 
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
+.contentmanagement_AppActionSelected_1dFOk {
+  color: VAR(--ACCENT) !important;
+}
+
 .contentmanagement_DriveUsageText_1DFCG,
 .contentmanagement_DriveUsageNumber_181OY {
   font-family: segoe ui !important;
@@ -841,7 +845,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-weight: var(--DRIVEUSAGETEXTFW) !important;
 }
 
-/*-------------------------- LIBRARY MANAGER --------------------------*/
+/*-------------------------- STORAGE MANAGER --------------------------*/
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
