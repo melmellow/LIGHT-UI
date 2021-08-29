@@ -941,11 +941,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   margin-top: 0 !important;
   float: left !important;
   margin-right: 6px !important;
-  padding-right: 4px !important;
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w::after {
-  content:":"!important;
+  content: ":" !important;
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
