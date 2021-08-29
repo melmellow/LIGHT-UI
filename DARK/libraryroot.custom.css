@@ -1617,6 +1617,7 @@ div.MediumWindow
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
 .appdetailsheader_DemoBanner_3EXkl:before,
+.appdetailsheader_DemoBanner_3EXkl,
 .appdetailsheader_DemoBanner_3EXkl:after {
   background: VAR(--GREEN4) !important;
 }
