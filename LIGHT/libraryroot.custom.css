@@ -138,6 +138,7 @@
   --RED: #d21116;
   --GREEN: #54a448;
   --GREEN3: #27771b;
+  --GREEN4: #94be60;
   --GREEN2: #22d12b;
   --BLUE: #1181d2;
   --BLUE2: #285d83;
@@ -1609,6 +1610,18 @@ div.MediumWindow
 }
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
+
+.appdetailsheader_DemoBanner_3EXkl:before,
+.appdetailsheader_DemoBanner_3EXkl,
+.appdetailsheader_DemoBanner_3EXkl:after {
+  background: VAR(--GREEN4) !important;
+}
+
+.appdetailsheader_DemoBanner_3EXkl {
+  font-family: segoe ui !important;
+  color: VAR(--BLACK) !important;
+  font-weight: 700 !important;
+}
 
 .gamelistdropdown_Bar_1ZS_x
   .gamelistdropdown_MenuHeader_2PF_m
