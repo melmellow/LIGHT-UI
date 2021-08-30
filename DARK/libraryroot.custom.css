@@ -6649,7 +6649,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
-  .DialogTextInputBase:hover {
+  .DialogTextInputBase:hover:not(:focus-within) {
   border-color: var(--TEXTENTRYBORDERHOVER) !important;
   background: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
 }
