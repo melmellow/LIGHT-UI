@@ -1326,6 +1326,7 @@ div.MediumWindow
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stats_3RfkF {
+  width: unset !important;
   flex-direction: column !important;
   position: absolute !important;
   top: 7px !important;
