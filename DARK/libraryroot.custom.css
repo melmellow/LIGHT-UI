@@ -593,6 +593,8 @@
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
 .contentmanagement_AppActionSelected_1dFOk {
+  font-weight:400!important;
+  font-family: segoe ui !important;
   color: VAR(--ACCENT) !important;
 }
 
