@@ -850,6 +850,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_PlayButton_sQZ70.appactionbutton_PlayButtonContainer_1FnJ6.appactionbutton_Green_3cI5T.Panel.Focusable {
+  transform: scale(0.8) !important;
+}
+
 .downloads_AppPortrait_2pjdg:hover {
   transform: scale(1.04) !important;
   transition: transform 0.18s ease-in-out !important;
