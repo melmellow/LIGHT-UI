@@ -592,8 +592,13 @@
 
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
+.contentmanagement_AppBodyPortrait_1O1Jq:hover {
+  transform: scale(1.06) !important;
+  transition: transform 0.18s ease-in-out !important;
+}
+
 .contentmanagement_AppActionSelected_1dFOk {
-  font-weight:400!important;
+  font-weight: 400 !important;
   font-family: segoe ui !important;
   color: VAR(--ACCENT) !important;
 }
