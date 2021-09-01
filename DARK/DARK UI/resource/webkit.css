@@ -20,7 +20,8 @@
   --trans: transparent;
   --BLACK: #fff;
   --WHITE: #000;
-  --PAYMENTMETHOD:VAR(--ACCENT);
+  --TOOLTIP: VAR(--ACCENT);
+  --PAYMENTMETHOD: VAR(--ACCENT);
   --PAYMENTMETHODBOX: VAR(--BASE3);
   --BUTTON2BORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --BUTTON2TEXTHOVER: VAR(--BLACK);
@@ -69,7 +70,7 @@
   --OFFLINE: VAR(--ACCENT);
   --AVATARBORDERRADIUS: 100px;
   --PANELBORDER: TRANSPARENT;
-  --TABITEMBORDER:TRANSPARENT;
+  --TABITEMBORDER: TRANSPARENT;
   --PANEL: VAR(--BASE1);
   --PANEL2: VAR(--BASE2);
   --PANEL3: VAR(--BASE3);
@@ -88,16 +89,16 @@
 .payment_method_box {
   background: var(--PAYMENTMETHODBOX) !important;
   border-radius: var(--BORDERRADIUS) !important;
-  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
-  border: 1PX SOLID var(--PANELBORDER)!important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  border: 1px SOLID var(--PANELBORDER) !important;
 }
 
 .account_setting_sub_block .cached_payment_method_description {
-  COLOR:VAR(--PAYMENTMETHOD)!important;
+  color: VAR(--PAYMENTMETHOD) !important;
 }
 
 .cached_payment_method_exists {
-  COLOR:VAR(--PAYMENTMETHOD)!important;
+  color: VAR(--PAYMENTMETHOD) !important;
 }
 
 .miniprofile_hover_inner.shadow_content {
@@ -6031,7 +6032,7 @@ a.recent_game_discussion.quasi_official_group:hover {
 }
 .community_tooltip {
   background: var(--ACCENT) !important;
-  color: VAR(--ACCENT) !important;
+  color: VAR(--TOOLTIP) !important;
 }
 .discussion_tab_content_area h2.discussion_primary_header {
   display: NONE !important;
@@ -9541,7 +9542,7 @@ a.persona.online,
   transition: all 0.1s ease-in-out !important;
   margin: 5px !important;
   border-radius: var(--TABITEMBR) !important;
-  border: 1PX SOLID VAR(--TABITEMBORDER) !important;
+  border: 1px SOLID VAR(--TABITEMBORDER) !important;
   background: VAR(--TABITEM) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }

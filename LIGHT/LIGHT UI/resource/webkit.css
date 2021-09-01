@@ -20,6 +20,7 @@
   --trans: transparent;
   --BLACK: #000;
   --WHITE: #fff;
+  --TOOLTIP:VAR(--WHITE);
   --PAYMENTMETHOD: VAR(--ACCENT);
   --PAYMENTMETHODBOX: VAR(--BASE3);
   --BUTTON2BORDERHOVER: VAR(--BUTTONBORDERHOVER);
@@ -6030,7 +6031,7 @@ a.recent_game_discussion.quasi_official_group:hover {
 }
 .community_tooltip {
   background: var(--ACCENT) !important;
-  color: VAR(--ACCENT) !important;
+  color: VAR(--TOOLTIP) !important;
 }
 .discussion_tab_content_area h2.discussion_primary_header {
   display: NONE !important;
