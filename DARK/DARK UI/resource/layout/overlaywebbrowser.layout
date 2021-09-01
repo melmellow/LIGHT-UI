@@ -1,8 +1,7 @@
 "Steam/cached/overlaywebbrowser.layout" {
 
-	styles {
-		HTML { inset="0 0 0 0" }
-	}
+
+
 
 	layout {
 		region { name=header height=50 width=max }
@@ -15,12 +14,12 @@
 
 		place {
 			control=BackButton,ForwardButton
-			region=nav height=30 width=28 spacing=10
+			region=nav height=30 width=40 
 		}
 
 		place {
 			control=ReloadButton,StopButton
-			region=nav x=9 height=30 spacing=10 start=ForwardButton
+			region=nav height=30 spacing=10 start=ForwardButton
 		}
 
 		place {
@@ -35,6 +34,6 @@
 
 		place { control=HTMLField region=body width=max height=max }
 
-		place { control=HomeButton,StatusText,URLStatusImage,EVCert height=0 width=0 margin-left=-9999 }
+		place { control=HomeButton,StatusText,URLStatusImage height=0 width=0 margin-left=-9999 }
 	}
 }
