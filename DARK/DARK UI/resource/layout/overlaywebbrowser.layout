@@ -13,7 +13,7 @@
 		region { name=body height=max width=max y=56 }
 
 		place {
-			control=BackButton,ForwardButton
+			control=BackButton,ForwardButton,HomeButton
 			region=nav height=30 width=40 
 		}
 
@@ -24,12 +24,12 @@
 
 		place {
 			control=URLBar
-			region=nav y=4 x=126 height=22 width=max margin-right=56
+			region=nav y=4 x=126 height=22 width=max margin-right=8
 		}
 
 		place {
 			control=PageLoadThrobber
-			region=nav align=right height=0 width=0 margin-right=26
+			region=nav align=right height=0 width=0
 		}
 
 		place { control=HTMLField region=body width=max height=max }
