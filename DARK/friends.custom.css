@@ -21,6 +21,8 @@
   --BUTTON2HOVER: VAR(--BUTTON);
   --CHECKBOXBORDERRADIUS: 4px;
   --CHECKBOX: TRANSPARENT;
+  --BORDERRADIUS: 4px;
+  --CAPTION: RGB(88, 88, 88);
   --CHECKBOXBORDER: #b3b3b3;
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
   --REMOTEPLAY: VAR(--BLUE);
@@ -47,7 +49,7 @@
   --CHECKMARKPADDING: 2px;
   --CHECKMARKBACKGROUND: VAR(--BLUE);
   --TEXTENTRYBORDERROUNDED: 30px;
-  --TEXTENTRYBORDERWIDTH:2PX;
+  --TEXTENTRYBORDERWIDTH: 2px;
   --TEXTENTRYBACKGROUNDHOVER: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --SCROLLBAR: VAR(--ACCENT);
@@ -956,6 +958,7 @@ span.mention {
 
 .contextmenu_contextMenu_3_a2Z {
   border: 1px solid VAR(--CONTEXTMENUBORDER) !important;
+  border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--CONTEXTMENU) !important;
   box-shadow: none !important;
   padding: 0px !important;
@@ -2551,7 +2554,7 @@ background: rgba(var(--white05))!important;}*/
 .title-area-icon .SVGIcon_Button rect,
 .title-area-icon .SVGIcon_Button line,
 .title-area-icon .SVGIcon_Button polyline {
-  stroke: rgb(var(--white)) !important;
+  stroke: var(--CAPTION) !important;
 }
 
 .singlewindow

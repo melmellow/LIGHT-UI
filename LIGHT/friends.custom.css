@@ -15,6 +15,8 @@
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
   --CHECKBOX: TRANSPARENT;
+  --BORDERRADIUS: 4px;
+  --CAPTION: RGB(88, 88, 88);
   --CHECKBOXBORDERRADIUS: 4px;
   --CHECKBOXBORDER: #b3b3b3;
   --BUTTON2TEXT: VAR(--ACCENT);
@@ -79,9 +81,9 @@
   width: 0 !important;
 }
 
-.CompactFriendsList .groupName .gameGroupContainer .groupIcon {
+/* .CompactFriendsList .groupName .gameGroupContainer .groupIcon {
   display: none !important;
-}
+} */
 
 .CompactFriendsList .friend .avatarHolder img.avatar {
   border-radius: 50px !important;
@@ -495,7 +497,7 @@ span.mention {
 /* PlusMinus Friends Header Color*/
 .ExpandPlusMinus .SVGIcon_PlusCircle .horizontalLine,
 .ExpandPlusMinus .SVGIcon_PlusCircle .verticalLine {
-  stroke: rgb(var(--white)) !important;
+  stroke: var(--WHITE) !important;
 }
 
 .ExpandPlusMinus {
@@ -956,6 +958,7 @@ span.mention {
 
 .contextmenu_contextMenu_3_a2Z {
   border: 1px solid VAR(--CONTEXTMENUBORDER) !important;
+  border-radius: var(--BORDERRADIUS) !important;
   background: VAR(--CONTEXTMENU) !important;
   box-shadow: none !important;
   padding: 0px !important;
@@ -2551,7 +2554,7 @@ background: rgba(var(--white05))!important;}*/
 .title-area-icon .SVGIcon_Button rect,
 .title-area-icon .SVGIcon_Button line,
 .title-area-icon .SVGIcon_Button polyline {
-  stroke: rgb(var(--white)) !important;
+  stroke: var(--CAPTION) !important;
 }
 
 .singlewindow
@@ -3162,7 +3165,7 @@ img.emoticon_emoticon_9hYGN.emoticon_large_p8Q42 {
 
 .TabSearchButton .searchIconButton {
   height: 23px !important;
-  opacity: 0 !important;
+  /* opacity: 0 !important; */
 }
 
 .tabSearchTransitionGroup,
