@@ -118,22 +118,16 @@ steam.styles
 		{
 			//inset="0 1 0 0"
 			textcolor = ACCENT
-			RENDER_BG {
-				1="fill( x0, y1-15, x1, y1-13, ACCENT )"		// Top
-			}
 		}
 
 		Slider:hover
 		{
 			textcolor = BLACK
-			RENDER_BG {
-				1="fill( x0, y1-15, x1, y1-13, ACCENT )"		// Top
-			}
 		}
 
 		Slider:focus
 		{
-			textcolor = NONE
+			textcolor = BLACK
 		}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1869,7 +1863,7 @@ steam.styles
 //======"Never tell your password to...." Text=====//
 		friends_chat_securitylink
 		{
-			textcolor="White75"
+			textcolor="ACCENT"
 			selectedtextcolor="ACCENT"
 			font-family=semibold
 			font-style=uppercase
