@@ -1252,6 +1252,7 @@ button.DialogButton,
 }
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_3fNNR {
+  padding-top: 70px !important;
   background: var(--SETTINGSSIDEBAR) !important;
   padding-left: 0px !important;
   max-width: 150px !important;
