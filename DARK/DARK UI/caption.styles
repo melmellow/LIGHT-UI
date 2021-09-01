@@ -251,13 +251,13 @@
 
 		"ToolWindow FrameCloseButton"
 		{
-			inset="4 10 0 0"
+		
 			render_bg{}
-			image="graphics/metro/icons/caption/sm/chat_close_sm"
+			image="ICONS/caption/sm/chat_close_sm"
 		}
 		"ToolWindow FrameCloseButton:hover"
 		{
-			bgcolor=White05
+			bgcolor=CAPTIONBUTTONHOVER
 		}
 		"ToolWindow FrameCloseButton:active"
 		{
