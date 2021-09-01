@@ -1,4 +1,5 @@
-Steam/Cached/LaunchOptionsDialog.res {
+"Steam/Cached/LaunchOptionsDialog.res" {
+	
 
 	layout {
 		region { name=header height=50 width=max }
@@ -15,7 +16,7 @@ Steam/Cached/LaunchOptionsDialog.res {
 			place { control=RadioButton1 start=RadioButton0 dir=down width=max margin-left=26 margin-right=26 }
 
 		//region { name=buttons align=bottom height=50 }
-			place { control=LaunchButton,Button1 align=bottom width=80 spacing=10 x=240 margin-bottom=16 }
+			place { control=LaunchButton,Button1 align=bottom width=max spacing=10 x=240 margin-bottom=16 }
 
 		place { control=ImagePanel1 height=0 width=0 margin-left=-9999 }
 		place [!$OSX] { control=frame_minimize height=0 width=0 margin-left=-9999 }
