@@ -24,6 +24,12 @@
 			image="ICONS/DIALOGCHECK_s"
 			padding-left=4
 		}
+
+		ListPanelCheckBox:selected:hover
+		{	
+			image="ICONS/DIALOGCHECK_sh"
+			padding-left=4
+		}
 	}
 
 	layout
