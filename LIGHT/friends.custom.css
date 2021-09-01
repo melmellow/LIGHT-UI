@@ -15,6 +15,8 @@
   --TEXTENTRY: #e8e8e8;
   --SHADOW: #d6d1d1;
   --CHECKBOX: TRANSPARENT;
+  --DIALOGHEADERTEXTCASE: unset;
+  --DIALOGHEADERFONTWEIGHT: 200;
   --BORDERRADIUS: 4px;
   --CAPTION: RGB(88, 88, 88);
   --CHECKBOXBORDERRADIUS: 4px;
@@ -1262,10 +1264,10 @@ button.DialogButton,
 }
 
 .DialogHeader {
-  font-weight: 300 !important;
-  color: rgb(var(--white)) !important;
+  font-weight: VAR(--DIALOGHEADERFONTWEIGHT) !important;
+  color: var(--ACCENT) !important;
   font-size: 24px !important;
-  text-transform: UPPERCASE !important;
+  text-transform: var(--DIALOGHEADERTEXTCASE) !important;
   letter-spacing: 0px !important;
 }
 
