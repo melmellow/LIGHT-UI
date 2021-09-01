@@ -1,5 +1,6 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
+  --TOOLTIPOPACITY: 0;
   --SwapColumns: right;
   --FriendsDLCScreenshotsColumnWidth: 33%;
 
@@ -223,7 +224,6 @@
   --SHOWALLCOLLECTIONSFONTWEIGHT: 600;
   --RATINGCONTAINER: VAR(--BASE1);
   --DYNAMICCOLLECTIONICON: VAR(--ACCENT);
-  --APPPORTRAITHOVERCARDOPACITY: 0;
   --APPPORTRAITHOVERBACKGROUND: VAR(--BASE1);
   --INGAME: VAR(--GREEN);
   --ONLINE: VAR(--BLUE);
@@ -1627,6 +1627,36 @@ div.MediumWindow
 }
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
+
+.appportraithover_DownloadStatus_1KHOC {
+  display: none !important;
+}
+
+.tooltip_TextToolTip_2FxbH {
+  background-color: var(--ACCENT) !important;
+  color: var(--WHITE) !important;
+}
+
+.tooltip_ToolTipCustom_3XGRk {
+  font-weight: var(--INSTALLEDGAMENAMEFONTWEIGHT) !important;
+  background-color: var(--ACCENT) !important;
+  color: var(--WHITE) !important;
+}
+
+.tooltip_ToolTipCustom_3XGRk .tooltip_ToolTipInsetContent_i4LuY {
+  color: VAR(--WHITE) !important;
+  font-weight: 300 !important;
+}
+
+.appportraithover_GameUpdatedContainer_QO8Xp
+  .appportraithover_ImportantUpdate_3eZ2g {
+  color: var(--BLUE) !important;
+}
+
+.appportraithover_GameUpdatedContainer_QO8Xp
+  .appportraithover_GameUpdatedCircle_158pN {
+  background: VAR(--BLUE) !important;
+}
 
 .appdetailsheader_DemoBanner_3EXkl:before,
 .appdetailsheader_DemoBanner_3EXkl,
@@ -5285,10 +5315,12 @@ div.NarrowRightPanel
 }
 
 .appportraithover_AppTitle_1Kdi2 {
+  display: none !important;
   color: var(--ACCENT) !important;
 }
 
 .appportraithover_AppStatus_My_Sv {
+  display: none !important;
   color: var(--ACCENT) !important;
 }
 
@@ -5303,6 +5335,8 @@ div.NarrowRightPanel
   border-top-color: var(--SHADOW) !important;
 }
 .appportraithover_AppPortraitHover_2sGn0 {
+  height: 0 !important;
+  width: 0 !important;
   background-color: var(--BASE1) !important;
 }
 .gamelist_NoResultsTitle_2NXXf {
@@ -5390,7 +5424,7 @@ div.NarrowRightPanel
   border: 1px SOLID var(--BASE2) !important;
 }
 .hoverposition_HoverPosition_3vg1v.hoverposition_Ready_1Ye_0 {
-  opacity: var(--APPPORTRAITHOVERCARDOPACITY) !important;
+  opacity: var(--TOOLTIPOPACITY) !important;
 }
 :not(.appactionbutton_Disabled_1Pb6P)
   > .appactionbutton_ButtonChild_2AzIX
