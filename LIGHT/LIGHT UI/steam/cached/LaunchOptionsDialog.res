@@ -16,8 +16,8 @@
 			place { control=RadioButton1 start=RadioButton0 dir=down width=max margin-left=26 margin-right=26 }
 
 		//region { name=buttons align=bottom height=50 }
-			place { control=LaunchButton,Button1 align=bottom width=max spacing=10 x=240 margin-bottom=16 }
-
+			place { control=LaunchButton align=bottom width=100 x=230 margin-bottom=16 margin-right=8 }
+			place { control=Button1 start=LaunchButton align=bottom width=100 margin-bottom=16 margin-right=10 }
 		place { control=ImagePanel1 height=0 width=0 margin-left=-9999 }
 		place [!$OSX] { control=frame_minimize height=0 width=0 margin-left=-9999 }
 	}
