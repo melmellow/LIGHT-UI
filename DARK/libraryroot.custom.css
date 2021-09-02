@@ -857,6 +857,19 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+/* .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:not(:visible) {
+  margin-left: -36px !important;
+}
+
+.downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
+  margin-left: 12px !important;
+} */
+
+.downloads_SectionItem_1VNuY
+  .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
+  display: none !important;
+}
+
 .downloads_PlayButton_sQZ70.appactionbutton_PlayButtonContainer_1FnJ6.appactionbutton_Green_3cI5T.Panel.Focusable {
   transform: scale(0.8) !important;
 }
@@ -5306,7 +5319,7 @@ div.NarrowRightPanel
 }
 
 .appportraithover_AppTitle_1Kdi2 {
-  display:none!important;
+  display: none !important;
   color: var(--ACCENT) !important;
 }
 
