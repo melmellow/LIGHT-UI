@@ -979,6 +979,7 @@ steam.styles
 
 		Notification
 		{
+			textcolor=ACCENT
 			font-family=basefont
 			font-weight=400
 			bgcolor = NOTIFICATIONBACKGROUND
