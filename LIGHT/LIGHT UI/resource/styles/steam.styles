@@ -1833,7 +1833,7 @@ steam.styles
 //======Everybody's Name while in-game=====//
 		friends_chat_name_ingame
 		{
-			textcolor="Friends.InGameColor"
+			textcolor=GREEN2
 			selectedtextcolor="ACCENT"
 			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
@@ -1847,7 +1847,7 @@ steam.styles
 //======Everybody's Name while online=====//
 		friends_chat_name
 		{
-			textcolor="Friends.OnlineColor"
+			textcolor=BLUE
 			selectedtextcolor="ACCENT"
 			selectedbgcolor=TEXTENTRYHIGHLIGHT
 		}
