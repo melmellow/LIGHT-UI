@@ -1,5 +1,17 @@
 "Steam/Cached/CDKeyLaunchDialog.res"
 {
+	styles {
+			"ListPanelColumnHeader"
+		{
+			BGCOLOR=BASE2
+		}
+		"LISTPANELINTERIOR"
+		{
+			BGCOLOR=BASE2
+		}
+	}
+	
+
 	layout
 	{
 		place { control="ReasonLabel" x=8 y=44 margin-right=8 width=max }

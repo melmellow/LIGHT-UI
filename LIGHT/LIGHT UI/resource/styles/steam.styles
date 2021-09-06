@@ -558,6 +558,10 @@ steam.styles
 			font-family="semilight"
 			font-weight=300
 		}
+		"CADDSHORTCUTDIALOG" 
+		{
+			BGCOLOR=BASE2
+		}
 
 		GraphPanel
 		{
