@@ -277,7 +277,6 @@
 		CBackupWizard
 		{
 			BGCOLOR = BASE2
-			minimum-height=50
 		}
 
 ///////////////////////////////////////////
@@ -582,13 +581,8 @@
 		TwoFactorCodeChallenge
 		{
 			BGCOLOR = BASE2
-			render_bg
-			{
-				//Bottom
-				2="fill( x0, y1-43, x1, y1, BASE2 )"
-			}
-			minimum-width = 380
-			minimum-height = 420
+			minimum-width = 280
+			minimum-height = 120
 		}
 
 		CMusicLibraryPanel
