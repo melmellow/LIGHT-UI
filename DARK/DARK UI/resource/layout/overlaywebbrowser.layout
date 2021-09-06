@@ -24,7 +24,7 @@
 
 		place {
 			control=URLBar
-			region=nav y=4 x=126 height=22 width=max margin-right=8
+			region=nav y=4 x=126 height=22 width=max margin-right=12
 		}
 
 		place {
