@@ -1569,8 +1569,6 @@ steam.styles
 
 		ReloadButton
 		{
-			width=0
-			height=0
 			inset-left=8
 			bgcolor="none"
 			image=ICONS/REFRESH
@@ -1584,7 +1582,7 @@ steam.styles
 		}
 		ReloadButton:hover
 		{
-			bgcolor=white05
+			bgcolor=none
 			image=ICONS/REFRESH_H
 			render
 			{
@@ -1596,8 +1594,9 @@ steam.styles
 		}
 		ReloadButton:active
 		{
-			bgcolor=white10
-							render
+			bgcolor=none
+			image=ICONS/REFRESH_P
+			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
 				2="fill( x0, y1-1, x1, y1, "none")"		// Bottom
