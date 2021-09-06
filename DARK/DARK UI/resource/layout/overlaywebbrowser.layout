@@ -4,13 +4,13 @@
 
 
 	layout {
-		region { name=header height=30 width=max }
+		//region { name=header height=30 width=max }
 			place [!$OSX] { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
 			place [$OSX] { control=frame_close height=22 width=22 y=13 align=left margin-left=20 }
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		region { name=nav height=30 width=max x=8 y=8 }
-		region { name=body height=max width=max y=56 }
+		region { name=body height=max width=max y=46 }
 
 		place {
 			control=BackButton,ForwardButton,HomeButton
