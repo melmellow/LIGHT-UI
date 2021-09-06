@@ -36,10 +36,11 @@
 		region { name=box margin-top=40 margin-bottom=20 margin-left=20 margin-right=20 width=max height=max }
 		region { name=ssa margin-top=235 margin-left=20 margin-right=20 width=max height=max }
 
-		place { controls="InfoLabel" region=box margin-top=10 align=left width=320 }
-		place { controls="ThrobberThrobberThrobber" start=InfoLabel }
-		place { controls="ReadyToPlayInfoLabel" region=box y=2 start=InfoLabel dir=down }
+		place { controls="InfoLabel" width=0 height=0 margin-left=-999 }
+		place { controls="ReadyToPlayInfoLabel" region=box y=10 }
 		place { controls="ReadyToPlayTimeLabel" x=6 start=ReadyToPlayInfoLabel margin-right=20 }
+		place { controls="ThrobberThrobberThrobber" region=box}
+		
 
 		place { controls=Progress start=ReadyToPlayInfoLabel y=4 width=max dir=down margin-right=20 }
 		place { controls="OverrideThrottleCheckBox,AutoLaunchCheckBox" start=Progress y=4 width=max dir=down spacing=2 }
