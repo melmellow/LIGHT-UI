@@ -26,7 +26,23 @@
 			minimum-height=30
 			font-size=20
 			bgcolor = TEXTENTRY 
+
+			
 		}
+
+
+		AuthCode:Focus 
+		{
+			bgcolor=BASE3
+			render {
+				0="fill(x0,y0,x1,y0+2, TEXTENTRYBORDERSELECTED)"  // top
+				1="fill(x0,y1-1,x1,y1+1, TEXTENTRYBORDERSELECTED)"  // bottom
+				2="fill(x0,y0+1,x0+2,y1-1,TEXTENTRYBORDERSELECTED)"  // left
+				3="fill(x1-1,y0,x1+1,y1+1,TEXTENTRYBORDERSELECTED)"  // right
+				}
+				render_bg {}
+		}
+
 		Instructions
 		{
 			font-size=14
@@ -45,8 +61,8 @@
 
 		place { control="Background" align=left margin=10 y=42 margin-bottom=48 width=360 }
 		place { control="Label1" width=0 height=0}
-		place { control="Key" region="middle" width=30 height=30 margin-left=20 }
-		place { control="AuthCode" region="middle" dir=down spacing=8 height=30 margin-left=20 width=190 }
+		place { control="Key" height=30 width=30 y=52 x=16 }
+		place { control="AuthCode" start=key height=30 width=190 }
 		place { control="Label2" width=0 height=0}
 
 		// bottom: OK/cancel

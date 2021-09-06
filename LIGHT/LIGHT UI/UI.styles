@@ -581,8 +581,8 @@
 		TwoFactorCodeChallenge
 		{
 			BGCOLOR = BASE2
-			minimum-width = 280
-			minimum-height = 120
+			minimum-width = 260
+			minimum-height = 100
 		}
 
 		CMusicLibraryPanel
