@@ -36,7 +36,7 @@ gameoverlay.styles {
 		}
 
 		friends_chat_text {
-			textcolor=A2ChatFriend
+			textcolor=ACCENT
 			//!! needs to be added here to due to bug with color not updating in overlay
 		}
 

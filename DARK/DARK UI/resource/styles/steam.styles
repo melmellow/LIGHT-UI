@@ -431,6 +431,15 @@ steam.styles
 		{
 			render_bg{}
 		}
+		"CUseOfflineModeDialog"
+		{
+			bgcolor=BASE2
+			render_bg{
+					0="fill( x0, y0, x1, y0+39, BASE1)"
+				1="fill( x0, y0+39, x1, y0+40, DIVIDER)"
+			}
+			minimum-height=200
+		}
 		"CUseOfflineModeDialog FrameTitle"
 		{
 			render_bg{}

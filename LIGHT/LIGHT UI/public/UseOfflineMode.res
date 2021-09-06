@@ -164,32 +164,32 @@
 		}
 		"Label" [$WIN32||$WINDOWS]
 		{
-			font-size=36
+			font-size=24
 		}
 		"Label" [$OSX||$LINUX]
 		{
-			font-size=26
+			font-size=24
 		}
 		"URLLabel"
 		{
-			font-style=underline
+			//font-style=underline
 		}
 		//Hidden - steam process still runnning
-		FrameCloseButton
-		{
-			bgcolor="none"
-			render_bg{}
-			image=""
-		}
+		//FrameCloseButton
+		//{
+	    //	bgcolor="none"
+		//	render_bg{}
+		//	image=""
+		//}
 	}
 	layout
 	{
-		place { control="Label1,URLLabel1" dir=down spacing=9 x=40 y=40 margin-top=-9 }
+		place { control="Label1,URLLabel1" spacing=10 dir=down x=30 y=70 margin-top=-9 }
 		region { name=bottom align=bottom height=44 margin=8 }
-		place { control="RetryButton,OfflineModeButton" region=bottom align=left height=28 spacing=8 }
-		place { control="QuitButton" region=bottom align=right height=28 }
+		place { control="OfflineModeButton,RetryButton" region=bottom align=right height=28 spacing=8 }
 
 		//Hidden
-		place { control="frame_close,LabelAppearOffline,Label3" width=1 align=right }
+		
+		place { control="LabelAppearOffline,Label3,QuitButton" width=1 align=right }
 	}
 }
