@@ -47,6 +47,7 @@
   --DRIVEUSAGETEXT: VAR(--ACCENT);
   --APPACTIONBAR: VAR(--BASE3);
   --DRIVEUSAGENUMBER: VAR(--ACCENT);
+  --DISKPOINT:0;
   --DOWNLOADGRAPHBUTTONHOVER: VAR(--BLACK);
   --DOWNLOADGRAPHBUTTONBORDER: transparent;
   --DOWNLOADGRAPHBUTTONBR: var(--BORDERRADIUS);
@@ -889,7 +890,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskPoint_10Cul {
-  stroke-width: 6px !important;
+  stroke-width: VAR(--DISKPOINTSW) !important;
 }
 
 .downloads_SectionItem_1VNuY
