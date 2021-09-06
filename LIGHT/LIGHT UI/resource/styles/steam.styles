@@ -193,10 +193,10 @@ steam.styles
 		{
 			render
 			{
-				1="fill( x0, y0, x1, y0+1, ACTIVEFRAMEBORDER )"
-				2="fill( x0, y1-1, x1, y1, ACTIVEFRAMEBORDER)"
-				3="fill( x0, y0+1, x0+1, y1-1, ACTIVEFRAMEBORDER)"
-				4="fill( x1-1, y0+1, x1, y1-1, ACTIVEFRAMEBORDER )"
+				1="fill( x0, y0, x1, y0+1, ACTIVEDIVIDER )"
+				2="fill( x0, y1-1, x1, y1, ACTIVEDIVIDER)"
+				3="fill( x0, y0+1, x0+1, y1-1, ACTIVEDIVIDER)"
+				4="fill( x1-1, y0+1, x1, y1-1, ACTIVEDIVIDER )"
 			}
 		}
 
@@ -209,7 +209,7 @@ steam.styles
 			bgcolor="none"
 			render_bg
 			{
-				1="fill( x0+1, y0-1, x1-1, y0, Header_Dark )"
+				1="fill( x0+1, y0-1, x1-1, y0, BASE1 )"
 			}
 		}
 
@@ -217,7 +217,7 @@ steam.styles
 		{
 			render_bg
 			{
-				1="fill( x0+1, y0-1, x1-1, y0, Header_Dark )"
+				1="fill( x0+1, y0-1, x1-1, y0, BASE1 )"
 			}
 		}
 
@@ -225,7 +225,7 @@ steam.styles
 		{
 			render_bg
 			{
-				1="fill( x0+1, y0-1, x1-1, y0, Header_Dark )"
+				1="fill( x0+1, y0-1, x1-1, y0, BASE1 )"
 			}
 		}
 
@@ -415,8 +415,8 @@ steam.styles
 			font-weight=300
 			render_bg
 			{
-				0="fill( x0, y0, x1, y1, Header_Dark)"
-				1="fill( x0, y1-1, x1, y1, frameBorder)"
+				0="fill( x0, y0, x1, y1, BASE1)"
+				1="fill( x0, y1-1, x1, y1, DIVIDER)"
 			}
 			padding-bottom=28
 			padding-left=8
@@ -457,8 +457,8 @@ steam.styles
 			font-weight=300
 			render_bg
 			{
-				0="fill( x0, y0, x1, y1, Header_Dark)"
-				1="fill( x0, y1-1, x1, y1, frameBorder)"
+				0="fill( x0, y0, x1, y1, BASE1)"
+				1="fill( x0, y1-1, x1, y1, DIVIDER)"
 			}
 			padding-bottom=33
 			minimum-height=76
@@ -472,8 +472,8 @@ steam.styles
 			font-weight=300
 			render_bg
 			{
-				0="fill( x0, y0, x1, y1, Header_Dark)"
-				1="fill( x0, y1-1, x1, y1, frameBorder)"
+				0="fill( x0, y0, x1, y1, BASE1)"
+				1="fill( x0, y1-1, x1, y1, DIVIDER)"
 			}
 			padding-bottom=43
 			minimum-height=91
@@ -486,8 +486,8 @@ steam.styles
 			font-weight=300
 			render_bg
 			{
-				0="fill( x0, y0, x1, y1, Header_Dark)"
-				1="fill( x0, y1-1, x1, y1, frameBorder)"
+				0="fill( x0, y0, x1, y1, BASE1)"
+				1="fill( x0, y1-1, x1, y1, DIVIDER)"
 			}
 			padding-bottom=36
 			padding-left=9
@@ -501,8 +501,8 @@ steam.styles
 			font-weight=300
 			render_bg
 			{
-				0="fill( x0, y0, x1, y0+40, Header_Dark)"
-				1="fill( x0, y0+39, x1, y0+40, frameBorder)"
+				0="fill( x0, y0, x1, y0+40, BASE1)"
+				1="fill( x0, y0+39, x1, y0+40, DIVIDER)"
 			}
 			padding-left=10
 			minimum-height=116
@@ -515,8 +515,8 @@ steam.styles
 			font-weight=300
 			render_bg
 			{
-				0="fill( x0, y0, x1, y0+40, Header_Dark)"
-				1="fill( x0, y0+39, x1, y0+40, frameBorder)"
+				0="fill( x0, y0, x1, y0+40, BASE1)"
+				1="fill( x0, y0+39, x1, y0+40, DIVIDER)"
 			}
 			minimum-height=116
 		}
@@ -526,8 +526,8 @@ steam.styles
 			font-family="semilight"
 			render_bg
 			{
-				0="fill( x0, y0, x1, y0+40, Header_Dark)"
-				1="fill( x0, y0+39, x1, y0+40, frameBorder)"
+				0="fill( x0, y0, x1, y0+40, BASE1)"
+				1="fill( x0, y0+39, x1, y0+40, DIVIDER)"
 			}
 			padding-left=10
 			minimum-height=116
@@ -538,8 +538,8 @@ steam.styles
 			font-family=basefont
 			render_bg
 			{
-				0="fill( x0, y0, x1, y0+40, Header_Dark)"
-				1="fill( x0, y0+39, x1, y0+40, frameBorder)"
+				0="fill( x0, y0, x1, y0+40, BASE1)"
+				1="fill( x0, y0+39, x1, y0+40, DIVIDER)"
 			}
 			padding-left=2
 			minimum-height=26
@@ -551,8 +551,8 @@ steam.styles
 			font-weight=300
 			render_bg
 			{
-				0="fill( x0, y0, x1, y1, Header_Dark)"
-				1="fill( x0, y1-1, x1, y1, frameBorder)"
+				0="fill( x0, y0, x1, y1, BASE1)"
+				1="fill( x0, y1-1, x1, y1, DIVIDER)"
 			}
 			padding-bottom=36
 			padding-left=11
