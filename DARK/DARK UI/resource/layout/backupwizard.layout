@@ -4,12 +4,42 @@
 	{
 	}
 
+
+	styles
+	{
+		ListPanelCheckBox
+		{	
+			image="ICONS/DIALOGCHECK_d"
+			padding-left=4
+		}
+
+		ListPanelCheckBox:hover
+		{	
+			image="ICONS/DIALOGCHECK_h"
+			padding-left=4
+		}
+
+		ListPanelCheckBox:selected
+		{	
+			image="ICONS/DIALOGCHECK_s"
+			padding-left=4
+		}
+
+		ListPanelCheckBox:selected:hover
+		{	
+			image="ICONS/DIALOGCHECK_sh"
+			padding-left=4
+		}
+	}
 	layout
 	{
 		//Content
-		place { control="Label1,AppChecklist,Label2" y=40 margin-top=8 dir=down spacing=8 }
+		place { control="AppChecklist,Label2" y=40 margin-top=8 dir=down spacing=8 }
 		//Footer
 		region { name=bottom align=bottom height=44 margin=8 }
 		place { control="PrevButton,NextButton,FinishButton,CancelButton" region=bottom align=right height=28 width=84 spacing=8 }
+		
+		//HIDDEN
+		place { control="Label1" width=0 height=0 margin-left=-999}	
 	}
 }
