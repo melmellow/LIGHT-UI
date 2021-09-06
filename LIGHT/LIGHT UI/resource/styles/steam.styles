@@ -1388,7 +1388,7 @@ steam.styles
 		}
 		BackButtonSm:hover
 		{
-			bgcolor=white05
+			bgcolor=NONE
 			image="icons/back_h"
 					render
 			{
@@ -1400,7 +1400,7 @@ steam.styles
 		}
 		BackButtonSm:active
 		{
-			bgcolor=white10
+			bgcolor=NONE
 			image="icons/back_p"
 					render
 			{

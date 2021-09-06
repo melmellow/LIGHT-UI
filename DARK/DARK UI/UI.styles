@@ -48,8 +48,8 @@
 		{
 			render
 			{
-				1="fill( x0, y0+54, x1, y0+55, frameBorder )"
-				2="fill( x0, y1-61, x1, y1-60, Header_Dark )"
+				1="fill( x0, y0+54, x1, y0+55, DIVIDER )"
+				2="fill( x0, y1-61, x1, y1-60, BASE1 )"
 			}
 		}
 		CPlayersDialog
@@ -57,15 +57,15 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 		"CPlayersDialog URLLabel"
 		{
 			render_bg
 			{
-				1="fill( x0-227, y0, x0, y0+1, ClientBG )"
+				1="fill( x0-227, y0, x0, y0+1, BASE2 )"
 			}
 		}
 		CEditTagsDialog
@@ -74,8 +74,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 		CEditFriendsGroupsDialog
@@ -84,8 +84,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 		CChooseBetaDialog
@@ -97,8 +97,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 		CFavoriteGames
@@ -106,8 +106,8 @@
 			bgcolor=ClientBG
 			render_bg
 			{
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 		CHistoryGames
