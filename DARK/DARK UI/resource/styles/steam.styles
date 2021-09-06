@@ -661,8 +661,9 @@ steam.styles
 		"GameItem_Running"
 		{
 			MARGIN-LEFT=22
+			FONT-WEIGHT=600
 			textcolor = SMGAMENAMERUNNING
-			selectedtextcolor=game_run_selected
+			selectedtextcolor=SMGAMENAMERUNNINGSELECTED
 		}
 		"GameItem_Running:hover"
 		{
