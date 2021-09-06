@@ -378,6 +378,7 @@
 //======View CD-Key Page=====//
 		CCDKeyDisplayDialog
 		{
+			BGCOLOR=BASE2
 			render_bg
 			{
 				//Bottom
