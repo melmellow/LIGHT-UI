@@ -1620,7 +1620,7 @@ steam.styles
 		}
 		StopButton:hover
 		{
-			bgcolor=white05
+			bgcolor=NONE
 			image=ICONS/STOP_H
 									render
 			{
@@ -1632,8 +1632,9 @@ steam.styles
 		}
 		StopButton:active
 		{
-			bgcolor=white10
-									render
+			bgcolor=NONE
+			image=ICONS/STOP_P
+			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
 				2="fill( x0, y1-1, x1, y1, "none")"		// Bottom
