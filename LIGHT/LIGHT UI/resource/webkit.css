@@ -3409,10 +3409,16 @@ h2 {
 .store_nav .tab:hover > span {
   color: var(--BLACK) !important;
 }
-body {
+
+/* BUG */
+
+/* body {
   background: var(--BASE2) !important;
   color: VAR(--ACCENT) !important;
-}
+} */
+
+/* BUG */
+
 .btnv6_blue_hoverfade > span {
   border-radius: 0 !important;
   border: 0 !important;
@@ -4295,14 +4301,20 @@ div.filterselect {
 .apphub_UserReviewCardContent .review_award_aggregated {
   color: VAR(--ACCENT) !important;
 }
-input[type="text"],
+
+/* BUG */
+
+/* input[type="text"],
 input[type="password"],
 input[type="number"],
 select {
   outline: NONE !important;
   background-color: var(--TEXTENTRY) !important;
   border: 1px SOLID var(--BUTTONBORDER) !important;
-}
+} */
+
+/* BUG */
+
 #live_stream_featured .title {
   color: VAR(--ACCENT) !important;
 }
@@ -7160,13 +7172,19 @@ span.invite_action_txt {
   color: VAR(--ACCENT) !important;
   font-style: NORMAL !important;
 }
-input[type="number"],
+
+/* BUG */
+
+/* input[type="number"],
 input[type="password"],
 input[type="text"],
 select {
   border: 2px solid transparent !important;
   border-radius: var(--BORDERRADIUS) !important;
-}
+} */
+
+/* BUG */
+
 #search_players_form input[type="submit"] {
   margin-top: 5px !important;
   margin-left: 5px !important;
