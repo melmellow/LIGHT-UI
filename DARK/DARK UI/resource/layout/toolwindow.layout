@@ -22,12 +22,12 @@
 		}
 
 		Button
-		{
+		{	
 			textcolor="none"
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+8,y0+8,x1,y1,ICONS/NEWTAB)"
+					0="image(x0+8,y0+3,x1,y1,ICONS/NEWTAB)"
 			}
 			RENDER {
 				0="fill( x0, y0 + 1, x0 + 1, y1 - 1, NONE )"
@@ -40,7 +40,7 @@
 		{
 			render_bg
 			{
-				0="image(x0+8,y0+8,x1,y1,ICONS/NEWTAB_H)"
+				0="image(x0+8,y0+3,x1,y1,ICONS/NEWTAB_H)"
 			}
 		}
 

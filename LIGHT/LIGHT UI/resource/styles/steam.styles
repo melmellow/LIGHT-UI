@@ -1011,26 +1011,38 @@ steam.styles
 
 		"ToolWindow PageTab"
 		{
+			PADDING=2
 			minimum-width=80
+			render {
+					0="fill(x0,y0,x1,y0+1,DIVIDER)"
+					1="fill(x0,y0,x0+1,y1,DIVIDER)"
+					2="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"
+					3="fill(x0,y1-1,x1,y1-1,NONE)"
+			}
 		}
 		"ToolWindow PageTab:hover"
 		{
-			textcolor="White75"
+			textcolor=BLACK
 			bgcolor="none"
 			render_bg{}
-			render
-			{
-				1="fill(x0+1,y0,x1-1,y1-1,white05)"
+			render {
+					0="fill(x0,y0,x1,y0+1,DIVIDER)"
+					1="fill(x0,y0,x0+1,y1,DIVIDER)"
+					2="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"
+					3="fill(x0,y1-1,x1,y1-1,NONE)"
 			}
 		}
 		"ToolWindow PageTab:selected"
 		{
+			PADDING=2
 			textcolor="ACCENT"
 			bgcolor="none"
 			render_bg{}
-			render
-			{
-				1="fill(x0+1, y1-1, x1-1, y1, NAVBUTTONACTIVEBORDER)"
+			render {
+					0="fill(x0,y0,x1,y0+1,DIVIDER)"
+					1="fill(x0,y0,x0+1,y1,DIVIDER)"
+					2="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"
+					3="fill(x0,y1-1,x1,y1-1,NONE)"
 			}
 		}
 		
