@@ -3412,10 +3412,16 @@ h2 {
 .store_nav .tab:hover > span {
   color: var(--BLACK) !important;
 }
-body {
+
+/* BUG */
+
+/* body {
   background: var(--BASE2) !important;
   color: VAR(--ACCENT) !important;
-}
+} */
+
+/* BUG */
+
 .btnv6_blue_hoverfade > span {
   border-radius: 0 !important;
   border: 0 !important;
