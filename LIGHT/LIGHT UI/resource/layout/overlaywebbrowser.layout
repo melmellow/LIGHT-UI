@@ -34,8 +34,6 @@
 
 		place { control=HTMLField region=body width=max height=max }
 
-		place { control=Divider region=body width=max height=1 }
-
 		place { control=HomeButton,StatusText,URLStatusImage height=0 width=0 margin-left=-9999 }
 	}
 }
