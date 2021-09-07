@@ -1017,7 +1017,7 @@ steam.styles
 					0="fill(x0,y0,x1,y0+1,DIVIDER)"
 					1="fill(x0,y0,x0+1,y1,DIVIDER)"
 					2="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"
-					3="fill(x0,y1-1,x1,y1-1,NONE)"
+					3="fill( x0, y1-1, x1, y1, BASE1 )" 
 			}
 		}
 		"ToolWindow PageTab:hover"
@@ -1029,7 +1029,7 @@ steam.styles
 					0="fill(x0,y0,x1,y0+1,DIVIDER)"
 					1="fill(x0,y0,x0+1,y1,DIVIDER)"
 					2="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"
-					3="fill(x0,y1-1,x1,y1-1,NONE)"
+					3="fill( x0, y1-1, x1, y1, BASE1 )" 
 			}
 		}
 		"ToolWindow PageTab:selected"
@@ -1042,7 +1042,7 @@ steam.styles
 					0="fill(x0,y0,x1,y0+1,DIVIDER)"
 					1="fill(x0,y0,x0+1,y1,DIVIDER)"
 					2="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"
-					3="fill(x0,y1-1,x1,y1-1,NONE)"
+					3="fill( x0, y1-1, x1, y1, BASE1 )" 
 			}
 		}
 		
