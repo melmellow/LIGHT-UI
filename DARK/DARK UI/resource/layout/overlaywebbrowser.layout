@@ -23,7 +23,7 @@
 		}
 
 		place {
-			control=EVCert,URLBar
+			control=URLStatusImage,URLBar
 			region=nav y=4 x=124 height=22 width=max margin-right=12
 		}
 
@@ -34,6 +34,6 @@
 
 		place { control=HTMLField region=body width=max height=max }
 
-		place { control=HomeButton,StatusText,URLStatusImage height=0 width=0 margin-left=-9999 }
+		place { control=EVCert,HomeButton,StatusText height=0 width=0 margin-left=-9999 }
 	}
 }
