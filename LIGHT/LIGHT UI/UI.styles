@@ -54,11 +54,9 @@
 		}
 		CPlayersDialog
 		{
-			render_bg
-			{
-				//Bottom
-				1="fill( x0, y0-44, x1, y1-43, DIVIDER )"
-				2="fill( x0, y0, x1, y0+43, BASE1 )"
+			BGCOLOR=BASE1
+			RENDER_BG {
+				0="fill( x0, y0, x1, y0+39, BASE1 )"
 			}
 		}
 		"CPlayersDialog URLLabel"
@@ -70,7 +68,7 @@
 		}
 		CEditTagsDialog
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
 				//Bottom
@@ -80,7 +78,7 @@
 		}
 		CEditFriendsGroupsDialog
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
 				//Bottom
@@ -103,7 +101,7 @@
 		}
 		CFavoriteGames
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
 				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
@@ -112,7 +110,7 @@
 		}
 		CHistoryGames
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
 				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
@@ -121,7 +119,7 @@
 		}
 		CLanGames
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
 				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
@@ -130,7 +128,7 @@
 		}
 		CFriendsGames
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
 				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
@@ -183,15 +181,12 @@
 			bgcolor=BASE2
 			render_bg
 			{
-				1="fill( x0, y0+53, x1, y0+54, DIVIDER )"
-				2="fill( x0, y0, x1, y0+53, BASE1 )"
-				3="fill( x0, y1-44, x1, y1-43, DIVIDER )"
-				4="fill( x0, y1-43, x1, y1, BASE1 )"
+				0="fill( x0, y0, x1, y0+39, BASE1 )"
 			}
 		}
 		COverlayViewFriendsDialog
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
 				1="fill( x0, y0+53, x1, y0+54, DIVIDER )"
@@ -235,20 +230,20 @@
 			bgcolor=BASE2
 			render_bg
 			{
-				//1="fill( x0, y1-48, x1, y1-47, frameBorder )"
+				//1="fill( x0, y1-48, x1, y1-47, DIVIDER )"
 				2="fill( x0, y1-47, x1, y1, BASE2 )"
 			}
 		}
 
 		CGamePropertiesDialog
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
-				1="fill( x0, y0+53, x1, y0+54, frameBorder )"
-				2="fill( x0, y0, x1, y0+53, Header_Dark )"
-				3="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				4="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y0+53, x1, y0+54, DIVIDER )"
+				2="fill( x0, y0, x1, y0+53, BASE1 )"
+				3="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				4="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 			minimum-width=700
 		}
@@ -308,8 +303,8 @@
 			bgcolor = BASE2
 			render_bg
 			{
-				1="fill( x0, y1-36, x1, y1-35, frameBorder )"
-				2="fill( x0, y1-35, x1, y1, Header_Dark )"
+				1="fill( x0, y1-36, x1, y1-35, DIVIDER )"
+				2="fill( x0, y1-35, x1, y1, BASE1 )"
 			}
 			minimum-width=325
 			minimum-height=200
@@ -319,8 +314,8 @@
 			bgcolor = BASE2
 			render_bg
 			{
-				1="fill( x0, y1-36, x1, y1-35, frameBorder )"
-				2="fill( x0, y1-35, x1, y1, Header_Dark )"
+				1="fill( x0, y1-36, x1, y1-35, DIVIDER )"
+				2="fill( x0, y1-35, x1, y1, BASE1 )"
 			}
 			minimum-width=325
 			minimum-height=240
@@ -333,8 +328,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 ///////////////////////////////////////////
@@ -344,8 +339,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 		CValidateContactEmailWizard
@@ -353,8 +348,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
@@ -365,8 +360,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
@@ -378,8 +373,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
@@ -426,8 +421,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
@@ -437,8 +432,8 @@
 		{
 			render_bg
 			{
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
@@ -446,22 +441,22 @@
 //======Friends Game Invite Dialog=====//
 		CFriendGameInviteDialog
 		{
-			bgcolor="ClientBG"
+			bgcolor="BASE2"
 			render_bg
 			{
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
 		CInternetGames
 		{
-			bgcolor = BASE1
+			bgcolor = BASE2
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
@@ -470,8 +465,8 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-36, x1, y1-35, frameBorder )"
-				2="fill( x0, y1-35, x1, y1, Header_Dark )"
+				1="fill( x0, y1-36, x1, y1-35, DIVIDER )"
+				2="fill( x0, y1-35, x1, y1, BASE1 )"
 			}
 		}
 
@@ -482,11 +477,11 @@
 			render_bg
 			{
 				//Top
-				1="fill( x0, y0+89, x1, y0+90, frameBorder )"
-				2="fill( x0, y0, x1, y0+89, Header_Dark )"
+				1="fill( x0, y0+89, x1, y0+90, DIVIDER )"
+				2="fill( x0, y0, x1, y0+89, BASE1 )"
 				//Bottom
-				3="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				4="fill( x0, y1-43, x1, y1, Header_Dark )"
+				3="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				4="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
@@ -494,12 +489,12 @@
 //======Some EULA Dialog=====//
 		CShowEULADialog
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
@@ -510,27 +505,27 @@
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-44, x1, y1-43, frameBorder )"
-				2="fill( x0, y1-43, x1, y1, Header_Dark )"
+				1="fill( x0, y1-44, x1, y1-43, DIVIDER )"
+				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
 
 		HTMLPopup
 		{
-			bgcolor=ClientBG
-			render_bg
+			bgcolor=BASE2
+			render
 			{
-				1="fill( x0, y0+78, x1, y0+79, frameBorder )"
+				1="fill( x0, y0, x1, y0+1, DIVIDER )"
 			}
 		}
 
 		COverlayWebBrowser
 		{
-			bgcolor=ClientBG
-			render_bg
+			bgcolor=BASE1
+			render
 			{
-				1="fill( x0, y1-26, x1, y1-25, frameBorder )"
-				2="fill( x0, y1-25, x1, y1, Header_Dark )"
+				1="fill( x0, y1-1, x1, y1, DIVIDER )"
+				//2="fill( x0, y1-25, x1, y1, BASE1 )"
 			}
 		}
 
@@ -587,7 +582,7 @@
 
 		CMusicLibraryPanel
 		{
-			bgcolor=ClientBG
+			bgcolor=BASE2
 			minimum-width = 400
 			minimum-height = 400
 		}

@@ -182,7 +182,10 @@ steam.styles
 
 		"CPlayersSubRecentPlayers"
 		{
-			padding=0
+			RENDER_BG {
+					1="fill( x0, y0, x1, y0+39, BASE1 )"
+			}
+			
 		}
 
 		Frame
