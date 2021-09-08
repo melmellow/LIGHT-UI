@@ -44,6 +44,13 @@
 				0="image(x0+8,y0+3,x1,y1,ICONS/NEWTAB_H)"
 			}
 		}
+			Button:ACTIVE
+		{
+			render_bg
+			{
+				0="image(x0+8,y0+3,x1,y1,ICONS/NEWTAB_P)"
+			}
+		}
 
 		MenuButton
 		{
