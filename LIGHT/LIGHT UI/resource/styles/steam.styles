@@ -1241,7 +1241,6 @@ steam.styles
 
 		TabCloseButton
 		{
-			inset-top=-1
 			render_bg {}
 			render
 			{
@@ -1251,20 +1250,22 @@ steam.styles
 				4="fill( x1, y0, x1+1, y1, NONE )"  // right
 			}
 				render_bg {
-				0="image( x0 + 5, y0 + 4, x1, y1, ICONS/TABCLOSE )"
+				0="image( x0, y0, x1, y1, ICONS/TABCLOSE )"
 			}
 		}
 
 		TabCloseButton:hover
 		{
 					render_bg {
-					0="image( x0 + 5, y0 + 4, x1, y1, ICONS/TABCLOSE_H )"
+				0="image( x0, y0, x1, y1, ICONS/TABCLOSE_H )"
 			}
 		}
 
 		TabCloseButton:active
 		{
-			image="graphics/metro/icons/caption/sm/close_sm_p"
+			render_bg {
+				0="image( x0, y0, x1, y1, ICONS/TABCLOSE_P )"
+			}
 		}
 
 		Panel
