@@ -8,6 +8,9 @@
 			{
 				1="fill( x0, y0+39, x1, y0+40, DIVIDER)"
 				2="fill( x0, y0+1, x1, y0+39, BASE2)"
+			}
+			RENDER 
+			{
 				3="fill( x0, y0+86, x1, y0+87, DIVIDER)"
 			}
 		}
