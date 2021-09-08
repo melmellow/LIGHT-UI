@@ -69,6 +69,8 @@
 	
 	layout
 	{
+		place {controls=Divider1,Divider2 width=0 height=0 }
+		
 		region { name=box margin-top=0 margin-bottom=20 margin-left=0 margin-right=0 width=max height=max }
 		region { name=top region=box margin-top=10 }
 		region { name=topleft region=top y=120 width=255 margin-right=20 }

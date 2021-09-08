@@ -76,5 +76,8 @@
 		place { region=box start=ManageSharingLabel controls="BorrowersLabel" y=6 width=max dir=down }
 		place { region=box start=ManageSharingLabel controls="BorrowersList" y=40 width=max height=161 dir=down }
 		place { region=box start=BorrowersList controls="ShowNotificationsCheck" y=2 dir=down width=max height=28 }
-	}
+	
+
+		place { control=Divider1 height=0 width=0}
+		}
 }
