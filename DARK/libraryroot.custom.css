@@ -3814,6 +3814,7 @@ img {
 
 .appdetailssectionoffline_OfflineSectionBody_2dnxv {
   color: var(--ACCENT) !important;
+  border-color:var(--ACCENT)!important;
 }
 
 .appproperties_AppProperties_1FyBL
