@@ -136,6 +136,10 @@
 				2="fill( x0, y1-43, x1, y1, BASE1 )"
 			}
 		}
+		ClanEventDialog
+			{
+			bgcolor=BASE2
+		}
 		CFriendsGames
 		{
 			bgcolor=BASE2
