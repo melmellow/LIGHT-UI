@@ -1033,8 +1033,8 @@ steam.styles
 			font-family=basefont
 			font-weight=400
 			bgcolor = NOTIFICATIONBACKGROUND
-			render_bg {}
-			render{}
+			//render_bg {}
+			//render{}
 		}
 
 		Page
@@ -1853,7 +1853,7 @@ steam.styles
 //======Library Panels(Friends,Achievements,Screenshots,Workshop...etc.)=====//
 		CDetailsCompatSubHeaderPanel
 		{
-			bgcolor=bgPanel
+			bgcolor=BASE1
 			minimum-height=68
 			render_bg
 			{
