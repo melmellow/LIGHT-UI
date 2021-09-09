@@ -1775,7 +1775,7 @@ steam.styles
 
 		ReloadButton
 		{
-			inset-left=8
+			//inset-left=8
 			bgcolor="none"
 			image=ICONS/REFRESH
 							render
@@ -1813,7 +1813,7 @@ steam.styles
 
 		StopButton
 		{
-			inset-left=8
+			//inset-left=8
 			bgcolor="none"
 			image=ICONS/STOP
 									render
