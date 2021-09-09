@@ -74,7 +74,7 @@
     place { region=box control="AdvancedClientOptions" y=6 height=28 start=AdvancedHostOptions dir=down }
     place { region=box control="UnsupportedPlatform" y=6 dir=down start=HostLabel height=28 }
     
-    place { region=box control="ClientDivider,ClientLabel,ClientLabelRemote,ClientLabelLocal" y=4 start=AdvancedClientOptions dir=down width=max spacing=6 }
+    place { region=box control="ClientDivider,ClientLabel,ClientLabelRemote,ClientLabelLocal" y=10 start=AdvancedClientOptions dir=down width=max spacing=6 }
     place { region=box control="QualityFast" y=24 start="ClientDivider" dir=down }
     place { region=box control="QualityBalanced" x=8 start="QualityFast" }
     place { region=box control="QualityBeautiful" x=8 start="QualityBalanced" }

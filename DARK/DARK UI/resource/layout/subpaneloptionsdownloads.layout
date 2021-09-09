@@ -82,7 +82,7 @@
 		
 		place { controls="Divider3" region=box start=DownloadRatesInBitsCheckbox dir=down width=max margin-top=10 }
 		
-		place { controls="FlushDownloadConfig" region=box start=Divider3 margin-top=8 width=142 height=25 dir=down }
+		place { controls="FlushDownloadConfig" region=box start=Divider3 margin-top=14 width=142 height=25 dir=down }
 		place { controls="FlushDownloadConfigLabel" width=0 height=0 }
 		
 		// Hidden
