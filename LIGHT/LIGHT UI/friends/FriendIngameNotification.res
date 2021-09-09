@@ -144,7 +144,7 @@
 	{
 		Label
 		{
-			textcolor=Friends.InGameColor
+			textcolor=GREEN2
 		}
 	}
 	layout
