@@ -11,7 +11,7 @@
 			}
 			RENDER 
 			{
-				3="fill( x0, y0+86, x1, y0+87, DIVIDER)"
+				3="fill( x0, y0+70, x1, y0+71, DIVIDER)"
 			}
 		}
 
