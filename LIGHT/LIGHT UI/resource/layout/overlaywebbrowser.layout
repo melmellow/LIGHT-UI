@@ -13,18 +13,18 @@
 		region { name=body height=max width=max y=29 }
 
 		place {
-			control=BackButton,ForwardButton,HomeButton
+			control=BackButton,ForwardButton
 			region=nav height=30 width=30 spacing=4 margin-top=-1
 		}
 
 		place {
 			control=ReloadButton,StopButton
-			region=nav height=30 spacing=10 start=ForwardButton margin-top=-1
+			region=nav height=30 width=30 spacing=10 start=ForwardButton margin-top=-1
 		}
 
 		place {
 			control=URLStatusImage,URLBar
-			region=nav y=3 x=124 height=22 width=max margin-right=4
+			region=nav y=3 x=112 height=22 width=max margin-right=4
 		}
 
 		place {
