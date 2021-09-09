@@ -32,7 +32,8 @@
 		place { start=DescriptionLabel controls=OverlayHomePageLabel y=20 dir=down width=200 }
 		place { start=OverlayHomePageLabel controls=OverlayHomePage y=5  dir=down width=240 }
 
-		place { start=OverlayHomePage controls=ClientBrowserAuthHomePage,Divider1  y=15 dir=down width=max }
+		place { start=OverlayHomePage controls=ClientBrowserAuthHomePage y=15 dir=down width=max }
+		place { control=Divider1 start=ClientBrowserAuthHomePage margin-top=10 width=max height=1 }
 		place { start=Divider1 controls=ClearWebCacheButton,ClearAllCookiesButton y=15 spacing=6 height=24 width=168 region=bottom dir=down }
 	}
 }
