@@ -549,6 +549,7 @@ steam.styles
 		"CChooseBetaDialog FrameTitle"
 		{
 			textcolor = ACCENT
+			padding-top=5
 			padding-left=10
 			font-family="semilight"
 			font-weight=300
