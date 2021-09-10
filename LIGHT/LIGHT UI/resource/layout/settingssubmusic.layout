@@ -58,30 +58,30 @@
 		place { region=box control=AddLibraryButton start=LibraryList dir=down y=8 height=28 width=84 }
 		place { region=box control=RemoveLibraryButton start=LibraryList dir=down x=92 y=8 height=28 width=84 }
 		place { region=box control=DatabaseInfoLabel start=RemoveLibraryButton align=right height=28 }
-		place { region=box control=LibraryDivider start=AddLibraryButton dir=down y=8 width=max }
+		place { region=box control=LibraryDivider start=AddLibraryButton dir=down y=12 width=max }
 
 		//Database | 1st row
 		place { region=box control=DatabaseHeader start=LibraryDivider dir=down y=8 }
 		place { region=box control=DatabaseCrawlAtStartup,DatabaseCrawlSteamInstallFolders start=DatabaseHeader dir=down height=24 end-right=PauseMusicWhenVoiceChatCheckbox }
 		place { region=box control=StartCrawlingButton start=DatabaseCrawlSteamInstallFolders dir=down y=8 height=28 }
 		place { region=box control=ResetDatabaseButton start=StartCrawlingButton x=8 height=28 }
-		place { region=box control=DatabaseDivider start=StartCrawlingButton dir=down y=8 width=max }
+		place { region=box control=DatabaseDivider start=StartCrawlingButton dir=down y=12 width=max }
 		//Pause Music
-		place { region=box control=PauseMusicHeader x=271 y=170 }
+		place { region=box control=PauseMusicHeader x=271 y=173 }
 		place { region=box control=PauseMusicWhenStartingApplicationCheckbox,PauseMusicWhenVoiceChatCheckbox start=PauseMusicHeader dir=down height=24 }
 
 		//Notification | 2nd row
 		place { region=box control=NotificationHeader start=DatabaseDivider dir=down y=8 }
 		place { region=box control=NotificationPlaylistNowPlayingCheckbox start=NotificationHeader dir=down }
-		place { region=box control=VolumeDivider start=NotificationPlaylistNowPlayingCheckbox dir=down y=8 width=max }
+		place { region=box control=VolumeDivider start=NotificationPlaylistNowPlayingCheckbox dir=down y=12 width=max }
 		//Logging
-		place { region=box control=LoggingHeader x=271 y=300 }
+		place { region=box control=LoggingHeader x=271 y=306 }
 		place { region=box control=LoggingCrawlingCheckbox start=LoggingHeader dir=down }
 		//Audio | 3rd row
-    place { region=box control=AdditionalFilesHeader start=VolumeDivider dir=down y=8 }
+    place { region=box control=AdditionalFilesHeader start=VolumeDivider dir=down y=12 }
 		place { region=box control=AdditionalFilesHighQualityCheckbox start=AdditionalFilesHeader height=24 width=264 dir=down }
 
-		place { region=box control=VolumeHeader x=271 y=374 }
+		place { region=box control=VolumeHeader x=271 y=385 }
 		place { region=box control=VolumeSlider start=VolumeHeader height=24 width=250 dir=down }
 	}
 }

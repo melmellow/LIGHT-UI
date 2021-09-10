@@ -50,12 +50,12 @@
 	{
 		HTML
 		{
-			inset-left=-10
+			//inset-left=-10
 		}
 	}
 	layout
 	{
-		place { control=Label1 }
+		place { control=Label1 y=10 }
 		place { start=Label1 control=HTMLEULA dir=down margin-bottom=4 }
 	}
 }
