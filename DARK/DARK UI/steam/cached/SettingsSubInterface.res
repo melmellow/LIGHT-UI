@@ -17,8 +17,11 @@
 		place { start=FavoriteWindowCombo control="Label3,SkinCombo" y=8 height=24 dir=down }
 		place { start=SkinCombo control="Divider3" margin-top=14 width=max height=1 dir=down }
 		place { start=Divider3 control="AutoLaunchCheck,BigPictureModeCheck,UrlBarCheck,DWriteCheck,H264HWAccelCheck,SmoothScrollWebViewCheck,DPIScalingCheck,GPUWebViewCheck,NotifyAvailableGamesCheck" y=6 spacing=2 dir=down }
-		place {	start=NotifyAvailableGamesCheck control="SetJumpListOptionsButton" dir=down }
+		
+		place { control=Divider2 start=NotifyAvailableGamesCheck dir=down width=max height=1 y=3 }
+
+		place {	start=Divider2 control="SetJumpListOptionsButton" dir=down y=10 }
 		//Hidden
-		place {	control="Label1,Divider1,Divider2" dir=down margin-left=-999 }
+		place {	control="Label1,Divider1" dir=down margin-left=-999 }
 	}
 }
