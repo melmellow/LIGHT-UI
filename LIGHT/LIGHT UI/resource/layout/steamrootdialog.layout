@@ -114,7 +114,7 @@
 		}
 		inboxmenuitem_active
 		{
-			textcolor = ACCENT
+			textcolor = BLACK
 		}
 
 		announcement_button
