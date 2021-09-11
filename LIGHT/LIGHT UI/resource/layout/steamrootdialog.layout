@@ -105,6 +105,13 @@
 
 		inboxmenuitem
 		{
+			RENDER_BG {
+				0="fill(x0,y0,x1,y0+1, NAVBARBOTTOMBORDER)"
+			}
+			RENDER 
+			{
+				0="fill(x0,y0+33,x1,y0+34, MENUBACKGROUND)"
+			}
 			textcolor = ACCENT
 			padding-left=7
 		}
@@ -172,9 +179,6 @@
 			render_bg
 			{
 				0="image(x0+8,y0+12,x1,y1, icons/notifications_selected)"
-			}
-			render {
-				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
 			}
 		}
 		inbox_button:disabled
