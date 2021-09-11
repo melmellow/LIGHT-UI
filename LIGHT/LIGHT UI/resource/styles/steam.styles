@@ -15,7 +15,7 @@ steam.styles
 	  DialogBG=BASE1
 		PropertySheetBG="50 55 61 255"
 		ButtonBorderDisabled="112 120 136 255"
-		ScrollBar.Wide "16"
+		ScrollBar.Wide "15"
 	}
 	
 	layout {
