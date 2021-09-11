@@ -51,7 +51,7 @@
 	{
 		status
 		{
-			bgcolor="ClientBG"
+			bgcolor=BASE2
 			inset="8 0 0 0"
 		}
 	}

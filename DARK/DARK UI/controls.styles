@@ -61,7 +61,30 @@
 		}
 		ToggleButton:selected
 		{
-			bgcolor=focus
+			TEXTCOLOR="255 255 255 255"
+			bgcolor=BLUE
+
+			render { 
+				
+				1="fill(x0,y0,x1,y0+1, BLUE)"  // top
+				2="fill(x0,y1-1,x1,y1, BLUE)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BLUE)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BLUE)"  // right
+			}
+		}
+
+			ToggleButton:selected:hover
+		{
+			//TEXTCOLOR="255 255 255 255"
+			bgcolor=BLUE2
+
+			render { 
+				
+				1="fill(x0,y0,x1,y0+1, BLUE2)"  // top
+				2="fill(x0,y1-1,x1,y1, BLUE2)"  // bottom
+				3="fill(x0,y0+1,x0+1,y1-1, BLUE2)"  // left
+				4="fill(x1-1,y0+1,x1,y1-1, BLUE2)"  // right
+			}
 		}
 
 	

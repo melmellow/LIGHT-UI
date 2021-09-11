@@ -412,7 +412,7 @@
 	layout
 	{
 		region { name="bottom" align=bottom height=44 margin=8 }
-		region { name="left" y=8 width=200 margin-left=16 margin-bottom=44 }
+		region { name="left" y=8 width=200 margin-left=8 margin-bottom=44 }
 
 		place { region=left control="GameFilterLabel,GameFilter,MapFilterLabel,MapFilter" dir=down spacing=4 margin-right=8 }
 		place { start=MapFilter control="PingFilterLabel" y=4 dir=down margin-right=8 }
