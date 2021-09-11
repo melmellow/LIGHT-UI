@@ -24,7 +24,7 @@
 
 		place {
 			control=URLStatusImage,URLBar
-			region=nav y=3 x=112 height=22 width=max margin-right=4
+			region=nav y=3 x=116 height=22 width=max margin-right=22
 		}
 
 		place {
