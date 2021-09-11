@@ -325,7 +325,7 @@
 			image=ICONS/SCROLLUP
 			padding-left=-1
 			//padding-right=1
-			padding-bottom=3
+			padding-bottom=2
 					render {
 				1="fill(x0,y0,x1,y0+1, "NONE")"  // top
 				2="fill(x0,y1-1,x1,y1, "NONE")"  // bottom
@@ -347,6 +347,7 @@
 			render_bg{}
 			image=ICONS/SCROLLDOWN
 			padding-left=-1
+			PADDING-TOP=-1
 			//padding-right=1
 			padding-bottom=2
 					render {
@@ -430,8 +431,9 @@
 
 		ScrollBarSlider // gutter
 		{
-			bgcolor=BUTTON
-			render_bg{}
+			bgcolor=NONE
+			render_bg{
+			}
 			render{}
 		}
 		ScrollBarSliderHoriz // gutter
