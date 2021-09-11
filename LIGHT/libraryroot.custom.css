@@ -4054,6 +4054,11 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
   background: var(--BASE2) !important;
 }
+
+.appproperties_AppProperties_1FyBL .DialogHeader {
+  margin-top:28px!important;
+}
+
 .DialogHeader {
   font-weight: VAR(--DIALOGHEADERFONTWEIGHT) !important;
   text-transform: unset !important;
