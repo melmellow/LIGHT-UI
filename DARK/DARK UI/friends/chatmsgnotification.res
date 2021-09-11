@@ -16,6 +16,6 @@
 		place { control="LabelSender,LabelMessage" region=panel x=67 y=10 dir=down margin=11 margin-left=0 margin-bottom=0 }
 
 		//Footer
-		place { control="LabelHotkey,LabelInfo" y=76 width=250 }
+		place { control="LabelHotkey,LabelInfo" width=0 height=0 }
 	}
 }
