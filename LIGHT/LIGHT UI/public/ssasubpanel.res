@@ -80,7 +80,7 @@
 			font-family=basefont
 			font-size=14
 			font-weight=400
-			textcolor="white50"
+			textcolor=ACCENT
 		}
 	}
 	layout
