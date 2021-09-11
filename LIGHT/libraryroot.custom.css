@@ -1630,6 +1630,22 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_PlayBarIconAndGame_2MBVR {
+  transition:unset!important;
+}
+
+.appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
+  transition:unset!important;
+}
+
+.appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_GameStatsSection_1mDAV {
+  transition:unset!important;
+}
+
+.appdetailsplaysection_StatusAndStats_1YbtI {
+  transition:unset!important;
+}
+
 .appportraithover_DownloadStatus_1KHOC {
   display: none !important;
 }
