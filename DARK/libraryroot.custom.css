@@ -1,5 +1,6 @@
 /*CODE BY: https://steamcommunity.com/id/1475963159753 */
 :root {
+  --FONTFAMILY:segoe ui;
   --TOOLTIPOPACITY: 0;
   --SwapColumns: right;
   --FriendsDLCScreenshotsColumnWidth: 33%;
@@ -600,20 +601,20 @@
 
 .contentmanagement_AppActionSelected_1dFOk {
   font-weight: 400 !important;
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   color: VAR(--ACCENT) !important;
 }
 
 .contentmanagement_DriveUsageText_1DFCG,
 .contentmanagement_DriveUsageNumber_181OY {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
   .contentmanagement_AppBodyLeft_d9dlN
   .contentmanagement_AppInfo__g4ce
   .contentmanagement_AppInfoItem_1L9a0 {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
 }
 
 button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary {
@@ -695,7 +696,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .contentmanagement_DriveSize_5bG9I {
   line-height: 21px !important;
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   font-weight: var(--DRIVESIZEFONTWEIGHT) !important;
   white-space: nowrap !important;
 }
@@ -748,7 +749,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   .contentmanagement_AppBodyLeft_d9dlN
   .contentmanagement_AppName_YxhO6 {
   color: VAR(--CMAPPNAME) !important;
-  font-family: SEGOE UI !important;
+  font-family: VAR(--FONTFAMILY) !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
@@ -778,7 +779,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .contentmanagement_AppsGrid_2n6FN
   .contentmanagement_AppBodyRight_3vHX3
   .contentmanagement_AppSize_mohK9 {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   color: var(--CMAPPSIZE) !important;
   font-weight: VAR(--CMAPPSIZEFW) !important;
 }
@@ -787,7 +788,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   padding-right: 12px !important;
   color: VAR(--CMAPPHEADER) !important;
   text-transform: var(--CMAPPHEADERTEXTCASE) !important;
-  font-family: SEGOE UI !important;
+  font-family: VAR(--FONTFAMILY) !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
@@ -798,7 +799,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .contentmanagement_Title_3IvzT {
   color: VAR(--ACCENT) !important;
-  font-family: SEGOE UI !important;
+  font-family: VAR(--FONTFAMILY) !important;
   text-transform: unset !important;
   font-weight: var(--STORAGEMANAGERFONTWEIGHT) !important;
 }
@@ -824,7 +825,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .contentmanagement_DriveName_1rihl {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   line-height: 22px !important;
   margin-right: 4px !important;
   text-transform: uppercase !important;
@@ -922,12 +923,12 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .downloadgraph_Throttle_38T9T {
   font-size: 12px !important;
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   color: var(--BLACK) !important;
 }
 
 .downloadgraph_Throttle_38T9T {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   color: var(--BLACK) !important;
   background: var(--BASE2);
 }
@@ -1128,14 +1129,14 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .downloads_SectionItemStatus_1Sygg
   .downloads_State_2ns4w.downloads_Downloading_33BlY {
   color: var(--DOWNLOADING) !important;
-  font-family: SEGOE UI !important;
+  font-family: VAR(--FONTFAMILY) !important;
 }
 
 .downloads_SectionItemStatus_1Sygg
   .downloads_SectionItemStatusLine_17xMw
   .downloads_State_2ns4w {
   color: var(--UPDATING) !important;
-  font-family: SEGOE UI !important;
+  font-family: VAR(--FONTFAMILY) !important;
 }
 
 .downloads_StatsPanel_2IXt5 {
@@ -1156,7 +1157,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloads_ProgressDetails_sv3ZH {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   color: VAR(--PROGRESSDETAILS) !important;
   font-weight: var(--PROGRESSDETAILSFONTWEIGHT) !important;
 }
@@ -1220,7 +1221,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloads_SectionItemStatus_1Sygg {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   letter-spacing: var(--DOWNLOADSITEMSTATUSLETTERSPACING) !important;
   font-weight: var(--DOWNLOADSITEMSTATUSFONTWEIGHT) !important;
   color: VAR(--DOWNLOADSITEMSTATUS) !important;
@@ -1241,7 +1242,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
   font-size: 13px !important;
   color: VAR(--DOWNLOADNAME) !important;
@@ -1359,7 +1360,7 @@ div.MediumWindow
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   line-height: 17px !important;
   margin-right: 2px !important;
   float: right !important;
@@ -1372,7 +1373,7 @@ div.MediumWindow
   white-space: nowrap !important;
   margin-bottom: 2px !important;
   margin-left: 13px !important;
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   font-size: 12px !important;
   width: auto !important;
   padding: 5px !important;
@@ -1415,7 +1416,7 @@ div.MediumWindow
   letter-spacing: VAR(--SECTIONTITLELETTERSPACING) !important;
   /* display: none !important; */
   padding: 0 14px !important;
-  font-family: SEGOE UI !important;
+  font-family: VAR(--FONTFAMILY) !important;
   font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
   font-size: 12px !important;
 }
@@ -1679,7 +1680,7 @@ div.MediumWindow
 }
 
 .appdetailsheader_DemoBanner_3EXkl {
-  font-family: segoe ui !important;
+  font-family: VAR(--FONTFAMILY) !important;
   color: VAR(--BLACK) !important;
   font-weight: 700 !important;
 }
@@ -2134,7 +2135,7 @@ div.NarrowRightPanel
 }
 
 .appdetailssection_AppDetailsSection_2r4TK {
-  font-family: segoe UI !important;
+  font-family: VAR(--FONTFAMILY) !important;
   margin-bottom: 8px !important;
 }
 
@@ -3908,7 +3909,7 @@ img {
   background: var(--LISTITEMBACKGROUNDHOVER) !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
-  font-family: segoe UI !important;
+  font-family: VAR(--FONTFAMILY) !important;
   color: var(--ACCENT) !important;
   font-weight: 394 !important;
   text-transform: NONE !important;
