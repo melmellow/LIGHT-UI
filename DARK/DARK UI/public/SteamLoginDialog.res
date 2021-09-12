@@ -446,8 +446,9 @@
 	layout
 	{
 		
-		place { control="UserNameEdit"start=usernamelabel margin-left=22 width=308 }
-		place { control="PasswordEdit"start=UserNameEdit dir=down y=8 width=308 }
+		place { control="UserNameEdit"start=usernamelabel y=2 margin-left=22 width=308 }
+		place { control="PasswordEdit"start=UserNameEdit dir=down y=10 width=308 }
+		place { control="SavePasswordCheck" start=PasswordEdit dir=down y=5 x=-10 }
 		place { control="ImagePanelLogo" x=50 y=26 height=40 }
 	}
 }
