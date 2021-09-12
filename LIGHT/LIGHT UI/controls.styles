@@ -93,6 +93,10 @@
 		{
 			font-family=basefont
 			bgcolor = TEXTENTRY
+			//render_bg {
+			//	0="image(x0-10,y0,x1,y1, ICONS/LEFT2)"
+			//	1="image(x1-1,y0,x1-11,y1, ICONS/RIGHT2)"
+			//}
 			textcolor = ACCENT
 			shadowtextcolor = ACCENT
 			selectedtextcolor = ACCENT
@@ -103,12 +107,16 @@
 
 		TextEntry:hover
 		{
-				RENDER {
-						1="fill( x0, y0, x1, y0+1, TEXTENTRYBORDERHOVER )"		// Top
-				2="fill( x0, y1-1, x1, y1, TEXTENTRYBORDERHOVER)"		// Bottom
-				3="fill( x0, y0+1, x0+1, y1-1, TEXTENTRYBORDERHOVER)"	// Left
-				4="fill( x1-1, y0+1, x1, y1-1, TEXTENTRYBORDERHOVER)"	// Right
-			}
+				//render_bg {
+				//6="image(x0-10,y0,x1,y1, ICONS/LEFT2_H)"
+				//9="image(x1-1,y0,x1-11,y1, ICONS/RIGHT2_H)"
+			//}
+				//RENDER {
+				//		2="fill( x0, y0, x1, y0+1, OLTEXTENTRYBORDERHOVER )" Top
+				//3="fill( x0, y1-1, x1, y1, OLTEXTENTRYBORDERHOVER)"		 Bottom
+				//4="fill( x0, y0+1, x0+1, y1-1, OLTEXTENTRYBORDERHOVER)"	 Left
+				//5="fill( x1-1, y0+1, x1, y1-1, OLTEXTENTRYBORDERHOVER)"	 Right
+				//}
 		}
 
 			TextEntry:focus
