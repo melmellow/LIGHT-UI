@@ -235,7 +235,7 @@
 		}
 		CheckButton:selected:disabled
 		{
-			textcolor="White24"
+			textcolor=DISABLEDTEXT
 			bgcolor="none"
 			image=ICONS/check_s
 		}
