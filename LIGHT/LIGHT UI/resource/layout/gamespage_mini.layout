@@ -25,7 +25,8 @@
 	{
 		NavLabel2
 		{
-			INSET="4 0 0 0"
+			INSET-TOP=4
+			INSET-RIGHT=16
 			textcolor="none"
 			bgcolor = BUTTON
 			//IMAGE="ICONS/MENU"
@@ -46,7 +47,7 @@
 		}
 		"CGamesPage_Mini CMiniGameFilterMenuButton"
 		{
-			padding-right=6
+			padding-right=3
 		}
 		LibrarySearchIcon
 		{
@@ -68,12 +69,12 @@
 
 		//Header
 		region { name=top align=top y=40 height=40 x=0 margin-right=0 }
-		place { control="library_filters" region=top start=library_search MARGIN-LEFT=4 MARGIN-RIGHT=4 height=24 width=38 }
+		place { control="library_filters" region=top start=library_search X=16 height=24 width=31 }
 		place { control="MenuBar" height=38 width=38 x=1 y=1 }
 
 		//Search
 		place { control="label_search_icon" region=top height=0 width=0 }
-		place { control="library_search" region=top start=label_search_icon height=24 width=max margin-right=37 MARGIN-LEFT=4 MARGIN-TOP=4}
+		place { control="library_search" region=top start=label_search_icon height=24 width=max margin-right=52 MARGIN-LEFT=18 MARGIN-TOP=4}
 
 		 place { control="MenuButton" width=10 height=10}
 

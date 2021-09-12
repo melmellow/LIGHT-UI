@@ -956,11 +956,11 @@ steam.styles
 		}
 		MenuItem:disabled
 		{
-			textcolor="White50"
+			textcolor=BUTTONDISABLEDTEXT
 		}
 		MenuItem:disabled:hover
 		{
-			textcolor="White50"
+			textcolor=BUTTONDISABLEDTEXT
 		}
 
 //////////////////////////////////////
