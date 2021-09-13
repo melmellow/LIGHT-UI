@@ -17,9 +17,8 @@
 	{
 		Password
 		{
-			font-size=40
-			bgcolor="232 232 232 255"
-			minimum-height=50
+			font-size=14
+			minimum-height=24
 		}
 		Description
 		{
@@ -36,9 +35,10 @@
 
 	layout
 	{
-		region { name="top" width=max height=260 margin=10 margin-top=40 }
-		place { control="Description,PIN1,PIN2" region="top" margin-top=4 margin-left=6 margin-right=6 width=max spacing=8 dir=down }
-
+		region { name="top" width=max height=260 margin=10 margin-top=46 }
+		place { control="Description" region="top" margin-top=4 margin-left=6 margin-right=6 width=max dir=down }
+		place { controls="PIN1" start=Description dir=down margin-top=8 margin-left=10 margin-right=27 width=max }
+		place { controls="PIN2" start=PIN1 dir=down margin-top=8  margin-right=27 width=max }
 		//Footer
 		region { name="bottom" align=bottom height=44 margin=8 }
 		place { control="OK,Cancel" region="bottom" width=84 height=28 align=right spacing=8 }
