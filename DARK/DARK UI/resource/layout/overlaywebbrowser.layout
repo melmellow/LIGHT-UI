@@ -14,12 +14,12 @@
 
 		place {
 			control=BackButton,ForwardButton
-			region=nav height=30 width=30 spacing=4 margin-top=-1
+			region=nav height=30 width=30 spacing=4 margin-top=0
 		}
 
 		place {
 			control=ReloadButton,StopButton
-			region=nav height=30 width=30 spacing=10 start=ForwardButton margin-top=-1
+			region=nav height=30 width=30 spacing=10 start=ForwardButton margin-top=0
 		}
 
 		place {
