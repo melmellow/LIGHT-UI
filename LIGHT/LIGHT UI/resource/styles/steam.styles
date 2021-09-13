@@ -213,6 +213,8 @@ steam.styles
 		"HotkeyEntryClearButton"
 		{
 			image="graphics/metro/icons/caption/close"
+			inset-right=9
+			inset-bottom=4
 			minimum-width=24
 			minimum-height=16
 		}
