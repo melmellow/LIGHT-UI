@@ -353,7 +353,7 @@
 		
 
 		//Content
-		place { control="UINavigatorPanel" width=max height=max x=1 margin-right=1 margin-bottom=-6}
+		place { control="UINavigatorPanel" width=max height=max x=1 margin-right=1 }
 
 		//Controls
 		place { control="XPVistaAlert,SupportAlert,AccountButton,InboxButton,view_friends,startvr,exitvr,ParentalLockButton,fullscreen" region=top align=right end-right=UIStatusPanel spacing=1 margin-right=1 height=39 }

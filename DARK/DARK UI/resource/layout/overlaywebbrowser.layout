@@ -9,8 +9,8 @@
 			place [$OSX] { control=frame_close height=22 width=22 y=13 align=left margin-left=20 }
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
-		region { name=nav height=30 width=max x=8 }
-		region { name=body height=max width=max y=29 }
+		region { name=nav height=32 width=max x=8 }
+		region { name=body height=max width=max y=31 }
 
 		place {
 			control=BackButton,ForwardButton
@@ -24,7 +24,7 @@
 
 		place {
 			control=URLStatusImage,URLBar
-			region=nav y=3 x=116 height=22 width=max margin-right=22
+			region=nav y=3 x=116 height=24 width=max margin-right=22
 		}
 
 		place {
