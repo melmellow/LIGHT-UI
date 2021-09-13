@@ -19,8 +19,8 @@
 		}
 		AuthCode
 		{
-			minimum-height=45
-			font-size=35
+			minimum-height=24
+			font-size=14
 			bgcolor="232 232 232 255"
 		}
 		Instructions
@@ -31,7 +31,8 @@
 	layout
 	{
 		region { name="buttons" width=max height=36 align="bottom" }
-		place { control="AuthorizeDeviceText,AuthCode" dir=down align=top width=max margin-left=20 margin-right=20 margin-top=40 spacing=10 }
+		place { control="AuthorizeDeviceText" dir=down align=top width=max margin-left=20 margin-right=20 margin-top=52 }
+		place { control="AuthCode" start="AuthorizeDeviceText" dir=down width=max margin-left=10 margin-right=28 margin-top=10 }
 		place { control="OK,Cancel" region="buttons" width=92 height=25 align=right margin-right=10 margin-top=0 margin-bottom=2 spacing=10 }
 	}
 }
