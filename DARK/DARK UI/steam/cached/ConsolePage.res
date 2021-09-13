@@ -75,6 +75,9 @@
 	{
 		ConsolePage
 		{
+			render {
+				0="fill(x0,y0,x1,y0+1) NAVBARBOTTOMBORDER"
+			}
 			bgcolor = BASE2
 		}
 
@@ -91,7 +94,7 @@
 	}
 	layout
 	{
-		place { control="entry" align=top height=28 width=max }
+		place { control="entry" align=top margin-top=4 margin-left=14 margin-right=14 height=24 width=max }
 		place { control="console" start=entry height=max width=max dir=down }
 	}
 }
