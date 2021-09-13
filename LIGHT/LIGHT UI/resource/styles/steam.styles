@@ -842,7 +842,7 @@ steam.styles
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="graphics/metro/icons/plus_p"
+			image="icons/plus_p"
 		}
 		"CGamesListPanel ListPanelColumnSelectButton"
 		{
