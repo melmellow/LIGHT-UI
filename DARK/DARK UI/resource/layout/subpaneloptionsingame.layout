@@ -86,19 +86,20 @@
 		place [!$OSX] { controls=EnableSCTenfootOverlayCheck region=top start=EnableOverlayCheck dir=down height=20 }
 		place [!$OSX&&!$LINUX] { controls=EnableVRDesktopGameTheaterCheck region=top start=EnableSCTenfootOverlayCheck dir=down height=20 }
 		place { controls=HotKeySelectorLabel start=EnableVRDesktopGameTheaterCheck y=8 dir=down spacing=8 width=max }
-		place { control=HotKeySelector start HotKeySelectorLabel margin-top=8 dir=down width=100 }
-		place { controls=ShowIngameFPSLabel dir=down start=ScreenshotHotKeySelector margin-top=8 width=max }
+		place { control=HotKeySelector start=HotKeySelectorLabel margin-top=8 margin-left=10 dir=down width=100 }
+		place { controls=ShowIngameFPSLabel dir=down start=ScreenshotLabel margin-top=36 width=max }
 		place { control=ShowIngameFPSCombo dir=down start=ShowIngameFPSLabel width=100 margin-top=8 }
 		place { control=ShowIngameFPSContrastCheck dir=down start=ShowIngameFPSCombo width=max margin-top=8 }	
-		place { controls=ScreenshotLabel start=HotKeySelector y=8 dir=down }
+		place { controls=ScreenshotLabel start=HotKeySelectorLabel y=36 dir=down }
 		place { controls=ScreenshotHotKeySelector
 			dir=down 
 			start=ScreenshotLabel
 			margin-top=8
+			margin-left=10
 			width=100
 			height=24 }
 
-		place { control=SetScreenshotFolderButton start=ScreenshotHotKeySelector margin-left=8 height=24 width=112 dir=right }
+		place { control=SetScreenshotFolderButton start=ScreenshotHotKeySelector margin-left=22 height=24 width=112 dir=right }
 		place { control=ScreenshotActionLabel start=EnableVRDesktopGameTheaterCheck margin-left=300 dir=down y=8 }
 		place { controls=ScreenshotNotifyCheck,ScreenshotPlaySoundCheck,ScreenshotSaveUncompressedCheck dir=down start=ScreenshotActionLabel
 			margin-top=8 height=22 width=max }
