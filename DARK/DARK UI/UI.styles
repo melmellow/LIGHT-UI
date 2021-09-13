@@ -316,8 +316,8 @@
 		{
 			bgcolor = BASE2 
 			render_bg {
-				0="fill( x0, y0, x0+350, y1, BASE1 )"
-				1="fill( x0+348, y0, x0+350, y1, DIVIDER )"
+				//0="fill( x0, y0, x0+350, y1, BASE1 )"
+				//1="fill( x0+348, y0, x0+350, y1, DIVIDER )"
 				//1="fill( x0, y0 + 50, x1, y0 + 100, BASE2 )"
 			}
 		}

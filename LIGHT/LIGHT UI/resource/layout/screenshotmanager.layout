@@ -82,7 +82,9 @@
 		{
 			minimum-width=320
 			minimum-height=240
-			bgcolor=black25
+			render {
+				0="fill(x0-8, y0+4, x0-7, y1-4, DIVIDER)"
+			}
 		}
 		publishcaption
 		{
@@ -179,7 +181,7 @@
 		place { control="SSSize,SSSizeOriginal" start="SSDate" margin-right=15 align=right dir=left }
 
 		//Text Description
-		place { control="publish_caption" region="details" start=SSDate dir=down margin-top=2 margin-bottom=50 height=max margin-right=8 width=max }
+		place { control="publish_caption" region="details" start=SSDate dir=down margin-top=4 margin-bottom=50 height=24 margin-left=10 margin-right=18 width=max }
 		place { control="publish_charsleft" start=publish_caption dir=down align=right margin-right=16 }
 
 		//Text Description Published
