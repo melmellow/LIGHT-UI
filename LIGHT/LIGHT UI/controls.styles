@@ -294,15 +294,10 @@
 		}
 		ComboBox:disabled
 		{
-			textcolor= "183 183 183 255"
-			render_bg
-			{
-				0="fill(x0,y1-1,x1,y1,DROPDOWNBORDER)"  // bottom
-			}
+			textcolor= DISABLEDTEXT
 		}
 		ComboBox:focus
 		{
-			selectedbgcolor="211 211 211 255"
 			TEXTCOLOR=ACCENT
 		}
 
