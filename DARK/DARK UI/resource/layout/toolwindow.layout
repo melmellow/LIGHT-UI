@@ -6,13 +6,13 @@
 		{
 			render_bg
 			{
-				1="fill( x0, y0+39, x1, y0+40, DIVIDER)"
+				1="fill( x0, y0+39, x1, y0+40, TEXTENTRYBORDER)"
 				2="fill( x0, y0+1, x1, y0+39, BASE1)"
 			}
 			RENDER 
 			{
-				0="fill( x0, y0, x1, y0+1, ACCENT)"
-				1="fill( x0, y0+72, x1, y0+73, DIVIDER)"
+				0="fill( x0, y0, x1, y0+1, TEXTENTRYBORDER)"
+				1="fill( x0, y0+72, x1, y0+73, TEXTENTRYBORDER)"
 			}
 		}
 
