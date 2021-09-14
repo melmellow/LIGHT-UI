@@ -485,7 +485,7 @@ layout [$WINDOWS]
 
 	//URLBar
 	place { control="stop,refresh,subnavgroup_library" height=24 dir=down } // hacky solution for the url checkbox on/off
-	place { control="EVCert,URLBar" region=top y=0 align=left width=max height=24 margin-right=0 }
+	place { control="EVCert,URLBar" region=top y=0 align=left width=max height=24 margin-right=12 margin-left=4 }
 	place { control="stop" start=URLBar align=right width=38 height=24 }
 	place { control="PageLoadThrobber" width=0 height=0}
 	place { control="refresh" width=0 height=0}
