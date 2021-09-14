@@ -181,6 +181,7 @@
 		RadioButton:hover
 		{
 			render_bg {}
+			TEXTCOLOR=BLACK
 			image="ICONS/radio_h"
 		}
 		RadioButton:selected
@@ -218,6 +219,7 @@
 		CheckButton:hover
 		{
 			image=ICONS/check_h
+			TEXTCOLOR=BLACK
 		}
 		CheckButton:selected
 		{
