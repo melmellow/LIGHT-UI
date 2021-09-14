@@ -69,7 +69,7 @@
 	
 	layout
 	{
-		place {controls=Divider1,Divider2 width=0 height=0 }
+		place {controls=Divider2 width=0 height=0 }
 		
 		region { name=box margin-top=0 margin-bottom=20 margin-left=0 margin-right=0 width=max height=max }
 		region { name=top region=box margin-top=10 }
@@ -85,22 +85,22 @@
 		place { controls=EnableOverlayCheck region=top start=DescriptionLabel dir=down height=20 margin-top=8 margin-bottom=6}
 		place [!$OSX] { controls=EnableSCTenfootOverlayCheck region=top start=EnableOverlayCheck dir=down height=20 }
 		place [!$OSX&&!$LINUX] { controls=EnableVRDesktopGameTheaterCheck region=top start=EnableSCTenfootOverlayCheck dir=down height=20 }
-		place { controls=HotKeySelectorLabel start=EnableVRDesktopGameTheaterCheck y=8 dir=down spacing=8 width=max }
-		place { control=HotKeySelector start=HotKeySelectorLabel margin-top=8 margin-left=10 dir=down width=100 }
+		place { controls=HotKeySelectorLabel start=EnableVRDesktopGameTheaterCheck y=12 dir=down spacing=8 width=140 }
+		place { control=HotKeySelector start=HotKeySelectorLabel dir=RIGHT width=90 }
 		place { controls=ShowIngameFPSLabel dir=down start=ScreenshotLabel margin-top=36 width=max }
 		place { control=ShowIngameFPSCombo dir=down start=ShowIngameFPSLabel width=100 margin-top=8 }
 		place { control=ShowIngameFPSContrastCheck dir=down start=ShowIngameFPSCombo width=max margin-top=8 }	
-		place { controls=ScreenshotLabel start=HotKeySelectorLabel y=36 dir=down }
+		place { controls=ScreenshotLabel start=HotKeySelectorLabel y=16 dir=down }
 		place { controls=ScreenshotHotKeySelector
-			dir=down 
+			dir=RIGHT 
 			start=ScreenshotLabel
-			margin-top=8
-			margin-left=10
-			width=100
+			margin-left=14
+			width=90
 			height=24 }
 
-		place { control=SetScreenshotFolderButton start=ScreenshotHotKeySelector margin-left=22 height=24 width=112 dir=right }
-		place { control=ScreenshotActionLabel start=EnableVRDesktopGameTheaterCheck margin-left=300 dir=down y=8 }
+		place { control=SetScreenshotFolderButton start=ScreenshotLabel height=24 width=112 dir=down margin-top=8 }
+		place { control=Divider1 start=EnableVRDesktopGameTheaterCheck margin-left=200 dir=down width=1 height=100 }
+		place { control=ScreenshotActionLabel start=EnableVRDesktopGameTheaterCheck margin-left=310 dir=down y=8 }
 		place { controls=ScreenshotNotifyCheck,ScreenshotPlaySoundCheck,ScreenshotSaveUncompressedCheck dir=down start=ScreenshotActionLabel
 			margin-top=8 height=22 width=max }
 

@@ -181,7 +181,7 @@
 		RadioButton:hover
 		{
 			render_bg {}
-			TEXTCOLOR=WHITE
+			TEXTCOLOR=BLACK
 			image="ICONS/radio_h"
 		}
 		RadioButton:selected
@@ -219,7 +219,7 @@
 		CheckButton:hover
 		{
 			image=ICONS/check_h
-			TEXTCOLOR=WHITE
+			TEXTCOLOR=BLACK
 		}
 		CheckButton:selected
 		{
@@ -271,16 +271,15 @@
 
 		ComboBox
 		{
-	
 			textcolor=ACCENT
-			image="graphics/icon_down"
 			selectedtextcolor="ACCENT"
 			font-family=basefont
 			bgcolor=DROPDOWN
 			render
-			{
-				0="fill(x0,y1-2,x1,y1,DROPDOWNBORDER)"  // bottom
+			{	
+				1="fill(x0,y1-2,x1,y1,DROPDOWNBORDER)"  // bottom
 			}
+
 
 		}
 		ComboBox:hover
