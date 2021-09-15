@@ -8,10 +8,11 @@
 	{
 		region { name=box margin-left=0 margin-right=0 }
 
-		place { region=box control="LabelLanguageCombo,LanguageCombo" y=0 margin-top=16 height=24 dir=down }
+		place { region=box control="LabelLanguageCombo" height=24 dir=down }
+		place { region=box control="LanguageCombo" start=LabelLanguageCombo dir=down height=24 width=300 }
 		place { region=box control="label1" start=LanguageCombo margin-top=8 height=48 width=500 dir=down }
-		place { region=box control="FavoriteWindowCombo" start=label1 dir=down height=24 width=310 }
-		place { region=box control="SkinCombo" dir=down height=24 width=310 }
+		place { region=box control="FavoriteWindowCombo" start=label1 dir=down height=24 width=300 }
+		place { region=box control="SkinCombo" dir=down height=24 width=300 }
 		place { control="TranslationLabel" width=0 height=0}
 		
 		place { start=LanguageCombo control="Label2" y=8 height=24 dir=down }
