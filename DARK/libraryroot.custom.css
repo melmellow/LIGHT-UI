@@ -5875,6 +5875,7 @@ div.NarrowRightPanel
   background: var(--BASE2) !important;
 }
 .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
+  margin-left:9px!important;
   font-weight: VAR(--POSTGAMESUMMARYFONTWEIGHT) !important;
   color: var(--ACCENT) !important;
 }
