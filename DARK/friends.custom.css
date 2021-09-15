@@ -12,7 +12,7 @@
   --BLUE: #1181d2;
   --GREEN: #54a448;
   --WHITE: #fff;
-  --TEXTENTRY: #e8e8e8;
+  --TEXTENTRY: var(--BASE2);
   --SHADOW: #d6d1d1;
   --BUTTON2BORDERRADIUS: 0;
   --BUTTON2BORDERWIDTH: 1px;
