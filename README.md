@@ -4,9 +4,9 @@
 
 ![LIGHT UI](https://i.imgur.com/QxdaBEX.png)
 
-![LIGHT UI](https://i.imgur.com/EWosKCv.png)
+![LIGHT UI](https://i.imgur.com/Mp39wfp.png)
 
-![LIGHT UI](https://i.imgur.com/7Em6kqJ.png)
+![LIGHT UI](https://i.imgur.com/EWosKCv.png)
 
 ![LIGHT UI](https://i.imgur.com/iTTOT3q.png)
 
