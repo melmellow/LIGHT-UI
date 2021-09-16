@@ -24,6 +24,8 @@ windows.styles
 		ComboBox
 		{
 			font-size=16
+			inset-left=5
+			inset-top=-2
 		}
 
 		PageTab
@@ -192,6 +194,7 @@ windows.styles
 		MenuItem
 		{
 			font-size=16
+			padding-left=4
 		}
 		
 		///////////////////////////////////////////////////////

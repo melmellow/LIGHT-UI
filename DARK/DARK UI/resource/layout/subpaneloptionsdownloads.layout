@@ -54,7 +54,7 @@
 		place { controls="Divider1,Divider2" width=0 height=0 }
 		//place { region=box start=Divider1 control=RegionLabel y=6 dir=down }
 		place { controls="RegionLabel" region=box y=0 dir=down}
-		place { controls="DownloadRegionCombo" region=box start=RegionLabel margin-top=10 height=25 width=255 dir=down }
+		place { controls="DownloadRegionCombo" region=box start=RegionLabel margin-top=10 height=29 width=255 dir=down }
 		place { controls="ManageInstalledApps" region=box start=DownloadRegionCombo margin-top=8 width=136 height=25 dir=down }
 		place { controls="RegionInfoLabel" region=box width=0 height=0}
 
@@ -62,9 +62,9 @@
 			place { controls="RestrictionsLabel" height=0 width=0 }
 		
 		place { controls="AutoUpdateTimeRestrictCheckbox" region=box start=ManageInstalledApps dir=down margin-top=8 }
-		place { controls="AutoUpdateTimeRestrictStart" region=box start=AutoUpdateTimeRestrictCheckbox dir=right width=78 }
+		place { controls="AutoUpdateTimeRestrictStart" region=box start=AutoUpdateTimeRestrictCheckbox dir=right width=78 height=29 }
 		place { controls="AutoUpdateTimeRestrictEndLabel" region=box start=AutoUpdateTimeRestrictStart dir=right margin-left=10 }
-		place { controls="AutoUpdateTimeRestrictEnd" region=box start=AutoUpdateTimeRestrictEndLabel dir=right margin-left=10 width=78 }
+		place { controls="AutoUpdateTimeRestrictEnd" region=box start=AutoUpdateTimeRestrictEndLabel dir=right margin-left=10 width=78 height=29 }
 		
 		place { controls="ThrottleCheckbox" region=box start=AutoUpdateTimeRestrictCheckbox dir=down margin-top=10 }
 		place { controls="ThrottleRateCurrent" start=ThrottleCheckbox dir=right width=235 height=25 }

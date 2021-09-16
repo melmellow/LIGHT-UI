@@ -67,7 +67,7 @@
     place { start=Pair control="Unpair,SetPIN" x=6 width=155 spacing=6 }
     
     place { region=box control="P2PScopeLabel" start=Pair y=8 dir=down width=max }
-    place { region=box control="P2PScope" start=P2PScopeLabel y=6 dir=down width=150 height=24 }
+    place { region=box control="P2PScope" start=P2PScopeLabel y=6 dir=down width=150 height=29 }
     place { region=box control="HostDivider" height=0 width=0 }
     place { control="HostLabel" width=0 height=0}
     place { region=box control="AdvancedHostOptions" y=6 dir=down start=P2PScope height=28 }
