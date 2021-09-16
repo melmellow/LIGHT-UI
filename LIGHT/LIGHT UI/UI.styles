@@ -244,8 +244,9 @@
 		CInstallAppWizard
 		{
 			bgcolor = BASE2
-		
-      minimum-width=496
+			minimum-height=370
+			maximum-height=370
+    	    minimum-width=496
 		}
 
 		CRegisterCDKeyWizard

@@ -233,6 +233,10 @@
 		{
 			minimum-width=200
 		}
+		InstallSubChooseApps
+		{
+			minimum-height=200
+		}
 	}
 	layout
 	{
@@ -247,5 +251,7 @@
 
 		place { start=DriveSpace control=DownloadTimeLabel height=24 dir=down end-right=DownloadTimeInfo }
 		place { start=DownloadTimeLabel control=DownloadTimeInfo height=24 margin-right=16 }
+		place{  control=installfolderlabel start=downloadtimelabel dir=down MARGIN-TOP=20 } 
+		place { control=InstallFolderCombo start=installfolderlabel dir=down height=29 MARGIN-TOP=4 }
 	}
 }
