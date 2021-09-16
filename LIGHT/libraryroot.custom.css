@@ -858,6 +858,12 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+
+div.NarrowWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3, div.ShortWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
+  background: linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(255,255,255,0) 35%, rgba(255,255,255,0) 100%)!important;
+}
+
+
 .downloads_SectionItem_1VNuY
   .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
   display: none !important;
